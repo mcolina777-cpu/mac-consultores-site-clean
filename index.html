@@ -1,308 +1,76 @@
 <!DOCTYPE html>
-
-<html class="light" lang="es"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@300;400;600;800&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                    "on-tertiary-fixed": "#2f1500",
-                    "tertiary-fixed": "#ffdcc3",
-                    "surface": "#f8faf9",
-                    "outline": "#70787b",
-                    "surface-dim": "#d8dada",
-                    "surface-container-highest": "#e1e3e3",
-                    "primary": "#00333c",
-                    "inverse-primary": "#96d0de",
-                    "on-secondary-fixed-variant": "#3e494b",
-                    "on-secondary-fixed": "#131d20",
-                    "background": "#f8faf9",
-                    "primary-fixed-dim": "#96d0de",
-                    "on-error": "#ffffff",
-                    "on-background": "#191c1c",
-                    "on-tertiary-container": "#dfa576",
-                    "secondary-container": "#d6e2e5",
-                    "on-primary-fixed": "#001f25",
-                    "error-container": "#ffdad6",
-                    "surface-variant": "#e1e3e3",
-                    "on-secondary-container": "#596467",
-                    "on-surface-variant": "#40484a",
-                    "on-primary": "#ffffff",
-                    "inverse-on-surface": "#eff1f1",
-                    "secondary": "#556063",
-                    "secondary-fixed": "#d9e4e8",
-                    "surface-container-high": "#e6e9e8",
-                    "tertiary-container": "#633a14",
-                    "surface-container-low": "#f2f4f4",
-                    "on-primary-fixed-variant": "#064e5a",
-                    "surface-tint": "#2a6673",
-                    "inverse-surface": "#2e3131",
-                    "on-primary-container": "#81bac8",
-                    "surface-container": "#eceeee",
-                    "on-surface": "#191c1c",
-                    "surface-bright": "#f8faf9",
-                    "surface-container-lowest": "#ffffff",
-                    "on-secondary": "#ffffff",
-                    "tertiary": "#482401",
-                    "secondary-fixed-dim": "#bdc8cc",
-                    "outline-variant": "#bfc8ca",
-                    "tertiary-fixed-dim": "#f7ba89",
-                    "on-tertiary-fixed-variant": "#663d17",
-                    "error": "#ba1a1a",
-                    "on-error-container": "#93000a",
-                    "on-tertiary": "#ffffff",
-                    "primary-container": "#004b57",
-                    "primary-fixed": "#b2ecfa"
-            },
-            "borderRadius": {
-                    "DEFAULT": "0.125rem",
-                    "lg": "0.25rem",
-                    "xl": "0.5rem",
-                    "full": "0.75rem"
-            },
-            "fontFamily": {
-                    "headline": ["Noto Serif"],
-                    "body": ["Manrope"],
-                    "label": ["Manrope"]
-            }
-          },
-        },
-      }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
-        }
-        .glass-nav {
-            backdrop-filter: blur(24px);
-            -webkit-backdrop-filter: blur(24px);
-        }
-        .hero-gradient {
-            background: linear-gradient(to right, rgba(25, 28, 28, 0.8) 0%, rgba(25, 28, 28, 0.4) 50%, rgba(25, 28, 28, 0) 100%);
-        }
-        .text-sheen {
-            background: linear-gradient(135deg, #00333c 0%, #004b57 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-    </style>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MAC Consultores Jurídicos & Asociados - Firma de abogados especializada en Derecho Penal Corporativo e Hidrocarburos.">
+    <title>MAC Consultores Jurídicos & Asociados</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
-<!-- TopNavBar -->
-<nav class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 md:px-12 py-6 max-w-full glass-nav bg-transparent dark:bg-slate-900/70">
-<div class="font-headline text-2xl font-bold text-teal-950 dark:text-teal-50 tracking-tight">
-            Mac Consultores
-        </div>
-<!-- Navigation Links -->
-<div class="hidden md:flex gap-8 items-center">
-<a class="font-body tracking-wide text-sm uppercase text-teal-900 dark:text-teal-400 border-b-2 border-teal-900 dark:border-teal-400 pb-1 hover:text-teal-600 dark:hover:text-teal-300 transition-colors duration-300" href="#">Our Firm</a>
-<a class="font-body tracking-wide text-sm uppercase text-slate-700 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-300 transition-colors duration-300" href="#">Services</a>
-<a class="font-body tracking-wide text-sm uppercase text-slate-700 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-300 transition-colors duration-300" href="#">The Team</a>
-<a class="font-body tracking-wide text-sm uppercase text-slate-700 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-300 transition-colors duration-300" href="#">Insights</a>
-<a class="font-body tracking-wide text-sm uppercase text-slate-700 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-300 transition-colors duration-300" href="#">Contact</a>
-</div>
-<button class="bg-primary text-on-primary px-6 py-2.5 rounded-lg text-sm font-semibold uppercase tracking-widest hover:opacity-90 transition-all active:scale-95">
-            Schedule Consultation
-        </button>
-</nav>
-<!-- Hero Section -->
-<section class="relative h-screen w-full flex items-center overflow-hidden">
-<div class="absolute inset-0 z-0">
-<img alt="image-1" class="w-full h-full object-cover" data-alt="ultra-modern law office interior with large glass windows, concrete walls, marble floors, and elegant teal designer furniture in soft natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjqQqcCykjIKKV8V000kjUErMbp2gzWWRScGZ2uv7INwPWi-kKnG17Gl1bS98borolQhV_EmROIM0dZtnv6Du5unVSBQL4NBGiZ3gcVL_-M7OKgEvyo5Yp9VZx2EXjnXIhfiJuL9t9OPNlpTJF7CMyIKkauE6Gs73u6hJilDd_VBx-B3LYAVi1c_8vCi1cgmaIbhzMt4zJc9_y4YEx_TheSUqedIJIROnsMVgbeSP1hke9BfmayaIf4G1BEtryOvMlG3Muwpg-Ui4"/>
-<div class="absolute inset-0 hero-gradient"></div>
-</div>
-<div class="relative z-10 px-6 md:px-24 max-w-4xl">
-<h1 class="font-headline text-5xl md:text-8xl text-white mb-6 leading-[1.1] tracking-tight">
-                Mac Consultores Jurídicos &amp; Asociados
-            </h1>
-<p class="text-white/80 text-xl md:text-2xl font-light mb-12 max-w-2xl leading-relaxed">
-                Arquitectos de soluciones legales de alta gama. Tradición, excelencia e integridad en un entorno contemporáneo.
-            </p>
-<div class="flex flex-col md:flex-row gap-6">
-<button class="bg-primary hover:bg-primary-container text-on-primary px-10 py-5 rounded-md font-semibold text-lg transition-all flex items-center justify-center gap-3">
-                    Solicitar Consulta
-                    <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
-</button>
-<button class="backdrop-blur-md bg-white/10 border border-white/20 text-white px-10 py-5 rounded-md font-semibold text-lg hover:bg-white/20 transition-all">
-                    Conocer la Firma
-                </button>
-</div>
-</div>
-</section>
-<!-- Nuestra Firma -->
-<section class="py-32 bg-surface">
-<div class="container mx-auto px-6 md:px-12 grid md:grid-cols-12 gap-16 items-center">
-<div class="md:col-span-5">
-<span class="text-primary font-bold tracking-widest uppercase text-sm mb-4 block">Nuestra Firma</span>
-<h2 class="font-headline text-4xl md:text-6xl text-on-surface mb-8 leading-tight">Excelencia en cada estructura legal.</h2>
-<p class="text-on-surface-variant text-lg leading-relaxed mb-6">
-                    Entendemos el derecho como una obra arquitectónica: requiere cimientos sólidos, una estructura impecable y una visión que trascienda el tiempo. En Mac Consultores, la integridad no es opcional, es la base de nuestra identidad.
-                </p>
-<p class="text-on-surface-variant text-lg leading-relaxed">
-                    Nuestra práctica se define por la precisión técnica y la calidez humana, brindando asesoría estratégica en los entornos más complejos del panorama jurídico actual.
-                </p>
-</div>
-<div class="md:col-span-7 flex justify-end">
-<div class="w-full h-[600px] bg-surface-container rounded-xl overflow-hidden relative">
-<img alt="image-2" class="w-full h-full object-cover" data-alt="close-up of a high-end fountain pen resting on a heavy marble desk with soft architectural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAniSpf10nCX86snmu53WjyczHusf0Rsv0JvlVc3rdYDmI_BZNuFBXzn5cvYU8Tbnsn07_Jfjk9-tWAPUfAruXIn2jwxOE746OD-UveBG4cqc3tcTXOZ4S-AlL1TPRbEzXbgkCh-EJ9XwlY49snlq9yV6TZrmnNgahHpLHKaZyJ1LFcsU-DanJ7QjXPQkNDWAQY7s4QJ8q7goXjugCmjDTsoaA7Fwob3O43c4hk3EVziV_KhL6x5jr4LBxo8d0yo9LIycmTXnzSSWI"/>
-<div class="absolute bottom-12 -left-12 bg-surface-container-lowest p-12 shadow-2xl max-w-md hidden md:block">
-<p class="font-headline text-2xl italic text-primary">"La justicia es la constante y perpetua voluntad de dar a cada uno su derecho."</p>
-<p class="mt-4 text-sm font-bold uppercase tracking-widest text-outline">— Ulpiano</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Servicios Especializados (Asymmetric Bento) -->
-<section class="py-32 bg-surface-container-low">
-<div class="container mx-auto px-6 md:px-12">
-<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
-<div class="max-w-2xl">
-<span class="text-primary font-bold tracking-widest uppercase text-sm mb-4 block">Práctica Legal</span>
-<h2 class="font-headline text-4xl md:text-6xl text-on-surface leading-tight">Servicios Especializados</h2>
-</div>
-<div class="md:w-1/3">
-<p class="text-on-surface-variant">Soluciones diseñadas a medida para corporaciones y particulares que exigen el más alto estándar de rigor jurídico.</p>
-</div>
-</div>
-<div class="grid md:grid-cols-3 gap-8">
-<!-- Service 1 -->
-<div class="bg-surface-container-lowest p-12 rounded-lg group hover:shadow-xl transition-all duration-500">
-<div class="w-16 h-16 bg-primary-container/10 flex items-center justify-center rounded-lg mb-8 group-hover:bg-primary transition-colors">
-<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-4xl" data-icon="business">business</span>
-</div>
-<h3 class="font-headline text-2xl mb-4">Derecho Corporativo</h3>
-<p class="text-on-surface-variant mb-8">Estructuración de negocios, fusiones, adquisiciones y cumplimiento normativo de alto nivel.</p>
-<a class="text-primary font-bold flex items-center gap-2 group/link" href="#">
-                        Explorar área
-                        <span class="material-symbols-outlined group-hover/link:translate-x-2 transition-transform" data-icon="trending_flat">trending_flat</span>
-</a>
-</div>
-<!-- Service 2 -->
-<div class="bg-surface-container-lowest p-12 rounded-lg group hover:shadow-xl transition-all duration-500">
-<div class="w-16 h-16 bg-primary-container/10 flex items-center justify-center rounded-lg mb-8 group-hover:bg-primary transition-colors">
-<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-4xl" data-icon="gavel">gavel</span>
-</div>
-<h3 class="font-headline text-2xl mb-4">Derecho Civil</h3>
-<p class="text-on-surface-variant mb-8">Protección patrimonial, contratos complejos y litigio estratégico de naturaleza civil y comercial.</p>
-<a class="text-primary font-bold flex items-center gap-2 group/link" href="#">
-                        Explorar área
-                        <span class="material-symbols-outlined group-hover/link:translate-x-2 transition-transform" data-icon="trending_flat">trending_flat</span>
-</a>
-</div>
-<!-- Service 3 -->
-<div class="bg-surface-container-lowest p-12 rounded-lg group hover:shadow-xl transition-all duration-500">
-<div class="w-16 h-16 bg-primary-container/10 flex items-center justify-center rounded-lg mb-8 group-hover:bg-primary transition-colors">
-<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-4xl" data-icon="groups">groups</span>
-</div>
-<h3 class="font-headline text-2xl mb-4">Derecho Laboral</h3>
-<p class="text-on-surface-variant mb-8">Asesoría preventiva y defensa en relaciones laborales individuales y colectivas para empresas.</p>
-<a class="text-primary font-bold flex items-center gap-2 group/link" href="#">
-                        Explorar área
-                        <span class="material-symbols-outlined group-hover/link:translate-x-2 transition-transform" data-icon="trending_flat">trending_flat</span>
-</a>
-</div>
-</div>
-</div>
-</section>
-<!-- Visión Arquitectónica -->
-<section class="py-32 bg-surface overflow-hidden">
-<div class="container mx-auto px-6 md:px-12">
-<div class="relative bg-primary p-12 md:p-24 rounded-lg flex flex-col md:flex-row items-center gap-16">
-<div class="absolute inset-0 opacity-10">
-<img alt="image-3" class="w-full h-full object-cover" data-alt="minimalist architectural abstract showing play of light and shadow on a smooth grey concrete surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjiaHWJTwQSYhc8KL8mNzB1rrf07am8p8QKLvgJ2xh2jLXewRQU0KMF4o46NToSC1LfzvL_nh5qdWxx_nvIbbJ08x3Xt2C5kdbW28AopB0jKAqXPgd8avBt_uE55y8IugKm-riP7fSFC2YPB2Qqvq10bz_jHP2lylqhV6qxPErCZyTi-UoFC8pdwl5P_GMUNxOfO2hUMJtBy4kgOYcpE-BOUci3h623fO8pEXnfNtJ2yUdcw0pq86FSzi5uijYpT0jvTlbBrK0TxQ"/>
-</div>
-<div class="relative z-10 md:w-1/2">
-<h2 class="font-headline text-4xl md:text-6xl text-white mb-8">Visión Arquitectónica del Derecho</h2>
-<p class="text-white/80 text-lg leading-relaxed mb-10">
-                        Nuestra oficina no es solo un espacio; es la manifestación física de nuestra filosofía. Creemos en la transparencia (cristal), la solidez (concreto) y el orden (estructura). Cada caso que tomamos es diseñado con la misma atención al detalle que un arquitecto dedica a un plano maestro.
-                    </p>
-<div class="flex items-center gap-4 text-white">
-<div class="w-12 h-0.5 bg-primary-fixed"></div>
-<span class="uppercase tracking-widest text-sm font-bold">Un nuevo estándar jurídico</span>
-</div>
-</div>
-<div class="relative z-10 md:w-1/2 grid grid-cols-2 gap-4">
-<div class="h-64 rounded-lg overflow-hidden translate-y-8">
-<img alt="image-4" class="w-full h-full object-cover" data-alt="modern skyscraper reflecting blue sky and clouds in its glass facade" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOO0gT6ijjyGkV_j4LB3q0umz9srvXQoqR4TFbsp_MMNCWUzwctIqa_gFHxC7eQSIfK1DOj2aO15uFfYqor9P5T3eMinhKXOAtxgt9gKuve-k5zs5krdTHqQ7uYuP_mz0GFV-c14GaaTINC7Niz5I8H71h2YhfHpaNVWrF_OByJ7K14l6OjtaviJLhvNB_nIJoxFay3UdUh67S6qQCDKXH_nQLORPZT1zq0XY_jzdrW5OyHqVh0kIHRMrk0xl54aMUTEiOQ6g2P2A"/>
-</div>
-<div class="h-64 rounded-lg overflow-hidden">
-<img alt="image-5" class="w-full h-full object-cover" data-alt="interior view of a luxury office lounge with a teal velvet chair and minimalist decor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUfzlkYQOPvpfnD1UQx15Li_LjnySeLQJW7dM_1x0gBOH6U4Csu-rK_RoL3SgskN0Fua_BmltvP1Ip7vRsSrCrPgHPQ1jEdbNhZut3sDCS8pyNbiz15H1nP6VwbVUachK6O7ETY5ITY_Wm8OqLvPV35uYPQlwFbSk6BCGzgWNz-owWW3BJ0sOtNd_Yq63yW_NoabLydqMcXQIH1jDNaR6JUMz6fTnq8zcHOGzNRWQ8PsFgImlXyBscbvuzsGg3N17G4O9dMAd9DoQ"/>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Case Study Scroller -->
-<section class="py-32 bg-surface overflow-x-hidden">
-<div class="container mx-auto px-6 md:px-12 mb-12">
-<h2 class="font-headline text-3xl mb-2">Casos Destacados</h2>
-<p class="text-on-surface-variant">La evidencia de nuestra metodología arquitectónica.</p>
-</div>
-<div class="flex gap-8 overflow-x-auto pb-12 px-6 md:px-12 no-scrollbar">
-<div class="min-w-[400px] h-[500px] bg-surface-container-lowest rounded-lg overflow-hidden flex flex-col group cursor-pointer shadow-sm hover:shadow-xl transition-all">
-<div class="h-3/5 overflow-hidden">
-<img alt="image-6" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="wide shot of a modern industrial complex at dusk with sleek metal and glass architecture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCM_12ZReTwaDtOJHOi0wiY8-CX0h5acBQEItpI2YnmU4V6WoDLx6vJAoUZ-Lx9nyDqQj6dI9gOeNQ2nTJlviEJ5urTthq1ZWgt5RKPOODHra4bPjqxuur7YIx4rHYFrqXslehT-WgsJnYHC9ThOVE_eEH3uOtERdVmiklF9HmHgq3DkgiJ5eSM4pA2-D_BRdkAF6VU_u4JwK7E1_DFGECZ3ahi6X6IvnxDEldn8wfHxon7hEb34jZygaf-LgtRXwrFD_fL92sKQoI"/>
-</div>
-<div class="p-8 flex-grow flex flex-col justify-between">
-<div>
-<span class="text-xs font-bold uppercase tracking-widest text-primary mb-2 block">Corporativo</span>
-<h4 class="font-headline text-xl mb-2">Reestructuración Global Tech</h4>
-<p class="text-sm text-on-surface-variant">Blindaje legal para expansión en 14 mercados internacionales.</p>
-</div>
-<span class="material-symbols-outlined text-primary self-end" data-icon="north_east">north_east</span>
-</div>
-</div>
-<div class="min-w-[400px] h-[500px] bg-surface-container-lowest rounded-lg overflow-hidden flex flex-col group cursor-pointer shadow-sm hover:shadow-xl transition-all">
-<div class="h-3/5 overflow-hidden">
-<img alt="image-7" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="architectural close up of a geometric building with strong vertical lines" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAYX_02tZfRiXY45URf0ANb_M5KxgYiPk74cRrMA0iZpVdA-m90aePiKy2YzdHIyQWaXMbk4fHgX0YJq2bZK2xw6FKQvY9L9_a92QBe6h7qCXAJTrI_9m5eyBADyh-S2TfDLUNsRTQBl3EOVQ-Dp-A3tP2M7L83AizbVludHoSy_q5DfVAiUWtVzarWRLC12OUlkxHEu76_MJLeGQafAk6bXB3TMRbkrAqkvCHEmE1SSUbFLImaC-A2LVSHW6WVAGjdmt8n1jzZf0"/>
-</div>
-<div class="p-8 flex-grow flex flex-col justify-between">
-<div>
-<span class="text-xs font-bold uppercase tracking-widest text-primary mb-2 block">Litigio</span>
-<h4 class="font-headline text-xl mb-2">Defensa Patrimonial Grupo M</h4>
-<p class="text-sm text-on-surface-variant">Resolución exitosa de conflicto sucesorio de alta complejidad.</p>
-</div>
-<span class="material-symbols-outlined text-primary self-end" data-icon="north_east">north_east</span>
-</div>
-</div>
-<div class="min-w-[400px] h-[500px] bg-surface-container-lowest rounded-lg overflow-hidden flex flex-col group cursor-pointer shadow-sm hover:shadow-xl transition-all">
-<div class="h-3/5 overflow-hidden">
-<img alt="image-8" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="interior of a modern high-ceiling boardroom with minimalist wooden table and grey chairs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVUYcyGWo_DRWDfvCkth8Wu9-XrkvPjdarAR1W9axh-t5ZP7vQe1roodRfg0hIvdzKUDYV2__UQMGUuRFJCDhs6NbAN28wWzsI3Ggw7nA5760kHG2xifU9x0hmDv70tlh-JnWOQbYgM2fmOweqnRPMVqNQ5RnxCkaEXOxUE0ZHosizvi7epxeuF-FuY8Cz6z6-InPTgzogTAczWuk7bn6Noo4BVJm1Ib-KvVkGIvOWKHzXanO81WfRKO4pYtKFp6oTZsjIC3-DyLk"/>
-</div>
-<div class="p-8 flex-grow flex flex-col justify-between">
-<div>
-<span class="text-xs font-bold uppercase tracking-widest text-primary mb-2 block">Financiero</span>
-<h4 class="font-headline text-xl mb-2">Fondo de Inversión Zenith</h4>
-<p class="text-sm text-on-surface-variant">Diseño de vehículo financiero para proyectos de infraestructura.</p>
-</div>
-<span class="material-symbols-outlined text-primary self-end" data-icon="north_east">north_east</span>
-</div>
-</div>
-</div>
-</section>
-<!-- Footer -->
-<footer class="w-full px-6 md:px-12 py-16 flex flex-col md:flex-row justify-between items-center bg-slate-50 dark:bg-slate-950 border-t border-slate-200/10">
-<div class="flex flex-col items-center md:items-start gap-4 mb-8 md:mb-0">
-<div class="font-headline text-lg font-semibold text-teal-950 dark:text-teal-50">
-                Mac Consultores Jurídicos &amp; Asociados
+<body>
+    <div class="container">
+        <header class="reveal">
+            <h1>MAC CONSULTORES JURÍDICOS & ASOCIADOS</h1>
+            <p class="ceo-line">Socio Fundador & CEO: Marco Antonio Colina Garrido</p>
+        </header>
+
+        <main>
+            <section class="intro-text reveal">
+                <p>Esta plataforma opera bajo los estándares de rigor de la firma, aplicando el <strong>Protocolo de Resiliencia Informativa</strong> con apoyo de <strong>Antigravity</strong>. Garantizamos el acceso a data jurídica fidedigna mediante repositorios espejo y bibliotecas internacionales frente a las restricciones del contexto venezolano.</p>
+            </section>
+
+            <div class="practice-areas reveal">
+                <div class="area-card">
+                    <h3>Derecho Penal Corporativo</h3>
+                    <p>Defensa técnica y asesoría estratégica para empresas frente a riesgos regulatorios y cumplimiento normativo de alta complejidad.</p>
+                </div>
+                <div class="area-card">
+                    <h3>Hidrocarburos y Energía</h3>
+                    <p>Asesoría legal especializada en la industria petrolera, adaptándonos a las reformas legislativas de 2026 y estándares internacionales.</p>
+                </div>
+                <div class="area-card">
+                    <h3>Compliance</h3>
+                    <p>Implementación de protocolos internos de integridad corporativa para garantizar la transparencia operativa bajo marcos globales.</p>
+                </div>
+                <div class="area-card">
+                    <h3>Trámites Consulares</h3>
+                    <p>Gestión estratégica de documentos y soluciones legales internacionales diseñadas para la diáspora venezolana.</p>
+                </div>
             </div>
-<p class="font-body text-xs tracking-tight text-slate-500 dark:text-slate-400">
-                © 2024 Mac Consultores Jurídicos &amp; Asociados. All rights reserved.
-            </p>
-</div>
-<div class="flex gap-8">
-<a class="font-body text-xs tracking-tight text-slate-500 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-200 transition-colors" href="#">Privacy Policy</a>
-<a class="font-body text-xs tracking-tight text-slate-500 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-200 transition-colors" href="#">Terms of Service</a>
-<a class="font-body text-xs tracking-tight text-slate-500 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-200 transition-colors" href="#">Legal Disclaimer</a>
-<a class="font-body text-xs tracking-tight text-slate-500 dark:text-slate-400 hover:text-teal-700 dark:hover:text-teal-200 transition-colors" href="#">Careers</a>
-</div>
-</footer>
-</body></html>
+
+            <section class="resiliencia reveal">
+                <span class="note-header">Protocolo de Resiliencia Informativa</span>
+                <p>Queda terminantemente prohibido el uso del TSJ (Venezuela) y Scribd como fuentes de consulta. Verificación de integridad cruzada con OEA, ONU y CIDH activa. Data blindada contra restricciones contextuales.</p>
+                <div class="note-footer">
+                    <span>Estatus: Integridad Verificada</span>
+                    <span>Temperatura Operativa: 24°C</span>
+                </div>
+            </section>
+        </main>
+
+        <footer class="reveal" style="margin-top: 120px; opacity: 0.3; font-size: 0.75rem; letter-spacing: 3px; text-transform: uppercase;">
+            <p>&copy; 2026 MAC CONSULTORES JURÍDICOS & ASOCIADOS | CARACAS - INTERNATIONAL</p>
+        </footer>
+    </div>
+
+    <script>
+        // Apple-style smooth scroll reveal
+        const revealElements = document.querySelectorAll('.reveal');
+        
+        const revealOnScroll = () => {
+            revealElements.forEach(el => {
+                const elementTop = el.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                if (elementTop < windowHeight - 100) {
+                    el.classList.add('active');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', revealOnScroll);
+        window.addEventListener('load', () => {
+            setTimeout(revealOnScroll, 100);
+        });
+    </script>
+</body>
+</html>
