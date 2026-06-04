@@ -19,7 +19,9 @@ const PAGE_TRANSLATION_MAP = {
   'privacidad.html': 'contacto.json',
   'blog.html': 'blog.json',
   'noticias.html': 'blog.json',
-  'blog-criminalidad-economica.html': 'blog.json'
+  'blog-criminalidad-economica.html': 'blog.json',
+  'blog-amparo-garantia-vital.html': 'blog.json',
+  'blog-regimen-poderes-cpc-copp.html': 'blog.json'
 };
 
 // Diccionario de caché de traducciones en memoria para evitar fetch repetidos
@@ -48,7 +50,7 @@ function getCurrentPageName() {
 async function loadTranslations(lang) {
   try {
     // 1. Cargar el vocabulario común (navbar, footer, general)
-    const commonRes = await fetch('/common.json');
+    const commonRes = await fetch('common.json');
     if (!commonRes.ok) throw new Error('No se pudo cargar common.json');
     const commonData = await commonRes.json();
     const commonLangData = commonData[lang] || {};
@@ -59,7 +61,7 @@ async function loadTranslations(lang) {
     let specificLangData = {};
 
     if (specificJson) {
-      const specificRes = await fetch(`/${specificJson}`);
+      const specificRes = await fetch(specificJson);
       if (specificRes.ok) {
         const specificData = await specificRes.json();
         specificLangData = specificData[lang] || {};
@@ -138,6 +140,10 @@ function translateDOM() {
     document.title = currentTranslations.noticias.title;
   } else if (currentTranslations.articulo_crimen && currentTranslations.articulo_crimen.title && getCurrentPageName() === 'blog-criminalidad-economica.html') {
     document.title = currentTranslations.articulo_crimen.title;
+  } else if (currentTranslations.articulo_amparo && currentTranslations.articulo_amparo.title && getCurrentPageName() === 'blog-amparo-garantia-vital.html') {
+    document.title = currentTranslations.articulo_amparo.title;
+  } else if (currentTranslations.articulo_poderes && currentTranslations.articulo_poderes.title && getCurrentPageName() === 'blog-regimen-poderes-cpc-copp.html') {
+    document.title = currentTranslations.articulo_poderes.title;
   } else if (currentTranslations.socios && currentTranslations.socios.title && getCurrentPageName() === 'socios-colaboradores.html') {
     document.title = currentTranslations.socios.title;
   }
