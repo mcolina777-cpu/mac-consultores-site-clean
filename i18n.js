@@ -50,7 +50,7 @@ function getCurrentPageName() {
 async function loadTranslations(lang) {
   try {
     // 1. Cargar el vocabulario común (navbar, footer, general)
-    const commonRes = await fetch('common.json');
+    const commonRes = await fetch('common.json?v=2');
     if (!commonRes.ok) throw new Error('No se pudo cargar common.json');
     const commonData = await commonRes.json();
     const commonLangData = commonData[lang] || {};
@@ -61,7 +61,7 @@ async function loadTranslations(lang) {
     let specificLangData = {};
 
     if (specificJson) {
-      const specificRes = await fetch(specificJson);
+      const specificRes = await fetch(`${specificJson}?v=2`);
       if (specificRes.ok) {
         const specificData = await specificRes.json();
         specificLangData = specificData[lang] || {};
