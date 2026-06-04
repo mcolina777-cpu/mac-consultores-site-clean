@@ -122,6 +122,7 @@ class I18nManager {
         }
         
         // Ejecutar traducción en el DOM y actualizar meta título
+        console.log("DEBUG langData:", langData);
         this.translateDOM(langData);
         this.updateDocumentTitle(langData, routeInfo.key);
     }
