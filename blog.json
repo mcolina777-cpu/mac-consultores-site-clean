@@ -8,17 +8,29 @@
       "article_1": {
         "tag": "Análisis Penal",
         "title": "Evolución de la Criminalidad Económica",
-        "desc": "Un análisis estratégico sobre cómo han evolucionado los delitos económicos y por qué representan hoy uno de los mayores riesgos penales y reputacionales para las empresas."
+        "desc": "Un análisis estratégico sobre cómo han evolucionado los delitos económicos y por qué representan hoy uno de los mayores riesgos penales y reputacionales para las empresas.",
+        "meta": {
+          "title": "Evolución de la Criminalidad Económica"
+        }
       },
       "article_2": {
         "tag": "Constitucional",
         "title": "El Amparo como Garantía Vital",
-        "desc": "Reflexiones sobre la eficacia de la tutela constitucional en el entorno procesal contemporáneo y la protección de derechos fundamentales."
+        "desc": "Reflexiones sobre la eficacia de la tutela constitucional en el entorno procesal contemporáneo y la protección de derechos fundamentales.",
+        "meta": {
+          "title": "El Amparo como Garantía Vital"
+        }
       },
       "article_3": {
         "tag": "Procesal Penal",
         "title": "Régimen de Poderes en CPC y COPP",
-        "desc": "Análisis sobre las exigencias técnicas y prácticas de la representación judicial en materia penal versus la civil, especialmente para víctimas corporativas."
+        "desc": "Análisis sobre las exigencias técnicas y prácticas de la representación judicial en materia penal versus la civil, especialmente para víctimas corporativas.",
+        "meta": {
+          "title": "Régimen de Poderes en CPC y COPP"
+        }
+      },
+      "meta": {
+        "title": "Blog Jurídico | Mac Consultores Jurídicos & Asociados"
       }
     },
     "noticias": {
@@ -29,24 +41,39 @@
       "news_1": {
         "tag": "Legislación",
         "title": "Nuevas Reformas en Materia Penal",
-        "desc": "El Ejecutivo Nacional anunció modificaciones sustanciales al Código Orgánico Procesal Penal que impactan directamente en los procedimientos de investigación y las medidas cautelares aplicables."
+        "desc": "El Ejecutivo Nacional anunció modificaciones sustanciales al Código Orgánico Procesal Penal que impactan directamente en los procedimientos de investigación y las medidas cautelares aplicables.",
+        "meta": {
+          "title": "Nuevas Reformas en Materia Penal"
+        }
       },
       "news_2": {
         "tag": "Institucional",
         "title": "Nuevo Convenio Internacional",
-        "desc": "Mac Consultores firma acuerdo de colaboración estratégica con firma asociada en Madrid para la atención de casos transfronterizos de alta complejidad."
+        "desc": "Mac Consultores firma acuerdo de colaboración estratégica con firma asociada en Madrid para la atención de casos transfronterizos de alta complejidad.",
+        "meta": {
+          "title": "Nuevo Convenio Internacional"
+        }
       },
       "news_3": {
         "tag": "Jurisprudencia",
         "title": "Sentencia Vinculante TSJ",
-        "desc": "La Sala Constitucional establece nuevos criterios sobre la aplicación del principio de presunción de inocencia en procesos por delitos económicos y financieros."
+        "desc": "La Sala Constitucional establece nuevos criterios sobre la aplicación del principio de presunción de inocencia en procesos por delitos económicos y financieros.",
+        "meta": {
+          "title": "Sentencia Vinculante TSJ"
+        }
+      },
+      "meta": {
+        "title": "Noticias & Actualidad | Mac Consultores Jurídicos & Asociados"
       }
     },
     "articulo_crimen": {
       "title": "Análisis Penal: Evolución de la Criminalidad Económica | Mac Consultores Jurídicos & Asociados",
       "breadcrumb": "<a href=\"blog.html\">Blog</a> / Análisis Penal",
       "h1": "Análisis Penal: Evolución de la Criminalidad Económica",
-      "meta": "Categoría: Análisis Penal",
+      "meta": {
+        "category": "Categoría: Análisis Penal",
+        "title": "Análisis Penal: Evolución de la Criminalidad Económica | Mac Consultores Jurídicos & Asociados"
+      },
       "p1": "El entorno empresarial contemporáneo es un ecosistema dinámico y sofisticado. Hoy en día, los mayores riesgos para el patrimonio y la reputación de una organización no se materializan a través de la violencia física, sino que se ocultan en balances financieros alterados, transferencias transfronterizas opacas y estructuras societarias complejas. En este escenario, comprender cómo ha mutado el delito financiero no es un mero ejercicio académico, sino una necesidad imperativa de supervivencia corporativa.",
       "h2_1": "Introducción: Contexto y relevancia actual",
       "p2_1": "Cuando hablamos de “criminalidad económica”, nos referimos a una categoría dogmática y criminológica autónoma, profundamente diferenciada de la delincuencia patrimonial clásica (como el hurto, el robo o la estafa simple). Mientras que el delito patrimonial tradicional ataca bienes jurídicos individuales (la propiedad de una persona), el Derecho Penal Económico se encarga de tutelar bienes jurídicos supraindividuales o colectivos: el correcto funcionamiento del mercado, la integridad del sistema financiero, la libre competencia y los intereses socioeconómicos del Estado.",
@@ -87,7 +114,10 @@
       "title": "Constitucional: El Amparo como Garantía Vital | Mac Consultores Jurídicos & Asociados",
       "breadcrumb": "<a href=\"blog.html\">Blog</a> / Constitucional",
       "h1": "Constitucional: El Amparo como Garantía Vital",
-      "meta": "Categoría: Constitucional",
+      "meta": {
+        "category": "Categoría: Constitucional",
+        "title": "Constitucional: El Amparo como Garantía Vital | Mac Consultores Jurídicos & Asociados"
+      },
       "p1": "En el contexto del Derecho Penal corporativo, el amparo constitucional representa la última y más contundente línea de defensa frente a actuaciones arbitrarias o desproporcionadas del Estado que amenacen la continuidad operativa de una empresa o la libertad de sus directivos.",
       "h2_1": "El amparo en el entorno procesal contemporáneo",
       "p2_1": "Una empresa bajo investigación por presuntos delitos tributarios ve bloqueadas la totalidad de sus cuentas bancarias, incluyendo aquellas destinadas a pagar nómina y obligaciones tributarias corrientes. La medida, dictada sin audiencia previa, amenaza la continuidad del negocio y los derechos de terceros no investigados. El amparo, solicitando el levantamiento parcial de la medida, permite restablecer la proporcionalidad.",
@@ -126,7 +156,10 @@
       "title": "Procesal Penal: El Régimen de Poderes en el CPC y el COPP | Mac Consultores Jurídicos & Asociados",
       "breadcrumb": "<a href=\"blog.html\">Blog</a> / Procesal Penal",
       "h1": "Procesal Penal: El Régimen de Poderes en el CPC y el COPP venezolano",
-      "meta": "Categoría: Procesal Penal",
+      "meta": {
+        "category": "Categoría: Procesal Penal",
+        "title": "Procesal Penal: El Régimen de Poderes en el CPC y el COPP | Mac Consultores Jurídicos & Asociados"
+      },
       "p1": "Actos procesales habilitados y acusación privada: Con poder especialmente otorgado, el apoderado de la víctima puede acceder al expediente de investigación, solicitar la práctica de diligencias, asistir a audiencias, ejercer el derecho a réplica y, en los delitos de acción privada, formular querella o acusación en nombre de su representado.",
       "h2_1": "Exigencia del Artículo 406 COPP",
       "p2_1": "El artículo 406 del COPP va más allá: exige que la acusación privada identifique con precisión al acusado —nombre, apellidos, datos de identificación— y describa el hecho punible de manera clara y circunstanciada.",
@@ -171,17 +204,29 @@
       "article_1": {
         "tag": "Criminal Analysis",
         "title": "Evolution of Economic Crime",
-        "desc": "A strategic analysis on how economic crimes have evolved and why they represent today one of the greatest criminal and reputational risks for companies."
+        "desc": "A strategic analysis on how economic crimes have evolved and why they represent today one of the greatest criminal and reputational risks for companies.",
+        "meta": {
+          "title": "Evolution of Economic Crime"
+        }
       },
       "article_2": {
         "tag": "Constitutional",
         "title": "Amparo as a Vital Guarantee",
-        "desc": "Reflections on the effectiveness of constitutional protection in the contemporary procedural environment and the protection of fundamental rights."
+        "desc": "Reflections on the effectiveness of constitutional protection in the contemporary procedural environment and the protection of fundamental rights.",
+        "meta": {
+          "title": "Amparo as a Vital Guarantee"
+        }
       },
       "article_3": {
         "tag": "Criminal Procedural",
         "title": "Powers Regime in CPC and COPP",
-        "desc": "Analysis on the technical and practical requirements of legal representation in criminal versus civil matters, especially for corporate victims."
+        "desc": "Analysis on the technical and practical requirements of legal representation in criminal versus civil matters, especially for corporate victims.",
+        "meta": {
+          "title": "Powers Regime in CPC and COPP"
+        }
+      },
+      "meta": {
+        "title": "Legal Blog | Mac Consultores Jurídicos & Asociados"
       }
     },
     "noticias": {
@@ -192,24 +237,39 @@
       "news_1": {
         "tag": "Legislation",
         "title": "New Reforms in Criminal Matters",
-        "desc": "The National Executive announced substantial modifications to the Organic Criminal Procedural Code that directly impact investigative procedures and applicable precautionary measures."
+        "desc": "The National Executive announced substantial modifications to the Organic Criminal Procedural Code that directly impact investigative procedures and applicable precautionary measures.",
+        "meta": {
+          "title": "New Reforms in Criminal Matters"
+        }
       },
       "news_2": {
         "tag": "Institutional",
         "title": "New International Agreement",
-        "desc": "Mac Consultores signs strategic collaboration agreement with associated firm in Madrid to handle highly complex cross-border cases."
+        "desc": "Mac Consultores signs strategic collaboration agreement with associated firm in Madrid to handle highly complex cross-border cases.",
+        "meta": {
+          "title": "New International Agreement"
+        }
       },
       "news_3": {
         "tag": "Jurisprudence",
         "title": "TSJ Binding Ruling",
-        "desc": "The Constitutional Chamber establishes new criteria on the application of the presumption of innocence principle in proceedings for economic and financial crimes."
+        "desc": "The Constitutional Chamber establishes new criteria on the application of the presumption of innocence principle in proceedings for economic and financial crimes.",
+        "meta": {
+          "title": "TSJ Binding Ruling"
+        }
+      },
+      "meta": {
+        "title": "News & Current Affairs | Mac Consultores Jurídicos & Asociados"
       }
     },
     "articulo_crimen": {
       "title": "Criminal Analysis: Evolution of Economic Crime | Mac Consultores Jurídicos & Asociados",
       "breadcrumb": "<a href=\"blog.html\">Blog</a> / Criminal Analysis",
       "h1": "Criminal Analysis: Evolution of Economic Crime",
-      "meta": "Category: Criminal Analysis",
+      "meta": {
+        "category": "Category: Criminal Analysis",
+        "title": "Criminal Analysis: Evolution of Economic Crime | Mac Consultores Jurídicos & Asociados"
+      },
       "p1": "The contemporary business environment is a dynamic and sophisticated ecosystem. Today, the greatest risks to an organization's assets and reputation do not materialize through physical violence, but are hidden in altered financial statements, opaque cross-border transfers, and complex corporate structures. In this scenario, understanding how financial crime has mutated is not a mere academic exercise, but an imperative necessity for corporate survival.",
       "h2_1": "Introduction: Context and Current Relevance",
       "p2_1": "When we speak of “economic criminality,” we refer to an autonomous dogmatic and criminological category, deeply differentiated from classic property crime (such as theft, robbery, or simple fraud). While traditional property crime attacks individual legal assets (a person's property), Economic Criminal Law is responsible for protecting supra-individual or collective legal assets: the correct functioning of the market, the integrity of the financial system, free competition, and the socio-economic interests of the State.",
@@ -250,7 +310,10 @@
       "title": "Constitutional: Amparo as a Vital Guarantee | Mac Consultores",
       "breadcrumb": "<a href=\"blog.html\">Blog</a> / Constitutional",
       "h1": "Constitutional: Amparo as a Vital Guarantee",
-      "meta": "Category: Constitutional",
+      "meta": {
+        "category": "Category: Constitutional",
+        "title": "Constitutional: Amparo as a Vital Guarantee | Mac Consultores"
+      },
       "p1": "In the context of corporate Criminal Law, constitutional amparo represents the last and most forceful line of defense against arbitrary or disproportionate State actions that threaten a company's operational continuity or its executives' freedom.",
       "h2_1": "I. Amparo in the contemporary procedural environment",
       "p2_1": "A company under investigation for alleged tax crimes has all its bank accounts blocked, including those intended for payroll and current tax obligations. The measure, issued without a prior hearing, threatens business continuity and the rights of uninvestigated third parties. The amparo, requesting the partial lifting of the measure, restores proportionality.",
@@ -288,7 +351,10 @@
       "title": "Criminal Procedural: Powers Regime in CPC and COPP | Mac Consultores",
       "breadcrumb": "<a href=\"blog.html\">Blog</a> / Criminal Procedural",
       "h1": "Criminal Procedural: Powers Regime in CPC and COPP",
-      "meta": "Category: Criminal Procedural",
+      "meta": {
+        "category": "Category: Criminal Procedural",
+        "title": "Criminal Procedural: Powers Regime in CPC and COPP | Mac Consultores"
+      },
       "p1": "Enabled procedural acts and private accusation: With specially granted power, the victim's proxy can access the investigation file, request the practice of procedures, attend hearings, exercise the right of reply and, in private action crimes, file a complaint or accusation on behalf of their represented party.",
       "h2_1": "I. Requirement of Article 406 COPP",
       "p2_1": "Article 406 of the COPP goes further: it requires the private accusation to accurately identify the accused—name, surname, identification data—and describe the punishable act clearly and circumstantially.",

@@ -92,21 +92,21 @@ async function loadPage(url, pushToHistory = true) {
       }
 
       // 8. Re-traducir la nueva página cargada para mantener la preferencia de idioma
-      if (window.initI18n) {
-        window.initI18n();
+      if (window.onRouteChange) {
+        window.onRouteChange();
       }
     };
+
+    // Actualizar historial ANTES de performSwap para que window.location sea correcto en onRouteChange
+    if (pushToHistory) {
+      history.pushState(null, '', url);
+    }
 
     // Aplicar View Transition si el navegador lo soporta
     if (document.startViewTransition) {
       document.startViewTransition(performSwap);
     } else {
       performSwap();
-    }
-
-    // Actualizar historial si corresponde
-    if (pushToHistory) {
-      history.pushState(null, '', url);
     }
 
     // Desplazar al inicio de la página tras la navegación

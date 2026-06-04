@@ -16,7 +16,10 @@
           "Recursos de Casación y Apelación",
           "Criminalidad Corporativa",
           "Legitimación de Capitales"
-        ]
+        ],
+        "meta": {
+          "title": "Derecho Penal y Procesal Penal"
+        }
       },
       "card_2": {
         "title": "Derecho Constitucional",
@@ -26,7 +29,10 @@
           "Hábeas Corpus y Hábeas Data",
           "Control de Convencionalidad",
           "Consultoría en Interpretación Normativa"
-        ]
+        ],
+        "meta": {
+          "title": "Derecho Constitucional"
+        }
       },
       "card_3": {
         "title": "Delitos Informáticos y Evidencia Digital",
@@ -36,7 +42,10 @@
           "Gestión de Fraude y Sabotaje Digital",
           "Auditoría Jurídica de Evidencia",
           "Protección de Privacidad de Datos"
-        ]
+        ],
+        "meta": {
+          "title": "Delitos Informáticos y Evidencia Digital"
+        }
       },
       "card_4": {
         "title": "Consultoría Jurídica Preventiva",
@@ -46,13 +55,22 @@
           "Gestión de Riesgo Legal",
           "Estructuración Contractual Compleja",
           "Asesoría en Gobernanza Corporativa"
-        ]
+        ],
+        "meta": {
+          "title": "Consultoría Jurídica Preventiva"
+        }
       }
     },
     "cta": {
       "title": "¿Requiere una evaluación estratégica de su situación legal?",
       "desc": "Nuestro equipo de expertos está preparado para analizar su caso con el rigor técnico que merece.",
-      "btn": "INICIAR CONSULTA PRIVADA"
+      "btn": "INICIAR CONSULTA PRIVADA",
+      "meta": {
+        "title": "¿Requiere una evaluación estratégica de su situación legal?"
+      }
+    },
+    "meta": {
+      "title": "Servicios Jurídicos | Mac Consultores Jurídicos & Asociados"
     }
   },
   "en": {
@@ -72,7 +90,10 @@
           "Cassation and Appeal Remedies",
           "Corporate Criminal Liability",
           "Money Laundering"
-        ]
+        ],
+        "meta": {
+          "title": "Criminal and Procedural Criminal Law"
+        }
       },
       "card_2": {
         "title": "Constitutional Law",
@@ -82,7 +103,10 @@
           "Habeas Corpus & Habeas Data",
           "Conventionality Control",
           "Normative Interpretation Consultancy"
-        ]
+        ],
+        "meta": {
+          "title": "Constitutional Law"
+        }
       },
       "card_3": {
         "title": "Cybercrimes and Digital Evidence",
@@ -92,7 +116,10 @@
           "Fraud Management & Digital Sabotage",
           "Legal Audit of Evidence",
           "Data Privacy Protection"
-        ]
+        ],
+        "meta": {
+          "title": "Cybercrimes and Digital Evidence"
+        }
       },
       "card_4": {
         "title": "Preventive Legal Consulting",
@@ -102,13 +129,22 @@
           "Legal Risk Management",
           "Complex Contractual Structuring",
           "Corporate Governance Advisory"
-        ]
+        ],
+        "meta": {
+          "title": "Preventive Legal Consulting"
+        }
       }
     },
     "cta": {
       "title": "Do you require a strategic assessment of your legal situation?",
       "desc": "Our team of experts is prepared to analyze your case with the technical rigor it deserves.",
-      "btn": "START PRIVATE CONSULTATION"
+      "btn": "START PRIVATE CONSULTATION",
+      "meta": {
+        "title": "Do you require a strategic assessment of your legal situation?"
+      }
+    },
+    "meta": {
+      "title": "Legal Services | Mac Consultores Jurídicos & Asociados"
     }
   }
 }

@@ -8,28 +8,46 @@
         "tag": "Nuestra Historia",
         "title": "Una trayectoria definida por el rigor y la integridad.",
         "desc_1": "Mac Consultores Jurídicos & Asociados es una firma boutique con sede en Caracas, concebida para ofrecer soluciones legales de alta complejidad. Nuestra estructura se fundamenta en la excelencia técnica y el compromiso ético, brindando una defensa especializada y una asesoría estratégica que trasciende la práctica legal tradicional.",
-        "desc_2": "Entendemos que cada caso es único y requiere una arquitectura de solución propia. Por ello, integramos la experiencia forense con el respaldo académico de más de dos décadas de ejercicio profesional."
+        "desc_2": "Entendemos que cada caso es único y requiere una arquitectura de solución propia. Por ello, integramos la experiencia forense con el respaldo académico de más de dos décadas de ejercicio profesional.",
+        "meta": {
+          "title": "Una trayectoria definida por el rigor y la integridad."
+        }
       },
       "values": {
         "tag": "Valores Institucionales",
         "title": "Nuestros Pilares",
         "card_1": {
           "title": "Visión Estratégica",
-          "desc": "No solo reaccionamos ante el conflicto; construimos blindajes preventivos y anticipamos riesgos para proteger los intereses de nuestros clientes."
+          "desc": "No solo reaccionamos ante el conflicto; construimos blindajes preventivos y anticipamos riesgos para proteger los intereses de nuestros clientes.",
+          "meta": {
+            "title": "Visión Estratégica"
+          }
         },
         "card_2": {
           "title": "Rigor Técnico",
-          "desc": "Cada actuación está sustentada en un profundo dominio dogmático y un análisis exhaustivo de la realidad jurídica contemporánea."
+          "desc": "Cada actuación está sustentada en un profundo dominio dogmático y un análisis exhaustivo de la realidad jurídica contemporánea.",
+          "meta": {
+            "title": "Rigor Técnico"
+          }
         },
         "card_3": {
           "title": "Reserva Profesional",
-          "desc": "La discreción y la confidencialidad son la base de nuestra relación con el cliente, garantizando un entorno de máxima confianza."
+          "desc": "La discreción y la confidencialidad son la base de nuestra relación con el cliente, garantizando un entorno de máxima confianza.",
+          "meta": {
+            "title": "Reserva Profesional"
+          }
+        },
+        "meta": {
+          "title": "Nuestros Pilares"
         }
       },
       "mission": {
         "quote": "\"Nuestra misión es transformar desafíos legales en escenarios de seguridad y crecimiento.\"",
         "desc": "Buscamos ser el referente de excelencia en el mercado jurídico venezolano, destacando por nuestra capacidad de resolver asuntos de alta sensibilidad técnica con resultados sólidos y transparentes.",
         "btn": "CONOCE A NUESTRO DIRECTOR GENERAL"
+      },
+      "meta": {
+        "title": "Quiénes Somos | Mac Consultores Jurídicos & Asociados"
       }
     },
     "ceo": {
@@ -40,23 +58,41 @@
         "tag": "Director General",
         "title": "Visión técnica y liderazgo forense.",
         "desc_1": "El Abg. Marco A. Colina G. es el fundador y Director General de Mac Consultores Jurídicos & Asociados. Con más de 20 años de ejercicio profesional ininterrumpido, su trayectoria se ha consolidado en el litigio de alta complejidad en materia penal y constitucional.",
-        "desc_2": "Su enfoque combina el rigor dogmático con una visión pragmática de la justicia, permitiéndole liderar estrategias de defensa que han sentado precedentes en la jurisdicción venezolana. Es especialista en Derecho Penal y cuenta con una amplia formación en protección de derechos fundamentales."
+        "desc_2": "Su enfoque combina el rigor dogmático con una visión pragmática de la justicia, permitiéndole liderar estrategias de defensa que han sentado precedentes en la jurisdicción venezolana. Es especialista en Derecho Penal y cuenta con una amplia formación en protección de derechos fundamentales.",
+        "meta": {
+          "title": "Visión técnica y liderazgo forense."
+        }
       },
       "profile": {
         "tag": "Perfil Profesional",
         "title": "Especialidades de Liderazgo",
         "card_1": {
           "title": "Litigio de Casación",
-          "desc": "Experto en la interposición y defensa de recursos extraordinarios ante el Tribunal Supremo de Justicia."
+          "desc": "Experto en la interposición y defensa de recursos extraordinarios ante el Tribunal Supremo de Justicia.",
+          "meta": {
+            "title": "Litigio de Casación"
+          }
         },
         "card_2": {
           "title": "Derecho Penal Superior",
-          "desc": "Abordaje de delitos de cuello blanco, criminalidad organizada y defensa penal técnica avanzada."
+          "desc": "Abordaje de delitos de cuello blanco, criminalidad organizada y defensa penal técnica avanzada.",
+          "meta": {
+            "title": "Derecho Penal Superior"
+          }
         },
         "card_3": {
           "title": "Tutela Constitucional",
-          "desc": "Especialista en la activación de garantías jurisdiccionales para la protección de la libertad y el debido proceso."
+          "desc": "Especialista en la activación de garantías jurisdiccionales para la protección de la libertad y el debido proceso.",
+          "meta": {
+            "title": "Tutela Constitucional"
+          }
+        },
+        "meta": {
+          "title": "Especialidades de Liderazgo"
         }
+      },
+      "meta": {
+        "title": "Nuestro CEO | Mac Consultores Jurídicos & Asociados"
       }
     },
     "socios": {
@@ -66,21 +102,36 @@
       "intro": {
         "tag": "Capital Humano",
         "title": "Excelencia profesional en red.",
-        "desc": "Nuestra firma opera bajo un modelo de colaboración multidisciplinaria, integrando a los mejores especialistas en cada área para garantizar una defensa técnica de 360 grados."
+        "desc": "Nuestra firma opera bajo un modelo de colaboración multidisciplinaria, integrando a los mejores especialistas en cada área para garantizar una defensa técnica de 360 grados.",
+        "meta": {
+          "title": "Excelencia profesional en red."
+        }
       },
       "cards": {
         "card_1": {
           "title": "Socios Principales",
-          "desc": "Liderazgo estratégico y supervisión forense de todos los casos de alta sensibilidad de la firma."
+          "desc": "Liderazgo estratégico y supervisión forense de todos los casos de alta sensibilidad de la firma.",
+          "meta": {
+            "title": "Socios Principales"
+          }
         },
         "card_2": {
           "title": "Consultores Externos",
-          "desc": "Red de expertos en finanzas, informática forense y medicina legal que respaldan nuestras estrategias de litigio."
+          "desc": "Red de expertos en finanzas, informática forense y medicina legal que respaldan nuestras estrategias de litigio.",
+          "meta": {
+            "title": "Consultores Externos"
+          }
         },
         "card_3": {
           "title": "Aliados Internacionales",
-          "desc": "Corresponsalías en jurisdicciones clave para la atención de asuntos transfronterizos y gestión consular."
+          "desc": "Corresponsalías en jurisdicciones clave para la atención de asuntos transfronterizos y gestión consular.",
+          "meta": {
+            "title": "Aliados Internacionales"
+          }
         }
+      },
+      "meta": {
+        "title": "Socios y Colaboradores | Mac Consultores Jurídicos & Asociados"
       }
     }
   },
@@ -93,28 +144,46 @@
         "tag": "Our History",
         "title": "A trajectory defined by rigor and integrity.",
         "desc_1": "Mac Consultores Jurídicos & Asociados is a boutique law firm based in Caracas, conceived to offer high-complexity legal solutions. Our structure is founded on technical excellence and ethical commitment, providing specialized defense and strategic advisory that transcends traditional legal practice.",
-        "desc_2": "We understand that every case is unique and requires its own solution architecture. Therefore, we integrate forensic experience with the academic backing of over two decades of professional practice."
+        "desc_2": "We understand that every case is unique and requires its own solution architecture. Therefore, we integrate forensic experience with the academic backing of over two decades of professional practice.",
+        "meta": {
+          "title": "A trajectory defined by rigor and integrity."
+        }
       },
       "values": {
         "tag": "Institutional Values",
         "title": "Our Pillars",
         "card_1": {
           "title": "Strategic Vision",
-          "desc": "We do not merely react to conflict; we build preventive safeguards and anticipate risks to protect our clients' interests."
+          "desc": "We do not merely react to conflict; we build preventive safeguards and anticipate risks to protect our clients' interests.",
+          "meta": {
+            "title": "Strategic Vision"
+          }
         },
         "card_2": {
           "title": "Technical Rigor",
-          "desc": "Every action is backed by a deep dogmatic mastery and an exhaustive analysis of contemporary legal reality."
+          "desc": "Every action is backed by a deep dogmatic mastery and an exhaustive analysis of contemporary legal reality.",
+          "meta": {
+            "title": "Technical Rigor"
+          }
         },
         "card_3": {
           "title": "Professional Confidentiality",
-          "desc": "Discretion and confidentiality are the foundation of our relationship with the client, ensuring an environment of maximum trust."
+          "desc": "Discretion and confidentiality are the foundation of our relationship with the client, ensuring an environment of maximum trust.",
+          "meta": {
+            "title": "Professional Confidentiality"
+          }
+        },
+        "meta": {
+          "title": "Our Pillars"
         }
       },
       "mission": {
         "quote": "\"Our mission is to transform legal challenges into scenarios of security and growth.\"",
         "desc": "We aim to be the benchmark of excellence in the Venezuelan legal market, distinguished by our capability to resolve highly sensitive technical matters with solid and transparent results.",
         "btn": "MEET OUR MANAGING DIRECTOR"
+      },
+      "meta": {
+        "title": "Who We Are | Mac Consultores Jurídicos & Asociados"
       }
     },
     "ceo": {
@@ -125,23 +194,41 @@
         "tag": "Managing Director",
         "title": "Technical vision and forensic leadership.",
         "desc_1": "Attorney Marco A. Colina G. is the founder and Managing Director of Mac Consultores Jurídicos & Asociados. With over 20 years of uninterrupted professional practice, his career has consolidated in high-complexity litigation in criminal and constitutional matters.",
-        "desc_2": "His approach combines dogmatic rigor with a pragmatic view of justice, allowing him to lead defense strategies that have set precedents in the Venezuelan jurisdiction. He is a specialist in Criminal Law and has extensive training in the protection of fundamental rights."
+        "desc_2": "His approach combines dogmatic rigor with a pragmatic view of justice, allowing him to lead defense strategies that have set precedents in the Venezuelan jurisdiction. He is a specialist in Criminal Law and has extensive training in the protection of fundamental rights.",
+        "meta": {
+          "title": "Technical vision and forensic leadership."
+        }
       },
       "profile": {
         "tag": "Professional Profile",
         "title": "Leadership Specialties",
         "card_1": {
           "title": "Cassation Litigation",
-          "desc": "Expert in filing and defending extraordinary appeals before the Supreme Tribunal of Justice."
+          "desc": "Expert in filing and defending extraordinary appeals before the Supreme Tribunal of Justice.",
+          "meta": {
+            "title": "Cassation Litigation"
+          }
         },
         "card_2": {
           "title": "Superior Criminal Law",
-          "desc": "Handling white-collar crimes, organized crime, and advanced technical criminal defense."
+          "desc": "Handling white-collar crimes, organized crime, and advanced technical criminal defense.",
+          "meta": {
+            "title": "Superior Criminal Law"
+          }
         },
         "card_3": {
           "title": "Constitutional Protection",
-          "desc": "Specialist in the activation of jurisdictional guarantees for the protection of liberty and due process."
+          "desc": "Specialist in the activation of jurisdictional guarantees for the protection of liberty and due process.",
+          "meta": {
+            "title": "Constitutional Protection"
+          }
+        },
+        "meta": {
+          "title": "Leadership Specialties"
         }
+      },
+      "meta": {
+        "title": "Our CEO | Mac Consultores Jurídicos & Asociados"
       }
     },
     "socios": {
@@ -151,21 +238,36 @@
       "intro": {
         "tag": "Human Capital",
         "title": "Professional excellence in network.",
-        "desc": "Our firm operates under a multidisciplinary collaboration model, integrating the best specialists in each area to guarantee a 360-degree technical defense."
+        "desc": "Our firm operates under a multidisciplinary collaboration model, integrating the best specialists in each area to guarantee a 360-degree technical defense.",
+        "meta": {
+          "title": "Professional excellence in network."
+        }
       },
       "cards": {
         "card_1": {
           "title": "Principal Partners",
-          "desc": "Strategic leadership and forensic supervision of all highly sensitive cases of the firm."
+          "desc": "Strategic leadership and forensic supervision of all highly sensitive cases of the firm.",
+          "meta": {
+            "title": "Principal Partners"
+          }
         },
         "card_2": {
           "title": "External Consultants",
-          "desc": "Network of experts in finance, computer forensics, and legal medicine that support our litigation strategies."
+          "desc": "Network of experts in finance, computer forensics, and legal medicine that support our litigation strategies.",
+          "meta": {
+            "title": "External Consultants"
+          }
         },
         "card_3": {
           "title": "International Allies",
-          "desc": "Correspondents in key jurisdictions for handling cross-border matters and consular management."
+          "desc": "Correspondents in key jurisdictions for handling cross-border matters and consular management.",
+          "meta": {
+            "title": "International Allies"
+          }
         }
+      },
+      "meta": {
+        "title": "Partners & Collaborators | Mac Consultores Jurídicos & Asociados"
       }
     }
   }

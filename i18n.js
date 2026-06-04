@@ -2,29 +2,32 @@
  * i18n.js
  * Motor liviano de internacionalización para traducir dinámicamente todo el sitio web
  * a partir de diccionarios JSON compartidos, persistiendo la preferencia en localStorage.
+ * Optimizado para SPA con caché de memoria y soporte de URLs limpias.
  */
 
-// Mapeo de archivos HTML a sus respectivos diccionarios específicos
+// Mapeo de claves lógicas de página a sus respectivos diccionarios JSON
 const PAGE_TRANSLATION_MAP = {
-  'index.html': 'home.json',
-  '': 'home.json', // Para la raíz del servidor
-  'quienes-somos.html': 'firma.json',
-  'nuestro-ceo.html': 'firma.json',
-  'socios-colaboradores.html': 'firma.json',
-  'servicios.html': 'servicios.json',
-  'tramites-consulares.html': 'internacional.json',
-  'colaboracion-internacional.html': 'internacional.json',
-  'contacto.html': 'contacto.json',
-  'aviso-legal.html': 'contacto.json',
-  'privacidad.html': 'contacto.json',
-  'blog.html': 'blog.json',
-  'noticias.html': 'blog.json',
-  'blog-criminalidad-economica.html': 'blog.json',
-  'blog-amparo-garantia-vital.html': 'blog.json',
-  'blog-regimen-poderes-cpc-copp.html': 'blog.json'
+  'home': 'home.json',
+  'quienes-somos': 'firma.json',
+  'nuestro-ceo': 'firma.json',
+  'socios-colaboradores': 'firma.json',
+  'servicios': 'servicios.json',
+  'tramites-consulares': 'internacional.json',
+  'colaboracion-internacional': 'internacional.json',
+  'contacto': 'contacto.json',
+  'aviso-legal': 'contacto.json',
+  'privacidad': 'contacto.json',
+  'blog': 'blog.json',
+  'noticias': 'blog.json',
+  'blog-criminalidad-economica': 'blog.json',
+  'blog-amparo-garantia-vital': 'blog.json',
+  'blog-regimen-poderes-cpc-copp': 'blog.json'
 };
 
-// Diccionario de caché de traducciones en memoria para evitar fetch repetidos
+// Caché en memoria para no descargar los mismos JSON más de una vez por sesión
+const jsonCache = {};
+
+// Diccionario de traducciones fusionadas actual
 let currentTranslations = {};
 
 /**
@@ -36,51 +39,85 @@ function getNestedValue(obj, path) {
 }
 
 /**
- * Obtiene el nombre del archivo HTML actual
+ * Extrae la clave lógica de la página a partir de la URL actual.
+ * Transforma '/quienes-somos.html' o '/quienes-somos' en 'quienes-somos'
  */
-function getCurrentPageName() {
-  const path = window.location.pathname;
-  const page = path.substring(path.lastIndexOf('/') + 1);
-  return page || 'index.html';
+function getPageKey() {
+  let path = window.location.pathname;
+  if (path === '/' || path === '') return 'home';
+  
+  // Extraer la última parte de la ruta
+  let page = path.substring(path.lastIndexOf('/') + 1);
+  if (!page) return 'home'; // En caso de que termine en /
+  
+  // Eliminar .html si existe
+  if (page.endsWith('.html')) {
+    page = page.substring(0, page.length - 5);
+  }
+  
+  // Si la ruta era index.html
+  if (page === 'index') return 'home';
+  
+  return page;
 }
 
 /**
- * Carga los archivos JSON de traducciones para el idioma seleccionado
+ * Carga el diccionario JSON común (navbar, footer) utilizando caché
  */
-async function loadTranslations(lang) {
-  try {
-    // 1. Cargar el vocabulario común (navbar, footer, general)
-    const commonRes = await fetch('common.json?v=2');
-    if (!commonRes.ok) throw new Error('No se pudo cargar common.json');
-    const commonData = await commonRes.json();
-    const commonLangData = commonData[lang] || {};
-
-    // 2. Determinar y cargar el vocabulario específico de la página actual
-    const currentPage = getCurrentPageName();
-    const specificJson = PAGE_TRANSLATION_MAP[currentPage];
-    let specificLangData = {};
-
-    if (specificJson) {
-      const specificRes = await fetch(`${specificJson}?v=2`);
-      if (specificRes.ok) {
-        const specificData = await specificRes.json();
-        specificLangData = specificData[lang] || {};
-      } else {
-        console.warn(`No se pudo cargar el archivo específico ${specificJson}`);
+async function loadCommonTranslations(lang) {
+  if (!jsonCache['common.json']) {
+    try {
+      const res = await fetch('common.json?v=3');
+      if (res.ok) {
+        jsonCache['common.json'] = await res.json();
       }
+    } catch (e) {
+      console.error('Error cargando common.json:', e);
     }
-
-    // Fusionar ambos diccionarios para la traducción actual
-    currentTranslations = { ...commonLangData, ...specificLangData };
-  } catch (error) {
-    console.error('Error cargando traducciones:', error);
   }
+  return jsonCache['common.json'] ? (jsonCache['common.json'][lang] || {}) : {};
+}
+
+/**
+ * Carga el diccionario JSON específico para la página actual utilizando caché
+ */
+async function loadPageTranslations(lang, pageKey) {
+  const specificJson = PAGE_TRANSLATION_MAP[pageKey];
+  if (!specificJson) return {};
+  
+  if (!jsonCache[specificJson]) {
+    try {
+      const res = await fetch(`${specificJson}?v=3`);
+      if (res.ok) {
+        jsonCache[specificJson] = await res.json();
+      }
+    } catch (e) {
+      console.error(`Error cargando ${specificJson}:`, e);
+    }
+  }
+  return jsonCache[specificJson] ? (jsonCache[specificJson][lang] || {}) : {};
+}
+
+/**
+ * Evento disparado cada vez que cambia la ruta en el router SPA
+ */
+async function onRouteChange() {
+  const lang = document.documentElement.lang || 'es';
+  const pageKey = getPageKey();
+  
+  const commonLangData = await loadCommonTranslations(lang);
+  const specificLangData = await loadPageTranslations(lang, pageKey);
+  
+  // Fusionar ambos diccionarios para la traducción actual
+  currentTranslations = { ...commonLangData, ...specificLangData };
+  
+  translateDOM(pageKey);
 }
 
 /**
  * Traduce todos los elementos con atributo 'data-i18n' en el DOM
  */
-function translateDOM() {
+function translateDOM(pageKey) {
   const elements = document.querySelectorAll('[data-i18n]');
   elements.forEach(el => {
     const key = el.getAttribute('data-i18n');
@@ -92,7 +129,7 @@ function translateDOM() {
 
     // Si la traducción es un array, se trata de una lista estructurada (como ul/ol)
     if (Array.isArray(translation)) {
-      // Reconstruir la lista (ej. para ul.service-list o listas en artículos)
+      // Reconstruir la lista
       el.innerHTML = '';
       translation.forEach(item => {
         const li = document.createElement('li');
@@ -112,8 +149,6 @@ function translateDOM() {
         el.value = translation;
       }
     } else if (tagName === 'select') {
-      // Para selects, a veces queremos traducir las opciones dinámicamente si tienen data-i18n
-      // Sin embargo, por defecto reemplazamos texto
       el.textContent = translation;
     } else {
       // Reemplazar texto conservando estructura interna si contiene tags HTML (como strong/em)
@@ -121,36 +156,19 @@ function translateDOM() {
     }
   });
 
-  // Traducir el título de la página si existe en el JSON
-  if (currentTranslations.title) {
-    document.title = currentTranslations.title;
-  } else if (currentTranslations.quienes_somos && currentTranslations.quienes_somos.title && getCurrentPageName() === 'quienes-somos.html') {
-    document.title = currentTranslations.quienes_somos.title;
-  } else if (currentTranslations.ceo && currentTranslations.ceo.title && getCurrentPageName() === 'nuestro-ceo.html') {
-    document.title = currentTranslations.ceo.title;
-  } else if (currentTranslations.tramites_consulares && currentTranslations.tramites_consulares.title && getCurrentPageName() === 'tramites-consulares.html') {
-    document.title = currentTranslations.tramites_consulares.title;
-  } else if (currentTranslations.colaboracion_internacional && currentTranslations.colaboracion_internacional.title && getCurrentPageName() === 'colaboracion-internacional.html') {
-    document.title = currentTranslations.colaboracion_internacional.title;
-  } else if (currentTranslations.contacto && currentTranslations.contacto.title && getCurrentPageName() === 'contacto.html') {
-    document.title = currentTranslations.contacto.title;
-  } else if (currentTranslations.blog && currentTranslations.blog.title && getCurrentPageName() === 'blog.html') {
-    document.title = currentTranslations.blog.title;
-  } else if (currentTranslations.noticias && currentTranslations.noticias.title && getCurrentPageName() === 'noticias.html') {
-    document.title = currentTranslations.noticias.title;
-  } else if (currentTranslations.articulo_crimen && currentTranslations.articulo_crimen.title && getCurrentPageName() === 'blog-criminalidad-economica.html') {
-    document.title = currentTranslations.articulo_crimen.title;
-  } else if (currentTranslations.articulo_amparo && currentTranslations.articulo_amparo.title && getCurrentPageName() === 'blog-amparo-garantia-vital.html') {
-    document.title = currentTranslations.articulo_amparo.title;
-  } else if (currentTranslations.articulo_poderes && currentTranslations.articulo_poderes.title && getCurrentPageName() === 'blog-regimen-poderes-cpc-copp.html') {
-    document.title = currentTranslations.articulo_poderes.title;
-  } else if (currentTranslations.socios && currentTranslations.socios.title && getCurrentPageName() === 'socios-colaboradores.html') {
-    document.title = currentTranslations.socios.title;
+  // Actualizar document.title simplificado para SPA y JSONs múltiples
+  // Busca en la sección específica de la página primero, y si no en la raíz
+  const pageData = currentTranslations[pageKey];
+  const title = (pageData && pageData.meta && pageData.meta.title) || 
+                (currentTranslations.meta && currentTranslations.meta.title);
+                
+  if (title) {
+    document.title = title;
   }
 }
 
 /**
- * Función principal para cambiar de idioma
+ * Función principal para cambiar de idioma (por interacción del usuario)
  */
 async function changeLanguage(lang) {
   // Sincronizar el atributo HTML lang
@@ -159,17 +177,14 @@ async function changeLanguage(lang) {
   // Guardar en localStorage
   localStorage.setItem('preferred-lang', lang);
 
-  // Cargar traducciones y aplicarlas
-  await loadTranslations(lang);
-  translateDOM();
+  // Recargar las traducciones de la ruta actual
+  await onRouteChange();
 
   // Refrescar el selector visual de idioma
   syncLanguageSelector(lang);
 
-  // Desencadenar el refresco del Insight Jurídico del Día si la función global existe
+  // Desencadenar el refresco del Insight Jurídico del Día
   if (window.initDailyInsight) {
-    // Evitamos bucles recursivos ya que initDailyInsight llama a initLanguageSelector
-    // pero no a changeLanguage.
     window.initDailyInsight();
   }
 }
@@ -192,7 +207,7 @@ function syncLanguageSelector(lang) {
  * Inicialización inicial de traducción
  */
 async function initI18n() {
-  // Detectar idioma: 1. LocalStorage, 2. Atributo HTML inicial, 3. Navegador, 4. 'es'
+  // Detectar idioma: 1. LocalStorage, 2. Atributo HTML inicial, 3. Navegador
   let lang = localStorage.getItem('preferred-lang');
   if (!lang) {
     lang = document.documentElement.lang || (navigator.language.startsWith('en') ? 'en' : 'es');
@@ -201,10 +216,11 @@ async function initI18n() {
   // Asegurar formato de dos letras
   lang = lang.toLowerCase().startsWith('en') ? 'en' : 'es';
 
-  // Sincronizar e iniciar traducción
   document.documentElement.lang = lang;
-  await loadTranslations(lang);
-  translateDOM();
+  
+  // Procesar traducciones de la primera carga
+  await onRouteChange();
+  
   syncLanguageSelector(lang);
 }
 
@@ -229,3 +245,4 @@ document.addEventListener('DOMContentLoaded', () => {
 window.changeLanguage = changeLanguage;
 window.translateDOM = translateDOM;
 window.initI18n = initI18n;
+window.onRouteChange = onRouteChange;
