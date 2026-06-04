@@ -1,0 +1,102 @@
+{
+  "es": {
+    "title": "Mac Consultores Jurídicos & Asociados | Excelencia Legal",
+    "hero": {
+      "tag": "Rigor & Estrategia",
+      "h1": "Arquitectura jurídica para casos de alta complejidad.",
+      "desc": "Defensa penal y constitucional diseñada a medida, con foco en la protección efectiva de derechos, patrimonio y reputación en entornos sensibles.",
+      "btn": "Solicitar consulta privada"
+    },
+    "about": {
+      "tag": "Nuestra Firma",
+      "title": "Cimientos sólidos para desafíos complejos.",
+      "desc_1": "En Mac Consultores Jurídicos & Asociados, entendemos el derecho como una disciplina de alta precisión. Nuestra práctica se define por la integridad, el rigor técnico y la capacidad de anticipación estratégica en cada etapa del proceso.",
+      "desc_2": "Liderados por el Abg. Marco A. Colina G., combinamos más de dos décadas de experiencia en el litigio penal y constitucional con una visión académica de vanguardia, garantizando resultados sólidos y éticos para una clientela nacional e internacional.",
+      "btn": "Conocer nuestra historia"
+    },
+    "specialties": {
+      "tag": "Especialidades",
+      "title": "Áreas de Práctica Estratégica",
+      "details_link": "VER DETALLES →",
+      "card_1": {
+        "title": "Defensa Penal Técnica",
+        "desc": "Estrategias de defensa integral en asuntos penales de alta complejidad, criminalidad económica y delitos informáticos con un enfoque técnico de vanguardia."
+      },
+      "card_2": {
+        "title": "Tutela Constitucional",
+        "desc": "Protección efectiva de derechos fundamentales mediante Amparo Constitucional, Hábeas Corpus y Hábeas Data ante las instancias jurisdiccionales competentes."
+      },
+      "card_3": {
+        "title": "Derecho Internacional",
+        "desc": "Representación estratégica ante misiones consulares y organismos multilaterales para la diáspora venezolana y asuntos transfronterizos complejos."
+      }
+    },
+    "news": {
+      "tag": "Actualidad",
+      "title": "Noticias & Publicaciones",
+      "read_more": "LEER MÁS →",
+      "card_1": {
+        "title": "Impacto de la Nueva Legislación Penal",
+        "desc": "Análisis detallado sobre las recientes reformas procesales y sus implicaciones para la defensa corporativa."
+      },
+      "card_2": {
+        "title": "Tendencias en Amparo Constitucional",
+        "desc": "Revisión de la jurisprudencia reciente y su impacto fundamental en la protección de los derechos corporativos e individuales."
+      },
+      "card_3": {
+        "title": "Nuevos Acuerdos Internacionales",
+        "desc": "Cómo los nuevos marcos de colaboración internacional afectan de forma directa las gestiones consulares de la diáspora venezolana."
+      }
+    }
+  },
+  "en": {
+    "title": "Mac Consultores Jurídicos & Asociados | Legal Excellence",
+    "hero": {
+      "tag": "Rigor & Strategy",
+      "h1": "Legal architecture for high-complexity cases.",
+      "desc": "Tailored criminal and constitutional defense, focusing on the effective protection of rights, assets, and reputation in sensitive environments.",
+      "btn": "Request private consultation"
+    },
+    "about": {
+      "tag": "Our Firm",
+      "title": "Solid foundations for complex challenges.",
+      "desc_1": "At Mac Consultores Jurídicos & Asociados, we view law as a discipline of high precision. Our practice is defined by integrity, technical rigor, and the capacity for strategic anticipation at every stage of the proceedings.",
+      "desc_2": "Led by Atty. Marco A. Colina G., we combine over two decades of experience in criminal and constitutional litigation with a vanguard academic vision, ensuring solid and ethical results for a national and international clientele.",
+      "btn": "Discover our history"
+    },
+    "specialties": {
+      "tag": "Specialties",
+      "title": "Strategic Practice Areas",
+      "details_link": "VIEW DETAILS →",
+      "card_1": {
+        "title": "Technical Criminal Defense",
+        "desc": "Comprehensive defense strategies in high-complexity criminal matters, white-collar crime, and cybercrimes with a cutting-edge technical approach."
+      },
+      "card_2": {
+        "title": "Constitutional Protection",
+        "desc": "Effective protection of fundamental rights through Constitutional Amparo, Habeas Corpus, and Habeas Data before competent judicial instances."
+      },
+      "card_3": {
+        "title": "International Law",
+        "desc": "Strategic representation before consular missions and multilateral organizations for the Venezuelan diaspora and complex cross-border matters."
+      }
+    },
+    "news": {
+      "tag": "Current Affairs",
+      "title": "News & Publications",
+      "read_more": "READ MORE →",
+      "card_1": {
+        "title": "Impact of the New Criminal Legislation",
+        "desc": "Detailed analysis of recent procedural reforms and their implications for corporate defense."
+      },
+      "card_2": {
+        "title": "Trends in Constitutional Amparo",
+        "desc": "Review of recent case law and its fundamental impact on the protection of corporate and individual rights."
+      },
+      "card_3": {
+        "title": "New International Agreements",
+        "desc": "How new international collaboration frameworks directly affect consular management for the Venezuelan diaspora."
+      }
+    }
+  }
+}

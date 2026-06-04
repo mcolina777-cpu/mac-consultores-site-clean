@@ -1,0 +1,332 @@
+[
+  {
+    "id": "prueba_tecnica",
+    "es": {
+      "concepto": "PRUEBA TECNICA",
+      "definicion": "Si ves esto, la página sí está leyendo el JSON actualizado."
+    },
+    "en": {
+      "concept": "TECHNICAL TEST",
+      "definition": "If you see this, the page is indeed reading the updated JSON."
+    }
+  },
+  {
+    "id": "litigacion_estrategica",
+    "es": {
+      "concepto": "Litigación Estratégica",
+      "definicion": "Más allá del proceso, nuestra misión es anticipar la resolución mediante un análisis probatorio riguroso."
+    },
+    "en": {
+      "concept": "Strategic Litigation",
+      "definition": "Beyond the proceedings, our mission is to anticipate the resolution through rigorous evidentiary analysis."
+    }
+  },
+  {
+    "id": "compliance_energetico",
+    "es": {
+      "concepto": "Compliance Energético",
+      "definicion": "Integridad técnica y legal para un sector energético en constante transformación."
+    },
+    "en": {
+      "concept": "Energy Compliance",
+      "definition": "Technical and legal integrity for an energy sector in constant transformation."
+    }
+  },
+  {
+    "id": "derecho_probatorio",
+    "es": {
+      "concepto": "Derecho Probatorio",
+      "definicion": "La verdad técnica construida con rigor. Transformamos hechos dispersos en convicción judicial mediante un análisis probatorio incuestionable."
+    },
+    "en": {
+      "concept": "Law of Evidence",
+      "definition": "Technical truth built with rigor. We transform scattered facts into judicial conviction through unquestionable evidentiary analysis."
+    }
+  },
+  {
+    "id": "masc",
+    "es": {
+      "concepto": "MASC",
+      "definicion": "La eficacia sobre la confrontación. Gestionamos controversias complejas con soluciones estratégicas que preservan la continuidad operativa y el valor del negocio."
+    },
+    "en": {
+      "concept": "ADR",
+      "definition": "Efficiency over confrontation. We manage complex disputes with strategic solutions that preserve operational continuity and business value."
+    }
+  },
+  {
+    "id": "defensa_penal",
+    "es": {
+      "concepto": "Defensa Penal",
+      "definicion": "El debido proceso como baluarte. Ejercemos una defensa técnica basada en el conocimiento profundo de la norma y el respeto absoluto a las garantías constitucionales."
+    },
+    "en": {
+      "concept": "Criminal Defense",
+      "definition": "Due process as a stronghold. We provide a technical defense grounded in a deep knowledge of the law and absolute respect for constitutional guarantees."
+    }
+  },
+  {
+    "id": "debido_proceso",
+    "es": {
+      "concepto": "Debido Proceso",
+      "definicion": "Garantía suprema del Estado de Derecho. Cada actuación procesal debe someterse al control estricto de legalidad para evitar la arbitrariedad."
+    },
+    "en": {
+      "concept": "Due Process",
+      "definition": "Supreme guarantee of the Rule of Law. Every procedural act must submit to strict legality control to prevent arbitrariness."
+    }
+  },
+  {
+    "id": "derecho_constitucional",
+    "es": {
+      "concepto": "Derecho Constitucional",
+      "definicion": "El marco rector de nuestra práctica. Interpretamos la norma fundamental para proteger los derechos esenciales de nuestros representados."
+    },
+    "en": {
+      "concept": "Constitutional Law",
+      "definition": "The governing framework of our practice. We interpret the fundamental law to protect the essential rights of our clients."
+    }
+  },
+  {
+    "id": "prueba_ilicita",
+    "es": {
+      "concepto": "Prueba Ilícita",
+      "definicion": "Excluimos cualquier elemento obtenido fuera de los cauces legales. La validez de la sentencia depende exclusivamente de la integridad probatoria."
+    },
+    "en": {
+      "concept": "Illegally Obtained Evidence",
+      "definition": "We exclude any evidence obtained outside legal channels. The validity of the ruling relies exclusively on evidentiary integrity."
+    }
+  },
+  {
+    "id": "corporate_governance",
+    "es": {
+      "concepto": "Corporate Governance",
+      "definicion": "La transparencia como pilar de valor. Estructuramos el gobierno corporativo para prevenir riesgos y asegurar la sostenibilidad del negocio."
+    },
+    "en": {
+      "concept": "Corporate Governance",
+      "definition": "Transparency as a pillar of value. We structure corporate governance to prevent risks and ensure business sustainability."
+    }
+  },
+  {
+    "id": "litigio_de_alto_perfil",
+    "es": {
+      "concepto": "Litigio de Alto Perfil",
+      "definicion": "Precisión quirúrgica en la argumentación. Defendemos intereses críticos bajo el escrutinio de la complejidad y la presión mediática."
+    },
+    "en": {
+      "concept": "High-Profile Litigation",
+      "definition": "Surgical precision in legal argument. We defend critical interests under the scrutiny of complexity and media pressure."
+    }
+  },
+  {
+    "id": "responsabilidad_penal",
+    "es": {
+      "concepto": "Responsabilidad Penal",
+      "definicion": "Analizamos la imputación con lupa técnica. Deslindamos responsabilidades mediante una evaluación exhaustiva de los elementos de convicción."
+    },
+    "en": {
+      "concept": "Criminal Liability",
+      "definition": "We analyze the indictment with a technical lens. We establish boundaries of liability through an exhaustive evaluation of the supporting evidence."
+    }
+  },
+  {
+    "id": "derecho_internacional",
+    "es": {
+      "concepto": "Derecho Internacional",
+      "definicion": "Visión global para entornos locales. Resolvemos conflictos transfronterizos aplicando estándares internacionales de protección jurídica."
+    },
+    "en": {
+      "concept": "International Law",
+      "definition": "A global vision for local environments. We resolve cross-border disputes by applying international standards of legal protection."
+    }
+  },
+  {
+    "id": "gestion_de_riesgos",
+    "es": {
+      "concepto": "Gestión de Riesgos",
+      "definicion": "Anticipar el conflicto antes de que escale. Diseñamos mecanismos preventivos que blindan las operaciones de nuestros clientes."
+    },
+    "en": {
+      "concept": "Risk Management",
+      "definition": "Anticipating conflict before it escalates. We design preventive mechanisms that safeguard our clients' operations."
+    }
+  },
+  {
+    "id": "principio_de_culpabilidad",
+    "es": {
+      "concepto": "Principio de Culpabilidad",
+      "definicion": "Base del derecho penal moderno. Nadie responde por un hecho que no le es imputable técnica y subjetivamente."
+    },
+    "en": {
+      "concept": "Principle of Culpability",
+      "definition": "The cornerstone of modern criminal law. No one shall be held liable for an act that is not technically and subjectively attributable to them."
+    }
+  },
+  {
+    "id": "prueba_documental",
+    "es": {
+      "concepto": "Prueba Documental",
+      "definicion": "El rigor del soporte. Analizamos cada documento como pieza clave para construir una tesis sólida e irrefutable ante el juzgador."
+    },
+    "en": {
+      "concept": "Documentary Evidence",
+      "definition": "The rigor of written support. We analyze each document as a key piece to construct a solid and irrefutable theory before the court."
+    }
+  },
+  {
+    "id": "etica_profesional",
+    "es": {
+      "concepto": "Ética Profesional",
+      "definicion": "El activo más valioso de nuestra firma. La lealtad al cliente y la honestidad intelectual guían cada decisión legal."
+    },
+    "en": {
+      "concept": "Professional Ethics",
+      "definition": "Our firm's most valuable asset. Client loyalty and intellectual honesty guide every legal decision."
+    }
+  },
+  {
+    "id": "control_judicial",
+    "es": {
+      "concepto": "Control Judicial",
+      "definicion": "La salvaguarda frente al poder. Actuamos para asegurar que el ejercicio del poder público respete siempre los límites impuestos por la ley."
+    },
+    "en": {
+      "concept": "Judicial Oversight",
+      "definition": "The safeguard against power. We act to ensure that the exercise of public authority always respects the limits imposed by law."
+    }
+  },
+  {
+    "id": "derecho_de_energia",
+    "es": {
+      "concepto": "Derecho de Energía",
+      "definicion": "Experticia técnica en el sector estratégico. Asesoramos en proyectos complejos que definen el desarrollo económico del país."
+    },
+    "en": {
+      "concept": "Energy Law",
+      "definition": "Technical expertise in a strategic sector. We advise on complex projects that define the country's economic development."
+    }
+  },
+  {
+    "id": "resolucion_de_controversias",
+    "es": {
+      "concepto": "Resolución de Controversias",
+      "definicion": "Más que ganar, buscamos la solución óptima. Aplicamos el derecho con criterio para proteger los intereses del cliente."
+    },
+    "en": {
+      "concept": "Dispute Resolution",
+      "definition": "More than winning, we seek the optimal solution. We apply the law with sound judgment to protect our clients' interests."
+    }
+  },
+  {
+    "id": "libertad_individual",
+    "es": {
+      "concepto": "Libertad Individual",
+      "definicion": "Derecho inalienable. Nuestra labor es asegurar que su ejercicio sea pleno dentro del marco de legalidad vigente."
+    },
+    "en": {
+      "concept": "Individual Liberty",
+      "definition": "An inalienable right. Our role is to ensure its full exercise within the current legal framework."
+    }
+  },
+  {
+    "id": "derecho_procesal",
+    "es": {
+      "concepto": "Derecho Procesal",
+      "definicion": "Las reglas del juego son nuestra ventaja. Dominamos el procedimiento para asegurar la eficacia de la defensa en cada fase."
+    },
+    "en": {
+      "concept": "Procedural Law",
+      "definition": "The rules of the game are our advantage. We master procedure to ensure an effective defense at every stage."
+    }
+  },
+  {
+    "id": "compliance_penal",
+    "es": {
+      "concepto": "Compliance Penal",
+      "definicion": "Transformamos la cultura organizacional. Creamos programas de cumplimiento que mitigan riesgos penales para la persona jurídica."
+    },
+    "en": {
+      "concept": "Criminal Compliance",
+      "definition": "We transform organizational culture. We design compliance programs that mitigate criminal risks for corporate entities."
+    }
+  },
+  {
+    "id": "presuncion_inocencia",
+    "es": {
+      "concepto": "Presunción de Inocencia",
+      "definicion": "Más que una garantía, es el eje de nuestra estrategia. El Estado debe probar el hecho, nosotros protegemos su derecho."
+    },
+    "en": {
+      "concept": "Presumption of Innocence",
+      "definition": "More than a guarantee, it is the cornerstone of our strategy. The State must prove the case; we protect your rights."
+    }
+  },
+  {
+    "id": "interpretacion_legal",
+    "es": {
+      "concepto": "Interpretación Legal",
+      "definicion": "El arte de dar sentido a la norma. Aplicamos una hermenéutica avanzada para obtener resultados favorables en escenarios complejos."
+    },
+    "en": {
+      "concept": "Legal Interpretation",
+      "definition": "The art of giving meaning to the rule of law. We apply advanced hermeneutics to achieve favorable outcomes in complex scenarios."
+    }
+  },
+  {
+    "id": "integridad_procesal",
+    "es": {
+      "concepto": "Integridad Procesal",
+      "definicion": "Exigimos rectitud en cada actuación. No permitimos vacíos ni irregularidades que comprometan la seguridad de nuestros representados."
+    },
+    "en": {
+      "concept": "Procedural Integrity",
+      "definition": "We demand rectitude in every proceeding. We do not tolerate loopholes or irregularities that compromise the security of our clients."
+    }
+  },
+  {
+    "id": "derecho_de_propiedad",
+    "es": {
+      "concepto": "Derecho de Propiedad",
+      "definicion": "Respeto absoluto al patrimonio. Diseñamos estrategias de protección para asegurar la estabilidad y el crecimiento de los bienes."
+    },
+    "en": {
+      "concept": "Property Rights",
+      "definition": "Absolute respect for assets. We design protection strategies to ensure the stability and growth of property."
+    }
+  },
+  {
+    "id": "asesoria_estrategica",
+    "es": {
+      "concepto": "Asesoría Estratégica",
+      "definicion": "El valor del conocimiento especializado. Convertimos la complejidad legal en una ventaja competitiva para su negocio."
+    },
+    "en": {
+      "concept": "Strategic Advisory",
+      "definition": "The value of specialized knowledge. We transform legal complexity into a competitive advantage for your business."
+    }
+  },
+  {
+    "id": "carga_de_la_prueba",
+    "es": {
+      "concepto": "Carga de la Prueba",
+      "definicion": "El núcleo del litigio. Gestionamos la actividad probatoria para asegurar que la convicción del juez se incline hacia nuestra tesis."
+    },
+    "en": {
+      "concept": "Burden of Proof",
+      "definition": "The core of litigation. We manage evidentiary activity to ensure the court's conviction aligns with our theory."
+    }
+  },
+  {
+    "id": "justicia_con_criterio",
+    "es": {
+      "concepto": "Justicia con Criterio",
+      "definicion": "El derecho aplicado a la realidad. Entendemos el contexto para ofrecer soluciones legales precisas, coherentes y efectivas."
+    },
+    "en": {
+      "concept": "Justice with Discernment",
+      "definition": "Law applied to reality. We understand the context to deliver precise, coherent, and effective legal solutions."
+    }
+  }
+]

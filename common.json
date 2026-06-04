@@ -1,0 +1,62 @@
+{
+  "es": {
+    "nav": {
+      "inicio": "Inicio",
+      "firma": "Firma",
+      "quienes_somos": "Quiénes Somos",
+      "nuestro_ceo": "Nuestro CEO",
+      "blog": "Blog Jurídico",
+      "noticias": "Noticias",
+      "servicios": "Servicios",
+      "internacional": "Internacional",
+      "alianzas": "Alianzas",
+      "contacto": "Contacto"
+    },
+    "footer": {
+      "desc": "Soluciones legales de alta complejidad con enfoque en la estrategia, la prevención y la protección integral de los intereses de nuestros clientes.",
+      "nav_title": "Navegación",
+      "services_title": "Servicios",
+      "offices_title": "Oficinas",
+      "penal": "Derecho Penal",
+      "constitucional": "Defensa Constitucional",
+      "consular": "Gestión Consular",
+      "colaboracion": "Colaboración Int.",
+      "location": "Torre Financiera, Caracas",
+      "cta": "AGENDAR CITA →",
+      "copyright": "© 2026 Mac Consultores Jurídicos & Asociados. Todos los derechos reservados.",
+      "local_time": "Hora local",
+      "legal_notice": "Aviso Legal",
+      "privacy": "Privacidad"
+    }
+  },
+  "en": {
+    "nav": {
+      "inicio": "Home",
+      "firma": "The Firm",
+      "quienes_somos": "About Us",
+      "nuestro_ceo": "Our CEO",
+      "blog": "Legal Blog",
+      "noticias": "News",
+      "servicios": "Services",
+      "internacional": "International",
+      "alianzas": "Alliances",
+      "contacto": "Contact"
+    },
+    "footer": {
+      "desc": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests.",
+      "nav_title": "Navigation",
+      "services_title": "Services",
+      "offices_title": "Offices",
+      "penal": "Criminal Law",
+      "constitucional": "Constitutional Defense",
+      "consular": "Consular Management",
+      "colaboracion": "Intl. Collaboration",
+      "location": "Torre Financiera, Caracas",
+      "cta": "SCHEDULE APPOINTMENT →",
+      "copyright": "© 2026 Mac Consultores Jurídicos & Asociados. All rights reserved.",
+      "local_time": "Local time",
+      "legal_notice": "Legal Notice",
+      "privacy": "Privacy"
+    }
+  }
+}
