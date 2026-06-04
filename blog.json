@@ -1,38 +1,5 @@
 {
   "es": {
-    "blog": {
-      "title": "Blog Jurídico | Mac Consultores Jurídicos & Asociados",
-      "breadcrumb": "Actualidad / Análisis",
-      "h1": "Blog Jurídico Estratégico",
-      "read_more": "LEER MÁS →",
-      "article_1": {
-        "tag": "Análisis Penal",
-        "title": "Evolución de la Criminalidad Económica",
-        "desc": "Un análisis estratégico sobre cómo han evolucionado los delitos económicos y por qué representan hoy uno de los mayores riesgos penales y reputacionales para las empresas.",
-        "meta": {
-          "title": "Evolución de la Criminalidad Económica"
-        }
-      },
-      "article_2": {
-        "tag": "Constitucional",
-        "title": "El Amparo como Garantía Vital",
-        "desc": "Reflexiones sobre la eficacia de la tutela constitucional en el entorno procesal contemporáneo y la protección de derechos fundamentales.",
-        "meta": {
-          "title": "El Amparo como Garantía Vital"
-        }
-      },
-      "article_3": {
-        "tag": "Procesal Penal",
-        "title": "Régimen de Poderes en CPC y COPP",
-        "desc": "Análisis sobre las exigencias técnicas y prácticas de la representación judicial en materia penal versus la civil, especialmente para víctimas corporativas.",
-        "meta": {
-          "title": "Régimen de Poderes en CPC y COPP"
-        }
-      },
-      "meta": {
-        "title": "Blog Jurídico | Mac Consultores Jurídicos & Asociados"
-      }
-    },
     "noticias": {
       "title": "Noticias & Actualidad | Mac Consultores Jurídicos & Asociados",
       "breadcrumb": "Actualidad / Información",
@@ -66,7 +33,7 @@
         "title": "Noticias & Actualidad | Mac Consultores Jurídicos & Asociados"
       }
     },
-    "articulo_crimen": {
+    "blog_detalle_1": {
       "title": "Análisis Penal: Evolución de la Criminalidad Económica | Mac Consultores Jurídicos & Asociados",
       "breadcrumb": "<a href=\"blog.html\">Blog</a> / Análisis Penal",
       "h1": "Análisis Penal: Evolución de la Criminalidad Económica",
@@ -110,7 +77,7 @@
       "p2_7a": "La criminalidad económica exige que las empresas adopten programas integrales de compliance penal, políticas internas estrictas, capacitación continua, due diligence exhaustivos y consulta temprana a especialistas en Derecho Penal Económico.",
       "p2_7b": "En Mac Consultores Jurídicos & Asociados contamos con experiencia en evaluación de riesgos, diseño de estrategias de prevención y litigio de casos complejos de criminalidad económica, con un enfoque orientado a la protección integral de las víctimas corporativas y a la gestión estratégica de las crisis penales."
     },
-    "articulo_amparo": {
+    "blog_detalle_2": {
       "title": "Constitucional: El Amparo como Garantía Vital | Mac Consultores Jurídicos & Asociados",
       "breadcrumb": "<a href=\"blog.html\">Blog</a> / Constitucional",
       "h1": "Constitucional: El Amparo como Garantía Vital",
@@ -152,7 +119,7 @@
       "p2_7a": "Para quienes se desempeñan en el mundo empresarial —propietarios, directivos, contadores, oficiales de cumplimiento—, comprender el amparo no es una cuestión académica: es una herramienta de gestión de riesgos jurídicos de primer orden que puede, en el momento crítico, preservar la libertad, la reputación y la continuidad del negocio.",
       "p2_7b": "Nuestro equipo cuenta con experiencia consolidada en la evaluación, prevención y litigio de casos de criminalidad económica, en el diseño de programas de compliance penal y en el uso estratégico del amparo constitucional para la defensa de víctimas corporativas, directivos y personas jurídicas. Si su empresa enfrenta una investigación penal, lo invitamos a contactarnos."
     },
-    "articulo_poderes": {
+    "blog_detalle_3": {
       "title": "Procesal Penal: El Régimen de Poderes en el CPC y el COPP | Mac Consultores Jurídicos & Asociados",
       "breadcrumb": "<a href=\"blog.html\">Blog</a> / Procesal Penal",
       "h1": "Procesal Penal: El Régimen de Poderes en el CPC y el COPP venezolano",
@@ -193,42 +160,42 @@
       "h2_7": "Asesoría Especializada en Mac Consultores Jurídicos & Asociados",
       "p2_7a": "Para empresas y directivos que enfrentan investigaciones penales o que actúan como víctimas en procesos de criminalidad económica, comprender estas diferencias no es opcional: es una condición de ejercicio del derecho de acción y de acceso real a la justicia. La representación de la víctima en el proceso penal no admite fórmulas genéricas.",
       "p2_7b": "Nuestro equipo cuenta con experiencia consolidada en la redacción de instrumentos de representación judicial para procesos penales complejos, en la representación de víctimas corporativas ante los órganos jurisdiccionales venezolanos y en el diseño de protocolos de compliance penal."
-    }
-  },
-  "en": {
-    "blog": {
-      "title": "Legal Blog | Mac Consultores Jurídicos & Asociados",
-      "breadcrumb": "Current Affairs / Analysis",
-      "h1": "Strategic Legal Blog",
-      "read_more": "READ MORE →",
+    },
+    "blog_lista": {
+      "title": "Blog Jurídico | Mac Consultores Jurídicos & Asociados",
+      "breadcrumb": "Actualidad / Análisis",
+      "h1": "Blog Jurídico Estratégico",
+      "read_more": "LEER MÁS →",
       "article_1": {
-        "tag": "Criminal Analysis",
-        "title": "Evolution of Economic Crime",
-        "desc": "A strategic analysis on how economic crimes have evolved and why they represent today one of the greatest criminal and reputational risks for companies.",
+        "tag": "Análisis Penal",
+        "title": "Evolución de la Criminalidad Económica",
+        "desc": "Un análisis estratégico sobre cómo han evolucionado los delitos económicos y por qué representan hoy uno de los mayores riesgos penales y reputacionales para las empresas.",
         "meta": {
-          "title": "Evolution of Economic Crime"
+          "title": "Evolución de la Criminalidad Económica"
         }
       },
       "article_2": {
-        "tag": "Constitutional",
-        "title": "Amparo as a Vital Guarantee",
-        "desc": "Reflections on the effectiveness of constitutional protection in the contemporary procedural environment and the protection of fundamental rights.",
+        "tag": "Constitucional",
+        "title": "El Amparo como Garantía Vital",
+        "desc": "Reflexiones sobre la eficacia de la tutela constitucional en el entorno procesal contemporáneo y la protección de derechos fundamentales.",
         "meta": {
-          "title": "Amparo as a Vital Guarantee"
+          "title": "El Amparo como Garantía Vital"
         }
       },
       "article_3": {
-        "tag": "Criminal Procedural",
-        "title": "Powers Regime in CPC and COPP",
-        "desc": "Analysis on the technical and practical requirements of legal representation in criminal versus civil matters, especially for corporate victims.",
+        "tag": "Procesal Penal",
+        "title": "Régimen de Poderes en CPC y COPP",
+        "desc": "Análisis sobre las exigencias técnicas y prácticas de la representación judicial en materia penal versus la civil, especialmente para víctimas corporativas.",
         "meta": {
-          "title": "Powers Regime in CPC and COPP"
+          "title": "Régimen de Poderes en CPC y COPP"
         }
       },
       "meta": {
-        "title": "Legal Blog | Mac Consultores Jurídicos & Asociados"
+        "title": "Blog Jurídico | Mac Consultores Jurídicos & Asociados"
       }
-    },
+    }
+  },
+  "en": {
     "noticias": {
       "title": "News & Current Affairs | Mac Consultores Jurídicos & Asociados",
       "breadcrumb": "Current Affairs / Information",
@@ -262,7 +229,7 @@
         "title": "News & Current Affairs | Mac Consultores Jurídicos & Asociados"
       }
     },
-    "articulo_crimen": {
+    "blog_detalle_1": {
       "title": "Criminal Analysis: Evolution of Economic Crime | Mac Consultores Jurídicos & Asociados",
       "breadcrumb": "<a href=\"blog.html\">Blog</a> / Criminal Analysis",
       "h1": "Criminal Analysis: Evolution of Economic Crime",
@@ -306,7 +273,7 @@
       "p2_7a": "Economic criminality requires companies to adopt comprehensive criminal compliance programs, strict internal policies, continuous training, exhaustive due diligence, and early consultation with specialists in Economic Criminal Law.",
       "p2_7b": "At Mac Consultores Jurídicos & Asociados we have experience in risk assessment, design of prevention strategies, and litigation of complex cases of economic criminality, with an approach oriented to the comprehensive protection of corporate victims and the strategic management of criminal crises."
     },
-    "articulo_amparo": {
+    "blog_detalle_2": {
       "title": "Constitutional: Amparo as a Vital Guarantee | Mac Consultores",
       "breadcrumb": "<a href=\"blog.html\">Blog</a> / Constitutional",
       "h1": "Constitutional: Amparo as a Vital Guarantee",
@@ -347,7 +314,7 @@
       "p2_7a": "For those working in the business world—owners, executives, accountants, compliance officers—understanding amparo is not an academic matter: it is a first-order legal risk management tool that can, at the critical moment, preserve freedom, reputation, and business continuity.",
       "p2_7b": "Our team at Mac Consultores Jurídicos & Asociados has solid experience in assessing, preventing, and litigating cases of economic crime, designing criminal compliance programs, and strategically using constitutional amparo to defend corporate victims, executives, and legal entities. If your company faces a criminal investigation, we invite you to contact us."
     },
-    "articulo_poderes": {
+    "blog_detalle_3": {
       "title": "Criminal Procedural: Powers Regime in CPC and COPP | Mac Consultores",
       "breadcrumb": "<a href=\"blog.html\">Blog</a> / Criminal Procedural",
       "h1": "Criminal Procedural: Powers Regime in CPC and COPP",
@@ -387,6 +354,39 @@
       "h2_7": "VII. Specialized Advice at Mac Consultores",
       "p2_7a": "For companies and executives facing criminal investigations or acting as victims in economic crime processes, understanding these differences is not optional: it is a condition for exercising the right of action and real access to justice. The victim's representation in the criminal process does not admit generic formulas.",
       "p2_7b": "Our team has consolidated experience in drafting legal representation instruments for complex criminal processes, representing corporate victims before Venezuelan courts, and designing criminal compliance protocols."
+    },
+    "blog_lista": {
+      "title": "Legal Blog | Mac Consultores Jurídicos & Asociados",
+      "breadcrumb": "Current Affairs / Analysis",
+      "h1": "Strategic Legal Blog",
+      "read_more": "READ MORE →",
+      "article_1": {
+        "tag": "Criminal Analysis",
+        "title": "Evolution of Economic Crime",
+        "desc": "A strategic analysis on how economic crimes have evolved and why they represent today one of the greatest criminal and reputational risks for companies.",
+        "meta": {
+          "title": "Evolution of Economic Crime"
+        }
+      },
+      "article_2": {
+        "tag": "Constitutional",
+        "title": "Amparo as a Vital Guarantee",
+        "desc": "Reflections on the effectiveness of constitutional protection in the contemporary procedural environment and the protection of fundamental rights.",
+        "meta": {
+          "title": "Amparo as a Vital Guarantee"
+        }
+      },
+      "article_3": {
+        "tag": "Criminal Procedural",
+        "title": "Powers Regime in CPC and COPP",
+        "desc": "Analysis on the technical and practical requirements of legal representation in criminal versus civil matters, especially for corporate victims.",
+        "meta": {
+          "title": "Powers Regime in CPC and COPP"
+        }
+      },
+      "meta": {
+        "title": "Legal Blog | Mac Consultores Jurídicos & Asociados"
+      }
     }
   }
 }

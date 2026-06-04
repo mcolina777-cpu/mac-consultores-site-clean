@@ -1,248 +1,179 @@
 /**
- * i18n.js
- * Motor liviano de internacionalización para traducir dinámicamente todo el sitio web
- * a partir de diccionarios JSON compartidos, persistiendo la preferencia en localStorage.
- * Optimizado para SPA con caché de memoria y soporte de URLs limpias.
+ * I18nManager - Nuevo sistema de internacionalización orientado a objetos para SPA
+ * Diseñado sin dependencias de nombres de archivo (.html) y con claves lógicas exactas.
  */
+class I18nManager {
+    constructor() {
+        this.cacheBuster = 'v4'; // Forzar limpieza de caché en el navegador
+        this.currentLang = localStorage.getItem('lang') || document.documentElement.lang || 'es';
+        this.jsonCache = {};
+        
+        // Tabla de enrutamiento estricta: URL -> { key (clave lógica), file (archivo JSON) }
+        this.ROUTE_MAP = {
+            '/': { key: 'home', file: 'home.json' },
+            '/index': { key: 'home', file: 'home.json' },
+            '/quienes-somos': { key: 'quienes_somos', file: 'firma.json' },
+            '/nuestro-ceo': { key: 'ceo', file: 'firma.json' },
+            '/servicios': { key: 'servicios', file: 'servicios.json' },
+            '/tramites-consulares': { key: 'tramites_consulares', file: 'internacional.json' },
+            '/colaboracion-internacional': { key: 'colaboracion_internacional', file: 'internacional.json' },
+            '/contacto': { key: 'contacto', file: 'contacto.json' },
+            '/blog': { key: 'blog_lista', file: 'blog.json' },
+            '/noticias': { key: 'noticias', file: 'blog.json' }, // noticias usa blog.json (según el JSON)
+            '/blog-criminalidad-economica': { key: 'blog_detalle_1', file: 'blog.json' },
+            '/blog-amparo-garantia-vital': { key: 'blog_detalle_2', file: 'blog.json' },
+            '/blog-regimen-poderes-cpc-copp': { key: 'blog_detalle_3', file: 'blog.json' },
+            '/aviso-legal': { key: 'aviso_legal', file: 'common.json' },
+            '/privacidad': { key: 'privacidad', file: 'common.json' }
+        };
+        
+        this.init();
+    }
+    
+    init() {
+        document.documentElement.lang = this.currentLang;
+        
+        // Configurar botones de selector de idioma
+        document.addEventListener('click', (e) => {
+            if (e.target.matches('.lang-btn')) {
+                const lang = e.target.getAttribute('data-lang');
+                if (lang && lang !== this.currentLang) {
+                    this.changeLanguage(lang);
+                }
+            }
+        });
+        
+        // Carga inicial basada en la URL actual
+        this.onRouteUpdate(window.location.pathname);
+    }
+    
+    getRouteInfo(path) {
+        // Limpiar la ruta para que coincida con el mapa
+        let cleanPath = path;
+        if (cleanPath.endsWith('.html')) {
+            cleanPath = cleanPath.substring(0, cleanPath.length - 5);
+        }
+        if (!cleanPath.startsWith('/')) {
+            cleanPath = '/' + cleanPath;
+        }
+        if (cleanPath === '' || cleanPath === '/') {
+            cleanPath = '/index'; // Default
+        }
+        
+        const info = this.ROUTE_MAP[cleanPath];
+        if (info) return info;
+        
+        // Fallback robusto por si se añade una página nueva no mapeada
+        const parts = cleanPath.split('/');
+        const lastPart = parts[parts.length - 1];
+        return { key: lastPart, file: 'home.json' }; // Por defecto usa home.json
+    }
+    
+    async fetchJson(file) {
+        if (this.jsonCache[file]) {
+            return this.jsonCache[file];
+        }
+        try {
+            const res = await fetch(`/${file}?v=${this.cacheBuster}`);
+            if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+            const data = await res.json();
+            this.jsonCache[file] = data;
+            return data;
+        } catch (e) {
+            console.error(`[I18nManager] Error cargando ${file}:`, e);
+            return null;
+        }
+    }
+    
+    async changeLanguage(lang) {
+        this.currentLang = lang;
+        localStorage.setItem('lang', lang);
+        document.documentElement.lang = lang;
+        
+        // Actualizar UI de los botones
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            if (btn.getAttribute('data-lang') === lang) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        });
+        
+        await this.onRouteUpdate(window.location.pathname);
+    }
+    
+    async onRouteUpdate(path) {
+        const routeInfo = this.getRouteInfo(path);
+        
+        // Cargar en paralelo el diccionario común y el específico de la página
+        const [commonData, specificData] = await Promise.all([
+            this.fetchJson('common.json'),
+            this.fetchJson(routeInfo.file)
+        ]);
+        
+        // Unir ambos diccionarios para el idioma actual
+        const langData = {};
+        
+        if (commonData && commonData[this.currentLang]) {
+            Object.assign(langData, commonData[this.currentLang]);
+        }
+        if (specificData && specificData[this.currentLang]) {
+            Object.assign(langData, specificData[this.currentLang]);
+        }
+        
+        // Ejecutar traducción en el DOM y actualizar meta título
+        this.translateDOM(langData);
+        this.updateDocumentTitle(langData, routeInfo.key);
+    }
+    
+    translateDOM(langData) {
+        const elements = document.querySelectorAll('[data-i18n]');
+        elements.forEach(el => {
+            const keyPath = el.getAttribute('data-i18n');
+            const translation = this.getNestedValue(langData, keyPath);
+            
+            if (translation) {
+                // Manejar inputs y textareas
+                if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                    if (el.type === 'submit' || el.type === 'button') {
+                        el.value = translation;
+                    } else {
+                        el.placeholder = translation;
+                    }
+                } else {
+                    // Elementos estándar (p, h1, span, etc.)
+                    el.innerHTML = translation;
+                }
+            }
+        });
+    }
+    
+    getNestedValue(obj, path) {
+        // Recorre el objeto anidado (ej. "blog_detalle_1.p1")
+        return path.split('.').reduce((acc, part) => {
+            return acc && acc[part] !== undefined ? acc[part] : null;
+        }, obj);
+    }
+    
+    updateDocumentTitle(langData, pageKey) {
+        // Intenta buscar el título en meta.title (inyectado por el script)
+        if (langData[pageKey] && langData[pageKey].meta && langData[pageKey].meta.title) {
+            document.title = langData[pageKey].meta.title;
+        } else if (langData.meta && langData.meta.title) {
+            document.title = langData.meta.title;
+        }
+    }
+}
 
-// Mapeo de claves lógicas de página a sus respectivos diccionarios JSON
-const PAGE_TRANSLATION_MAP = {
-  'home': 'home.json',
-  'quienes-somos': 'firma.json',
-  'nuestro-ceo': 'firma.json',
-  'socios-colaboradores': 'firma.json',
-  'servicios': 'servicios.json',
-  'tramites-consulares': 'internacional.json',
-  'colaboracion-internacional': 'internacional.json',
-  'contacto': 'contacto.json',
-  'aviso-legal': 'contacto.json',
-  'privacidad': 'contacto.json',
-  'blog': 'blog.json',
-  'noticias': 'blog.json',
-  'blog-criminalidad-economica': 'blog.json',
-  'blog-amparo-garantia-vital': 'blog.json',
-  'blog-regimen-poderes-cpc-copp': 'blog.json'
+// Inicializar la instancia global al cargar el script
+window.i18nSystem = new I18nManager();
+
+// Exponer función global para el router (SPA)
+window.onRouteChange = function(path) {
+    window.i18nSystem.onRouteUpdate(path || window.location.pathname);
 };
 
-// Caché en memoria para no descargar los mismos JSON más de una vez por sesión
-const jsonCache = {};
-
-// Diccionario de traducciones fusionadas actual
-let currentTranslations = {};
-
-/**
- * Obtener un valor de un objeto usando una ruta separada por puntos (ej. 'home.hero.title')
- */
-function getNestedValue(obj, path) {
-  if (!obj || !path) return null;
-  return path.split('.').reduce((acc, part) => acc && acc[part], obj);
-}
-
-/**
- * Extrae la clave lógica de la página a partir de la URL actual.
- * Transforma '/quienes-somos.html' o '/quienes-somos' en 'quienes-somos'
- */
-function getPageKey() {
-  let path = window.location.pathname;
-  if (path === '/' || path === '') return 'home';
-  
-  // Extraer la última parte de la ruta
-  let page = path.substring(path.lastIndexOf('/') + 1);
-  if (!page) return 'home'; // En caso de que termine en /
-  
-  // Eliminar .html si existe
-  if (page.endsWith('.html')) {
-    page = page.substring(0, page.length - 5);
-  }
-  
-  // Si la ruta era index.html
-  if (page === 'index') return 'home';
-  
-  return page;
-}
-
-/**
- * Carga el diccionario JSON común (navbar, footer) utilizando caché
- */
-async function loadCommonTranslations(lang) {
-  if (!jsonCache['common.json']) {
-    try {
-      const res = await fetch('common.json?v=3');
-      if (res.ok) {
-        jsonCache['common.json'] = await res.json();
-      }
-    } catch (e) {
-      console.error('Error cargando common.json:', e);
-    }
-  }
-  return jsonCache['common.json'] ? (jsonCache['common.json'][lang] || {}) : {};
-}
-
-/**
- * Carga el diccionario JSON específico para la página actual utilizando caché
- */
-async function loadPageTranslations(lang, pageKey) {
-  const specificJson = PAGE_TRANSLATION_MAP[pageKey];
-  if (!specificJson) return {};
-  
-  if (!jsonCache[specificJson]) {
-    try {
-      const res = await fetch(`${specificJson}?v=3`);
-      if (res.ok) {
-        jsonCache[specificJson] = await res.json();
-      }
-    } catch (e) {
-      console.error(`Error cargando ${specificJson}:`, e);
-    }
-  }
-  return jsonCache[specificJson] ? (jsonCache[specificJson][lang] || {}) : {};
-}
-
-/**
- * Evento disparado cada vez que cambia la ruta en el router SPA
- */
-async function onRouteChange() {
-  const lang = document.documentElement.lang || 'es';
-  const pageKey = getPageKey();
-  
-  const commonLangData = await loadCommonTranslations(lang);
-  const specificLangData = await loadPageTranslations(lang, pageKey);
-  
-  // Fusionar ambos diccionarios para la traducción actual
-  currentTranslations = { ...commonLangData, ...specificLangData };
-  
-  translateDOM(pageKey);
-}
-
-/**
- * Traduce todos los elementos con atributo 'data-i18n' en el DOM
- */
-function translateDOM(pageKey) {
-  const elements = document.querySelectorAll('[data-i18n]');
-  elements.forEach(el => {
-    const key = el.getAttribute('data-i18n');
-    const translation = getNestedValue(currentTranslations, key);
-
-    if (translation === null || translation === undefined) {
-      return; // Clave no encontrada
-    }
-
-    // Si la traducción es un array, se trata de una lista estructurada (como ul/ol)
-    if (Array.isArray(translation)) {
-      // Reconstruir la lista
-      el.innerHTML = '';
-      translation.forEach(item => {
-        const li = document.createElement('li');
-        li.innerHTML = item;
-        el.appendChild(li);
-      });
-      return;
-    }
-
-    const tagName = el.tagName.toLowerCase();
-
-    // Traducir inputs, textareas y selects
-    if (tagName === 'input' || tagName === 'textarea') {
-      if (el.hasAttribute('placeholder')) {
-        el.setAttribute('placeholder', translation);
-      } else if (el.type === 'button' || el.type === 'submit') {
-        el.value = translation;
-      }
-    } else if (tagName === 'select') {
-      el.textContent = translation;
-    } else {
-      // Reemplazar texto conservando estructura interna si contiene tags HTML (como strong/em)
-      el.innerHTML = translation;
-    }
-  });
-
-  // Actualizar document.title simplificado para SPA y JSONs múltiples
-  // Busca en la sección específica de la página primero, y si no en la raíz
-  const pageData = currentTranslations[pageKey];
-  const title = (pageData && pageData.meta && pageData.meta.title) || 
-                (currentTranslations.meta && currentTranslations.meta.title);
-                
-  if (title) {
-    document.title = title;
-  }
-}
-
-/**
- * Función principal para cambiar de idioma (por interacción del usuario)
- */
-async function changeLanguage(lang) {
-  // Sincronizar el atributo HTML lang
-  document.documentElement.lang = lang;
-  
-  // Guardar en localStorage
-  localStorage.setItem('preferred-lang', lang);
-
-  // Recargar las traducciones de la ruta actual
-  await onRouteChange();
-
-  // Refrescar el selector visual de idioma
-  syncLanguageSelector(lang);
-
-  // Desencadenar el refresco del Insight Jurídico del Día
-  if (window.initDailyInsight) {
-    window.initDailyInsight();
-  }
-}
-
-/**
- * Sincroniza visualmente el estado del selector en el nav
- */
-function syncLanguageSelector(lang) {
-  const langButtons = document.querySelectorAll('.lang-btn');
-  langButtons.forEach(btn => {
-    if (btn.getAttribute('data-lang') === lang) {
-      btn.classList.add('active');
-    } else {
-      btn.classList.remove('active');
-    }
-  });
-}
-
-/**
- * Inicialización inicial de traducción
- */
-async function initI18n() {
-  // Detectar idioma: 1. LocalStorage, 2. Atributo HTML inicial, 3. Navegador
-  let lang = localStorage.getItem('preferred-lang');
-  if (!lang) {
-    lang = document.documentElement.lang || (navigator.language.startsWith('en') ? 'en' : 'es');
-  }
-
-  // Asegurar formato de dos letras
-  lang = lang.toLowerCase().startsWith('en') ? 'en' : 'es';
-
-  document.documentElement.lang = lang;
-  
-  // Procesar traducciones de la primera carga
-  await onRouteChange();
-  
-  syncLanguageSelector(lang);
-}
-
-// Escuchar eventos globales de click para el selector de idiomas en el DOM
-document.addEventListener('DOMContentLoaded', () => {
-  // Registrar listeners de click para los botones de idioma
-  document.body.addEventListener('click', event => {
-    const langBtn = event.target.closest('.lang-btn');
-    if (langBtn) {
-      const selectedLang = langBtn.getAttribute('data-lang');
-      if (selectedLang) {
-        changeLanguage(selectedLang);
-      }
-    }
-  });
-
-  // Ejecutar inicialización del i18n
-  initI18n();
+// Escuchar eventos de retroceso/avance del navegador
+window.addEventListener('popstate', () => {
+    window.onRouteChange(window.location.pathname);
 });
-
-// Exportar funciones a nivel de window para ser invocadas por el enrutador o scripts locales
-window.changeLanguage = changeLanguage;
-window.translateDOM = translateDOM;
-window.initI18n = initI18n;
-window.onRouteChange = onRouteChange;
