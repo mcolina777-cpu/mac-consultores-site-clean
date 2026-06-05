@@ -11,48 +11,27 @@
         "title": "Servicios Especializados para el Exterior",
         "card_1": {
           "title": "Práctica Consular",
-          "desc": "Apoderamiento legal y representación estratégica ante misiones consulares y autoridades migratorias para garantizar su movilidad y derechos fundamentales.",
-          "meta": {
-            "title": "Práctica Consular"
-          }
+          "desc": "Apoderamiento legal y representación estratégica ante misiones consulares y autoridades migratorias para garantizar su movilidad y derechos fundamentales."
         },
         "card_2": {
           "title": "Gestión Documental",
-          "desc": "Legalización internacional, Apostilla de La Haya y validación de documentos públicos con eficacia garantizada y rigor técnico procesal.",
-          "meta": {
-            "title": "Gestión Documental"
-          }
+          "desc": "Legalización internacional, Apostilla de La Haya y validación de documentos públicos con eficacia garantizada y rigor técnico procesal."
         },
         "card_3": {
           "title": "Derecho de Familia",
-          "desc": "Litigio especializado en casos de sustracción internacional de menores y ejecución de obligaciones alimentarias transnacionales con enfoque humano.",
-          "meta": {
-            "title": "Derecho de Familia"
-          }
+          "desc": "Litigio especializado en casos de sustracción internacional de menores y ejecución de obligaciones alimentarias transnacionales con enfoque humano."
         },
         "card_4": {
           "title": "Sucesiones",
-          "desc": "Resolución de conflictos hereditarios y planificación patrimonial integral con activos o herederos dispersos en distintas jurisdicciones globales.",
-          "meta": {
-            "title": "Sucesiones"
-          }
+          "desc": "Resolución de conflictos hereditarios y planificación patrimonial integral con activos o herederos dispersos en distintas jurisdicciones globales."
         },
         "card_5": {
           "title": "Representación Judicial",
-          "desc": "Defensa técnica de alta gama en procesos penales, civiles o administrativos en territorio venezolano, sin requerir su traslado físico al país.",
-          "meta": {
-            "title": "Representación Judicial"
-          }
+          "desc": "Defensa técnica de alta gama en procesos penales, civiles o administrativos en territorio venezolano, sin requerir su traslado físico al país."
         },
         "card_6": {
           "title": "Poderes Estratégicos",
-          "desc": "Asesoría y redacción de mandatos y facultades especiales para que sus intereses patrimoniales y legales en Venezuela estén siempre blindados.",
-          "meta": {
-            "title": "Poderes Estratégicos"
-          }
-        },
-        "meta": {
-          "title": "Servicios Especializados para el Exterior"
+          "desc": "Asesoría y redacción de mandatos y facultades especiales para que sus intereses patrimoniales y legales en Venezuela estén siempre blindados."
         }
       },
       "form": {
@@ -64,13 +43,7 @@
         "placeholder_country": "Ej. España, Estados Unidos, Chile",
         "label_message": "Mensaje / Requerimiento",
         "placeholder_message": "Describa brevemente el trámite o caso judicial en Venezuela",
-        "btn": "ENVIAR SOLICITUD DE EVALUACIÓN",
-        "meta": {
-          "title": "Solicite Asistencia desde el Exterior"
-        }
-      },
-      "meta": {
-        "title": "Venezolanos en el Exterior | Mac Consultores Jurídicos & Asociados"
+        "btn": "ENVIAR SOLICITUD DE EVALUACIÓN"
       }
     },
     "colaboracion_internacional": {
@@ -81,41 +54,23 @@
         "tag": "Partnership",
         "title": "Aliados estratégicos para firmas internacionales.",
         "p1": "En un entorno jurídico globalizado, la colaboración entre firmas es esencial. Mac Consultores Jurídicos & Asociados actúa como el brazo local estratégico para bufetes internacionales que requieren soporte especializado en Venezuela.",
-        "p2": "Ofrecemos una plataforma de servicios B2B diseñada para integrarse con los estándares de calidad y respuesta de las firmas globales más exigentes.",
-        "meta": {
-          "title": "Aliados estratégicos para firmas internacionales."
-        }
+        "p2": "Ofrecemos una plataforma de servicios B2B diseñada para integrarse con los estándares de calidad y respuesta de las firmas globales más exigentes."
       },
       "proposal": {
         "tag": "Nuestra Propuesta",
         "title": "Soporte Local para Firmas Globales",
         "card_1": {
           "title": "Corresponsalía Jurídica",
-          "desc": "Actuamos como sus corresponsales locales en Venezuela, gestionando actuaciones judiciales y trámites administrativos con total transparencia.",
-          "meta": {
-            "title": "Corresponsalía Jurídica"
-          }
+          "desc": "Actuamos como sus corresponsales locales en Venezuela, gestionando actuaciones judiciales y trámites administrativos con total transparencia."
         },
         "card_2": {
           "title": "Due Diligence Legal",
-          "desc": "Análisis exhaustivo de riesgos y auditorías legales en jurisdicción venezolana para fusiones, adquisiciones o proyectos de inversión.",
-          "meta": {
-            "title": "Due Diligence Legal"
-          }
+          "desc": "Análisis exhaustivo de riesgos y auditorías legales en jurisdicción venezolana para fusiones, adquisiciones o proyectos de inversión."
         },
         "card_3": {
           "title": "Opiniones Legales",
-          "desc": "Emisión de dictámenes técnicos y legal opinions sobre normativa venezolana para ser utilizados en procedimientos extranjeros.",
-          "meta": {
-            "title": "Opiniones Legales"
-          }
-        },
-        "meta": {
-          "title": "Soporte Local para Firmas Globales"
+          "desc": "Emisión de dictámenes técnicos y legal opinions sobre normativa venezolana para ser utilizados en procedimientos extranjeros."
         }
-      },
-      "meta": {
-        "title": "Colaboración Internacional | Mac Consultores Jurídicos & Asociados"
       }
     }
   },
@@ -131,48 +86,27 @@
         "title": "Specialized Services for Abroad",
         "card_1": {
           "title": "Consular Practice",
-          "desc": "Legal empowerment and strategic representation before consular missions and migration authorities to guarantee your mobility and fundamental rights.",
-          "meta": {
-            "title": "Consular Practice"
-          }
+          "desc": "Legal empowerment and strategic representation before consular missions and migration authorities to guarantee your mobility and fundamental rights."
         },
         "card_2": {
           "title": "Document Management",
-          "desc": "International legalization, Hague Apostille, and validation of public documents with guaranteed efficacy and procedural technical rigor.",
-          "meta": {
-            "title": "Document Management"
-          }
+          "desc": "International legalization, Hague Apostille, and validation of public documents with guaranteed efficacy and procedural technical rigor."
         },
         "card_3": {
           "title": "Family Law",
-          "desc": "Specialized litigation in cases of international child abduction and execution of transnational child support obligations with a humane approach.",
-          "meta": {
-            "title": "Family Law"
-          }
+          "desc": "Specialized litigation in cases of international child abduction and execution of transnational child support obligations with a humane approach."
         },
         "card_4": {
           "title": "Inheritances & Estates",
-          "desc": "Resolution of inheritance disputes and comprehensive estate planning with assets or heirs dispersed across different global jurisdictions.",
-          "meta": {
-            "title": "Inheritances & Estates"
-          }
+          "desc": "Resolution of inheritance disputes and comprehensive estate planning with assets or heirs dispersed across different global jurisdictions."
         },
         "card_5": {
           "title": "Judicial Representation",
-          "desc": "High-end technical defense in criminal, civil, or administrative proceedings in Venezuelan territory, without requiring physical presence.",
-          "meta": {
-            "title": "Judicial Representation"
-          }
+          "desc": "High-end technical defense in criminal, civil, or administrative proceedings in Venezuelan territory, without requiring physical presence."
         },
         "card_6": {
           "title": "Strategic Powers of Attorney",
-          "desc": "Advisory and drafting of mandates and special powers of attorney to ensure your asset and legal interests in Venezuela are always shielded.",
-          "meta": {
-            "title": "Strategic Powers of Attorney"
-          }
-        },
-        "meta": {
-          "title": "Specialized Services for Abroad"
+          "desc": "Advisory and drafting of mandates and special powers of attorney to ensure your asset and legal interests in Venezuela are always shielded."
         }
       },
       "form": {
@@ -184,13 +118,7 @@
         "placeholder_country": "e.g., Spain, United States, Chile",
         "label_message": "Message / Request",
         "placeholder_message": "Briefly describe the transaction or legal case in Venezuela",
-        "btn": "SUBMIT REQUEST FOR ASSESSMENT",
-        "meta": {
-          "title": "Request Assistance from Abroad"
-        }
-      },
-      "meta": {
-        "title": "Venezuelans Abroad | Mac Consultores Jurídicos & Asociados"
+        "btn": "SUBMIT REQUEST FOR ASSESSMENT"
       }
     },
     "colaboracion_internacional": {
@@ -201,41 +129,23 @@
         "tag": "Partnership",
         "title": "Strategic allies for international law firms.",
         "p1": "In a globalized legal environment, collaboration between firms is essential. Mac Consultores Jurídicos & Asociados acts as the strategic local arm for international firms requiring specialized support in Venezuela.",
-        "p2": "We offer a B2B services platform designed to integrate with the quality and response standards of the most demanding global firms.",
-        "meta": {
-          "title": "Strategic allies for international law firms."
-        }
+        "p2": "We offer a B2B services platform designed to integrate with the quality and response standards of the most demanding global firms."
       },
       "proposal": {
         "tag": "Our Proposal",
         "title": "Local Support for Global Firms",
         "card_1": {
           "title": "Legal Correspondency",
-          "desc": "We act as your local correspondents in Venezuela, managing judicial actions and administrative procedures with complete transparency.",
-          "meta": {
-            "title": "Legal Correspondency"
-          }
+          "desc": "We act as your local correspondents in Venezuela, managing judicial actions and administrative procedures with complete transparency."
         },
         "card_2": {
           "title": "Legal Due Diligence",
-          "desc": "Exhaustive risk analysis and legal audits in the Venezuelan jurisdiction for mergers, acquisitions, or investment projects.",
-          "meta": {
-            "title": "Legal Due Diligence"
-          }
+          "desc": "Exhaustive risk analysis and legal audits in the Venezuelan jurisdiction for mergers, acquisitions, or investment projects."
         },
         "card_3": {
           "title": "Legal Opinions",
-          "desc": "Issuance of technical reports and legal opinions on Venezuelan regulations to be used in foreign proceedings.",
-          "meta": {
-            "title": "Legal Opinions"
-          }
-        },
-        "meta": {
-          "title": "Local Support for Global Firms"
+          "desc": "Issuance of technical reports and legal opinions on Venezuelan regulations to be used in foreign proceedings."
         }
-      },
-      "meta": {
-        "title": "International Collaboration | Mac Consultores Jurídicos & Asociados"
       }
     }
   }

@@ -11,10 +11,7 @@
         "hq": "Sede Principal",
         "email": "Correo Electrónico",
         "hours": "Horario de Atención",
-        "hours_val": "Lunes a Viernes: 8:00 AM - 5:00 PM",
-        "meta": {
-          "title": "Estamos para proteger sus intereses."
-        }
+        "hours_val": "Lunes a Viernes: 8:00 AM - 5:00 PM"
       },
       "form": {
         "label_name": "Nombre completo",
@@ -52,13 +49,7 @@
         "virtual": "💻 Consultas Virtuales:",
         "virtual_link": "Reunión por Google Meet",
         "follow": "📱 X (Twitter):",
-        "follow_link": "Síganos en X para actualizaciones",
-        "meta": {
-          "title": "Canales Alternativos"
-        }
-      },
-      "meta": {
-        "title": "Contacto | Mac Consultores Jurídicos & Asociados"
+        "follow_link": "Síganos en X para actualizaciones"
       }
     },
     "legal_pages": {
@@ -104,10 +95,7 @@
         "hq": "Headquarters",
         "email": "Email Address",
         "hours": "Business Hours",
-        "hours_val": "Monday to Friday: 8:00 AM - 5:00 PM",
-        "meta": {
-          "title": "We are here to protect your interests."
-        }
+        "hours_val": "Monday to Friday: 8:00 AM - 5:00 PM"
       },
       "form": {
         "label_name": "Full name",
@@ -145,13 +133,7 @@
         "virtual": "💻 Virtual Inquiries:",
         "virtual_link": "Meeting via Google Meet",
         "follow": "📱 X (Twitter):",
-        "follow_link": "Follow us on X for updates",
-        "meta": {
-          "title": "Alternative Channels"
-        }
-      },
-      "meta": {
-        "title": "Contact | Mac Consultores Jurídicos & Asociados"
+        "follow_link": "Follow us on X for updates"
       }
     },
     "legal_pages": {
