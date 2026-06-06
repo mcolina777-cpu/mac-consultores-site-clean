@@ -944,6 +944,22 @@ nav .nav-links a[href*="blog"] {
 }
 /* AJUSTE RESPONSIVE FINO - SECCIÓN CONTACTO/CONSULTAS */
 @media (max-width: 768px) {
+    /* OBJETIVO A */
+    .page-contacto .page-header {
+        padding: 40px 0 20px;
+    }
+    
+    .page-contacto .page-header h1 {
+        font-size: 2.2rem;
+        line-height: 1.25;
+    }
+    
+    .page-contacto .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 1.25rem;
+    }
+    
     .page-contacto section {
         padding: 70px 0;
     }
@@ -952,7 +968,31 @@ nav .nav-links a[href*="blog"] {
         margin-bottom: 2.5rem;
     }
     
+    .page-contacto .form-card {
+        padding: 25px 20px;
+    }
+    
+    .page-contacto .form-group input,
+    .page-contacto .form-group select,
+    .page-contacto .form-group textarea {
+        width: 100%;
+    }
+    
     .page-contacto .form-card .btn {
         margin-top: 1rem;
+        width: 100%;
+    }
+
+    /* OBJETIVO B */
+    .page-contacto .footer {
+        padding-top: 40px;
+        padding-bottom: 30px;
+        margin-top: 2rem;
+    }
+    
+    .page-contacto .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin: 0 auto;
     }
 }
