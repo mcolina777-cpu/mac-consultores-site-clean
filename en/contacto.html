@@ -51,19 +51,19 @@
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <script src="../i18n.js" defer></script>
 </head>
-<body>
+<body class="page-contacto">
 
     <nav>
         <div class="container">
             <a href="index.html" class="logo">MAC CONSULTORES JURÍDICOS & ASOCIADOS</a>
             <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="quienes-somos.html">The Firm</a></li>
-    <li><a href="servicios.html">Services</a></li>
-    <li><a href="tramites-consulares.html">International</a></li>
-    <li><a href="colaboracion-internacional.html">Alliances</a></li>
-    <li><a href="contacto.html">Contact</a></li>
-    <li class="lang-selector" style="display:flex; align-items:center;">
+    <li><a href="index.html" data-i18n="nav.inicio">Home</a></li>
+    <li><a href="quienes-somos.html" data-i18n="nav.firma">The Firm</a></li>
+    <li><a href="servicios.html" data-i18n="nav.servicios">Services</a></li>
+    <li><a href="tramites-consulares.html" data-i18n="nav.internacional">International</a></li>
+    <li><a href="colaboracion-internacional.html" data-i18n="nav.alianzas">Alliances</a></li>
+    <li><a href="contacto.html" data-i18n="nav.contacto">Contact</a></li>
+    <li class="lang-selector">
         <a href="/contacto.html" class="lang-btn" data-lang="es">ES</a>
         <span class="lang-separator">/</span>
         <a href="/en/contacto.html" class="lang-btn active" data-lang="en">EN</a>
@@ -74,8 +74,8 @@
 
     <header class="page-header">
         <div class="container">
-            <span class="breadcrumb">Client Intake</span>
-            <h1>Contact & Inquiries</h1>
+            <span class="breadcrumb" data-i18n="contacto.breadcrumb">Client Intake</span>
+            <h1 data-i18n="contacto.h1">Contact & Inquiries</h1>
         </div>
     </header>
 
@@ -83,22 +83,22 @@
         <div class="container">
             <div class="grid-2">
                 <div class="contact-info">
-                    <span class="section-tag">Direct Channels</span>
-                    <h2 class="section-title">We are here to protect your interests.</h2>
-                    <p>To schedule a private consultation or request a technical assessment of your case, please use the following channels or complete the attached form.</p>
+                    <span class="section-tag" data-i18n="contacto.info.tag">Direct Channels</span>
+                    <h2 class="section-title" data-i18n="contacto.info.title">We are here to protect your interests.</h2>
+                    <p data-i18n="contacto.info.desc">To schedule a private consultation or request a technical assessment of your case, please use the following channels or complete the attached form.</p>
                     
                     <div class="contact-list">
                         <div class="contact-item">
-                            <h4 class="contact-subtitle">Headquarters</h4>
-                            <p>Caracas, Venezuela</p>
+                            <h4 class="contact-subtitle" data-i18n="contacto.info.hq">Headquarters</h4>
+                            <p data-i18n="footer.location">Caracas, Venezuela</p>
                         </div>
                         <div class="contact-item">
-                            <h4 class="contact-subtitle">Email Address</h4>
+                            <h4 class="contact-subtitle" data-i18n="contacto.info.email">Email Address</h4>
                             <p><a href="mailto:infomacconsul@gmail.com">infomacconsul@gmail.com</a></p>
                         </div>
                         <div class="contact-item">
-                            <h4 class="contact-subtitle">Business Hours</h4>
-                            <p>Monday to Friday: 8:00 AM - 5:00 PM</p>
+                            <h4 class="contact-subtitle" data-i18n="contacto.info.hours">Business Hours</h4>
+                            <p data-i18n="contacto.info.hours_val">Monday to Friday: 8:00 AM - 5:00 PM</p>
                         </div>
                     </div>
                 </div>
@@ -113,69 +113,69 @@
 
                             <!-- Datos básicos de contacto -->
                             <div class="form-group">
-                                <label>Full name</label>
-                                <input type="text" name="nombre" placeholder="e.g., John Doe" required>
+                                <label data-i18n="contacto.form.label_name">Full name</label>
+                                <input type="text" name="nombre" placeholder="e.g., John Doe" data-i18n="contacto.form.placeholder_name" required>
                             </div>
 
                             <div class="form-group">
-                                <label>Email address</label>
-                                <input type="email" name="email" placeholder="example@email.com" required>
+                                <label data-i18n="contacto.form.label_email">Email address</label>
+                                <input type="email" name="email" placeholder="example@email.com" data-i18n="contacto.form.placeholder_email" required>
                             </div>
 
                             <div class="form-group">
-                                <label>Profession / Main role</label>
-                                <input type="text" name="profesion" placeholder="e.g., Chief Financial Officer, entrepreneur, university professor">
+                                <label data-i18n="contacto.form.label_role">Profession / Main role</label>
+                                <input type="text" name="profesion" placeholder="e.g., Chief Financial Officer, entrepreneur, university professor" data-i18n="contacto.form.placeholder_role">
                             </div>
 
                             <!-- Motivo principal de la consulta -->
                             <div class="form-group">
-                                <label>Main reason for inquiry</label>
+                                <label data-i18n="contacto.form.label_reason">Main reason for inquiry</label>
                                 <select name="motivo" required>
-                                    <option value="">Select an option</option>
-                                    <option value="consultoria-penal-corporativa">
+                                    <option value="" data-i18n="contacto.form.reason_default">Select an option</option>
+                                    <option value="consultoria-penal-corporativa" data-i18n="contacto.form.reason_opt1">
                                         Strategic criminal consulting on corporate matters (corporate criminal risks)
                                     </option>
-                                    <option value="denuncia-querella-economica">
+                                    <option value="denuncia-querella-economica" data-i18n="contacto.form.reason_opt2">
                                         Filing a complaint or accusation for economic or corporate actions (case without prior proceedings)
                                     </option>
-                                    <option value="segunda-opinion-penal-corporativa">
+                                    <option value="segunda-opinion-penal-corporativa" data-i18n="contacto.form.reason_opt3">
                                         Second opinion on an ongoing criminal proceeding of economic or corporate content (without replacing your attorney)
                                     </option>
-                                    <option value="tramites-consulares">
+                                    <option value="tramites-consulares" data-i18n="contacto.form.reason_opt4">
                                         Consular procedures and document management in Venezuela for clients abroad
                                     </option>
-                                    <option value="operaciones-patrimoniales">
+                                    <option value="operaciones-patrimoniales" data-i18n="contacto.form.reason_opt5">
                                         Asset and corporate transactions (real estate purchases/sales, company incorporation or mergers, etc.)
                                     </option>
                                 </select>
-                                <small class="form-hint">
+                                <small class="form-hint" data-i18n="contacto.form.hint_practice">
                                     The firm centers its practice on corporate criminal law and matters of an economic, asset, and consular nature.
                                 </small>
                             </div>
 
                             <!-- Naturaleza del asunto penal (opcional) -->
                             <div class="form-group">
-                                <label>Type of facts (only if your inquiry is criminal)</label>
+                                <label data-i18n="contacto.form.label_penal">Type of facts (only if your inquiry is criminal)</label>
                                 <select name="naturaleza-penal">
-                                    <option value="">Not applicable / Non-criminal</option>
-                                    <option value="economico-corporativo">
+                                    <option value="" data-i18n="contacto.form.penal_default">Not applicable / Non-criminal</option>
+                                    <option value="economico-corporativo" data-i18n="contacto.form.penal_opt1">
                                         Acts of an economic or corporate nature (fraud, corruption, embezzlement, corporate crimes)
                                     </option>
-                                    <option value="violento-u-otros">
+                                    <option value="violento-u-otros" data-i18n="contacto.form.penal_opt2">
                                         Violent crimes or other non-economic offenses (assault, homicide, domestic violence, etc.)
                                     </option>
                                 </select>
-                                <small class="form-hint">
+                                <small class="form-hint" data-i18n="contacto.form.hint_violent">
                                     Mac Consultores Jurídicos &amp; Asociados no asume casos de delitos violentos comunes u otras materias penales ajenas al ámbito corporativo.
                                 </small>
                             </div>
 
                             <!-- Descripción breve -->
                             <div class="form-group">
-                                <label>Brief description of inquiry</label>
+                                <label data-i18n="contacto.form.label_desc">Brief description of inquiry</label>
                                 <textarea name="descripcion" rows="4" maxlength="500"
-                                    placeholder="Describe briefly and objectively the reason for your inquiry (maximum 500 characters)."></textarea>
-                                <small class="form-hint">
+                                    placeholder="Describe briefly and objectively the reason for your inquiry (maximum 500 characters)." data-i18n="contacto.form.placeholder_desc"></textarea>
+                                <small class="form-hint" data-i18n="contacto.form.hint_admin">
                                     Este canal no está habilitado para emitir criterios legales ni indicar qué debe hacer en su caso concreto.
                                     Su finalidad es exclusivamente administrativa: recopilar información básica para valorar la pertinencia de una consulta profesional sujeta a honorarios.
                                 </small>
@@ -183,22 +183,22 @@
 
                             <!-- Avisos generales -->
                             <div class="form-group">
-                                <small class="form-hint">
+                                <small class="form-hint" data-i18n="contacto.form.hint_fees">
                                     Toda consulta profesional está sujeta a honorarios, que podrán ser facturados por hora o según el alcance del encargo.
                                     Para cualquier actuación de representación (por ejemplo, interposición de denuncias o querellas, gestión de trámites consulares
                                     o comparecencias en su nombre), es imprescindible el otorgamiento de un poder de representación previamente analizado
                                     y redactado de forma personalizada para su caso.
                                 </small>
-                                <small class="form-hint">
+                                <small class="form-hint" data-i18n="contacto.form.hint_relation">
                                     Las comunicaciones remitidas a través de este formulario no constituyen, por sí mismas, relación abogado–cliente
                                     ni implican aceptación del asunto por parte de la firma.
                                 </small>
                             </div>
 
                             <!-- Botón: solicitud de admisión, no cita directa -->
-                            <button type="submit" class="btn">SUBMIT REQUEST FOR ADMISSION</button>
+                            <button type="submit" class="btn" data-i18n="contacto.form.btn">SUBMIT REQUEST FOR ADMISSION</button>
                         </form>
-                        <div id="mensaje-admision" class="form-hint" style="display: none; margin-top: 1rem;">
+                        <div id="mensaje-admision" class="form-hint" style="display: none; margin-top: 1rem;" data-i18n="contacto.form.success">
                             Su solicitud de admisión ha sido registrada. La firma valorará la información aportada y, de corresponder,
                             se contactará con usted para coordinar una consulta profesional sujeta a honorarios.
                         </div>
@@ -206,11 +206,11 @@
 
                     <!-- Canales Adicionales -->
                     <div class="contact-list" style="margin-top: 2rem;">
-                        <h4 class="contact-subtitle">Alternative Channels</h4>
+                        <h4 class="contact-subtitle" data-i18n="contacto.channels.title">Alternative Channels</h4>
                     
                         <!-- 1. +58-0424-195-09-08 -->
                         <div class="contact-item">
-                            <p><strong>📞 Direct Calls (Mobile 1):</strong>
+                            <p><strong data-i18n="contacto.channels.phone1">📞 Direct Calls (Mobile 1):</strong>
                                 <a href="tel:+584241950908" style="color: var(--accent); font-weight: 600;">
                                     +58 424-195-09-08
                                 </a>
@@ -219,7 +219,7 @@
                     
                         <!-- 2. +58-0424-137-64-97 -->
                         <div class="contact-item">
-                            <p><strong>📞 Direct Calls (Mobile 2):</strong>
+                            <p><strong data-i18n="contacto.channels.phone2">📞 Direct Calls (Mobile 2):</strong>
                                 <a href="tel:+584241376497" style="color: var(--accent); font-weight: 600;">
                                     +58 424-137-64-97
                                 </a>
@@ -228,7 +228,7 @@
                     
                         <!-- 3. +58-0212-414-23-24 -->
                         <div class="contact-item">
-                            <p><strong>☎ Landline (Caracas):</strong>
+                            <p><strong data-i18n="contacto.channels.landline">☎ Landline (Caracas):</strong>
                                 <a href="tel:+582124142324" style="color: var(--accent); font-weight: 600;">
                                     +58 212-414-23-24
                                 </a>
@@ -236,16 +236,16 @@
                         </div>
                     
                         <div class="contact-item">
-                            <p><strong>💻 Virtual Inquiries:</strong>
-                                <a href="https://meet.google.com" target="_blank" style="color: var(--accent); font-weight: 600;">
+                            <p><strong data-i18n="contacto.channels.virtual">💻 Virtual Inquiries:</strong>
+                                <a href="https://meet.google.com" target="_blank" style="color: var(--accent); font-weight: 600;" data-i18n="contacto.channels.virtual_link">
                                     Meeting via Google Meet
                                 </a>
                             </p>
                         </div>
                     
                         <div class="contact-item">
-                            <p><strong>📱 X (Twitter):</strong>
-                                <a href="https://x.com/MacConsultoresV" target="_blank" style="color: var(--accent); font-weight: 600;">
+                            <p><strong data-i18n="contacto.channels.follow">📱 X (Twitter):</strong>
+                                <a href="https://x.com/MacConsultoresV" target="_blank" style="color: var(--accent); font-weight: 600;" data-i18n="contacto.channels.follow_link">
                                     Follow us on X for updates
                                 </a>
                             </p>
@@ -263,39 +263,39 @@
                 <!-- Columna 1: Información Institucional -->
                 <div class="footer-col footer-info">
                     <div class="footer-logo">MAC CONSULTORES JURÍDICOS & ASOCIADOS</div>
-                    <p class="footer-desc">High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests.</p>
+                    <p class="footer-desc" data-i18n="footer.desc">High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests.</p>
                 </div>
                 
                 <!-- Columna 2: Navigation -->
                 <div class="footer-col">
-                    <h4 class="footer-title">Navigation</h4>
+                    <h4 class="footer-title" data-i18n="footer.nav_title">Navigation</h4>
                     <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="quienes-somos.html">About Us</a></li>
-                        <li><a href="nuestro-ceo.html">Our CEO</a></li>
-                        <li><a href="blog.html">Legal Blog</a></li>
-                        <li><a href="noticias.html">News</a></li>
+                        <li><a href="index.html" data-i18n="nav.inicio">Home</a></li>
+                        <li><a href="quienes-somos.html" data-i18n="nav.quienes_somos">About Us</a></li>
+                        <li><a href="nuestro-ceo.html" data-i18n="nav.nuestro_ceo">Our CEO</a></li>
+                        <li><a href="blog.html" data-i18n="nav.blog">Legal Blog</a></li>
+                        <li><a href="noticias.html" data-i18n="nav.noticias">News</a></li>
                     </ul>
                 </div>
                 
                 <!-- Columna 3: Services -->
                 <div class="footer-col">
-                    <h4 class="footer-title">Services</h4>
+                    <h4 class="footer-title" data-i18n="footer.services_title">Services</h4>
                     <ul class="footer-links">
-                        <li><a href="servicios.html">Criminal Law</a></li>
-                        <li><a href="servicios.html">Constitutional Defense</a></li>
-                        <li><a href="tramites-consulares.html">Consular Management</a></li>
-                        <li><a href="colaboracion-internacional.html">Intl. Collaboration</a></li>
+                        <li><a href="servicios.html" data-i18n="footer.penal">Criminal Law</a></li>
+                        <li><a href="servicios.html" data-i18n="footer.constitucional">Constitutional Defense</a></li>
+                        <li><a href="tramites-consulares.html" data-i18n="footer.consular">Consular Management</a></li>
+                        <li><a href="colaboracion-internacional.html" data-i18n="footer.colaboracion">Intl. Collaboration</a></li>
                     </ul>
                 </div>
                 
                 <!-- Columna 4: Offices y Sello -->
                 <div class="footer-col">
-                    <h4 class="footer-title">Offices</h4>
+                    <h4 class="footer-title" data-i18n="footer.offices_title">Offices</h4>
                     <ul class="footer-links">
-                        <li>Torre Financiera, Caracas</li>
+                        <li data-i18n="footer.location">Torre Financiera, Caracas</li>
                         <li><a href="mailto:infomacconsul@gmail.com">infomacconsul@gmail.com</a></li>
-                        <li><a href="contacto.html" class="footer-cta">SCHEDULE APPOINTMENT →</a></li>
+                        <li><a href="contacto.html" class="footer-cta" data-i18n="footer.cta">SCHEDULE APPOINTMENT →</a></li>
                     </ul>
                     <img src="../Logo/Logo blanco.png" alt="Sello Mac Consultores" class="footer-seal-img">
                 </div>
@@ -304,11 +304,11 @@
             
             <div class="footer-bottom">
                 <div class="footer-copyright">
-                    <p>&copy; 2026 Mac Consultores Jurídicos & Asociados. Todos los derechos reservados.</p>
-                    <p class="footer-location"><span>Caracas, Venezuela</span> &middot; <span>Local time</span>: <span id="local-clock">--:--</span></p>
+                    <p data-i18n="footer.copyright">&copy; 2026 Mac Consultores Jurídicos & Asociados. Todos los derechos reservados.</p>
+                    <p class="footer-location"><span data-i18n="footer.location">Caracas, Venezuela</span> &middot; <span data-i18n="footer.local_time">Local time</span>: <span id="local-clock">--:--</span></p>
                 </div>
                 <div class="footer-legal">
-                    <a href="aviso-legal.html">Legal Notice</a> | <a href="privacidad.html">Privacy</a>
+                    <a href="aviso-legal.html" data-i18n="footer.legal_notice">Legal Notice</a> | <a href="privacidad.html" data-i18n="footer.privacy">Privacy</a>
                 </div>
             </div>
         </div>

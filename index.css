@@ -942,3 +942,17 @@ nav .nav-links a[href*="blog"] {
         padding: 15px;
     }
 }
+/* AJUSTE RESPONSIVE FINO - SECCIÓN CONTACTO/CONSULTAS */
+@media (max-width: 768px) {
+    .page-contacto section {
+        padding: 70px 0;
+    }
+    
+    .page-contacto .contact-info {
+        margin-bottom: 2.5rem;
+    }
+    
+    .page-contacto .form-card .btn {
+        margin-top: 1rem;
+    }
+}
