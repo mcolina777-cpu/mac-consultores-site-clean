@@ -82,6 +82,27 @@
           "desc": "Corresponsalías en jurisdicciones clave para la atención de asuntos transfronterizos y gestión consular."
         }
       }
+    },
+    "firma": {
+      "strategies": {
+        "tag": "Estrategias representativas",
+        "title": "Estrategias que reflejan nuestra forma de litigar",
+        "case_selection": {
+          "tag": "Selección de casos",
+          "title": "Priorización de casos con viabilidad real",
+          "desc": "Priorizamos casos con viabilidad jurídica real, tras un análisis riguroso de los hechos y la normativa aplicable. Esta metodología evita litigios innecesarios y alinea expectativas con escenarios jurídicamente posibles."
+        },
+        "case_theory": {
+          "tag": "Teoría del caso",
+          "title": "Teoría del caso como eje de la defensa",
+          "desc": "Cada asunto se estructura desde el inicio con una teoría del caso clara, coherente y verificable. Integramos hechos, prueba y derecho en una narrativa jurídica sólida que guía toda la actuación procesal, desde la primera diligencia hasta el cierre del caso."
+        },
+        "representative_scenarios": {
+          "tag": "Escenarios representativos",
+          "title": "Estrategias aplicadas en contextos sensibles",
+          "desc": "Desde investigaciones penales económicas contra empresas hasta acciones de amparo constitucional, nuestro enfoque se centra en anticipar riesgos, asegurar la cadena probatoria y proteger la reputación del cliente en cada decisión estratégica."
+        }
+      }
     }
   },
   "en": {
@@ -165,6 +186,27 @@
         "card_3": {
           "title": "International Allies",
           "desc": "Correspondents in key jurisdictions for handling cross-border matters and consular management."
+        }
+      }
+    },
+    "firma": {
+      "strategies": {
+        "tag": "Strategic case highlights",
+        "title": "Strategies that reflect our litigation approach",
+        "case_selection": {
+          "tag": "Case selection",
+          "title": "Prioritizing cases with real viability",
+          "desc": "We prioritize cases with real legal viability, following a rigorous analysis of the facts and applicable regulations. This methodology avoids unnecessary litigation and aligns expectations with legally sound scenarios."
+        },
+        "case_theory": {
+          "tag": "Case theory",
+          "title": "Case theory as the core of defense",
+          "desc": "Every matter is structured from the outset with a clear, coherent, and verifiable case theory. We integrate facts, evidence, and law into a solid legal narrative that guides all procedural actions, from the first step to case closure."
+        },
+        "representative_scenarios": {
+          "tag": "Representative scenarios",
+          "title": "Strategies applied in sensitive contexts",
+          "desc": "From economic criminal investigations against companies to constitutional amparo actions, our approach focuses on anticipating risks, securing the evidentiary chain, and protecting the client's reputation in every strategic decision."
         }
       }
     }
