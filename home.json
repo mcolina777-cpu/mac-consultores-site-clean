@@ -71,6 +71,25 @@
           "cta": "DESCARGAR PLANTILLA →"
         },
         "cta": "Ver recursos estratégicos"
+      },
+      "strategies": {
+        "tag": "Estrategias representativas",
+        "title": "Estrategias que reflejan nuestra forma de litigar",
+        "case_selection": {
+          "tag": "Selección de casos",
+          "title": "Priorización de casos con viabilidad real",
+          "desc": "Priorizamos casos con viabilidad jurídica real, tras un análisis riguroso de los hechos y la normativa aplicable. Esta metodología evita litigios innecesarios y alinea expectativas con escenarios jurídicamente posibles."
+        },
+        "case_theory": {
+          "tag": "Teoría del caso",
+          "title": "Teoría del caso como eje de la defensa",
+          "desc": "Cada asunto se estructura desde el inicio con una teoría del caso clara, coherente y verificable. Integramos hechos, prueba y derecho en una narrativa jurídica sólida que guía toda la actuación procesal, desde la primera diligencia hasta el cierre del caso."
+        },
+        "representative_scenarios": {
+          "tag": "Escenarios representativos",
+          "title": "Estrategias aplicadas en contextos sensibles",
+          "desc": "Desde investigaciones penales económicas contra empresas hasta acciones de amparo constitucional, nuestro enfoque se centra en anticipar riesgos, asegurar la cadena probatoria y proteger la reputación del cliente en cada decisión estratégica."
+        }
       }
     }
   },
@@ -146,6 +165,25 @@
           "cta": "DOWNLOAD TEMPLATE →"
         },
         "cta": "View strategic resources"
+      },
+      "strategies": {
+        "tag": "Strategic case highlights",
+        "title": "Strategies that reflect how we litigate",
+        "case_selection": {
+          "tag": "Case selection",
+          "title": "Prioritizing cases with real viability",
+          "desc": "We prioritize cases with genuine legal viability, after a rigorous analysis of facts and applicable law. This methodology avoids unnecessary litigation and aligns expectations with legally realistic scenarios."
+        },
+        "case_theory": {
+          "tag": "Case theory",
+          "title": "Case theory as the axis of defense",
+          "desc": "Each matter is structured from the outset with a clear, coherent, and verifiable case theory. We integrate facts, evidence, and law into a solid legal narrative that guides the entire procedural strategy."
+        },
+        "representative_scenarios": {
+          "tag": "Representative scenarios",
+          "title": "Strategies applied in sensitive contexts",
+          "desc": "From economic criminal investigations against companies to constitutional protection actions, our approach focuses on anticipating risks, securing the evidentiary chain, and protecting the client's reputation in each strategic decision."
+        }
       }
     }
   }
