@@ -47,6 +47,31 @@
         "title": "Nuevos Acuerdos Internacionales",
         "desc": "Cómo los nuevos marcos de colaboración internacional afectan de forma directa las gestiones consulares de la diáspora venezolana."
       }
+    },
+    "home": {
+      "resources": {
+        "tag": "Recursos",
+        "title": "Recursos estratégicos para empresas",
+        "guide": {
+          "tag": "Riesgo penal económico",
+          "title": "Guía en 5 pasos para proteger su empresa ante investigaciones penales económicas",
+          "desc": "Documento práctico que resume las medidas clave de prevención, documentación y reacción en escenarios de riesgo penal económico.",
+          "cta": "DESCARGAR GUÍA →"
+        },
+        "checklist": {
+          "tag": "Documentación para la defensa",
+          "title": "Checklist de documentación para la defensa penal de empresas",
+          "desc": "Lista estructurada de documentos esenciales para organizar la defensa penal y responder con rapidez a los requerimientos de las autoridades.",
+          "cta": "DESCARGAR CHECKLIST →"
+        },
+        "template": {
+          "tag": "Servicios internacionales",
+          "title": "Plantilla de contrato de prestación de servicios legales internacionales",
+          "desc": "Modelo de contrato orientado a clientes internacionales, con cláusulas de jurisdicción, ley aplicable, honorarios y confidencialidad.",
+          "cta": "DESCARGAR PLANTILLA →"
+        },
+        "cta": "Ver recursos estratégicos"
+      }
     }
   },
   "en": {
@@ -96,6 +121,31 @@
       "card_3": {
         "title": "New International Agreements",
         "desc": "How new international collaboration frameworks directly affect consular management for the Venezuelan diaspora."
+      }
+    },
+    "home": {
+      "resources": {
+        "tag": "Resources",
+        "title": "Strategic resources for businesses",
+        "guide": {
+          "tag": "Economic criminal risk",
+          "title": "5-step guide to protect your company in economic criminal investigations",
+          "desc": "Practical document summarizing key prevention, documentation, and reaction measures in economic criminal risk scenarios.",
+          "cta": "DOWNLOAD GUIDE →"
+        },
+        "checklist": {
+          "tag": "Defense documentation",
+          "title": "Checklist of documentation for corporate criminal defense",
+          "desc": "Structured list of essential documents to organize criminal defense and respond quickly to requests from authorities.",
+          "cta": "DOWNLOAD CHECKLIST →"
+        },
+        "template": {
+          "tag": "International services",
+          "title": "Template for international legal services agreements",
+          "desc": "Model agreement for international clients, with clauses on jurisdiction, applicable law, fees, and confidentiality.",
+          "cta": "DOWNLOAD TEMPLATE →"
+        },
+        "cta": "View strategic resources"
       }
     }
   }
