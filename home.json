@@ -83,12 +83,16 @@
         "case_theory": {
           "tag": "Teoría del caso",
           "title": "Teoría del caso como eje de la defensa",
-          "desc": "Cada asunto se estructura desde el inicio con una teoría del caso clara, coherente y verificable. Integramos hechos, prueba y derecho en una narrativa jurídica sólida que guía toda la actuación procesal, desde la primera diligencia hasta el cierre del caso."
+          "desc": "Cada asunto se estructura desde el inicio con una teoría del caso clara, coherente y verificable. Integramos hechos, prueba y derecho en una narrativa jurídica sólida que guía toda la actuación procesal, desde la primera diligencia hasta el cierre del caso.",
+          "long_title": "Teoría del caso: de la hipótesis a la estrategia procesal",
+          "long_desc": "La teoría del caso no es un discurso retórico; es la columna vertebral de toda defensa seria. Partimos de una hipótesis central que explica qué ocurrió, por qué ocurrió y cómo los elementos de prueba la sostienen frente a la versión acusatoria.\n\nDesde las primeras diligencias, definimos cuál será la narrativa probatoria que queremos que el tribunal escuche y entienda: qué hechos se admiten, cuáles se disputan, qué vacíos tiene la acusación y qué indicadores revelan que la imputación es forzada o desproporcionada. Esta teoría guía la preparación de declaraciones, la selección de peritos, el contrainterrogatorio y el uso de la prueba documental.\n\nEl resultado es una estrategia procesal coherente: cada escrito, cada actuación y cada alegato responde a un mismo eje argumental, evitando contradicciones defensivas, improvisaciones y giros que restan credibilidad al cliente ante los jueces y el Ministerio Público."
         },
         "representative_scenarios": {
           "tag": "Escenarios representativos",
           "title": "Estrategias aplicadas en contextos sensibles",
-          "desc": "Desde investigaciones penales económicas contra empresas hasta acciones de amparo constitucional, nuestro enfoque se centra en anticipar riesgos, asegurar la cadena probatoria y proteger la reputación del cliente en cada decisión estratégica."
+          "desc": "Desde investigaciones penales económicas contra empresas hasta acciones de amparo constitucional, nuestro enfoque se centra en anticipar riesgos, asegurar la cadena probatoria y proteger la reputación del cliente en cada decisión estratégica.",
+          "long_title": "Estrategias en escenarios penales y constitucionales sensibles",
+          "long_desc": "En los asuntos más sensibles —investigaciones penales económicas contra empresas, procedimientos con impacto mediático o acciones de amparo constitucional— diseñamos la estrategia combinando tres planos: jurídico, probatorio y reputacional.\n\nEn el plano jurídico, identificamos el marco normativo aplicable y los criterios jurisprudenciales relevantes, para saber con precisión cuáles son los márgenes reales de maniobra y qué vías procesales ofrecen mayor protección al cliente. En el plano probatorio, nos enfocamos en preservar la cadena de custodia, depurar la evidencia disponible y anticipar los ataques que la contraparte intentará dirigir contra los soportes documentales y testimoniales.\n\nFinalmente, analizamos el impacto reputacional de cada decisión: cómo comunicamos las actuaciones al cliente, qué riesgos existen de filtraciones o exposiciones públicas y qué medidas pueden tomarse para minimizar daños a la imagen personal o corporativa, sin sacrificar la solidez de la defensa técnica."
         }
       }
     }
@@ -177,12 +181,16 @@
         "case_theory": {
           "tag": "Case theory",
           "title": "Case theory as the axis of defense",
-          "desc": "Each matter is structured from the outset with a clear, coherent, and verifiable case theory. We integrate facts, evidence, and law into a solid legal narrative that guides the entire procedural strategy."
+          "desc": "Each matter is structured from the outset with a clear, coherent, and verifiable case theory. We integrate facts, evidence, and law into a solid legal narrative that guides the entire procedural strategy.",
+          "long_title": "Case theory: from hypothesis to procedural strategy",
+          "long_desc": "Case theory is not rhetorical decoration; it is the backbone of any serious defense. We start from a central hypothesis that explains what happened, why it happened, and how the evidence supports that version against the prosecution’s narrative.\n\nFrom the very first steps, we define the evidentiary story we want the court to hear and understand: which facts are admitted, which are disputed, where the accusation has gaps, and which indicators reveal that the charges are overstated or disproportionate. This theory guides the preparation of statements, the selection of experts, cross‑examination, and the use of documentary evidence.\n\nThe result is a coherent procedural strategy: every brief, every appearance, and every argument responds to a single guiding axis, avoiding defensive contradictions, improvisation, and shifts that undermine the client’s credibility before judges and the Public Prosecutor’s Office."
         },
         "representative_scenarios": {
           "tag": "Representative scenarios",
           "title": "Strategies applied in sensitive contexts",
-          "desc": "From economic criminal investigations against companies to constitutional protection actions, our approach focuses on anticipating risks, securing the evidentiary chain, and protecting the client's reputation in each strategic decision."
+          "desc": "From economic criminal investigations against companies to constitutional protection actions, our approach focuses on anticipating risks, securing the evidentiary chain, and protecting the client's reputation in each strategic decision.",
+          "long_title": "Strategies in sensitive criminal and constitutional scenarios",
+          "long_desc": "In the most sensitive matters —economic criminal investigations against companies, proceedings with media exposure, or constitutional protection actions— we design strategy across three levels: legal, evidentiary, and reputational.\n\nOn the legal level, we identify the applicable legal framework and the relevant case law, to know precisely what the real margins of maneuver are and which procedural avenues offer the strongest protection for the client. On the evidentiary level, we focus on preserving the chain of custody, refining the available evidence, and anticipating the attacks the opposing party will direct at documents and witnesses.\n\nFinally, we analyze the reputational impact of each decision: how we communicate developments to the client, the risk of leaks or public exposure, and which measures can be taken to minimize damage to personal or corporate image, without sacrificing the strength of the technical defense."
         }
       }
     }
