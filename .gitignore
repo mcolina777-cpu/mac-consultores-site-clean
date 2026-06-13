@@ -10,3 +10,7 @@ CODIGOS DE RECUPERACION DE VERCEL.txt
 
 # Ignorar la carpeta de trabajo GOOGLE FLOW
 GOOGLE FLOW/
+
+# Ignorar dependencias de Node
+node_modules
+node_modules.nosync
