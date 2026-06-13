@@ -3,3 +3,7 @@
 *.zip
 .vercel
 CODIGOS DE RECUPERACION DE VERCEL.txt
+
+# Documentos de trabajo jurídico que no deben versionarse
+*.pdf
+*.docx
