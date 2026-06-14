@@ -764,9 +764,42 @@ footer, .footer {
     }
 
     .hero h1 { font-size: 2.5rem; }
-    .footer-grid { 
-        grid-template-columns: 1fr; 
-        gap: 40px;
+    .footer {
+        padding: 40px 16px 30px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .footer-seal-img {
+        max-width: 130px;
+        height: auto;
+        display: block;
+        margin: 12px auto 0 auto;
+        opacity: 0.9;
+    }
+
+    .footer-desc,
+    .footer-col ul li,
+    .footer-bottom p,
+    .footer-location {
+        font-size: 0.95rem;
+        line-height: 1.4;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .footer-legal {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 16px;
+        flex-wrap: wrap;
     }
 }
 
