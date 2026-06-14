@@ -764,60 +764,6 @@ footer, .footer {
     }
 
     .hero h1 { font-size: 2.5rem; }
-    .footer {
-        padding: 40px 16px 36px;
-    }
-    .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-    .footer-col {
-        width: 100%;
-    }
-    .footer-logo {
-        font-size: 1rem;
-        line-height: 1.25;
-    }
-    .footer-desc,
-    .footer-col ul li,
-    .footer-bottom p,
-    .footer-bottom a,
-    .footer-location {
-        font-size: 0.9rem;
-        line-height: 1.35;
-    }
-    .footer-seal-img {
-        max-width: 130px;
-        height: auto;
-        display: block;
-        margin: 12px auto 12px auto;
-        opacity: 0.9;
-    }
-    .footer-bottom {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        padding-top: 16px;
-    }
-    .footer-copyright {
-        width: 100%;
-    }
-    .footer-copyright p {
-        margin-bottom: 2px;
-    }
-    .footer-location {
-        white-space: normal;
-    }
-    .footer-legal {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        gap: 8px 12px;
-    }
-    .footer-legal a {
-        display: inline-block;
-    }
 }
 
 /* NORMALIZACIÓN DEL MENÚ DE NAVEGACIÓN EN TODAS LAS PÁGINAS */
@@ -1048,9 +994,18 @@ nav .nav-links a[href*="blog"] {
     gap: 32px;
   }
 
+  .footer-col {
+    width: 100%;
+  }
+
   .footer-col,
   .footer-info {
     align-items: flex-start;
+  }
+
+  .footer-logo {
+    font-size: 1rem;
+    line-height: 1.25;
   }
 
   .footer-logo,
@@ -1061,10 +1016,44 @@ nav .nav-links a[href*="blog"] {
     text-align: left;
   }
 
+  .footer-desc,
+  .footer-col ul li,
+  .footer-bottom p,
+  .footer-bottom a,
+  .footer-location {
+    font-size: 0.9rem;
+    line-height: 1.35;
+  }
+
   .footer-bottom {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+    padding-top: 16px;
+  }
+
+  .footer-copyright {
+    width: 100%;
+  }
+
+  .footer-copyright p {
+    margin-bottom: 2px;
+  }
+
+  .footer-location {
+    white-space: normal;
+  }
+
+  .footer-legal {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px 12px;
+  }
+
+  .footer-legal a {
+    display: inline-block;
   }
 
   .footer-bottom p,
