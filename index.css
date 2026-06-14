@@ -1035,3 +1035,20 @@ nav .nav-links a[href*="blog"] {
 
 
 }
+
+/* AJUSTE DEFINITIVO LOGO EN FOOTER (MÓVIL, TODAS LAS PÁGINAS) */
+@media (max-width: 768px) {
+.footer {
+padding-bottom: 48px; /* más aire bajo todo el footer */
+}
+
+.footer-seal-img {
+max-width: 130px;
+height: auto;
+display: block;
+margin-top: 12px;
+margin-bottom: 32px; /* margen CLARO debajo del sello */
+margin-left: auto;
+margin-right: auto;
+}
+}
