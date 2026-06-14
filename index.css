@@ -1033,16 +1033,5 @@ nav .nav-links a[href*="blog"] {
         width: 100%;
     }
 
-    /* OBJETIVO B */
-    .page-contacto .footer {
-        padding-top: 40px;
-        padding-bottom: 30px;
-        margin-top: 2rem;
-    }
-    
-    .page-contacto .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        margin: 0 auto;
-    }
+
 }
