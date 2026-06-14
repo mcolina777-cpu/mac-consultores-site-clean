@@ -1053,3 +1053,27 @@ margin-right: auto;
 }
 }
 /* Force Vercel deployment cache bust */
+
+/* Ajuste fino footer móvil: aire y alineación */
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .footer-copyright {
+    align-items: flex-start;
+  }
+
+  .footer-bottom p,
+  .footer-bottom a,
+  .footer-location {
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .footer-seal-img {
+    margin-bottom: 40px;
+  }
+}
