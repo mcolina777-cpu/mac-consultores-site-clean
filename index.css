@@ -1036,34 +1036,35 @@ nav .nav-links a[href*="blog"] {
 
 }
 
-/* AJUSTE DEFINITIVO LOGO EN FOOTER (MÓVIL, TODAS LAS PÁGINAS) */
+/* SISTEMA ÚNICO DE FOOTER EN MÓVIL (TODAS LAS PÁGINAS) */
 @media (max-width: 768px) {
-.footer {
-padding-bottom: 48px; /* más aire bajo todo el footer */
-}
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
-.footer-seal-img {
-max-width: 130px;
-height: auto;
-display: block;
-margin-top: 12px;
-margin-bottom: 32px; /* margen CLARO debajo del sello */
-margin-left: auto;
-margin-right: auto;
-}
-}
-/* Force Vercel deployment cache bust */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
 
-/* Ajuste fino footer móvil: aire y alineación */
-@media (max-width: 768px) {
+  .footer-col,
+  .footer-info {
+    align-items: flex-start;
+  }
+
+  .footer-logo,
+  .footer-title,
+  .footer-desc,
+  .footer-links li,
+  .footer-links a {
+    text-align: left;
+  }
+
   .footer-bottom {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
-  }
-
-  .footer-copyright {
-    align-items: flex-start;
   }
 
   .footer-bottom p,
@@ -1074,6 +1075,12 @@ margin-right: auto;
   }
 
   .footer-seal-img {
-    margin-bottom: 40px;
+    display: block;
+    align-self: flex-start;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    height: 48px;
+    object-fit: contain;
+    opacity: 0.9;
   }
 }
