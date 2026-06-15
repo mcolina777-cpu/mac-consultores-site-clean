@@ -125,7 +125,7 @@ async function loadPage(url, pushToHistory = true) {
     window.scrollTo(0, 0);
 
   } catch (error) {
-    console.error('Error de navegación:', error);
+//     console.error('Error de navegación:', error);
     // En caso de error severo, forzar navegación tradicional como fallback de seguridad
     window.location.href = url;
   }
