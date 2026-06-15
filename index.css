@@ -1073,3 +1073,7 @@ nav .nav-links a[href*="blog"] {
     opacity: 0.9;
   }
 }
+
+.home-resources-cta {
+    display: none !important;
+}
