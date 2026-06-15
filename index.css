@@ -101,18 +101,25 @@ nav {
     border-bottom: 1px solid #E1E1E1;
 }
 
+nav .container {
+    display: flex;
+    align-items: center;       /* centra logo y menú en vertical */
+    justify-content: space-between;
+    padding: 18px 0;           /* espacio arriba y abajo */
+}
+
 nav .logo {
     flex: 0 1 auto;
     max-width: 320px;
 }
 .logo {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.1rem;         /* tamaño de cabecera, elegante */
+    font-weight: 600;          /* menos pesado, más fino */
     color: var(--primary);
-    text-transform: none;
-    letter-spacing: 0.08em;
-    line-height: 1.3;
+    text-transform: none;      /* respeta mayúsculas/minúsculas del HTML */
+    letter-spacing: 0.09em;    /* aire entre letras */
+    line-height: 1.3;          /* más aire vertical */
     text-align: left;
     display: block;
     margin: 0;
