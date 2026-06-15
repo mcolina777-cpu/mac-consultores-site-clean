@@ -56,6 +56,16 @@ async function loadPage(url, pushToHistory = true) {
       // 1. Actualizar el título de la página
       document.title = doc.title;
 
+      // 1.5. Actualizar meta tags críticos para compartir en móvil (Open Graph, Twitter, Canonical)
+      // Esto garantiza que la URL sea 100% compartible y los metadatos correspondan a la vista actual
+      const tagsToRemove = document.head.querySelectorAll('meta[property^="og:"], meta[name^="twitter:"], meta[name="description"], link[rel="canonical"], link[rel="alternate"]');
+      tagsToRemove.forEach(tag => tag.remove());
+      
+      const tagsToAdd = doc.head.querySelectorAll('meta[property^="og:"], meta[name^="twitter:"], meta[name="description"], link[rel="canonical"], link[rel="alternate"]');
+      tagsToAdd.forEach(tag => {
+        document.head.appendChild(tag.cloneNode(true));
+      });
+
       // 2. Actualizar las clases del body (para mantener estilos específicos de página)
       document.body.className = doc.body.className;
 
@@ -110,7 +120,9 @@ async function loadPage(url, pushToHistory = true) {
     }
 
     // Desplazar al inicio de la página tras la navegación
-    window.scrollTo({ top: 0, behavior: 'instant' });
+    // Usar (0,0) estándar fuerza a Chrome móvil a recalcular la barra de direcciones 
+    // y evita el "bug de pantalla completa" que hace desaparecer los tres puntos
+    window.scrollTo(0, 0);
 
   } catch (error) {
     console.error('Error de navegación:', error);
