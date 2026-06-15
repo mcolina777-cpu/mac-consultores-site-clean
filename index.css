@@ -107,14 +107,15 @@ nav .logo {
 }
 .logo {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.6rem;
+    font-size: 2.1rem;             /* un poco más grande para que destaque */
     font-weight: 700;
     color: var(--primary);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    text-transform: uppercase;     /* mantiene el carácter institucional */
+    letter-spacing: 1.6px;         /* espaciado ligeramente mayor, más elegante */
     line-height: 1.2;
     text-align: left;
     display: block;
+    margin-top: 10px;              /* baja el texto para que no quede pegado al borde superior */
 }
 
 nav .nav-links {
