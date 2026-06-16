@@ -103,42 +103,41 @@ nav {
 
 nav .container {
     display: flex;
-    align-items: center;       /* centra logo y menú en vertical */
+    align-items: center;
     justify-content: space-between;
-    padding: 16px 0;           /* un poco de aire arriba y abajo */
+    padding: 24px 0; /* Padding vertical ajustado para dar un poco más de aire */
 }
 
 nav .logo {
-    flex: 0 1 auto;
-    max-width: 380px;
+    flex: 0 0 380px; /* Reserva el ancho para el nombre largo */
+    max-width: 420px;
+    text-decoration: none;
 }
+
 .logo {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 2rem;           /* tamaño mayor, pero contenido */
-    font-weight: 600;          /* menos pesado, más fino */
+    font-size: 2.0rem; /* Tamaño incrementado para mayor presencia */
+    font-weight: 700;
     color: var(--primary);
-    text-transform: none;      /* respeta mayúsculas/minúsculas del HTML */
-    letter-spacing: 0.08em;    /* aire entre letras, sin exagerar */
-    line-height: 1.3;          /* más aire vertical */
+    text-transform: none; /* Permite la Mayúscula Inicial */
+    letter-spacing: 1px;
+    line-height: 1.3; /* Cómodo para lectura en bloque */
     text-align: left;
     display: block;
     margin: 0;
 }
 
 nav .nav-links {
-    flex: 1 1 auto;
-    min-width: 0;
-}
-
-.nav-links {
+    flex: 1;
     list-style: none;
     display: flex;
-    flex-wrap: nowrap;        /* NO permite que se rompa la línea */
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-end;
-    gap: 1rem;                /* un poco menos de espacio entre items */
-    flex: 1;
-    margin-left: 1.5rem;      /* ligera reducción del margen izquierdo */
+    gap: 1.25rem; /* Separación reducida para evitar que se abra tanto */
+    margin-left: 2rem; /* Separación visual respecto a la firma */
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .nav-links li {
@@ -148,7 +147,7 @@ nav .nav-links {
 
 .nav-links a {
     display: block;
-    padding: 10px 15px;
+    padding: 10px 0;
     font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -160,6 +159,83 @@ nav .nav-links {
 
 .nav-links a:hover {
     color: var(--accent);
+}
+
+/* Selector de Idioma */
+.lang-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+
+.lang-btn {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--primary);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+}
+
+.lang-btn:hover {
+    color: var(--accent);
+}
+
+.lang-btn.active {
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent); /* Resalta el idioma activo */
+}
+
+.lang-separator {
+    color: var(--primary);
+    font-size: 0.85rem;
+    user-select: none;
+}
+
+/* Header Mobile Responsiveness */
+@media (max-width: 768px) {
+    nav .container {
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px 0;
+    }
+
+    nav .logo {
+        flex: 1 1 auto;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    nav .nav-links {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .lang-selector {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 0.5rem;
+        padding-top: 1rem;
+        border-top: 1px solid #E1E1E1; /* Separador sutil arriba del selector en móviles */
+    }
 }
 
 /* Hero Section */
