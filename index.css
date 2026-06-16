@@ -105,23 +105,23 @@ nav .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem; /* Evita que el menú y el logo se monten */
     padding: 24px 0;
+    flex-wrap: nowrap;
 }
 
 nav .logo {
-    flex: 0 0 auto;
-    max-width: 400px;
+    flex: 0 0 340px;
+    max-width: 380px;
     text-decoration: none;
 }
 
 .logo {
     font-family: 'Cormorant Garamond', serif;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--primary);
     text-transform: none;
-    letter-spacing: 1px;
+    letter-spacing: 0.08em;
     line-height: 1.25;
     text-align: left;
     display: block;
@@ -132,11 +132,11 @@ nav .nav-links {
     flex: 1;
     list-style: none;
     display: flex;
-    flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-end;
-    gap: 1.25rem; /* Separación reducida para evitar que se abra tanto */
-    margin-left: 2rem; /* Separación visual respecto a la firma */
+    flex-wrap: nowrap;
+    gap: 1.25rem;
+    margin-left: 2rem;
     margin-bottom: 0;
     padding-left: 0;
 }
