@@ -1163,31 +1163,14 @@ nav .nav-links a[href*="blog"] {
     display: none !important;
 }
 
-/* Enlace “CONOCE A NUESTRO DIRECTOR GENERAL” */
+/* Enlace "CONOCE A NUESTRO DIRECTOR GENERAL" / "MEET OUR MANAGING DIRECTOR" */
 .btn-director {
-  /* Texto azul en reposo, como los demás enlaces */
-  color: var(--primary);
-}
-
-.btn-director:hover,
-.btn-director:focus {
-  /* Cuando aparece el rectángulo azul, el texto debe ser blanco */
-  color: #ffffff;
-}
-
-/* ==========================================================================
-Ajustes específicos para el botón ".btn-director" en dispositivos móviles
-========================================================================== */
-@media (max-width: 767px) {
-/* Estado de reposo: fondo transparente y texto color primario */
-.btn-director {
-background-color: transparent;
+/* Texto azul en reposo, como los demás enlaces */
 color: var(--primary);
 }
 
-/* Estado interactivo: texto blanco para contrastar con la animación base */
 .btn-director:hover,
 .btn-director:focus {
+/* Cuando aparece el rectángulo azul, el texto debe ser blanco */
 color: #ffffff;
-}
 }
