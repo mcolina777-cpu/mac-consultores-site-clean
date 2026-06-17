@@ -1164,13 +1164,11 @@ nav .nav-links a[href*="blog"] {
 }
 
 /* Enlace "CONOCE A NUESTRO DIRECTOR GENERAL" / "MEET OUR MANAGING DIRECTOR" */
-.btn-director {
-/* Texto azul en reposo, como los demás enlaces */
-color: var(--primary);
+.page-firma .vision-text .btn-director {
+  color: var(--primary);
 }
 
-.btn-director:hover,
-.btn-director:focus {
-/* Cuando aparece el rectángulo azul, el texto debe ser blanco */
-color: #ffffff;
+.page-firma .vision-text .btn-director:hover,
+.page-firma .vision-text .btn-director:focus {
+  color: #ffffff;
 }
