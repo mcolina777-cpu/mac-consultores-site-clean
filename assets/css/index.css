@@ -1164,11 +1164,11 @@ nav .nav-links a[href*="blog"] {
 }
 
 /* Enlace "CONOCE A NUESTRO DIRECTOR GENERAL" / "MEET OUR MANAGING DIRECTOR" */
-.page-firma .vision-text .btn-director {
+.page-quienes-somos .vision-text .btn-director {
   color: var(--primary);
 }
 
-.page-firma .vision-text .btn-director:hover,
-.page-firma .vision-text .btn-director:focus {
+.page-quienes-somos .vision-text .btn-director:hover,
+.page-quienes-somos .vision-text .btn-director:focus {
   color: #ffffff;
 }

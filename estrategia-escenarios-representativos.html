@@ -65,8 +65,9 @@
             padding: 0;
         }
     </style>
-    <link rel="stylesheet" href="index.css">
-<script src="i18n.js" defer></script>
+    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+<script src="assets/js/i18n.js" defer></script>
 
     <!-- Iconos de Marca -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -158,7 +159,7 @@
                         <li><a href="mailto:infomacconsul@gmail.com">infomacconsul@gmail.com</a></li>
                         <li><a href="contacto.html" class="footer-cta" data-i18n="footer.cta">AGENDAR CITA →</a></li>
                     </ul>
-                    <img src="/Logo/mac-icon-192.png" alt="Sello Mac Consultores" class="footer-seal-img">
+                    <img src="/Logo/mac-icon-192.png" alt="Sello Mac Consultores" class="footer-seal-img" loading="lazy">
                 </div>
                 
             </div>
@@ -175,8 +176,8 @@
         </div>
     </footer>
 
-    <script src="clock.js"></script>
-    <script src="insight.js"></script>
-    <script src="router.js" defer></script>
+    <script src="assets/js/clock.js" defer></script>
+    <script src="assets/js/insight.js" defer></script>
+    <script src="assets/js/router.js" defer></script>
 </body>
 </html>

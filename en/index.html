@@ -79,7 +79,8 @@
             padding: 0;
         }
     </style>
-    <link rel="stylesheet" href="../assets/css/index.css?v=4">
+    <link rel="preload" href="../assets/css/index.css?v=4" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="../assets/css/index.css?v=4"></noscript>
 <script src="../assets/js/i18n.js" defer></script>
 
     <!-- Iconos de Marca -->
@@ -389,7 +390,7 @@
                         <li><a href="mailto:infomacconsul@gmail.com">infomacconsul@gmail.com</a></li>
                         <li><a href="contacto.html" class="footer-cta">SCHEDULE APPOINTMENT →</a></li>
                     </ul>
-                    <img src="../Logo/Logo blanco.png" alt="Sello Mac Consultores" class="footer-seal-img">
+                    <img src="../Logo/Logo blanco.png" alt="Sello Mac Consultores" class="footer-seal-img" loading="lazy">
                 </div>
                 
             </div>

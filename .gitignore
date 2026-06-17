@@ -20,3 +20,6 @@ GOOGLE FLOW/
 # Ignorar dependencias de Node
 node_modules
 node_modules.nosync
+
+# Ignorar archivos archivados
+archive/
