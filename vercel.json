@@ -1,4 +1,26 @@
 {
+  "redirects": [
+    {
+      "source": "/en/strategy-case-theory.html",
+      "destination": "/en/estrategia-teoria-del-caso.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/strategy-representative-scenarios.html",
+      "destination": "/en/estrategia-escenarios-representativos.html",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/en/(.*)",
+      "destination": "/$1"
+    },
+    {
+      "source": "/en",
+      "destination": "/"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)\\.(html|json|js|css)",

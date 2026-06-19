@@ -33,8 +33,8 @@
     "nav": {
       "inicio": "Home",
       "firma": "The Firm",
-      "quienes_somos": "About Us",
-      "nuestro_ceo": "Our CEO",
+      "quienes_somos": "Our Firm",
+      "nuestro_ceo": "Our Managing Director",
       "blog": "Legal Blog",
       "noticias": "News",
       "servicios": "Services",
@@ -49,14 +49,14 @@
       "offices_title": "Offices",
       "penal": "Criminal Law",
       "constitucional": "Constitutional Defense",
-      "consular": "Consular Management",
-      "colaboracion": "Intl. Collaboration",
-      "location": "Torre Financiera, Caracas",
-      "cta": "SCHEDULE APPOINTMENT →",
+      "consular": "Consular Services",
+      "colaboracion": "International Cooperation",
+      "location": "Caracas, Venezuela",
+      "cta": "SCHEDULE A MEETING →",
       "copyright": "© 2026 Mac Consultores Jurídicos & Asociados. All rights reserved.",
       "local_time": "Local time",
       "legal_notice": "Legal Notice",
-      "privacy": "Privacy"
+      "privacy": "Privacy Policy"
     }
   }
 }
