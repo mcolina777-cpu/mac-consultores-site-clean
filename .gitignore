@@ -23,3 +23,23 @@ node_modules.nosync
 
 # Ignorar archivos archivados
 archive/
+
+# No versionar PDFs ni imágenes pesadas
+*.pdf
+*.PDF
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.tiff
+*.bmp
+
+# No subir carpetas de materiales brutos
+/pdf/
+/PDF/
+/docs/
+/documentos/
+/material_bruto/
+/raw_images/
+/originales/
+/uploads/
