@@ -418,6 +418,21 @@ section {
     letter-spacing: 1px;
 }
 
+.card-link {
+    margin-top: auto;
+    display: inline-block;
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    color: var(--accent-light);
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
