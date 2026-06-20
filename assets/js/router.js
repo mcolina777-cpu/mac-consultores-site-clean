@@ -105,6 +105,9 @@ async function loadPage(url, pushToHistory = true) {
       if (window.initI18n) {
         window.initI18n();
       }
+
+      // 9. Forzar el scroll top de manera segura DENTRO del callback
+      window.scrollTo(0, 0);
     };
 
     // Actualizar historial si corresponde (ANTES de la transición para que scripts como i18n lean la URL correcta)
@@ -119,10 +122,6 @@ async function loadPage(url, pushToHistory = true) {
       performSwap();
     }
 
-    // Desplazar al inicio de la página tras la navegación
-    // Usar (0,0) estándar fuerza a Chrome móvil a recalcular la barra de direcciones 
-    // y evita el "bug de pantalla completa" que hace desaparecer los tres puntos
-    window.scrollTo(0, 0);
 
   } catch (error) {
 //     console.error('Error de navegación:', error);
