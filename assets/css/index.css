@@ -1182,3 +1182,7 @@ nav .nav-links a[href*="blog"] {
   color: #ffffff;
   border-color: var(--accent);
 }
+
+.quienes-somos-card {
+  margin-top: 2.5rem;
+}
