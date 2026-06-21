@@ -233,15 +233,17 @@ nav .nav-links {
 /* Header Mobile Responsiveness */
 @media (max-width: 768px) {
     nav .container {
+        display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
-        padding: 15px 0;
+        padding: 15px;
     }
 
     nav .logo {
         flex: 1 1 auto;
         max-width: 100%;
-        margin-bottom: 1rem;
+        margin-bottom: 15px;
         text-align: center;
     }
 
@@ -854,19 +856,7 @@ footer, .footer {
 @media (max-width: 768px) {
     .grid-split, .grid-2, .grid-3 { grid-template-columns: 1fr; }
     
-    /* Contenedor del header móvil */
-    nav .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 15px;
-    }
-    
-    nav .logo {
-        text-align: center;
-        margin-bottom: 15px;
-    }
-    
+    /* El estilo de nav .container y nav .logo ha sido consolidado en la primera media query móvil */
     /* Botón MENÚ visible solo en móvil */
     .mobile-menu-text-btn {
         display: block;
