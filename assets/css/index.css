@@ -146,13 +146,13 @@ nav .logo::after {
     color: transparent;
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     font-weight: 600;
     text-transform: none;
     letter-spacing: 0.08em;
     line-height: 1.25;
-    text-align: center;
+    text-align: left;
     margin: 0;
 }
 
@@ -227,22 +227,19 @@ nav .nav-links {
 /* Header Mobile Responsiveness */
 @media (max-width: 768px) {
     nav .container {
-        display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
-        padding: 15px;
+        padding: 15px 0;
     }
 
     nav .logo {
         flex: 1 1 auto;
         max-width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 1rem;
         text-align: center;
     }
 
     .logo {
-        align-items: center;
         text-align: center;
         font-size: 1.8rem;
     }
@@ -850,7 +847,19 @@ footer, .footer {
 @media (max-width: 768px) {
     .grid-split, .grid-2, .grid-3 { grid-template-columns: 1fr; }
     
-    /* El estilo de nav .container y nav .logo ha sido consolidado en la primera media query móvil */
+    /* Contenedor del header móvil */
+    nav .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    nav .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
     /* Botón MENÚ visible solo en móvil */
     .mobile-menu-text-btn {
         display: block;
@@ -905,21 +914,7 @@ footer, .footer {
         border-top: 1px solid #E1E1E1;
     }
 
-    .hero {
-        height: auto;
-        padding: 80px 20px;
-    }
-
-    .hero h1 { 
-        font-size: 2.5rem; 
-        text-align: center;
-    }
-
-    .hero p {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    .hero h1 { font-size: 2.5rem; }
 }
 
 /* NORMALIZACIÓN DEL MENÚ DE NAVEGACIÓN EN TODAS LAS PÁGINAS */
