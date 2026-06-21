@@ -1259,13 +1259,19 @@ nav .logo::after {
     font-weight: 300;
 }
 
-section { padding: 120px 0 !important; }
+section { padding: 80px 0 !important; }
 
-.grid-split { gap: 6rem !important; }
-.grid-3 { gap: 40px !important; }
+.page-quienes-somos section,
+.page-firma section,
+.page-servicios section {
+    padding: 70px 0 !important;
+}
+
+.grid-split { gap: 4rem !important; }
+.grid-3 { gap: 32px !important; }
 
 .card {
-    padding: 48px 40px !important;
+    padding: 36px 32px !important;
     border-radius: 16px !important;
     border-top: none !important;
     box-shadow: 0 4px 24px rgba(0, 38, 68, 0.04) !important;
