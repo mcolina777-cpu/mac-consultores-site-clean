@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
   return {
-    title: dict?.blog_poderes?.h1 || 'Procesal Penal: El Régimen de Poderes en el CPC y el COPP | Mac Consultores',
+    title: dict?.blog_poderes?.seo_title || dict?.blog_poderes?.h1,
   };
 }
 
@@ -23,7 +23,7 @@ export default async function BlogPoderes({ params }: Props) {
       <header className="page-header">
         <div className="container">
           <span className="breadcrumb">
-            <Link href={`/${locale}/blog`}>Blog</Link> / {dict?.blog_poderes?.meta?.split(': ')[1] || 'Procesal Penal'}
+            <Link href={`/${locale}/blog`}>Blog</Link> / {dict?.blog_poderes?.meta?.split(': ')[1]}
           </span>
           <h1>{dict?.blog_poderes?.h1}</h1>
         </div>

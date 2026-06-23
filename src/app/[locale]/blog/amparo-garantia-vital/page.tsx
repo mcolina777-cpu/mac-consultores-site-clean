@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
   return {
-    title: dict?.blog_amparo?.h1 || 'Constitucional: El Amparo como Garantía Vital | Mac Consultores',
+    title: dict?.blog_amparo?.seo_title || dict?.blog_amparo?.h1,
   };
 }
 
@@ -23,7 +23,7 @@ export default async function BlogAmparo({ params }: Props) {
       <header className="page-header">
         <div className="container">
           <span className="breadcrumb">
-            <Link href={`/${locale}/blog`}>Blog</Link> / {dict?.blog_amparo?.meta?.split(': ')[1] || 'Constitucional'}
+            <Link href={`/${locale}/blog`}>Blog</Link> / {dict?.blog_amparo?.meta?.split(': ')[1]}
           </span>
           <h1>{dict?.blog_amparo?.h1}</h1>
         </div>

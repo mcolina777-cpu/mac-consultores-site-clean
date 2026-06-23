@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
   return {
-    title: dict?.seo?.blog_criminalidad_economica?.title || 'Análisis Penal: Evolución de la Criminalidad Económica | Mac Consultores',
+    title: dict?.seo?.blog_criminalidad_economica?.title,
   };
 }
 
@@ -23,7 +23,7 @@ export default async function BlogCriminalidadEconomica({ params }: Props) {
       <header className="page-header">
         <div className="container">
           <span className="breadcrumb">
-            <Link href={`/${locale}/blog`}>Blog</Link> / {dict?.articulo_crimen?.meta?.split(': ')[1] || 'Análisis Penal'}
+            <Link href={`/${locale}/blog`}>Blog</Link> / {dict?.articulo_crimen?.meta?.split(': ')[1]}
           </span>
           <h1>{dict?.articulo_crimen?.h1}</h1>
         </div>
