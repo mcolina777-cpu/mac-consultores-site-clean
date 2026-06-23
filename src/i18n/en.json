@@ -1,0 +1,676 @@
+{
+  "contacto": {
+    "title": "Contact | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "Client Intake",
+    "h1": "Contact & Inquiries",
+    "info": {
+      "tag": "Direct Channels",
+      "title": "We are here to protect your interests.",
+      "desc": "To schedule a private consultation or request a technical assessment of your case, please use the following channels or complete the attached form.",
+      "hq": "Headquarters",
+      "email": "Email Address",
+      "hours": "Business Hours",
+      "hours_val": "Monday to Friday: 8:00 AM - 5:00 PM"
+    },
+    "form": {
+      "label_name": "Full name",
+      "placeholder_name": "e.g., John Doe",
+      "label_email": "Email address",
+      "placeholder_email": "example@email.com",
+      "label_role": "Profession / Main role",
+      "placeholder_role": "e.g., Chief Financial Officer, entrepreneur, university professor",
+      "label_reason": "Main reason for inquiry",
+      "reason_default": "Select an option",
+      "reason_opt1": "Strategic criminal consulting on corporate matters (corporate criminal risks)",
+      "reason_opt2": "Filing a complaint or accusation for economic or corporate actions (case without prior proceedings)",
+      "reason_opt3": "Second opinion on an ongoing criminal proceeding of economic or corporate content (without replacing your attorney)",
+      "reason_opt4": "Consular procedures and document management in Venezuela for clients abroad",
+      "reason_opt5": "Asset and corporate transactions (real estate purchases/sales, company incorporation or mergers, etc.)",
+      "hint_practice": "The firm centers its practice on corporate criminal law and matters of an economic, asset, and consular nature.",
+      "label_penal": "Type of facts (only if your inquiry is criminal)",
+      "penal_default": "Not applicable / Non-criminal",
+      "penal_opt1": "Acts of an economic or corporate nature (fraud, corruption, embezzlement, corporate crimes)",
+      "penal_opt2": "Violent crimes or other non-economic offenses (assault, homicide, domestic violence, etc.)",
+      "hint_violent": "Mac Consultores Jurídicos & Asociados does not handle cases of common violent crimes or other criminal matters outside the corporate scope.",
+      "label_desc": "Brief description of inquiry",
+      "placeholder_desc": "Describe briefly and objectively the reason for your inquiry (maximum 500 characters).",
+      "hint_admin": "This channel is not authorized to issue legal criteria or indicate what you should do in your specific case. Its purpose is exclusively administrative: to collect basic information to evaluate the relevance of a professional consultation subject to fees.",
+      "hint_fees": "Every professional consultation is subject to fees, which may be billed hourly or according to the scope of the engagement. For any representation actions (e.g., filing complaints or lawsuits, managing consular procedures, or appearances on your behalf), it is essential to grant a power of attorney previously analyzed and drafted in a personalized manner for your case.",
+      "hint_relation": "Communications sent through this form do not, by themselves, constitute an attorney-client relationship, nor do they imply acceptance of the matter by the firm.",
+      "btn": "SUBMIT REQUEST FOR ADMISSION",
+      "success": "Your request for admission has been registered. The firm will assess the information provided and, if applicable, contact you to coordinate a professional consultation subject to fees."
+    },
+    "channels": {
+      "title": "Alternative Channels",
+      "phone1": "📞 Direct Calls (Mobile 1):",
+      "phone2": "📞 Direct Calls (Mobile 2):",
+      "landline": "☎ Landline (Caracas):",
+      "virtual": "💻 Virtual Inquiries:",
+      "virtual_link": "Meeting via Google Meet",
+      "follow": "📱 X (Twitter):",
+      "follow_link": "Follow us on X for updates"
+    }
+  },
+  "legal_pages": {
+    "notice_title": "Legal Notice | Mac Consultores Jurídicos & Asociados",
+    "notice_h1": "Legal Notice",
+    "notice_breadcrumb": "Corporate Information",
+    "notice": {
+      "subtitle": "Terms of Use and Legal Information",
+      "sec1_title": "1. Website Ownership",
+      "sec1_desc": "This website is owned by MAC CONSULTORES JURÍDICOS & ASOCIADOS. The primary purpose of this space is to provide general information about our legal services, professional team, and areas of practice.",
+      "sec2_title": "2. Informational Purpose",
+      "sec2_desc": "The contents of this website are for informational purposes only and do not, under any circumstances, constitute legal, tax, or professional advice. Reading or receiving this information does not create an attorney-client relationship between the user and the firm.",
+      "sec3_title": "3. Intellectual and Industrial Property",
+      "sec3_desc": "All intellectual and industrial property rights over the content of this website, its graphic design, logos, texts, and images are the exclusive property of MAC CONSULTORES JURÍDICOS & ASOCIADOS. Their reproduction, distribution, or modification without express authorization is strictly prohibited.",
+      "sec4_title": "4. Limitation of Liability",
+      "sec4_desc": "The firm is not responsible for decisions made based on the information provided on this site or for any potential damages arising from its use. References to regulations or laws may not be updated at the time of your inquiry."
+    },
+    "privacy_title": "Privacy Policy | Mac Consultores Jurídicos & Asociados",
+    "privacy_h1": "Privacy Policy",
+    "privacy_breadcrumb": "Corporate Information",
+    "privacy": {
+      "subtitle": "Data Protection and Confidentiality",
+      "sec1_title": "1. Data Collection",
+      "sec1_desc": "Through our contact form or direct communication by email, we collect only the strictly necessary personal data (name, email, telephone, and reason for inquiry) to manage your professional service request.",
+      "sec2_title": "2. Purpose of Processing",
+      "sec2_desc": "The data provided will be used exclusively to address your inquiry, preliminarily evaluate your case, and send you relevant information about the services of MAC CONSULTORES JURÍDICOS & ASOCIADOS. We do not share, sell, or transfer your data to third parties, except as required by law.",
+      "sec3_title": "3. Confidentiality",
+      "sec3_desc": "Our firm is governed by strict compliance with professional secrecy. All information provided, even before establishing an attorney-client relationship, will be treated with the utmost confidentiality and under appropriate security protocols to prevent unauthorized access.",
+      "sec4_title": "4. User Rights",
+      "sec4_desc": "You have the right to request at any time the access, rectification, update, or deletion of your personal data from our databases by sending a communication to the official email address: <a href=\"mailto:infomacconsul@gmail.com\">infomacconsul@gmail.com</a>."
+    }
+  },
+  "nav": {
+    "inicio": "Home",
+    "firma": "The Firm",
+    "quienes_somos": "Our Firm",
+    "nuestro_ceo": "Our Managing Director",
+    "blog": "Legal Blog",
+    "noticias": "News",
+    "servicios": "Services",
+    "internacional": "International",
+    "alianzas": "Alliances",
+    "contacto": "Contact"
+  },
+  "footer": {
+    "desc": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests.",
+    "nav_title": "Navigation",
+    "services_title": "Services",
+    "offices_title": "Offices",
+    "penal": "Criminal Law",
+    "constitucional": "Constitutional Defense",
+    "consular": "Consular Services",
+    "colaboracion": "International Cooperation",
+    "location": "Caracas, Venezuela",
+    "cta": "SCHEDULE A MEETING →",
+    "copyright": "© 2026 Mac Consultores Jurídicos & Asociados. All rights reserved.",
+    "local_time": "Local time",
+    "legal_notice": "Legal Notice",
+    "privacy": "Privacy Policy"
+  },
+  "quienes_somos": {
+    "title": "Who We Are | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "Home / The Firm",
+    "h1": "Who We Are",
+    "history": {
+      "tag": "Our History",
+      "title": "A trajectory defined by rigor and integrity.",
+      "desc_1": "Mac Consultores Jurídicos & Asociados is a boutique law firm based in Caracas, conceived to offer high-complexity legal solutions. Our structure is founded on technical excellence and ethical commitment, providing specialized defense and strategic advisory that transcends traditional legal practice.",
+      "desc_2": "We understand that every case is unique and requires its own solution architecture. Therefore, we integrate forensic experience with the academic backing of over two decades of professional practice."
+    },
+    "architecture": {
+      "tag": "LEGAL ARCHITECTURE FOR HIGH‑COMPLEXITY CHALLENGES",
+      "title": "Discover our firm’s history and philosophy",
+      "desc": "Explore in detail the trajectory of Mac Consultores Jurídicos & Associates, our integrated advisory model, and the principles that guide every strategic decision.",
+      "link": "READ MORE →"
+    },
+    "values": {
+      "tag": "Institutional Values",
+      "title": "Our Pillars",
+      "card_1": {
+        "title": "Strategic Vision",
+        "desc": "We do not merely react to conflict; we build preventive safeguards and anticipate risks to protect our clients' interests."
+      },
+      "card_2": {
+        "title": "Technical Rigor",
+        "desc": "Every action is backed by a deep dogmatic mastery and an exhaustive analysis of contemporary legal reality."
+      },
+      "card_3": {
+        "title": "Professional Confidentiality",
+        "desc": "Discretion and confidentiality are the foundation of our relationship with the client, ensuring an environment of maximum trust."
+      }
+    },
+    "mission": {
+      "quote": "\"Our mission is to transform legal challenges into scenarios of security and growth.\"",
+      "desc": "We aim to be the benchmark of excellence in the Venezuelan legal market, distinguished by our capability to resolve highly sensitive technical matters with solid and transparent results.",
+      "btn": "MEET OUR MANAGING DIRECTOR"
+    }
+  },
+  "quienes_somos_detalle": {
+    "title": "Legal Architecture | Mac Consultores Jurídicos & Associates",
+    "breadcrumb": "Home / The Firm / Our History",
+    "h1": "Legal architecture for high-complexity challenges",
+    "history": {
+      "tag": "Our History",
+      "p1": "Mac Consultores Jurídicos & Associates is a boutique law firm specializing in high-complexity legal services, headquartered in Caracas, Venezuela, founded in 2015 by attorney and university professor Marco A. Colina G.",
+      "p2": "From its inception, the firm was conceived as a meeting point between academic training and the professional practice of Law. Its founding partner possesses over twenty years of continuous professional practice, complemented by postgraduate studies in Constitutional Law and Criminal and Legal Sciences, alongside a consolidated trajectory in strategic litigation, specialized legal consulting, and university teaching.",
+      "p3": "Under his general direction, Mac Consultores has built an integrated legal advisory model aimed at both individuals and corporate entities, with clients inside and outside Venezuela. This international projection allows clients located in any jurisdiction to entrust their representation to the firm through the granting of the corresponding powers of attorney and mandates, in accordance with applicable legal formalities.",
+      "p4": "Currently, Dr. Marco A. Colina G. serves as the Managing Director (Chief Executive Officer - CEO) within Mac Consultores Jurídicos & Associates, being responsible for the strategic, administrative, and operational leadership of the firm."
+    },
+    "mission": {
+      "title": "Mission and Values",
+      "p1": "Our mission is to transform our clients' legal challenges into scenarios of legal certainty and growth, through strategic, technically sound solutions developed with absolute adherence to professional ethics.",
+      "p2": "This mission is upheld by principles that guide each of our actions:",
+      "list": [
+        "<strong>Legality and professional diligence</strong> — as the unwavering foundation of all legal action.",
+        "<strong>Technical independence</strong> — which guarantees objective criteria, free from interference external to the client's interests.",
+        "<strong>Transparency and good faith</strong> — at every stage of the professional relationship with those who trust in us.",
+        "<strong>Confidentiality and professional secrecy</strong> — as an absolute commitment in the treatment of the information entrusted to us."
+      ]
+    },
+    "areas": {
+      "title": "Practice Areas",
+      "p1": "The firm's professional practice is concentrated in three major lines of specialization, handled with a rigorous technical approach and adapted to the particularities of each matter:",
+      "list": [
+        "<strong>Corporate Criminal Law:</strong> Specialized technical defense against criminal investigations and proceedings involving corporate entities, their directors, and representatives.",
+        "<strong>Strategic Consulting in Legal Risks:</strong> Preventive diagnosis and design of mitigation mechanisms against high-impact legal exposures.",
+        "<strong>Litigation and Specialized Defense:</strong> Technical representation before the competent jurisdictional authorities in criminal, constitutional, and high-complexity matters."
+      ]
+    },
+    "distinction": {
+      "title": "What Sets Us Apart",
+      "p1": "Every matter submitted for our consideration is subject to a rigorous preliminary evaluation aimed at determining its technical and legal viability before defining any course of action. This comprehensive analysis—which examines backgrounds, evidentiary elements, and applicable regulations—allows us to build a solid, coherent, and verifiable case theory, tailored to the legitimate interests of each client.",
+      "p2": "We complement this methodology with the incorporation of advanced technological tools, which allow us to optimize information processing and substantially expedite response times.",
+      "p3": "This combination of legal tradition and technical modernity enables us to offer agile responses without compromising the rigor that each case demands.",
+      "p4": "At Mac Consultores Jurídicos & Associates, we do not make promises of results, but rather a commitment to serious analysis, a well-founded strategy, and close accompaniment at every stage of the process. Therefore, we consolidate ourselves as the strategic ally that individuals and corporations need to protect their rights, their assets, and their reputation.",
+      "quote": "\"Our mission is to transform legal challenges into scenarios of legal certainty and growth.\""
+    }
+  },
+  "ceo": {
+    "title": "Our CEO | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "Institutional Leadership",
+    "h1": "Atty. Marco A. Colina G.",
+    "about": {
+      "tag": "Managing Director",
+      "title": "Technical vision and forensic leadership.",
+      "desc_1": "Attorney Marco A. Colina G. is the founder and Managing Director of Mac Consultores Jurídicos & Asociados. With over 20 years of uninterrupted professional practice, his career has consolidated in high-complexity litigation in criminal and constitutional matters.",
+      "desc_2": "His approach combines dogmatic rigor with a pragmatic view of justice, allowing him to lead defense strategies that have set precedents in the Venezuelan jurisdiction. He is a specialist in Criminal Law and has extensive training in the protection of fundamental rights."
+    },
+    "profile": {
+      "tag": "Professional Profile",
+      "title": "Leadership Specialties",
+      "card_1": {
+        "title": "Cassation Litigation",
+        "desc": "Expert in filing and defending extraordinary appeals before the Supreme Tribunal of Justice."
+      },
+      "card_2": {
+        "title": "Superior Criminal Law",
+        "desc": "Handling white-collar crimes, organized crime, and advanced technical criminal defense."
+      },
+      "card_3": {
+        "title": "Constitutional Protection",
+        "desc": "Specialist in the activation of jurisdictional guarantees for the protection of liberty and due process."
+      }
+    }
+  },
+  "socios": {
+    "title": "Partners & Collaborators | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "Structure / Team",
+    "h1": "Strategic Partners & Collaborators",
+    "intro": {
+      "tag": "Human Capital",
+      "title": "Professional excellence in network.",
+      "desc": "Our firm operates under a multidisciplinary collaboration model, integrating the best specialists in each area to guarantee a 360-degree technical defense."
+    },
+    "cards": {
+      "card_1": {
+        "title": "Principal Partners",
+        "desc": "Strategic leadership and forensic supervision of all highly sensitive cases of the firm."
+      },
+      "card_2": {
+        "title": "External Consultants",
+        "desc": "Network of experts in finance, computer forensics, and legal medicine that support our litigation strategies."
+      },
+      "card_3": {
+        "title": "International Allies",
+        "desc": "Correspondents in key jurisdictions for handling cross-border matters and consular management."
+      }
+    }
+  },
+  "firma": {
+    "strategies": {
+      "tag": "Strategic case highlights",
+      "title": "Strategies that reflect our litigation approach",
+      "case_selection": {
+        "tag": "Case selection",
+        "title": "Prioritizing cases with real viability",
+        "desc": "We prioritize cases with real legal viability, following a rigorous analysis of the facts and applicable regulations. This methodology avoids unnecessary litigation and aligns expectations with legally sound scenarios."
+      },
+      "case_theory": {
+        "tag": "Case theory",
+        "title": "Case theory as the core of defense",
+        "desc": "Every matter is structured from the outset with a clear, coherent, and verifiable case theory. We integrate facts, evidence, and law into a solid legal narrative that guides all procedural actions, from the first step to case closure."
+      },
+      "representative_scenarios": {
+        "tag": "Representative scenarios",
+        "title": "Strategies applied in sensitive contexts",
+        "desc": "From economic criminal investigations against companies to constitutional amparo actions, our approach focuses on anticipating risks, securing the evidentiary chain, and protecting the client's reputation in every strategic decision."
+      }
+    }
+  },
+  "title": "Mac Consultores Jurídicos & Asociados | Legal Excellence",
+  "breadcrumb": "Areas of Excellence",
+  "h1": "Legal Services",
+  "intro": {
+    "tag": "Areas of Excellence",
+    "h2": "Comprehensive solutions tailored to the most demanding challenges."
+  },
+  "services": {
+    "card_1": {
+      "title": "Criminal and Procedural Criminal Law",
+      "desc": "We assume comprehensive technical defense in high-complexity proceedings, economic criminality, and financial crimes. We focus on the control of procedural guarantees and the design of robust litigation strategies.",
+      "list": [
+        "Defense against criminal charges",
+        "Cassation and Appeal Remedies",
+        "Corporate Criminal Liability",
+        "Money Laundering"
+      ]
+    },
+    "card_2": {
+      "title": "Constitutional Law",
+      "desc": "Effective protection of fundamental rights through the activation of constitutional protection mechanisms. We safeguard the legal security of our clients against institutional violations.",
+      "list": [
+        "Constitutional Amparo Actions",
+        "Habeas Corpus & Habeas Data",
+        "Conventionality Control",
+        "Normative Interpretation Consultancy"
+      ]
+    },
+    "card_3": {
+      "title": "Cybercrimes and Digital Evidence",
+      "desc": "Specialization in the legal approach to technological contingencies. Incident management, electronic fraud, and legal analysis of digital evidence.",
+      "list": [
+        "Defense in Cybercrimes",
+        "Fraud Management & Digital Sabotage",
+        "Legal Audit of Evidence",
+        "Data Privacy Protection"
+      ]
+    },
+    "card_4": {
+      "title": "Preventive Legal Consulting",
+      "desc": "Design of legal structures for risk mitigation. We accompany corporations and individuals in strategic decision-making to avoid procedural contingencies.",
+      "list": [
+        "Compliance & Regulatory Compliance",
+        "Legal Risk Management",
+        "Complex Contractual Structuring",
+        "Corporate Governance Advisory"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Do you require a strategic assessment of your legal situation?",
+    "desc": "Our team of experts is prepared to analyze your case with the technical rigor it deserves.",
+    "btn": "START PRIVATE CONSULTATION"
+  },
+  "tramites_consulares": {
+    "title": "Venezuelans Abroad | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "Services / Diaspora",
+    "h1": "Legal Management for Venezuelans Abroad",
+    "subtitle": "We protect your interests in Venezuela from anywhere in the world.",
+    "intro_p": "Globalization and the Venezuelan diaspora have multiplied cases where individuals maintain asset, family, and procedural ties in the country, even while residing permanently abroad. Likewise, we assist citizens of other nationalities who require reliable local legal support in Venezuela. At Mac Consultores Jurídicos & Asociados, we provide effective judicial and extrajudicial protection, designed for those who need remote legal representation without traveling to the national territory.",
+    "support": {
+      "tag": "Areas of Support",
+      "title": "Specialized Services for Abroad",
+      "card_1": {
+        "title": "Consular Practice",
+        "desc": "Legal empowerment and strategic representation before consular missions and migration authorities to guarantee your mobility and fundamental rights."
+      },
+      "card_2": {
+        "title": "Document Management",
+        "desc": "International legalization, Hague Apostille, and validation of public documents with guaranteed efficacy and procedural technical rigor."
+      },
+      "card_3": {
+        "title": "Family Law",
+        "desc": "Specialized litigation in cases of international child abduction and execution of transnational child support obligations with a humane approach."
+      },
+      "card_4": {
+        "title": "Inheritances & Estates",
+        "desc": "Resolution of inheritance disputes and comprehensive estate planning with assets or heirs dispersed across different global jurisdictions."
+      },
+      "card_5": {
+        "title": "Judicial Representation",
+        "desc": "High-end technical defense in criminal, civil, or administrative proceedings in Venezuelan territory, without requiring physical presence."
+      },
+      "card_6": {
+        "title": "Strategic Powers of Attorney",
+        "desc": "Advisory and drafting of mandates and special powers of attorney to ensure your asset and legal interests in Venezuela are always shielded."
+      }
+    },
+    "form": {
+      "title": "Request Assistance from Abroad",
+      "desc": "Tell us your situation and country of residence. An expert will contact you to coordinate representation in Venezuela.",
+      "label_name": "First & Last Name",
+      "placeholder_name": "e.g., John Doe",
+      "label_country": "Country of Residence",
+      "placeholder_country": "e.g., Spain, United States, Chile",
+      "label_message": "Message / Request",
+      "placeholder_message": "Briefly describe the transaction or legal case in Venezuela",
+      "btn": "SUBMIT REQUEST FOR ASSESSMENT"
+    }
+  },
+  "colaboracion_internacional": {
+    "title": "International Collaboration | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "Alliances / B2B",
+    "h1": "International Collaboration",
+    "intro": {
+      "tag": "Partnership",
+      "title": "Strategic allies for international law firms.",
+      "p1": "In a globalized legal environment, collaboration between firms is essential. Mac Consultores Jurídicos & Asociados acts as the strategic local arm for international firms requiring specialized support in Venezuela.",
+      "p2": "We offer a B2B services platform designed to integrate with the quality and response standards of the most demanding global firms."
+    },
+    "proposal": {
+      "tag": "Our Proposal",
+      "title": "Local Support for Global Firms",
+      "card_1": {
+        "title": "Legal Correspondency",
+        "desc": "We act as your local correspondents in Venezuela, managing judicial actions and administrative procedures with complete transparency."
+      },
+      "card_2": {
+        "title": "Legal Due Diligence",
+        "desc": "Exhaustive risk analysis and legal audits in the Venezuelan jurisdiction for mergers, acquisitions, or investment projects."
+      },
+      "card_3": {
+        "title": "Legal Opinions",
+        "desc": "Issuance of technical reports and legal opinions on Venezuelan regulations to be used in foreign proceedings."
+      }
+    }
+  },
+  "seo": {
+    "blog_criminalidad_economica": {
+      "title": "Criminal Analysis: Evolution of Economic Crime | Mac Consultores Jurídicos & Asociados",
+      "description": null,
+      "og_title": "Criminal Analysis: Evolution of Economic Crime | Mac Consultores Jurídicos & Asociados",
+      "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
+    },
+    "privacidad": {
+      "title": "Privacy Policy | Mac Consultores Jurídicos & Asociados",
+      "description": null,
+      "og_title": "Privacy Policy | Mac Consultores Jurídicos & Asociados",
+      "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
+    },
+    "blog": {
+      "title": "Legal Blog | Mac Consultores Jurídicos & Asociados",
+      "description": null,
+      "og_title": "Legal Blog | Mac Consultores Jurídicos & Asociados",
+      "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
+    },
+    "tramites_consulares": {
+      "title": "Venezuelans Abroad | Mac Consultores Jurídicos & Asociados",
+      "description": null,
+      "og_title": "Venezuelans Abroad | Mac Consultores Jurídicos & Asociados",
+      "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
+    },
+    "index": {
+      "title": "Mac Legal Consultants & Associates | Legal Excellence",
+      "description": "Boutique law firm in Caracas specialized in highly complex criminal litigation, constitutional law, and preventive corporate compliance at a national and international level.",
+      "og_title": "Mac Legal Consultants & Associates | Legal Excellence",
+      "og_description": "Boutique law firm in Caracas specialized in highly complex criminal litigation, constitutional law, and corporate compliance."
+    },
+    "quienes_somos": {
+      "title": "The Firm | Mac Legal Consultants",
+      "description": "Learn about the history, values, and the team of professionals behind Mac Legal Consultants & Associates. Dedicated to the impeccable practice of Law in Venezuela.",
+      "og_title": "The Firm | Mac Legal Consultants",
+      "og_description": "Learn about the history, values, and team behind Mac Legal Consultants & Associates."
+    },
+    "noticias": {
+      "title": "News & Legal Updates | Mac Consultants",
+      "description": "Stay informed with the latest legal bulletins, landmark rulings, criminal reforms, and expert opinions from our firm.",
+      "og_title": "Legal Updates and News | Mac Consultants",
+      "og_description": "Latest news, landmark rulings, and legal analysis from our experts in Venezuelan and international law."
+    },
+    "blog_regimen_poderes_cpc_copp": {
+      "title": "Criminal Procedure: The Regime of Powers in the CPC and the COPP | Mac Consultores Jurídicos & Asociados",
+      "description": null,
+      "og_title": "Criminal Procedure: The Regime of Powers in the CPC and the COPP | Mac Consultores Jurídicos & Asociados",
+      "og_description": "Enabled procedural acts and private accusation: With a specially granted power of attorney, the victim's representative can access the investigation file, request procedures, attend hearings, and exercise the right to reply."
+    },
+    "socios_colaboradores": {
+      "title": "Partners & Collaborators | Mac Consultores Jurídicos & Asociados",
+      "description": null,
+      "og_title": "Partners & Collaborators | Mac Consultores Jurídicos & Asociados",
+      "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
+    },
+    "servicios": {
+      "title": "Practice Areas and Services | Mac Consultants",
+      "description": "Our legal services include: Criminal Law, Constitutional Law, Corporate Compliance, Extraditions, and consulting for individuals and corporations.",
+      "og_title": "Specialized Legal Services | Mac Consultants",
+      "og_description": "Criminal Law, Constitutional Law, Extraditions, and preventive Corporate Compliance."
+    },
+    "colaboracion_internacional": {
+      "title": "International Collaboration | Mac Consultores Jurídicos & Asociados",
+      "description": null,
+      "og_title": "International Collaboration | Mac Consultores Jurídicos & Asociados",
+      "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
+    },
+    "nuestro_ceo": {
+      "title": "Our CEO | Mac Consultores Jurídicos & Asociados",
+      "description": null,
+      "og_title": "Our CEO | Mac Consultores Jurídicos & Asociados",
+      "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
+    },
+    "contacto": {
+      "title": "Contact | Mac Consultores Jurídicos & Asociados",
+      "description": null,
+      "og_title": "Contact | Mac Consultores Jurídicos & Asociados",
+      "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
+    },
+    "blog_amparo_garantia_vital": {
+      "title": "Constitutional: Amparo as a Vital Guarantee | Mac Consultores Jurídicos & Asociados",
+      "description": null,
+      "og_title": "Constitutional: Amparo as a Vital Guarantee | Mac Consultores Jurídicos & Asociados",
+      "og_description": "In the context of corporate Criminal Law, constitutional amparo represents the final and most forceful line of defense against arbitrary or disproportionate State actions that threaten the operational continuity of a company or the freedom of its directors."
+    },
+    "aviso_legal": {
+      "title": "Legal Notice | Mac Consultores Jurídicos & Asociados",
+      "description": null,
+      "og_title": "Legal Notice | Mac Consultores Jurídicos & Asociados",
+      "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
+    }
+  },
+  "hero": {
+    "tag": "Rigor & Strategy",
+    "h1": "Legal architecture for high-complexity cases.",
+    "desc": "Tailored criminal and constitutional defense, focusing on the effective protection of rights, assets, and reputation in sensitive environments.",
+    "btn": "Request private consultation"
+  },
+  "about": {
+    "tag": "Our Firm",
+    "title": "Solid foundations for complex challenges.",
+    "desc_1": "At Mac Consultores Jurídicos & Asociados, we view law as a discipline of high precision. Our practice is defined by integrity, technical rigor, and the capacity for strategic anticipation at every stage of the proceedings.",
+    "desc_2": "Led by Atty. Marco A. Colina G., we combine over two decades of experience in criminal and constitutional litigation with a vanguard academic vision, ensuring solid and ethical results for a national and international clientele.",
+    "btn": "Discover our history"
+  },
+  "specialties": {
+    "tag": "Specialties",
+    "title": "Strategic Practice Areas",
+    "details_link": "VIEW DETAILS →",
+    "card_1": {
+      "title": "Technical Criminal Defense",
+      "desc": "Comprehensive defense strategies in high-complexity criminal matters, white-collar crime, and cybercrimes with a cutting-edge technical approach."
+    },
+    "card_2": {
+      "title": "Constitutional Protection",
+      "desc": "Effective protection of fundamental rights through Constitutional Amparo, Habeas Corpus, and Habeas Data before competent judicial instances."
+    },
+    "card_3": {
+      "title": "International Law",
+      "desc": "Strategic representation before consular missions and multilateral organizations for the Venezuelan diaspora and complex cross-border matters."
+    }
+  },
+  "news": {
+    "tag": "Current Affairs",
+    "title": "News & Publications",
+    "read_more": "READ MORE →",
+    "card_1": {
+      "title": "Impact of the New Criminal Legislation",
+      "desc": "Detailed analysis of recent procedural reforms and their implications for corporate defense."
+    },
+    "card_2": {
+      "title": "Trends in Constitutional Amparo",
+      "desc": "Review of recent case law and its fundamental impact on the protection of corporate and individual rights."
+    },
+    "card_3": {
+      "title": "New International Agreements",
+      "desc": "How new international collaboration frameworks directly affect consular management for the Venezuelan diaspora."
+    }
+  },
+  "home": {
+    "resources": {
+      "tag": "Resources",
+      "title": "Strategic resources for businesses",
+      "guide": {
+        "tag": "Economic criminal risk",
+        "title": "5-step guide to protect your company in economic criminal investigations",
+        "desc": "Practical document summarizing key prevention, documentation, and reaction measures in economic criminal risk scenarios.",
+        "cta": "DOWNLOAD GUIDE →"
+      },
+      "checklist": {
+        "tag": "Defense documentation",
+        "title": "Checklist of documentation for corporate criminal defense",
+        "desc": "Structured list of essential documents to organize criminal defense and respond quickly to requests from authorities.",
+        "cta": "DOWNLOAD CHECKLIST →"
+      },
+      "template": {
+        "tag": "International services",
+        "title": "Template for international legal services agreements",
+        "desc": "Model agreement for international clients, with clauses on jurisdiction, applicable law, fees, and confidentiality.",
+        "cta": "DOWNLOAD TEMPLATE →"
+      },
+      "cta": "View strategic resources"
+    },
+    "strategies": {
+      "tag": "Strategic case highlights",
+      "title": "Strategies that reflect how we litigate",
+      "case_selection": {
+        "tag": "Case selection",
+        "title": "Prioritizing cases with real viability",
+        "desc": "We prioritize cases with genuine legal viability, after a rigorous analysis of facts and applicable law. This methodology avoids unnecessary litigation and aligns expectations with legally realistic scenarios."
+      },
+      "case_theory": {
+        "tag": "Case theory",
+        "title": "Case theory as the axis of defense",
+        "desc": "Each matter is structured from the outset with a clear, coherent, and verifiable case theory. We integrate facts, evidence, and law into a solid legal narrative that guides the entire procedural strategy.",
+        "long_title": "Case theory: from hypothesis to procedural strategy",
+        "long_desc": "Case theory is not rhetorical decoration; it is the backbone of any serious defense. We start from a central hypothesis that explains what happened, why it happened, and how the evidence supports that version against the prosecution’s narrative.\n\nFrom the very first steps, we define the evidentiary story we want the court to hear and understand: which facts are admitted, which are disputed, where the accusation has gaps, and which indicators reveal that the charges are overstated or disproportionate. This theory guides the preparation of statements, the selection of experts, cross‑examination, and the use of documentary evidence.\n\nThe result is a coherent procedural strategy: every brief, every appearance, and every argument responds to a single guiding axis, avoiding defensive contradictions, improvisation, and shifts that undermine the client’s credibility before judges and the Public Prosecutor’s Office."
+      },
+      "representative_scenarios": {
+        "tag": "Representative scenarios",
+        "title": "Strategies applied in sensitive contexts",
+        "desc": "From economic criminal investigations against companies to constitutional protection actions, our approach focuses on anticipating risks, securing the evidentiary chain, and protecting the client's reputation in each strategic decision.",
+        "long_title": "Strategies in sensitive criminal and constitutional scenarios",
+        "long_desc": "In the most sensitive matters —economic criminal investigations against companies, proceedings with media exposure, or constitutional protection actions— we design strategy across three levels: legal, evidentiary, and reputational.\n\nOn the legal level, we identify the applicable legal framework and the relevant case law, to know precisely what the real margins of maneuver are and which procedural avenues offer the strongest protection for the client. On the evidentiary level, we focus on preserving the chain of custody, refining the available evidence, and anticipating the attacks the opposing party will direct at documents and witnesses.\n\nFinally, we analyze the reputational impact of each decision: how we communicate developments to the client, the risk of leaks or public exposure, and which measures can be taken to minimize damage to personal or corporate image, without sacrificing the strength of the technical defense."
+      }
+    }
+  },
+  "strategy_case_theory": {
+    "title": "Case Theory | Mac Consultores",
+    "h1": "Case Theory: From Hypothesis to Procedural Strategy",
+    "p1": "Case theory is not rhetorical discourse; it is the backbone of any serious defense. We start from a central hypothesis that explains what happened, why it happened, and how the evidentiary elements support it against the accusatory version.",
+    "p2": "From the earliest proceedings, we define the evidentiary narrative we want the court to hear and understand: what facts are admitted, which are disputed, what gaps the accusation has, and what indicators reveal that the imputation is forced or disproportionate. This theory guides the preparation of statements, selection of experts, cross-examination, and the use of documentary evidence.",
+    "p3": "The result is a coherent procedural strategy: every writ, every action, and every plea responds to the same argumentative axis, avoiding defensive contradictions, improvisations, and shifts that undermine the client's credibility before the judges and the Public Prosecutor."
+  },
+  "strategy_representative_scenarios": {
+    "title": "Representative Scenarios | Mac Consultores",
+    "h1": "Representative Acting Scenarios",
+    "intro": "Below are generic examples of matters in which the firm assumes representation, always safeguarding the confidentiality inherent to our practice:",
+    "li1": "Defense or complaint for complex financial fraud within corporate groups (misappropriation of funds, documentary falsification, concealment of assets).",
+    "li2": "Technical defense against investigations for money laundering, organized crime, and administrative corruption.",
+    "li3": "Preventive advice and defense in criminal-tax and criminal-banking matters.",
+    "li4": "Criminal litigation associated with shareholder conflicts, misappropriation, and disloyal administration.",
+    "li5": "Consulting for the prevention of corporate criminal risks and legal compliance protocols (Compliance)."
+  },
+  "blog": {
+    "title": "Legal Blog | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "Current Affairs / Analysis",
+    "h1": "Strategic Legal Blog",
+    "read_more": "READ MORE →",
+    "article_1": {
+      "tag": "Criminal Analysis",
+      "title": "Evolution of Economic Crime",
+      "desc": "A strategic analysis on how economic crimes have evolved and why they represent today one of the greatest criminal and reputational risks for companies."
+    },
+    "article_2": {
+      "tag": "Constitutional",
+      "title": "Amparo as a Vital Guarantee",
+      "desc": "Reflections on the effectiveness of constitutional protection in the contemporary procedural environment and the protection of fundamental rights."
+    },
+    "article_3": {
+      "tag": "Technology",
+      "title": "Challenges of Digital Evidence",
+      "desc": "How chain of custody and forensic computer analysis are transforming evidentiary assessment in oral trials."
+    }
+  },
+  "noticias": {
+    "title": "News & Current Affairs | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "Current Affairs / Information",
+    "h1": "News & Legal Current Affairs",
+    "read_more": "READ MORE →",
+    "news_1": {
+      "tag": "Legislation",
+      "title": "New Reforms in Criminal Matters",
+      "desc": "The National Executive announced substantial modifications to the Organic Criminal Procedural Code that directly impact investigative procedures and applicable precautionary measures."
+    },
+    "news_2": {
+      "tag": "Institutional",
+      "title": "New International Agreement",
+      "desc": "Mac Consultores signs strategic collaboration agreement with associated firm in Madrid to handle highly complex cross-border cases."
+    },
+    "news_3": {
+      "tag": "Jurisprudence",
+      "title": "TSJ Binding Ruling",
+      "desc": "The Constitutional Chamber establishes new criteria on the application of the presumption of innocence principle in proceedings for economic and financial crimes."
+    }
+  },
+  "articulo_crimen": {
+    "title": "Criminal Analysis: Evolution of Economic Crime | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "<a href=\"blog.html\">Blog</a> / Criminal Analysis",
+    "h1": "Criminal Analysis: Evolution of Economic Crime",
+    "meta": "Category: Criminal Analysis",
+    "p1": "The contemporary business environment is a dynamic and sophisticated ecosystem. Today, the greatest risks to an organization's assets and reputation do not materialize through physical violence, but are hidden in altered financial statements, opaque cross-border transfers, and complex corporate structures. In this scenario, understanding how financial crime has mutated is not a mere academic exercise, but an imperative necessity for corporate survival.",
+    "h2_1": "Introduction: Context and Current Relevance",
+    "p2_1": "When we speak of “economic criminality,” we refer to an autonomous dogmatic and criminological category, deeply differentiated from classic property crime (such as theft, robbery, or simple fraud). While traditional property crime attacks individual legal assets (a person's property), Economic Criminal Law is responsible for protecting supra-individual or collective legal assets: the correct functioning of the market, the integrity of the financial system, free competition, and the socio-economic interests of the State.",
+    "p2_2": "The expansion and autonomy of this branch of Criminal Law did not occur in a vacuum. It is intrinsically linked to major economic crises and structural market failures. The Great Depression of 1929 showed that stock market fraud and securities manipulation could bankrupt entire nations. More recently, the global financial crisis of 2008 and the economic disruptions derived from the pandemic demonstrated that executive irresponsibility and the lack of internal controls have massive destructive power. As commercial globalization advanced and business activity became transnational, so did the risks.",
+    "p2_3": "For Venezuelan and Latin American companies, this evolution has a direct and daily impact. Our corporations operate in highly regulated and often volatile environments, which increases exposure to risks of corporate financial fraud, private and public corruption, money laundering, exchange rate violations, and crimes linked to the use of crypto assets. Ignoring this reality exposes organizations not only to bankruptcy, but also to the criminal prosecution of their boards of directors and management teams.",
+    "h2_2": "Brief Historical Evolution of Economic Criminal Law",
+    "intro_2": "The consolidation of economic criminality as an autonomous object of study and prosecution has been a gradual process. To understand its current state, we must review its main historical milestones, which have set the tone both in Europe and in its subsequent reception in Latin America:",
+    "h3_2a": "a) Transition from the Middle Ages to the Modern Era",
+    "p3_2a": "For centuries, commercial offenses (such as usury or fraud in weights and measures) were severely punished, but an organic system did not exist. With the consolidation of the Rule of Law and the liberal model (18th and 19th centuries), the principle of minimal state intervention (laissez-faire) prevailed. Criminal Law was reserved for the protection of life and physical property, leaving commercial disputes to the civil and mercantile spheres.",
+    "h3_2b": "b) Interwar Period",
+    "p3_2b": "Emergency and scarcity economies forced States to intervene heavily in price fixing, distribution of goods, and currency control. Here arises a more intense economic criminal policy, aimed at punishing hoarding, speculation, and the black market. The State assumes a leading role in the economy and uses Criminal Law as a control tool.",
+    "h3_2c": "c) Post-war & Cold War",
+    "p3_2c": "With the consolidation of the social and democratic Rule of Law, state interventionism is legitimized to guarantee collective welfare. The market is no longer seen as an untouchable entity. It is during this era that criminologist Edwin Sutherland coined the term “white-collar crime” (1939), making visible that crime is also perpetrated by individuals of high socio-economic status in the exercise of their profession.",
+    "h3_2d": "d) Postmodernity and Globalization",
+    "p3_2d": "At the end of the 20th century and during the 21st century, economic crimes systematically consolidated. Contemporary financial crises, deregulation of certain sectors, and the explosion of the digital economy forced legislators to create highly specialized criminal definitions, oriented to protect intangible assets such as data, algorithms, and inside information.",
+    "p3_2e": "From these processes, it became clear that traditional Criminal Law tools (designed for street criminals) were useless against white-collar criminals. Thus was born a specific criminal policy for economic crimes, with its own rules of evidence and new forms of imputation.",
+    "h2_3": "Distinctive Features of Contemporary Economic Crime",
+    "p2_3a": "To defend a corporation, we must first understand the anatomy of the risk it faces. Current economic crime presents characteristics that set it apart from the traditional criminal paradigm:",
+    "list_2_3": [
+      "<strong>High technical complexity:</strong> Crimes are hidden behind financial engineering operations, multi-level corporate structures, tax havens, and opaque investment products, requiring advanced accounting and financial expertise.",
+      "<strong>Use of the legal entity:</strong> The company ceases to be just the victim and becomes a criminal instrument or “screen” to blur the liability of its executives.",
+      "<strong>Blurry border between administrative offense and crime:</strong> There is a thin line between administrative violations and criminal offenses, which generates tension over when the State should resort to criminal punishment.",
+      "<strong>Macrosocial impact vs. visibility:</strong> A banking fraud can destroy the savings of thousands of families with damage superior to that of many violent crimes, but its media perception is usually lower.",
+      "<strong>Transnational and technological dimension:</strong> Money flows at the speed of light and crimes are supported by the internet, electronic clearing systems, and decentralized networks."
+    ],
+    "p2_3b": "Among the most typical examples are tax and fiscal fraud, corporate crimes, money laundering, corruption, stock market offenses, and complex Ponzi schemes.",
+    "h2_4": "Impact of the Digital Economy and Financial Tech Crimes",
+    "p2_4": "The digitalization of the economy, the proliferation of electronic payment gateways, and the rise of crypto assets have generated unprecedented modalities of economic crime, which frequently overflow traditional legal and investigative frameworks. Among the main challenges are anonymity or pseudonymity, conflicts of jurisdiction, technical-computer difficulties, and information asymmetry between criminals and authorities.",
+    "h2_5": "Approach from Venezuelan and Latin American Criminal Law",
+    "p2_5": "Latin America, and Venezuela in particular, has had to adapt its legal framework so as not to become a refuge for global economic crime. In recent decades, there has been a shift from nineteenth-century criminal codes to hyper-regulation through special criminal laws, with an emphasis on organized crime, terrorism financing, the banking system, the stock market, exchange rate regimes, and customs.",
+    "h2_6": "Economic Analysis Perspective of Criminal Law",
+    "p2_6": "From the economic analysis of Criminal Law (Law & Economics), the white-collar criminal is conceived as a rational actor who weighs the costs and benefits of committing a crime, in a context where potential benefits are high, the probability of detection is low, and evidentiary complexity is elevated.",
+    "h2_7": "Conclusions and Practical Recommendations",
+    "p2_7a": "Economic criminality requires companies to adopt comprehensive criminal compliance programs, strict internal policies, continuous training, exhaustive due diligence, and early consultation with specialists in Economic Criminal Law.",
+    "p2_7b": "At Mac Consultores Jurídicos & Asociados we have experience in risk assessment, design of prevention strategies, and litigation of complex cases of economic criminality, with an approach oriented to the comprehensive protection of corporate victims and the strategic management of criminal crises."
+  }
+}

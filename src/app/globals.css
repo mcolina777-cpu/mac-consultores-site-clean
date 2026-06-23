@@ -98,7 +98,7 @@ a {
 /* Header */
 nav {
     background: rgba(255, 255, 255, 0.95);
-    position: static;
+    position: relative;
     z-index: 1000;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(0, 56, 101, 0.08);
@@ -121,9 +121,6 @@ nav .logo {
 
 
 .logo {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 0;
-    color: transparent;
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -218,7 +215,8 @@ nav .nav-links {
         flex: 0 0 auto;
         margin-bottom: 0;
         max-width: 60%;
-        height: 40px; /* para el nuevo logo svg */
+        height: auto;
+        font-size: 0.9rem;
     }
 
     /* Botón MENÚ visible solo en móvil */
@@ -240,12 +238,17 @@ nav .nav-links {
     /* Enlaces ocultos inicialmente en móvil */
     nav .nav-links {
         display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
         width: 100%;
+        background: var(--bg-white);
         flex-direction: column;
         margin-left: 0;
-        padding: 15px 0 0;
+        padding: 0;
         gap: 0;
-        transition: all 0.3s ease;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        z-index: 1000;
     }
 
     /* Cuando el menú se abre */
@@ -862,9 +865,9 @@ footer, .footer {
     
     .hero {
         height: auto;
-        min-height: 100vh;
-        padding-top: 80px; /* para compensar el header */
-        padding-bottom: 40px;
+        min-height: auto;
+        padding-top: 140px; /* offset for fixed header if any */
+        padding-bottom: 80px;
     }
 }
 

@@ -7,6 +7,7 @@ interface LogoProps {
 
 export default function LogoSVG({ className = '', isDarkTheme = false }: LogoProps) {
   const textColor = isDarkTheme ? '#FFFFFF' : '#002644';
+  const gradientId = `goldGradient-${Math.random().toString(36).substring(2, 9)}`;
   
   return (
     <svg 
@@ -17,7 +18,7 @@ export default function LogoSVG({ className = '', isDarkTheme = false }: LogoPro
       height="auto"
     >
       <defs>
-        <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stopColor="#F5D76E" />
           <stop offset="50%" stopColor="#D4AF37" />
           <stop offset="100%" stopColor="#A67C00" />
@@ -31,7 +32,7 @@ export default function LogoSVG({ className = '', isDarkTheme = false }: LogoPro
         fontFamily="'Cormorant Garamond', Georgia, serif" 
         fontSize="72" 
         fontWeight="700" 
-        fill="url(#goldGradient)"
+        fill={`url(#${gradientId})`}
         textAnchor="middle"
         letterSpacing="6"
       >

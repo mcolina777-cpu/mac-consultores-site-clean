@@ -5,32 +5,33 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import LogoSVG from './Logo';
 
-export default function Navbar() {
+export default function Navbar({ dict, locale }: { dict: any, locale: string }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [lang, setLang] = useState('es');
   const pathname = usePathname();
 
-  // Cerrar el menú móvil automáticamente al cambiar de ruta
   useEffect(() => {
     setIsMobileMenuOpen(false);
   }, [pathname]);
 
-  // Lógica simple de idioma (simula i18n.js)
-  const toggleLang = (newLang: string) => {
-    setLang(newLang);
-    // TODO: En el futuro integrar con Next.js routing o Context
-    document.documentElement.lang = newLang;
+  // Generamos las URLs correctas quitando el prefijo de locale actual
+  const getLocalizedUrl = (targetLocale: string) => {
+    if (!pathname) return '/';
+    const segments = pathname.split('/');
+    if (segments[1] === 'es' || segments[1] === 'en') {
+      segments[1] = targetLocale;
+    } else {
+      segments.splice(1, 0, targetLocale);
+    }
+    return segments.join('/') || '/';
   };
 
   return (
     <nav>
       <div className="container">
-        <Link href="/" className="logo" style={{ textDecoration: 'none' }}>
-          {/* Logo tipográfico SVG */}
+        <Link href={`/${locale}`} className="logo" style={{ textDecoration: 'none' }}>
           <LogoSVG key={pathname} />
         </Link>
         
-        {/* Botón de Menú Móvil */}
         <button 
           className="mobile-menu-text-btn" 
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -38,29 +39,28 @@ export default function Navbar() {
           {isMobileMenuOpen ? 'CERRAR' : 'MENÚ'}
         </button>
 
-        {/* Enlaces de Navegación */}
         <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
-          <li><Link href="/" data-i18n="nav.inicio">Inicio</Link></li>
-          <li><Link href="/quienes-somos" data-i18n="nav.firma">Firma</Link></li>
-          <li><Link href="/servicios" data-i18n="nav.servicios">Servicios</Link></li>
-          <li><Link href="/tramites-consulares" data-i18n="nav.internacional">Internacional</Link></li>
-          <li><Link href="/colaboracion-internacional" data-i18n="nav.alianzas">Alianzas</Link></li>
-          <li><Link href="/contacto" data-i18n="nav.contacto">Contacto</Link></li>
+          <li><Link href={`/${locale}`}>{dict?.inicio || 'Inicio'}</Link></li>
+          <li><Link href={`/${locale}/quienes-somos`}>{dict?.firma || 'Firma'}</Link></li>
+          <li><Link href={`/${locale}/servicios`}>{dict?.servicios || 'Servicios'}</Link></li>
+          <li><Link href={`/${locale}/tramites-consulares`}>{dict?.internacional || 'Internacional'}</Link></li>
+          <li><Link href={`/${locale}/colaboracion-internacional`}>{dict?.alianzas || 'Alianzas'}</Link></li>
+          <li><Link href={`/${locale}/contacto`}>{dict?.contacto || 'Contacto'}</Link></li>
           
           <li className="lang-selector" style={{ display: 'flex', alignItems: 'center' }}>
-            <button 
-              className={`lang-btn ${lang === 'es' ? 'active' : ''}`} 
-              onClick={() => toggleLang('es')}
+            <Link 
+              href={getLocalizedUrl('es')}
+              className={`lang-btn ${locale === 'es' ? 'active' : ''}`}
             >
               ES
-            </button>
+            </Link>
             <span className="lang-separator">/</span>
-            <button 
-              className={`lang-btn ${lang === 'en' ? 'active' : ''}`} 
-              onClick={() => toggleLang('en')}
+            <Link 
+              href={getLocalizedUrl('en')}
+              className={`lang-btn ${locale === 'en' ? 'active' : ''}`}
             >
               EN
-            </button>
+            </Link>
           </li>
         </ul>
       </div>
