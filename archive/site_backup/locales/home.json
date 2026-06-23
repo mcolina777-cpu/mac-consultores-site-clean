@@ -1,0 +1,232 @@
+{
+  "es": {
+    "title": "Mac Consultores Jurídicos & Asociados | Excelencia Legal",
+    "hero": {
+      "tag": "Rigor & Estrategia",
+      "h1": "Arquitectura jurídica para casos de alta complejidad.",
+      "desc": "Defensa penal y constitucional diseñada a medida, con foco en la protección efectiva de derechos, patrimonio y reputación en entornos sensibles.",
+      "btn": "Solicitar consulta privada"
+    },
+    "about": {
+      "tag": "Nuestra Firma",
+      "title": "Cimientos sólidos para desafíos complejos.",
+      "desc_1": "En Mac Consultores Jurídicos & Asociados, entendemos el derecho como una disciplina de alta precisión. Nuestra práctica se define por la integridad, el rigor técnico y la capacidad de anticipación estratégica en cada etapa del proceso.",
+      "desc_2": "Liderados por el Abg. Marco A. Colina G., combinamos más de dos décadas de experiencia en el litigio penal y constitucional con una visión académica de vanguardia, garantizando resultados sólidos y éticos para una clientela nacional e internacional.",
+      "btn": "Conocer nuestra historia"
+    },
+    "specialties": {
+      "tag": "Especialidades",
+      "title": "Áreas de Práctica Estratégica",
+      "details_link": "VER DETALLES →",
+      "card_1": {
+        "title": "Defensa Penal Técnica",
+        "desc": "Estrategias de defensa integral en asuntos penales de alta complejidad, criminalidad económica y delitos informáticos con un enfoque técnico de vanguardia."
+      },
+      "card_2": {
+        "title": "Tutela Constitucional",
+        "desc": "Protección efectiva de derechos fundamentales mediante Amparo Constitucional, Hábeas Corpus y Hábeas Data ante las instancias jurisdiccionales competentes."
+      },
+      "card_3": {
+        "title": "Derecho Internacional",
+        "desc": "Representación estratégica ante misiones consulares y organismos multilaterales para la diáspora venezolana y asuntos transfronterizos complejos."
+      }
+    },
+    "news": {
+      "tag": "Actualidad",
+      "title": "Noticias & Publicaciones",
+      "read_more": "LEER MÁS →",
+      "card_1": {
+        "title": "Impacto de la Nueva Legislación Penal",
+        "desc": "Análisis detallado sobre las recientes reformas procesales y sus implicaciones para la defensa corporativa."
+      },
+      "card_2": {
+        "title": "Tendencias en Amparo Constitucional",
+        "desc": "Revisión de la jurisprudencia reciente y su impacto fundamental en la protección de los derechos corporativos e individuales."
+      },
+      "card_3": {
+        "title": "Nuevos Acuerdos Internacionales",
+        "desc": "Cómo los nuevos marcos de colaboración internacional afectan de forma directa las gestiones consulares de la diáspora venezolana."
+      }
+    },
+    "home": {
+      "resources": {
+        "tag": "Recursos",
+        "title": "Recursos estratégicos para empresas",
+        "guide": {
+          "tag": "Riesgo penal económico",
+          "title": "Guía en 5 pasos para proteger su empresa ante investigaciones penales económicas",
+          "desc": "Documento práctico que resume las medidas clave de prevención, documentación y reacción en escenarios de riesgo penal económico.",
+          "cta": "DESCARGAR GUÍA →"
+        },
+        "checklist": {
+          "tag": "Documentación para la defensa",
+          "title": "Checklist de documentación para la defensa penal de empresas",
+          "desc": "Lista estructurada de documentos esenciales para organizar la defensa penal y responder con rapidez a los requerimientos de las autoridades.",
+          "cta": "DESCARGAR CHECKLIST →"
+        },
+        "template": {
+          "tag": "Servicios internacionales",
+          "title": "Plantilla de contrato de prestación de servicios legales internacionales",
+          "desc": "Modelo de contrato orientado a clientes internacionales, con cláusulas de jurisdicción, ley aplicable, honorarios y confidencialidad.",
+          "cta": "DESCARGAR PLANTILLA →"
+        },
+        "cta": "Ver recursos estratégicos"
+      },
+      "strategies": {
+        "tag": "Estrategias representativas",
+        "title": "Estrategias que reflejan nuestra forma de litigar",
+        "case_selection": {
+          "tag": "Selección de casos",
+          "title": "Priorización de casos con viabilidad real",
+          "desc": "Priorizamos casos con viabilidad jurídica real, tras un análisis riguroso de los hechos y la normativa aplicable. Esta metodología evita litigios innecesarios y alinea expectativas con escenarios jurídicamente posibles."
+        },
+        "case_theory": {
+          "tag": "Teoría del caso",
+          "title": "Teoría del caso como eje de la defensa",
+          "desc": "Cada asunto se estructura desde el inicio con una teoría del caso clara, coherente y verificable. Integramos hechos, prueba y derecho en una narrativa jurídica sólida que guía toda la actuación procesal, desde la primera diligencia hasta el cierre del caso.",
+          "long_title": "Teoría del caso: de la hipótesis a la estrategia procesal",
+          "long_desc": "La teoría del caso no es un discurso retórico; es la columna vertebral de toda defensa seria. Partimos de una hipótesis central que explica qué ocurrió, por qué ocurrió y cómo los elementos de prueba la sostienen frente a la versión acusatoria.\n\nDesde las primeras diligencias, definimos cuál será la narrativa probatoria que queremos que el tribunal escuche y entienda: qué hechos se admiten, cuáles se disputan, qué vacíos tiene la acusación y qué indicadores revelan que la imputación es forzada o desproporcionada. Esta teoría guía la preparación de declaraciones, la selección de peritos, el contrainterrogatorio y el uso de la prueba documental.\n\nEl resultado es una estrategia procesal coherente: cada escrito, cada actuación y cada alegato responde a un mismo eje argumental, evitando contradicciones defensivas, improvisaciones y giros que restan credibilidad al cliente ante los jueces y el Ministerio Público."
+        },
+        "representative_scenarios": {
+          "tag": "Escenarios representativos",
+          "title": "Estrategias aplicadas en contextos sensibles",
+          "desc": "Desde investigaciones penales económicas contra empresas hasta acciones de amparo constitucional, nuestro enfoque se centra en anticipar riesgos, asegurar la cadena probatoria y proteger la reputación del cliente en cada decisión estratégica.",
+          "long_title": "Estrategias en escenarios penales y constitucionales sensibles",
+          "long_desc": "En los asuntos más sensibles —investigaciones penales económicas contra empresas, procedimientos con impacto mediático o acciones de amparo constitucional— diseñamos la estrategia combinando tres planos: jurídico, probatorio y reputacional.\n\nEn el plano jurídico, identificamos el marco normativo aplicable y los criterios jurisprudenciales relevantes, para saber con precisión cuáles son los márgenes reales de maniobra y qué vías procesales ofrecen mayor protección al cliente. En el plano probatorio, nos enfocamos en preservar la cadena de custodia, depurar la evidencia disponible y anticipar los ataques que la contraparte intentará dirigir contra los soportes documentales y testimoniales.\n\nFinalmente, analizamos el impacto reputacional de cada decisión: cómo comunicamos las actuaciones al cliente, qué riesgos existen de filtraciones o exposiciones públicas y qué medidas pueden tomarse para minimizar daños a la imagen personal o corporativa, sin sacrificar la solidez de la defensa técnica."
+        }
+      }
+    },
+    "strategy_case_theory": {
+      "title": "Teoría del caso | Mac Consultores",
+      "h1": "Teoría del caso: de la hipótesis a la estrategia procesal",
+      "p1": "La teoría del caso no es un discurso retórico; es la columna vertebral de toda defensa seria. Partimos de una hipótesis central que explica qué ocurrió, por qué ocurrió y cómo los elementos de prueba la sostienen frente a la versión acusatoria.",
+      "p2": "Desde las primeras diligencias, definimos cuál será la narrativa probatoria que queremos que el tribunal escuche y entienda: qué hechos se admiten, cuáles se disputan, qué vacíos tiene la acusación y qué indicadores revelan que la imputación es forzada o desproporcionada. Esta teoría guía la preparación de declaraciones, la selección de peritos, el contrainterrogatorio y el uso de la prueba documental.",
+      "p3": "El resultado es una estrategia procesal coherente: cada escrito, cada actuación y cada alegato responde a un mismo eje argumental, evitando contradicciones defensivas, improvisaciones y giros que restan credibilidad al cliente ante los jueces y el Ministerio Público."
+    },
+    "strategy_representative_scenarios": {
+      "title": "Escenarios representativos | Mac Consultores",
+      "h1": "Escenarios de actuación representativos",
+      "intro": "A continuación, presentamos ejemplos genéricos de asuntos en los que la firma asume representación, resguardando siempre la confidencialidad inherente a nuestra práctica:",
+      "li1": "Defensa o querella por defraudación patrimonial compleja en el seno de grupos empresariales (desvío de fondos, falsedad documental, ocultación de patrimonio).",
+      "li2": "Defensa técnica frente a investigaciones por legitimación de capitales, delincuencia organizada y corrupción administrativa.",
+      "li3": "Asesoría preventiva y defensa en materia penal-tributaria y penal-bancaria.",
+      "li4": "Litigio penal asociado a conflictos de accionistas, apropiación indebida y administración desleal.",
+      "li5": "Consultoría para la prevención de riesgos penales corporativos y protocolos de cumplimiento legal (Compliance)."
+    }
+  },
+  "en": {
+    "title": "Mac Consultores Jurídicos & Asociados | Legal Excellence",
+    "hero": {
+      "tag": "Rigor & Strategy",
+      "h1": "Legal architecture for high-complexity cases.",
+      "desc": "Tailored criminal and constitutional defense, focusing on the effective protection of rights, assets, and reputation in sensitive environments.",
+      "btn": "Request private consultation"
+    },
+    "about": {
+      "tag": "Our Firm",
+      "title": "Solid foundations for complex challenges.",
+      "desc_1": "At Mac Consultores Jurídicos & Asociados, we view law as a discipline of high precision. Our practice is defined by integrity, technical rigor, and the capacity for strategic anticipation at every stage of the proceedings.",
+      "desc_2": "Led by Atty. Marco A. Colina G., we combine over two decades of experience in criminal and constitutional litigation with a vanguard academic vision, ensuring solid and ethical results for a national and international clientele.",
+      "btn": "Discover our history"
+    },
+    "specialties": {
+      "tag": "Specialties",
+      "title": "Strategic Practice Areas",
+      "details_link": "VIEW DETAILS →",
+      "card_1": {
+        "title": "Technical Criminal Defense",
+        "desc": "Comprehensive defense strategies in high-complexity criminal matters, white-collar crime, and cybercrimes with a cutting-edge technical approach."
+      },
+      "card_2": {
+        "title": "Constitutional Protection",
+        "desc": "Effective protection of fundamental rights through Constitutional Amparo, Habeas Corpus, and Habeas Data before competent judicial instances."
+      },
+      "card_3": {
+        "title": "International Law",
+        "desc": "Strategic representation before consular missions and multilateral organizations for the Venezuelan diaspora and complex cross-border matters."
+      }
+    },
+    "news": {
+      "tag": "Current Affairs",
+      "title": "News & Publications",
+      "read_more": "READ MORE →",
+      "card_1": {
+        "title": "Impact of the New Criminal Legislation",
+        "desc": "Detailed analysis of recent procedural reforms and their implications for corporate defense."
+      },
+      "card_2": {
+        "title": "Trends in Constitutional Amparo",
+        "desc": "Review of recent case law and its fundamental impact on the protection of corporate and individual rights."
+      },
+      "card_3": {
+        "title": "New International Agreements",
+        "desc": "How new international collaboration frameworks directly affect consular management for the Venezuelan diaspora."
+      }
+    },
+    "home": {
+      "resources": {
+        "tag": "Resources",
+        "title": "Strategic resources for businesses",
+        "guide": {
+          "tag": "Economic criminal risk",
+          "title": "5-step guide to protect your company in economic criminal investigations",
+          "desc": "Practical document summarizing key prevention, documentation, and reaction measures in economic criminal risk scenarios.",
+          "cta": "DOWNLOAD GUIDE →"
+        },
+        "checklist": {
+          "tag": "Defense documentation",
+          "title": "Checklist of documentation for corporate criminal defense",
+          "desc": "Structured list of essential documents to organize criminal defense and respond quickly to requests from authorities.",
+          "cta": "DOWNLOAD CHECKLIST →"
+        },
+        "template": {
+          "tag": "International services",
+          "title": "Template for international legal services agreements",
+          "desc": "Model agreement for international clients, with clauses on jurisdiction, applicable law, fees, and confidentiality.",
+          "cta": "DOWNLOAD TEMPLATE →"
+        },
+        "cta": "View strategic resources"
+      },
+      "strategies": {
+        "tag": "Strategic case highlights",
+        "title": "Strategies that reflect how we litigate",
+        "case_selection": {
+          "tag": "Case selection",
+          "title": "Prioritizing cases with real viability",
+          "desc": "We prioritize cases with genuine legal viability, after a rigorous analysis of facts and applicable law. This methodology avoids unnecessary litigation and aligns expectations with legally realistic scenarios."
+        },
+        "case_theory": {
+          "tag": "Case theory",
+          "title": "Case theory as the axis of defense",
+          "desc": "Each matter is structured from the outset with a clear, coherent, and verifiable case theory. We integrate facts, evidence, and law into a solid legal narrative that guides the entire procedural strategy.",
+          "long_title": "Case theory: from hypothesis to procedural strategy",
+          "long_desc": "Case theory is not rhetorical decoration; it is the backbone of any serious defense. We start from a central hypothesis that explains what happened, why it happened, and how the evidence supports that version against the prosecution’s narrative.\n\nFrom the very first steps, we define the evidentiary story we want the court to hear and understand: which facts are admitted, which are disputed, where the accusation has gaps, and which indicators reveal that the charges are overstated or disproportionate. This theory guides the preparation of statements, the selection of experts, cross‑examination, and the use of documentary evidence.\n\nThe result is a coherent procedural strategy: every brief, every appearance, and every argument responds to a single guiding axis, avoiding defensive contradictions, improvisation, and shifts that undermine the client’s credibility before judges and the Public Prosecutor’s Office."
+        },
+        "representative_scenarios": {
+          "tag": "Representative scenarios",
+          "title": "Strategies applied in sensitive contexts",
+          "desc": "From economic criminal investigations against companies to constitutional protection actions, our approach focuses on anticipating risks, securing the evidentiary chain, and protecting the client's reputation in each strategic decision.",
+          "long_title": "Strategies in sensitive criminal and constitutional scenarios",
+          "long_desc": "In the most sensitive matters —economic criminal investigations against companies, proceedings with media exposure, or constitutional protection actions— we design strategy across three levels: legal, evidentiary, and reputational.\n\nOn the legal level, we identify the applicable legal framework and the relevant case law, to know precisely what the real margins of maneuver are and which procedural avenues offer the strongest protection for the client. On the evidentiary level, we focus on preserving the chain of custody, refining the available evidence, and anticipating the attacks the opposing party will direct at documents and witnesses.\n\nFinally, we analyze the reputational impact of each decision: how we communicate developments to the client, the risk of leaks or public exposure, and which measures can be taken to minimize damage to personal or corporate image, without sacrificing the strength of the technical defense."
+        }
+      }
+    },
+    "strategy_case_theory": {
+      "title": "Case Theory | Mac Consultores",
+      "h1": "Case Theory: From Hypothesis to Procedural Strategy",
+      "p1": "Case theory is not rhetorical discourse; it is the backbone of any serious defense. We start from a central hypothesis that explains what happened, why it happened, and how the evidentiary elements support it against the accusatory version.",
+      "p2": "From the earliest proceedings, we define the evidentiary narrative we want the court to hear and understand: what facts are admitted, which are disputed, what gaps the accusation has, and what indicators reveal that the imputation is forced or disproportionate. This theory guides the preparation of statements, selection of experts, cross-examination, and the use of documentary evidence.",
+      "p3": "The result is a coherent procedural strategy: every writ, every action, and every plea responds to the same argumentative axis, avoiding defensive contradictions, improvisations, and shifts that undermine the client's credibility before the judges and the Public Prosecutor."
+    },
+    "strategy_representative_scenarios": {
+      "title": "Representative Scenarios | Mac Consultores",
+      "h1": "Representative Acting Scenarios",
+      "intro": "Below are generic examples of matters in which the firm assumes representation, always safeguarding the confidentiality inherent to our practice:",
+      "li1": "Defense or complaint for complex financial fraud within corporate groups (misappropriation of funds, documentary falsification, concealment of assets).",
+      "li2": "Technical defense against investigations for money laundering, organized crime, and administrative corruption.",
+      "li3": "Preventive advice and defense in criminal-tax and criminal-banking matters.",
+      "li4": "Criminal litigation associated with shareholder conflicts, misappropriation, and disloyal administration.",
+      "li5": "Consulting for the prevention of corporate criminal risks and legal compliance protocols (Compliance)."
+    }
+  }
+}

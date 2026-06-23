@@ -1,0 +1,114 @@
+{
+  "es": {
+    "title": "Servicios Jurídicos | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "Áreas de Excelencia",
+    "h1": "Servicios Jurídicos",
+    "intro": {
+      "tag": "Áreas de Excelencia",
+      "h2": "Soluciones integrales diseñadas a la medida de los desafíos más exigentes."
+    },
+    "services": {
+      "card_1": {
+        "title": "Derecho Penal y Procesal Penal",
+        "desc": "Asumimos la defensa técnica integral en procedimientos de alta complejidad, criminalidad económica y delitos financieros. Nos enfocamos en el control de garantías procesales y el diseño de estrategias de litigio sólidas.",
+        "list": [
+          "Defensa frente a acusaciones penales",
+          "Recursos de Casación y Apelación",
+          "Criminalidad Corporativa",
+          "Legitimación de Capitales"
+        ]
+      },
+      "card_2": {
+        "title": "Derecho Constitucional",
+        "desc": "Protección efectiva de derechos fundamentales mediante la activación de mecanismos de tutela constitucional. Blindamos la seguridad jurídica de nuestros clientes frente a vulneraciones institucionales.",
+        "list": [
+          "Acción de Amparo Constitucional",
+          "Hábeas Corpus y Hábeas Data",
+          "Control de Convencionalidad",
+          "Consultoría en Interpretación Normativa"
+        ]
+      },
+      "card_3": {
+        "title": "Delitos Informáticos y Evidencia Digital",
+        "desc": "Especialización en el abordaje jurídico de contingencias tecnológicas. Gestión de incidentes de seguridad, fraude electrónico y análisis legal de elementos probatorios digitales.",
+        "list": [
+          "Defensa en Delitos Informáticos",
+          "Gestión de Fraude y Sabotaje Digital",
+          "Auditoría Jurídica de Evidencia",
+          "Protección de Privacidad de Datos"
+        ]
+      },
+      "card_4": {
+        "title": "Consultoría Jurídica Preventiva",
+        "desc": "Diseño de estructuras legales para la mitigación de riesgos. Acompañamos a empresas y particulares en la toma de decisiones estratégicas para evitar contingencias procesales.",
+        "list": [
+          "Compliance y Cumplimiento Normativo",
+          "Gestión de Riesgo Legal",
+          "Estructuración Contractual Compleja",
+          "Asesoría en Gobernanza Corporativa"
+        ]
+      }
+    },
+    "cta": {
+      "title": "¿Requiere una evaluación estratégica de su situación legal?",
+      "desc": "Nuestro equipo de expertos está preparado para analizar su caso con el rigor técnico que merece.",
+      "btn": "INICIAR CONSULTA PRIVADA"
+    }
+  },
+  "en": {
+    "title": "Legal Services | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "Areas of Excellence",
+    "h1": "Legal Services",
+    "intro": {
+      "tag": "Areas of Excellence",
+      "h2": "Comprehensive solutions tailored to the most demanding challenges."
+    },
+    "services": {
+      "card_1": {
+        "title": "Criminal and Procedural Criminal Law",
+        "desc": "We assume comprehensive technical defense in high-complexity proceedings, economic criminality, and financial crimes. We focus on the control of procedural guarantees and the design of robust litigation strategies.",
+        "list": [
+          "Defense against criminal charges",
+          "Cassation and Appeal Remedies",
+          "Corporate Criminal Liability",
+          "Money Laundering"
+        ]
+      },
+      "card_2": {
+        "title": "Constitutional Law",
+        "desc": "Effective protection of fundamental rights through the activation of constitutional protection mechanisms. We safeguard the legal security of our clients against institutional violations.",
+        "list": [
+          "Constitutional Amparo Actions",
+          "Habeas Corpus & Habeas Data",
+          "Conventionality Control",
+          "Normative Interpretation Consultancy"
+        ]
+      },
+      "card_3": {
+        "title": "Cybercrimes and Digital Evidence",
+        "desc": "Specialization in the legal approach to technological contingencies. Incident management, electronic fraud, and legal analysis of digital evidence.",
+        "list": [
+          "Defense in Cybercrimes",
+          "Fraud Management & Digital Sabotage",
+          "Legal Audit of Evidence",
+          "Data Privacy Protection"
+        ]
+      },
+      "card_4": {
+        "title": "Preventive Legal Consulting",
+        "desc": "Design of legal structures for risk mitigation. We accompany corporations and individuals in strategic decision-making to avoid procedural contingencies.",
+        "list": [
+          "Compliance & Regulatory Compliance",
+          "Legal Risk Management",
+          "Complex Contractual Structuring",
+          "Corporate Governance Advisory"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Do you require a strategic assessment of your legal situation?",
+      "desc": "Our team of experts is prepared to analyze your case with the technical rigor it deserves.",
+      "btn": "START PRIVATE CONSULTATION"
+    }
+  }
+}

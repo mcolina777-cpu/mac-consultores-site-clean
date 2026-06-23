@@ -1,0 +1,170 @@
+{
+  "es": {
+    "contacto": {
+      "title": "Contacto | Mac Consultores Jurídicos & Asociados",
+      "breadcrumb": "Atención al Cliente",
+      "h1": "Contacto y Consultas",
+      "info": {
+        "tag": "Canales Directos",
+        "title": "Estamos para proteger sus intereses.",
+        "desc": "Para agendar una consulta privada o solicitar una evaluación técnica de su caso, por favor utilice los siguientes canales o complete el formulario adjunto.",
+        "hq": "Sede Principal",
+        "email": "Correo Electrónico",
+        "hours": "Horario de Atención",
+        "hours_val": "Lunes a Viernes: 8:00 AM - 5:00 PM"
+      },
+      "form": {
+        "label_name": "Nombre completo",
+        "placeholder_name": "Ej. Marco Antonio Pérez",
+        "label_email": "Correo electrónico",
+        "placeholder_email": "ejemplo@correo.com",
+        "label_role": "Profesión / Rol principal",
+        "placeholder_role": "Ej. Director financiero, empresario, docente universitario",
+        "label_reason": "Motivo principal de su consulta",
+        "reason_default": "Seleccione una opción",
+        "reason_opt1": "Consultoría penal estratégica en materia corporativa (riesgos penales empresariales)",
+        "reason_opt2": "Interposición de denuncia o querella por hechos de naturaleza económica o corporativa (caso sin proceso previo)",
+        "reason_opt3": "Segunda opinión sobre un proceso penal de contenido económico o corporativo en curso (sin sustituir a su abogado)",
+        "reason_opt4": "Trámites consulares y gestión de documentos en Venezuela para clientes en el extranjero",
+        "reason_opt5": "Operaciones patrimoniales y corporativas (compra–venta de inmuebles, constitución o fusión de compañías, etc.)",
+        "hint_practice": "La firma centra su práctica en derecho penal corporativo y en asuntos de naturaleza económica, patrimonial y consular.",
+        "label_penal": "Tipo de hechos (solo si su consulta es penal)",
+        "penal_default": "No aplica / No es penal",
+        "penal_opt1": "Hechos de naturaleza económica o corporativa (fraude, corrupción, administración desleal, delitos societarios)",
+        "penal_opt2": "Delitos violentos u otros no económicos (lesiones, homicidio, violencia doméstica, etc.)",
+        "hint_violent": "Mac Consultores Jurídicos & Asociados no asume casos de delitos violentos comunes u otras materias penales ajenas al ámbito corporativo.",
+        "label_desc": "Descripción breve de su consulta",
+        "placeholder_desc": "Describa de forma breve y objetiva el motivo de su consulta (máximo 500 caracteres).",
+        "hint_admin": "Este canal no está habilitado para emitir criterios legales ni indicar qué debe hacer en su caso concreto. Su finalidad es exclusivamente administrativa: recopilar información básica para valorar la pertinencia de una consulta profesional sujeta a honorarios.",
+        "hint_fees": "Toda consulta profesional está sujeta a honorarios, que podrán ser facturados por hora o según el alcance del encargo. Para cualquier actuación de representación (por ejemplo, interposición de denuncias o querellas, gestión de trámites consulares o comparecencias en su nombre), es imprescindible el otorgamiento de un poder de representación previamente analizado y redactado de forma personalizada para su caso.",
+        "hint_relation": "Las comunicaciones remitidas a través de este formulario no constituyen, por sí mismas, relación abogado–cliente ni implican aceptación del asunto por parte de la firma.",
+        "btn": "ENVIAR SOLICITUD DE ADMISIÓN",
+        "success": "Su solicitud de admisión ha sido registrada. La firma valorará la información aportada y, de corresponder, se contactará con usted para coordinar una consulta profesional sujeta a honorarios."
+      },
+      "channels": {
+        "title": "Canales Alternativos",
+        "phone1": "📞 Llamadas Directas (Móvil 1):",
+        "phone2": "📞 Llamadas Directas (Móvil 2):",
+        "landline": "☎ Línea Fija (Caracas):",
+        "virtual": "💻 Consultas Virtuales:",
+        "virtual_link": "Reunión por Google Meet",
+        "follow": "📱 X (Twitter):",
+        "follow_link": "Síganos en X para actualizaciones"
+      }
+    },
+    "legal_pages": {
+      "notice_title": "Aviso Legal | Mac Consultores Jurídicos & Asociados",
+      "notice_h1": "Aviso Legal",
+      "notice_breadcrumb": "Información Corporativa",
+      "notice": {
+        "subtitle": "Condiciones de Uso e Información Legal",
+        "sec1_title": "1. Titularidad del Sitio Web",
+        "sec1_desc": "El presente sitio web es titularidad de MAC CONSULTORES JURÍDICOS & ASOCIADOS. Este espacio tiene como finalidad principal proporcionar información general sobre nuestros servicios jurídicos, equipo de profesionales y áreas de práctica.",
+        "sec2_title": "2. Carácter Informativo",
+        "sec2_desc": "Los contenidos de este sitio web tienen un propósito exclusivamente informativo y no constituyen, bajo ninguna circunstancia, asesoría legal, fiscal o profesional. La lectura o recepción de esta información no crea una relación abogado-cliente entre el usuario y la firma.",
+        "sec3_title": "3. Propiedad Intelectual e Industrial",
+        "sec3_desc": "Todos los derechos de propiedad intelectual e industrial sobre el contenido de esta página web, su diseño gráfico, logos, textos e imágenes son propiedad exclusiva de MAC CONSULTORES JURÍDICOS & ASOCIADOS, quedando estrictamente prohibida su reproducción, distribución o modificación sin autorización expresa.",
+        "sec4_title": "4. Limitación de Responsabilidad",
+        "sec4_desc": "La firma no se responsabiliza de las decisiones tomadas a partir de la información proporcionada en este sitio ni de los posibles daños y perjuicios derivados de su uso. Las referencias a regulaciones o leyes pueden no estar actualizadas al momento de su consulta."
+      },
+      "privacy_title": "Política de Privacidad | Mac Consultores Jurídicos & Asociados",
+      "privacy_h1": "Política de Privacidad",
+      "privacy_breadcrumb": "Información Corporativa",
+      "privacy": {
+        "subtitle": "Protección de Datos y Confidencialidad",
+        "sec1_title": "1. Recopilación de Datos",
+        "sec1_desc": "A través de nuestro formulario de contacto o mediante comunicación directa por correo electrónico, recogemos únicamente los datos personales estrictamente necesarios (nombre, correo, teléfono y el motivo de consulta) para gestionar su requerimiento de servicios profesionales.",
+        "sec2_title": "2. Finalidad del Tratamiento",
+        "sec2_desc": "Los datos proporcionados serán utilizados de manera exclusiva para atender su consulta, evaluar preliminarmente su caso y enviarle información relevante sobre los servicios de MAC CONSULTORES JURÍDICOS & ASOCIADOS. No compartimos, vendemos ni cedemos sus datos a terceros, salvo por obligación legal.",
+        "sec3_title": "3. Confidencialidad",
+        "sec3_desc": "Nuestra firma se rige por el estricto cumplimiento del secreto profesional. Toda la información suministrada, incluso antes de formalizarse una relación abogado-cliente, será tratada con la máxima confidencialidad y bajo protocolos de seguridad adecuados para evitar accesos no autorizados.",
+        "sec4_title": "4. Derechos del Usuario",
+        "sec4_desc": "Usted tiene el derecho de solicitar en cualquier momento el acceso, rectificación, actualización o eliminación de sus datos personales de nuestras bases de datos, enviando una comunicación al correo electrónico oficial: <a href=\"mailto:infomacconsul@gmail.com\">infomacconsul@gmail.com</a>."
+      }
+    }
+  },
+  "en": {
+    "contacto": {
+      "title": "Contact | Mac Consultores Jurídicos & Asociados",
+      "breadcrumb": "Client Intake",
+      "h1": "Contact & Inquiries",
+      "info": {
+        "tag": "Direct Channels",
+        "title": "We are here to protect your interests.",
+        "desc": "To schedule a private consultation or request a technical assessment of your case, please use the following channels or complete the attached form.",
+        "hq": "Headquarters",
+        "email": "Email Address",
+        "hours": "Business Hours",
+        "hours_val": "Monday to Friday: 8:00 AM - 5:00 PM"
+      },
+      "form": {
+        "label_name": "Full name",
+        "placeholder_name": "e.g., John Doe",
+        "label_email": "Email address",
+        "placeholder_email": "example@email.com",
+        "label_role": "Profession / Main role",
+        "placeholder_role": "e.g., Chief Financial Officer, entrepreneur, university professor",
+        "label_reason": "Main reason for inquiry",
+        "reason_default": "Select an option",
+        "reason_opt1": "Strategic criminal consulting on corporate matters (corporate criminal risks)",
+        "reason_opt2": "Filing a complaint or accusation for economic or corporate actions (case without prior proceedings)",
+        "reason_opt3": "Second opinion on an ongoing criminal proceeding of economic or corporate content (without replacing your attorney)",
+        "reason_opt4": "Consular procedures and document management in Venezuela for clients abroad",
+        "reason_opt5": "Asset and corporate transactions (real estate purchases/sales, company incorporation or mergers, etc.)",
+        "hint_practice": "The firm centers its practice on corporate criminal law and matters of an economic, asset, and consular nature.",
+        "label_penal": "Type of facts (only if your inquiry is criminal)",
+        "penal_default": "Not applicable / Non-criminal",
+        "penal_opt1": "Acts of an economic or corporate nature (fraud, corruption, embezzlement, corporate crimes)",
+        "penal_opt2": "Violent crimes or other non-economic offenses (assault, homicide, domestic violence, etc.)",
+        "hint_violent": "Mac Consultores Jurídicos & Asociados does not handle cases of common violent crimes or other criminal matters outside the corporate scope.",
+        "label_desc": "Brief description of inquiry",
+        "placeholder_desc": "Describe briefly and objectively the reason for your inquiry (maximum 500 characters).",
+        "hint_admin": "This channel is not authorized to issue legal criteria or indicate what you should do in your specific case. Its purpose is exclusively administrative: to collect basic information to evaluate the relevance of a professional consultation subject to fees.",
+        "hint_fees": "Every professional consultation is subject to fees, which may be billed hourly or according to the scope of the engagement. For any representation actions (e.g., filing complaints or lawsuits, managing consular procedures, or appearances on your behalf), it is essential to grant a power of attorney previously analyzed and drafted in a personalized manner for your case.",
+        "hint_relation": "Communications sent through this form do not, by themselves, constitute an attorney-client relationship, nor do they imply acceptance of the matter by the firm.",
+        "btn": "SUBMIT REQUEST FOR ADMISSION",
+        "success": "Your request for admission has been registered. The firm will assess the information provided and, if applicable, contact you to coordinate a professional consultation subject to fees."
+      },
+      "channels": {
+        "title": "Alternative Channels",
+        "phone1": "📞 Direct Calls (Mobile 1):",
+        "phone2": "📞 Direct Calls (Mobile 2):",
+        "landline": "☎ Landline (Caracas):",
+        "virtual": "💻 Virtual Inquiries:",
+        "virtual_link": "Meeting via Google Meet",
+        "follow": "📱 X (Twitter):",
+        "follow_link": "Follow us on X for updates"
+      }
+    },
+    "legal_pages": {
+      "notice_title": "Legal Notice | Mac Consultores Jurídicos & Asociados",
+      "notice_h1": "Legal Notice",
+      "notice_breadcrumb": "Corporate Information",
+      "notice": {
+        "subtitle": "Terms of Use and Legal Information",
+        "sec1_title": "1. Website Ownership",
+        "sec1_desc": "This website is owned by MAC CONSULTORES JURÍDICOS & ASOCIADOS. The primary purpose of this space is to provide general information about our legal services, professional team, and areas of practice.",
+        "sec2_title": "2. Informational Purpose",
+        "sec2_desc": "The contents of this website are for informational purposes only and do not, under any circumstances, constitute legal, tax, or professional advice. Reading or receiving this information does not create an attorney-client relationship between the user and the firm.",
+        "sec3_title": "3. Intellectual and Industrial Property",
+        "sec3_desc": "All intellectual and industrial property rights over the content of this website, its graphic design, logos, texts, and images are the exclusive property of MAC CONSULTORES JURÍDICOS & ASOCIADOS. Their reproduction, distribution, or modification without express authorization is strictly prohibited.",
+        "sec4_title": "4. Limitation of Liability",
+        "sec4_desc": "The firm is not responsible for decisions made based on the information provided on this site or for any potential damages arising from its use. References to regulations or laws may not be updated at the time of your inquiry."
+      },
+      "privacy_title": "Privacy Policy | Mac Consultores Jurídicos & Asociados",
+      "privacy_h1": "Privacy Policy",
+      "privacy_breadcrumb": "Corporate Information",
+      "privacy": {
+        "subtitle": "Data Protection and Confidentiality",
+        "sec1_title": "1. Data Collection",
+        "sec1_desc": "Through our contact form or direct communication by email, we collect only the strictly necessary personal data (name, email, telephone, and reason for inquiry) to manage your professional service request.",
+        "sec2_title": "2. Purpose of Processing",
+        "sec2_desc": "The data provided will be used exclusively to address your inquiry, preliminarily evaluate your case, and send you relevant information about the services of MAC CONSULTORES JURÍDICOS & ASOCIADOS. We do not share, sell, or transfer your data to third parties, except as required by law.",
+        "sec3_title": "3. Confidentiality",
+        "sec3_desc": "Our firm is governed by strict compliance with professional secrecy. All information provided, even before establishing an attorney-client relationship, will be treated with the utmost confidentiality and under appropriate security protocols to prevent unauthorized access.",
+        "sec4_title": "4. User Rights",
+        "sec4_desc": "You have the right to request at any time the access, rectification, update, or deletion of your personal data from our databases by sending a communication to the official email address: <a href=\"mailto:infomacconsul@gmail.com\">infomacconsul@gmail.com</a>."
+      }
+    }
+  }
+}

@@ -1,0 +1,1834 @@
+diff --git a/index.css b/assets/css/index.css
+similarity index 96%
+rename from index.css
+rename to assets/css/index.css
+index 6afc70d..4ec13fa 100644
+--- a/index.css
++++ b/assets/css/index.css
+@@ -1162,3 +1162,32 @@ nav .nav-links a[href*="blog"] {
+ .home-resources-cta {
+     display: none !important;
+ }
++
++/* Enlace “CONOCE A NUESTRO DIRECTOR GENERAL” */
++.btn-director {
++  /* Texto azul en reposo, como los demás enlaces */
++  color: var(--primary);
++}
++
++.btn-director:hover,
++.btn-director:focus {
++  /* Cuando aparece el rectángulo azul, el texto debe ser blanco */
++  color: #ffffff;
++}
++
++/* ==========================================================================
++Ajustes específicos para el botón ".btn-director" en dispositivos móviles
++========================================================================== */
++@media (max-width: 767px) {
++/* Estado de reposo: fondo transparente y texto color primario */
++.btn-director {
++background-color: transparent;
++color: var(--primary);
++}
++
++/* Estado interactivo: texto blanco para contrastar con la animación base */
++.btn-director:hover,
++.btn-director:focus {
++color: #ffffff;
++}
++}
+diff --git a/aviso-legal.html b/aviso-legal.html
+index 851043c..ca6ff94 100644
+--- a/aviso-legal.html
++++ b/aviso-legal.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-<script src="i18n.js" defer></script>
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -168,7 +168,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/blog-amparo-garantia-vital.html b/blog-amparo-garantia-vital.html
+index 121db27..6b63b59 100644
+--- a/blog-amparo-garantia-vital.html
++++ b/blog-amparo-garantia-vital.html
+@@ -5,10 +5,10 @@
+     <meta http-equiv="Cache-Control" content="max-age=31536000, public">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title data-i18n="blog_detalle_2.title">Constitucional: El Amparo como Garantía Vital | Mac Consultores Jurídicos & Asociados</title>
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-<script src="i18n.js" defer></script>
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -156,7 +156,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/blog-criminalidad-economica.html b/blog-criminalidad-economica.html
+index e19cac2..aad10b5 100644
+--- a/blog-criminalidad-economica.html
++++ b/blog-criminalidad-economica.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-<script src="i18n.js" defer></script>
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -205,7 +205,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/blog-regimen-poderes-cpc-copp.html b/blog-regimen-poderes-cpc-copp.html
+index 98c5f09..c0a148c 100644
+--- a/blog-regimen-poderes-cpc-copp.html
++++ b/blog-regimen-poderes-cpc-copp.html
+@@ -5,10 +5,10 @@
+     <meta http-equiv="Cache-Control" content="max-age=31536000, public">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title data-i18n="blog_detalle_3.title">Procesal Penal: El Régimen de Poderes en el CPC y el COPP | Mac Consultores Jurídicos & Asociados</title>
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-<script src="i18n.js" defer></script>
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -156,7 +156,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/blog.html b/blog.html
+index 016b33e..f22fc6b 100644
+--- a/blog.html
++++ b/blog.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-<script src="i18n.js" defer></script>
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -163,7 +163,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/colaboracion-internacional.html b/colaboracion-internacional.html
+index c2e5449..145afaa 100644
+--- a/colaboracion-internacional.html
++++ b/colaboracion-internacional.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-    <script src="i18n.js" defer></script>
++    <script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -100,7 +100,7 @@
+                     <p class="mt-2" data-i18n="colaboracion_internacional.intro.p2">Ofrecemos una plataforma de servicios B2B diseñada para integrarse con los estándares de calidad y respuesta de las firmas globales más exigentes.</p>
+                 </div>
+                 <div class="img-reveal">
+-                    <img src="SALA_DE_ALIANZAS_ESTRATEGICAS.jpg" alt="Colaboración Internacional" width="2752" height="1536" loading="lazy">
++                    <img src="assets/img/SALA_DE_ALIANZAS_ESTRATEGICAS.jpg" alt="Colaboración Internacional" width="2752" height="1536" loading="lazy">
+                 </div>
+             </div>
+         </div>
+@@ -114,7 +114,7 @@
+                     <h2 class="section-title" style="margin-bottom: 0;" data-i18n="colaboracion_internacional.proposal.title">Soporte Local para Firmas Globales</h2>
+                 </div>
+                 <div class="img-reveal">
+-                    <img src="ALIANZAS_DETALLE.jpg" alt="Alianzas Estratégicas y Colaboración Internacional" width="2752" height="1536" loading="lazy">
++                    <img src="assets/img/ALIANZAS_DETALLE.jpg" alt="Alianzas Estratégicas y Colaboración Internacional" width="2752" height="1536" loading="lazy">
+                 </div>
+             </div>
+             <div class="grid-3">
+@@ -195,7 +195,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/contacto.html b/contacto.html
+index cd64197..b1e2075 100644
+--- a/contacto.html
++++ b/contacto.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="index.css?v=2" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css?v=2"></noscript>
++    <link rel="preload" href="assets/css/index.css?v=2" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css?v=2"></noscript>
+     
+-    <script src="i18n.js" defer></script>
++    <script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -325,7 +325,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/aviso-legal.html b/en/aviso-legal.html
+index 94791a5..cdc8709 100644
+--- a/en/aviso-legal.html
++++ b/en/aviso-legal.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-<script src="../i18n.js" defer></script>
++<script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -168,7 +168,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/blog-amparo-garantia-vital.html b/en/blog-amparo-garantia-vital.html
+index 1f24f68..07f55b0 100644
+--- a/en/blog-amparo-garantia-vital.html
++++ b/en/blog-amparo-garantia-vital.html
+@@ -47,10 +47,10 @@
+     </script>
+     <!-- FIN SEO TÉCNICO -->
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-    <script src="../i18n.js" defer></script>
++    <script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -198,7 +198,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/blog-criminalidad-economica.html b/en/blog-criminalidad-economica.html
+index 2b8af12..7378f3b 100644
+--- a/en/blog-criminalidad-economica.html
++++ b/en/blog-criminalidad-economica.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-<script src="../i18n.js" defer></script>
++<script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -205,7 +205,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/blog-regimen-poderes-cpc-copp.html b/en/blog-regimen-poderes-cpc-copp.html
+index 62e8f0b..48c3d4a 100644
+--- a/en/blog-regimen-poderes-cpc-copp.html
++++ b/en/blog-regimen-poderes-cpc-copp.html
+@@ -47,10 +47,10 @@
+     </script>
+     <!-- FIN SEO TÉCNICO -->
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-    <script src="../i18n.js" defer></script>
++    <script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -198,7 +198,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/blog.html b/en/blog.html
+index a198ab9..b4f3786 100644
+--- a/en/blog.html
++++ b/en/blog.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-<script src="../i18n.js" defer></script>
++<script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -163,7 +163,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/colaboracion-internacional.html b/en/colaboracion-internacional.html
+index a51bff4..0289b17 100644
+--- a/en/colaboracion-internacional.html
++++ b/en/colaboracion-internacional.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-    <script src="../i18n.js" defer></script>
++    <script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -100,7 +100,7 @@
+                     <p class="mt-2">We offer a B2B services platform designed to integrate with the quality and response standards of the most demanding global firms.</p>
+                 </div>
+                 <div class="img-reveal">
+-                    <img src="../SALA_DE_ALIANZAS_ESTRATEGICAS.jpg" alt="International Collaboration" width="2752" height="1536" loading="lazy">
++                    <img src="../assets/img/SALA_DE_ALIANZAS_ESTRATEGICAS.jpg" alt="International Collaboration" width="2752" height="1536" loading="lazy">
+                 </div>
+             </div>
+         </div>
+@@ -114,7 +114,7 @@
+                     <h2 class="section-title" style="margin-bottom: 0;">Local Support for Global Firms</h2>
+                 </div>
+                 <div class="img-reveal">
+-                    <img src="../ALIANZAS_DETALLE.jpg" alt="Alliances Estratégicas y International Collaboration" width="2752" height="1536" loading="lazy">
++                    <img src="../assets/img/ALIANZAS_DETALLE.jpg" alt="Alliances Estratégicas y International Collaboration" width="2752" height="1536" loading="lazy">
+                 </div>
+             </div>
+             <div class="grid-3">
+@@ -195,7 +195,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/contacto.html b/en/contacto.html
+index 21f3cbb..610c2e1 100644
+--- a/en/contacto.html
++++ b/en/contacto.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-    <script src="../i18n.js" defer></script>
++    <script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -325,7 +325,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/index.html b/en/index.html
+index 09a0d93..dda0481 100644
+--- a/en/index.html
++++ b/en/index.html
+@@ -1,10 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <title data-i18n="title">Mac Legal Consultants & Associates | Legal Excellence</title>
++    <meta name="description" content="Boutique law firm in Caracas specialized in highly complex criminal litigation, constitutional law, and preventive corporate compliance at a national and international level.">
++    <meta property="og:title" content="Mac Legal Consultants & Associates | Legal Excellence">
++    <meta property="og:description" content="Boutique law firm in Caracas specialized in highly complex criminal litigation, constitutional law, and corporate compliance.">
++    <meta property="og:url" content="https://macconsultores.com/en/">
++    <meta property="og:type" content="website">
++    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    <meta property="og:image:type" content="image/jpeg">
++    <meta property="og:image:width" content="1200">
++    <meta property="og:image:height" content="630">
++    <meta name="twitter:card" content="summary_large_image">
++    <meta name="twitter:title" content="Mac Legal Consultants & Associates">
++    <meta name="twitter:description" content="Highly complex criminal litigation and corporate law in Caracas.">
++    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+     <meta charset="UTF-8">
+     <meta http-equiv="Cache-Control" content="max-age=31536000, public">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Mac Consultores Jurídicos & Asociados | Legal Excellence</title>
++    
+ 
+     <!-- SEO TÉCNICO & BILINGÜISMO -->
+     <link rel="canonical" href="https://macconsultores.com/en/">
+@@ -13,21 +27,21 @@
+     <link rel="alternate" hreflang="x-default" href="https://macconsultores.com/">
+     
+     <!-- Open Graph -->
+-    <meta property="og:title" content="Mac Consultores Jurídicos & Asociados | Legal Excellence">
+-    <meta property="og:description" content="Tailored criminal and constitutional defense, focusing on the effective protection of rights, assets, and reputation in sensitive environments.">
+-    <meta property="og:url" content="https://macconsultores.com/en/">
+-    <meta property="og:type" content="website">
+-    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+-    <meta property="og:image:type" content="image/png">
+-    <meta property="og:image:width" content="1200">
+-    <meta property="og:image:height" content="630">
++    
++    
++    
++    
++    
++    
++    
++    
+     
+     <!-- Twitter Cards -->
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:title" content="Mac Consultores Jurídicos & Asociados | Legal Excellence">
+-    <meta name="twitter:description" content="Tailored criminal and constitutional defense, focusing on the effective protection of rights, assets, and reputation in sensitive environments.">
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    
++    
++    
++    
++    
+     
+     <!-- JSON-LD -->
+     <script type="application/ld+json">
+@@ -53,7 +67,7 @@
+ 
+     
+ 
+-    <meta name="description" content="The Firm jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad.">
++    
+     <style>
+         /* CSS crítico mínimo para evitar FOUC (Flash of Unstyled Content) */
+         :root {
+@@ -65,8 +79,8 @@
+             padding: 0;
+         }
+     </style>
+-    <link rel="stylesheet" href="../index.css?v=4">
+-<script src="../i18n.js" defer></script>
++    <link rel="stylesheet" href="../assets/css/index.css?v=4">
++<script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -98,7 +112,7 @@
+         </div>
+     </nav>
+ 
+-    <header class="hero" style="background-image: url('../FRONT.jpg');">
++    <header class="hero" style="background-image: url('../assets/img/FRONT.jpg');">
+     <div class="container">
+         <div class="hero-content">
+             <span class="section-tag">Rigor & Strategy</span>
+@@ -128,7 +142,10 @@
+         <div class="container">
+             <div class="grid-split">
+                 <div class="img-reveal">
+-                    <img src="../RECEPCION_2_OPT.jpg" alt="Recepción de Mac Consultores Jurídicos & Asociados" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="../assets/img-webp/RECEPCION_2_OPT.webp" type="image/webp">
++<img src="../assets/img/RECEPCION_2_OPT.jpg" alt="Recepción de Mac Consultores Jurídicos & Asociados" width="2752" height="1536" loading="lazy">
++</picture>
+                 </div>
+                 <div class="about-text">
+                     <span class="section-tag">Our Firm</span>
+@@ -301,19 +318,28 @@
+             </div>
+             <div class="grid-3">
+                 <div class="card">
+-                    <img src="../OFICINA_1.jpg" alt="Noticia 1" class="news-img" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="../assets/img-webp/OFICINA_1.webp" type="image/webp">
++<img src="../assets/img/OFICINA_1.jpg" alt="Noticia 1" class="news-img" width="2752" height="1536" loading="lazy">
++</picture>
+                     <h3>Impact of the New Criminal Legislation</h3>
+                     <p>Detailed analysis of recent procedural reforms and their implications for corporate defense.</p>
+                     <a href="noticias.html" class="news-link"><span>READ MORE →</span></a>
+                 </div>
+                 <div class="card">
+-                    <img src="../OFICINA_2.jpg" alt="Noticia 2" class="news-img" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="../assets/img-webp/OFICINA_2.webp" type="image/webp">
++<img src="../assets/img/OFICINA_2.jpg" alt="Noticia 2" class="news-img" width="2752" height="1536" loading="lazy">
++</picture>
+                     <h3>Trends in Constitutional Amparo</h3>
+                     <p>Review of recent case law and its fundamental impact on the protection of corporate and individual rights.</p>
+                     <a href="blog.html" class="news-link"><span>READ MORE →</span></a>
+                 </div>
+                 <div class="card">
+-                    <img src="../OFICINA_3.jpg" alt="Noticia 3" class="news-img" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="../assets/img-webp/OFICINA_3.webp" type="image/webp">
++<img src="../assets/img/OFICINA_3.jpg" alt="Noticia 3" class="news-img" width="2752" height="1536" loading="lazy">
++</picture>
+                     <h3>New International Agreements</h3>
+                     <p>How new international collaboration frameworks directly affect consular management for the Venezuelan diaspora.</p>
+                     <a href="noticias.html" class="news-link"><span>READ MORE →</span></a>
+@@ -380,8 +406,8 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../insight.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/insight.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/en/noticias.html b/en/noticias.html
+index a2b46c0..703cae6 100644
+--- a/en/noticias.html
++++ b/en/noticias.html
+@@ -1,10 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <title data-i18n="noticias.title">News & Legal Updates | Mac Consultants</title>
++    <meta name="description" content="Stay informed with the latest legal bulletins, landmark rulings, criminal reforms, and expert opinions from our firm.">
++    <meta property="og:title" content="Legal Updates and News | Mac Consultants">
++    <meta property="og:description" content="Latest news, landmark rulings, and legal analysis from our experts in Venezuelan and international law.">
++    <meta property="og:url" content="https://macconsultores.com/en/noticias.html">
++    <meta property="og:type" content="website">
++    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    <meta property="og:image:type" content="image/jpeg">
++    <meta property="og:image:width" content="1200">
++    <meta property="og:image:height" content="630">
++    <meta name="twitter:card" content="summary_large_image">
++    <meta name="twitter:title" content="Legal Updates | Mac Consultants">
++    <meta name="twitter:description" content="Stay informed with our legal bulletins and news.">
++    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+     <meta charset="UTF-8">
+     <meta http-equiv="Cache-Control" content="max-age=31536000, public">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>News & Current Affairs | Mac Consultores Jurídicos & Asociados</title>
++    
+ 
+     <!-- SEO TÉCNICO & BILINGÜISMO -->
+     <link rel="canonical" href="https://macconsultores.com/en/noticias.html">
+@@ -13,21 +27,21 @@
+     <link rel="alternate" hreflang="x-default" href="https://macconsultores.com/noticias.html">
+     
+     <!-- Open Graph -->
+-    <meta property="og:title" content="News & Current Affairs | Mac Consultores Jurídicos & Asociados">
+-    <meta property="og:description" content="High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests.">
+-    <meta property="og:url" content="https://macconsultores.com/en/noticias.html">
+-    <meta property="og:type" content="website">
+-    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+-    <meta property="og:image:type" content="image/png">
+-    <meta property="og:image:width" content="1200">
+-    <meta property="og:image:height" content="630">
++    
++    
++    
++    
++    
++    
++    
++    
+     
+     <!-- Twitter Cards -->
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:title" content="News & Current Affairs | Mac Consultores Jurídicos & Asociados">
+-    <meta name="twitter:description" content="High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests.">
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    
++    
++    
++    
++    
+     
+     <!-- JSON-LD -->
+     <script type="application/ld+json">
+@@ -50,10 +64,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-<script src="../i18n.js" defer></script>
++<script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -94,21 +108,30 @@
+         <div class="container">
+             <div class="grid-3">
+                 <article class="card">
+-                    <img src="../OFICINA_1.jpg" alt="Reforma Penal" class="news-img" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="../assets/img-webp/OFICINA_1.webp" type="image/webp">
++<img src="../assets/img/OFICINA_1.jpg" alt="Reforma Penal" class="news-img" width="2752" height="1536" loading="lazy">
++</picture>
+                     <span class="section-tag">Legislation</span>
+                     <h3>New Reforms in Criminal Matters</h3>
+                     <p>The National Executive announced substantial modifications to the Organic Criminal Procedural Code that directly impact investigative procedures and applicable precautionary measures.</p>
+                     <a href="https://accesoalajusticia.org/modificaciones-codigo-organico-procesal-penal-copp-venezolano-historia-7-tiempos/" target="_blank" class="news-link">READ MORE →</a>
+                 </article>
+                 <article class="card">
+-                    <img src="../OFICINA_2.jpg" alt="Convenio International" class="news-img" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="../assets/img-webp/OFICINA_2.webp" type="image/webp">
++<img src="../assets/img/OFICINA_2.jpg" alt="Convenio International" class="news-img" width="2752" height="1536" loading="lazy">
++</picture>
+                     <span class="section-tag">Institutional</span>
+                     <h3>New International Agreement</h3>
+                     <p>Mac Consultores signs strategic collaboration agreement with associated firm in Madrid to handle highly complex cross-border cases.</p>
+                     <a href="https://theimpactlawyers.com/es/articulos/la-colaboracion-de-las-firmas-legales-una-practica-extendida-en-la-abogacia" target="_blank" class="news-link">READ MORE →</a>
+                 </article>
+                 <article class="card">
+-                    <img src="../OFICINA_3.jpg" alt="Sentencia TSJ" class="news-img" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="../assets/img-webp/OFICINA_3.webp" type="image/webp">
++<img src="../assets/img/OFICINA_3.jpg" alt="Sentencia TSJ" class="news-img" width="2752" height="1536" loading="lazy">
++</picture>
+                     <span class="section-tag">Jurisprudence</span>
+                     <h3>TSJ Binding Ruling</h3>
+                     <p>The Constitutional Chamber establishes new criteria on the application of the presumption of innocence principle in proceedings for economic and financial crimes.</p>
+@@ -166,7 +189,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/nuestro-ceo.html b/en/nuestro-ceo.html
+index b8b5fc1..7b7a6d3 100644
+--- a/en/nuestro-ceo.html
++++ b/en/nuestro-ceo.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-<script src="../i18n.js" defer></script>
++<script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -94,7 +94,10 @@
+         <div class="container">
+             <div class="grid-split">
+                 <div class="img-reveal">
+-                    <img src="../OFICINA_4.jpg" alt="Marco A. Colina G. - Managing Director" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="../assets/img-webp/OFICINA_4.webp" type="image/webp">
++<img src="../assets/img/OFICINA_4.jpg" alt="Marco A. Colina G. - Managing Director" width="2752" height="1536" loading="lazy">
++</picture>
+                 </div>
+                 <div class="about-content">
+                     <span class="section-tag">Managing Director</span>
+@@ -179,7 +182,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/privacidad.html b/en/privacidad.html
+index 442f52f..ff4744a 100644
+--- a/en/privacidad.html
++++ b/en/privacidad.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-<script src="../i18n.js" defer></script>
++<script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -168,7 +168,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/quienes-somos.html b/en/quienes-somos.html
+index 5a44c81..387f609 100644
+--- a/en/quienes-somos.html
++++ b/en/quienes-somos.html
+@@ -1,10 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <title data-i18n="quienes_somos.title">The Firm | Mac Legal Consultants</title>
++    <meta name="description" content="Learn about the history, values, and the team of professionals behind Mac Legal Consultants & Associates. Dedicated to the impeccable practice of Law in Venezuela.">
++    <meta property="og:title" content="The Firm | Mac Legal Consultants">
++    <meta property="og:description" content="Learn about the history, values, and team behind Mac Legal Consultants & Associates.">
++    <meta property="og:url" content="https://macconsultores.com/en/quienes-somos.html">
++    <meta property="og:type" content="website">
++    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    <meta property="og:image:type" content="image/jpeg">
++    <meta property="og:image:width" content="1200">
++    <meta property="og:image:height" content="630">
++    <meta name="twitter:card" content="summary_large_image">
++    <meta name="twitter:title" content="Our Firm - Mac Consultants">
++    <meta name="twitter:description" content="Learn about the history and philosophy of our boutique law firm in Caracas.">
++    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+     <meta charset="UTF-8">
+     <meta http-equiv="Cache-Control" content="max-age=31536000, public">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Who We Are | Mac Consultores Jurídicos & Asociados</title>
++    
+ 
+     <!-- SEO TÉCNICO & BILINGÜISMO -->
+     <link rel="canonical" href="https://macconsultores.com/en/quienes-somos.html">
+@@ -13,21 +27,21 @@
+     <link rel="alternate" hreflang="x-default" href="https://macconsultores.com/quienes-somos.html">
+     
+     <!-- Open Graph -->
+-    <meta property="og:title" content="Who We Are | Mac Consultores Jurídicos & Asociados">
+-    <meta property="og:description" content="High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests.">
+-    <meta property="og:url" content="https://macconsultores.com/en/quienes-somos.html">
+-    <meta property="og:type" content="website">
+-    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+-    <meta property="og:image:type" content="image/png">
+-    <meta property="og:image:width" content="1200">
+-    <meta property="og:image:height" content="630">
++    
++    
++    
++    
++    
++    
++    
++    
+     
+     <!-- Twitter Cards -->
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:title" content="Who We Are | Mac Consultores Jurídicos & Asociados">
+-    <meta name="twitter:description" content="High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests.">
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    
++    
++    
++    
++    
+     
+     <!-- JSON-LD -->
+     <script type="application/ld+json">
+@@ -50,10 +64,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-<script src="../i18n.js" defer></script>
++<script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -100,7 +114,10 @@
+                     <p class="mt-2">We understand that every case is unique and requires its own solution architecture. Therefore, we integrate forensic experience with the academic backing of over two decades of professional practice.</p>
+                 </div>
+                 <div class="img-reveal">
+-                    <img src="../OFICINA_1.jpg" alt="Sede de Mac Consultores Jurídicos & Asociados" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="../assets/img-webp/OFICINA_1.webp" type="image/webp">
++<img src="../assets/img/OFICINA_1.jpg" alt="Sede de Mac Consultores Jurídicos & Asociados" width="2752" height="1536" loading="lazy">
++</picture>
+                 </div>
+             </div>
+         </div>
+@@ -136,7 +153,10 @@
+         <div class="container">
+             <div class="grid-split reverse">
+                 <div class="img-reveal">
+-                    <img src="../SALA_DE_REUNIONES_4.jpg" alt="Estrategia Legal" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="../assets/img-webp/SALA_DE_REUNIONES_4.webp" type="image/webp">
++<img src="../assets/img/SALA_DE_REUNIONES_4.jpg" alt="Estrategia Legal" width="2752" height="1536" loading="lazy">
++</picture>
+                 </div>
+                 <div class="vision-text">
+                     <h2 class="serif" style="font-size: 2.2rem; margin-bottom: 2rem; line-height: 1.1;">"Our mission is to transform legal challenges into scenarios of security and growth."</h2>
+@@ -205,7 +225,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/servicios.html b/en/servicios.html
+index 69f0d52..8179f5f 100644
+--- a/en/servicios.html
++++ b/en/servicios.html
+@@ -1,10 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <title data-i18n="servicios.title">Practice Areas and Services | Mac Consultants</title>
++    <meta name="description" content="Our legal services include: Criminal Law, Constitutional Law, Corporate Compliance, Extraditions, and consulting for individuals and corporations.">
++    <meta property="og:title" content="Specialized Legal Services | Mac Consultants">
++    <meta property="og:description" content="Criminal Law, Constitutional Law, Extraditions, and preventive Corporate Compliance.">
++    <meta property="og:url" content="https://macconsultores.com/en/servicios.html">
++    <meta property="og:type" content="website">
++    <meta property="og:image" content="https://macconsultores.com/assets/img/SALA_REUNIONES_B_OPT.jpg">
++    <meta property="og:image:type" content="image/jpeg">
++    <meta property="og:image:width" content="1200">
++    <meta property="og:image:height" content="630">
++    <meta name="twitter:card" content="summary_large_image">
++    <meta name="twitter:title" content="Practice Areas - Mac Consultants">
++    <meta name="twitter:description" content="Our specialized legal services in Caracas.">
++    <meta name="twitter:image" content="https://macconsultores.com/assets/img/SALA_REUNIONES_B_OPT.jpg">
+     <meta charset="UTF-8">
+     <meta http-equiv="Cache-Control" content="max-age=31536000, public">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Legal Services | Mac Consultores Jurídicos & Asociados</title>
++    
+ 
+     <!-- SEO TÉCNICO & BILINGÜISMO -->
+     <link rel="canonical" href="https://macconsultores.com/en/servicios.html">
+@@ -13,21 +27,21 @@
+     <link rel="alternate" hreflang="x-default" href="https://macconsultores.com/servicios.html">
+     
+     <!-- Open Graph -->
+-    <meta property="og:title" content="Legal Services | Mac Consultores Jurídicos & Asociados">
+-    <meta property="og:description" content="High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests.">
+-    <meta property="og:url" content="https://macconsultores.com/en/servicios.html">
+-    <meta property="og:type" content="website">
+-    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+-    <meta property="og:image:type" content="image/png">
+-    <meta property="og:image:width" content="1200">
+-    <meta property="og:image:height" content="630">
++    
++    
++    
++    
++    
++    
++    
++    
+     
+     <!-- Twitter Cards -->
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:title" content="Legal Services | Mac Consultores Jurídicos & Asociados">
+-    <meta name="twitter:description" content="High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests.">
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    
++    
++    
++    
++    
+     
+     <!-- JSON-LD -->
+     <script type="application/ld+json">
+@@ -50,10 +64,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-<script src="../i18n.js" defer></script>
++<script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -98,7 +112,10 @@
+                     <h2 class="serif section-title" style="margin-bottom: 0;">Comprehensive solutions tailored to the most demanding challenges.</h2>
+                 </div>
+                 <div class="img-reveal">
+-                    <img src="../SALA_REUNIONES_B_OPT.jpg" alt="Sala de Reuniones y Despacho en Mac Consultores" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="../assets/img-webp/SALA_REUNIONES_B_OPT.webp" type="image/webp">
++<img src="../assets/img/SALA_REUNIONES_B_OPT.jpg" alt="Sala de Reuniones y Despacho en Mac Consultores" width="2752" height="1536" loading="lazy">
++</picture>
+                 </div>
+             </div>
+             
+@@ -197,7 +214,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/socios-colaboradores.html b/en/socios-colaboradores.html
+index 2a96ffc..ab99c2e 100644
+--- a/en/socios-colaboradores.html
++++ b/en/socios-colaboradores.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-<script src="../i18n.js" defer></script>
++<script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -165,7 +165,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/en/strategy-case-theory.html b/en/strategy-case-theory.html
+index 7179ea4..c4f0d99 100644
+--- a/en/strategy-case-theory.html
++++ b/en/strategy-case-theory.html
+@@ -65,8 +65,8 @@
+             padding: 0;
+         }
+     </style>
+-    <link rel="stylesheet" href="../index.css">
+-<script src="../i18n.js" defer></script>
++    <link rel="stylesheet" href="../assets/css/index.css">
++<script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -175,8 +175,8 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../insight.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/insight.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/en/strategy-representative-scenarios.html b/en/strategy-representative-scenarios.html
+index 78dbe4a..e3fc2c0 100644
+--- a/en/strategy-representative-scenarios.html
++++ b/en/strategy-representative-scenarios.html
+@@ -65,8 +65,8 @@
+             padding: 0;
+         }
+     </style>
+-    <link rel="stylesheet" href="../index.css">
+-<script src="../i18n.js" defer></script>
++    <link rel="stylesheet" href="../assets/css/index.css">
++<script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -175,8 +175,8 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../insight.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/insight.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/en/tramites-consulares.html b/en/tramites-consulares.html
+index f3228fb..66d766f 100644
+--- a/en/tramites-consulares.html
++++ b/en/tramites-consulares.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="../index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="../index.css"></noscript>
++    <link rel="preload" href="../assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="../assets/css/index.css"></noscript>
+     
+-    <script src="../i18n.js" defer></script>
++    <script src="../assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -98,7 +98,10 @@
+                     <p style="text-align: left; max-width: 100%; margin-bottom: 0;">Globalization and the Venezuelan diaspora have multiplied cases where individuals maintain asset, family, and procedural ties in the country, even while residing permanently abroad. Likewise, we assist citizens of other nationalities who require reliable local legal support in Venezuela. At Mac Consultores Jurídicos & Asociados, we provide effective judicial and extrajudicial protection, designed for those who need remote legal representation without traveling to the national territory.</p>
+                 </div>
+                 <div class="img-reveal">
+-                    <img src="../SALA_REUNIONES_1_OPT.jpg" alt="Sala de Reuniones Internationales en Mac Consultores" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="../assets/img-webp/SALA_REUNIONES_1_OPT.webp" type="image/webp">
++<img src="../assets/img/SALA_REUNIONES_1_OPT.jpg" alt="Sala de Reuniones Internationales en Mac Consultores" width="2752" height="1536" loading="lazy">
++</picture>
+                 </div>
+             </div>
+         </div>
+@@ -229,7 +232,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="../clock.js"></script>
+-    <script src="../router.js" defer></script>
++    <script src="../assets/js/clock.js" defer></script>
++    <script src="../assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/estrategia-escenarios-representativos.html b/estrategia-escenarios-representativos.html
+index 9426940..1b8b29f 100644
+--- a/estrategia-escenarios-representativos.html
++++ b/estrategia-escenarios-representativos.html
+@@ -65,8 +65,8 @@
+             padding: 0;
+         }
+     </style>
+-    <link rel="stylesheet" href="index.css">
+-<script src="i18n.js" defer></script>
++    <link rel="stylesheet" href="assets/css/index.css">
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -175,8 +175,8 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="insight.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/insight.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/estrategia-teoria-del-caso.html b/estrategia-teoria-del-caso.html
+index 356eabe..cedd0bc 100644
+--- a/estrategia-teoria-del-caso.html
++++ b/estrategia-teoria-del-caso.html
+@@ -65,8 +65,8 @@
+             padding: 0;
+         }
+     </style>
+-    <link rel="stylesheet" href="index.css">
+-<script src="i18n.js" defer></script>
++    <link rel="stylesheet" href="assets/css/index.css">
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -175,8 +175,8 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="insight.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/insight.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/index.html b/index.html
+index 0336a4c..1aa6188 100644
+--- a/index.html
++++ b/index.html
+@@ -1,10 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
++    <title data-i18n="title">Mac Consultores Jurídicos & Asociados | Excelencia Legal</title>
++    <meta name="description" content="Firma boutique en Caracas especializada en litigio penal de alta complejidad, derecho constitucional y compliance corporativo preventivo a nivel nacional e internacional.">
++    <meta property="og:title" content="Mac Consultores Jurídicos & Asociados | Excelencia Legal">
++    <meta property="og:description" content="Firma boutique en Caracas especializada en litigio penal de alta complejidad, derecho constitucional y compliance corporativo preventivo.">
++    <meta property="og:url" content="https://macconsultores.com/">
++    <meta property="og:type" content="website">
++    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    <meta property="og:image:type" content="image/jpeg">
++    <meta property="og:image:width" content="1200">
++    <meta property="og:image:height" content="630">
++    <meta name="twitter:card" content="summary_large_image">
++    <meta name="twitter:title" content="Mac Consultores Jurídicos & Asociados">
++    <meta name="twitter:description" content="Litigio penal de alta complejidad y derecho corporativo en Caracas.">
++    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+     <meta charset="UTF-8">
+     <meta http-equiv="Cache-Control" content="max-age=31536000, public">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title data-i18n="title">Mac Consultores Jurídicos & Asociados | Excelencia Legal</title>
++    
+ 
+     <!-- SEO TÉCNICO & BILINGÜISMO -->
+     <link rel="canonical" href="https://macconsultores.com/">
+@@ -13,21 +27,21 @@
+     <link rel="alternate" hreflang="x-default" href="https://macconsultores.com/">
+     
+     <!-- Open Graph -->
+-    <meta property="og:title" content="Mac Consultores Jurídicos & Asociados | Excelencia Legal">
+-    <meta property="og:description" content="Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad.">
+-    <meta property="og:url" content="https://macconsultores.com/">
+-    <meta property="og:type" content="website">
+-    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+-    <meta property="og:image:type" content="image/png">
+-    <meta property="og:image:width" content="1200">
+-    <meta property="og:image:height" content="630">
++    
++    
++    
++    
++    
++    
++    
++    
+     
+     <!-- Twitter Cards -->
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:title" content="Mac Consultores Jurídicos & Asociados | Excelencia Legal">
+-    <meta name="twitter:description" content="Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad.">
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    
++    
++    
++    
++    
+     
+     <!-- JSON-LD -->
+     <script type="application/ld+json">
+@@ -53,7 +67,7 @@
+ 
+     
+ 
+-    <meta name="description" content="Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad.">
++    
+     <style>
+         /* CSS crítico mínimo para evitar FOUC (Flash of Unstyled Content) */
+         :root {
+@@ -65,8 +79,8 @@
+             padding: 0;
+         }
+     </style>
+-    <link rel="stylesheet" href="index.css?v=4">
+-<script src="i18n.js" defer></script>
++    <link rel="stylesheet" href="assets/css/index.css?v=4">
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -98,7 +112,7 @@
+         </div>
+     </nav>
+ 
+-    <header class="hero" style="background-image: url('FRONT.jpg');">
++    <header class="hero" style="background-image: url('assets/img/FRONT.jpg');">
+     <div class="container">
+         <div class="hero-content">
+             <span class="section-tag" data-i18n="hero.tag">Rigor & Estrategia</span>
+@@ -128,7 +142,10 @@
+         <div class="container">
+             <div class="grid-split">
+                 <div class="img-reveal">
+-                    <img src="RECEPCION_2_OPT.jpg" alt="Recepción de Mac Consultores Jurídicos & Asociados" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="assets/img-webp/RECEPCION_2_OPT.webp" type="image/webp">
++<img src="assets/img/RECEPCION_2_OPT.jpg" alt="Recepción de Mac Consultores Jurídicos & Asociados" width="2752" height="1536" loading="lazy">
++</picture>
+                 </div>
+                 <div class="about-text">
+                     <span class="section-tag" data-i18n="about.tag">Nuestra Firma</span>
+@@ -301,19 +318,28 @@
+             </div>
+             <div class="grid-3">
+                 <div class="card">
+-                    <img src="OFICINA_1.jpg" alt="Noticia 1" class="news-img" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="assets/img-webp/OFICINA_1.webp" type="image/webp">
++<img src="assets/img/OFICINA_1.jpg" alt="Noticia 1" class="news-img" width="2752" height="1536" loading="lazy">
++</picture>
+                     <h3 data-i18n="news.card_1.title">Impacto de la Nueva Legislación Penal</h3>
+                     <p data-i18n="news.card_1.desc">Análisis detallado sobre las recientes reformas procesales y sus implicaciones para la defensa corporativa.</p>
+                     <a href="noticias.html" class="news-link"><span data-i18n="news.read_more">LEER MÁS →</span></a>
+                 </div>
+                 <div class="card">
+-                    <img src="OFICINA_2.jpg" alt="Noticia 2" class="news-img" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="assets/img-webp/OFICINA_2.webp" type="image/webp">
++<img src="assets/img/OFICINA_2.jpg" alt="Noticia 2" class="news-img" width="2752" height="1536" loading="lazy">
++</picture>
+                     <h3 data-i18n="news.card_2.title">Tendencias en Amparo Constitucional</h3>
+                     <p data-i18n="news.card_2.desc">Revisión de la jurisprudencia reciente y su impacto fundamental en la protección de los derechos corporativos e individuales.</p>
+                     <a href="blog.html" class="news-link"><span data-i18n="news.read_more">LEER MÁS →</span></a>
+                 </div>
+                 <div class="card">
+-                    <img src="OFICINA_3.jpg" alt="Noticia 3" class="news-img" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="assets/img-webp/OFICINA_3.webp" type="image/webp">
++<img src="assets/img/OFICINA_3.jpg" alt="Noticia 3" class="news-img" width="2752" height="1536" loading="lazy">
++</picture>
+                     <h3 data-i18n="news.card_3.title">Nuevos Acuerdos Internacionales</h3>
+                     <p data-i18n="news.card_3.desc">Cómo los nuevos marcos de colaboración internacional afectan de forma directa las gestiones consulares de la diáspora venezolana.</p>
+                     <a href="noticias.html" class="news-link"><span data-i18n="news.read_more">LEER MÁS →</span></a>
+@@ -380,8 +406,8 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="insight.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/insight.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/noticias.html b/noticias.html
+index 1f1c389..5cc42fa 100644
+--- a/noticias.html
++++ b/noticias.html
+@@ -1,10 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
++    <title data-i18n="noticias.title">Noticias & Actualidad Jurídica | Mac Consultores</title>
++    <meta name="description" content="Manténgase informado con los últimos boletines legales, sentencias destacadas del TSJ, reformas penales y opiniones expertas de nuestra firma.">
++    <meta property="og:title" content="Actualidad Jurídica y Noticias Legales | Mac Consultores">
++    <meta property="og:description" content="Últimas noticias, sentencias destacadas y análisis legal de nuestros expertos en derecho venezolano e internacional.">
++    <meta property="og:url" content="https://macconsultores.com/noticias.html">
++    <meta property="og:type" content="website">
++    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    <meta property="og:image:type" content="image/jpeg">
++    <meta property="og:image:width" content="1200">
++    <meta property="og:image:height" content="630">
++    <meta name="twitter:card" content="summary_large_image">
++    <meta name="twitter:title" content="Actualidad Jurídica | Mac Consultores">
++    <meta name="twitter:description" content="Manténgase informado con nuestros boletines y noticias legales.">
++    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+     <meta charset="UTF-8">
+     <meta http-equiv="Cache-Control" content="max-age=31536000, public">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title data-i18n="noticias.title">Noticias & Actualidad | Mac Consultores Jurídicos & Asociados</title>
++    
+ 
+     <!-- SEO TÉCNICO & BILINGÜISMO -->
+     <link rel="canonical" href="https://macconsultores.com/noticias.html">
+@@ -13,21 +27,21 @@
+     <link rel="alternate" hreflang="x-default" href="https://macconsultores.com/noticias.html">
+     
+     <!-- Open Graph -->
+-    <meta property="og:title" content="Noticias & Actualidad | Mac Consultores Jurídicos & Asociados">
+-    <meta property="og:description" content="Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad.">
+-    <meta property="og:url" content="https://macconsultores.com/noticias.html">
+-    <meta property="og:type" content="website">
+-    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+-    <meta property="og:image:type" content="image/png">
+-    <meta property="og:image:width" content="1200">
+-    <meta property="og:image:height" content="630">
++    
++    
++    
++    
++    
++    
++    
++    
+     
+     <!-- Twitter Cards -->
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:title" content="Noticias & Actualidad | Mac Consultores Jurídicos & Asociados">
+-    <meta name="twitter:description" content="Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad.">
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    
++    
++    
++    
++    
+     
+     <!-- JSON-LD -->
+     <script type="application/ld+json">
+@@ -50,10 +64,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-<script src="i18n.js" defer></script>
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -94,21 +108,30 @@
+         <div class="container">
+             <div class="grid-3">
+                 <article class="card">
+-                    <img src="OFICINA_1.jpg" alt="Reforma Penal" class="news-img" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="assets/img-webp/OFICINA_1.webp" type="image/webp">
++<img src="assets/img/OFICINA_1.jpg" alt="Reforma Penal" class="news-img" width="2752" height="1536" loading="lazy">
++</picture>
+                     <span class="section-tag" data-i18n="noticias.news_1.tag">Legislación</span>
+                     <h3 data-i18n="noticias.news_1.title">Nuevas Reformas en Materia Penal</h3>
+                     <p data-i18n="noticias.news_1.desc">El Ejecutivo Nacional anunció modificaciones sustanciales al Código Orgánico Procesal Penal que impactan directamente en los procedimientos de investigación y las medidas cautelares aplicables.</p>
+                     <a href="https://accesoalajusticia.org/modificaciones-codigo-organico-procesal-penal-copp-venezolano-historia-7-tiempos/" target="_blank" class="news-link" data-i18n="noticias.read_more">LEER MÁS →</a>
+                 </article>
+                 <article class="card">
+-                    <img src="OFICINA_2.jpg" alt="Convenio Internacional" class="news-img" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="assets/img-webp/OFICINA_2.webp" type="image/webp">
++<img src="assets/img/OFICINA_2.jpg" alt="Convenio Internacional" class="news-img" width="2752" height="1536" loading="lazy">
++</picture>
+                     <span class="section-tag" data-i18n="noticias.news_2.tag">Institucional</span>
+                     <h3 data-i18n="noticias.news_2.title">Nuevo Convenio Internacional</h3>
+                     <p data-i18n="noticias.news_2.desc">Mac Consultores firma acuerdo de colaboración estratégica con firma asociada en Madrid para la atención de casos transfronterizos de alta complejidad.</p>
+                     <a href="https://theimpactlawyers.com/es/articulos/la-colaboracion-de-las-firmas-legales-una-practica-extendida-en-la-abogacia" target="_blank" class="news-link" data-i18n="noticias.read_more">LEER MÁS →</a>
+                 </article>
+                 <article class="card">
+-                    <img src="OFICINA_3.jpg" alt="Sentencia TSJ" class="news-img" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="assets/img-webp/OFICINA_3.webp" type="image/webp">
++<img src="assets/img/OFICINA_3.jpg" alt="Sentencia TSJ" class="news-img" width="2752" height="1536" loading="lazy">
++</picture>
+                     <span class="section-tag" data-i18n="noticias.news_3.tag">Jurisprudencia</span>
+                     <h3 data-i18n="noticias.news_3.title">Sentencia Vinculante TSJ</h3>
+                     <p data-i18n="noticias.news_3.desc">La Sala Constitucional establece nuevos criterios sobre la aplicación del principio de presunción de inocencia en procesos por delitos económicos y financieros.</p>
+@@ -166,7 +189,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/nuestro-ceo.html b/nuestro-ceo.html
+index 0665ae6..6c4ddef 100644
+--- a/nuestro-ceo.html
++++ b/nuestro-ceo.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-<script src="i18n.js" defer></script>
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -94,7 +94,10 @@
+         <div class="container">
+             <div class="grid-split">
+                 <div class="img-reveal">
+-                    <img src="OFICINA_4.jpg" alt="Marco A. Colina G. - Director General" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="assets/img-webp/OFICINA_4.webp" type="image/webp">
++<img src="assets/img/OFICINA_4.jpg" alt="Marco A. Colina G. - Director General" width="2752" height="1536" loading="lazy">
++</picture>
+                 </div>
+                 <div class="about-content">
+                     <span class="section-tag" data-i18n="ceo.about.tag">Director General</span>
+@@ -179,7 +182,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/privacidad.html b/privacidad.html
+index a69eb03..1c0b811 100644
+--- a/privacidad.html
++++ b/privacidad.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-<script src="i18n.js" defer></script>
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -168,7 +168,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/quienes-somos.html b/quienes-somos.html
+index 54cb6d7..7d47d41 100644
+--- a/quienes-somos.html
++++ b/quienes-somos.html
+@@ -1,10 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
++    <title data-i18n="quienes_somos.title">La Firma | Mac Consultores Jurídicos & Asociados</title>
++    <meta name="description" content="Conoce la historia, valores y el equipo de profesionales detrás de Mac Consultores Jurídicos & Asociados. Dedicados al ejercicio impecable del Derecho en Venezuela.">
++    <meta property="og:title" content="La Firma | Mac Consultores Jurídicos">
++    <meta property="og:description" content="Conoce la historia, valores y el equipo de profesionales detrás de Mac Consultores Jurídicos & Asociados.">
++    <meta property="og:url" content="https://macconsultores.com/quienes-somos.html">
++    <meta property="og:type" content="website">
++    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    <meta property="og:image:type" content="image/jpeg">
++    <meta property="og:image:width" content="1200">
++    <meta property="og:image:height" content="630">
++    <meta name="twitter:card" content="summary_large_image">
++    <meta name="twitter:title" content="Nuestra Firma - Mac Consultores">
++    <meta name="twitter:description" content="Conoce la historia y filosofía de nuestra firma boutique legal en Caracas.">
++    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+     <meta charset="UTF-8">
+     <meta http-equiv="Cache-Control" content="max-age=31536000, public">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title data-i18n="quienes_somos.title">Quiénes Somos | Mac Consultores Jurídicos & Asociados</title>
++    
+ 
+     <!-- SEO TÉCNICO & BILINGÜISMO -->
+     <link rel="canonical" href="https://macconsultores.com/quienes-somos.html">
+@@ -13,21 +27,21 @@
+     <link rel="alternate" hreflang="x-default" href="https://macconsultores.com/quienes-somos.html">
+     
+     <!-- Open Graph -->
+-    <meta property="og:title" content="Quiénes Somos | Mac Consultores Jurídicos & Asociados">
+-    <meta property="og:description" content="Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad.">
+-    <meta property="og:url" content="https://macconsultores.com/quienes-somos.html">
+-    <meta property="og:type" content="website">
+-    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+-    <meta property="og:image:type" content="image/png">
+-    <meta property="og:image:width" content="1200">
+-    <meta property="og:image:height" content="630">
++    
++    
++    
++    
++    
++    
++    
++    
+     
+     <!-- Twitter Cards -->
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:title" content="Quiénes Somos | Mac Consultores Jurídicos & Asociados">
+-    <meta name="twitter:description" content="Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad.">
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    
++    
++    
++    
++    
+     
+     <!-- JSON-LD -->
+     <script type="application/ld+json">
+@@ -50,10 +64,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-<script src="i18n.js" defer></script>
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -100,7 +114,10 @@
+                     <p class="mt-2" data-i18n="quienes_somos.history.desc_2">Entendemos que cada caso es único y requiere una arquitectura de solución propia. Por ello, integramos la experiencia forense con el respaldo académico de más de dos décadas de ejercicio profesional.</p>
+                 </div>
+                 <div class="img-reveal">
+-                    <img src="OFICINA_1.jpg" alt="Sede de Mac Consultores Jurídicos & Asociados" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="assets/img-webp/OFICINA_1.webp" type="image/webp">
++<img src="assets/img/OFICINA_1.jpg" alt="Sede de Mac Consultores Jurídicos & Asociados" width="2752" height="1536" loading="lazy">
++</picture>
+                 </div>
+             </div>
+         </div>
+@@ -191,12 +208,15 @@
+         <div class="container">
+             <div class="grid-split reverse">
+                 <div class="img-reveal">
+-                    <img src="SALA_DE_REUNIONES_4.jpg" alt="Estrategia Legal" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="assets/img-webp/SALA_DE_REUNIONES_4.webp" type="image/webp">
++<img src="assets/img/SALA_DE_REUNIONES_4.jpg" alt="Estrategia Legal" width="2752" height="1536" loading="lazy">
++</picture>
+                 </div>
+                 <div class="vision-text">
+                     <h2 class="serif" style="font-size: 2.2rem; margin-bottom: 2rem; line-height: 1.1;" data-i18n="quienes_somos.mission.quote">"Nuestra misión es transformar desafíos legales en escenarios de seguridad y crecimiento."</h2>
+                     <p data-i18n="quienes_somos.mission.desc">Buscamos ser el referente de excelencia en el mercado jurídico venezolano, destacando por nuestra capacidad de resolver asuntos de alta sensibilidad técnica con resultados sólidos y transparentes.</p>
+-                    <a href="nuestro-ceo.html" class="btn" data-i18n="quienes_somos.mission.btn">CONOCE A NUESTRO DIRECTOR GENERAL</a>
++                    <a href="nuestro-ceo.html" class="btn btn-outline btn-director" data-i18n="quienes_somos.mission.btn">CONOCE A NUESTRO DIRECTOR GENERAL</a>
+                 </div>
+             </div>
+         </div>
+@@ -260,7 +280,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/servicios.html b/servicios.html
+index d110a69..d4b4ad9 100644
+--- a/servicios.html
++++ b/servicios.html
+@@ -1,10 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
++    <title data-i18n="servicios.title">Áreas de Práctica y Servicios | Mac Consultores</title>
++    <meta name="description" content="Nuestros servicios legales incluyen: Derecho Penal, Constitucional, Compliance Corporativo, Extradiciones, y consultoría para particulares y corporaciones.">
++    <meta property="og:title" content="Servicios Jurídicos Especializados | Mac Consultores">
++    <meta property="og:description" content="Derecho Penal, Constitucional, Extradiciones y Compliance Corporativo preventivo.">
++    <meta property="og:url" content="https://macconsultores.com/servicios.html">
++    <meta property="og:type" content="website">
++    <meta property="og:image" content="https://macconsultores.com/assets/img/SALA_REUNIONES_B_OPT.jpg">
++    <meta property="og:image:type" content="image/jpeg">
++    <meta property="og:image:width" content="1200">
++    <meta property="og:image:height" content="630">
++    <meta name="twitter:card" content="summary_large_image">
++    <meta name="twitter:title" content="Áreas de Práctica - Mac Consultores">
++    <meta name="twitter:description" content="Nuestros servicios legales especializados en Caracas.">
++    <meta name="twitter:image" content="https://macconsultores.com/assets/img/SALA_REUNIONES_B_OPT.jpg">
+     <meta charset="UTF-8">
+     <meta http-equiv="Cache-Control" content="max-age=31536000, public">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title data-i18n="title">Servicios Jurídicos | Mac Consultores Jurídicos & Asociados</title>
++    
+ 
+     <!-- SEO TÉCNICO & BILINGÜISMO -->
+     <link rel="canonical" href="https://macconsultores.com/servicios.html">
+@@ -13,21 +27,21 @@
+     <link rel="alternate" hreflang="x-default" href="https://macconsultores.com/servicios.html">
+     
+     <!-- Open Graph -->
+-    <meta property="og:title" content="Servicios Jurídicos | Mac Consultores Jurídicos & Asociados">
+-    <meta property="og:description" content="Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad.">
+-    <meta property="og:url" content="https://macconsultores.com/servicios.html">
+-    <meta property="og:type" content="website">
+-    <meta property="og:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
+-    <meta property="og:image:type" content="image/png">
+-    <meta property="og:image:width" content="1200">
+-    <meta property="og:image:height" content="630">
++    
++    
++    
++    
++    
++    
++    
++    
+     
+     <!-- Twitter Cards -->
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:title" content="Servicios Jurídicos | Mac Consultores Jurídicos & Asociados">
+-    <meta name="twitter:description" content="Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad.">
+-    <meta name="twitter:card" content="summary_large_image">
+-    <meta name="twitter:image" content="https://macconsultores.com/Logo/mac-social-hero.png">
++    
++    
++    
++    
++    
+     
+     <!-- JSON-LD -->
+     <script type="application/ld+json">
+@@ -50,10 +64,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-<script src="i18n.js" defer></script>
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -98,7 +112,10 @@
+                     <h2 class="serif section-title" style="margin-bottom: 0;" data-i18n="intro.h2">Soluciones integrales diseñadas a la medida de los desafíos más exigentes.</h2>
+                 </div>
+                 <div class="img-reveal">
+-                    <img src="SALA_REUNIONES_B_OPT.jpg" alt="Sala de Reuniones y Despacho en Mac Consultores" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="assets/img-webp/SALA_REUNIONES_B_OPT.webp" type="image/webp">
++<img src="assets/img/SALA_REUNIONES_B_OPT.jpg" alt="Sala de Reuniones y Despacho en Mac Consultores" width="2752" height="1536" loading="lazy">
++</picture>
+                 </div>
+             </div>
+             
+@@ -197,7 +214,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/socios-colaboradores.html b/socios-colaboradores.html
+index a5d4887..a650151 100644
+--- a/socios-colaboradores.html
++++ b/socios-colaboradores.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-<script src="i18n.js" defer></script>
++<script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -165,7 +165,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
+diff --git a/tramites-consulares.html b/tramites-consulares.html
+index 687cfdb..d8671bc 100644
+--- a/tramites-consulares.html
++++ b/tramites-consulares.html
+@@ -50,10 +50,10 @@
+ 
+     
+ 
+-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+-    <noscript><link rel="stylesheet" href="index.css"></noscript>
++    <link rel="preload" href="assets/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
++    <noscript><link rel="stylesheet" href="assets/css/index.css"></noscript>
+     
+-    <script src="i18n.js" defer></script>
++    <script src="assets/js/i18n.js" defer></script>
+ 
+     <!-- Iconos de Marca -->
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+@@ -98,7 +98,10 @@
+                     <p style="text-align: left; max-width: 100%; margin-bottom: 0;" data-i18n="tramites_consulares.intro_p">La globalización y la diáspora venezolana han multiplicado los casos en los que las personas mantienen vínculos patrimoniales, familiares y procesales en el país, aun residiendo de forma permanente en el extranjero. Asimismo, atendemos a ciudadanos de otras nacionalidades que requieren soporte jurídico local confiable en Venezuela. En Mac Consultores Jurídicos & Asociados brindamos una tutela judicial y extrajudicial efectiva, diseñada para quienes necesitan representación jurídica remota sin trasladarse al territorio nacional.</p>
+                 </div>
+                 <div class="img-reveal">
+-                    <img src="SALA_REUNIONES_1_OPT.jpg" alt="Sala de Reuniones Internacionales en Mac Consultores" width="2752" height="1536" loading="lazy">
++                    <picture>
++<source srcset="assets/img-webp/SALA_REUNIONES_1_OPT.webp" type="image/webp">
++<img src="assets/img/SALA_REUNIONES_1_OPT.jpg" alt="Sala de Reuniones Internacionales en Mac Consultores" width="2752" height="1536" loading="lazy">
++</picture>
+                 </div>
+             </div>
+         </div>
+@@ -229,7 +232,7 @@
+         </div>
+     </footer>
+ 
+-    <script src="clock.js"></script>
+-    <script src="router.js" defer></script>
++    <script src="assets/js/clock.js" defer></script>
++    <script src="assets/js/router.js" defer></script>
+ </body>
+ </html>
