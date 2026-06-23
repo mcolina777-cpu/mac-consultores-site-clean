@@ -194,23 +194,23 @@
     "about": {
       "tag": "Director General",
       "title": "Visión técnica y liderazgo forense.",
-      "desc_1": "El Abg. Marco A. Colina G. es el fundador y Director General de Mac Consultores Jurídicos & Asociados. Con más de 20 años de ejercicio profesional ininterrumpido, su trayectoria se ha consolidado en el litigio de alta complejidad en materia penal y constitucional.",
-      "desc_2": "Su enfoque combina el rigor dogmático con una visión pragmática de la justicia, permitiéndole liderar estrategias de defensa que han sentado precedentes en la jurisdicción venezolana. Es especialista en Derecho Penal y cuenta con una amplia formación en protección de derechos fundamentales."
+      "desc_1": "El Abg. Marco A. Colina G. es el fundador y Director General de Mac Consultores Jurídicos & Asociados. Con más de 20 años de ejercicio profesional ininterrumpido en el foro penal y constitucional venezolano, su práctica se distingue por el rigor dogmático y el diseño de estrategias procesales de alta precisión.",
+      "desc_2": "Su enfoque combina el conocimiento técnico profundo con una visión pragmática de la justicia, garantizando la protección integral de los derechos e intereses de corporaciones y particulares en escenarios de máxima complejidad."
     },
     "profile": {
       "tag": "Perfil Profesional",
       "title": "Especialidades de Liderazgo",
       "card_1": {
         "title": "Litigio de Casación",
-        "desc": "Experto en la interposición y defensa de recursos extraordinarios ante el Tribunal Supremo de Justicia."
+        "desc": "Experto en la interposición y defensa de recursos extraordinarios de casación ante el Tribunal Supremo de Justicia, logrando sentencias que sientan precedente jurisprudencial."
       },
       "card_2": {
         "title": "Derecho Penal Superior",
-        "desc": "Abordaje de delitos de cuello blanco, criminalidad organizada y defensa penal técnica avanzada."
+        "desc": "Abordaje estratégico de delitos de cuello blanco, criminalidad económica y delincuencia organizada, protegiendo a la empresa y sus directivos frente a contingencias penales."
       },
       "card_3": {
         "title": "Tutela Constitucional",
-        "desc": "Especialista en la activación de garantías jurisdiccionales para la protección de la libertad y el debido proceso."
+        "desc": "Especialista en la activación de garantías jurisdiccionales, acciones de amparo y revisión constitucional para restablecer derechos infringidos en procesos judiciales viciados."
       }
     }
   },
@@ -588,7 +588,10 @@
     "li2": "Defensa técnica frente a investigaciones por legitimación de capitales, delincuencia organizada y corrupción administrativa.",
     "li3": "Asesoría preventiva y defensa en materia penal-tributaria y penal-bancaria.",
     "li4": "Litigio penal asociado a conflictos de accionistas, apropiación indebida y administración desleal.",
-    "li5": "Consultoría para la prevención de riesgos penales corporativos y protocolos de cumplimiento legal (Compliance)."
+    "li5": "Consultoría para la prevención de riesgos penales corporativos y protocolos de cumplimiento legal (Compliance).",
+    "p1": "En los asuntos más sensibles —investigaciones penales económicas contra empresas, procedimientos con impacto mediático o acciones de amparo constitucional— diseñamos la estrategia combinando tres planos: jurídico, probatorio y reputacional.",
+    "p2": "En el plano jurídico, identificamos el marco normativo aplicable y los criterios jurisprudenciales relevantes, para saber con precisión cuáles son los márgenes reales de maniobra y qué vías procesales ofrecen mayor protección al cliente. En el plano probatorio, nos enfocamos en preservar la cadena de custodia, depurar la evidencia disponible y anticipar los ataques que la contraparte intentará dirigir contra los soportes documentales y testimoniales.",
+    "p3": "Finalmente, analizamos el impacto reputacional de cada decisión: cómo comunicamos las actuaciones al cliente, qué riesgos existen de filtraciones o exposiciones públicas y qué medidas pueden tomarse para minimizar daños a la imagen personal o corporativa, sin sacrificar la solidez de la defensa técnica."
   },
   "blog": {
     "title": "Blog Jurídico | Mac Consultores Jurídicos & Asociados",
@@ -637,7 +640,7 @@
     "breadcrumb": "<a href=\"blog.html\">Blog</a> / Análisis Penal",
     "h1": "Análisis Penal: Evolución de la Criminalidad Económica",
     "meta": "Categoría: Análisis Penal",
-    "p1": "El entorno empresarial contemporáneo es un ecosistema dinámico y sofisticado. Hoy en día, los mayores riesgos para el patrimonio y la reputación de una organización no se materializan a través de la violencia física, sino que se ocultan en balances financieros alterados, transferencias transfronterizas opacas y estructuras societarias complejas. En este escenario, comprender cómo ha mutado el delito financiero no es un mero ejercicio académico, sino una necesidad imperativa de supervivencia corporativa.",
+    "p1": "El entorno empresarial contemporáneo es un ecosistema dinámico...",
     "h2_1": "Introducción: Contexto y relevancia actual",
     "p2_1": "Cuando hablamos de “criminalidad económica”, nos referimos a una categoría dogmática y criminológica autónoma, profundamente diferenciada de la delincuencia patrimonial clásica (como el hurto, el robo o la estafa simple). Mientras que el delito patrimonial tradicional ataca bienes jurídicos individuales (la propiedad de una persona), el Derecho Penal Económico se encarga de tutelar bienes jurídicos supraindividuales o colectivos: el correcto funcionamiento del mercado, la integridad del sistema financiero, la libre competencia y los intereses socioeconómicos del Estado.",
     "p2_2": "La expansión y autonomía de esta rama del Derecho Penal no ocurrió en el vacío. Está intrínsecamente vinculada a las grandes crisis económicas y a las fallas estructurales de los mercados. La Gran Depresión de 1929 evidenció que el fraude bursátil y la manipulación de valores podían quebrar naciones enteras. Más recientemente, la crisis financiera global de 2008 y las disrupciones económicas derivadas de la pandemia demostraron que la irresponsabilidad directiva y la falta de controles internos tienen un poder destructivo masivo. A medida que la globalización comercial avanzó y la actividad empresarial se hizo transnacional, también lo hicieron los riesgos.",
@@ -671,6 +674,90 @@
     "p2_6": "Desde el análisis económico del Derecho Penal (Law & Economics), el delincuente de cuello blanco se concibe como un actor racional que sopesa costos y beneficios de delinquir, en un contexto donde los beneficios potenciales son altos, la probabilidad de detección es baja y la complejidad probatoria es elevada.",
     "h2_7": "Conclusiones y recomendaciones prácticas",
     "p2_7a": "La criminalidad económica exige que las empresas adopten programas integrales de compliance penal, políticas internas estrictas, capacitación continua, due diligence exhaustivos y consulta temprana a especialistas en Derecho Penal Económico.",
-    "p2_7b": "En Mac Consultores Jurídicos & Asociados contamos con experiencia en evaluación de riesgos, diseño de estrategias de prevención y litigio de casos complejos de criminalidad económica, con un enfoque orientado a la protección integral de las víctimas corporativas y a la gestión estratégica de las crisis penales."
+    "p2_7b": "En Mac Consultores Jurídicos & Asociados contamos con experiencia en evaluación de riesgos, diseño de estrategias de prevención y litigio de casos complejos de criminalidad económica, con un enfoque orientado a la protección integral de las víctimas corporativas y a la gestión estratégica de las crisis penales.",
+    "li_1_strong": "Elevada complejidad técnica:",
+    "li_1_desc": "Los delitos se ocultan detrás de operaciones de ingeniería financiera, estructuras societarias multinivel, paraísos fiscales y productos de inversión opacos, requiriendo peritajes contables y financieros avanzados.",
+    "li_2_strong": "Uso de la persona jurídica:",
+    "li_2_desc": "La empresa deja de ser solo la víctima y se convierte en instrumento delictivo o “pantalla” para difuminar la responsabilidad de sus directivos.",
+    "li_3_strong": "Frontera difusa entre ilícito y delito:",
+    "li_3_desc": "Existe una línea delgada entre la infracción administrativa y el delito penal, lo que genera tensiones sobre cuándo el Estado debe acudir a la sanción penal.",
+    "li_4_strong": "Impacto macrosocial vs. visibilidad:",
+    "li_4_desc": "Un fraude bancario puede destruir los ahorros de miles de familias con un daño superior al de muchos delitos violentos, pero su percepción mediática suele ser menor.",
+    "li_5_strong": "Dimensión transnacional y tecnológica:",
+    "li_5_desc": "El dinero fluye a la velocidad de la luz y los delitos se apoyan en internet, sistemas de compensación electrónica y redes descentralizadas."
+  },
+  "blog_poderes": {
+    "h1": "Procesal Penal: El Régimen de Poderes en el CPC y el COPP venezolano",
+    "meta": "Categoría: Procesal Penal",
+    "p1": "Actos procesales habilitados y acusación privada: Con poder especialmente otorgado, el apoderado de la víctima puede acceder al expediente de investigación, solicitar la práctica de diligencias, asistir a audiencias, ejercer el derecho a réplica y, en los delitos de acción privada, formular querella o acusación en nombre de su representado.",
+    "h2_1": "I. Exigencia del Artículo 406 COPP",
+    "p2_1": "El artículo 406 del COPP va más allá: exige que la acusación privada identifique con precisión al acusado —nombre, apellidos, datos de identificación— y describa el hecho punible de manera clara y circunstanciada.",
+    "p2_2": "Acusado individualizado: Nombre completo, cédula de identidad u otros datos que permitan su identificación inequívoca.",
+    "p2_3": "Hecho punible delimitado: Descripción circunstanciada del tiempo, modo y lugar, así como la calificación jurídica propuesta. Poder especial habilitante: El apoderado debe acreditar que su representado lo autorizó específicamente para ese acto. Sin este requisito, la acusación es inadmisible.",
+    "h2_2": "II. Diferencias entre poder civil y poder penal",
+    "p3_1": "La representación penal de la víctima no admite fórmulas genéricas. Cada acto relevante exige una autorización clara. No hay atajos que no conduzcan a la inadmisibilidad.",
+    "h3_1": "Objeto del mandato",
+    "p4_1": "En el Proceso Civil (CPC) son derechos patrimoniales y pretensiones disponibles. En el Proceso Penal (COPP) son derechos procesales de la víctima; acción pública o privada.",
+    "h3_2": "Nivel de especificidad",
+    "p4_2": "En civil, general para impulso; especial para actos de disposición. En penal, especial para todos los actos de intervención relevante.",
+    "h3_3": "Naturaleza del litigio",
+    "p4_3": "Disponible en civil (las partes pueden renunciar, transigir y comprometer). Predominantemente indisponible en penal (el Estado es titular de la acción pública).",
+    "h3_4": "Consecuencia de insuficiencia",
+    "p4_4": "En civil, ineficacia del acto de disposición; el proceso puede continuar. En penal, inadmisibilidad o nulidad; puede comprometer todo el proceso.",
+    "h2_3": "III. Por qué el poder especial es indispensable en la representación de la víctima",
+    "p5_1": "La exigencia de poder especial en la representación penal de la víctima responde a tres fundamentos de primera importancia:",
+    "li_1_strong": "Principio de Personalidad de la Acción:",
+    "li_1_desc": "El Estado es el titular de la acción penal, pero cuando la víctima decide intervenir, lo hace de manera personalísima.",
+    "li_2_strong": "Protección del Imputado:",
+    "li_2_desc": "Evitar acusaciones temerarias o anónimas.",
+    "li_3_strong": "Seguridad Jurídica:",
+    "li_3_desc": "Garantizar que quien actúa en nombre de la víctima tiene la potestad real para hacerlo.",
+    "p5_2": "En procesos de criminalidad económica, donde los plazos de prescripción son determinantes, una nulidad por defecto de representación puede traducirse en la pérdida irreversible del derecho de acción.",
+    "h2_4": "IV. Consecuencias prácticas y recomendaciones",
+    "p6_1": "Redacte poderes penales con precisión técnica. El poder para representar a una víctima en proceso penal debe identificar con claridad el tipo de delito o la causa concreta. Distinga el poder civil del poder penal en los instrumentos de representación corporativa. Verifique la suficiencia del poder antes de cada actuación relevante. Actúe con asesoría penal especializada desde el primer momento.",
+    "h2_5": "V. Protocolos corporativos y Compliance",
+    "p7_1": "Contemple el poder especial en el protocolo de compliance penal. Las empresas con programas de cumplimiento normativo deberían incorporar en sus protocolos de gestión de crisis la previsión de otorgamiento de poderes penales específicos, con los parámetros de suficiencia que el COPP exige.",
+    "h2_6": "VI. Conclusión",
+    "p8_1": "El régimen de poderes en el proceso venezolano no es uniforme: obedece a lógicas distintas según la naturaleza del proceso. Esta diferencia no es solo doctrinal. Tiene consecuencias directas sobre la validez de las actuaciones, la admisibilidad de los escritos y la eficacia de la representación en el momento más crítico del proceso.",
+    "h2_7": "VII. Asesoría Especializada en Mac Consultores Jurídicos & Asociados",
+    "p9_1": "Para empresas y directivos que enfrentan investigaciones penales o que actúan como víctimas en procesos de criminalidad económica, comprender estas diferencias no es opcional: es una condición de ejercicio del derecho de acción y de acceso real a la justicia. La representación de la víctima en el proceso penal no admite fórmulas genéricas.",
+    "p9_2": "Nuestro equipo cuenta con experiencia consolidada en la redacción de instrumentos de representación judicial para procesos penales complejos, en la representación de víctimas corporativas ante los órganos jurisdiccionales venezolanos y en el diseño de protocolos de compliance penal."
+  },
+  "blog_amparo": {
+    "h1": "Constitucional: El Amparo como Garantía Vital",
+    "meta": "Categoría: Constitucional",
+    "p1": "En el contexto del Derecho Penal corporativo, el amparo constitucional representa la última y más contundente línea de defensa frente a actuaciones arbitrarias o desproporcionadas del Estado que amenacen la continuidad operativa de una empresa o la libertad de sus directivos.",
+    "h2_1": "I. El amparo en el entorno procesal contemporáneo",
+    "p2_1": "Una empresa bajo investigación por presuntos delitos tributarios ve bloqueadas la totalidad de sus cuentas bancarias, incluyendo aquellas destinadas a pagar nómina y obligaciones tributarias corrientes. La medida, dictada sin audiencia previa, amenaza la continuidad del negocio y los derechos de terceros no investigados. El amparo, solicitando el levantamiento parcial de la medida, permite restablecer la proporcionalidad.",
+    "p2_2": "Vulneración del derecho de defensa: obstaculización del acceso al expediente, restricción del contacto con el abogado defensor o negativa injustificada a la práctica de pruebas.",
+    "p2_3": "Violación de la garantía del juez natural: desviación del conocimiento del asunto hacia tribunales no competentes por razón de la materia o el territorio.",
+    "h2_2": "II. Casos ilustrativos: cuándo el amparo se vuelve imprescindible",
+    "p3_1": "Imaginemos los siguientes escenarios hipotéticos, representativos de situaciones reales que enfrentan empresas y directivos:",
+    "h3_1": "Caso I — Bloqueo total de cuentas operativas:",
+    "p4_1": "Una empresa bajo investigación por presuntos delitos tributarios ve bloqueadas la totalidad de sus cuentas bancarias, incluyendo aquellas destinadas a pagar nómina y obligaciones tributarias corrientes. La medida, dictada sin audiencia previa, amenaza la continuidad del negocio y los derechos de terceros no investigados. El amparo, solicitando el levantamiento parcial de la medida, permite restablecer la proporcionalidad.",
+    "h3_2": "Caso II — Privación preventiva sin motivación suficiente:",
+    "p4_2": "Un director financiero es privado de libertad bajo la imputación de fraude corporativo, sin que el acta de audiencia refleje los elementos de convicción que fundan la medida ni justifique el peligro de fuga alegado. La interposición de amparo ante el tribunal superior logra obtener la revisión y sustitución de la medida por una menos gravosa.",
+    "h3_3": "Caso III — Restricción de acceso al expediente:",
+    "p4_3": "La defensa de un oficial de cumplimiento (compliance officer) imputado por omisión de control en operaciones sospechosas solicita sistemáticamente acceso al expediente, siendo negado de forma reiterada y sin fundamentación. El amparo, invocando la violación del derecho de defensa y el debido proceso, obliga al órgano jurisdiccional a garantizar el acceso.",
+    "h3_4": "Caso IV — Jurisdicción inadecuada:",
+    "p4_4": "Una causa penal por presuntos delitos financieros es remitida, sin fundamento legal, a un tribunal especial distinto del competente por razón de la materia. Ante la inacción de los recursos ordinarios, el amparo constitucional permite restablecer el derecho al juez natural, garantía de primer orden en cualquier proceso.",
+    "h2_3": "III. Límites y riesgos del uso del amparo",
+    "p5_1": "Una comprensión cabal del amparo exige reconocer, con la misma claridad con que se afirman sus virtudes, sus límites y los riesgos de su empleo indebido. El amparo no es ni puede convertirse en un mecanismo para eludir el proceso penal, enervar la actividad legítima de investigación del Estado o sustituir a los recursos ordinarios cuando estos son idóneos y efectivos.",
+    "li_1_strong": "Subsidiaridad:",
+    "li_1_desc": "Antes de acudir a él, la parte afectada debe agotar los remedios que el propio proceso penal ofrece.",
+    "li_2_strong": "Estrategia frente a táctica:",
+    "li_2_desc": "Un uso meramente dilatorio o táctico del amparo no solo expone al solicitante a su declaración de inadmisibilidad, sino que puede erosionar la credibilidad procesal.",
+    "li_3_strong": "Diagnóstico riguroso:",
+    "li_3_desc": "Requiere identificar con precisión el derecho fundamental vulnerado, verificar que no existen vías ordinarias y construir una argumentación constitucional sólida.",
+    "p5_2": "El uso responsable del amparo requiere que el abogado penalista realice un diagnóstico riguroso de la situación. El amparo estratégico —que protege derechos genuinamente amenazados— es un instrumento de alto impacto; el amparo dilatorio es una apuesta arriesgada.",
+    "h2_4": "IV. Recomendaciones para empresas y directivos",
+    "p6_1": "La mejor defensa es, sin duda, la prevención. Las empresas que cuentan con sistemas robustos de compliance penal están en condiciones de detectar tempranamente situaciones de riesgo. Implemente un programa de compliance penal efectivo. Documente todas las actuaciones corporativas relevantes. Actúe de forma temprana ante cualquier irregularidad procesal. Coordine a su equipo de defensa penal con su área de compliance. Evalúe el amparo como herramienta estratégica, no como último recurso desesperado. Establezca protocolos internos de respuesta ante medidas cautelares.",
+    "h2_5": "V. El amparo como garantía del Estado de Derecho",
+    "p7_1": "El amparo constitucional no es una anomalía del sistema; es su expresión más depurada. Su existencia como acción autónoma, expedita y de rango constitucional refleja la convicción de que ningún proceso —por legítimas que sean sus finalidades— puede convertirse en instrumento de lesión de los derechos que la Constitución reconoce.",
+    "h2_6": "VI. Conclusión",
+    "p8_1": "En el entorno procesal contemporáneo, el amparo cumple una función de contrapeso esencial. No defiende la impunidad; defiende la legalidad del camino que conduce a la verdad y a la eventual responsabilidad penal. Y esa función, lejos de ser obstáculo para la justicia, es condición de su legitimidad.",
+    "h2_7": "VII. Asesoría Especializada",
+    "p9_1": "Para quienes se desempeñan en el mundo empresarial —propietarios, directivos, contadores, oficiales de cumplimiento—, comprender el amparo no es una cuestión académica: es una herramienta de gestión de riesgos jurídicos de primer orden que puede, en el momento crítico, preservar la libertad, la reputación y la continuidad del negocio.",
+    "p9_2": "Nuestro equipo en Mac Consultores Jurídicos & Asociados cuenta con experiencia consolidada en la evaluación, prevención y litigio de casos de criminalidad económica, en el diseño de programas de compliance penal y en el uso estratégico del amparo constitucional para la defensa de víctimas corporativas, directivos y personas jurídicas. Si su empresa enfrenta una investigación penal, lo invitamos a contactarnos."
   }
 }
