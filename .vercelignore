@@ -17,3 +17,5 @@ Downloads/
 .DS_Store
 Thumbs.db
 *.log
+archive/
+public/**/*.html

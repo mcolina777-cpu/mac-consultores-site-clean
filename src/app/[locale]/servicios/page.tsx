@@ -41,28 +41,28 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
               <h3 >{dict?.services?.card_1?.title}</h3>
               <p >{dict?.services?.card_1?.desc}</p>
               <ul className="service-list"  dangerouslySetInnerHTML={{ __html: dict?.services?.card_1?.list }}></ul>
-              <Link href="/servicios#penal-procesal" className="card-link" >{dict?.services?.card_1?.link}</Link>
+              <Link href={`/${locale}/servicios#penal-procesal`} className="card-link" >{dict?.services?.card_1?.link}</Link>
             </div>
             <div className="card">
               <span className="section-tag">02</span>
               <h3 >{dict?.services?.card_2?.title}</h3>
               <p >{dict?.services?.card_2?.desc}</p>
               <ul className="service-list"  dangerouslySetInnerHTML={{ __html: dict?.services?.card_2?.list }}></ul>
-              <Link href="/servicios#constitucional" className="card-link" >{dict?.services?.card_2?.link}</Link>
+              <Link href={`/${locale}/servicios#constitucional`} className="card-link" >{dict?.services?.card_2?.link}</Link>
             </div>
             <div className="card">
               <span className="section-tag">03</span>
               <h3 >{dict?.services?.card_3?.title}</h3>
               <p >{dict?.services?.card_3?.desc}</p>
               <ul className="service-list"  dangerouslySetInnerHTML={{ __html: dict?.services?.card_3?.list }}></ul>
-              <Link href="/servicios#delitos-informaticos" className="card-link" >{dict?.services?.card_3?.link}</Link>
+              <Link href={`/${locale}/servicios#delitos-informaticos`} className="card-link" >{dict?.services?.card_3?.link}</Link>
             </div>
             <div className="card">
               <span className="section-tag">04</span>
               <h3 >{dict?.services?.card_4?.title}</h3>
               <p >{dict?.services?.card_4?.desc}</p>
               <ul className="service-list"  dangerouslySetInnerHTML={{ __html: dict?.services?.card_4?.list }}></ul>
-              <Link href="/servicios#consultoria-preventiva" className="card-link" >{dict?.services?.card_4?.link}</Link>
+              <Link href={`/${locale}/servicios#consultoria-preventiva`} className="card-link" >{dict?.services?.card_4?.link}</Link>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
         <div className="container">
           <h2 className="serif section-title" >{dict?.cta?.title}</h2>
           <p className="section-desc" >{dict?.cta?.desc}</p>
-          <Link href="/contacto" className="btn btn-primary" >{dict?.cta?.btn}</Link>
+          <Link href={`/${locale}/contacto`} className="btn btn-primary" >{dict?.cta?.btn}</Link>
         </div>
       </section>
 
