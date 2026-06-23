@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
   return {
-    title: dict?.blog_amparo?.seo_title || dict?.blog_amparo?.h1,
+    title: dict?.blog_amparo?.h1,
   };
 }
 
