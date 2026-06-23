@@ -201,90 +201,7 @@ nav .nav-links {
     user-select: none;
 }
 
-/* Header Mobile Responsiveness Unificado */
-@media (max-width: 768px) {
-    nav .container {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px 20px;
-        flex-wrap: wrap;
-    }
-
-    nav .logo {
-        flex: 0 0 auto;
-        margin-bottom: 0;
-        max-width: 70%;
-        height: auto;
-    }
-
-    /* Botón MENÚ visible solo en móvil */
-    .mobile-menu-text-btn {
-        display: block;
-        background-color: transparent;
-        color: var(--primary);
-        border: 1px solid var(--primary);
-        padding: 6px 12px;
-        font-size: 0.85rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-        border-radius: 4px;
-        cursor: pointer;
-        font-family: 'Cormorant Garamond', serif;
-    }
-
-    /* Enlaces ocultos inicialmente en móvil */
-    nav .nav-links {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: var(--bg-white);
-        flex-direction: column;
-        margin-left: 0;
-        padding: 0;
-        gap: 0;
-        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-        z-index: 1000;
-        border-top: 1px solid rgba(0, 56, 101, 0.08);
-    }
-
-    /* Cuando el menú se abre */
-    nav .nav-links.active {
-        display: flex;
-    }
-    
-    .nav-links li {
-        width: 100%;
-        margin: 0;
-        display: block;
-        text-align: center;
-    }
-
-    .nav-links a {
-        display: block;
-        padding: 15px;
-        font-size: 0.85rem;
-        font-family: 'Cormorant Garamond', serif;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-        background: transparent;
-        border-bottom: 1px solid rgba(0,0,0,0.05);
-        width: 100%;
-    }
-
-    .lang-selector {
-        width: 100%;
-        justify-content: center;
-        margin-left: 0;
-        margin-top: 0;
-        padding: 1rem 0;
-    }
-}
-
+/* Header Mobile Responsiveness moved to the bottom unified block */
 /* Hero Section */
 .hero {
     height: 650px;
@@ -862,22 +779,7 @@ footer, .footer {
     display: none;
 }
 
-@media (max-width: 768px) {
-    .grid-split, .grid-2, .grid-3 { grid-template-columns: 1fr; gap: 24px; }
-
-    .hero h1 { font-size: clamp(2.5rem, 8vw, 3.5rem); }
-    
-    .hero {
-        height: auto;
-        min-height: 500px;
-        padding-top: 120px;
-        padding-bottom: 80px;
-    }
-
-    .container {
-        padding: 0 20px;
-    }
-}
+/* Grid and Hero adjustments moved to unified block */
 
 /* NORMALIZACIÓN DEL MENÚ DE NAVEGACIÓN EN TODAS LAS PÁGINAS */
 
@@ -977,16 +879,7 @@ nav .nav-links a[href*="blog"] {
   }
 }
 
-@media (max-width: 768px) {
-  .daily-insight {
-    padding: 60px 0;
-  }
-
-  .daily-insight-definition {
-    font-size: 1.15rem;
-    text-align: center;
-  }
-}
+/* Daily insight mobile moved to unified block */
 
 .contact-list a {
     color: var(--accent);
@@ -1041,123 +934,10 @@ nav .nav-links a[href*="blog"] {
     opacity: 0.3;
 }
 
-@media (max-width: 768px) {
-    .lang-selector {
-        justify-content: center;
-        background: var(--bg-soft);
-        border: 1px solid #E1E1E1;
-        border-top: none;
-        width: 100%;
-        padding: 15px;
-    }
-}
-/* AJUSTE RESPONSIVE FINO - SECCIÓN CONTACTO/CONSULTAS */
-@media (max-width: 768px) {
-    /* OBJETIVO A */
-    .page-contacto .page-header {
-        padding: 40px 0 20px;
-    }
-    
-    .page-contacto .page-header h1 {
-        font-size: 2.2rem;
-        line-height: 1.25;
-    }
-    
-    .page-contacto .container {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 1.25rem;
-    }
-    
-    .page-contacto section {
-        padding: 70px 0;
-    }
-    
-    .page-contacto .contact-info {
-        margin-bottom: 2.5rem;
-    }
-    
-    .page-contacto .form-card {
-        padding: 25px 20px;
-    }
-    
-    .page-contacto .form-group input,
-    .page-contacto .form-group select,
-    .page-contacto .form-group textarea {
-        width: 100%;
-    }
-    
-    .page-contacto .form-card .btn {
-        margin-top: 1rem;
-        width: 100%;
-    }
+/* Lang selector mobile moved to unified block */
+/* Contact mobile moved to unified block */
 
-
-}
-
-/* SISTEMA ÚNICO DE FOOTER EN MÓVIL (TODAS LAS PÁGINAS) */
-@media (max-width: 768px) {
-  .footer {
-    padding-top: 60px;
-    padding-bottom: 40px;
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .footer-col {
-    width: 100%;
-    align-items: flex-start;
-  }
-
-  .footer-logo {
-    font-size: 1.5rem;
-    line-height: 1.3;
-    text-align: left;
-  }
-
-  .footer-title {
-    text-align: left;
-    font-size: 1.1rem;
-  }
-
-  .footer-desc,
-  .footer-col ul li {
-    font-size: 1.15rem;
-    line-height: 1.35;
-    text-align: left;
-  }
-
-  .footer-bottom {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    padding-top: 24px;
-  }
-
-  .footer-copyright, .footer-legal {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 12px;
-  }
-
-  .footer-bottom p,
-  .footer-bottom a,
-  .footer-location,
-  .footer-legal a {
-    text-align: left;
-    line-height: 1.6;
-    font-size: 1.1rem;
-  }
-
-  .footer-seal-img {
-    margin: 1.5rem 0 0 0;
-  }
-}
+/* Footer mobile moved to unified block */
 
 .home-resources-cta {
     display: none !important;
@@ -1181,3 +961,269 @@ nav .nav-links a[href*="blog"] {
   margin-top: 2.5rem;
 }
 
+/* =========================================================================
+   SISTEMA UNIFICADO DE RESPONSIVE (MÓVIL / TABLET)
+   ========================================================================= */
+@media (max-width: 768px) {
+    /* 1. LAYOUT GENERAL Y ESPACIADOS */
+    .container {
+        padding: 0 20px;
+        width: 100%;
+    }
+    
+    section {
+        padding: 50px 0; /* Menos padding en móvil */
+    }
+
+    .grid-split, .grid-2, .grid-3 { 
+        grid-template-columns: 1fr; 
+        gap: 24px; 
+    }
+
+    /* 2. HEADER / NAVBAR */
+    nav .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        flex-wrap: wrap;
+    }
+
+    nav .logo {
+        flex: 0 0 auto;
+        margin-bottom: 0;
+        max-width: 65%;
+        height: auto;
+    }
+
+    .mobile-menu-text-btn {
+        display: block;
+        background-color: transparent;
+        color: var(--primary);
+        border: 1px solid var(--primary);
+        padding: 6px 12px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    nav .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--bg-white);
+        flex-direction: column;
+        margin-left: 0;
+        padding: 0;
+        gap: 0;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        z-index: 1000;
+        border-top: 1px solid rgba(0, 56, 101, 0.08);
+    }
+
+    nav .nav-links.active {
+        display: flex;
+    }
+    
+    .nav-links li {
+        width: 100%;
+        margin: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 15px;
+        font-size: 0.85rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        background: transparent;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+        width: 100%;
+    }
+
+    .lang-selector {
+        width: 100%;
+        justify-content: center;
+        background: var(--bg-soft);
+        border: 1px solid #E1E1E1;
+        border-top: none;
+        padding: 15px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /* 3. HERO Y TIPOGRAFÍA GENERAL */
+    .hero {
+        height: auto;
+        min-height: 500px;
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+
+    .hero h1 { 
+        font-size: clamp(2rem, 8vw, 2.5rem); 
+        line-height: 1.1;
+        margin-bottom: 1rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    .section-title {
+        font-size: 2.2rem; /* Más pequeño en móvil */
+        margin-bottom: 2rem;
+    }
+
+    .axial-header .section-title {
+        margin-bottom: 0;
+    }
+
+    .page-header {
+        padding: 50px 0 30px;
+    }
+
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-desc, p {
+        font-size: 1.05rem;
+        line-height: 1.5;
+    }
+
+    /* 4. TARJETAS (CARDS) */
+    .card {
+        padding: 24px 20px; /* Reducción de padding interno */
+    }
+
+    .card h3 {
+        font-size: 1.35rem;
+    }
+
+    /* 5. DAILY INSIGHT */
+    .daily-insight {
+        padding: 50px 0;
+    }
+
+    .daily-insight-concept {
+        font-size: 2rem;
+    }
+
+    .daily-insight-definition {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    /* 6. CONTACTO */
+    .page-contacto .page-header {
+        padding: 40px 0 20px;
+    }
+    
+    .page-contacto .page-header h1 {
+        font-size: 2.2rem;
+        line-height: 1.25;
+    }
+    
+    .page-contacto .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 1.25rem;
+    }
+    
+    .page-contacto section {
+        padding: 50px 0;
+    }
+    
+    .page-contacto .contact-info {
+        margin-bottom: 2.5rem;
+    }
+    
+    .page-contacto .form-card {
+        padding: 25px 20px;
+    }
+    
+    .page-contacto .form-group input,
+    .page-contacto .form-group select,
+    .page-contacto .form-group textarea {
+        width: 100%;
+    }
+    
+    .page-contacto .form-card .btn {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    /* 7. FOOTER */
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-col {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .footer-logo {
+        font-size: 1.5rem;
+        line-height: 1.3;
+        text-align: left;
+    }
+
+    .footer-title {
+        text-align: left;
+        font-size: 1.1rem;
+    }
+
+    .footer-desc,
+    .footer-col ul li {
+        font-size: 1.1rem;
+        line-height: 1.4;
+        text-align: left;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding-top: 24px;
+    }
+
+    .footer-copyright, .footer-legal {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 12px;
+    }
+
+    .footer-bottom p,
+    .footer-bottom a,
+    .footer-location,
+    .footer-legal a {
+        text-align: left;
+        line-height: 1.6;
+        font-size: 1rem;
+    }
+
+    .footer-seal-img {
+        margin: 1.5rem 0 0 0;
+    }
+}
