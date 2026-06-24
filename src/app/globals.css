@@ -1180,7 +1180,8 @@ nav .nav-links a[href*="blog"] {
     }
 
     .footer-grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         gap: 40px; /* Mayor separación entre secciones para claridad */
     }
 
@@ -1227,6 +1228,7 @@ nav .nav-links a[href*="blog"] {
     }
 
     .footer-bottom {
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
