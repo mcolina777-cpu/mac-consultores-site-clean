@@ -1176,12 +1176,12 @@ nav .nav-links a[href*="blog"] {
     /* 7. FOOTER */
     .footer {
         padding-top: 50px;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 
     .footer-grid {
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 40px; /* Mayor separación entre secciones para claridad */
     }
 
     .footer-col {
@@ -1198,28 +1198,40 @@ nav .nav-links a[href*="blog"] {
     .footer-title {
         text-align: left;
         font-size: 1.1rem;
+        margin-bottom: 0.5rem; /* Un poco de respiro bajo el título */
     }
 
-    .footer-desc,
-    .footer-col ul li {
+    .footer-desc {
         font-size: 1.1rem;
         line-height: 1.4;
         text-align: left;
     }
 
+    .footer-col ul li {
+        font-size: 1.1rem;
+        line-height: 1.4;
+        text-align: left;
+        margin-bottom: 0; /* El espacio lo dará el enlace */
+    }
+
+    .footer-col ul a {
+        display: block;
+        padding: 0.6rem 0; /* Altura táctil cómoda (aprox 44px+) */
+    }
+
     .footer-bottom {
         flex-direction: column;
         align-items: flex-start;
-        gap: 16px;
-        padding-top: 24px;
+        gap: 20px;
+        padding-top: 30px;
     }
 
     .footer-copyright, .footer-legal {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column; /* Apilamos en 1 columna para máximo confort en móvil */
         justify-content: flex-start;
-        gap: 12px;
+        gap: 8px;
     }
 
     .footer-bottom p,
@@ -1235,17 +1247,9 @@ nav .nav-links a[href*="blog"] {
         margin: 1.5rem 0 0 0;
     }
 
-    /* Más separación entre enlaces de NAVEGACIÓN y SERVICIOS en móvil */
-    .footer-col .footer-links li + li {
-        margin-top: 0.8rem;
-    }
-
-    /* Enlaces legales un poco más separados y apilados si hace falta */
-    .footer-legal {
-        gap: 16px;
-    }
-
+    /* Enlaces legales con espacio táctil */
     .footer-legal a {
-        padding-right: 4px;  /* mejora el “tap target” sin agrandar visualmente */
+        display: inline-block;
+        padding: 0.5rem 0; /* Tap target accesible */
     }
 }
