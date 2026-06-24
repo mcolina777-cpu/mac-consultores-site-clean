@@ -597,18 +597,18 @@
     "title": "Legal Blog | Mac Consultores Jurídicos & Asociados",
     "breadcrumb": "Current Affairs / Analysis",
     "h1": "Strategic Legal Blog",
-    "read_more": "READ MORE →",
-    "article_1": {
+    "readmore": "READ MORE →",
+    "article1": {
       "tag": "Criminal Analysis",
       "title": "Evolution of Economic Crime",
       "desc": "A strategic analysis on how economic crimes have evolved and why they represent today one of the greatest criminal and reputational risks for companies."
     },
-    "article_2": {
+    "article2": {
       "tag": "Constitutional",
       "title": "Amparo as a Vital Guarantee",
       "desc": "Reflections on the effectiveness of constitutional protection in the contemporary procedural environment and the protection of fundamental rights."
     },
-    "article_4": {
+    "article4": {
       "tag": "Criminal Procedural",
       "title": "The Regime of Powers in the Venezuelan CPC and COPP",
       "desc": "Authorized procedural acts and private accusation..."

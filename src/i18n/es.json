@@ -597,18 +597,18 @@
     "title": "Blog Jurídico | Mac Consultores Jurídicos & Asociados",
     "breadcrumb": "Actualidad / Análisis",
     "h1": "Blog Jurídico Estratégico",
-    "read_more": "LEER MÁS →",
-    "article_1": {
+    "readmore": "LEER MÁS →",
+    "article1": {
       "tag": "Análisis Penal",
       "title": "Evolución de la Criminalidad Económica",
       "desc": "Un análisis estratégico sobre cómo han evolucionado los delitos económicos y por qué representan hoy uno de los mayores riesgos penales y reputacionales para las empresas."
     },
-    "article_2": {
+    "article2": {
       "tag": "Constitucional",
       "title": "El Amparo como Garantía Vital",
       "desc": "Reflexiones sobre la eficacia de la tutela constitucional en el entorno procesal contemporáneo y la protección de derechos fundamentales."
     },
-    "article_4": {
+    "article4": {
       "tag": "Procesal Penal",
       "title": "El Régimen de Poderes en el CPC y el COPP venezolano",
       "desc": "Actos procesales habilitados y acusación privada..."
