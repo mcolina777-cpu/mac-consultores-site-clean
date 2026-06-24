@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import heroBg from '../../public/assets/img/MAC_HOME_2.jpg';
+import heroBg from '../../public/assets/img/OFICINA_PRINCIPAL.jpg';
 
 export default function Hero({ dict, locale }: { dict: any, locale: string }) {
   return (
