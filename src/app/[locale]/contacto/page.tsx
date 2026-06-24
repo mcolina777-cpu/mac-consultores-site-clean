@@ -106,39 +106,41 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
               <div className="contact-list" style={{ marginTop: '3rem' }}>
                 <h4 className="contact-subtitle" style={{ marginBottom: '1.5rem', borderBottom: '1px solid #eee', paddingBottom: '0.5rem' }} >{dict?.contacto?.alt_channels?.title || "Canales Alternativos"}</h4>
                 <ul style={{ listStyle: 'none', padding: 0 }}>
-                  <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                    <span style={{ fontSize: '1.5rem' }}>📱</span>
+                  <li style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <span style={{ fontSize: '1.5rem', minWidth: '32px', textAlign: 'center' }}>📱</span>
                     <div>
-                      <strong>Móvil / WhatsApp:</strong><br />
-                      <a href="tel:+584144342398">+58 414-4342398</a>
+                      <strong style={{ display: 'block', marginBottom: '0.2rem' }}>{dict?.contacto?.alt_channels?.mobile1 || "Móvil 1"}</strong>
+                      <a href="tel:+584241950908" style={{ fontStyle: 'normal', display: 'inline-block', padding: '0.2rem 0', textDecoration: 'none' }}>+58 424-195-09-08</a>
                     </div>
                   </li>
-                  <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                    <span style={{ fontSize: '1.5rem' }}>📱</span>
+                  <li style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <span style={{ fontSize: '1.5rem', minWidth: '32px', textAlign: 'center' }}>📱</span>
                     <div>
-                      <strong>Móvil / WhatsApp:</strong><br />
-                      <a href="tel:+584242686161">+58 424-2686161</a>
+                      <strong style={{ display: 'block', marginBottom: '0.2rem' }}>{dict?.contacto?.alt_channels?.mobile2 || "Móvil 2"}</strong>
+                      <a href="tel:+584241376497" style={{ fontStyle: 'normal', display: 'inline-block', padding: '0.2rem 0', textDecoration: 'none' }}>+58 424-137-64-97</a>
                     </div>
                   </li>
-                  <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                    <span style={{ fontSize: '1.5rem' }}>☎️</span>
+                  <li style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <span style={{ fontSize: '1.5rem', minWidth: '32px', textAlign: 'center' }}>☎️</span>
                     <div>
-                      <strong>Línea Fija:</strong><br />
-                      <a href="tel:+582122340578">+58 212-2340578</a>
+                      <strong style={{ display: 'block', marginBottom: '0.2rem' }}>{dict?.contacto?.alt_channels?.landline || "Línea fija"}</strong>
+                      <a href="tel:+582124142324" style={{ fontStyle: 'normal', display: 'inline-block', padding: '0.2rem 0', textDecoration: 'none' }}>+58 212-414-23-24</a>
                     </div>
                   </li>
-                  <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                    <span style={{ fontSize: '1.5rem' }}>💻</span>
+                  <li style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <span style={{ fontSize: '1.5rem', minWidth: '32px', textAlign: 'center' }}>💻</span>
                     <div>
-                      <strong >{dict?.contacto?.alt_channels?.meet || "Reunión Virtual:"}</strong><br />
-                      <a href="https://meet.google.com/npx-yhyh-cxy" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)' }}>Google Meet (Previa cita)</a>
+                      <strong style={{ display: 'block', marginBottom: '0.2rem' }}>{dict?.contacto?.alt_channels?.meet || "Reunión virtual"}</strong>
+                      <a href="https://meet.google.com/npx-yhyh-cxy" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', fontStyle: 'normal', display: 'inline-block', padding: '0.2rem 0', textDecoration: 'none' }}>Google Meet (Previa cita)</a>
                     </div>
                   </li>
-                  <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                    <span style={{ fontSize: '1.5rem' }}>𝕏</span>
+                  <li style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minWidth: '32px' }}>
+                      <img src="/Logo/apple-touch-icon.png" alt="Logo" style={{ width: '28px', height: '28px', borderRadius: '4px', objectFit: 'cover' }} />
+                    </span>
                     <div>
-                      <strong>Twitter (X):</strong><br />
-                      <a href="https://twitter.com/AbgLuisMacia" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)' }}>@AbgLuisMacia</a>
+                      <strong style={{ display: 'block', marginBottom: '0.2rem' }}>{dict?.contacto?.alt_channels?.twitter || "Twitter (X)"}</strong>
+                      <a href="https://x.com/MacConsultoresV" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', fontStyle: 'normal', display: 'inline-block', padding: '0.2rem 0', textDecoration: 'none' }}>@MacConsultoresV</a>
                     </div>
                   </li>
                 </ul>
