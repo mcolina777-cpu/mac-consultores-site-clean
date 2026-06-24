@@ -1219,6 +1219,13 @@ nav .nav-links a[href*="blog"] {
         padding: 0.6rem 0; /* Altura táctil cómoda (aprox 44px+) */
     }
 
+    .footer-col .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
     .footer-bottom {
         flex-direction: column;
         align-items: flex-start;
