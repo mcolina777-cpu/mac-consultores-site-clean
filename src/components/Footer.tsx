@@ -74,9 +74,9 @@ export default function Footer({ dict, locale }: { dict: any, locale: string }) 
               <span>{dict?.location || 'Caracas, Venezuela'}</span> &middot; <span>{dict?.local_time || 'Hora local'}</span>: <span id="local-clock" suppressHydrationWarning>{localTime}</span>
             </p>
           </div>
-          <div className="footer-legal" style={{ display: 'flex', gap: '20px' }}>
-            <Link href={`/${locale}/aviso-legal`} style={{color: 'inherit', textDecoration: 'none'}}>{dict?.legal_notice || 'Aviso Legal'}</Link>
-            <Link href={`/${locale}/privacidad`} style={{color: 'inherit', textDecoration: 'none'}}>{dict?.privacy || 'Privacidad'}</Link>
+          <div className="footer-legal">
+            <Link href={`/${locale}/aviso-legal`}>{dict?.legal_notice || 'Aviso Legal'}</Link>
+            <Link href={`/${locale}/privacidad`}>{dict?.privacy || 'Privacidad'}</Link>
           </div>
         </div>
       </div>

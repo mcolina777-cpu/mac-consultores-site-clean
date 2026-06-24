@@ -1234,4 +1234,18 @@ nav .nav-links a[href*="blog"] {
     .footer-seal-img {
         margin: 1.5rem 0 0 0;
     }
+
+    /* Más separación vertical entre items del footer en móvil */
+    .footer-col ul li + li {
+        margin-top: 0.35rem;
+    }
+
+    /* Enlaces legales un poco más separados y apilados si hace falta */
+    .footer-legal {
+        gap: 16px;
+    }
+
+    .footer-legal a {
+        padding-right: 4px;  /* mejora el “tap target” sin agrandar visualmente */
+    }
 }
