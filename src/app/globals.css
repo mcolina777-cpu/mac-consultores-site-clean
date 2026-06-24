@@ -1235,9 +1235,9 @@ nav .nav-links a[href*="blog"] {
         margin: 1.5rem 0 0 0;
     }
 
-    /* Más separación vertical entre items del footer en móvil */
-    .footer-col ul li + li {
-        margin-top: 0.35rem;
+    /* Más separación entre enlaces de NAVEGACIÓN y SERVICIOS en móvil */
+    .footer-col .footer-links li + li {
+        margin-top: 0.8rem;
     }
 
     /* Enlaces legales un poco más separados y apilados si hace falta */
