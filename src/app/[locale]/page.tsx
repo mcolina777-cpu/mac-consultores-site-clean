@@ -32,6 +32,12 @@ export default async function Home({ params }: Props) {
       <section className="bg-soft">
         <div className="container">
           <div className="grid-split">
+            <div className="img-reveal">
+              <picture>
+                <source srcSet="/assets/img-webp/RECEPCION_2_OPT.webp" type="image/webp" />
+                <img src="/assets/img/RECEPCION_2_OPT.jpg" alt="Recepción" width="2752" height="1536" loading="lazy" />
+              </picture>
+            </div>
             <div className="about-text">
               <span className="section-tag">{dict?.about?.tag}</span>
               <h2 className="section-title">{dict?.about?.title}</h2>
