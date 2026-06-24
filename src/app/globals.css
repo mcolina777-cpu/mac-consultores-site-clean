@@ -1063,22 +1063,30 @@ nav .nav-links a[href*="blog"] {
     }
 
     /* 3. HERO Y TIPOGRAFÍA GENERAL */
+    /* HERO ESPECÍFICO PARA MÓVILES (iPhone / Xiaomi) */
     .hero {
         height: auto;
-        min-height: 500px;
-        padding-top: 120px;
-        padding-bottom: 80px;
+        min-height: 400px;        /* cómodo en iPhone y Xiaomi */
+        padding-top: 90px;        /* evita que el notch tape el título */
+        padding-bottom: 50px;
+        align-items: flex-start;
     }
 
-    .hero h1 { 
-        font-size: clamp(2rem, 8vw, 2.5rem); 
-        line-height: 1.1;
-        margin-bottom: 1rem;
+    .hero-content {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .hero h1 {
+        font-size: clamp(2.2rem, 7vw, 2.6rem);
+        line-height: 1.15;
+        margin-bottom: 0.9rem;
     }
 
     .hero p {
-        font-size: 1.1rem;
+        font-size: 1.05rem;
         line-height: 1.5;
+        max-width: 95%;
     }
 
     .section-title {
