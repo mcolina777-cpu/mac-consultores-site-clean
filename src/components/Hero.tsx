@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
-
+import heroBg from '../../public/assets/img/MAC_HOME_2.jpg';
 
 export default function Hero({ dict, locale }: { dict: any, locale: string }) {
   return (
-    <header className="hero" style={{ backgroundImage: "url('/assets/img/MAC_HOME_2.jpg')" }}>
+    <header className="hero" style={{ backgroundImage: `url(${heroBg.src})` }}>
       <div className="container">
         <div className="hero-content">
 
