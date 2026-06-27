@@ -62,7 +62,7 @@ export default function Footer({ dict, locale }: { dict: any, locale: string }) 
               <li><a href="mailto:infomacconsul@gmail.com">infomacconsul@gmail.com</a></li>
               <li><Link href={`/${locale}/contacto`} className="footer-cta">{dict?.cta || 'AGENDAR CITA →'}</Link></li>
             </ul>
-            <img src="/Logo/mac-icon-192.png" alt="Sello Mac Consultores" className="footer-seal-img" loading="lazy" />
+            <img src="/assets/mac/mac-icon-192.png" alt="Sello Mac Consultores" className="footer-seal-img" loading="lazy" />
           </div>
           
         </div>

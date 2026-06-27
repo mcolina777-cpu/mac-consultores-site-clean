@@ -24,9 +24,9 @@ export default async function RootLayout({
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/Logo/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="192x192" href="/Logo/mac-icon-192.png" />
-        <link rel="apple-touch-icon" href="/Logo/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/mac/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/assets/mac/mac-icon-192.png" />
+        <link rel="apple-touch-icon" href="/assets/mac/apple-touch-icon.png" />
       </head>
       <body className="page-firma">
         <Navbar dict={dict.nav} locale={locale} />

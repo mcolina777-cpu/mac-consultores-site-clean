@@ -31,7 +31,7 @@ export default async function NuestroCEO({ params }: Props) {
           <div className="grid-split">
             <div className="img-reveal">
               <picture>
-                <img src="/assets/img/ceo.png"
+                <img src="/assets/mac/ceo.png"
                      alt="Fotografía corporativa de Marco A. Colina G., Director General"
                      loading="lazy" />
               </picture>

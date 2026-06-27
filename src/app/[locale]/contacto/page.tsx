@@ -136,7 +136,7 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                   </li>
                   <li style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                     <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minWidth: '32px' }}>
-                      <img src="/Logo/apple-touch-icon.png" alt="Logo" style={{ width: '28px', height: '28px', borderRadius: '4px', objectFit: 'cover' }} />
+                      <img src="/assets/mac/apple-touch-icon.png" alt="Logo" style={{ width: '28px', height: '28px', borderRadius: '4px', objectFit: 'cover' }} />
                     </span>
                     <div>
                       <strong style={{ display: 'block', marginBottom: '0.2rem' }}>{dict?.contacto?.alt_channels?.twitter || "Twitter (X)"}</strong>
