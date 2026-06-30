@@ -21,6 +21,19 @@ export const metadata = {
     locale: 'es_VE',
     type: 'website',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Quiénes Somos | Mac Consultores Jurídicos & Asociados',
+    description: 'Conozca nuestra trayectoria y equipo.',
+    images: [
+      {
+        url: 'https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+      },
+    ],
+  },
 };
 
 export default async function QuienesSomos({ params }: { params: Promise<{ locale: string }> }) {

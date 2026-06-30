@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { getDictionary } from "@/i18n/getDictionary";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://mac-consultores-site-clean.vercel.app'),
   title: "Mac Consultores Jurídicos & Asociados | Excelencia Legal",
   description: "Firma boutique en Caracas especializada en litigio penal de alta complejidad, derecho constitucional y compliance corporativo preventivo.",
 };
