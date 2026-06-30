@@ -5,6 +5,22 @@ import { getDictionary } from "@/i18n/getDictionary";
 export const metadata = {
   title: 'Quiénes Somos | Mac Consultores Jurídicos & Asociados',
   description: 'Conozca nuestra trayectoria y equipo.',
+  openGraph: {
+    title: 'Quiénes Somos | Mac Consultores Jurídicos & Asociados',
+    description: 'Conozca nuestra trayectoria y equipo.',
+    url: 'https://mac-consultores-site-clean.vercel.app/es/quienes-somos',
+    siteName: 'Mac Consultores Jurídicos & Asociados',
+    images: [
+      {
+        url: 'https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+      },
+    ],
+    locale: 'es_VE',
+    type: 'website',
+  },
 };
 
 export default async function QuienesSomos({ params }: { params: Promise<{ locale: string }> }) {
