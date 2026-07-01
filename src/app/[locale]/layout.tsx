@@ -32,7 +32,7 @@ export default async function RootLayout({
       <body className="page-firma">
         <Navbar dict={dict.nav} locale={locale} />
         {children}
-        <Footer dict={dict.footer} locale={locale} />
+        <Footer dict={dict} locale={locale} />
       </body>
     </html>
   );
