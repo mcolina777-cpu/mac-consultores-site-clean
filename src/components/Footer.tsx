@@ -60,7 +60,11 @@ export default function Footer({ dict, locale }: { dict: any, locale: string }) 
             <ul className="footer-links">
               <li>{dict?.location || 'Caracas, Venezuela'}</li>
               <li><a href="mailto:infomacconsul@gmail.com">infomacconsul@gmail.com</a></li>
-              <li><Link href={`/${locale}/contacto`} className="footer-cta">{dict?.cta || 'AGENDAR CITA →'}</Link></li>
+              <li>
+                <Link href={`/${locale}/contacto`} className="footer-cta">
+                  {dict?.cta?.btn || 'AGENDAR CITA →'}
+                </Link>
+              </li>
             </ul>
             <img
               src="/assets/mac/mac-icon-192.png"
