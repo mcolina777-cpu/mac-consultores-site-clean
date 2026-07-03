@@ -210,3 +210,4 @@ export default function Footer({
     </footer>
   );
 }
+// Vercel deployment trigger

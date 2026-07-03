@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '@/components/Hero';
+import InsightDelDia from '@/components/InsightDelDia';
 import Link from 'next/link';
 import { getDictionary } from '@/i18n/getDictionary';
 
@@ -15,19 +16,7 @@ export default async function Home({ params }: Props) {
     <main>
       <Hero dict={dict.hero} locale={locale} />
 
-      <section className="daily-insight">
-        <div className="container">
-          <div className="daily-insight-inner">
-            <span className="section-tag daily-insight-tag">Insight Jurídico del Día</span>
-            <h2 className="daily-insight-concept is-loaded" id="daily-insight-concept">
-              Prevención Estratégica
-            </h2>
-            <p className="daily-insight-definition is-loaded" id="daily-insight-definition">
-              La anticipación y el blindaje corporativo previenen el 80% de las contingencias penales económicas.
-            </p>
-          </div>
-        </div>
-      </section>
+      <InsightDelDia dict={dict} />
 
       <section className="bg-soft">
         <div className="container">
