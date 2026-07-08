@@ -72,14 +72,14 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
               <h3 >{dict?.services?.card_1?.title}</h3>
               <p >{dict?.services?.card_1?.desc}</p>
               <ul className="service-list"  dangerouslySetInnerHTML={{ __html: dict?.services?.card_1?.list }}></ul>
-              <Link href={getRoute(locale, "servicesPenal")} className="card-link" >{dict?.services?.card_1?.link}</Link>
+              <Link href={getRoute(locale, "services.penal")} className="card-link" >{dict?.services?.card_1?.link}</Link>
             </div>
             <div className="card">
               <span className="section-tag">02</span>
               <h3 >{dict?.services?.card_2?.title}</h3>
               <p >{dict?.services?.card_2?.desc}</p>
               <ul className="service-list"  dangerouslySetInnerHTML={{ __html: dict?.services?.card_2?.list }}></ul>
-              <Link href={getRoute(locale, "servicesConstitucional")} className="card-link" >{dict?.services?.card_2?.link}</Link>
+              <Link href={getRoute(locale, "services.constitucional")} className="card-link" >{dict?.services?.card_2?.link}</Link>
             </div>
             <div className="card">
               <span className="section-tag">03</span>

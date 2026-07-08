@@ -132,7 +132,7 @@ export default async function Home({ params }: Props) {
             <div className="card">
               <h3>{dict?.specialties?.card_3?.title}</h3>
               <p>{dict?.specialties?.card_3?.desc}</p>
-              <Link href={getRoute(locale, "consularServices")} style={{ marginTop: 'auto', color: 'var(--accent)', fontWeight: 600, fontSize: '0.8rem', letterSpacing: '1px' }}>
+              <Link href={getRoute(locale, "services.consular")} style={{ marginTop: 'auto', color: 'var(--accent)', fontWeight: 600, fontSize: '0.8rem', letterSpacing: '1px' }}>
                 <span>{dict?.specialties?.details_link}</span>
               </Link>
             </div>

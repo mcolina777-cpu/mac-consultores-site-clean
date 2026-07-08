@@ -44,8 +44,8 @@ export default function Navbar({ dict, locale }: { dict: any, locale: string }) 
           <li><Link href={getRoute(locale, "home")}>{dict?.inicio || 'Inicio'}</Link></li>
           <li><Link href={getRoute(locale, "about")}>{dict?.firma || 'Firma'}</Link></li>
           <li><Link href={getRoute(locale, "services")}>{dict?.servicios || 'Servicios'}</Link></li>
-          <li><Link href={getRoute(locale, "consularServices")}>{dict?.internacional || 'Internacional'}</Link></li>
-          <li><Link href={getRoute(locale, "internationalCooperation")}>{dict?.alianzas || 'Alianzas'}</Link></li>
+          <li><Link href={getRoute(locale, "services.consular")}>{dict?.internacional || 'Internacional'}</Link></li>
+          <li><Link href={getRoute(locale, "services.international_cooperation")}>{dict?.alianzas || 'Alianzas'}</Link></li>
           <li><Link href={getRoute(locale, "contact")}>{dict?.contacto || 'Contacto'}</Link></li>
           
           <li className="lang-selector" style={{ display: 'flex', alignItems: 'center' }}>

@@ -133,22 +133,22 @@ export default function Footer({
             <h4 className="footer-title">{servicesTitle}</h4>
             <ul className="footer-links">
               <li>
-                <Link href={getRoute(locale, "servicesPenal")}>
+                <Link href={getRoute(locale, "services.penal")}>
                   {penalLabel}
                 </Link>
               </li>
               <li>
-                <Link href={getRoute(locale, "servicesConstitucional")}>
+                <Link href={getRoute(locale, "services.constitucional")}>
                   {constitucionalLabel}
                 </Link>
               </li>
               <li>
-                <Link href={getRoute(locale, "consularServices")}>
+                <Link href={getRoute(locale, "services.consular")}>
                   {consularLabel}
                 </Link>
               </li>
               <li>
-                <Link href={getRoute(locale, "internationalCooperation")}>
+                <Link href={getRoute(locale, "services.international_cooperation")}>
                   {colaboracionLabel}
                 </Link>
               </li>
