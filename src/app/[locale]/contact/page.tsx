@@ -5,10 +5,48 @@ import { getDictionary } from "@/i18n/getDictionary";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict: any = await getDictionary(locale);
+  const isEs = locale === 'es';
+  const title = dict?.seo?.contacto?.title || (isEs ? 'Contacto | Mac Consultores Jurídicos & Asociados' : 'Contact | Mac Consultores Jurídicos & Asociados');
+  const description = dict?.seo?.contacto?.description || (isEs 
+    ? 'Contáctenos para una consulta profesional de alta complejidad.' 
+    : 'Contact us for a highly complex professional consultation.');
+  
+  const url = `https://mac-consultores-site-clean.vercel.app/${locale}/contact`;
+  const esUrl = `https://mac-consultores-site-clean.vercel.app/es/contact`;
+  const enUrl = `https://mac-consultores-site-clean.vercel.app/en/contact`;
   
   return {
-    title: dict?.seo?.contacto?.title || 'Contacto | Mac Consultores Jurídicos & Asociados',
-    description: dict?.seo?.contacto?.description || 'Contáctenos para una consulta profesional de alta complejidad.',
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: {
+        'es': esUrl,
+        'en': enUrl,
+      },
+    },
+    openGraph: {
+      title: dict?.seo?.contacto?.og_title || title,
+      description: dict?.seo?.contacto?.og_description || description,
+      url,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: '/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: dict?.seo?.contacto?.og_title || title,
+      description: dict?.seo?.contacto?.og_description || description,
+      images: ['/assets/img/logo-mac-og.jpg'],
+    },
   };
 }
 
@@ -27,30 +65,91 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
 
       <section>
         <div className="container">
-          <div className="grid-2" style={{ alignItems: 'start' }}>
+          <div className="grid-2" style={{ alignItems: 'start', gap: '4rem' }}>
             <div className="contact-info">
               <span className="section-tag" >{dict?.contacto?.info?.tag || "Atención Estratégica"}</span>
-              <h2 className="section-title" >{dict?.contacto?.info?.title || "Atendemos consultas presenciales y virtuales con estricta confidencialidad."}</h2>
+              <h2 className="section-title" style={{ marginBottom: '2rem' }} >{dict?.contacto?.info?.title || "Atendemos consultas presenciales y virtuales con estricta confidencialidad."}</h2>
               <p >{dict?.contacto?.info?.desc || "Debido a la naturaleza sensible de nuestros casos, operamos bajo un protocolo de admisión estricto. Complete el formulario detallado o contáctenos por nuestros canales directos para evaluar su requerimiento."}</p>
               
-              <div className="contact-list">
-                <div className="contact-item">
+              <div className="contact-list" style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+                <div className="contact-item" style={{ marginBottom: 0 }}>
                   <h4 className="contact-subtitle" >{dict?.contacto?.info?.hq || "Sede Principal"}</h4>
-                  <p >{dict?.footer?.location || "Caracas, Venezuela"}</p>
+                  <p style={{ marginBottom: 0 }} >{dict?.footer?.location || "Caracas, Venezuela"}</p>
                 </div>
-                <div className="contact-item">
+                <div className="contact-item" style={{ marginBottom: 0 }}>
                   <h4 className="contact-subtitle" >{dict?.contacto?.info?.email || "Correo Electrónico"}</h4>
-                  <p><a href="mailto:infomacconsul@gmail.com" style={{ color: 'var(--accent)', fontWeight: 'bold' }}>infomacconsul@gmail.com</a></p>
+                  <p style={{ marginBottom: 0 }}><a href="mailto:infomacconsul@gmail.com" style={{ color: 'var(--accent)', fontWeight: 'bold' }}>infomacconsul@gmail.com</a></p>
                 </div>
-                <div className="contact-item">
+                <div className="contact-item" style={{ marginBottom: 0 }}>
                   <h4 className="contact-subtitle" >{dict?.contacto?.info?.hours || "Horario de Atención"}</h4>
-                  <p >{dict?.contacto?.info?.hours_val || "Lunes a Viernes: 8:00 AM - 5:00 PM"}</p>
+                  <p style={{ marginBottom: 0 }} >{dict?.contacto?.info?.hours_val || "Lunes a Viernes: 8:00 AM - 5:00 PM"}</p>
                 </div>
               </div>
+
+              <div className="alt-channels" style={{ marginTop: '3rem' }}>
+                <h4 className="contact-subtitle" style={{ marginBottom: '1.5rem', borderBottom: '1px solid rgba(0, 56, 101, 0.1)', paddingBottom: '0.5rem', display: 'inline-block' }} >
+                  {dict?.contacto?.alt_channels?.title || "Canales Alternativos"}
+                </h4>
+                
+                <div className="channels-grid" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1rem' }}>
+                  <a href="tel:+584241950908" className="channel-card">
+                    <span className="channel-icon">📞</span>
+                    <div className="channel-text">
+                      <span className="channel-label">{dict?.contacto?.alt_channels?.mobile1 || "Móvil"}</span>
+                      <span className="channel-value">+58 424-195-09-08</span>
+                    </div>
+                  </a>
+                  
+                  <a href="tel:+582124142324" className="channel-card">
+                    <span className="channel-icon">☎️</span>
+                    <div className="channel-text">
+                      <span className="channel-label">{dict?.contacto?.alt_channels?.landline || "Línea fija"}</span>
+                      <span className="channel-value">+58 212-414-23-24</span>
+                    </div>
+                  </a>
+                  
+                  <a href="https://meet.google.com/npx-yhyh-cxy" target="_blank" rel="noopener noreferrer" className="channel-card">
+                    <span className="channel-icon">💻</span>
+                    <div className="channel-text">
+                      <span className="channel-label">{dict?.contacto?.alt_channels?.meet || "Reunión virtual"}</span>
+                      <span className="channel-value">Google Meet (Previa cita)</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div className="social-channels" style={{ marginTop: '3rem' }}>
+                <h4 className="contact-subtitle" style={{ marginBottom: '1.5rem', borderBottom: '1px solid rgba(0, 56, 101, 0.1)', paddingBottom: '0.5rem', display: 'inline-block' }} >
+                  {dict?.contacto?.alt_channels?.socials || "Redes Sociales Institucionales"}
+                </h4>
+                
+                <div className="social-cards" style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
+                  <a href="https://www.linkedin.com/in/mac-consultores-jurídicos-b00473277?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" className="social-brand-card">
+                    <div className="brand-avatar">
+                      <img src="/assets/img/logo-mac-nuevo.jpeg" alt="Mac Consultores Jurídicos Logo" />
+                    </div>
+                    <div className="brand-text">
+                      <span className="brand-name">LinkedIn</span>
+                      <span className="brand-handle">Perfil Oficial</span>
+                    </div>
+                  </a>
+
+                  <a href="https://x.com/MacConsultoresV" target="_blank" rel="noopener noreferrer" className="social-brand-card">
+                    <div className="brand-avatar">
+                      <img src="/assets/img/logo-mac-nuevo.jpeg" alt="Mac Consultores Jurídicos Logo" />
+                    </div>
+                    <div className="brand-text">
+                      <span className="brand-name">X (Twitter)</span>
+                      <span className="brand-handle">@MacConsultoresV</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
             </div>
 
             <div className="form-column">
-              <div className="form-card">
+              <div className="form-card" style={{ position: 'sticky', top: '120px' }}>
                 <h3 className="serif" style={{ color: 'var(--primary)', fontSize: '1.8rem', marginBottom: '1.5rem' }} >{dict?.contacto?.form?.title || "Formulario de Admisión Legal"}</h3>
                 
                 <form action="https://formsubmit.co/infomacconsul@gmail.com" method="POST">
@@ -58,7 +157,7 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                   <input type="hidden" name="_captcha" value="false" />
                   <input type="hidden" name="_subject" value="Nueva solicitud de admisión web" />
 
-                  <div className="grid-2" style={{ marginBottom: '1rem', gap: '20px' }}>
+                  <div className="grid-2 form-grid-mobile" style={{ marginBottom: '1rem', gap: '20px' }}>
                     <div className="form-group">
                       <label  style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 600 }}>{dict?.contacto?.form?.label_name || "Nombre completo o Razón Social *"}</label>
                       <input type="text" name="nombre" placeholder={dict?.contacto?.form?.placeholder_name || "Ej. Juan Pérez"} required style={{ width: '100%', padding: '0.8rem', border: '1px solid #ccc', borderRadius: '4px' }} />
@@ -106,49 +205,6 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                   
                   <p style={{ marginTop: '1rem', fontSize: '0.8rem', textAlign: 'center', color: '#666' }} >{dict?.contacto?.form?.hint_2 || "Al enviar este formulario, usted acepta nuestra política de reserva profesional y confidencialidad."}</p>
                 </form>
-              </div>
-
-              <div className="contact-list" style={{ marginTop: '3rem' }}>
-                <h4 className="contact-subtitle" style={{ marginBottom: '1.5rem', borderBottom: '1px solid #eee', paddingBottom: '0.5rem' }} >{dict?.contacto?.alt_channels?.title || "Canales Alternativos"}</h4>
-                <ul style={{ listStyle: 'none', padding: 0 }}>
-                  <li style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <span style={{ fontSize: '1.5rem', minWidth: '32px', textAlign: 'center' }}>📱</span>
-                    <div>
-                      <strong style={{ display: 'block', marginBottom: '0.2rem' }}>{dict?.contacto?.alt_channels?.mobile1 || "Móvil 1"}</strong>
-                      <a href="tel:+584241950908" style={{ fontStyle: 'normal', display: 'inline-block', padding: '0.2rem 0', textDecoration: 'none' }}>+58 424-195-09-08</a>
-                    </div>
-                  </li>
-                  <li style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <span style={{ fontSize: '1.5rem', minWidth: '32px', textAlign: 'center' }}>📱</span>
-                    <div>
-                      <strong style={{ display: 'block', marginBottom: '0.2rem' }}>{dict?.contacto?.alt_channels?.mobile2 || "Móvil 2"}</strong>
-                      <a href="tel:+584241376497" style={{ fontStyle: 'normal', display: 'inline-block', padding: '0.2rem 0', textDecoration: 'none' }}>+58 424-137-64-97</a>
-                    </div>
-                  </li>
-                  <li style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <span style={{ fontSize: '1.5rem', minWidth: '32px', textAlign: 'center' }}>☎️</span>
-                    <div>
-                      <strong style={{ display: 'block', marginBottom: '0.2rem' }}>{dict?.contacto?.alt_channels?.landline || "Línea fija"}</strong>
-                      <a href="tel:+582124142324" style={{ fontStyle: 'normal', display: 'inline-block', padding: '0.2rem 0', textDecoration: 'none' }}>+58 212-414-23-24</a>
-                    </div>
-                  </li>
-                  <li style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <span style={{ fontSize: '1.5rem', minWidth: '32px', textAlign: 'center' }}>💻</span>
-                    <div>
-                      <strong style={{ display: 'block', marginBottom: '0.2rem' }}>{dict?.contacto?.alt_channels?.meet || "Reunión virtual"}</strong>
-                      <a href="https://meet.google.com/npx-yhyh-cxy" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', fontStyle: 'normal', display: 'inline-block', padding: '0.2rem 0', textDecoration: 'none' }}>Google Meet (Previa cita)</a>
-                    </div>
-                  </li>
-                  <li style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minWidth: '32px' }}>
-                      <img src="/assets/mac/apple-touch-icon.png" alt="Logo" style={{ width: '28px', height: '28px', borderRadius: '4px', objectFit: 'cover' }} />
-                    </span>
-                    <div>
-                      <strong style={{ display: 'block', marginBottom: '0.2rem' }}>{dict?.contacto?.alt_channels?.twitter || "Twitter (X)"}</strong>
-                      <a href="https://x.com/MacConsultoresV" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', fontStyle: 'normal', display: 'inline-block', padding: '0.2rem 0', textDecoration: 'none' }}>@MacConsultoresV</a>
-                    </div>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>

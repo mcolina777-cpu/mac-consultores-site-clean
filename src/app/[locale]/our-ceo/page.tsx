@@ -10,12 +10,24 @@ export async function generateMetadata({ params }: Props) {
   const dict: any = await getDictionary(locale);
   const isEs = locale === 'es';
   const title = dict?.seo?.nuestro_ceo?.title || (isEs ? 'Nuestro CEO | Mac Consultores Jurídicos & Asociados' : 'Our CEO | Mac Consultores Jurídicos & Asociados');
-  const description = isEs ? 'Conoce a nuestro CEO, Marco A. Colina G.' : 'Meet our CEO, Marco A. Colina G.';
+  const description = isEs 
+    ? 'Conoce a nuestro CEO, Marco A. Colina G., con más de 20 años de ejercicio en el foro penal y constitucional venezolano.' 
+    : 'Meet our CEO, Marco A. Colina G., with over 20 years of practice in the Venezuelan criminal and constitutional forum.';
+  
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/our-ceo`;
+  const esUrl = `https://mac-consultores-site-clean.vercel.app/es/our-ceo`;
+  const enUrl = `https://mac-consultores-site-clean.vercel.app/en/our-ceo`;
 
   return {
     title,
     description,
+    alternates: {
+      canonical: url,
+      languages: {
+        'es': esUrl,
+        'en': enUrl,
+      },
+    },
     openGraph: {
       title,
       description,
@@ -23,7 +35,7 @@ export async function generateMetadata({ params }: Props) {
       siteName: 'Mac Consultores Jurídicos & Asociados',
       images: [
         {
-          url: 'https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg',
+          url: '/assets/img/logo-mac-og.jpg',
           width: 1200,
           height: 630,
           alt: 'Logo de Mac Consultores Jurídicos & Asociados',
@@ -36,7 +48,7 @@ export async function generateMetadata({ params }: Props) {
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg'],
+      images: ['/assets/img/logo-mac-og.jpg'],
     },
   };
 }

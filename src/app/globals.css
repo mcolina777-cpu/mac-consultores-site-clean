@@ -1338,3 +1338,124 @@ nav .nav-links a {
     }
 }
 
+/* Modern Contact Section (2026) */
+.channel-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.2rem;
+    background: var(--bg-white);
+    border: 1px solid rgba(0, 56, 101, 0.08);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.channel-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 56, 101, 0.06);
+    border-color: var(--accent);
+}
+
+.channel-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--primary);
+    background: var(--bg-soft);
+    padding: 0.8rem;
+    border-radius: 50%;
+}
+
+.channel-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.channel-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.2rem;
+}
+
+.channel-value {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--primary);
+    font-family: 'Inter', sans-serif;
+}
+
+/* Social Brand Cards (New Logo Integration) */
+.social-brand-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem 1.2rem;
+    background: var(--bg-soft);
+    border: 1px solid rgba(0, 56, 101, 0.05);
+    border-radius: 50px; /* Pill shape for premium feel */
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-brand-card:hover {
+    background: var(--bg-white);
+    box-shadow: 0 6px 15px rgba(0, 56, 101, 0.08);
+    border-color: var(--accent);
+}
+
+.brand-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 1.2;
+}
+
+.brand-handle {
+    font-size: 0.8rem;
+    color: var(--accent);
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .page-contacto .grid-2 {
+        grid-template-columns: 1fr;
+        gap: 2rem !important;
+    }
+    
+    .form-card {
+        position: static !important;
+    }
+    
+    .social-cards {
+        flex-direction: column;
+    }
+}

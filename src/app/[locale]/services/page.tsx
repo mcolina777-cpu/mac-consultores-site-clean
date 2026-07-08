@@ -6,13 +6,25 @@ import { getRoute } from "@/lib/routes";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isEs = locale === 'es';
-  const title = isEs ? 'Servicios | Mac Consultores Jurídicos & Asociados' : 'Services | Mac Consultores Jurídicos & Asociados';
-  const description = isEs ? 'Nuestras áreas de práctica estratégica.' : 'Our strategic practice areas.';
+  const title = isEs ? 'Áreas de Práctica y Servicios | Mac Consultores' : 'Practice Areas and Services | Mac Consultores';
+  const description = isEs 
+    ? 'Nuestros servicios legales incluyen: Derecho Penal, Constitucional, Compliance Corporativo, Extradiciones, y consultoría para particulares y corporaciones.' 
+    : 'Our legal services include: Criminal Law, Constitutional Law, Corporate Compliance, Extraditions, and consulting for individuals and corporations.';
+  
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services`;
+  const esUrl = `https://mac-consultores-site-clean.vercel.app/es/services`;
+  const enUrl = `https://mac-consultores-site-clean.vercel.app/en/services`;
 
   return {
     title,
     description,
+    alternates: {
+      canonical: url,
+      languages: {
+        'es': esUrl,
+        'en': enUrl,
+      },
+    },
     openGraph: {
       title,
       description,
@@ -20,7 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       siteName: 'Mac Consultores Jurídicos & Asociados',
       images: [
         {
-          url: 'https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg',
+          url: '/assets/img/logo-mac-og.jpg',
           width: 1200,
           height: 630,
           alt: 'Logo de Mac Consultores Jurídicos & Asociados',
@@ -33,7 +45,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg'],
+      images: ['/assets/img/logo-mac-og.jpg'],
     },
   };
 }

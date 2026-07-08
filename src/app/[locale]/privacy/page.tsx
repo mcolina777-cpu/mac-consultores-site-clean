@@ -4,10 +4,48 @@ import { getDictionary } from "@/i18n/getDictionary";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict: any = await getDictionary(locale);
+  const isEs = locale === 'es';
+  const title = dict?.seo?.privacidad?.title || (isEs ? 'Política de Privacidad | Mac Consultores Jurídicos & Asociados' : 'Privacy Policy | Mac Consultores Jurídicos & Asociados');
+  const description = dict?.seo?.privacidad?.description || (isEs 
+    ? 'Política de privacidad y protección de datos personales de Mac Consultores Jurídicos & Asociados.' 
+    : 'Privacy policy and personal data protection of Mac Consultores Jurídicos & Asociados.');
+  
+  const url = `https://mac-consultores-site-clean.vercel.app/${locale}/privacy`;
+  const esUrl = `https://mac-consultores-site-clean.vercel.app/es/privacy`;
+  const enUrl = `https://mac-consultores-site-clean.vercel.app/en/privacy`;
   
   return {
-    title: dict?.seo?.privacidad?.title || 'Política de Privacidad | Mac Consultores Jurídicos & Asociados',
-    description: dict?.seo?.privacidad?.description || 'Política de privacidad y protección de datos personales.',
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: {
+        'es': esUrl,
+        'en': enUrl,
+      },
+    },
+    openGraph: {
+      title: dict?.seo?.privacidad?.og_title || title,
+      description: dict?.seo?.privacidad?.og_description || description,
+      url,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: '/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: dict?.seo?.privacidad?.og_title || title,
+      description: dict?.seo?.privacidad?.og_description || description,
+      images: ['/assets/img/logo-mac-og.jpg'],
+    },
   };
 }
 

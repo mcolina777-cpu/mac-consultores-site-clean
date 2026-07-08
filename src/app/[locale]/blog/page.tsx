@@ -9,8 +9,48 @@ type Props = {
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  const isEs = locale === 'es';
+  const title = dict?.seo?.blog?.title || (isEs ? 'Blog Jurídico | Mac Consultores' : 'Legal Blog | Mac Consultores');
+  const description = dict?.seo?.blog?.description || (isEs 
+    ? 'Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad.' 
+    : 'Boutique law firm in Caracas specializing in highly complex criminal law, constitutional law, and international consulting.');
+  
+  const url = `https://mac-consultores-site-clean.vercel.app/${locale}/blog`;
+  const esUrl = `https://mac-consultores-site-clean.vercel.app/es/blog`;
+  const enUrl = `https://mac-consultores-site-clean.vercel.app/en/blog`;
+
   return {
-    title: dict?.seo?.blog?.title,
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: {
+        'es': esUrl,
+        'en': enUrl,
+      },
+    },
+    openGraph: {
+      title: dict?.seo?.blog?.og_title || title,
+      description: dict?.seo?.blog?.og_description || description,
+      url,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: '/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: dict?.seo?.blog?.og_title || title,
+      description: dict?.seo?.blog?.og_description || description,
+      images: ['/assets/img/logo-mac-og.jpg'],
+    },
   };
 }
 

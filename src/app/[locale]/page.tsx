@@ -8,13 +8,26 @@ import { getRoute } from '@/lib/routes';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isEs = locale === 'es';
-  const title = isEs ? 'Mac Consultores Jurídicos & Asociados' : 'Mac Consultores Jurídicos & Asociados';
-  const description = isEs ? 'Firma legal enfocada en resultados.' : 'Results-oriented law firm.';
+  
+  const title = isEs ? 'Mac Consultores Jurídicos & Asociados | Excelencia Legal' : 'Mac Consultores Jurídicos & Asociados | Legal Excellence';
+  const description = isEs 
+    ? 'Firma boutique en Caracas especializada en litigio penal de alta complejidad, derecho constitucional y compliance corporativo preventivo.'
+    : 'Boutique law firm in Caracas specializing in highly complex criminal litigation, constitutional law, and preventive corporate compliance.';
+  
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}`;
+  const esUrl = `https://mac-consultores-site-clean.vercel.app/es`;
+  const enUrl = `https://mac-consultores-site-clean.vercel.app/en`;
 
   return {
     title,
     description,
+    alternates: {
+      canonical: url,
+      languages: {
+        'es': esUrl,
+        'en': enUrl,
+      },
+    },
     openGraph: {
       title,
       description,
@@ -22,7 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       siteName: 'Mac Consultores Jurídicos & Asociados',
       images: [
         {
-          url: 'https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg',
+          url: '/assets/img/logo-mac-og.jpg',
           width: 1200,
           height: 630,
           alt: 'Logo de Mac Consultores Jurídicos & Asociados',
@@ -35,7 +48,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg'],
+      images: ['/assets/img/logo-mac-og.jpg'],
     },
   };
 }

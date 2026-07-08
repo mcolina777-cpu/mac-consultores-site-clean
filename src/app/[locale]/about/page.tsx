@@ -6,12 +6,24 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isEs = locale === 'es';
   const title = isEs ? 'Quiénes Somos | Mac Consultores Jurídicos & Asociados' : 'About Us | Mac Consultores Jurídicos & Asociados';
-  const description = isEs ? 'Conozca nuestra trayectoria y equipo.' : 'Learn about our trajectory and team.';
+  const description = isEs 
+    ? 'Conoce la historia, valores y el equipo de profesionales detrás de Mac Consultores Jurídicos & Asociados. Dedicados al ejercicio impecable del Derecho en Venezuela.' 
+    : 'Learn about the history, values, and the team of professionals behind Mac Consultores Jurídicos & Asociados. Dedicated to the impeccable practice of Law in Venezuela.';
+  
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/about`;
+  const esUrl = `https://mac-consultores-site-clean.vercel.app/es/about`;
+  const enUrl = `https://mac-consultores-site-clean.vercel.app/en/about`;
 
   return {
     title,
     description,
+    alternates: {
+      canonical: url,
+      languages: {
+        'es': esUrl,
+        'en': enUrl,
+      },
+    },
     openGraph: {
       title,
       description,
@@ -19,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       siteName: 'Mac Consultores Jurídicos & Asociados',
       images: [
         {
-          url: 'https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg',
+          url: '/assets/img/logo-mac-og.jpg',
           width: 1200,
           height: 630,
           alt: 'Logo de Mac Consultores Jurídicos & Asociados',
@@ -32,7 +44,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg'],
+      images: ['/assets/img/logo-mac-og.jpg'],
     },
   };
 }
