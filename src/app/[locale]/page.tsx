@@ -16,7 +16,7 @@ export default async function Home({ params }: Props) {
     <main>
       <Hero dict={dict.hero} locale={locale} />
 
-      <InsightDelDia dict={dict} />
+      <InsightDelDia locale={locale} />
 
       <section className="bg-soft">
         <div className="container">
