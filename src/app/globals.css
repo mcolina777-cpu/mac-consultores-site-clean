@@ -799,14 +799,7 @@ nav .nav-links a {
     letter-spacing: 1.5px;
 }
 
-/* Asegura que el enlace "Nuestro CEO" y "Blog Jurídico" usen el mismo estilo */
-nav .nav-links a[href*="nuestro-ceo"],
-nav .nav-links a[href*="blog"] {
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-}
+
 
 /* INSIGHT JURIDICO DEL DIA */
 .daily-insight {

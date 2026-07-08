@@ -2,39 +2,40 @@ import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from "@/i18n/getDictionary";
 
-export const metadata = {
-  title: 'Quiénes Somos | Mac Consultores Jurídicos & Asociados',
-  description: 'Conozca nuestra trayectoria y equipo.',
-  openGraph: {
-    title: 'Quiénes Somos | Mac Consultores Jurídicos & Asociados',
-    description: 'Conozca nuestra trayectoria y equipo.',
-    url: 'https://mac-consultores-site-clean.vercel.app/es/quienes-somos',
-    siteName: 'Mac Consultores Jurídicos & Asociados',
-    images: [
-      {
-        url: 'https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Logo de Mac Consultores Jurídicos & Asociados',
-      },
-    ],
-    locale: 'es_VE',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Quiénes Somos | Mac Consultores Jurídicos & Asociados',
-    description: 'Conozca nuestra trayectoria y equipo.',
-    images: [
-      {
-        url: 'https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Logo de Mac Consultores Jurídicos & Asociados',
-      },
-    ],
-  },
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const isEs = locale === 'es';
+  const title = isEs ? 'Quiénes Somos | Mac Consultores Jurídicos & Asociados' : 'About Us | Mac Consultores Jurídicos & Asociados';
+  const description = isEs ? 'Conozca nuestra trayectoria y equipo.' : 'Learn about our trajectory and team.';
+  const url = `https://mac-consultores-site-clean.vercel.app/${locale}/about`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: 'https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg'],
+    },
+  };
+}
 
 export default async function QuienesSomos({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

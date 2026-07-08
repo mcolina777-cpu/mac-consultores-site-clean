@@ -1,6 +1,7 @@
-"use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Link from "next/link";
+import LocalClock from "./LocalClock";
+import { getRoute } from "@/lib/routes";
 
 type FooterDict = {
   desc?: string;
@@ -36,24 +37,7 @@ export default function Footer({
   dict: FooterDict;
   locale: string;
 }) {
-  const [localTime, setLocalTime] = useState("--:--");
   const isEnglish = locale.toLowerCase().startsWith("en");
-
-  useEffect(() => {
-    const updateTime = () => {
-      const now = new Date();
-      const options: Intl.DateTimeFormatOptions = {
-        timeZone: "America/Caracas",
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: true,
-      };
-      setLocalTime(new Intl.DateTimeFormat("es-VE", options).format(now));
-    };
-    updateTime();
-    const intervalId = setInterval(updateTime, 60000);
-    return () => clearInterval(intervalId);
-  }, []);
 
   const navTitle = dict?.navtitle ?? (isEnglish ? "Navigation" : "Navegación");
   const servicesTitle =
@@ -120,43 +104,25 @@ export default function Footer({
             <h4 className="footer-title">{navTitle}</h4>
             <ul className="footer-links">
               <li>
-                <Link href={isEnglish ? "/en" : `/${locale}`}>
+                <Link href={getRoute(locale, "home")}>
                   {homeLabel}
                 </Link>
               </li>
               <li>
-                <Link
-                  href={
-                    isEnglish
-                      ? "/en/about-us"
-                      : `/${locale}/quienes-somos`
-                  }
-                >
+                <Link href={getRoute(locale, "about")}>
                   {aboutLabel}
                 </Link>
               </li>
               <li>
-                <Link
-                  href={
-                    isEnglish
-                      ? "/en/our-ceo"
-                      : `/${locale}/nuestro-ceo`
-                  }
-                >
+                <Link href={getRoute(locale, "ourCeo")}>
                   {ceoLabel}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/blog`}>{blogLabel}</Link>
+                <Link href={getRoute(locale, "blog")}>{blogLabel}</Link>
               </li>
               <li>
-                <Link
-                  href={
-                    isEnglish
-                      ? "/en/news"
-                      : `/${locale}/noticias`
-                  }
-                >
+                <Link href={getRoute(locale, "news")}>
                   {newsLabel}
                 </Link>
               </li>
@@ -167,22 +133,22 @@ export default function Footer({
             <h4 className="footer-title">{servicesTitle}</h4>
             <ul className="footer-links">
               <li>
-                <Link href={`/${locale}/servicios/penal`}>
+                <Link href={getRoute(locale, "servicesPenal")}>
                   {penalLabel}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/servicios/constitucional`}>
+                <Link href={getRoute(locale, "servicesConstitucional")}>
                   {constitucionalLabel}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/tramites-consulares`}>
+                <Link href={getRoute(locale, "consularServices")}>
                   {consularLabel}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/colaboracion-internacional`}>
+                <Link href={getRoute(locale, "internationalCooperation")}>
                   {colaboracionLabel}
                 </Link>
               </li>
@@ -199,7 +165,7 @@ export default function Footer({
                 </a>
               </li>
               <li>
-                <Link href={`/${locale}/contacto`} className="footer-cta">
+                <Link href={getRoute(locale, "contact")} className="footer-cta">
                   {ctaLabel}
                 </Link>
               </li>
@@ -224,22 +190,15 @@ export default function Footer({
               <span className="footer-localtime-label">
                 {localTimeLabel}:
               </span>
-              <span
-                id="local-clock"
-                className="footer-localtime-value"
-                suppressHydrationWarning
-              >
-                {localTime}
-              </span>
+              <LocalClock locale={locale} />
             </p>
           </div>
           <div className="footer-legal">
-            <Link href={`/${locale}/aviso-legal`}>{legalNoticeLabel}</Link>
-            <Link href={`/${locale}/privacidad`}>{privacyLabel}</Link>
+            <Link href={getRoute(locale, "legalNotice")}>{legalNoticeLabel}</Link>
+            <Link href={getRoute(locale, "privacy")}>{privacyLabel}</Link>
           </div>
         </div>
       </div>
     </footer>
   );
 }
-// Vercel deployment trigger

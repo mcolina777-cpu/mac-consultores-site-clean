@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import LogoSVG from './Logo';
+import { getRoute } from "@/lib/routes";
 
 export default function Navbar({ dict, locale }: { dict: any, locale: string }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -40,12 +41,12 @@ export default function Navbar({ dict, locale }: { dict: any, locale: string }) 
         </button>
 
         <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
-          <li><Link href={`/${locale}`}>{dict?.inicio || 'Inicio'}</Link></li>
-          <li><Link href={`/${locale}/quienes-somos`}>{dict?.firma || 'Firma'}</Link></li>
-          <li><Link href={`/${locale}/servicios`}>{dict?.servicios || 'Servicios'}</Link></li>
-          <li><Link href={`/${locale}/tramites-consulares`}>{dict?.internacional || 'Internacional'}</Link></li>
-          <li><Link href={`/${locale}/colaboracion-internacional`}>{dict?.alianzas || 'Alianzas'}</Link></li>
-          <li><Link href={`/${locale}/contacto`}>{dict?.contacto || 'Contacto'}</Link></li>
+          <li><Link href={getRoute(locale, "home")}>{dict?.inicio || 'Inicio'}</Link></li>
+          <li><Link href={getRoute(locale, "about")}>{dict?.firma || 'Firma'}</Link></li>
+          <li><Link href={getRoute(locale, "services")}>{dict?.servicios || 'Servicios'}</Link></li>
+          <li><Link href={getRoute(locale, "consularServices")}>{dict?.internacional || 'Internacional'}</Link></li>
+          <li><Link href={getRoute(locale, "internationalCooperation")}>{dict?.alianzas || 'Alianzas'}</Link></li>
+          <li><Link href={getRoute(locale, "contact")}>{dict?.contacto || 'Contacto'}</Link></li>
           
           <li className="lang-selector" style={{ display: 'flex', alignItems: 'center' }}>
             <Link 

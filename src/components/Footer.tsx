@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import LocalClock from "./LocalClock";
+import { getRoute } from "@/lib/routes";
 
 type FooterDict = {
   desc?: string;
@@ -103,43 +104,25 @@ export default function Footer({
             <h4 className="footer-title">{navTitle}</h4>
             <ul className="footer-links">
               <li>
-                <Link href={isEnglish ? "/en" : `/${locale}`}>
+                <Link href={getRoute(locale, "home")}>
                   {homeLabel}
                 </Link>
               </li>
               <li>
-                <Link
-                  href={
-                    isEnglish
-                      ? "/en/about-us"
-                      : `/${locale}/quienes-somos`
-                  }
-                >
+                <Link href={getRoute(locale, "about")}>
                   {aboutLabel}
                 </Link>
               </li>
               <li>
-                <Link
-                  href={
-                    isEnglish
-                      ? "/en/our-ceo"
-                      : `/${locale}/nuestro-ceo`
-                  }
-                >
+                <Link href={getRoute(locale, "ourCeo")}>
                   {ceoLabel}
                 </Link>
               </li>
               <li>
-                <Link href={isEnglish ? "/en/blog" : `/${locale}/blog`}>{blogLabel}</Link>
+                <Link href={getRoute(locale, "blog")}>{blogLabel}</Link>
               </li>
               <li>
-                <Link
-                  href={
-                    isEnglish
-                      ? "/en/news"
-                      : `/${locale}/noticias`
-                  }
-                >
+                <Link href={getRoute(locale, "news")}>
                   {newsLabel}
                 </Link>
               </li>
@@ -150,22 +133,22 @@ export default function Footer({
             <h4 className="footer-title">{servicesTitle}</h4>
             <ul className="footer-links">
               <li>
-                <Link href={isEnglish ? "/en/services/criminal-law" : `/${locale}/servicios/penal`}>
+                <Link href={getRoute(locale, "servicesPenal")}>
                   {penalLabel}
                 </Link>
               </li>
               <li>
-                <Link href={isEnglish ? "/en/services/constitutional-defense" : `/${locale}/servicios/constitucional`}>
+                <Link href={getRoute(locale, "servicesConstitucional")}>
                   {constitucionalLabel}
                 </Link>
               </li>
               <li>
-                <Link href={isEnglish ? "/en/consular-services" : `/${locale}/tramites-consulares`}>
+                <Link href={getRoute(locale, "consularServices")}>
                   {consularLabel}
                 </Link>
               </li>
               <li>
-                <Link href={isEnglish ? "/en/international-cooperation" : `/${locale}/colaboracion-internacional`}>
+                <Link href={getRoute(locale, "internationalCooperation")}>
                   {colaboracionLabel}
                 </Link>
               </li>
@@ -182,7 +165,7 @@ export default function Footer({
                 </a>
               </li>
               <li>
-                <Link href={`/${locale}/contacto`} className="footer-cta">
+                <Link href={getRoute(locale, "contact")} className="footer-cta">
                   {ctaLabel}
                 </Link>
               </li>
@@ -211,8 +194,8 @@ export default function Footer({
             </p>
           </div>
           <div className="footer-legal">
-            <Link href={`/${locale}/aviso-legal`}>{legalNoticeLabel}</Link>
-            <Link href={`/${locale}/privacidad`}>{privacyLabel}</Link>
+            <Link href={getRoute(locale, "legalNotice")}>{legalNoticeLabel}</Link>
+            <Link href={getRoute(locale, "privacy")}>{privacyLabel}</Link>
           </div>
         </div>
       </div>

@@ -3,7 +3,42 @@ import Hero from '@/components/Hero';
 import InsightDelDia from '@/components/InsightDelDia';
 import Link from 'next/link';
 import { getDictionary } from '@/i18n/getDictionary';
+import { getRoute } from '@/lib/routes';
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const isEs = locale === 'es';
+  const title = isEs ? 'Mac Consultores Jurídicos & Asociados' : 'Mac Consultores Jurídicos & Asociados';
+  const description = isEs ? 'Firma legal enfocada en resultados.' : 'Results-oriented law firm.';
+  const url = `https://mac-consultores-site-clean.vercel.app/${locale}`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: 'https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg'],
+    },
+  };
+}
 type Props = {
   params: Promise<{ locale: string }>
 };
@@ -32,7 +67,7 @@ export default async function Home({ params }: Props) {
               <h2 className="section-title">{dict?.about?.title}</h2>
               <p>{dict?.about?.desc_1}</p>
               <p>{dict?.about?.desc_2}</p>
-              <Link href={`/${locale}/quienes-somos`} className="btn btn-outline" style={{ marginTop: '1rem' }}>
+              <Link href={getRoute(locale, "about")} className="btn btn-outline" style={{ marginTop: '1rem' }}>
                 {dict?.about?.btn}
               </Link>
             </div>
@@ -83,21 +118,21 @@ export default async function Home({ params }: Props) {
             <div className="card">
               <h3>{dict?.specialties?.card_1?.title}</h3>
               <p>{dict?.specialties?.card_1?.desc}</p>
-              <Link href={`/${locale}/servicios`} style={{ marginTop: 'auto', color: 'var(--accent)', fontWeight: 600, fontSize: '0.8rem', letterSpacing: '1px' }}>
+              <Link href={getRoute(locale, "services")} style={{ marginTop: 'auto', color: 'var(--accent)', fontWeight: 600, fontSize: '0.8rem', letterSpacing: '1px' }}>
                 <span>{dict?.specialties?.details_link}</span>
               </Link>
             </div>
             <div className="card">
               <h3>{dict?.specialties?.card_2?.title}</h3>
               <p>{dict?.specialties?.card_2?.desc}</p>
-              <Link href={`/${locale}/servicios`} style={{ marginTop: 'auto', color: 'var(--accent)', fontWeight: 600, fontSize: '0.8rem', letterSpacing: '1px' }}>
+              <Link href={getRoute(locale, "services")} style={{ marginTop: 'auto', color: 'var(--accent)', fontWeight: 600, fontSize: '0.8rem', letterSpacing: '1px' }}>
                 <span>{dict?.specialties?.details_link}</span>
               </Link>
             </div>
             <div className="card">
               <h3>{dict?.specialties?.card_3?.title}</h3>
               <p>{dict?.specialties?.card_3?.desc}</p>
-              <Link href={`/${locale}/tramites-consulares`} style={{ marginTop: 'auto', color: 'var(--accent)', fontWeight: 600, fontSize: '0.8rem', letterSpacing: '1px' }}>
+              <Link href={getRoute(locale, "consularServices")} style={{ marginTop: 'auto', color: 'var(--accent)', fontWeight: 600, fontSize: '0.8rem', letterSpacing: '1px' }}>
                 <span>{dict?.specialties?.details_link}</span>
               </Link>
             </div>
@@ -118,21 +153,21 @@ export default async function Home({ params }: Props) {
               <span className="section-tag">{dict?.home?.resources?.guide?.tag}</span>
               <h3>{dict?.home?.resources?.guide?.title}</h3>
               <p>{dict?.home?.resources?.guide?.desc}</p>
-              <Link href={`/${locale}/contacto`} className="news-link">{dict?.home?.resources?.guide?.cta}</Link>
+              <Link href={getRoute(locale, "contact")} className="news-link">{dict?.home?.resources?.guide?.cta}</Link>
             </article>
 
             <article className="card">
               <span className="section-tag">{dict?.home?.resources?.checklist?.tag}</span>
               <h3>{dict?.home?.resources?.checklist?.title}</h3>
               <p>{dict?.home?.resources?.checklist?.desc}</p>
-              <Link href={`/${locale}/contacto`} className="news-link">{dict?.home?.resources?.checklist?.cta}</Link>
+              <Link href={getRoute(locale, "contact")} className="news-link">{dict?.home?.resources?.checklist?.cta}</Link>
             </article>
 
             <article className="card">
               <span className="section-tag">{dict?.home?.resources?.template?.tag}</span>
               <h3>{dict?.home?.resources?.template?.title}</h3>
               <p>{dict?.home?.resources?.template?.desc}</p>
-              <Link href={`/${locale}/contacto`} className="news-link">{dict?.home?.resources?.template?.cta}</Link>
+              <Link href={getRoute(locale, "contact")} className="news-link">{dict?.home?.resources?.template?.cta}</Link>
             </article>
           </div>
         </div>
@@ -153,7 +188,7 @@ export default async function Home({ params }: Props) {
               </picture>
               <h3>{dict?.news?.card_1?.title}</h3>
               <p>{dict?.news?.card_1?.desc}</p>
-              <Link href={`/${locale}/noticias`} className="news-link"><span>{dict?.news?.read_more}</span></Link>
+              <Link href={getRoute(locale, "news")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
             </div>
             <div className="card">
               <picture>
@@ -162,7 +197,7 @@ export default async function Home({ params }: Props) {
               </picture>
               <h3>{dict?.news?.card_2?.title}</h3>
               <p>{dict?.news?.card_2?.desc}</p>
-              <Link href={`/${locale}/blog`} className="news-link"><span>{dict?.news?.read_more}</span></Link>
+              <Link href={getRoute(locale, "blog")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
             </div>
             <div className="card">
               <picture>
@@ -171,7 +206,7 @@ export default async function Home({ params }: Props) {
               </picture>
               <h3>{dict?.news?.card_3?.title}</h3>
               <p>{dict?.news?.card_3?.desc}</p>
-              <Link href={`/${locale}/noticias`} className="news-link"><span>{dict?.news?.read_more}</span></Link>
+              <Link href={getRoute(locale, "news")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
             </div>
           </div>
         </div>
