@@ -1,6 +1,6 @@
-"use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Link from "next/link";
+import LocalClock from "./LocalClock";
 
 type FooterDict = {
   desc?: string;
@@ -36,24 +36,7 @@ export default function Footer({
   dict: FooterDict;
   locale: string;
 }) {
-  const [localTime, setLocalTime] = useState("--:--");
   const isEnglish = locale.toLowerCase().startsWith("en");
-
-  useEffect(() => {
-    const updateTime = () => {
-      const now = new Date();
-      const options: Intl.DateTimeFormatOptions = {
-        timeZone: "America/Caracas",
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: true,
-      };
-      setLocalTime(new Intl.DateTimeFormat("es-VE", options).format(now));
-    };
-    updateTime();
-    const intervalId = setInterval(updateTime, 60000);
-    return () => clearInterval(intervalId);
-  }, []);
 
   const navTitle = dict?.navtitle ?? (isEnglish ? "Navigation" : "Navegación");
   const servicesTitle =
@@ -147,7 +130,7 @@ export default function Footer({
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/blog`}>{blogLabel}</Link>
+                <Link href={isEnglish ? "/en/blog" : `/${locale}/blog`}>{blogLabel}</Link>
               </li>
               <li>
                 <Link
@@ -167,22 +150,22 @@ export default function Footer({
             <h4 className="footer-title">{servicesTitle}</h4>
             <ul className="footer-links">
               <li>
-                <Link href={`/${locale}/servicios/penal`}>
+                <Link href={isEnglish ? "/en/services/criminal-law" : `/${locale}/servicios/penal`}>
                   {penalLabel}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/servicios/constitucional`}>
+                <Link href={isEnglish ? "/en/services/constitutional-defense" : `/${locale}/servicios/constitucional`}>
                   {constitucionalLabel}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/tramites-consulares`}>
+                <Link href={isEnglish ? "/en/consular-services" : `/${locale}/tramites-consulares`}>
                   {consularLabel}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/colaboracion-internacional`}>
+                <Link href={isEnglish ? "/en/international-cooperation" : `/${locale}/colaboracion-internacional`}>
                   {colaboracionLabel}
                 </Link>
               </li>
@@ -224,13 +207,7 @@ export default function Footer({
               <span className="footer-localtime-label">
                 {localTimeLabel}:
               </span>
-              <span
-                id="local-clock"
-                className="footer-localtime-value"
-                suppressHydrationWarning
-              >
-                {localTime}
-              </span>
+              <LocalClock locale={locale} />
             </p>
           </div>
           <div className="footer-legal">
@@ -242,4 +219,3 @@ export default function Footer({
     </footer>
   );
 }
-// Vercel deployment trigger
