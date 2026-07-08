@@ -2,10 +2,15 @@ import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from "@/i18n/getDictionary";
 
-export const metadata = {
-  title: 'Contacto | Mac Consultores Jurídicos & Asociados',
-  description: 'Contáctenos para una consulta profesional de alta complejidad.',
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const dict: any = await getDictionary(locale);
+  
+  return {
+    title: dict?.seo?.contacto?.title || 'Contacto | Mac Consultores Jurídicos & Asociados',
+    description: dict?.seo?.contacto?.description || 'Contáctenos para una consulta profesional de alta complejidad.',
+  };
+}
 
 export default async function Contacto({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

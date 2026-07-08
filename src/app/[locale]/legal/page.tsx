@@ -1,10 +1,15 @@
 import React from "react";
 import { getDictionary } from "@/i18n/getDictionary";
 
-export const metadata = {
-  title: "Aviso Legal | Mac Consultores Jurídicos & Asociados",
-  description: "Condiciones de uso y aviso legal del sitio web de Mac Consultores Jurídicos & Asociados.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const dict: any = await getDictionary(locale);
+  
+  return {
+    title: dict?.seo?.aviso_legal?.title || 'Aviso Legal | Mac Consultores Jurídicos & Asociados',
+    description: dict?.seo?.aviso_legal?.description || 'Condiciones de uso y aviso legal del sitio web de Mac Consultores Jurídicos & Asociados.',
+  };
+}
 
 export default async function AvisoLegal({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

@@ -2,10 +2,15 @@ import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from "@/i18n/getDictionary";
 
-export const metadata = {
-  title: 'Colaboración Internacional | Mac Consultores Jurídicos & Asociados',
-  description: 'Colaboración estratégica con firmas internacionales. Soporte local de excelencia en Venezuela.',
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const dict: any = await getDictionary(locale);
+  
+  return {
+    title: dict?.seo?.colaboracion_internacional?.title || 'Colaboración Internacional | Mac Consultores Jurídicos & Asociados',
+    description: dict?.seo?.colaboracion_internacional?.description || 'Colaboración estratégica con firmas internacionales. Soporte local de excelencia en Venezuela.',
+  };
+}
 
 export default async function ColaboracionInternacional({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

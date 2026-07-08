@@ -1,10 +1,15 @@
 import React from "react";
 import { getDictionary } from "@/i18n/getDictionary";
 
-export const metadata = {
-  title: "Política de Privacidad | Mac Consultores Jurídicos & Asociados",
-  description: "Política de privacidad y protección de datos personales.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const dict: any = await getDictionary(locale);
+  
+  return {
+    title: dict?.seo?.privacidad?.title || 'Política de Privacidad | Mac Consultores Jurídicos & Asociados',
+    description: dict?.seo?.privacidad?.description || 'Política de privacidad y protección de datos personales.',
+  };
+}
 
 export default async function Privacidad({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
