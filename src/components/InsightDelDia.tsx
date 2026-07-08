@@ -17,10 +17,7 @@ export default async function InsightDelDia({ locale = "es" }: InsightDelDiaProp
         <p className="daily-insight-definition is-loaded">
           {data.body || "Definition"}
         </p>
-        <p
-          className="daily-insight-definition is-loaded"
-          style={{ marginTop: "0.75rem", fontSize: "1.1rem", opacity: 0.9 }}
-        >
+        <p className="daily-insight-definition daily-insight-footer is-loaded">
           {data.footer || "Footer"}
         </p>
       </div>

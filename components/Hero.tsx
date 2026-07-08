@@ -13,7 +13,7 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
           <p>
             {dict?.desc || 'Defensa penal y constitucional diseñada a medida, con foco en la protección efectiva de derechos, patrimonio y reputación en entornos sensibles.'}
           </p>
-          <div className="hero-btns" style={{ marginTop: '2.5rem' }}>
+          <div className="hero-btns">
             <Link href={getRoute(locale, "contact")} className="btn btn-primary">
               {dict?.btn || 'Solicitar consulta privada'}
             </Link>
