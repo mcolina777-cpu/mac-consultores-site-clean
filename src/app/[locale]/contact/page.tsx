@@ -134,7 +134,7 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                     </div>
                   </a>
 
-                  <a href="https://x.com/MacConsultoresV" target="_blank" rel="noopener noreferrer" className="social-brand-card">
+                  <a href="https://x.com/MacConsultoresV" target="_blank" rel="noopener noreferrer" className="social-brand-card" aria-label="Perfil oficial en X (Twitter)">
                     <div className="brand-avatar">
                       <img src="/assets/img/logo-mac-nuevo.jpeg" alt="Mac Consultores Jurídicos Logo" />
                     </div>
