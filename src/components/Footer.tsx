@@ -55,8 +55,6 @@ export default function Footer({
     return () => clearInterval(intervalId);
   }, []);
 
-  // Fallbacks mínimos: si dict no trae algo, se usa un texto por defecto.
-  // La lógica de idioma principal debe vivir en dict, no en el componente.
   const navTitle = dict?.navtitle ?? (isEnglish ? "Navigation" : "Navegación");
   const servicesTitle =
     dict?.servicestitle ?? (isEnglish ? "Services" : "Servicios");
@@ -122,19 +120,45 @@ export default function Footer({
             <h4 className="footer-title">{navTitle}</h4>
             <ul className="footer-links">
               <li>
-                <Link href={`/${locale}`}>{homeLabel}</Link>
+                <Link href={isEnglish ? "/en" : `/${locale}`}>
+                  {homeLabel}
+                </Link>
               </li>
               <li>
-                <Link href={`/${locale}/quienes-somos`}>{aboutLabel}</Link>
+                <Link
+                  href={
+                    isEnglish
+                      ? "/en/about-us"
+                      : `/${locale}/quienes-somos`
+                  }
+                >
+                  {aboutLabel}
+                </Link>
               </li>
               <li>
-                <Link href={`/${locale}/nuestro-ceo`}>{ceoLabel}</Link>
+                <Link
+                  href={
+                    isEnglish
+                      ? "/en/our-ceo"
+                      : `/${locale}/nuestro-ceo`
+                  }
+                >
+                  {ceoLabel}
+                </Link>
               </li>
               <li>
                 <Link href={`/${locale}/blog`}>{blogLabel}</Link>
               </li>
               <li>
-                <Link href={`/${locale}/noticias`}>{newsLabel}</Link>
+                <Link
+                  href={
+                    isEnglish
+                      ? "/en/news"
+                      : `/${locale}/noticias`
+                  }
+                >
+                  {newsLabel}
+                </Link>
               </li>
             </ul>
           </div>
@@ -143,7 +167,9 @@ export default function Footer({
             <h4 className="footer-title">{servicesTitle}</h4>
             <ul className="footer-links">
               <li>
-                <Link href={`/${locale}/servicios/penal`}>{penalLabel}</Link>
+                <Link href={`/${locale}/servicios/penal`}>
+                  {penalLabel}
+                </Link>
               </li>
               <li>
                 <Link href={`/${locale}/servicios/constitucional`}>
@@ -194,9 +220,15 @@ export default function Footer({
             </p>
             <p className="footer-location">
               <span>{locationLabel}</span>
-              &middot;
-              <span>{localTimeLabel}</span>:
-              <span id="local-clock" suppressHydrationWarning>
+              <span className="footer-location-separator"> · </span>
+              <span className="footer-localtime-label">
+                {localTimeLabel}:
+              </span>
+              <span
+                id="local-clock"
+                className="footer-localtime-value"
+                suppressHydrationWarning
+              >
                 {localTime}
               </span>
             </p>
