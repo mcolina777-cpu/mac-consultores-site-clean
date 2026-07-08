@@ -1,45 +1,29 @@
 import React from "react";
+import { getDictionary } from "@/i18n/getDictionary";
 
 type InsightDelDiaProps = {
   locale?: string;
 };
 
-const InsightDelDia: React.FC<InsightDelDiaProps> = ({ locale = "es" }) => {
-  const isEnglish = locale.toLowerCase().startsWith("en");
-
-  const title = isEnglish
-    ? "Legal Insight of the Day"
-    : "INSIGHT JURÍDICO DEL DÍA";
-
-  const concept = isEnglish
-    ? "Corporate criminal liability"
-    : "Responsabilidad penal de las personas jurídicas";
-
-  const description = isEnglish
-    ? "In Venezuela, corporate criminal liability is built primarily on the actions of company organs and representatives, which demands effective compliance and prevention programs."
-    : "En Venezuela, la responsabilidad penal de las personas jurídicas se estructura principalmente a partir de la participación de sus órganos y representantes, lo que exige programas efectivos de cumplimiento y prevención.";
-
-  const updatedBy = isEnglish
-    ? "Updated daily by Mac Consultores Jurídicos & Asociados."
-    : "Actualizado diariamente por Mac Consultores Jurídicos & Asociados.";
+export default async function InsightDelDia({ locale = "es" }: InsightDelDiaProps) {
+  const dict: any = await getDictionary(locale);
+  const data = dict?.insight || {};
 
   return (
     <section className="daily-insight">
       <div className="daily-insight-inner">
-        <span className="daily-insight-tag">{title}</span>
-        <h2 className="daily-insight-concept is-loaded">{concept}</h2>
+        <span className="daily-insight-tag">{data.tag || "Insight"}</span>
+        <h2 className="daily-insight-concept is-loaded">{data.title || "Concept"}</h2>
         <p className="daily-insight-definition is-loaded">
-          {description}
+          {data.body || "Definition"}
         </p>
         <p
           className="daily-insight-definition is-loaded"
           style={{ marginTop: "0.75rem", fontSize: "1.1rem", opacity: 0.9 }}
         >
-          {updatedBy}
+          {data.footer || "Footer"}
         </p>
       </div>
     </section>
   );
-};
-
-export default InsightDelDia;
+}

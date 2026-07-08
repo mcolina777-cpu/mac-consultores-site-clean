@@ -4,29 +4,29 @@ import LocalClock from "./LocalClock";
 import { getRoute } from "@/lib/routes";
 
 type FooterDict = {
-  desc?: string;
-  navtitle?: string;
-  servicestitle?: string;
-  officestitle?: string;
-  location?: string;
-  copyright?: string;
-  localtime?: string;
-  legalnotice?: string;
-  privacy?: string;
   brand?: string;
+  footer?: {
+    desc?: string;
+    nav_title?: string;
+    services_title?: string;
+    offices_title?: string;
+    penal?: string;
+    constitucional?: string;
+    consular?: string;
+    colaboracion?: string;
+    location?: string;
+    cta?: string;
+    copyright?: string;
+    local_time?: string;
+    legal_notice?: string;
+    privacy?: string;
+  };
   nav?: {
     inicio?: string;
-    quienessomos?: string;
-    nuestroceo?: string;
+    quienes_somos?: string;
+    nuestro_ceo?: string;
     blog?: string;
     noticias?: string;
-  };
-  penal?: string;
-  constitucional?: string;
-  consular?: string;
-  colaboracion?: string;
-  cta?: {
-    btn?: string;
   };
 };
 
@@ -37,58 +37,34 @@ export default function Footer({
   dict: FooterDict;
   locale: string;
 }) {
-  const isEnglish = locale.toLowerCase().startsWith("en");
+  const f = dict?.footer || {};
+  const n = dict?.nav || {};
 
-  const navTitle = dict?.navtitle ?? (isEnglish ? "Navigation" : "Navegación");
-  const servicesTitle =
-    dict?.servicestitle ?? (isEnglish ? "Services" : "Servicios");
-  const officesTitle =
-    dict?.officestitle ?? (isEnglish ? "Offices" : "Oficinas");
+  const navTitle = f.nav_title || "Navegación";
+  const servicesTitle = f.services_title || "Servicios";
+  const officesTitle = f.offices_title || "Oficinas";
 
-  const homeLabel = dict?.nav?.inicio ?? (isEnglish ? "Home" : "Inicio");
-  const aboutLabel =
-    dict?.nav?.quienessomos ?? (isEnglish ? "About Us" : "Quiénes Somos");
-  const ceoLabel =
-    dict?.nav?.nuestroceo ?? (isEnglish ? "Our CEO" : "Nuestro CEO");
-  const blogLabel =
-    dict?.nav?.blog ?? (isEnglish ? "Legal Blog" : "Blog Jurídico");
-  const newsLabel = dict?.nav?.noticias ?? (isEnglish ? "News" : "Noticias");
+  const homeLabel = n.inicio || "Inicio";
+  const aboutLabel = n.quienes_somos || "Quiénes Somos";
+  const ceoLabel = n.nuestro_ceo || "Nuestro CEO";
+  const blogLabel = n.blog || "Blog Jurídico";
+  const newsLabel = n.noticias || "Noticias";
 
-  const penalLabel =
-    dict?.penal ?? (isEnglish ? "Criminal Law" : "Derecho Penal");
-  const constitucionalLabel =
-    dict?.constitucional ??
-    (isEnglish ? "Constitutional Defense" : "Defensa Constitucional");
-  const consularLabel =
-    dict?.consular ?? (isEnglish ? "Consular Services" : "Gestión Consular");
-  const colaboracionLabel =
-    dict?.colaboracion ??
-    (isEnglish ? "International Cooperation" : "Colaboración Internacional");
+  const penalLabel = f.penal || "Derecho Penal";
+  const constitucionalLabel = f.constitucional || "Defensa Constitucional";
+  const consularLabel = f.consular || "Gestión Consular";
+  const colaboracionLabel = f.colaboracion || "Colaboración Internacional";
 
-  const brandLabel =
-    dict?.brand ?? "MAC CONSULTORES JURÍDICOS & ASOCIADOS";
+  const brandLabel = dict?.brand || "MAC CONSULTORES JURÍDICOS & ASOCIADOS";
 
-  const descLabel =
-    dict?.desc ??
-    (isEnglish
-      ? "High‑complexity legal solutions focused on strategy, prevention, and comprehensive protection of our clients' interests."
-      : "Soluciones legales de alta complejidad con enfoque en la estrategia, la prevención y la protección integral de los intereses de nuestros clientes.");
+  const descLabel = f.desc || "Soluciones legales de alta complejidad con enfoque en la estrategia, la prevención y la protección integral de los intereses de nuestros clientes.";
 
-  const locationLabel = dict?.location ?? "Caracas, Venezuela";
-  const ctaLabel =
-    dict?.cta?.btn ??
-    (isEnglish ? "BOOK AN APPOINTMENT →" : "AGENDAR CITA →");
-  const legalNoticeLabel =
-    dict?.legalnotice ?? (isEnglish ? "Legal Notice" : "Aviso Legal");
-  const privacyLabel =
-    dict?.privacy ?? (isEnglish ? "Privacy Policy" : "Privacidad");
-  const localTimeLabel =
-    dict?.localtime ?? (isEnglish ? "Local time" : "Hora local");
-  const copyrightText =
-    dict?.copyright ??
-    (isEnglish
-      ? "Mac Consultores Jurídicos & Asociados. All rights reserved."
-      : "Mac Consultores Jurídicos & Asociados. Todos los derechos reservados.");
+  const locationLabel = f.location || "Caracas, Venezuela";
+  const ctaLabel = f.cta || "AGENDAR CITA →";
+  const legalNoticeLabel = f.legal_notice || "Aviso Legal";
+  const privacyLabel = f.privacy || "Privacidad";
+  const localTimeLabel = f.local_time || "Hora local";
+  const copyrightText = f.copyright || "Mac Consultores Jurídicos & Asociados. Todos los derechos reservados.";
 
   return (
     <footer className="footer">
@@ -172,7 +148,7 @@ export default function Footer({
             </ul>
             <img
               src="/assets/mac/mac-icon-192.png"
-              alt={isEnglish ? "Mac Consultores seal" : "Sello Mac Consultores"}
+              alt={brandLabel}
               className="footer-seal-img"
               loading="lazy"
             />

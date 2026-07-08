@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { getRoute } from "@/lib/routes";
 
 export default function Hero({ dict, locale }: { dict: any, locale: string }) {
   return (
@@ -13,7 +14,7 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
             {dict?.desc || 'Defensa penal y constitucional diseñada a medida, con foco en la protección efectiva de derechos, patrimonio y reputación en entornos sensibles.'}
           </p>
           <div className="hero-btns" style={{ marginTop: '2.5rem' }}>
-            <Link href={`/${locale}/contacto`} className="btn btn-primary">
+            <Link href={getRoute(locale, "contact")} className="btn btn-primary">
               {dict?.btn || 'Solicitar consulta privada'}
             </Link>
           </div>
