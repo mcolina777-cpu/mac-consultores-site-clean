@@ -1507,7 +1507,7 @@ nav .nav-links a {
 .quote-block { font-size: 1.5rem; font-style: italic; margin-top: 2rem; border-left: 4px solid var(--primary-color); padding-left: 1rem; }
 
 /* Contact/Form Specific */
-.contact-grid-start { align-items: start; gap: 4rem; }
+.contact-grid-start { align-items: stretch; gap: 4rem; }
 .contact-info-list { display: flex; flex-direction: column; gap: 1.5rem; }
 .contact-subtitle-border { border-bottom: 1px solid rgba(0, 56, 101, 0.1); padding-bottom: 0.5rem; display: inline-block; }
 .sticky-card { position: sticky; top: 120px; }
