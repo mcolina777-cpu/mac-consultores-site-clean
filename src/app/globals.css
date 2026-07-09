@@ -327,9 +327,9 @@ section {
 /* Grid Systems */
 .grid-split {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 2.5rem;
+    align-items: start;
 }
 
 .grid-2 {
@@ -594,16 +594,38 @@ footer, .footer {
 
 /* Utility Classes */
 .img-reveal {
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
+    background-color: #2a2a2a;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
 .img-reveal img {
     width: 100%;
     height: auto;
+    max-height: 480px;
     display: block;
     object-fit: cover;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.about-text .section-tag {
+    margin-bottom: 0;
+}
+
+.about-text .section-title {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.about-text p {
+    margin-bottom: 0;
 }
 
 .about-content {
@@ -989,6 +1011,10 @@ nav .nav-links a {
     .grid-split, .grid-2, .grid-3 { 
         grid-template-columns: 1fr; 
         gap: 24px; 
+    }
+
+    .img-reveal img {
+        max-height: 320px;
     }
 
     /* 2. HEADER / NAVBAR */
