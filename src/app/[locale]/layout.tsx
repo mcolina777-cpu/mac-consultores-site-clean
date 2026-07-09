@@ -3,6 +3,7 @@ import "../globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { getDictionary } from "@/i18n/getDictionary";
+import WhatsAppFloatButton from "@/components/WhatsAppFloatButton";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://mac-consultores-site-clean.vercel.app'),
@@ -38,6 +39,7 @@ export default async function RootLayout({
         <Navbar dict={dict.nav} locale={locale} />
         {children}
         <Footer dict={dict} locale={locale} />
+        <WhatsAppFloatButton />
       </body>
     </html>
   );
