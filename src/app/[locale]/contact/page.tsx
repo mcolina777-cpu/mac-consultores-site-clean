@@ -152,6 +152,10 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
               <div className="form-card sticky-card">
                 <h3 className="serif heading-md text-primary mb-1-5rem">{dict?.contacto?.form?.title}</h3>
                 
+                {dict?.contacto?.form?.admission_hint && (
+                  <p className="admission-hint text-sm mb-1-5rem" style={{ padding: '1rem', backgroundColor: 'rgba(0,0,0,0.03)', borderRadius: '4px', borderLeft: '3px solid var(--color-primary)', lineHeight: '1.5' }} dangerouslySetInnerHTML={{ __html: dict.contacto.form.admission_hint.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}></p>
+                )}
+                
                 <form action="https://formsubmit.co/infomacconsul@gmail.com" method="POST">
                   <input type="hidden" name="_next" value="https://mac-consultores.vercel.app/contacto" />
                   <input type="hidden" name="_captcha" value="false" />

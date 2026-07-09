@@ -45,6 +45,7 @@
       "hint_relation": "Communications sent through this form do not, by themselves, constitute an attorney-client relationship, nor do they imply acceptance of the matter by the firm.",
       "btn": "SUBMIT REQUEST FOR ADMISSION",
       "success": "Your request for admission has been registered. The firm will assess the information provided and, if applicable, contact you to coordinate a professional consultation subject to fees.",
+      "admission_hint": "This form constitutes the firm's **legal admission process**. Based on the information provided, the relevance of the case will be determined and, if applicable, the corresponding **private consultation** will be coordinated.",
       "title": "Legal Admission Form",
       "penal_opt3": "Ordinary Crimes (Others)",
       "reason_opt6": "Others"
@@ -112,7 +113,7 @@
     "consular": "Consular Services",
     "colaboracion": "International Cooperation",
     "location": "Caracas, Venezuela",
-    "cta": "SCHEDULE A MEETING →",
+    "cta": "ADMISSION AND CONSULTATION SCHEDULING",
     "copyright": "Mac Consultores Jurídicos & Asociados. All rights reserved.",
     "local_time": "Local time",
     "legal_notice": "Legal Notice",
@@ -325,7 +326,7 @@
   "cta": {
     "title": "Do you require a strategic assessment of your legal situation?",
     "desc": "Our team of experts is prepared to analyze your case with the technical rigor it deserves.",
-    "btn": "START PRIVATE CONSULTATION"
+    "btn": "START ADMISSION PROCESS"
   },
   "tramites_consulares": {
     "title": "Venezuelans Abroad | Mac Consultores Jurídicos & Asociados",
@@ -502,7 +503,8 @@
     "tag": "Rigor & Strategy",
     "h1": "Legal architecture for high-complexity cases.",
     "desc": "Tailored criminal and constitutional defense, focusing on the effective protection of rights, assets, and reputation in sensitive environments.",
-    "btn": "Request private consultation"
+    "btn": "START ADMISSION PROCESS",
+    "btn_hint": "Once the request is evaluated, our team will coordinate the corresponding private consultation."
   },
   "about": {
     "tag": "Our Firm",

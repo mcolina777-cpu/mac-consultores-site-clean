@@ -45,6 +45,7 @@
       "hint_relation": "Las comunicaciones remitidas a través de este formulario no constituyen, por sí mismas, relación abogado–cliente ni implican aceptación del asunto por parte de la firma.",
       "btn": "ENVIAR SOLICITUD DE ADMISIÓN",
       "success": "Su solicitud de admisión ha sido registrada. La firma valorará la información aportada y, de corresponder, se contactará con usted para coordinar una consulta profesional sujeta a honorarios.",
+      "admission_hint": "Este formulario constituye el **proceso de admisión legal** de la firma. Con base en la información suministrada se determinará la pertinencia del caso y, en caso de ser procedente, se coordinará la **consulta privada** correspondiente.",
       "title": "Formulario de Admisión Legal",
       "penal_opt3": "Delitos Ordinarios (Otros)",
       "reason_opt6": "Otros"
@@ -112,7 +113,7 @@
     "consular": "Gestión Consular",
     "colaboracion": "Colaboración Int.",
     "location": "Torre Financiera, Caracas",
-    "cta": "AGENDAR CITA →",
+    "cta": "ADMISIÓN Y AGENDA DE CONSULTAS",
     "copyright": "Mac Consultores Jurídicos & Asociados. Todos los derechos reservados.",
     "local_time": "Hora local",
     "legal_notice": "Aviso Legal",
@@ -325,7 +326,7 @@
   "cta": {
     "title": "¿Requiere una evaluación estratégica de su situación legal?",
     "desc": "Nuestro equipo de expertos está preparado para analizar su caso con el rigor técnico que merece.",
-    "btn": "INICIAR CONSULTA PRIVADA"
+    "btn": "INICIAR PROCESO DE ADMISIÓN"
   },
   "tramites_consulares": {
     "title": "Venezolanos en el Exterior | Mac Consultores Jurídicos & Asociados",
@@ -502,7 +503,8 @@
     "tag": "Rigor & Estrategia",
     "h1": "Arquitectura jurídica para casos de alta complejidad.",
     "desc": "Defensa penal y constitucional diseñada a medida, con foco en la protección efectiva de derechos, patrimonio y reputación en entornos sensibles.",
-    "btn": "Solicitar consulta privada"
+    "btn": "INICIAR PROCESO DE ADMISIÓN",
+    "btn_hint": "Una vez evaluada la solicitud, nuestro equipo coordinará la consulta privada correspondiente."
   },
   "about": {
     "tag": "Nuestra Firma",

@@ -17,6 +17,11 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
             <Link href={getRoute(locale, "contact")} className="btn btn-primary">
               {dict?.btn}
             </Link>
+            {dict?.btn_hint && (
+              <p className="hero-btn-hint mt-1rem text-sm" style={{ opacity: 0.8, fontSize: '0.85rem' }}>
+                {dict.btn_hint}
+              </p>
+            )}
           </div>
         </div>
       </div>
