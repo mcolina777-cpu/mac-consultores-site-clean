@@ -164,7 +164,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             <div className="vision-text">
               <h2 className="serif" style={{ fontSize: '2.2rem', marginBottom: '2rem', lineHeight: 1.1 }} >{dict?.quienes_somos?.mission?.quote}</h2>
               <p >{dict?.quienes_somos?.mission?.desc}</p>
-              <Link href={`/${locale}/nuestro-ceo`} className="btn btn-outline btn-director" >{dict?.quienes_somos?.mission?.btn}</Link>
+              <Link href={`/${locale}/our-ceo`} className="btn btn-outline btn-director" >{dict?.quienes_somos?.mission?.btn}</Link>
             </div>
           </div>
         </div>
