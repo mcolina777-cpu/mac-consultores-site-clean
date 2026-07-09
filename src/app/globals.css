@@ -1459,3 +1459,64 @@ nav .nav-links a {
         flex-direction: column;
     }
 }
+
+
+
+/* Refactored Inline Styles */
+.mt-1rem { margin-top: 1rem; }
+.mb-0 { margin-bottom: 0; }
+.mb-1rem { margin-bottom: 1rem; }
+.mb-1-5rem { margin-bottom: 1.5rem; }
+.mb-2rem { margin-bottom: 2rem; }
+.mb-2-5rem { margin-bottom: 2.5rem; }
+.mb-3rem { margin-bottom: 3rem; }
+.mb-4rem { margin-bottom: 4rem; }
+.mt-2rem { margin-top: 2rem; }
+.mt-3rem { margin-top: 3rem; }
+.mt-4rem { margin-top: 4rem; }
+.py-6rem { padding: 6rem 0; }
+.py-60px { padding: 60px 0; }
+.section-padding-asym { padding: 40px 0 80px 0; }
+.gap-1rem { gap: 1rem; }
+.gap-1-5rem { gap: 1.5rem; }
+.gap-20px { gap: 20px; }
+.w-100 { width: 100%; }
+.max-w-100 { max-width: 100%; }
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-center-y { display: flex; align-items: center; }
+.grid-1-col { display: grid; grid-template-columns: 1fr; }
+.no-underline { text-decoration: none; }
+.line-height-1-1 { line-height: 1.1; }
+
+/* Layout/Reading Utilities */
+.axial-centered { text-align: center; margin-bottom: 4rem; }
+.layout-reading { max-width: 800px; margin: 0 auto; line-height: 1.8; font-size: 1.1rem; color: #444; }
+.layout-narrow { max-width: 800px; margin: 0 auto; line-height: 1.8; }
+.header-soft-bg { text-align: left; padding: 120px 0 40px; background-color: var(--bg-soft); }
+
+/* Typography */
+.text-primary { color: var(--primary); }
+.text-accent { color: var(--accent); }
+.text-accent-bold { color: var(--accent); font-weight: bold; }
+.text-muted { color: var(--text-muted); }
+.heading-xl { font-size: 3rem; }
+.heading-lg { font-size: 2.2rem; }
+.heading-md { font-size: 1.8rem; }
+.quote-block { font-size: 1.5rem; font-style: italic; margin-top: 2rem; border-left: 4px solid var(--primary-color); padding-left: 1rem; }
+
+/* Contact/Form Specific */
+.contact-grid-start { align-items: start; gap: 4rem; }
+.contact-info-list { display: flex; flex-direction: column; gap: 1.5rem; }
+.contact-subtitle-border { border-bottom: 1px solid rgba(0, 56, 101, 0.1); padding-bottom: 0.5rem; display: inline-block; }
+.sticky-card { position: sticky; top: 120px; }
+.card-action-link { margin-top: auto; color: var(--accent); font-weight: 600; font-size: 0.8rem; letter-spacing: 1px; }
+
+.form-label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
+.form-input { width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px; }
+.form-textarea { width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; resize: vertical; }
+.form-textarea-no-font { width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px; resize: vertical; }
+.form-hint-text { display: block; margin-top: 0.5rem; color: #777; font-size: 0.85rem; }
+.form-hint-center { margin-top: 1rem; font-size: 0.8rem; text-align: center; color: #666; }
+.font-inherit { font-family: inherit; }

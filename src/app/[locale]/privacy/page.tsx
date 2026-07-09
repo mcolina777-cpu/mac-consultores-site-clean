@@ -3,7 +3,7 @@ import { getDictionary } from "@/i18n/getDictionary";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const dict: any = await getDictionary(locale);
+  const dict = await getDictionary(locale);
   const isEs = locale === 'es';
   const title = dict?.seo?.privacidad?.title || (isEs ? 'Política de Privacidad | Mac Consultores Jurídicos & Asociados' : 'Privacy Policy | Mac Consultores Jurídicos & Asociados');
   const description = dict?.seo?.privacidad?.description || (isEs 
@@ -51,16 +51,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function Privacidad({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const dict: any = await getDictionary(locale);
+  const dict = await getDictionary(locale);
 
   const breadcrumbBase =
-    dict?.legal_pages?.privacy_breadcrumb ||
-    dict?.footer?.links_nav ||
-    (locale === "en" ? "Corporate Information" : "Inicio");
+    dict?.legal_pages?.privacy_breadcrumb ;
 
   const pageTitle =
     locale === "en"
-      ? dict?.legal_pages?.privacy_h1 || "Privacy Policy"
+      ? dict?.legal_pages?.privacy_h1
       : "Política de Privacidad";
 
   return (
@@ -74,33 +72,33 @@ export default async function Privacidad({ params }: { params: Promise<{ locale:
         </div>
       </header>
 
-      <section className="legal-content" style={{ padding: "60px 0" }}>
+      <section className="legal-content py-60px">
         <div className="container">
-          <div style={{ maxWidth: "800px", margin: "0 auto", lineHeight: "1.8" }}>
+          <div className="layout-narrow">
             {locale === "en" ? (
               <>
-                <h2>{dict?.legal_pages?.privacy?.subtitle || "Data Protection and Confidentiality"}</h2>
-                <h3 style={{ marginTop: "2rem" }}>
-                  {dict?.legal_pages?.privacy?.sec1_title || "1. Data Collection"}
+                <h2>{dict?.legal_pages?.privacy?.subtitle}</h2>
+                <h3 className="mt-2rem">
+                  {dict?.legal_pages?.privacy?.sec1_title}
                 </h3>
                 <p>{dict?.legal_pages?.privacy?.sec1_desc}</p>
 
-                <h3 style={{ marginTop: "2rem" }}>
-                  {dict?.legal_pages?.privacy?.sec2_title || "2. Purpose of Processing"}
+                <h3 className="mt-2rem">
+                  {dict?.legal_pages?.privacy?.sec2_title}
                 </h3>
                 <p>{dict?.legal_pages?.privacy?.sec2_desc}</p>
 
-                <h3 style={{ marginTop: "2rem" }}>
-                  {dict?.legal_pages?.privacy?.sec3_title || "3. Confidentiality"}
+                <h3 className="mt-2rem">
+                  {dict?.legal_pages?.privacy?.sec3_title}
                 </h3>
                 <p>{dict?.legal_pages?.privacy?.sec3_desc}</p>
 
-                <h3 style={{ marginTop: "2rem" }}>
-                  {dict?.legal_pages?.privacy?.sec4_title || "4. User Rights"}
+                <h3 className="mt-2rem">
+                  {dict?.legal_pages?.privacy?.sec4_title}
                 </h3>
                 <p
                   dangerouslySetInnerHTML={{
-                    __html: dict?.legal_pages?.privacy?.sec4_desc || "",
+                    __html: dict?.legal_pages?.privacy?.sec4_desc,
                   }}
                 />
               </>
@@ -114,14 +112,14 @@ export default async function Privacidad({ params }: { params: Promise<{ locale:
                   estricta confidencialidad.
                 </p>
 
-                <h2 style={{ marginTop: "2rem" }}>2. Finalidad</h2>
+                <h2 className="mt-2rem">2. Finalidad</h2>
                 <p>
                   Los datos suministrados serán utilizados exclusivamente para gestionar sus consultas,
                   agendar reuniones, proveer los servicios jurídicos solicitados y remitir información de
                   interés relacionada con nuestras áreas de práctica.
                 </p>
 
-                <h2 style={{ marginTop: "2rem" }}>3. Bases Legales y Seguridad</h2>
+                <h2 className="mt-2rem">3. Bases Legales y Seguridad</h2>
                 <p>
                   El tratamiento de datos se fundamenta en el consentimiento expreso del usuario y en la
                   ejecución de la relación precontractual o contractual. Hemos implementado medidas de
@@ -129,11 +127,11 @@ export default async function Privacidad({ params }: { params: Promise<{ locale:
                   no autorizado y robo de los datos personales facilitados.
                 </p>
 
-                <h2 style={{ marginTop: "2rem" }}>4. Derechos del Usuario y Contacto</h2>
+                <h2 className="mt-2rem">4. Derechos del Usuario y Contacto</h2>
                 <p>
                   Usted puede ejercer sus derechos de acceso, rectificación, cancelación u oposición
                   dirigiéndose a nosotros a través del correo electrónico{" "}
-                  <a href="mailto:infomacconsul@gmail.com" style={{ color: "var(--accent)" }}>
+                  <a className="text-accent" href="mailto:infomacconsul@gmail.com">
                     infomacconsul@gmail.com
                   </a>
                   , indicando el derecho que desea ejercer.

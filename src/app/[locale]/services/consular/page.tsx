@@ -12,23 +12,23 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function TramitesConsulares({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const dict: any = await getDictionary(locale);
+  const dict = await getDictionary(locale);
 
   return (
     <main className="page-tramites-consulares">
-      <header className="page-header" style={{ textAlign: 'left', padding: '120px 0 40px', backgroundColor: 'var(--bg-soft)' }}>
+      <header className="page-header header-soft-bg">
         <div className="container">
           <span className="section-tag" >{dict?.tramites_consulares?.breadcrumb}</span>
-          <h1 style={{ marginBottom: '1.5rem' }} >{dict?.tramites_consulares?.h1}</h1>
+          <h1 className="mb-1-5rem">{dict?.tramites_consulares?.h1}</h1>
           <p className="hero-subtitle" >{dict?.tramites_consulares?.subtitle}</p>
         </div>
       </header>
 
-      <section className="intro-section" style={{ padding: '40px 0 80px 0' }}>
+      <section className="intro-section section-padding-asym">
         <div className="container">
           <div className="grid-split">
             <div className="about-text">
-              <p style={{ textAlign: 'left', maxWidth: '100%', marginBottom: 0 }} >{dict?.tramites_consulares?.intro_p}</p>
+              <p className="text-left max-w-100 mb-0">{dict?.tramites_consulares?.intro_p}</p>
             </div>
             <div className="img-reveal">
               <picture>
@@ -42,9 +42,9 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
 
       <section className="bg-soft">
         <div className="container">
-          <div className="section-header" style={{ textAlign: 'left', marginBottom: '4rem' }}>
+          <div className="section-header text-left mb-4rem">
             <span className="section-tag" >{dict?.tramites_consulares?.support?.tag}</span>
-            <h2 className="section-title" style={{ fontSize: '3rem', marginBottom: '0.5rem' }} >{dict?.tramites_consulares?.support?.title}</h2>
+            <h2 className="section-title heading-xl mb-0-5rem">{dict?.tramites_consulares?.support?.title}</h2>
           </div>
           <div className="grid-3">
             <div className="card">
@@ -90,27 +90,27 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
       <section>
         <div className="container">
           <div className="form-card">
-            <h2 className="serif" style={{ fontSize: '2.2rem', color: 'var(--primary)', marginBottom: '2rem' }} >{dict?.tramites_consulares?.form?.title}</h2>
-            <p style={{ marginBottom: '2.5rem', color: 'var(--text-muted)' }} >{dict?.tramites_consulares?.form?.desc}</p>
+            <h2 className="serif heading-lg text-primary mb-2rem">{dict?.tramites_consulares?.form?.title}</h2>
+            <p className="mb-2-5rem text-muted">{dict?.tramites_consulares?.form?.desc}</p>
             <form action="https://formsubmit.co/infomacconsul@gmail.com" method="POST">
               <input type="hidden" name="_next" value="https://mac-consultores.vercel.app/tramites-consulares" />
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_subject" value="Nueva solicitud de Trámites Consulares / Exterior" />
               
-              <div className="grid-2" style={{ marginBottom: '1.5rem' }}>
+              <div className="grid-2 mb-1-5rem">
                 <div className="form-group">
-                  <label  style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 600 }}>{dict?.tramites_consulares?.form?.label_name}</label>
-                  <input type="text" name="nombre" placeholder={dict?.tramites_consulares?.form?.placeholder_name} required style={{ width: '100%', padding: '0.8rem', border: '1px solid #ccc', borderRadius: '4px' }} />
+                  <label className="form-label">{dict?.tramites_consulares?.form?.label_name}</label>
+                  <input className="form-input" type="text" name="nombre" placeholder={dict?.tramites_consulares?.form?.placeholder_name} required  />
                 </div>
                 <div className="form-group">
-                  <label  style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 600 }}>{dict?.tramites_consulares?.form?.label_country}</label>
-                  <input type="text" name="pais" placeholder={dict?.tramites_consulares?.form?.placeholder_country} required style={{ width: '100%', padding: '0.8rem', border: '1px solid #ccc', borderRadius: '4px' }} />
+                  <label className="form-label">{dict?.tramites_consulares?.form?.label_country}</label>
+                  <input className="form-input" type="text" name="pais" placeholder={dict?.tramites_consulares?.form?.placeholder_country} required  />
                 </div>
               </div>
               
-              <div className="form-group" style={{ marginBottom: '1.5rem' }}>
-                <label  style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 600 }}>{dict?.tramites_consulares?.form?.label_message}</label>
-                <textarea name="mensaje" rows={5} placeholder={dict?.tramites_consulares?.form?.placeholder_message} required style={{ width: '100%', padding: '0.8rem', border: '1px solid #ccc', borderRadius: '4px', resize: 'vertical' }}></textarea>
+              <div className="form-group mb-1-5rem">
+                <label className="form-label">{dict?.tramites_consulares?.form?.label_message}</label>
+                <textarea className="form-textarea-no-font" name="mensaje" rows={5} placeholder={dict?.tramites_consulares?.form?.placeholder_message} required></textarea>
               </div>
               
               <button type="submit" className="btn btn-primary" >{dict?.tramites_consulares?.form?.btn}</button>

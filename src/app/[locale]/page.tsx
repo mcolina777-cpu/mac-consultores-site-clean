@@ -80,7 +80,7 @@ export default async function Home({ params }: Props) {
               <h2 className="section-title">{dict?.about?.title}</h2>
               <p>{dict?.about?.desc_1}</p>
               <p>{dict?.about?.desc_2}</p>
-              <Link href={getRoute(locale, "about")} className="btn btn-outline" style={{ marginTop: '1rem' }}>
+              <Link href={getRoute(locale, "about")} className="btn btn-outline mt-1rem">
                 {dict?.about?.btn}
               </Link>
             </div>
@@ -91,7 +91,7 @@ export default async function Home({ params }: Props) {
       {/* ESTRATEGIAS REPRESENTATIVAS */}
       <section className="bg-soft">
         <div className="container">
-          <div className="axial-header" style={{ textAlign: 'center', marginBottom: '4rem' }}>
+          <div className="axial-header axial-centered">
             <span className="section-tag">{dict?.home?.strategies?.tag}</span>
             <h2 className="section-title">{dict?.home?.strategies?.title}</h2>
           </div>
@@ -107,14 +107,14 @@ export default async function Home({ params }: Props) {
               <span className="section-tag">{dict?.home?.strategies?.case_theory?.tag}</span>
               <h3>{dict?.home?.strategies?.case_theory?.title}</h3>
               <p>{dict?.home?.strategies?.case_theory?.desc}</p>
-              <Link href={`/${locale}/estrategia-teoria-del-caso`} className="news-link"><span>{dict?.news?.read_more}</span></Link>
+              <Link href={getRoute(locale, "estrategiaTeoriaDelCaso")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
             </article>
 
             <article className="card">
               <span className="section-tag">{dict?.home?.strategies?.representative_scenarios?.tag}</span>
               <h3>{dict?.home?.strategies?.representative_scenarios?.title}</h3>
               <p>{dict?.home?.strategies?.representative_scenarios?.desc}</p>
-              <Link href={`/${locale}/estrategia-escenarios-representativos`} className="news-link"><span>{dict?.news?.read_more}</span></Link>
+              <Link href={getRoute(locale, "estrategiaEscenariosRepresentativos")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
             </article>
           </div>
         </div>
@@ -123,7 +123,7 @@ export default async function Home({ params }: Props) {
       {/* ESPECIALIDADES */}
       <section>
         <div className="container">
-          <div className="axial-header" style={{ textAlign: 'center', marginBottom: '4rem' }}>
+          <div className="axial-header axial-centered">
             <span className="section-tag">{dict?.specialties?.tag}</span>
             <h2 className="section-title">{dict?.specialties?.title}</h2>
           </div>
@@ -131,21 +131,21 @@ export default async function Home({ params }: Props) {
             <div className="card">
               <h3>{dict?.specialties?.card_1?.title}</h3>
               <p>{dict?.specialties?.card_1?.desc}</p>
-              <Link href={getRoute(locale, "services")} style={{ marginTop: 'auto', color: 'var(--accent)', fontWeight: 600, fontSize: '0.8rem', letterSpacing: '1px' }}>
+              <Link className="card-action-link" href={getRoute(locale, "services")}>
                 <span>{dict?.specialties?.details_link}</span>
               </Link>
             </div>
             <div className="card">
               <h3>{dict?.specialties?.card_2?.title}</h3>
               <p>{dict?.specialties?.card_2?.desc}</p>
-              <Link href={getRoute(locale, "services")} style={{ marginTop: 'auto', color: 'var(--accent)', fontWeight: 600, fontSize: '0.8rem', letterSpacing: '1px' }}>
+              <Link className="card-action-link" href={getRoute(locale, "services")}>
                 <span>{dict?.specialties?.details_link}</span>
               </Link>
             </div>
             <div className="card">
               <h3>{dict?.specialties?.card_3?.title}</h3>
               <p>{dict?.specialties?.card_3?.desc}</p>
-              <Link href={getRoute(locale, "services.consular")} style={{ marginTop: 'auto', color: 'var(--accent)', fontWeight: 600, fontSize: '0.8rem', letterSpacing: '1px' }}>
+              <Link className="card-action-link" href={getRoute(locale, "services.consular")}>
                 <span>{dict?.specialties?.details_link}</span>
               </Link>
             </div>
@@ -156,7 +156,7 @@ export default async function Home({ params }: Props) {
       {/* RECURSOS ESTRATÉGICOS PARA EMPRESAS */}
       <section className="bg-soft">
         <div className="container">
-          <div className="axial-header" style={{ textAlign: 'center', marginBottom: '4rem' }}>
+          <div className="axial-header axial-centered">
             <span className="section-tag">{dict?.home?.resources?.tag}</span>
             <h2 className="section-title">{dict?.home?.resources?.title}</h2>
           </div>
@@ -189,7 +189,7 @@ export default async function Home({ params }: Props) {
       {/* ACTUALIDAD / NOTICIAS */}
       <section>
         <div className="container">
-          <div className="axial-header" style={{ textAlign: 'center', marginBottom: '4rem' }}>
+          <div className="axial-header axial-centered">
             <span className="section-tag">{dict?.news?.tag}</span>
             <h2 className="section-title">{dict?.news?.title}</h2>
           </div>

@@ -44,7 +44,10 @@
       "hint_fees": "Every professional consultation is subject to fees, which may be billed hourly or according to the scope of the engagement. For any representation actions (e.g., filing complaints or lawsuits, managing consular procedures, or appearances on your behalf), it is essential to grant a power of attorney previously analyzed and drafted in a personalized manner for your case.",
       "hint_relation": "Communications sent through this form do not, by themselves, constitute an attorney-client relationship, nor do they imply acceptance of the matter by the firm.",
       "btn": "SUBMIT REQUEST FOR ADMISSION",
-      "success": "Your request for admission has been registered. The firm will assess the information provided and, if applicable, contact you to coordinate a professional consultation subject to fees."
+      "success": "Your request for admission has been registered. The firm will assess the information provided and, if applicable, contact you to coordinate a professional consultation subject to fees.",
+      "title": "Legal Admission Form",
+      "penal_opt3": "Ordinary Crimes (Others)",
+      "reason_opt6": "Others"
     },
     "channels": {
       "title": "Alternative Channels",
@@ -262,7 +265,8 @@
         "tag": "Representative scenarios",
         "title": "Strategies applied in sensitive contexts",
         "desc": "From economic criminal investigations against companies to constitutional amparo actions, our approach focuses on anticipating risks, securing the evidentiary chain, and protecting the client's reputation in every strategic decision."
-      }
+      },
+      "read_more": "READ MORE →"
     }
   },
   "title": "Mac Consultores Jurídicos & Asociados | Legal Excellence",
@@ -281,7 +285,8 @@
         "Cassation and Appeal Remedies",
         "Corporate Criminal Liability",
         "Money Laundering"
-      ]
+      ],
+      "link": "VIEW DETAILS →"
     },
     "card_2": {
       "title": "Constitutional Law",
@@ -291,7 +296,8 @@
         "Habeas Corpus & Habeas Data",
         "Conventionality Control",
         "Normative Interpretation Consultancy"
-      ]
+      ],
+      "link": "VIEW DETAILS →"
     },
     "card_3": {
       "title": "Cybercrimes and Digital Evidence",
@@ -301,7 +307,8 @@
         "Fraud Management & Digital Sabotage",
         "Legal Audit of Evidence",
         "Data Privacy Protection"
-      ]
+      ],
+      "link": "VIEW DETAILS →"
     },
     "card_4": {
       "title": "Preventive Legal Consulting",
@@ -311,7 +318,8 @@
         "Legal Risk Management",
         "Complex Contractual Structuring",
         "Corporate Governance Advisory"
-      ]
+      ],
+      "link": "VIEW DETAILS →"
     }
   },
   "cta": {
@@ -330,27 +338,33 @@
       "title": "Specialized Services for Abroad",
       "card_1": {
         "title": "Consular Practice",
-        "desc": "Legal empowerment and strategic representation before consular missions and migration authorities to guarantee your mobility and fundamental rights."
+        "desc": "Legal empowerment and strategic representation before consular missions and migration authorities to guarantee your mobility and fundamental rights.",
+        "link": "VIEW DETAILS →"
       },
       "card_2": {
         "title": "Document Management",
-        "desc": "International legalization, Hague Apostille, and validation of public documents with guaranteed efficacy and procedural technical rigor."
+        "desc": "International legalization, Hague Apostille, and validation of public documents with guaranteed efficacy and procedural technical rigor.",
+        "link": "VIEW DETAILS →"
       },
       "card_3": {
         "title": "Family Law",
-        "desc": "Specialized litigation in cases of international child abduction and execution of transnational child support obligations with a humane approach."
+        "desc": "Specialized litigation in cases of international child abduction and execution of transnational child support obligations with a humane approach.",
+        "link": "VIEW DETAILS →"
       },
       "card_4": {
         "title": "Inheritances & Estates",
-        "desc": "Resolution of inheritance disputes and comprehensive estate planning with assets or heirs dispersed across different global jurisdictions."
+        "desc": "Resolution of inheritance disputes and comprehensive estate planning with assets or heirs dispersed across different global jurisdictions.",
+        "link": "VIEW DETAILS →"
       },
       "card_5": {
         "title": "Judicial Representation",
-        "desc": "High-end technical defense in criminal, civil, or administrative proceedings in Venezuelan territory, without requiring physical presence."
+        "desc": "High-end technical defense in criminal, civil, or administrative proceedings in Venezuelan territory, without requiring physical presence.",
+        "link": "VIEW DETAILS →"
       },
       "card_6": {
         "title": "Strategic Powers of Attorney",
-        "desc": "Advisory and drafting of mandates and special powers of attorney to ensure your asset and legal interests in Venezuela are always shielded."
+        "desc": "Advisory and drafting of mandates and special powers of attorney to ensure your asset and legal interests in Venezuela are always shielded.",
+        "link": "VIEW DETAILS →"
       }
     },
     "form": {

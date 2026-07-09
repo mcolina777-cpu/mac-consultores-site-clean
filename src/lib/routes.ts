@@ -13,7 +13,10 @@ export type RouteKey =
   | "services.penal"
   | "services.constitucional"
   | "services.consular"
-  | "services.international_cooperation";
+  | "services.international_cooperation"
+  | "quienesSomosDetalle"
+  | "estrategiaTeoriaDelCaso"
+  | "estrategiaEscenariosRepresentativos";
 
 const routes: Record<AppLocale, Record<RouteKey, string>> = {
   es: {
@@ -26,10 +29,13 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     contact: "/es/contact",
     legalNotice: "/es/legal",
     privacy: "/es/privacy",
-    "services.penal": "/es/services",
-    "services.constitucional": "/es/services",
+    "services.penal": "/es/services#penal",
+    "services.constitucional": "/es/services#constitucional",
     "services.consular": "/es/services/consular",
     "services.international_cooperation": "/es/services/international-cooperation",
+    quienesSomosDetalle: "/es/quienes-somos-detalle",
+    estrategiaTeoriaDelCaso: "/es/estrategia-teoria-del-caso",
+    estrategiaEscenariosRepresentativos: "/es/estrategia-escenarios-representativos",
   },
   en: {
     home: "/en",
@@ -41,10 +47,13 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     contact: "/en/contact",
     legalNotice: "/en/legal",
     privacy: "/en/privacy",
-    "services.penal": "/en/services",
-    "services.constitucional": "/en/services",
+    "services.penal": "/en/services#penal",
+    "services.constitucional": "/en/services#constitucional",
     "services.consular": "/en/services/consular",
     "services.international_cooperation": "/en/services/international-cooperation",
+    quienesSomosDetalle: "/en/quienes-somos-detalle",
+    estrategiaTeoriaDelCaso: "/en/estrategia-teoria-del-caso",
+    estrategiaEscenariosRepresentativos: "/en/estrategia-escenarios-representativos",
   },
 };
 

@@ -5,28 +5,28 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const dict = await getDictionary(locale);
   return {
-    title: dict?.strategy_representative_scenarios?.title || 'Estrategias en escenarios sensibles | Mac Consultores Jurídicos & Asociados',
+    title: dict?.strategy_representative_scenarios?.title,
   };
 }
 
 export default async function EstrategiaEscenariosRepresentativos({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const dict: any = await getDictionary(locale);
+  const dict = await getDictionary(locale);
 
   return (
-    <main className="bg-soft" style={{ padding: '6rem 0' }}>
+    <main className="bg-soft py-6rem">
         <div className="container">
-            <div className="axial-header" style={{ textAlign: 'center', marginBottom: '3rem' }}>
+            <div className="axial-header text-center mb-3rem">
                 <h1 className="section-title">{dict?.strategy_representative_scenarios?.h1}</h1>
             </div>
-            <div style={{ maxWidth: '800px', margin: '0 auto', lineHeight: '1.8', fontSize: '1.1rem', color: '#444' }}>
-                <p style={{ marginBottom: '1.5rem' }}>
+            <div className="layout-reading">
+                <p className="mb-1-5rem">
                     {dict?.strategy_representative_scenarios?.p1}
                 </p>
-                <p style={{ marginBottom: '1.5rem' }}>
+                <p className="mb-1-5rem">
                     {dict?.strategy_representative_scenarios?.p2}
                 </p>
-                <p style={{ marginBottom: '1.5rem' }}>
+                <p className="mb-1-5rem">
                     {dict?.strategy_representative_scenarios?.p3}
                 </p>
             </div>

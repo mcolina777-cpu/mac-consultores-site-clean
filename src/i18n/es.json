@@ -44,7 +44,10 @@
       "hint_fees": "Toda consulta profesional está sujeta a honorarios, que podrán ser facturados por hora o según el alcance del encargo. Para cualquier actuación de representación (por ejemplo, interposición de denuncias o querellas, gestión de trámites consulares o comparecencias en su nombre), es imprescindible el otorgamiento de un poder de representación previamente analizado y redactado de forma personalizada para su caso.",
       "hint_relation": "Las comunicaciones remitidas a través de este formulario no constituyen, por sí mismas, relación abogado–cliente ni implican aceptación del asunto por parte de la firma.",
       "btn": "ENVIAR SOLICITUD DE ADMISIÓN",
-      "success": "Su solicitud de admisión ha sido registrada. La firma valorará la información aportada y, de corresponder, se contactará con usted para coordinar una consulta profesional sujeta a honorarios."
+      "success": "Su solicitud de admisión ha sido registrada. La firma valorará la información aportada y, de corresponder, se contactará con usted para coordinar una consulta profesional sujeta a honorarios.",
+      "title": "Formulario de Admisión Legal",
+      "penal_opt3": "Delitos Ordinarios (Otros)",
+      "reason_opt6": "Otros"
     },
     "channels": {
       "title": "Canales Alternativos",
@@ -262,7 +265,8 @@
         "tag": "Escenarios representativos",
         "title": "Estrategias aplicadas en contextos sensibles",
         "desc": "Desde investigaciones penales económicas contra empresas hasta acciones de amparo constitucional, nuestro enfoque se centra en anticipar riesgos, asegurar la cadena probatoria y proteger la reputación del cliente en cada decisión estratégica."
-      }
+      },
+      "read_more": "LEER MÁS →"
     }
   },
   "title": "Mac Consultores Jurídicos & Asociados | Excelencia Legal",
@@ -281,7 +285,8 @@
         "Recursos de Casación y Apelación",
         "Criminalidad Corporativa",
         "Legitimación de Capitales"
-      ]
+      ],
+      "link": "VER DETALLES →"
     },
     "card_2": {
       "title": "Derecho Constitucional",
@@ -291,7 +296,8 @@
         "Hábeas Corpus y Hábeas Data",
         "Control de Convencionalidad",
         "Consultoría en Interpretación Normativa"
-      ]
+      ],
+      "link": "VER DETALLES →"
     },
     "card_3": {
       "title": "Delitos Informáticos y Evidencia Digital",
@@ -301,7 +307,8 @@
         "Gestión de Fraude y Sabotaje Digital",
         "Auditoría Jurídica de Evidencia",
         "Protección de Privacidad de Datos"
-      ]
+      ],
+      "link": "VER DETALLES →"
     },
     "card_4": {
       "title": "Consultoría Jurídica Preventiva",
@@ -311,7 +318,8 @@
         "Gestión de Riesgo Legal",
         "Estructuración Contractual Compleja",
         "Asesoría en Gobernanza Corporativa"
-      ]
+      ],
+      "link": "VER DETALLES →"
     }
   },
   "cta": {
@@ -330,27 +338,33 @@
       "title": "Servicios Especializados para el Exterior",
       "card_1": {
         "title": "Práctica Consular",
-        "desc": "Apoderamiento legal y representación estratégica ante misiones consulares y autoridades migratorias para garantizar su movilidad y derechos fundamentales."
+        "desc": "Apoderamiento legal y representación estratégica ante misiones consulares y autoridades migratorias para garantizar su movilidad y derechos fundamentales.",
+        "link": "VER DETALLES →"
       },
       "card_2": {
         "title": "Gestión Documental",
-        "desc": "Legalización internacional, Apostilla de La Haya y validación de documentos públicos con eficacia garantizada y rigor técnico procesal."
+        "desc": "Legalización internacional, Apostilla de La Haya y validación de documentos públicos con eficacia garantizada y rigor técnico procesal.",
+        "link": "VER DETALLES →"
       },
       "card_3": {
         "title": "Derecho de Familia",
-        "desc": "Litigio especializado en casos de sustracción internacional de menores y ejecución de obligaciones alimentarias transnacionales con enfoque humano."
+        "desc": "Litigio especializado en casos de sustracción internacional de menores y ejecución de obligaciones alimentarias transnacionales con enfoque humano.",
+        "link": "VER DETALLES →"
       },
       "card_4": {
         "title": "Sucesiones",
-        "desc": "Resolución de conflictos hereditarios y planificación patrimonial integral con activos o herederos dispersos en distintas jurisdicciones globales."
+        "desc": "Resolución de conflictos hereditarios y planificación patrimonial integral con activos o herederos dispersos en distintas jurisdicciones globales.",
+        "link": "VER DETALLES →"
       },
       "card_5": {
         "title": "Representación Judicial",
-        "desc": "Defensa técnica de alta gama en procesos penales, civiles o administrativos en territorio venezolano, sin requerir su traslado físico al país."
+        "desc": "Defensa técnica de alta gama en procesos penales, civiles o administrativos en territorio venezolano, sin requerir su traslado físico al país.",
+        "link": "VER DETALLES →"
       },
       "card_6": {
         "title": "Poderes Estratégicos",
-        "desc": "Asesoría y redacción de mandatos y facultades especiales para que sus intereses patrimoniales y legales en Venezuela estén siempre blindados."
+        "desc": "Asesoría y redacción de mandatos y facultades especiales para que sus intereses patrimoniales y legales en Venezuela estén siempre blindados.",
+        "link": "VER DETALLES →"
       }
     },
     "form": {

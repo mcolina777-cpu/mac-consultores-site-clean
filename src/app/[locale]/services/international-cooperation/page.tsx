@@ -4,37 +4,37 @@ import { getDictionary } from "@/i18n/getDictionary";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const dict: any = await getDictionary(locale);
+  const dict = await getDictionary(locale);
   
   return {
-    title: dict?.seo?.colaboracion_internacional?.title || 'Colaboración Internacional | Mac Consultores Jurídicos & Asociados',
-    description: dict?.seo?.colaboracion_internacional?.description || 'Colaboración estratégica con firmas internacionales. Soporte local de excelencia en Venezuela.',
+    title: dict?.seo?.colaboracion_internacional?.title,
+    description: dict?.seo?.colaboracion_internacional?.description,
   };
 }
 
 export default async function ColaboracionInternacional({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const dict: any = await getDictionary(locale);
+  const dict = await getDictionary(locale);
   const data = dict?.colaboracion_internacional;
 
   return (
     <main className="page-colaboracion-internacional">
-      <header className="page-header" style={{ textAlign: 'left', padding: '120px 0 40px', backgroundColor: 'var(--bg-soft)' }}>
+      <header className="page-header header-soft-bg">
         <div className="container">
           <span className="section-tag" >{data?.breadcrumb}</span>
-          <h1 style={{ marginBottom: '1.5rem' }} >{data?.h1}</h1>
+          <h1 className="mb-1-5rem">{data?.h1}</h1>
           <p className="hero-subtitle" >{data?.title}</p>
         </div>
       </header>
 
-      <section style={{ padding: '40px 0 80px 0' }}>
+      <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split">
             <div className="about-text">
               <span className="section-tag">{data?.intro?.tag}</span>
-              <h2 className="serif section-title" style={{ marginBottom: '1.5rem' }}>{data?.intro?.title}</h2>
-              <p style={{ textAlign: 'left', maxWidth: '100%', marginBottom: '1rem' }} >{data?.intro?.p1}</p>
-              <p style={{ textAlign: 'left', maxWidth: '100%', marginBottom: '2rem' }} >{data?.intro?.p2}</p>
+              <h2 className="serif section-title mb-1-5rem">{data?.intro?.title}</h2>
+              <p className="text-left max-w-100 mb-1rem">{data?.intro?.p1}</p>
+              <p className="text-left max-w-100 mb-2rem">{data?.intro?.p2}</p>
             </div>
             <div className="img-reveal">
               <picture>
@@ -44,9 +44,9 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             </div>
           </div>
 
-          <div style={{ marginTop: '4rem', textAlign: 'center' }}>
+          <div className="mt-4rem text-center">
             <span className="section-tag">{data?.proposal?.tag}</span>
-            <h2 className="serif section-title" style={{ marginTop: '1rem', marginBottom: '3rem' }}>{data?.proposal?.title}</h2>
+            <h2 className="serif section-title mt-1rem mb-3rem">{data?.proposal?.title}</h2>
           </div>
           
           <div className="grid-3">

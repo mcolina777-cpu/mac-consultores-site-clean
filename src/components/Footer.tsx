@@ -40,31 +40,31 @@ export default function Footer({
   const f = dict?.footer || {};
   const n = dict?.nav || {};
 
-  const navTitle = f.nav_title || "Navegación";
-  const servicesTitle = f.services_title || "Servicios";
-  const officesTitle = f.offices_title || "Oficinas";
+  const navTitle = f.nav_title;
+  const servicesTitle = f.services_title;
+  const officesTitle = f.offices_title;
 
-  const homeLabel = n.inicio || "Inicio";
-  const aboutLabel = n.quienes_somos || "Quiénes Somos";
-  const ceoLabel = n.nuestro_ceo || "Nuestro CEO";
-  const blogLabel = n.blog || "Blog Jurídico";
-  const newsLabel = n.noticias || "Noticias";
+  const homeLabel = n.inicio;
+  const aboutLabel = n.quienes_somos;
+  const ceoLabel = n.nuestro_ceo;
+  const blogLabel = n.blog;
+  const newsLabel = n.noticias;
 
-  const penalLabel = f.penal || "Derecho Penal";
-  const constitucionalLabel = f.constitucional || "Defensa Constitucional";
-  const consularLabel = f.consular || "Gestión Consular";
-  const colaboracionLabel = f.colaboracion || "Colaboración Internacional";
+  const penalLabel = f.penal;
+  const constitucionalLabel = f.constitucional;
+  const consularLabel = f.consular;
+  const colaboracionLabel = f.colaboracion;
 
-  const brandLabel = dict?.brand || "MAC CONSULTORES JURÍDICOS & ASOCIADOS";
+  const brandLabel = dict?.brand;
 
-  const descLabel = f.desc || "Soluciones legales de alta complejidad con enfoque en la estrategia, la prevención y la protección integral de los intereses de nuestros clientes.";
+  const descLabel = f.desc;
 
-  const locationLabel = f.location || "Caracas, Venezuela";
-  const ctaLabel = f.cta || "AGENDAR CITA →";
-  const legalNoticeLabel = f.legal_notice || "Aviso Legal";
-  const privacyLabel = f.privacy || "Privacidad";
-  const localTimeLabel = f.local_time || "Hora local";
-  const copyrightText = f.copyright || "Mac Consultores Jurídicos & Asociados. Todos los derechos reservados.";
+  const locationLabel = f.location;
+  const ctaLabel = f.cta;
+  const legalNoticeLabel = f.legal_notice;
+  const privacyLabel = f.privacy;
+  const localTimeLabel = f.local_time;
+  const copyrightText = f.copyright;
 
   return (
     <footer className="footer">

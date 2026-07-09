@@ -7,7 +7,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  const dict: any = await getDictionary(locale);
+  const dict = await getDictionary(locale);
   const isEs = locale === 'es';
   const title = dict?.seo?.nuestro_ceo?.title || (isEs ? 'Nuestro CEO | Mac Consultores Jurídicos & Asociados' : 'Our CEO | Mac Consultores Jurídicos & Asociados');
   const description = isEs 

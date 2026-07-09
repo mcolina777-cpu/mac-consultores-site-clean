@@ -8,14 +8,14 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
       <div className="container">
         <div className="hero-content">
 
-          <span className="section-tag">{dict?.tag || 'Rigor & Estrategia'}</span>
-          <h1>{dict?.h1 || 'Arquitectura jurídica para casos de alta complejidad.'}</h1>
+          <span className="section-tag">{dict?.tag}</span>
+          <h1>{dict?.h1}</h1>
           <p>
-            {dict?.desc || 'Defensa penal y constitucional diseñada a medida, con foco en la protección efectiva de derechos, patrimonio y reputación en entornos sensibles.'}
+            {dict?.desc}
           </p>
           <div className="hero-btns">
             <Link href={getRoute(locale, "contact")} className="btn btn-primary">
-              {dict?.btn || 'Solicitar consulta privada'}
+              {dict?.btn}
             </Link>
           </div>
         </div>

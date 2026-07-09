@@ -6,19 +6,19 @@ type InsightDelDiaProps = {
 };
 
 export default async function InsightDelDia({ locale = "es" }: InsightDelDiaProps) {
-  const dict: any = await getDictionary(locale);
+  const dict = await getDictionary(locale);
   const data = dict?.insight || {};
 
   return (
     <section className="daily-insight">
       <div className="daily-insight-inner">
-        <span className="daily-insight-tag">{data.tag || "Insight"}</span>
-        <h2 className="daily-insight-concept is-loaded">{data.title || "Concept"}</h2>
+        <span className="daily-insight-tag">{data.tag}</span>
+        <h2 className="daily-insight-concept is-loaded">{data.title}</h2>
         <p className="daily-insight-definition is-loaded">
-          {data.body || "Definition"}
+          {data.body}
         </p>
         <p className="daily-insight-definition daily-insight-footer is-loaded">
-          {data.footer || "Footer"}
+          {data.footer}
         </p>
       </div>
     </section>

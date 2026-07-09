@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   description: "Firma boutique en Caracas especializada en litigio penal de alta complejidad, derecho constitucional y compliance corporativo preventivo.",
 };
 
+export function generateStaticParams() {
+  return [{ locale: 'es' }, { locale: 'en' }];
+}
+
+
 export default async function RootLayout({
   children,
   params

@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function Servicios({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const dict: any = await getDictionary(locale);
+  const dict = await getDictionary(locale);
 
   return (
     <main className="page-servicios">
@@ -65,10 +65,10 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
 
       <section>
         <div className="container">
-          <div className="grid-split" style={{ marginBottom: '4rem' }}>
+          <div className="grid-split mb-4rem">
             <div className="about-text">
               <span className="section-tag" >{dict?.intro?.tag}</span>
-              <h2 className="serif section-title" style={{ marginBottom: 0 }} >{dict?.intro?.h2}</h2>
+              <h2 className="serif section-title mb-0">{dict?.intro?.h2}</h2>
             </div>
             <div className="img-reveal">
               <picture>

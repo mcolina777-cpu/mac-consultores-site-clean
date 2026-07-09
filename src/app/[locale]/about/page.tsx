@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from "@/i18n/getDictionary";
+import { getRoute } from '@/lib/routes';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -51,7 +52,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function QuienesSomos({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const dict: any = await getDictionary(locale);
+  const dict = await getDictionary(locale);
 
   return (
     <main className="page-quienes-somos">
@@ -75,7 +76,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
                 <span className="section-tag" >{dict?.quienes_somos?.architecture?.tag}</span>
                 <h3 >{dict?.quienes_somos?.architecture?.title}</h3>
                 <p >{dict?.quienes_somos?.architecture?.desc}</p>
-                <Link href={`/${locale}/quienes-somos-detalle`} className="card-link" >{dict?.quienes_somos?.architecture?.link}</Link>
+                <Link href={getRoute(locale, "quienesSomosDetalle")} className="card-link" >{dict?.quienes_somos?.architecture?.link}</Link>
               </article>
             </div>
             <div className="img-reveal">
@@ -91,7 +92,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
       {/* SECCIÓN: ESTRATEGIAS REPRESENTATIVAS */}
       <section className="bg-soft">
         <div className="container">
-          <div className="axial-header" style={{ textAlign: 'center', marginBottom: '4rem' }}>
+          <div className="axial-header axial-centered">
             <span className="section-tag" >{dict?.firma?.strategies?.tag}</span>
             <h2 className="section-title" >{dict?.firma?.strategies?.title}</h2>
           </div>
@@ -107,7 +108,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               <span className="section-tag" >{dict?.firma?.strategies?.case_theory?.tag}</span>
               <h3 >{dict?.firma?.strategies?.case_theory?.title}</h3>
               <p >{dict?.firma?.strategies?.case_theory?.desc}</p>
-              <Link href={`/${locale}/estrategia-teoria-del-caso`} className="news-link">
+              <Link href={getRoute(locale, "estrategiaTeoriaDelCaso")} className="news-link">
                 <span>{dict?.firma?.strategies?.read_more}</span>
               </Link>
             </article>
@@ -116,7 +117,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               <span className="section-tag" >{dict?.firma?.strategies?.representative_scenarios?.tag}</span>
               <h3 >{dict?.firma?.strategies?.representative_scenarios?.title}</h3>
               <p >{dict?.firma?.strategies?.representative_scenarios?.desc}</p>
-              <Link href={`/${locale}/estrategia-escenarios-representativos`} className="news-link">
+              <Link href={getRoute(locale, "estrategiaEscenariosRepresentativos")} className="news-link">
                 <span>{dict?.firma?.strategies?.read_more}</span>
               </Link>
             </article>
@@ -127,7 +128,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
       {/* VALORES INSTITUCIONALES */}
       <section className="bg-soft">
         <div className="container">
-          <div className="axial-header" style={{ textAlign: 'center', marginBottom: '4rem' }}>
+          <div className="axial-header axial-centered">
             <span className="section-tag" >{dict?.quienes_somos?.values?.tag}</span>
             <h2 className="section-title" >{dict?.quienes_somos?.values?.title}</h2>
           </div>
@@ -162,9 +163,9 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               </picture>
             </div>
             <div className="vision-text">
-              <h2 className="serif" style={{ fontSize: '2.2rem', marginBottom: '2rem', lineHeight: 1.1 }} >{dict?.quienes_somos?.mission?.quote}</h2>
+              <h2 className="serif heading-lg mb-2rem line-height-1-1">{dict?.quienes_somos?.mission?.quote}</h2>
               <p >{dict?.quienes_somos?.mission?.desc}</p>
-              <Link href={`/${locale}/our-ceo`} className="btn btn-outline btn-director" >{dict?.quienes_somos?.mission?.btn}</Link>
+              <Link href={getRoute(locale, "ourCeo")} className="btn btn-outline btn-director" >{dict?.quienes_somos?.mission?.btn}</Link>
             </div>
           </div>
         </div>
