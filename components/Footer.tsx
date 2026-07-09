@@ -1,180 +1,84 @@
-import React from "react";
-import Link from "next/link";
-import LocalClock from "./LocalClock";
-import { getRoute } from "@/lib/routes";
+import React from 'react';
+import Link from 'next/link';
+import { getDictionary } from '@/i18n/getDictionary';
 
-type FooterDict = {
-  brand?: string;
-  footer?: {
-    desc?: string;
-    nav_title?: string;
-    services_title?: string;
-    offices_title?: string;
-    penal?: string;
-    constitucional?: string;
-    consular?: string;
-    colaboracion?: string;
-    location?: string;
-    cta?: string;
-    copyright?: string;
-    local_time?: string;
-    legal_notice?: string;
-    privacy?: string;
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const dict = await getDictionary(locale);
+  return {
+    title: dict?.quienes_somos_detalle?.h1 || 'Arquitectura jurídica | Mac Consultores Jurídicos & Asociados',
   };
-  nav?: {
-    inicio?: string;
-    quienes_somos?: string;
-    nuestro_ceo?: string;
-    blog?: string;
-    noticias?: string;
-  };
-};
+}
 
-export default function Footer({
-  dict,
-  locale,
-}: {
-  dict: FooterDict;
-  locale: string;
-}) {
-  const f = dict?.footer || {};
-  const n = dict?.nav || {};
-
-  const navTitle = f.nav_title || "Navegación";
-  const servicesTitle = f.services_title || "Servicios";
-  const officesTitle = f.offices_title || "Oficinas";
-
-  const homeLabel = n.inicio || "Inicio";
-  const aboutLabel = n.quienes_somos || "Quiénes Somos";
-  const ceoLabel = n.nuestro_ceo || "Nuestro CEO";
-  const blogLabel = n.blog || "Blog Jurídico";
-  const newsLabel = n.noticias || "Noticias";
-
-  const penalLabel = f.penal || "Derecho Penal";
-  const constitucionalLabel = f.constitucional || "Defensa Constitucional";
-  const consularLabel = f.consular || "Gestión Consular";
-  const colaboracionLabel = f.colaboracion || "Colaboración Internacional";
-
-  const brandLabel = dict?.brand || "MAC CONSULTORES JURÍDICOS & ASOCIADOS";
-
-  const descLabel = f.desc || "Soluciones legales de alta complejidad con enfoque en la estrategia, la prevención y la protección integral de los intereses de nuestros clientes.";
-
-  const locationLabel = f.location || "Caracas, Venezuela";
-  const ctaLabel = f.cta || "AGENDAR CITA →";
-  const legalNoticeLabel = f.legal_notice || "Aviso Legal";
-  const privacyLabel = f.privacy || "Privacidad";
-  const localTimeLabel = f.local_time || "Hora local";
-  const copyrightText = f.copyright || "Mac Consultores Jurídicos & Asociados. Todos los derechos reservados.";
+export default async function QuienesSomosDetalle({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const dict: any = await getDictionary(locale);
 
   return (
-    <footer className="footer">
-      <div className="container">
-        <div className="footer-grid">
-          {/* Columna info */}
-          <div className="footer-col footer-info">
-            <div className="footer-logo">{brandLabel}</div>
-            <p className="footer-desc">{descLabel}</p>
-          </div>
-          {/* Columna navegación */}
-          <div className="footer-col">
-            <h4 className="footer-title">{navTitle}</h4>
-            <ul className="footer-links">
-              <li>
-                <Link href={getRoute(locale, "home")}>
-                  {homeLabel}
-                </Link>
-              </li>
-              <li>
-                <Link href={getRoute(locale, "about")}>
-                  {aboutLabel}
-                </Link>
-              </li>
-              <li>
-                <Link href={getRoute(locale, "ourCeo")}>
-                  {ceoLabel}
-                </Link>
-              </li>
-              <li>
-                <Link href={getRoute(locale, "blog")}>{blogLabel}</Link>
-              </li>
-              <li>
-                <Link href={getRoute(locale, "news")}>
-                  {newsLabel}
-                </Link>
-              </li>
-            </ul>
-          </div>
-          {/* Columna servicios */}
-          <div className="footer-col">
-            <h4 className="footer-title">{servicesTitle}</h4>
-            <ul className="footer-links">
-              <li>
-                <Link href={getRoute(locale, "services.penal")}>
-                  {penalLabel}
-                </Link>
-              </li>
-              <li>
-                <Link href={getRoute(locale, "services.constitucional")}>
-                  {constitucionalLabel}
-                </Link>
-              </li>
-              <li>
-                <Link href={getRoute(locale, "services.consular")}>
-                  {consularLabel}
-                </Link>
-              </li>
-              <li>
-                <Link href={getRoute(locale, "services.international_cooperation")}>
-                  {colaboracionLabel}
-                </Link>
-              </li>
-            </ul>
-          </div>
-          {/* Columna oficinas / contacto */}
-          <div className="footer-col">
-            <h4 className="footer-title">{officesTitle}</h4>
-            <ul className="footer-links">
-              <li>{locationLabel}</li>
-              <li>
-                <a href="mailto:infomacconsul@gmail.com">
-                  infomacconsul@gmail.com
-                </a>
-              </li>
-              <li>
-                <Link href={getRoute(locale, "contact")} className="footer-cta">
-                  {ctaLabel}
-                </Link>
-              </li>
-            </ul>
-            <img
-              src="/assets/mac/mac-icon-192.png"
-              alt={brandLabel}
-              className="footer-seal-img"
-              loading="lazy"
-            />
-          </div>
+    <main className="page-quienes-somos">
+      <header className="page-header">
+        <div className="container">
+          <span className="breadcrumb">{dict?.quienes_somos_detalle?.breadcrumb || 'Inicio / La Firma / Nuestra Historia'}</span>
+          <h1>{dict?.quienes_somos_detalle?.h1 || 'Arquitectura jurídica para desafíos de alta complejidad'}</h1>
         </div>
-        {/* Línea inferior */}
-        <div className="footer-bottom">
-          <div className="footer-copyright">
-            <p>
-              &copy; {new Date().getFullYear()} {copyrightText}
-            </p>
-            <p className="footer-location">
-              <span>{locationLabel}</span>
-              <span className="footer-location-separator"> · </span>
-              <span className="footer-localtime-label">
-                {localTimeLabel}:
-              </span>
-              <LocalClock locale={locale} />
-            </p>
+      </header>
+
+      <section>
+        <div className="container">
+          <div className="axial-header">
+            <span className="section-tag">{dict?.quienes_somos_detalle?.history?.tag || 'Nuestra Historia'}</span>
           </div>
-          <div className="footer-legal">
-            <Link href={getRoute(locale, "legalNotice")}>{legalNoticeLabel}</Link>
-            <Link href={getRoute(locale, "privacy")}>{privacyLabel}</Link>
-          </div>
+          <p>{dict?.quienes_somos_detalle?.history?.p1 || 'Mac Consultores Jurídicos & Asociados es una firma boutique...'}</p>
+          <p>{dict?.quienes_somos_detalle?.history?.p2 || 'Desde su fundación...'}</p>
+          <p>{dict?.quienes_somos_detalle?.history?.p3 || 'Bajo su dirección general...'}</p>
+          <p>{dict?.quienes_somos_detalle?.history?.p4 || 'Actualmente, el Dr. Marco A. Colina...'}</p>
         </div>
-      </div>
-    </footer>
+      </section>
+
+      <section className="bg-soft">
+        <div className="container">
+          <div className="axial-header">
+            <h2 className="section-title">{dict?.quienes_somos_detalle?.mission?.title || 'Misión y Valores'}</h2>
+          </div>
+          <p>{dict?.quienes_somos_detalle?.mission?.p1 || 'Nuestra misión es transformar...'}</p>
+          <p>{dict?.quienes_somos_detalle?.mission?.p2 || 'Esta misión se sostiene sobre principios...'}</p>
+          <ul>
+            <li dangerouslySetInnerHTML={{ __html: dict?.quienes_somos_detalle?.mission?.list?.[0] || '<strong>Legalidad y diligencia profesional</strong> — como fundamento inquebrantable de toda actuación jurídica.' }} />
+            <li dangerouslySetInnerHTML={{ __html: dict?.quienes_somos_detalle?.mission?.list?.[1] || '<strong>Independencia técnica</strong> — que garantiza criterios objetivos...' }} />
+            <li dangerouslySetInnerHTML={{ __html: dict?.quienes_somos_detalle?.mission?.list?.[2] || '<strong>Transparencia y buena fe</strong> — en cada etapa...' }} />
+            <li dangerouslySetInnerHTML={{ __html: dict?.quienes_somos_detalle?.mission?.list?.[3] || '<strong>Confidencialidad y secreto profesional</strong> — como compromiso absoluto...' }} />
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div className="container">
+          <div className="axial-header">
+            <h2 className="section-title">{dict?.quienes_somos_detalle?.areas?.title || 'Áreas de Práctica'}</h2>
+          </div>
+          <p>{dict?.quienes_somos_detalle?.areas?.p1 || 'El ejercicio profesional de la firma...'}</p>
+          <ul>
+            <li dangerouslySetInnerHTML={{ __html: dict?.quienes_somos_detalle?.areas?.list?.[0] || '<strong>Derecho Penal Corporativo:</strong> Defensa técnica especializada...' }} />
+            <li dangerouslySetInnerHTML={{ __html: dict?.quienes_somos_detalle?.areas?.list?.[1] || '<strong>Consultoría Estratégica en Riesgos Jurídicos:</strong> Diagnóstico preventivo...' }} />
+            <li dangerouslySetInnerHTML={{ __html: dict?.quienes_somos_detalle?.areas?.list?.[2] || '<strong>Litigación y Defensa Especializada:</strong> Representación técnica...' }} />
+          </ul>
+        </div>
+      </section>
+
+      <section className="bg-soft">
+        <div className="container">
+          <div className="axial-header">
+            <h2 className="section-title">{dict?.quienes_somos_detalle?.distinction?.title || 'Lo Que Nos Distingue'}</h2>
+          </div>
+          <p>{dict?.quienes_somos_detalle?.distinction?.p1 || 'Cada asunto sometido a nuestra consideración...'}</p>
+          <p>{dict?.quienes_somos_detalle?.distinction?.p2 || 'Complementamos esta metodología...'}</p>
+          <p>{dict?.quienes_somos_detalle?.distinction?.p3 || 'Esta combinación de tradición jurídica y modernidad...'}</p>
+          <p>{dict?.quienes_somos_detalle?.distinction?.p4 || 'En Mac Consultores Jurídicos & Asociados no formulamos promesas...'}</p>
+          <blockquote style={{ fontSize: '1.5rem', fontStyle: 'italic', marginTop: '2rem', borderLeft: '4px solid var(--primary-color)', paddingLeft: '1rem' }}>
+            {dict?.quienes_somos_detalle?.distinction?.quote || '"Nuestra misión es transformar desafíos legales en escenarios de seguridad jurídica y crecimiento."'}
+          </blockquote>
+        </div>
+      </section>
+    </main>
   );
 }
