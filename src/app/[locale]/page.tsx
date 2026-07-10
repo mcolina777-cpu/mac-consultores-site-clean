@@ -66,14 +66,17 @@ export default async function Home({ params }: Props) {
 
       <InsightDelDia locale={locale} />
 
-      <section className="bg-soft">
+      <section className="bg-soft section-firma">
         <div className="container">
           <div className="grid-split">
-            <div className="img-reveal">
-              <picture>
-                <source srcSet="/assets/img-webp/RECEPCION_2_OPT.webp" type="image/webp" />
-                <img src="/assets/img/RECEPCION_2_OPT.jpg" alt="Recepción" width="2752" height="1536" loading="lazy" />
-              </picture>
+            <div className="img-reveal-wrapper">
+              <div className="img-reveal">
+                <picture>
+                  <source srcSet="/assets/img-webp/RECEPCION_2_OPT.webp" type="image/webp" />
+                  <img src="/assets/img/RECEPCION_2_OPT.jpg" alt="Recepción" width="2752" height="1536" loading="lazy" />
+                </picture>
+              </div>
+              <p className="img-caption">Instalaciones de nuestra sede principal</p>
             </div>
             <div className="about-text">
               <span className="section-tag">{dict?.about?.tag}</span>

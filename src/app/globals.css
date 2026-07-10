@@ -608,6 +608,32 @@ footer, .footer {
     object-fit: cover;
 }
 
+/* Bloque Firma Premium */
+.section-firma {
+    padding: 60px 0;
+}
+
+.section-firma .grid-split {
+    align-items: center;
+    gap: 4rem;
+}
+
+.img-reveal-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-caption {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.5px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding-bottom: 0.5rem;
+}
+
 .about-text {
     display: flex;
     flex-direction: column;
