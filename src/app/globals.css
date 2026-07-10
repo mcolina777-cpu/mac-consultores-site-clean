@@ -327,6 +327,13 @@ section {
 /* Grid Systems */
 .grid-split {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+/* Specific Modifiers for Quiénes Somos */
+.page-quienes-somos .grid-split {
     grid-template-columns: 1.1fr 1fr;
     gap: 2.5rem;
     align-items: start;
@@ -594,18 +601,25 @@ footer, .footer {
 
 /* Utility Classes */
 .img-reveal {
-    border-radius: 12px;
+    border-radius: 8px;
     overflow: hidden;
-    background-color: #2a2a2a;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
 .img-reveal img {
     width: 100%;
     height: auto;
-    max-height: 480px;
     display: block;
     object-fit: cover;
+}
+
+/* Specific Modifiers for Quiénes Somos */
+.page-quienes-somos .img-reveal {
+    border-radius: 12px;
+    background-color: #2a2a2a;
+}
+.page-quienes-somos .img-reveal img {
+    max-height: 480px;
 }
 
 /* Bloque Firma Premium */
