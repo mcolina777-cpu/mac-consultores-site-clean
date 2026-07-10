@@ -631,6 +631,17 @@ footer, .footer {
   object-position: center center;
 }
 
+/* Override para imagen vertical */
+.page-quienes-somos .img-reveal.img-vertical {
+  max-height: 100%;
+}
+
+.page-quienes-somos .img-reveal.img-vertical picture,
+.page-quienes-somos .img-reveal.img-vertical img {
+  height: auto;
+  aspect-ratio: 9 / 16;
+}
+
 /* Bloque Firma Premium */
 .section-firma {
     padding: 60px 0;

@@ -99,17 +99,17 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               </article>
             </div>
 
-            {/* Columna derecha: imagen de la firma (OFICINA_1) */}
-            <div className="img-reveal">
+            {/* Columna derecha: imagen de la firma (OFICINA_3_vertical) */}
+            <div className="img-reveal img-vertical">
               <picture>
                 <source
-                  srcSet="/assets/img-webp/OFICINA_1.webp"
+                  srcSet="/assets/img-webp/OFICINA_3_vertical.webp"
                   type="image/webp"
                 />
                 <img
-                  src="/assets/img/OFICINA_1.jpg"
+                  src="/assets/img/OFICINA_3_vertical.jpg"
                   alt="Sede de Mac Consultores Jurídicos & Asociados"
-                  width={2752}
+                  width={864}
                   height={1536}
                   loading="lazy"
                 />
