@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props) {
       siteName: 'Mac Consultores Jurídicos & Asociados',
       images: [
         {
-          url: '/assets/img/logo-mac-og.jpg',
+          url: 'https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg',
           width: 1200,
           height: 630,
           alt: 'Logo de Mac Consultores Jurídicos & Asociados',
@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props) {
       card: 'summary_large_image',
       title,
       description,
-      images: ['/assets/img/logo-mac-og.jpg'],
+      images: ['https://mac-consultores-site-clean.vercel.app/assets/img/logo-mac-og.jpg'],
     },
   };
 }
