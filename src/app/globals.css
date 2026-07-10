@@ -1066,6 +1066,12 @@ nav .nav-links a {
         max-height: 320px;
     }
 
+    /* Ajuste QUIRÚRGICO solo para la imagen del CEO en la página Nuestro CEO */
+    .img-reveal img[src*="ceo.png"] {
+        max-height: none;
+        object-fit: contain;
+    }
+
     /* 2. HEADER / NAVBAR */
     nav .container {
         flex-direction: row;
