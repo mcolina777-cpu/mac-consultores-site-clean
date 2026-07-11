@@ -1,9 +1,22 @@
 import type { Metadata } from "next";
+import { Cormorant_Garamond, Inter } from "next/font/google";
 import "../globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { getDictionary } from "@/i18n/getDictionary";
 import WhatsAppFloatButton from "@/components/WhatsAppFloatButton";
+
+const cormorantGaramond = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-cormorant",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://mac-consultores-site-clean.vercel.app'),
@@ -27,9 +40,8 @@ export default async function RootLayout({
   const dict = await getDictionary(locale);
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={`${cormorantGaramond.variable} ${inter.variable}`}>
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/mac/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="192x192" href="/assets/mac/mac-icon-192.png" />

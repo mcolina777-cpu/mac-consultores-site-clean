@@ -7,7 +7,7 @@ interface LogoProps {
 
 export default function LogoSVG({ className = '', isDarkTheme = false }: LogoProps) {
   const textColor = isDarkTheme ? '#FFFFFF' : '#002644';
-  const gradientId = `goldGradient-${Math.random().toString(36).substring(2, 9)}`;
+  const gradientId = 'goldGradient-mac';
   
   return (
     <svg 

@@ -1,10 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getRoute } from "@/lib/routes";
 
 export default function Hero({ dict, locale }: { dict: any, locale: string }) {
   return (
     <header className="hero">
+      <Image
+        src="/assets/img/SALA_DE_REUNIONES_1_OPT.jpg"
+        alt="Sede principal"
+        fill
+        priority
+        style={{ objectFit: 'cover', objectPosition: 'center', zIndex: -1 }}
+      />
       <div className="container">
         <div className="hero-content">
 
