@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "audit:assets": "node scripts/auditUnusedAssets.js",
-    "clean:assets": "node scripts/cleanUnusedAssets.js"
+    "clean:assets": "node scripts/cleanUnusedAssets.js",
+    "backup-clean:assets": "node scripts/backupAndCleanAssets.js"
   },
   "dependencies": {
     "next": "16.2.9",
