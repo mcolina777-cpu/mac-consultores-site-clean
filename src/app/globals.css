@@ -1444,6 +1444,31 @@ nav .nav-links a {
     .section-strategies .axial-header.axial-centered {
         margin-bottom: 1.5rem; /* en vez de 3rem y 4rem que vienen del estilo base */
     }
+
+    /* AJUSTE DE ALTURA PARA LA SECCIÓN FIRMA EN LA HOME (SOLO MÓVIL) */
+
+    /* Sección completa de la FIRMA en la HOME */
+    section.bg-soft.section-firma {
+        min-height: auto !important;   /* que NO tenga altura mínima extra */
+        height: auto !important;       /* altura igual al contenido real */
+    }
+
+    /* Contenedor de la imagen de recepción dentro de la sección FIRMA */
+    section.bg-soft.section-firma .img-reveal {
+        height: auto !important;
+        min-height: 0 !important;
+    }
+
+    /* Wrapper de la imagen + caption en la sección FIRMA */
+    section.bg-soft.section-firma .img-reveal-wrapper {
+        height: auto !important;
+        min-height: 0 !important;
+    }
+
+    /* Encabezado de "Estrategias Representativas" (la sección inmediatamente después) */
+    section.bg-soft.section-strategies .axial-header.axial-centered {
+        margin-bottom: 1.5rem !important; /* espacio razonable antes de las tarjetas */
+    }
 }
 
 /* Local Time Footer Styles */
