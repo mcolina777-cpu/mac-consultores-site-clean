@@ -210,17 +210,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
           <div className="grid-split reverse">
             <div className="img-reveal">
               <picture>
-                <source
-                  srcSet="/assets/img-webp/OFICINA_4.webp"
-                  type="image/webp"
-                />
-                <img
-                  src="/assets/img/OFICINA_4.jpeg"
-                  alt="Oficina ejecutiva de Mac Consultores Jurídicos & Asociados"
-                  width={2752}
-                  height={1536}
-                  loading="lazy"
-                />
+                <img src="/assets/img/OFICINA-4-SIN-ICONO.jpeg" alt="Oficina ejecutiva de Mac Consultores Jurídicos & Asociados" width={2752} height={1536} loading="lazy" />
               </picture>
             </div>
             <div className="vision-text">
