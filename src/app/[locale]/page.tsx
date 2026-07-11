@@ -70,7 +70,7 @@ export default async function Home({ params }: Props) {
         <div className="container">
           <div className="grid-split">
             <div className="img-reveal-wrapper">
-              <div className="img-reveal">
+              <div className="img-reveal img-vertical">
                 <picture>
                   <source srcSet="/assets/img-webp/RECEPCION_2_OPT.webp" type="image/webp" />
                   <img src="/assets/img/RECEPCION_2_OPT.jpg" alt="Recepción" width="2752" height="1536" loading="lazy" />

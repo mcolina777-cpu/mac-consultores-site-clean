@@ -611,6 +611,20 @@ footer, .footer {
     object-fit: cover;
 }
 
+/* Tratamiento genérico para imágenes verticales en contenedores img-reveal */
+.img-reveal.img-vertical {
+  max-height: 100%;
+}
+
+.img-reveal.img-vertical picture,
+.img-reveal.img-vertical img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16;
+  display: block;
+  object-fit: cover;
+}
+
 /* Specific Modifiers for Quiénes Somos */
 .page-quienes-somos .img-reveal {
   max-height: 360px;
@@ -1087,6 +1101,10 @@ nav .nav-links a {
         height: auto;            /* deja que la altura se adapte al contenido */
         max-height: 320px;       /* mantiene control editorial sin forzar un rectángulo rígido */
         object-fit: cover;       /* conserva el encuadre elegante de la foto */
+    }
+
+    .section-firma .img-reveal.img-vertical img {
+        max-height: 360px;     /* techo razonable para vertical en móvil */
     }
 
     .grid-split, .grid-2, .grid-3 { 
