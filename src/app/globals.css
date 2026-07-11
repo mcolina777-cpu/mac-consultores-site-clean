@@ -1082,29 +1082,33 @@ nav .nav-links a {
         width: 100%;
     }
     
+    /* En móvil, las secciones ya controladas no necesitan padding genérico tan grande */
     section {
-        padding: 50px 0; /* Menos padding en móvil */
+        padding: 32px 0; /* valor base más bajo */
     }
 
     /* Ajuste quirúrgico para la sección de la firma en home */
     .section-firma {
-        padding: 40px 0 30px 0;  /* menos espacio debajo de la imagen en móvil */
+        padding-top: 16px;   /* mucho menos espacio arriba */
+        padding-bottom: 12px;/* casi pega con la siguiente sección */
     }
 
     /* Ajuste específico para "Estrategias Representativas" en home */
     .section-strategies {
-        padding: 30px 0 40px 0;  /* se acerca a la sección-firma en móvil */
+        padding-top: 12px;   /* el título sube visualmente hacia la imagen */
+        padding-bottom: 28px;
     }
 
-    /* Comportamiento más fluido de la imagen dentro de section-firma en móvil */
+    /* Comportamiento más compacto de la imagen dentro de section-firma en móvil */
     .section-firma .img-reveal img {
-        height: auto;            /* deja que la altura se adapte al contenido */
-        max-height: 320px;       /* mantiene control editorial sin forzar un rectángulo rígido */
-        object-fit: cover;       /* conserva el encuadre elegante de la foto */
+        height: auto;
+        max-height: 260px;   /* bajamos el techo de altura para móvil */
+        object-fit: cover;
     }
 
+    /* Imagen vertical de recepción en home: aún más controlada en móvil */
     .section-firma .img-reveal.img-vertical img {
-        max-height: 360px;     /* techo razonable para vertical en móvil */
+        max-height: 260px;   /* igual que la regla anterior, no más alta */
     }
 
     .grid-split, .grid-2, .grid-3 { 
@@ -1433,6 +1437,11 @@ nav .nav-links a {
     .footer-legal a {
         font-size: 0.95rem;
         padding: 0.25rem 0;
+    }
+
+    /* Encabezado de "Estrategias Representativas" más compacto en móvil */
+    .section-strategies .axial-header.axial-centered {
+        margin-bottom: 1.5rem; /* en vez de 3rem y 4rem que vienen del estilo base */
     }
 }
 
