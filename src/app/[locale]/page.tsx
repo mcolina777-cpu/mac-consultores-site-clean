@@ -71,8 +71,7 @@ export default async function Home({ params }: Props) {
             <div className="img-reveal-wrapper">
               <div className="img-reveal img-vertical">
                 <picture>
-                  <source srcSet="/assets/img-webp/OFICINA_4_OPT.webp" type="image/webp" />
-                  <img src="/assets/img/OFICINA_4_OPT.jpg" alt="Oficina de Mac Consultores Jurídicos & Asociados en Caracas" width="2752" height="1536" loading="lazy" />
+                  <img src="/assets/img/OFICINA-4-SIN-ICONO.jpeg" alt="Oficina de Mac Consultores Jurídicos & Asociados en Caracas" width="2752" height="1536" loading="lazy" />
                 </picture>
               </div>
               <p className="img-caption">Instalaciones de nuestra sede principal</p>
