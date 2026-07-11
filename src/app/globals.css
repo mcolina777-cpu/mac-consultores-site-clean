@@ -1121,11 +1121,11 @@ nav .nav-links a {
         max-height: 320px;
     }
 
-    /* Ajuste QUIRÚRGICO solo para la imagen del CEO en la página Nuestro CEO */
-    .img-reveal img[src*="ceo.png"] {
+    /* Obsoleto: regla específica para ceo.png, ya migrado a otro formato/estructura */
+    /* .img-reveal img[src*="ceo.png"] {
         max-height: none;
         object-fit: contain;
-    }
+    } */
 
     /* 2. HEADER / NAVBAR */
     nav .container {
@@ -1449,25 +1449,41 @@ nav .nav-links a {
 
     /* Sección completa de la FIRMA en la HOME */
     section.bg-soft.section-firma {
-        min-height: auto !important;   /* que NO tenga altura mínima extra */
-        height: auto !important;       /* altura igual al contenido real */
+        min-height: auto;   /* que NO tenga altura mínima extra */
+        height: auto;       /* altura igual al contenido real */
     }
 
     /* Contenedor de la imagen de recepción dentro de la sección FIRMA */
     section.bg-soft.section-firma .img-reveal {
-        height: auto !important;
-        min-height: 0 !important;
+        height: auto;
+        min-height: 0;
     }
 
     /* Wrapper de la imagen + caption en la sección FIRMA */
     section.bg-soft.section-firma .img-reveal-wrapper {
-        height: auto !important;
-        min-height: 0 !important;
+        height: auto;
+        min-height: 0;
     }
 
-    /* Encabezado de "Estrategias Representativas" (la sección inmediatamente después) */
-    section.bg-soft.section-strategies .axial-header.axial-centered {
-        margin-bottom: 1.5rem !important; /* espacio razonable antes de las tarjetas */
+    /* Elementos adicionales integrados */
+    .page-contacto .grid-2 {
+        grid-template-columns: 1fr;
+        gap: 2rem !important; /* Se mantiene por si compite con el grid general */
+    }
+    
+    .form-card {
+        position: static !important;
+    }
+    
+    .social-cards {
+        flex-direction: column;
+    }
+
+    .page-quienes-somos .grid-split {
+        gap: 16px;
+    }
+    .page-quienes-somos .quienes-somos-card {
+        margin-top: 1rem;
     }
 }
 
@@ -1611,20 +1627,7 @@ nav .nav-links a {
     font-family: 'Inter', sans-serif;
 }
 
-@media (max-width: 768px) {
-    .page-contacto .grid-2 {
-        grid-template-columns: 1fr;
-        gap: 2rem !important;
-    }
-    
-    .form-card {
-        position: static !important;
-    }
-    
-    .social-cards {
-        flex-direction: column;
-    }
-}
+
 
 
 
@@ -1742,11 +1745,4 @@ nav .nav-links a {
   }
 }
 
-@media (max-width: 768px) {
-  .page-quienes-somos .grid-split {
-    gap: 16px;
-  }
-  .page-quienes-somos .quienes-somos-card {
-    margin-top: 1rem;
-  }
-}
+

@@ -14,24 +14,23 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ? 'Firma boutique en Caracas especializada en litigio penal de alta complejidad, derecho constitucional y compliance corporativo preventivo.'
     : 'Boutique law firm in Caracas specializing in highly complex criminal litigation, constitutional law, and preventive corporate compliance.';
   
-  const url = `https://mac-consultores-site-clean.vercel.app/${locale}`;
-  const esUrl = `https://mac-consultores-site-clean.vercel.app/es`;
-  const enUrl = `https://mac-consultores-site-clean.vercel.app/en`;
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
 
   return {
+    metadataBase: new URL(BASE_URL),
     title,
     description,
     alternates: {
-      canonical: url,
+      canonical: `/${locale}`,
       languages: {
-        'es': esUrl,
-        'en': enUrl,
+        'es': '/es',
+        'en': '/en',
       },
     },
     openGraph: {
       title,
       description,
-      url,
+      url: `/${locale}`,
       siteName: 'Mac Consultores Jurídicos & Asociados',
       images: [
         {
