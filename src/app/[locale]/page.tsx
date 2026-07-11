@@ -92,7 +92,7 @@ export default async function Home({ params }: Props) {
       </section>
 
       {/* ESTRATEGIAS REPRESENTATIVAS */}
-      <section className="bg-soft">
+      <section className="bg-soft section-strategies">
         <div className="container">
           <div className="axial-header axial-centered">
             <span className="section-tag">{dict?.home?.strategies?.tag}</span>

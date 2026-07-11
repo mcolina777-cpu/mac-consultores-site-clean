@@ -646,6 +646,11 @@ footer, .footer {
     padding: 60px 0;
 }
 
+/* Nueva sección específica para Estrategias Representativas */
+.section-strategies {
+    padding: 60px 0;
+}
+
 .section-firma .grid-split {
     align-items: center;
     gap: 4rem;
@@ -1065,6 +1070,23 @@ nav .nav-links a {
     
     section {
         padding: 50px 0; /* Menos padding en móvil */
+    }
+
+    /* Ajuste quirúrgico para la sección de la firma en home */
+    .section-firma {
+        padding: 40px 0 30px 0;  /* menos espacio debajo de la imagen en móvil */
+    }
+
+    /* Ajuste específico para "Estrategias Representativas" en home */
+    .section-strategies {
+        padding: 30px 0 40px 0;  /* se acerca a la sección-firma en móvil */
+    }
+
+    /* Comportamiento más fluido de la imagen dentro de section-firma en móvil */
+    .section-firma .img-reveal img {
+        height: auto;            /* deja que la altura se adapte al contenido */
+        max-height: 320px;       /* mantiene control editorial sin forzar un rectángulo rígido */
+        object-fit: cover;       /* conserva el encuadre elegante de la foto */
     }
 
     .grid-split, .grid-2, .grid-3 { 
