@@ -1082,33 +1082,33 @@ nav .nav-links a {
         width: 100%;
     }
     
-    /* En móvil, las secciones ya controladas no necesitan padding genérico tan grande */
+    /* En móvil, base más baja y secciones clave muy compactas */
     section {
-        padding: 32px 0; /* valor base más bajo */
+        padding: 32px 0;
     }
 
-    /* Ajuste quirúrgico para la sección de la firma en home */
+    /* Firma: casi pegada a la siguiente sección */
     .section-firma {
-        padding-top: 16px;   /* mucho menos espacio arriba */
-        padding-bottom: 12px;/* casi pega con la siguiente sección */
+        padding-top: 8px;
+        padding-bottom: 4px;
     }
 
-    /* Ajuste específico para "Estrategias Representativas" en home */
+    /* Estrategias: título muy cercano a la firma */
     .section-strategies {
-        padding-top: 12px;   /* el título sube visualmente hacia la imagen */
-        padding-bottom: 28px;
+        padding-top: 8px;
+        padding-bottom: 24px;
     }
 
-    /* Comportamiento más compacto de la imagen dentro de section-firma en móvil */
+    /* Imagen de recepción en sección firma: sin límite rígido en móvil */
     .section-firma .img-reveal img {
         height: auto;
-        max-height: 260px;   /* bajamos el techo de altura para móvil */
+        max-height: none;   /* quitamos el techo de 260px */
         object-fit: cover;
     }
 
-    /* Imagen vertical de recepción en home: aún más controlada en móvil */
+    /* Imagen vertical de recepción en home: igual, sin techo adicional */
     .section-firma .img-reveal.img-vertical img {
-        max-height: 260px;   /* igual que la regla anterior, no más alta */
+        max-height: none;
     }
 
     .grid-split, .grid-2, .grid-3 { 
@@ -1116,6 +1116,7 @@ nav .nav-links a {
         gap: 24px; 
     }
 
+    /* Techo general para otras imágenes (no afecta a la firma por mayor especificidad) */
     .img-reveal img {
         max-height: 320px;
     }
