@@ -11,6 +11,7 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
         alt="Sede principal"
         fill
         priority
+        fetchPriority="high"
         style={{ objectFit: 'cover', objectPosition: 'center', zIndex: -1 }}
       />
       <div className="container">

@@ -1087,6 +1087,25 @@ nav .nav-links a {
         padding: 32px 0;
     }
 
+    /* === NUEVOS AJUSTES AÑADIDOS === */
+    /* Ajustes de padding para páginas interiores en móvil */
+    main.page-quienes-somos section {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    main.page-servicios section {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    /* Page Contact: algo más de aire porque incluye formulario largo */
+    main.page-contacto section {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+    /* ============================== */
+
     /* Firma: casi pegada a la siguiente sección */
     .section-firma {
         padding-top: 8px;
