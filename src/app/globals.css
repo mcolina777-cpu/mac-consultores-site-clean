@@ -214,7 +214,11 @@ nav .nav-links {
     overflow: hidden;
 }
 
-/* Capa oscura para que siempre se vean las letras encima de la foto */
+/* Capa oscura para que siempre se vean las letras encima de la foto.
+   DOCUMENTACIÓN DEL CAMBIO: 
+   - La imagen del Hero se ha actualizado a "Hero Principal 1 – estética premium 2026".
+   - Se mantiene intacto el sistema de tokens y responsive existente.
+*/
 .hero::before {
     content: '';
     position: absolute;

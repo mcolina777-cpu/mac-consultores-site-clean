@@ -7,11 +7,12 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
   return (
     <header className="hero">
       <Image
-        src="/assets/img/OFICINA_PRINCIPAL.jpg" // Imagen original en degradé azul
-        alt="Sede principal de Mac Consultores Jurídicos & Asociados"
+        src="/assets/img/MAC CONSULTORES JURIDICOS & ASOCIADOS - Mac-Consultores - Hero Principal 1.jpeg"
+        alt="Sede principal de Mac Consultores Jurídicos & Asociados, estilo premium 2026"
         fill
         priority
         fetchPriority="high"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
         style={{ objectFit: 'cover', objectPosition: 'center', zIndex: -1 }}
       />
       <div className="container">
