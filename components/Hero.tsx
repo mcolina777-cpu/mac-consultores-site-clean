@@ -7,8 +7,8 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
   return (
     <header className="hero">
       <Image
-        src="/assets/img/SALA_REUNIONES_1_OPT.jpg"
-        alt="Sede principal"
+        src="/assets/img/HERO_MAC_PRINCIPAL.jpg" // Imagen propia del hero (NO la de Internacional)
+        alt="Sede principal de Mac Consultores Jurídicos & Asociados"
         fill
         priority
         fetchPriority="high"
