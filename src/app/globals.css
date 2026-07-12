@@ -1099,11 +1099,13 @@ nav .nav-links a {
         padding-bottom: 24px;
     }
 
-    /* Imagen de recepción en sección firma: sin límite rígido en móvil */
+    /* Imagen de recepción en sección firma: ajustes para móvil */
     .section-firma .img-reveal img {
         height: auto;
-        max-height: none;   /* quitamos el techo de 260px */
-        object-fit: cover;
+        max-width: 280px;
+        margin: 0 auto 1.5rem auto;
+        object-fit: contain;
+        display: block;
     }
 
     /* Imagen vertical de recepción en home: igual, sin techo adicional */
