@@ -14,6 +14,18 @@ export default function Navbar({ dict, locale }: { dict: any, locale: string }) 
     setIsMobileMenuOpen(false);
   }, [pathname]);
 
+  // Bloquear scroll cuando el menú está abierto
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isMobileMenuOpen]);
+
   // Generamos las URLs correctas quitando el prefijo de locale actual
   const getLocalizedUrl = (targetLocale: string) => {
     if (!pathname) return '/';
@@ -35,12 +47,15 @@ export default function Navbar({ dict, locale }: { dict: any, locale: string }) 
         
         <button 
           className="mobile-menu-text-btn" 
+          aria-expanded={isMobileMenuOpen}
+          aria-controls="mobile-menu"
+          aria-label={isMobileMenuOpen ? 'Cerrar menú de navegación' : 'Abrir menú de navegación'}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? 'CERRAR' : 'MENÚ'}
         </button>
 
-        <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
+        <ul id="mobile-menu" className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
           <li><Link href={getRoute(locale, "home")}>{dict?.inicio}</Link></li>
           <li><Link href={getRoute(locale, "about")}>{dict?.firma}</Link></li>
           <li><Link href={getRoute(locale, "services")}>{dict?.servicios}</Link></li>

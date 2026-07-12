@@ -1108,6 +1108,23 @@ nav .nav-links a {
         display: block;
     }
 
+    /* Foto del Director en página de Firma: sin recorte en móvil */
+    .page-firma .section-firma .img-reveal {
+        overflow: visible;      /* quita el recorte del contenedor solo en móvil */
+        max-height: none;
+    }
+
+    .page-firma .section-firma .img-reveal img {
+        height: auto;
+        max-width: 280px;       /* estilo premium, no demasiado grande */
+        width: 100%;
+        margin: 0 auto 1.5rem auto;
+        object-fit: contain;    /* muestra la foto completa */
+        object-position: center center;
+        display: block;
+        max-height: none;       /* Asegurar prioridad sobre el max-height global */
+    }
+
     /* Imagen vertical de recepción en home: igual, sin techo adicional */
     .section-firma .img-reveal.img-vertical img {
         max-height: none;
@@ -1793,4 +1810,10 @@ nav .nav-links a {
   }
 }
 
+/* Accesibilidad: Estilos de foco visibles para teclado */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent, #D4AF37);
+  outline-offset: 4px;
+}
 

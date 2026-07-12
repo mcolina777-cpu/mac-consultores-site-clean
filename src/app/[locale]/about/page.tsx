@@ -111,7 +111,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
                   alt="Sede de Mac Consultores Jurídicos & Asociados"
                   width={1536}
                   height={2752}
-                  loading="lazy"
+                  fetchPriority="high"
                 />
               </picture>
             </div>
