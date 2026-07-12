@@ -58,7 +58,7 @@ export default async function NuestroCEO({ params }: Props) {
   const dict = await getDictionary(locale);
 
   return (
-    <main>
+    <main className="page-our-ceo">
       <header className="page-header">
         <div className="container">
           <span className="breadcrumb">{dict?.ceo?.breadcrumb}</span>

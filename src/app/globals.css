@@ -1504,6 +1504,23 @@ nav .nav-links a {
     .page-quienes-somos .quienes-somos-card {
         margin-top: 1rem;
     }
+
+    /* Página our-ceo: foto del Director sin recorte en móvil */
+    .page-our-ceo .img-reveal {
+        overflow: visible;
+        max-height: none;
+    }
+
+    .page-our-ceo .img-reveal img {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+        object-position: center center;
+        max-height: none;
+    }
 }
 
 /* Local Time Footer Styles */
