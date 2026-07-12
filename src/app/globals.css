@@ -1747,4 +1747,50 @@ nav .nav-links a {
   }
 }
 
+/* Ajuste fino de espaciados en móvil para la página "Quiénes Somos" */
+@media (max-width: 768px) {
+  /* Compactar secciones solo en page-quienes-somos */
+  .page-quienes-somos section {
+    padding-top: 20px;
+    padding-bottom: 24px;
+  }
+
+  /* Reducir aún más el gap del primer bloque texto + imagen */
+  .page-quienes-somos .grid-split {
+    gap: 12px;
+  }
+
+  /* Acercar la tarjeta a los párrafos iniciales */
+  .page-quienes-somos .quienes-somos-card {
+    margin-top: 0.75rem;
+  }
+
+  /* Limitar altura de la imagen vertical para evitar “bloques” de aire */
+  .page-quienes-somos .img-reveal.img-vertical {
+    max-height: 260px;
+  }
+
+  .page-quienes-somos .img-reveal.img-vertical picture,
+  .page-quienes-somos .img-reveal.img-vertical img {
+    height: 260px;
+    max-height: 260px;
+    object-fit: cover;
+  }
+
+  /* Neutralizar la regla genérica que pone max-height: 320px en esta página */
+  .page-quienes-somos .img-reveal img {
+    max-height: none;
+  }
+
+  /* Sección "Estrategias representativas": aún más compacta en móvil */
+  .page-quienes-somos .section-strategies {
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+
+  .page-quienes-somos .section-strategies .axial-header.axial-centered {
+    margin-bottom: 1.25rem;
+  }
+}
+
 
