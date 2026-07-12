@@ -461,6 +461,19 @@ section {
     color: white;
 }
 
+/* Estados de foco y active consistentes para botones outline */
+.btn-outline:focus,
+.btn-outline:active {
+    background: var(--primary);
+    color: white;
+    outline: none;
+}
+
+/* Elimina el destello gris del tap en móviles WebKit */
+.btn-outline {
+    -webkit-tap-highlight-color: transparent;
+}
+
 /* FOOTER */
 footer, .footer {
     background: var(--primary-dark);
