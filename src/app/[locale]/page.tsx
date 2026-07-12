@@ -79,7 +79,7 @@ export default async function Home({ params }: Props) {
                   className="our-firm-img-vertical"
                 />
               </div>
-              <p className="img-caption">Instalaciones de nuestra sede principal</p>
+              <p className="img-caption"></p>
             </div>
             <div className="about-text">
               <span className="section-tag">{dict?.about?.tag}</span>
