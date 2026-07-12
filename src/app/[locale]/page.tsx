@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Hero from '@/components/Hero';
 import InsightDelDia from '@/components/InsightDelDia';
 import Link from 'next/link';
@@ -70,9 +71,13 @@ export default async function Home({ params }: Props) {
           <div className="grid-split">
             <div className="img-reveal-wrapper">
               <div className="img-reveal img-vertical">
-                <picture>
-                  <img src="/assets/img/OFICINA-4-SIN-ICONO.jpeg" alt="Oficina de Mac Consultores Jurídicos & Asociados en Caracas" width="2752" height="1536" loading="lazy" />
-                </picture>
+                <Image 
+                  src="/assets/img/MAC CONSULTORES JURIDICOS & ASOCIADOS- Mac-Consultores - Lobby 1.jpeg" 
+                  alt="Lobby principal de Mac Consultores Jurídicos & Asociados" 
+                  width={1080} 
+                  height={1920} 
+                  className="our-firm-img-vertical"
+                />
               </div>
               <p className="img-caption">Instalaciones de nuestra sede principal</p>
             </div>
