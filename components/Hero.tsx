@@ -16,7 +16,6 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
       />
       <div className="container">
         <div className="hero-content">
-
           <span className="section-tag">{dict?.tag}</span>
           <h1>{dict?.h1}</h1>
           <p>
@@ -27,7 +26,10 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
               {dict?.btn}
             </Link>
             {dict?.btn_hint && (
-              <p className="hero-btn-hint mt-1rem text-sm" style={{ opacity: 0.8, fontSize: '0.85rem' }}>
+              <p
+                className="hero-btn-hint mt-1rem text-sm"
+                style={{ opacity: 0.8, fontSize: '0.85rem' }}
+              >
                 {dict.btn_hint}
               </p>
             )}
