@@ -1204,13 +1204,14 @@ nav .nav-links a {
 
     /* Versión móvil del logo: se sobreescribe la versión desktop */
     nav .logo {
-        flex: 0 0 auto;     /* deja de ser un ancho fijo grande */
-        max-width: 68%;     /* suficiente para ver MARCA + CONSULTORES */
+        flex: 0 0 auto;       /* mantiene flex auto para móvil */
+        width: 100%;          /* ancho físico para que las cqw se resuelvan */
+        max-width: 68%;       /* límite para que no ocupe todo el header */
         height: auto;
         display: block;
         margin-bottom: 0;
         position: relative;
-        z-index: 3;         /* por encima del fondo y del menú desplegable */
+        z-index: 3;           /* por encima del fondo y del menú desplegable */
     }
 
     nav .logo img {
