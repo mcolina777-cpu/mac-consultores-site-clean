@@ -7,12 +7,11 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
   return (
     <header className="hero">
       <Image
-        src="/assets/img/hero-principal-mac-consultores-2026.webp"
-        alt=""
+        src="/assets/img/hero-principal-mac-consultores-1.jpeg"
+        alt="Sede principal de Mac Consultores Jurídicos & Asociados"
         fill
         priority
         fetchPriority="high"
-        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
         style={{ objectFit: 'cover', objectPosition: 'center', zIndex: -1 }}
       />
       <div className="container">
