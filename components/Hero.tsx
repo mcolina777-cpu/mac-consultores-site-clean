@@ -7,7 +7,7 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
   return (
     <header className="hero">
       <Image
-        src="/assets/img/hero-principal-mac-consultores-1.jpeg"
+        src="/assets/img/Hero 1.webp"
         alt="Sede principal de Mac Consultores Jurídicos & Asociados"
         fill
         priority
