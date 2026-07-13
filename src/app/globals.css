@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+/* @import removed to avoid FOUC. Fonts are loaded via next/font in layout.tsx */
 
 :root {
     --primary: #003865;
@@ -27,7 +27,7 @@ html, body {
 }
 
 body {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
     font-size: 1.15rem;
     line-height: 1.6;
     color: var(--text-main);
@@ -50,7 +50,7 @@ img {
 
 /* Typography Standards */
 .hero-subtitle {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-inter), 'Inter', sans-serif;
     font-size: 1.5rem;
     color: var(--text-muted);
     font-weight: 300;
@@ -71,7 +71,7 @@ img {
 }
 
 h1, h2, h3, h4, .serif {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
     font-weight: 600;
     color: var(--primary);
     line-height: 1.15;
@@ -204,32 +204,36 @@ nav .nav-links {
 /* Header Mobile Responsiveness moved to the bottom unified block */
 /* Hero Section */
 .hero {
-    height: 650px;
-    background-size: cover;
-    background-position: center center;
     position: relative;
+    min-height: 520px; /* mantener altura hero */
     display: flex;
     align-items: center;
     color: var(--text-white);
     overflow: hidden;
 }
 
-/* Capa oscura para que siempre se vean las letras encima de la foto.
-   DOCUMENTACIÓN DEL CAMBIO: 
-   - La imagen del Hero se ha actualizado a "Hero Principal 1 – estética premium 2026".
-   - Se mantiene intacto el sistema de tokens y responsive existente.
-*/
+/* Overlay que se superpone sobre la imagen de fondo */
 .hero::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(105deg, rgba(0, 38, 68, 0.92) 0%, rgba(0, 56, 101, 0.75) 50%, rgba(0, 56, 101, 0.2) 100%);
+    background: linear-gradient(
+        135deg,
+        rgba(0, 31, 56, 0.75),   /* usa var(--primary-dark) con transparencia */
+        rgba(0, 56, 101, 0.55)   /* usa var(--primary) con transparencia */
+    );
+    pointer-events: none;
+    z-index: 0;
 }
 
-/* Contenido del hero centrado y por encima de la capa oscura */
-.hero-content {
+/* Asegurar que el contenido del hero quede por encima del overlay y la imagen */
+.hero .container,
+.hero .hero-content {
     position: relative;
     z-index: 1;
+}
+
+.hero .hero-content {
     max-width: 720px;
 }
 
@@ -482,7 +486,7 @@ section {
 footer, .footer {
     background: var(--primary-dark);
     color: #ffffff;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
     padding: 100px 0 40px;
     margin-top: auto;
 }
@@ -696,7 +700,7 @@ footer, .footer {
     margin-top: 1rem;
     font-size: 0.8rem;
     color: var(--text-muted);
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-inter), 'Inter', sans-serif;
     letter-spacing: 0.5px;
     text-align: left;
     border-bottom: 1px solid rgba(0,0,0,0.05);
@@ -869,7 +873,7 @@ footer, .footer {
     padding: 12px 15px;
     border: 1px solid #E0E0E0;
     border-radius: 4px;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-inter), 'Inter', sans-serif;
     font-size: 1rem;
     background-color: var(--bg-white);
     color: var(--text-main);
@@ -914,7 +918,7 @@ footer, .footer {
 
 /* Fuerza el mismo tamaño y estilo para todos los enlaces del menú superior */
 nav .nav-links a {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
     font-size: 0.85rem;      /* mismo tamaño de letra para todos */
     font-weight: 600;        /* misma negrita */
     text-transform: uppercase;
@@ -925,8 +929,14 @@ nav .nav-links a {
 
 /* INSIGHT JURIDICO DEL DIA */
 .daily-insight {
-  background: linear-gradient(135deg, var(--primary-dark), var(--primary));
-  padding: 80px 0;
+  background: radial-gradient(circle at top left,
+      rgba(212, 175, 55, 0.08), /* var(--accent) suave */
+      transparent 55%)
+    ,
+    linear-gradient(135deg,
+      rgba(0, 31, 56, 0.98),
+      rgba(0, 56, 101, 0.92));
+  padding: 72px 0;
   color: var(--text-white);
   position: relative;
   overflow: hidden;
@@ -960,11 +970,11 @@ nav .nav-links a {
 
 .daily-insight-concept {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(2.3rem, 4vw, 3.6rem);
+  font-size: clamp(2.1rem, 3.6vw, 3.2rem);
   font-weight: 600;
   color: var(--text-white);
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
   letter-spacing: 0.5px;
   text-align: center;
   opacity: 0;
@@ -1032,7 +1042,7 @@ nav .nav-links a {
     background: none;
     border: none;
     padding: 0;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
     font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -1210,7 +1220,7 @@ nav .nav-links a {
         letter-spacing: 1.5px;
         border-radius: 4px;
         cursor: pointer;
-        font-family: 'Cormorant Garamond', serif;
+        font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
     }
 
     nav .nav-links {
@@ -1244,7 +1254,7 @@ nav .nav-links a {
         display: block;
         padding: 15px;
         font-size: 0.85rem;
-        font-family: 'Cormorant Garamond', serif;
+        font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 1.5px;
@@ -1640,7 +1650,7 @@ nav .nav-links a {
     font-size: 1.05rem;
     font-weight: 500;
     color: var(--primary);
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-inter), 'Inter', sans-serif;
 }
 
 /* Social Brand Cards (New Logo Integration) */
@@ -1696,7 +1706,7 @@ nav .nav-links a {
     font-size: 0.8rem;
     color: var(--accent);
     font-weight: 500;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-inter), 'Inter', sans-serif;
 }
 
 
@@ -1873,4 +1883,38 @@ button:focus-visible {
 /* Bloqueo de scroll cuando el menú móvil está abierto */
 body.nav-open {
   overflow: hidden;
+}
+
+/* Auditoría Técnica: Mejoras en Responsive y CLS */
+@media (max-width: 768px) {
+  /* 1. Touch Targets (WCAG 44x44px min) */
+  .mobile-menu-text-btn {
+    padding: 12px 16px;
+    min-height: 44px;
+  }
+
+  .lang-btn {
+    padding: 12px 8px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .footer-col ul a,
+  .footer-links a,
+  .footer-legal a {
+    padding: 12px 0;
+    display: block;
+  }
+}
+
+/* 2. Estabilidad de layout para imágenes verticales (Evitar saltos/CLS) */
+.img-reveal.img-vertical,
+.page-quienes-somos .img-reveal.img-vertical,
+.page-quienes-somos .img-reveal.img-vertical picture,
+.page-quienes-somos .img-reveal.img-vertical img {
+  width: 100%;
+  height: auto !important;
+  max-height: none !important;
+  aspect-ratio: 9 / 16;
 }
