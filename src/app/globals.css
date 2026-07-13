@@ -1193,21 +1193,33 @@ nav .nav-links a {
     } */
 
     /* 2. HEADER / NAVBAR */
+    /* Header móvil: mismo esquema, pero evitando que el logo se pierda */
     nav .container {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         padding: 15px 20px;
-        flex-wrap: wrap;
+        flex-wrap: nowrap; /* queda en una sola fila */
     }
 
+    /* Versión móvil del logo: se sobreescribe la versión desktop */
     nav .logo {
-        flex: 0 0 auto;
-        margin-bottom: 0;
-        max-width: 65%;
+        flex: 0 0 auto;     /* deja de ser un ancho fijo grande */
+        max-width: 68%;     /* suficiente para ver MARCA + CONSULTORES */
         height: auto;
+        display: block;
+        margin-bottom: 0;
+        position: relative;
+        z-index: 3;         /* por encima del fondo y del menú desplegable */
     }
 
+    nav .logo img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Botón de menú móvil se mantiene, pero sin tapar el logo */
     .mobile-menu-text-btn {
         display: block;
         background-color: transparent;
@@ -1221,8 +1233,15 @@ nav .nav-links a {
         border-radius: 4px;
         cursor: pointer;
         font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
+        z-index: 2;
     }
 
+    nav {
+        position: relative;
+        z-index: 10;
+    }
+
+    /* Menú desplegable móvil: debajo del logo, no encima */
     nav .nav-links {
         display: none;
         position: absolute;
@@ -1235,14 +1254,14 @@ nav .nav-links a {
         padding: 0;
         gap: 0;
         box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-        z-index: 1000;
+        z-index: 1;
         border-top: 1px solid rgba(0, 56, 101, 0.08);
     }
 
     nav .nav-links.active {
         display: flex;
     }
-    
+
     .nav-links li {
         width: 100%;
         margin: 0;
