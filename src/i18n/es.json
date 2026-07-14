@@ -500,11 +500,11 @@
     }
   },
   "hero": {
-    "tag": "Rigor & Estrategia",
-    "h1": "Arquitectura jurídica para casos de alta complejidad.",
-    "desc": "Defensa penal y constitucional diseñada a medida, con foco en la protección efectiva de derechos, patrimonio y reputación en entornos sensibles.",
-    "btn": "INICIAR PROCESO DE ADMISIÓN",
-    "btn_hint": "Una vez evaluada la solicitud, nuestro equipo coordinará la consulta privada correspondiente."
+    "tag": "Penal corporativo & estrategia",
+    "h1": "Casos jurídicos selectos en Venezuela para clientes en el exterior.",
+    "desc": "Firma boutique que combina derecho penal corporativo, fraudes y estafas financieras con gestión estratégica de trámites y documentos para empresas, familias y aliados internacionales que necesitan resolver asuntos en Venezuela sin desplazarse.",
+    "btn": "AGENDAR CONSULTA ESTRATÉGICA",
+    "btn_hint": "Analizaremos tu caso y definiremos si encaja dentro de los asuntos selectivos que atiende la firma, coordinando la consulta privada correspondiente."
   },
   "about": {
     "tag": "Nuestra Firma",

@@ -10,10 +10,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isEs = locale === 'es';
   
-  const title = isEs ? 'Mac Consultores Jurídicos & Asociados | Excelencia Legal' : 'Mac Consultores Jurídicos & Asociados | Legal Excellence';
+  const title = isEs
+    ? 'Mac Consultores Jurídicos & Asociados | Penal corporativo y casos selectos en Venezuela'
+    : 'Mac Consultores Jurídicos & Asociados | Corporate criminal law and selected matters in Venezuela';
+
   const description = isEs 
-    ? 'Firma boutique en Caracas especializada en litigio penal de alta complejidad, derecho constitucional y compliance corporativo preventivo.'
-    : 'Boutique law firm in Caracas specializing in highly complex criminal litigation, constitutional law, and preventive corporate compliance.';
+    ? 'Firma boutique selectiva que atiende casos de derecho penal corporativo, fraudes, estafas financieras y asuntos patrimoniales en Venezuela para clientes en el exterior, complementados con trámites consulares y documentales estratégicos.'
+    : 'Selective boutique law firm focused on corporate criminal law, financial fraud, asset protection and strategic procedures in Venezuela for clients abroad, including consular and document services.';
   
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
 

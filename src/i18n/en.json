@@ -500,11 +500,11 @@
     }
   },
   "hero": {
-    "tag": "Rigor & Strategy",
-    "h1": "Legal architecture for high-complexity cases.",
-    "desc": "Tailored criminal and constitutional defense, focusing on the effective protection of rights, assets, and reputation in sensitive environments.",
-    "btn": "START ADMISSION PROCESS",
-    "btn_hint": "Once the request is evaluated, our team will coordinate the corresponding private consultation."
+    "tag": "Corporate crime & strategy",
+    "h1": "Selected legal matters in Venezuela for clients abroad.",
+    "desc": "Boutique law firm focused on corporate criminal law, financial fraud and asset protection, combined with strategic handling of documents, powers and key procedures for companies, families and international partners who need to resolve Venezuelan matters without traveling.",
+    "btn": "SCHEDULE STRATEGIC CONSULTATION",
+    "btn_hint": "We will review your case and determine whether it fits within the selective matters handled by the firm before coordinating a private consultation."
   },
   "about": {
     "tag": "Our Firm",
