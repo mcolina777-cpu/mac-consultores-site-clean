@@ -82,6 +82,8 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               {/* Historia compactada en bloques cortos */}
               <p>{dict?.quienes_somos?.history?.desc_1}</p>
               <p className="mt-2">{dict?.quienes_somos?.history?.desc_2}</p>
+              <p className="mt-2">{dict?.quienes_somos?.history?.desc_3}</p>
+              <p className="mt-2">{dict?.quienes_somos?.history?.desc_4}</p>
 
               {/* Bloque arquitectura destacado como eje de la firma */}
               <article className="card quienes-somos-card mt-2rem">
