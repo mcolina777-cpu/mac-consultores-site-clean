@@ -210,6 +210,7 @@ nav .nav-links {
     align-items: center;
     color: var(--text-white);
     overflow: hidden;
+    background-color: #111111; /* Fondo sólido oscuro para evitar el flash dorado inicial */
 }
 
 /* Overlay suave para mejorar legibilidad del texto sobre la imagen */

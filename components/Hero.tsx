@@ -12,6 +12,7 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
         fill
         priority
         fetchPriority="high"
+        placeholder="blur"
         style={{ objectFit: 'cover', objectPosition: 'center', zIndex: -1 }}
       />
       <div className="container">

@@ -500,11 +500,11 @@
     }
   },
   "hero": {
-    "tag": "Corporate crime & strategy",
-    "h1": "Selected legal matters in Venezuela for clients abroad.",
-    "desc": "Boutique law firm focused on corporate criminal law, financial fraud and asset protection, combined with strategic handling of documents, powers and key procedures for companies, families and international partners who need to resolve Venezuelan matters without traveling.",
+    "tag": "Corporate criminal law and strategy",
+    "h1": "Specialized legal matters in Venezuela for clients abroad.",
+    "desc": "Boutique firm specializing in corporate criminal law, financial fraud and scams, with strategic management of procedures and documents for companies, families and international clients who need to resolve matters in Venezuela without traveling.",
     "btn": "SCHEDULE STRATEGIC CONSULTATION",
-    "btn_hint": "We will review your case and determine whether it fits within the selective matters handled by the firm before coordinating a private consultation."
+    "btn_hint": "We carefully evaluate each case to determine if it fits our practice areas and, if appropriate, coordinate a private consultation."
   },
   "about": {
     "tag": "Our Firm",
