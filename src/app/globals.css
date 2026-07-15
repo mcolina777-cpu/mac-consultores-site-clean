@@ -202,7 +202,7 @@ nav .nav-links {
 }
 
 /* Header Mobile Responsiveness moved to the bottom unified block */
-/* Hero Section */
+/* HERO — Fondo azul elegante y degradado + jerarquía armonizada */
 .hero {
     position: relative;
     min-height: 60vh;
@@ -210,19 +210,22 @@ nav .nav-links {
     align-items: center;
     color: var(--text-white);
     overflow: hidden;
-    background-color: var(--primary-dark);
+    /* Azul elegante y degradado dentro de la paleta (no petróleo plano) */
+    background: linear-gradient(
+        135deg,
+        rgba(0, 56, 101, 0.96),   /* tono basado en var(--primary) */
+        rgba(0, 31, 56, 0.90)     /* tono cercano a var(--primary-dark), suavizado */
+    );
 }
 
-/* Overlay suave para mejorar legibilidad del texto sobre la imagen */
 .hero::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(
-        120deg,
-        rgba(0, 0, 0, 0.55),
-        rgba(0, 0, 0, 0.25)
-    );
+    background:
+        radial-gradient(circle at top left,
+            rgba(212, 175, 55, 0.08),  /* var(--accent) muy suave */
+            transparent 55%);
     pointer-events: none;
     z-index: 0;
 }
@@ -252,30 +255,15 @@ nav .nav-links {
     color: var(--accent-light);
     font-size: clamp(2.4rem, 4vw, 3.2rem);
     line-height: 1.15;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.4rem;
 }
 
 .hero-content p {
     color: rgba(255, 255, 255, 0.9);
     font-family: var(--font-inter), 'Inter', sans-serif;
-    font-size: 1.15rem;
+    font-size: 1.12rem;
     line-height: 1.7;
     margin-bottom: 1.5rem;
-}
-
-/* Botón principal del hero */
-.hero .btn-primary {
-    background-color: var(--primary);
-    color: var(--text-white);
-    border: 1px solid var(--accent);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.hero .btn-primary:hover {
-    background-color: var(--primary-dark);
-    border-color: var(--accent-light);
-    color: var(--text-white);
-    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
 }
 
 .hero-btns {
@@ -289,11 +277,26 @@ nav .nav-links {
     font-size: 0.9rem;
 }
 
+.hero .btn-primary {
+    background-color: var(--primary);
+    color: var(--text-white);
+    border: 1px solid var(--accent);
+    box-shadow: 0 6px 18px rgba(0, 31, 56, 0.35);
+}
+
+.hero .btn-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--accent-light);
+    color: var(--text-white);
+    box-shadow: 0 10px 26px rgba(0, 31, 56, 0.50);
+}
+
 .hero-btn-hint {
     max-width: 680px;
     color: rgba(255, 255, 255, 0.85);
     font-family: var(--font-inter), 'Inter', sans-serif;
     line-height: 1.5;
+    font-size: 0.9rem;
 }
 
 /* Page Header */
@@ -469,18 +472,24 @@ section {
     transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
 }
 
+/* BOTONES GRANDES — Sistema unificado y elegante */
 .btn-primary {
     background-color: var(--primary);
     color: var(--text-white);
     border: 1px solid var(--accent);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 18px rgba(0, 31, 56, 0.35);
+    transition:
+        background-color 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        transform 0.2s ease;
 }
 
 .btn-primary:hover {
     background-color: var(--primary-dark);
     border-color: var(--accent-light);
     color: var(--text-white);
-    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
+    box-shadow: 0 10px 26px rgba(0, 31, 56, 0.50);
     transform: translateY(-2px);
 }
 
@@ -508,9 +517,14 @@ section {
     -webkit-tap-highlight-color: transparent;
 }
 
-/* FOOTER */
-footer, .footer {
-    background: var(--primary-dark);
+/* FOOTER — Cierre azul/dorado que combina con todo */
+footer,
+.footer {
+    background: linear-gradient(
+        135deg,
+        rgba(0, 31, 56, 0.98),
+        rgba(0, 56, 101, 0.92)
+    );
     color: #ffffff;
     font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
     padding: 100px 0 40px;
@@ -921,13 +935,18 @@ footer, .footer {
     background-color: var(--primary);
     color: var(--text-white);
     border: 1px solid var(--accent);
-    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 6px 18px rgba(0, 31, 56, 0.35);
+    transition:
+        background-color 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
 .form-card .btn:hover {
     background-color: var(--primary-dark);
     border-color: var(--accent-light);
     color: var(--text-white);
+    box-shadow: 0 10px 26px rgba(0, 31, 56, 0.50);
 }
 
 /* Responsive (Minimal adjustments, keeping pixel stability) */
@@ -1327,7 +1346,7 @@ nav .nav-links a {
     .hero {
         min-height: 55vh;
         height: auto;
-        padding-top: 80px;        /* evita que el notch tape el título */
+        padding-top: 80px;
         padding-bottom: 40px;
         align-items: flex-start;
     }
@@ -1341,6 +1360,7 @@ nav .nav-links a {
         font-size: 2.1rem;
         line-height: 1.25;
         margin-bottom: 0.9rem;
+        color: var(--accent-light);
     }
 
     .hero-content p {
@@ -1385,7 +1405,7 @@ nav .nav-links a {
 
     /* 5. DAILY INSIGHT */
     .daily-insight {
-        padding: 40px 0;
+        padding: 50px 0;
     }
 
     .daily-insight-concept {
@@ -1393,7 +1413,7 @@ nav .nav-links a {
     }
 
     .daily-insight-definition {
-        font-size: 1.1rem;
+        font-size: 1.05rem;
         text-align: center;
     }
 
