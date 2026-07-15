@@ -205,7 +205,7 @@ nav .nav-links {
 /* Hero Section */
 .hero {
     position: relative;
-    min-height: 70vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     color: var(--text-white);
@@ -249,8 +249,8 @@ nav .nav-links {
 }
 
 .hero-content h1 {
-    color: var(--text-white);
-    font-size: clamp(2.8rem, 5vw, 4rem);
+    color: var(--accent-light);
+    font-size: clamp(2.4rem, 4vw, 3.2rem);
     line-height: 1.15;
     margin-bottom: 1.5rem;
 }
@@ -265,17 +265,17 @@ nav .nav-links {
 
 /* Botón principal del hero */
 .hero .btn-primary {
-    background-color: var(--primary-dark);
+    background-color: var(--primary);
     color: var(--text-white);
-    border: 1px solid rgba(212, 175, 55, 0.4);
+    border: 1px solid var(--accent);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .hero .btn-primary:hover {
-    background-color: var(--primary);
+    background-color: var(--primary-dark);
     border-color: var(--accent-light);
     color: var(--text-white);
-    box-shadow: 0 8px 25px rgba(0, 31, 56, 0.4);
+    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
 }
 
 .hero-btns {
@@ -470,17 +470,17 @@ section {
 }
 
 .btn-primary {
-    background-color: var(--primary-dark);
+    background-color: var(--primary);
     color: var(--text-white);
-    border: 1px solid rgba(212, 175, 55, 0.4);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--accent);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 .btn-primary:hover {
-    background-color: var(--primary);
+    background-color: var(--primary-dark);
     border-color: var(--accent-light);
     color: var(--text-white);
-    box-shadow: 0 8px 25px rgba(0, 31, 56, 0.4);
+    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
     transform: translateY(-2px);
 }
 
@@ -918,14 +918,14 @@ footer, .footer {
 
 .form-card .btn {
     width: 100%;
-    background-color: var(--primary-dark);
+    background-color: var(--primary);
     color: var(--text-white);
-    border: 1px solid rgba(212, 175, 55, 0.4);
+    border: 1px solid var(--accent);
     transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
 .form-card .btn:hover {
-    background-color: var(--primary);
+    background-color: var(--primary-dark);
     border-color: var(--accent-light);
     color: var(--text-white);
 }
@@ -1325,10 +1325,10 @@ nav .nav-links a {
     /* 3. HERO Y TIPOGRAFÍA GENERAL */
     /* HERO ESPECÍFICO PARA MÓVILES (iPhone / Xiaomi) */
     .hero {
-        min-height: 60vh;
+        min-height: 55vh;
         height: auto;
-        padding-top: 90px;        /* evita que el notch tape el título */
-        padding-bottom: 50px;
+        padding-top: 80px;        /* evita que el notch tape el título */
+        padding-bottom: 40px;
         align-items: flex-start;
     }
 
@@ -1338,7 +1338,7 @@ nav .nav-links a {
     }
 
     .hero-content h1 {
-        font-size: 2.2rem;
+        font-size: 2.1rem;
         line-height: 1.25;
         margin-bottom: 0.9rem;
     }
@@ -1385,11 +1385,11 @@ nav .nav-links a {
 
     /* 5. DAILY INSIGHT */
     .daily-insight {
-        padding: 50px 0;
+        padding: 40px 0;
     }
 
     .daily-insight-concept {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .daily-insight-definition {
