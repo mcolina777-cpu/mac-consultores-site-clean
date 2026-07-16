@@ -120,40 +120,10 @@ export default async function Home({ params }: Props) {
             </article>
 
             <article className="card">
-              <span className="section-tag">
-                {dict?.home?.strategies?.representative_scenarios?.tag}
-              </span>
+              <span className="section-tag">{dict?.home?.strategies?.representative_scenarios?.tag}</span>
               <h3>{dict?.home?.strategies?.representative_scenarios?.title}</h3>
-
-              {/* Intro breve de la tarjeta, manteniendo el texto desde el diccionario */}
-              <p>
-                {dict?.home?.strategies?.representative_scenarios?.desc}
-              </p>
-
-              {/* Bloque de casos representativos */}
-              <div className="mt-1rem">
-                <p>
-                  <strong>Caso 1: [Título breve del asunto]</strong><br />
-                  [Resumen muy conciso del contexto sensible y de la estrategia aplicada. Idealmente 2–3 frases.]
-                </p>
-
-                <p>
-                  <strong>Caso 2: [Título breve del asunto]</strong><br />
-                  [Resumen del conflicto o riesgo jurídico, enfoque de la firma y resultado alcanzado, también en 2–3 frases.]
-                </p>
-
-                <p>
-                  <strong>Caso 3: [Título breve del asunto]</strong><br />
-                  [Descripción de un escenario especialmente delicado (institucional, mediático, patrimonial, etc.) y la estrategia jurídica combinada con la gestión del contexto.]
-                </p>
-              </div>
-
-              <Link
-                href={getRoute(locale, "estrategiaEscenariosRepresentativos")}
-                className="news-link"
-              >
-                <span>{dict?.news?.read_more}</span>
-              </Link>
+              <p>{dict?.home?.strategies?.representative_scenarios?.desc}</p>
+              <Link href={getRoute(locale, "estrategiaEscenariosRepresentativos")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
             </article>
           </div>
         </div>
