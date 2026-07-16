@@ -499,14 +499,27 @@ section {
         transform 0.25s ease;
 }
 
+/* Estados de interacción: se aplican siempre, no solo en dispositivos con hover */
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: var(--primary-dark);
+    border-color: var(--accent-light);
+    color: var(--text-white);
+    box-shadow: 0 10px 26px rgba(0, 31, 56, 0.50);
+    transform: translateY(-2px);
+}
+
+/* Limita SOLO el refinamiento de hover dentro de @media (hover:hover) */
 @media (hover: hover) {
     .btn-primary:hover {
-        background-color: var(--primary-dark);
-        border-color: var(--accent-light);
-        color: var(--text-white);
-        box-shadow: 0 10px 26px rgba(0, 31, 56, 0.50);
-        transform: translateY(-2px);
+        filter: brightness(1.05);
     }
+}
+
+.btn-primary:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
 }
 
 .btn-outline {
@@ -515,29 +528,21 @@ section {
     background: transparent;
 }
 
-.btn-outline:hover {
-    background: var(--primary);
-    color: white;
-}
-
-/* Estados de foco y active consistentes para botones outline */
-.btn-outline:focus,
-.btn-outline:active {
+/* Estados consistentes para botones outline */
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus {
     background: var(--primary);
     color: white;
     outline: none;
 }
 
 /* Elimina el destello gris del tap en móviles WebKit */
+button,
 .btn,
 .btn-primary,
 .btn-outline {
     -webkit-tap-highlight-color: transparent;
-}
-
-.btn-primary:focus-visible {
-    outline: 2px solid rgba(0, 115, 180, 0.9);
-    outline-offset: 2px;
 }
 
 /* FOOTER — Cierre azul/dorado que combina con todo */
@@ -1339,19 +1344,35 @@ nav .nav-links a {
         margin: 0;
         display: block;
         text-align: center;
+        white-space: normal;
     }
 
     .nav-links a {
         display: block;
-        padding: 15px;
+        width: 100%;
+        text-decoration: none;
+        font-family: inherit;
+        padding: 10px 0;
+        margin: 0;
+        border-bottom: none;
+        color: var(--primary);
+        background-color: transparent;
         font-size: 0.85rem;
-        font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 1.5px;
-        background: transparent;
-        border-bottom: 1px solid rgba(0,0,0,0.05);
-        width: 100%;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:active,
+    .nav-links a:focus {
+        background-color: var(--accent);
+        color: #ffffff;
+    }
+
+    .nav-links a:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
     }
 
     .lang-selector {
