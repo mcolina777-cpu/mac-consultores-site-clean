@@ -1953,17 +1953,6 @@ footer,
     margin-top: 0.75rem;
   }
 
-  /* Limitar altura de la imagen vertical para evitar “bloques” de aire */
-  .page-quienes-somos .img-reveal.img-vertical {
-    max-height: 260px;
-  }
-
-  .page-quienes-somos .img-reveal.img-vertical picture,
-  .page-quienes-somos .img-reveal.img-vertical img {
-    height: 260px;
-    max-height: 260px;
-    object-fit: cover;
-  }
 
   /* Neutralizar la regla genérica que pone max-height: 320px en esta página */
   .page-quienes-somos .img-reveal img {
