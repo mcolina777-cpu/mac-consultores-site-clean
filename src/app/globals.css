@@ -265,6 +265,9 @@ nav .nav-links {
     z-index: 1;
 }
 
+/* ===== HERO – TIPOGRAFÍA INTER UNIFICADA ===== */
+
+/* Línea superior: DERECHO PENAL CORPORATIVO Y ESTRATEGIA */
 .hero-content .section-tag {
   font-family: var(--font-inter), Inter, sans-serif;
   color: var(--accent);
@@ -273,7 +276,7 @@ nav .nav-links {
   text-transform: uppercase;
 }
 
-/* HERO – Título principal (desktop / general) */
+/* Título grande: Asuntos jurídicos especializados... */
 .hero-content h1 {
   font-family: var(--font-inter), Inter, sans-serif;
   color: #FFFFFF;
@@ -282,6 +285,7 @@ nav .nav-links {
   margin-bottom: 1.4rem;
 }
 
+/* Párrafo central del HERO */
 .hero-content p {
   font-family: var(--font-inter), Inter, sans-serif;
   color: rgba(255, 255, 255, 0.9);
@@ -289,6 +293,39 @@ nav .nav-links {
   line-height: 1.7;
   margin-bottom: 1.5rem;
 }
+
+/* Texto pequeño bajo el botón */
+.hero-btn-hint {
+  font-family: var(--font-inter), Inter, sans-serif;
+  max-width: 680px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+/* Ajustes tipográficos del HERO en móviles */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-family: var(--font-inter), Inter, sans-serif;
+    font-size: 2.1rem;
+    line-height: 1.25;
+    margin-bottom: 0.9rem;
+    color: #FFFFFF;
+  }
+
+  .hero-content p {
+    font-family: var(--font-inter), Inter, sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+
+  .hero-btn-hint {
+    font-family: var(--font-inter), Inter, sans-serif;
+    font-size: 0.85rem;
+  }
+}
+
+/* ===== FIN HERO – TIPOGRAFÍA INTER UNIFICADA ===== */
 
 .hero-btns {
     display: flex;
@@ -307,13 +344,7 @@ nav .nav-links {
 }
 
 
-.hero-btn-hint {
-  font-family: var(--font-inter), Inter, sans-serif;
-  max-width: 680px;
-  color: rgba(255, 255, 255, 0.85);
-  line-height: 1.5;
-  font-size: 0.9rem;
-}
+
 
 /* Page Header */
 .page-header {
@@ -1414,25 +1445,7 @@ nav .nav-links a {
         margin: 0 auto;
     }
 
-    /* HERO – Título principal en móviles */
-    .hero-content h1 {
-        font-family: var(--font-inter), Inter, sans-serif;
-        font-size: 2.1rem;
-        line-height: 1.25;
-        margin-bottom: 0.9rem;
-        color: #FFFFFF;
-    }
 
-    .hero-content p {
-        font-family: var(--font-inter), Inter, sans-serif;
-        font-size: 1.05rem;
-        line-height: 1.6;
-    }
-
-    .hero-btn-hint {
-        font-family: var(--font-inter), Inter, sans-serif;
-        font-size: 0.85rem;
-    }
 
     .section-title {
         font-size: 2.2rem; /* Más pequeño en móvil */
