@@ -300,12 +300,13 @@ nav .nav-links {
   font-size: 0.88rem;
 }
 
+/* === HERO – Versión móvil unificada (max-width: 768px) === */
 @media (max-width: 768px) {
   .hero {
     min-height: 55vh;
     height: auto;
     padding-top: 70px;
-    padding-bottom: 36px;
+    padding-bottom: 40px;
     align-items: flex-start;
   }
 
@@ -315,26 +316,22 @@ nav .nav-links {
   }
 
   .hero-content h1 {
-    font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
-    font-size: 2.0rem;
-    line-height: 1.22;
-    margin-bottom: 0.8rem;
+    font-size: 2.1rem;
+    line-height: 1.25;
+    margin-bottom: 0.9rem;
     color: #FFFFFF;
   }
 
   .hero-content p {
-    font-family: var(--font-inter), 'Inter', sans-serif;
-    font-size: 1.02rem;
-    line-height: 1.55;
-    margin-bottom: 1.2rem;
+    font-size: 1.05rem;
+    line-height: 1.5;
   }
 
   .hero-btn-hint {
-    font-family: var(--font-inter), 'Inter', sans-serif;
-    font-size: 0.83rem;
-    line-height: 1.5;
+    font-size: 0.85rem;
   }
 }
+/* === FIN HERO – Versión móvil unificada === */
 
 /* ===== FIN HERO – TIPOGRAFÍA Y ESCALA ALINEADAS ===== */
 
@@ -1442,19 +1439,7 @@ nav .nav-links a {
     }
 
     /* 3. HERO Y TIPOGRAFÍA GENERAL */
-    /* HERO ESPECÍFICO PARA MÓVILES (iPhone / Xiaomi) */
-    .hero {
-        min-height: 55vh;
-        height: auto;
-        padding-top: 80px;
-        padding-bottom: 40px;
-        align-items: flex-start;
-    }
 
-    .hero-content {
-        max-width: 100%;
-        margin: 0 auto;
-    }
 
 
 
