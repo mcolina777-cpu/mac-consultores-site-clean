@@ -1089,7 +1089,7 @@ nav .nav-links a {
 }
 
 .daily-insight-concept {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
   font-size: clamp(2rem, 3vw, 2.5rem);
   font-weight: 600;
   color: var(--text-white);
@@ -1105,7 +1105,7 @@ nav .nav-links a {
 }
 
 .daily-insight-definition {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
   font-size: 1.3rem;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.9);
