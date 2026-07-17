@@ -49,13 +49,7 @@ img {
 }
 
 /* Typography Standards */
-.hero-subtitle {
-    font-family: var(--font-inter), 'Inter', sans-serif;
-    font-size: 1.5rem;
-    color: var(--text-muted);
-    font-weight: 300;
-    margin-bottom: 0;
-}
+
 
 .contact-subtitle {
     color: var(--primary);
