@@ -273,8 +273,9 @@ nav .nav-links {
     text-transform: uppercase;
 }
 
+/* HERO – Título principal (desktop / general) */
 .hero-content h1 {
-    color: var(--accent-light);
+    color: #FFFFFF; /* antes: var(--accent-light) */
     font-size: clamp(2.4rem, 4vw, 3.2rem);
     line-height: 1.15;
     margin-bottom: 1.4rem;
@@ -1412,11 +1413,12 @@ nav .nav-links a {
         margin: 0 auto;
     }
 
+    /* HERO – Título principal en móviles */
     .hero-content h1 {
         font-size: 2.1rem;
         line-height: 1.25;
         margin-bottom: 0.9rem;
-        color: var(--accent-light);
+        color: #FFFFFF; /* antes: var(--accent-light) */
     }
 
     .hero-content p {
