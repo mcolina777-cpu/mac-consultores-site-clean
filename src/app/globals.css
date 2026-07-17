@@ -529,6 +529,7 @@ section {
   border: none;
   border-radius: 50px;
   transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
 }
 
 /* Botón principal */
