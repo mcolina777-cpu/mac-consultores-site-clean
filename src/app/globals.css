@@ -151,16 +151,17 @@ nav .nav-links {
     white-space: nowrap;
 }
 
-.nav-links a {
-    display: block;
-    padding: 10px 0;
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: var(--primary);
-    text-decoration: none;
-    transition: color 0.3s ease;
+nav .nav-links a {
+  display: block;
+  padding: 10px 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
 }
 
 .nav-links a:hover {
@@ -1036,14 +1037,7 @@ footer,
 
 /* NORMALIZACIÓN DEL MENÚ DE NAVEGACIÓN EN TODAS LAS PÁGINAS */
 
-/* Fuerza el mismo tamaño y estilo para todos los enlaces del menú superior */
-nav .nav-links a {
-    font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
-    font-size: 0.85rem;      /* mismo tamaño de letra para todos */
-    font-weight: 600;        /* misma negrita */
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-}
+
 
 
 
@@ -1399,22 +1393,6 @@ nav .nav-links a {
         white-space: normal;
     }
 
-    /* FIX: Mayor especificidad añadiendo 'nav ' para derrotar regla global */
-    nav .nav-links a {
-        display: block;
-        width: 100%;
-        text-decoration: none;
-        font-family: inherit;
-        padding: 10px 0;
-        margin: 0;
-        border-bottom: none;
-        color: var(--primary);
-        background-color: transparent;
-        font-size: 0.85rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-    }
 
     nav .nav-links a:hover,
     nav .nav-links a:active,
