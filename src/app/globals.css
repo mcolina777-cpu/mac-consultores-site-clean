@@ -265,67 +265,78 @@ nav .nav-links {
     z-index: 1;
 }
 
-/* ===== HERO – TIPOGRAFÍA INTER UNIFICADA ===== */
+/* ===== HERO – TIPOGRAFÍA Y ESCALA ALINEADAS AL DISEÑO GLOBAL ===== */
 
-/* Línea superior: DERECHO PENAL CORPORATIVO Y ESTRATEGIA */
 .hero-content .section-tag {
-  font-family: var(--font-inter), Inter, sans-serif;
+  font-family: var(--font-inter), 'Inter', sans-serif;
   color: var(--accent);
   font-size: 0.9rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  margin-bottom: 0.75rem;
 }
 
-/* Título grande: Asuntos jurídicos especializados... */
 .hero-content h1 {
-  font-family: var(--font-inter), Inter, sans-serif;
+  font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
   color: #FFFFFF;
-  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  font-size: clamp(2.2rem, 3.6vw, 3.1rem);
   line-height: 1.15;
+  margin-bottom: 1.2rem;
+}
+
+.hero-content p {
+  font-family: var(--font-inter), 'Inter', sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.08rem;
+  line-height: 1.65;
   margin-bottom: 1.4rem;
 }
 
-/* Párrafo central del HERO */
-.hero-content p {
-  font-family: var(--font-inter), Inter, sans-serif;
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 1.12rem;
-  line-height: 1.7;
-  margin-bottom: 1.5rem;
-}
-
-/* Texto pequeño bajo el botón */
 .hero-btn-hint {
-  font-family: var(--font-inter), Inter, sans-serif;
+  font-family: var(--font-inter), 'Inter', sans-serif;
   max-width: 680px;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.82);
   line-height: 1.5;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
 }
 
-/* Ajustes tipográficos del HERO en móviles */
 @media (max-width: 768px) {
+  .hero {
+    min-height: 55vh;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 36px;
+    align-items: flex-start;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
   .hero-content h1 {
-    font-family: var(--font-inter), Inter, sans-serif;
-    font-size: 2.1rem;
-    line-height: 1.25;
-    margin-bottom: 0.9rem;
+    font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
+    font-size: 2.0rem;
+    line-height: 1.22;
+    margin-bottom: 0.8rem;
     color: #FFFFFF;
   }
 
   .hero-content p {
-    font-family: var(--font-inter), Inter, sans-serif;
-    font-size: 1.05rem;
-    line-height: 1.6;
+    font-family: var(--font-inter), 'Inter', sans-serif;
+    font-size: 1.02rem;
+    line-height: 1.55;
+    margin-bottom: 1.2rem;
   }
 
   .hero-btn-hint {
-    font-family: var(--font-inter), Inter, sans-serif;
-    font-size: 0.85rem;
+    font-family: var(--font-inter), 'Inter', sans-serif;
+    font-size: 0.83rem;
+    line-height: 1.5;
   }
 }
 
-/* ===== FIN HERO – TIPOGRAFÍA INTER UNIFICADA ===== */
+/* ===== FIN HERO – TIPOGRAFÍA Y ESCALA ALINEADAS ===== */
 
 .hero-btns {
     display: flex;
