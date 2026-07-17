@@ -266,27 +266,28 @@ nav .nav-links {
 }
 
 .hero-content .section-tag {
-    color: var(--accent-light);
-    font-family: var(--font-inter), 'Inter', sans-serif;
-    font-size: 0.9rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
+  font-family: var(--font-inter), Inter, sans-serif;
+  color: var(--accent);
+  font-size: 0.9rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 
 /* HERO – Título principal (desktop / general) */
 .hero-content h1 {
-    color: #FFFFFF; /* antes: var(--accent-light) */
-    font-size: clamp(2.4rem, 4vw, 3.2rem);
-    line-height: 1.15;
-    margin-bottom: 1.4rem;
+  font-family: var(--font-inter), Inter, sans-serif;
+  color: #FFFFFF;
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  line-height: 1.15;
+  margin-bottom: 1.4rem;
 }
 
 .hero-content p {
-    color: rgba(255, 255, 255, 0.9);
-    font-family: var(--font-inter), 'Inter', sans-serif;
-    font-size: 1.12rem;
-    line-height: 1.7;
-    margin-bottom: 1.5rem;
+  font-family: var(--font-inter), Inter, sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.12rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
 }
 
 .hero-btns {
@@ -307,11 +308,11 @@ nav .nav-links {
 
 
 .hero-btn-hint {
-    max-width: 680px;
-    color: rgba(255, 255, 255, 0.85);
-    font-family: var(--font-inter), 'Inter', sans-serif;
-    line-height: 1.5;
-    font-size: 0.9rem;
+  font-family: var(--font-inter), Inter, sans-serif;
+  max-width: 680px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.5;
+  font-size: 0.9rem;
 }
 
 /* Page Header */
@@ -1415,18 +1416,21 @@ nav .nav-links a {
 
     /* HERO – Título principal en móviles */
     .hero-content h1 {
+        font-family: var(--font-inter), Inter, sans-serif;
         font-size: 2.1rem;
         line-height: 1.25;
         margin-bottom: 0.9rem;
-        color: #FFFFFF; /* antes: var(--accent-light) */
+        color: #FFFFFF;
     }
 
     .hero-content p {
+        font-family: var(--font-inter), Inter, sans-serif;
         font-size: 1.05rem;
         line-height: 1.6;
     }
 
     .hero-btn-hint {
+        font-family: var(--font-inter), Inter, sans-serif;
         font-size: 0.85rem;
     }
 
