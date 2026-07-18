@@ -1061,17 +1061,21 @@ footer,
 
 
 /* =========================================================
-   DAILY INSIGHT (COMPONENT)
+   DAILY INSIGHT – Bloque destacado con fondo azul/dorado
    ========================================================= */
-/* INSIGHT JURIDICO DEL DIA */
+
 .daily-insight {
-  background: radial-gradient(circle at top left,
+  background:
+    radial-gradient(
+      circle at top left,
       rgba(212, 175, 55, 0.08), /* var(--accent) suave */
-      transparent 55%)
-    ,
-    linear-gradient(135deg,
+      transparent 55%
+    ),
+    linear-gradient(
+      135deg,
       rgba(0, 31, 56, 0.98),
-      rgba(0, 56, 101, 0.92));
+      rgba(0, 56, 101, 0.92)
+    );
   padding: 72px 0;
   color: var(--text-white);
   position: relative;
@@ -1079,12 +1083,18 @@ footer,
 }
 
 .daily-insight::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at top right, rgba(212, 175, 55, 0.12), transparent 40%);
+  background: radial-gradient(
+    circle at top right,
+    rgba(212, 175, 55, 0.12),
+    transparent 40%
+  );
   pointer-events: none;
 }
+
+/* Contenedor interno: centra y estabiliza el layout */
 
 .daily-insight-inner {
   position: relative;
@@ -1095,8 +1105,10 @@ footer,
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 190px; /* Previene saltos de diseño (CLS) al reservar el espacio del contenido dinámico */
+  min-height: 190px; /* Reserva espacio para evitar saltos de diseño (CLS) */
 }
+
+/* Etiqueta superior ("Insight jurídico del día") */
 
 .daily-insight-tag {
   color: var(--accent-light);
@@ -1104,8 +1116,10 @@ footer,
   display: inline-block;
 }
 
+/* Concepto principal (título grande) */
+
 .daily-insight-concept {
-  font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
+  font-family: var(--font-cormorant), "Cormorant Garamond", serif;
   font-size: clamp(2rem, 3vw, 2.5rem);
   font-weight: 600;
   color: var(--text-white);
@@ -1120,8 +1134,10 @@ footer,
   animation: fadeInInsight 0.8s ease forwards;
 }
 
+/* Definición del concepto (texto explicativo) */
+
 .daily-insight-definition {
-  font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
+  font-family: var(--font-cormorant), "Cormorant Garamond", serif;
   font-size: 1.3rem;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.9);
@@ -1136,11 +1152,15 @@ footer,
   animation-delay: 0.2s;
 }
 
+/* Pie del bloque (fuente, firma, etc.) */
+
 .daily-insight-footer {
   margin-top: 0.75rem;
   font-size: 1.1rem;
   opacity: 0.9;
 }
+
+/* Animación de entrada compartida */
 
 @keyframes fadeInInsight {
   from {
