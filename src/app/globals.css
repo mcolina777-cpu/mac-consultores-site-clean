@@ -1842,8 +1842,16 @@ footer,
 
 
 
-/* Refactored Inline Styles */
+/* =========================================================
+   UTILITY CLASSES
+   ========================================================= */
+
+/* Spacing utilities */
 .mt-1rem { margin-top: 1rem; }
+.mt-2rem { margin-top: 2rem; }
+.mt-3rem { margin-top: 3rem; }
+.mt-4rem { margin-top: 4rem; }
+
 .mb-0 { margin-bottom: 0; }
 .mb-1rem { margin-bottom: 1rem; }
 .mb-1-5rem { margin-bottom: 1.5rem; }
@@ -1851,15 +1859,17 @@ footer,
 .mb-2-5rem { margin-bottom: 2.5rem; }
 .mb-3rem { margin-bottom: 3rem; }
 .mb-4rem { margin-bottom: 4rem; }
-.mt-2rem { margin-top: 2rem; }
-.mt-3rem { margin-top: 3rem; }
-.mt-4rem { margin-top: 4rem; }
+
 .py-6rem { padding: 6rem 0; }
 .py-60px { padding: 60px 0; }
 .section-padding-asym { padding: 40px 0 80px 0; }
+
+/* Gap utilities (for flex/grid) */
 .gap-1rem { gap: 1rem; }
 .gap-1-5rem { gap: 1.5rem; }
 .gap-20px { gap: 20px; }
+
+/* Width & alignment utilities */
 .w-100 { width: 100%; }
 .max-w-100 { max-width: 100%; }
 .text-center { text-align: center; }
@@ -1870,21 +1880,55 @@ footer,
 .no-underline { text-decoration: none; }
 .line-height-1-1 { line-height: 1.1; }
 
-/* Layout/Reading Utilities */
-.axial-centered { text-align: center; margin-bottom: 4rem; }
-.layout-reading { max-width: 800px; margin: 0 auto; line-height: 1.8; font-size: 1.1rem; color: #444; }
-.layout-narrow { max-width: 800px; margin: 0 auto; line-height: 1.8; }
-.header-soft-bg { text-align: left; padding: 120px 0 40px; background-color: var(--bg-soft); }
+/* =========================================================
+   LAYOUT / READING UTILITIES
+   ========================================================= */
 
-/* Typography */
+.axial-centered {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.layout-reading {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.layout-narrow {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.header-soft-bg {
+  text-align: left;
+  padding: 120px 0 40px;
+  background-color: var(--bg-soft);
+}
+
+/* =========================================================
+   TYPOGRAPHY UTILITIES
+   ========================================================= */
+
 .text-primary { color: var(--primary); }
 .text-accent { color: var(--accent); }
 .text-accent-bold { color: var(--accent); font-weight: bold; }
 .text-muted { color: var(--text-muted); }
+
 .heading-xl { font-size: 3rem; }
 .heading-lg { font-size: 2.2rem; }
 .heading-md { font-size: 1.8rem; }
-.quote-block { font-size: 1.5rem; font-style: italic; margin-top: 2rem; border-left: 4px solid var(--primary-color); padding-left: 1rem; }
+
+.quote-block {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 2rem;
+  border-left: 4px solid var(--primary-color);
+  padding-left: 1rem;
+}
 
 /* Contact/Form Specific */
 .contact-grid-start { align-items: stretch; gap: 4rem; }
