@@ -219,75 +219,75 @@ nav .nav-links a {
 
 /* Header Mobile Responsiveness moved to the bottom unified block */
 /* =========================================================
-   HERO (HOME)
+   HERO (HOME) – Fondo azul elegante y degradado
    ========================================================= */
-/* HERO — Fondo azul elegante y degradado + jerarquía armonizada */
+
 .hero {
-    position: relative;
-    min-height: 60vh;
-    display: flex;
-    align-items: center;
-    color: var(--text-white);
-    overflow: hidden;
-    /* Azul elegante y degradado dentro de la paleta (no petróleo plano) */
-    background: linear-gradient(
-        135deg,
-        rgba(0, 56, 101, 0.96),   /* tono basado en var(--primary) */
-        rgba(0, 31, 56, 0.90)     /* tono cercano a var(--primary-dark), suavizado */
-    );
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  color: var(--text-white);
+  overflow: hidden;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 56, 101, 0.96),
+    rgba(0, 31, 56, 0.90)
+  );
 }
 
 .hero-background {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
 }
 
 .hero-image {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(
-        circle at center,
-        rgba(0, 31, 56, 0.15) 0%,
-        rgba(0, 31, 56, 0.85) 70%
-    );
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    rgba(0, 31, 56, 0.15) 0,
+    rgba(0, 31, 56, 0.85) 70%
+  );
 }
 
 .hero::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background:
-        radial-gradient(circle at top left,
-            rgba(212, 175, 55, 0.08),  /* var(--accent) muy suave */
-            transparent 55%);
-    pointer-events: none;
-    z-index: 0;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top left,
+    rgba(212, 175, 55, 0.08),
+    transparent 55%
+  );
+  pointer-events: none;
+  z-index: 0;
 }
 
-.hero > .container {
-    position: relative;
-    z-index: 1;
-    padding-top: 80px;
-    padding-bottom: 80px;
+.hero .container {
+  position: relative;
+  z-index: 1;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .hero-content {
-    max-width: 720px;
-    position: relative;
-    z-index: 1;
+  max-width: 720px;
+  position: relative;
+  z-index: 1;
 }
 
-/* ===== HERO – TIPOGRAFÍA Y ESCALA ALINEADAS AL DISEÑO GLOBAL ===== */
+/* HERO – tipografía y escala alineadas al diseño global */
 
 .hero-content .section-tag {
-  font-family: var(--font-inter), 'Inter', sans-serif;
+  font-family: var(--font-inter), Inter, sans-serif;
   color: var(--accent);
   font-size: 0.9rem;
   letter-spacing: 0.15em;
@@ -296,7 +296,7 @@ nav .nav-links a {
 }
 
 .hero-content h1 {
-  font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
+  font-family: var(--font-cormorant), "Cormorant Garamond", serif;
   color: #FFFFFF;
   font-size: clamp(2.2rem, 3.6vw, 3.1rem);
   line-height: 1.15;
@@ -304,7 +304,7 @@ nav .nav-links a {
 }
 
 .hero-content p {
-  font-family: var(--font-inter), 'Inter', sans-serif;
+  font-family: var(--font-inter), Inter, sans-serif;
   color: rgba(255, 255, 255, 0.9);
   font-size: 1.08rem;
   line-height: 1.65;
@@ -312,14 +312,33 @@ nav .nav-links a {
 }
 
 .hero-btn-hint {
-  font-family: var(--font-inter), 'Inter', sans-serif;
+  font-family: var(--font-inter), Inter, sans-serif;
   max-width: 680px;
   color: rgba(255, 255, 255, 0.82);
   line-height: 1.5;
   font-size: 0.88rem;
 }
 
-/* === HERO – Versión móvil unificada (max-width: 768px) === */
+/* HERO – botonera (usa el sistema global .btn / .btn-primary) */
+
+.hero-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.hero-btns .btn {
+  font-size: 0.9rem;
+}
+
+.hero .btn-primary {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+
+/* HERO – versión móvil unificada (máx. 768px) */
+
 @media (max-width: 768px) {
   .hero {
     min-height: 55vh;
@@ -349,25 +368,6 @@ nav .nav-links a {
   .hero-btn-hint {
     font-size: 0.85rem;
   }
-}
-/* === FIN HERO – Versión móvil unificada === */
-
-/* ===== FIN HERO – TIPOGRAFÍA Y ESCALA ALINEADAS ===== */
-
-.hero-btns {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.75rem;
-}
-
-.hero-btns .btn {
-    font-size: 0.9rem;
-}
-
-.hero .btn-primary {
-    margin-top: 1.5rem;
-    font-size: 1rem;
 }
 
 
