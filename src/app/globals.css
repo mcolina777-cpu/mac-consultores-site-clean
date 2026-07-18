@@ -218,6 +218,9 @@ nav .nav-links a {
 }
 
 /* Header Mobile Responsiveness moved to the bottom unified block */
+/* =========================================================
+   HERO (HOME)
+   ========================================================= */
 /* HERO — Fondo azul elegante y degradado + jerarquía armonizada */
 .hero {
     position: relative;
@@ -529,6 +532,9 @@ section {
     color: var(--accent-light);
 }
 
+/* =========================================================
+   BUTTON SYSTEM (GLOBAL, NO TOCAR DISEÑO)
+   ========================================================= */
 /* ===========================
    SISTEMA UNIFICADO DE BOTONES – MAC CONSULTORES
    =========================== */
@@ -605,6 +611,9 @@ button,
   -webkit-tap-highlight-color: transparent;
 }
 
+/* =========================================================
+   FOOTER (GLOBAL LAYOUT)
+   ========================================================= */
 /* FOOTER — Cierre azul/dorado que combina con todo */
 footer,
 .footer {
@@ -1051,6 +1060,9 @@ footer,
 
 
 
+/* =========================================================
+   DAILY INSIGHT (COMPONENT)
+   ========================================================= */
 /* INSIGHT JURIDICO DEL DIA */
 .daily-insight {
   background: radial-gradient(circle at top left,
