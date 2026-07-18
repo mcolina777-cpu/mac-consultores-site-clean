@@ -612,78 +612,86 @@ button,
 }
 
 /* =========================================================
-   FOOTER (GLOBAL LAYOUT)
+   FOOTER – Cierre azul/dorado que combina con todo
    ========================================================= */
-/* FOOTER — Cierre azul/dorado que combina con todo */
+
 footer,
 .footer {
-    background: linear-gradient(
-        180deg,
-        rgba(0, 31, 56, 0.98) 0%,
-        rgba(0, 56, 101, 0.75) 50%,
-        rgba(0, 115, 180, 0.65) 100%
-    );
-    color: #ffffff;
-    font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
-    padding: 100px 0 40px;
-    margin-top: auto;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 31, 56, 0.98) 0%,
+    rgba(0, 56, 101, 0.75) 50%,
+    rgba(0, 115, 180, 0.65) 100%
+  );
+  color: #ffffff;
+  font-family: var(--font-cormorant), "Cormorant Garamond", serif;
+  padding: 100px 0 40px;
+  margin-top: auto;
 }
 
+/* Grid principal del footer */
+
 .footer-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1.5fr; 
-    gap: 40px;
-    margin-bottom: 40px;
-    align-items: start;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 40px;
+  margin-bottom: 40px;
+  align-items: start;
 }
 
 .footer-col {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
+
+/* Branding y textos principales */
 
 .footer-logo {
-    font-size: 1.8rem;
-    line-height: 1.3;
-    letter-spacing: 2px;
-    margin-bottom: 0.1rem;
+  font-size: 1.8rem;
+  line-height: 1.3;
+  letter-spacing: 2px;
+  margin-bottom: 0.1rem;
 }
 
-.footer-col h4, .footer-title {
-    color: var(--text-white);
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 1rem;
-    line-height: 1.15;
-    letter-spacing: -0.02em;
-    text-align: left;
+.footer-col h4,
+.footer-title {
+  color: var(--text-white);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 1rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
 
 .footer-desc {
-    font-size: 1.15rem;
-    line-height: 1.35;
-    margin-top: 0.1rem;
-    margin-bottom: 0.4rem;
-    color: rgba(255, 255, 255, 0.85);
-    text-align: left;
+  font-size: 1.15rem;
+  line-height: 1.35;
+  margin-top: 0.1rem;
+  margin-bottom: 0.4rem;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: left;
 }
 
+/* Listas de enlaces (Navigation, Services, Offices) */
+
 .footer-col ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-col ul li {
   margin-bottom: 0.5rem;
   font-size: 1.15rem;
-  line-height: 1.4; /* valor único y estable para todos los items */
+  line-height: 1.4; /* valor único y estable para todos los ítems */
   text-align: left;
 }
 
 /* Lista principal del footer para Navigation y Services */
+
 .footer-links {
   list-style: none;
   padding: 0;
@@ -703,57 +711,65 @@ footer,
   display: inline-block;
 }
 
+/* Enlaces y acentos */
+
 .footer-col ul a:hover,
 .footer-links a:hover,
 .footer-legal a:hover {
-    color: var(--accent);
+  color: var(--accent);
 }
 
 .footer-col ul a.accent-link {
-    color: var(--accent);
-    font-weight: 700;
-    letter-spacing: 1px;
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 1px;
 }
+
+/* Sellos y detalles visuales */
 
 .footer-seal-img {
-    max-width: 100px;
-    height: auto;
-    display: block;
+  max-width: 100px;
+  height: auto;
+  display: block;
 }
 
+/* Línea inferior y parte legal */
+
 .footer-bottom {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .footer-copyright {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
-.footer-bottom p, .footer-bottom a, .footer-location {
-    margin: 0;
-    text-align: left;
-    font-size: 1.1rem;
-    line-height: 1.3;
-    color: #ffffff;
-    text-decoration: none;
+.footer-bottom p,
+.footer-bottom a,
+.footer-location {
+  margin: 0;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .footer-legal {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .footer-legal a {
-    color: inherit;
-    font-size: 1.1rem;
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: inherit;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 /* Utility Classes */
