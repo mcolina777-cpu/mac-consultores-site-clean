@@ -788,16 +788,20 @@ footer,
 
 /* Tratamiento genérico para imágenes verticales en contenedores img-reveal */
 .img-reveal.img-vertical {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 9 / 16;
   max-height: 100%;
 }
 
 .img-reveal.img-vertical picture,
-.img-reveal.img-vertical img {
+.img-reveal.img-vertical img,
+.our-firm-img-vertical {
   width: 100%;
-  height: auto;
-  aspect-ratio: 9 / 16;
-  display: block;
+  height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 /* Specific Modifiers for Quiénes Somos */
@@ -1316,11 +1320,17 @@ footer,
     }
 
     /* Imagen de recepción en sección firma: ajustes para móvil */
-    .section-firma .img-reveal img {
-        height: auto;
+    .section-firma .img-reveal {
         max-width: 280px;
         margin: 0 auto 1.5rem auto;
-        object-fit: contain;
+        height: auto;
+    }
+
+    .section-firma .img-reveal img,
+    .section-firma .our-firm-img-vertical {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
         display: block;
     }
 
@@ -1328,21 +1338,27 @@ footer,
     .page-firma .section-firma .img-reveal {
         overflow: visible;      /* quita el recorte del contenedor solo en móvil */
         max-height: none;
+        max-width: 280px;
+        margin: 0 auto 1.5rem auto;
     }
 
-    .page-firma .section-firma .img-reveal img {
-        height: auto;
-        max-width: 280px;       /* estilo premium, no demasiado grande */
+    .page-firma .section-firma .img-reveal img,
+    .page-firma .section-firma .our-firm-img-vertical {
+        height: 100%;
         width: 100%;
-        margin: 0 auto 1.5rem auto;
-        object-fit: contain;    /* muestra la foto completa */
+        object-fit: cover;    /* muestra la foto completa */
         object-position: center center;
         display: block;
         max-height: none;       /* Asegurar prioridad sobre el max-height global */
     }
 
     /* Imagen vertical de recepción en home: igual, sin techo adicional */
-    .section-firma .img-reveal.img-vertical img {
+    .section-firma .img-reveal.img-vertical {
+        max-height: none;
+    }
+    
+    .section-firma .img-reveal.img-vertical img,
+    .section-firma .our-firm-img-vertical {
         max-height: none;
     }
 
@@ -2120,11 +2136,20 @@ body.nav-open {
 
 /* 2. Estabilidad de layout para imágenes verticales (Evitar saltos/CLS) */
 .img-reveal.img-vertical,
-.page-quienes-somos .img-reveal.img-vertical,
+.page-quienes-somos .img-reveal.img-vertical {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  max-height: none !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-reveal.img-vertical picture,
+.img-reveal.img-vertical img,
 .page-quienes-somos .img-reveal.img-vertical picture,
 .page-quienes-somos .img-reveal.img-vertical img {
   width: 100%;
-  height: auto !important;
+  height: 100% !important;
   max-height: none !important;
-  aspect-ratio: 9 / 16;
+  object-fit: cover;
 }

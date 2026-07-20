@@ -73,13 +73,17 @@ export default async function Home({ params }: Props) {
         <div className="container">
           <div className="grid-split">
             <div className="img-reveal-wrapper">
-              <div className="img-reveal img-vertical">
+              <div 
+                className="img-reveal img-vertical" 
+                style={{ aspectRatio: "9/16", width: "100%", overflow: "hidden", position: "relative" }}
+              >
                 <Image 
                   src="/assets/img/MAC CONSULTORES JURIDICOS & ASOCIADOS- Mac-Consultores - Lobby 1.jpeg" 
                   alt="Lobby principal de Mac Consultores Jurídicos & Asociados" 
                   width={1080} 
                   height={1920} 
                   className="our-firm-img-vertical"
+                  style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
                 />
               </div>
               <p className="img-caption"></p>
