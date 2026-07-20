@@ -27,7 +27,11 @@ export default function LocalClock({ locale = "es" }: LocalClockProps) {
   }, []);
 
   return (
-    <span id="local-clock" className="footer-localtime-value">
+    <span 
+      id="local-clock" 
+      className="footer-localtime-value"
+      style={{ display: "inline-block", minWidth: "85px" }}
+    >
       {localTime}
     </span>
   );

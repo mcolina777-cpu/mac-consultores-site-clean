@@ -14,14 +14,18 @@ export default function Navbar({ dict, locale }: { dict: any, locale: string }) 
     setIsMobileMenuOpen(false);
   }, [pathname]);
 
-  // Bloquear scroll cuando el menú está abierto
+  // Bloquear scroll cuando el menú está abierto sin provocar layout shift
   useEffect(() => {
     if (isMobileMenuOpen) {
+      const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+      document.body.style.paddingRight = `${scrollbarWidth}px`;
       document.body.classList.add('nav-open');
     } else {
+      document.body.style.paddingRight = '';
       document.body.classList.remove('nav-open');
     }
     return () => {
+      document.body.style.paddingRight = '';
       document.body.classList.remove('nav-open');
     };
   }, [isMobileMenuOpen]);

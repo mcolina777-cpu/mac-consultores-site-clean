@@ -13,7 +13,6 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
           fill
           priority
           fetchPriority="high"
-          placeholder="blur"
           className="hero-image"
         />
         <div className="hero-overlay" />
