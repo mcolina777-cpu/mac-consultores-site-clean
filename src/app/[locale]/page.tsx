@@ -167,7 +167,7 @@ export default async function Home({ params }: Props) {
             {dict?.pro_bono?.home_note}{" "}
             <Link
               className="card-action-link"
-              href={getRoute(locale, "probono.penal")}
+              href={`/${locale}/probono-penal`}
             >
               <span>{dict?.pro_bono?.home_link}</span>
             </Link>
