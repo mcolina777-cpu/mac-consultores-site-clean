@@ -782,5 +782,29 @@
     "p9_1": "For those who work in the corporate world —owners, executives, accountants, compliance officers— understanding amparo is not an academic issue: it is a first-order legal risk management tool that can, at the critical moment, preserve freedom, reputation, and business continuity.",
     "p9_2": "Our team at Mac Consultores Jurídicos & Asociados has consolidated experience in the evaluation, prevention, and litigation of economic crime cases, in the design of criminal compliance programs, and in the strategic use of constitutional amparo for the defense of corporate victims, executives, and legal entities. If your company faces a criminal investigation, we invite you to contact us."
   },
-  "brand": "Mac Consultores Jurídicos & Asociados"
+  "brand": "Mac Consultores Jurídicos & Asociados",
+  "pro_bono_penal": {
+    "seo_title": "Pro Bono Penal | Mac Consultores",
+    "seo_desc": "Pro bono program for corporate criminal matters.",
+    "tag": "Social Responsibility",
+    "h1": "Pro Bono Criminal Program",
+    "intro": "Mac Consultores Jurídicos & Asociados' commitment to justice.",
+    "p1": "At our firm, we understand that access to quality criminal defense is fundamental.",
+    "p2": "Therefore, we dedicate a portion of our resources to handle pro bono cases.",
+    "p3": "Cases are evaluated under strict selection criteria and availability.",
+    "form_title": "Pro Bono Application",
+    "form_desc": "Fill out the form so we can evaluate your case.",
+    "form_nombre_label": "Full name",
+    "form_email_label": "Email",
+    "form_telefono_label": "Phone",
+    "form_resumen_label": "Case summary",
+    "form_victima_label": "Are you a victim in this case?",
+    "form_victima_option_default": "Select an option",
+    "form_victima_option_si": "Yes, I am a victim",
+    "form_victima_option_no": "No, I am the accused/defendant",
+    "form_condiciones_text": "I accept the conditions of the pro bono program",
+    "form_btn": "SUBMIT APPLICATION",
+    "pdf_note": "Check our complete pro bono program regulations:",
+    "pdf_link": "Download Regulations (PDF)"
+  }
 }
