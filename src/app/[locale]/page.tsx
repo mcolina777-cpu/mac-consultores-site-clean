@@ -163,6 +163,15 @@ export default async function Home({ params }: Props) {
               </Link>
             </div>
           </div>
+          <p className="pro-bono-note">
+            {dict?.pro_bono?.home_note}{" "}
+            <Link
+              className="card-action-link"
+              href={getRoute(locale, "probono.penal")}
+            >
+              <span>{dict?.pro_bono?.home_link}</span>
+            </Link>
+          </p>
         </div>
       </section>
 

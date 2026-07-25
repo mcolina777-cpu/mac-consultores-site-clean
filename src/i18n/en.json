@@ -806,5 +806,9 @@
     "form_btn": "SUBMIT APPLICATION",
     "pdf_note": "Check our complete pro bono program regulations:",
     "pdf_link": "Download Regulations (PDF)"
+  },
+  "pro_bono": {
+    "home_note": "Como parte de nuestra responsabilidad social, contamos con un programa de asesoría pro bono penal gratuita y con restricciones específicas.",
+    "home_link": "Conocer el programa pro bono penal →"
   }
 }
