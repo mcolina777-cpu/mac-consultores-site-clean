@@ -1,5 +1,6 @@
 import React from 'react';
 import { getDictionary } from '@/i18n/getDictionary';
+import { ImagenCEO } from '@/components/ImagenCEO';
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -70,11 +71,7 @@ export default async function NuestroCEO({ params }: Props) {
         <div className="container">
           <div className="grid-split">
             <div className="img-reveal">
-              <picture>
-                <img src="/assets/mac/ceo.png"
-                     alt="Fotografía corporativa de Marco A. Colina G., Director General"
-                     loading="lazy" />
-              </picture>
+              <ImagenCEO priority={true} />
             </div>
             <div className="about-content">
               <span className="section-tag">{dict?.ceo?.about?.tag}</span>

@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from '@/i18n/getDictionary';
 import { getRoute } from '@/lib/routes';
+import { ImagenOficina } from '@/components/ImagenOficina';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -101,19 +102,11 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
 
             {/* Columna derecha: imagen de la firma (OFICINA_1_1) */}
             <div className="img-reveal img-vertical">
-              <picture>
-                <source
-                  srcSet="/assets/img-webp/OFICINA_1_1.webp"
-                  type="image/webp"
-                />
-                <img
-                  src="/assets/img/OFICINA_1_1.jpeg"
-                  alt="Sede de Mac Consultores Jurídicos & Asociados"
-                  width={1536}
-                  height={2752}
-                  fetchPriority="high"
-                />
-              </picture>
+              <ImagenOficina
+                src="/assets/img-webp/OFICINA_1_1.webp"
+                alt="Sede de Mac Consultores Jurídicos & Asociados"
+                priority={true}
+              />
             </div>
           </div>
         </div>
@@ -209,9 +202,10 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
         <div className="container">
           <div className="grid-split reverse">
             <div className="img-reveal">
-              <picture>
-                <img src="/assets/img/OFICINA-4-SIN-ICONO.jpeg" alt="Oficina ejecutiva de Mac Consultores Jurídicos & Asociados" width={2752} height={1536} loading="lazy" />
-              </picture>
+              <ImagenOficina
+                src="/assets/img/OFICINA-4-SIN-ICONO.jpeg"
+                alt="Oficina ejecutiva de Mac Consultores Jurídicos & Asociados"
+              />
             </div>
             <div className="vision-text">
               <h2 className="serif heading-lg mb-2rem line-height-1-1">
