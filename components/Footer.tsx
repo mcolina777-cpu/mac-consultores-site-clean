@@ -102,6 +102,11 @@ export default function Footer({
                   {newsLabel}
                 </Link>
               </li>
+              <li>
+                <Link href={getRoute(locale, "probonoPenal")}>
+                  {locale === 'es' ? 'Pro bono penal' : 'Pro bono criminal'}
+                </Link>
+              </li>
             </ul>
           </div>
           {/* Columna servicios */}
