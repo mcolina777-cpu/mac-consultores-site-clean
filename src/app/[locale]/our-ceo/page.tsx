@@ -73,6 +73,8 @@ export default async function NuestroCEO({ params }: Props) {
               <picture>
                 <img src="/assets/mac/ceo.png"
                      alt="Fotografía corporativa de Marco A. Colina G., Director General"
+                     width={288}
+                     height={450}
                      loading="lazy" />
               </picture>
             </div>
