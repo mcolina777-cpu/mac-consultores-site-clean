@@ -16,7 +16,8 @@ export type RouteKey =
   | "services.international_cooperation"
   | "quienesSomosDetalle"
   | "estrategiaTeoriaDelCaso"
-  | "estrategiaEscenariosRepresentativos";
+  | "estrategiaEscenariosRepresentativos"
+  | "probonoPenal";
 
 const routes: Record<AppLocale, Record<RouteKey, string>> = {
   es: {
@@ -36,6 +37,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     quienesSomosDetalle: "/es/quienes-somos-detalle",
     estrategiaTeoriaDelCaso: "/es/estrategia-teoria-del-caso",
     estrategiaEscenariosRepresentativos: "/es/estrategia-escenarios-representativos",
+    probonoPenal: "/es/probono-penal",
   },
   en: {
     home: "/en",
@@ -54,6 +56,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     quienesSomosDetalle: "/en/quienes-somos-detalle",
     estrategiaTeoriaDelCaso: "/en/estrategia-teoria-del-caso",
     estrategiaEscenariosRepresentativos: "/en/estrategia-escenarios-representativos",
+    probonoPenal: "/en/probono-penal",
   },
 };
 

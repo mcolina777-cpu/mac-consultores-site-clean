@@ -104,7 +104,7 @@ export default function Footer({
               </li>
               <li>
                 <Link href={getRoute(locale, "probonoPenal")}>
-                  {locale === 'es' ? 'Pro bono penal' : 'Pro bono criminal'}
+                  {locale === 'es' ? 'Pro bono penal' : 'Pro bono'}
                 </Link>
               </li>
             </ul>
