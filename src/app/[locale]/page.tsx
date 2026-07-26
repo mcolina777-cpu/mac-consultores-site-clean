@@ -5,7 +5,6 @@ import InsightDelDia from '@/components/InsightDelDia';
 import Link from 'next/link';
 import { getDictionary } from '@/i18n/getDictionary';
 import { getRoute } from '@/lib/routes';
-import { ImagenOficina } from '@/components/ImagenOficina';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -209,28 +208,28 @@ export default async function Home({ params }: Props) {
           </div>
           <div className="grid-3">
             <div className="card">
-              <ImagenOficina
-                src="/assets/img/OFICINA_1.jpg"
-                alt="Noticia 1"
-              />
+              <picture>
+                <source srcSet="/assets/img-webp/OFICINA_1.webp" type="image/webp" />
+                <img src="/assets/img/OFICINA_1.jpg" alt="Noticia 1" className="news-img" width="2752" height="1536" loading="lazy" />
+              </picture>
               <h3>{dict?.news?.card_1?.title}</h3>
               <p>{dict?.news?.card_1?.desc}</p>
               <Link href={getRoute(locale, "news")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
             </div>
             <div className="card">
-              <ImagenOficina
-                src="/assets/img/OFICINA_2.jpg"
-                alt="Noticia 2"
-              />
+              <picture>
+                <source srcSet="/assets/img-webp/OFICINA_2.webp" type="image/webp" />
+                <img src="/assets/img/OFICINA_2.jpg" alt="Noticia 2" className="news-img" width="2752" height="1536" loading="lazy" />
+              </picture>
               <h3>{dict?.news?.card_2?.title}</h3>
               <p>{dict?.news?.card_2?.desc}</p>
               <Link href={getRoute(locale, "blog")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
             </div>
             <div className="card">
-              <ImagenOficina
-                src="/assets/img/OFICINA_3.jpg"
-                alt="Noticia 3"
-              />
+              <picture>
+                <source srcSet="/assets/img-webp/OFICINA_3.webp" type="image/webp" />
+                <img src="/assets/img/OFICINA_3.jpg" alt="Noticia 3" className="news-img" width="2752" height="1536" loading="lazy" />
+              </picture>
               <h3>{dict?.news?.card_3?.title}</h3>
               <p>{dict?.news?.card_3?.desc}</p>
               <Link href={getRoute(locale, "news")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
