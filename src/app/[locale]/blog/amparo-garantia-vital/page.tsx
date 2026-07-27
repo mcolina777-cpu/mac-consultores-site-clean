@@ -29,7 +29,7 @@ export default async function BlogAmparo({ params }: Props) {
         </div>
       </header>
 
-      <div className="container article-container">
+      <div className="container layout-reading article-container">
         <article className="article-content">
           <p className="article-meta">{dict?.blog_amparo?.meta}</p>
           <p>{dict?.blog_amparo?.p1}</p>

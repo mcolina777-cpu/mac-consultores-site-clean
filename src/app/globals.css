@@ -1958,7 +1958,7 @@ footer,
   margin: 0 auto;
   line-height: 1.8;
   font-size: 1.1rem;
-  color: #444;
+  color: var(--text-muted);
 }
 
 .layout-narrow {
