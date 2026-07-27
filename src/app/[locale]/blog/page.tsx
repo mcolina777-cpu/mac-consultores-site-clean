@@ -68,6 +68,14 @@ export default async function BlogIndex({ params }: Props) {
       </header>
 
       <section>
+        <div className="container layout-reading">
+          <p>
+            {dict?.blog?.intro}
+          </p>
+        </div>
+      </section>
+
+      <section>
         <div className="container">
           <div className="grid-3">
             <article className="card">
