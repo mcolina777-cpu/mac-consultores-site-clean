@@ -532,6 +532,13 @@ section {
     color: var(--accent-light);
 }
 
+.card-excerpt {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 /* =========================================================
    BUTTON SYSTEM (GLOBAL, NO TOCAR DISEÑO)
    ========================================================= */
