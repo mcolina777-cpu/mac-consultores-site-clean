@@ -29,7 +29,7 @@ export default async function BlogCriminalidadEconomica({ params }: Props) {
         </div>
       </header>
 
-      <div className="container article-container">
+      <div className="container layout-reading article-container">
         <article className="article-content">
           <p className="article-meta">{dict?.articulo_crimen?.meta}</p>
 
