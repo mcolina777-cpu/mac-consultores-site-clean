@@ -117,12 +117,15 @@
     "copyright": "Mac Consultores Jurídicos & Asociados. Todos los derechos reservados.",
     "local_time": "Hora local",
     "legal_notice": "Aviso Legal",
-    "privacy": "Privacidad"
+    "privacy": "Privacidad",
+    "link_pro_bono": "Pro bono penal"
   },
   "quienes_somos": {
     "title": "Quiénes Somos | Mac Consultores Jurídicos & Asociados",
     "breadcrumb": "Inicio / La Firma",
     "h1": "Quiénes Somos",
+    "meta_title": "Quiénes Somos | Mac Consultores Jurídicos & Asociados",
+    "meta_description": "Conoce la historia, valores y el equipo de profesionales detrás de Mac Consultores Jurídicos & Asociados. Dedicados al ejercicio impecable del Derecho en Venezuela.",
     "history": {
       "tag": "Nuestra Historia",
       "title": "Una trayectoria definida por el rigor y la integridad.",
@@ -548,6 +551,9 @@
     }
   },
   "home": {
+    "meta_title": "Mac Consultores Jurídicos & Asociados | Penal corporativo y casos selectos en Venezuela",
+    "meta_description": "Firma boutique selectiva que atiende casos de derecho penal corporativo, fraudes, estafas financieras y asuntos patrimoniales en Venezuela para clientes en el exterior, complementados con trámites consulares y documentales estratégicos.",
+    "alt_lobby": "Lobby principal de Mac Consultores Jurídicos & Asociados",
     "resources": {
       "tag": "Recursos",
       "title": "Recursos estratégicos para empresas",

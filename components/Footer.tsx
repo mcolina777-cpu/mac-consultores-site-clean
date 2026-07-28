@@ -20,6 +20,7 @@ type FooterDict = {
     local_time?: string;
     legal_notice?: string;
     privacy?: string;
+    link_pro_bono?: string;
   };
   nav?: {
     inicio?: string;
@@ -104,7 +105,7 @@ export default function Footer({
               </li>
               <li>
                 <Link href={getRoute(locale, "probonoPenal")}>
-                  {locale === 'es' ? 'Pro bono penal' : 'Pro bono'}
+                  {f.link_pro_bono}
                 </Link>
               </li>
             </ul>

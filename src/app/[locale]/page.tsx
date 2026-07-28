@@ -9,16 +9,27 @@ import { getRoute } from '@/lib/routes';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isEs = locale === 'es';
-  
-  const title = isEs
-    ? 'Mac Consultores Jurídicos & Asociados | Penal corporativo y casos selectos en Venezuela'
-    : 'Mac Consultores Jurídicos & Asociados | Corporate criminal law and selected matters in Venezuela';
+  const dict = await getDictionary(locale);
 
-  const description = isEs 
-    ? 'Firma boutique selectiva que atiende casos de derecho penal corporativo, fraudes, estafas financieras y asuntos patrimoniales en Venezuela para clientes en el exterior, complementados con trámites consulares y documentales estratégicos.'
-    : 'Selective boutique law firm focused on corporate criminal law, financial fraud, asset protection and strategic procedures in Venezuela for clients abroad, including consular and document services.';
-  
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
+  const fallbackTitleEs =
+    'Mac Consultores Jurídicos & Asociados | Penal corporativo y casos selectos en Venezuela';
+  const fallbackTitleEn =
+    'Mac Consultores Jurídicos & Asociados | Corporate criminal law and selected matters in Venezuela';
+
+  const fallbackDescEs =
+    'Firma boutique selectiva que atiende casos de derecho penal corporativo, fraudes, estafas financieras y asuntos patrimoniales en Venezuela para clientes en el exterior, complementados con trámites consulares y documentales estratégicos.';
+  const fallbackDescEn =
+    'Selective boutique law firm focused on corporate criminal law, financial fraud, asset protection and strategic procedures in Venezuela for clients abroad, including consular and document services.';
+
+  const title =
+    dict?.home?.meta_title || (isEs ? fallbackTitleEs : fallbackTitleEn);
+
+  const description =
+    dict?.home?.meta_description || (isEs ? fallbackDescEs : fallbackDescEn);
+
+  const BASE_URL =
+    process.env.NEXT_PUBLIC_BASE_URL ||
+    'https://mac-consultores-site-clean.vercel.app';
 
   return {
     metadataBase: new URL(BASE_URL),
@@ -27,8 +38,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     alternates: {
       canonical: `/${locale}`,
       languages: {
-        'es': '/es',
-        'en': '/en',
+        es: '/es',
+        en: '/en',
       },
     },
     openGraph: {
@@ -79,7 +90,7 @@ export default async function Home({ params }: Props) {
               >
                 <Image 
                   src="/assets/img/MAC CONSULTORES JURIDICOS & ASOCIADOS- Mac-Consultores - Lobby 1.jpeg" 
-                  alt="Lobby principal de Mac Consultores Jurídicos & Asociados" 
+                  alt={dict?.home?.alt_lobby || ""} 
                   width={1080} 
                   height={1920} 
                   className="our-firm-img-vertical"

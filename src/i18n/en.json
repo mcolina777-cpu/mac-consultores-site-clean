@@ -117,12 +117,15 @@
     "copyright": "Mac Consultores Jurídicos & Asociados. All rights reserved.",
     "local_time": "Local time",
     "legal_notice": "Legal Notice",
-    "privacy": "Privacy Policy"
+    "privacy": "Privacy Policy",
+    "link_pro_bono": "Pro bono"
   },
   "quienes_somos": {
     "title": "Who We Are | Mac Consultores Jurídicos & Asociados",
     "breadcrumb": "Home / The Firm",
     "h1": "Who We Are",
+    "meta_title": "About Us | Mac Consultores Jurídicos & Asociados",
+    "meta_description": "Learn about the history, values, and the team of professionals behind Mac Consultores Jurídicos & Asociados. Dedicated to the impeccable practice of Law in Venezuela.",
     "history": {
       "tag": "Our History",
       "title": "A trajectory defined by rigor and integrity.",
@@ -548,6 +551,9 @@
     }
   },
   "home": {
+    "meta_title": "Mac Consultores Jurídicos & Asociados | Corporate criminal law and selected matters in Venezuela",
+    "meta_description": "Selective boutique law firm focused on corporate criminal law, financial fraud, asset protection and strategic procedures in Venezuela for clients abroad, including consular and document services.",
+    "alt_lobby": "Main lobby of Mac Consultores Jurídicos & Asociados",
     "resources": {
       "tag": "Resources",
       "title": "Strategic resources for businesses",

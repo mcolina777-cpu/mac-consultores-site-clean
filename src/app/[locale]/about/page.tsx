@@ -6,12 +6,9 @@ import { getRoute } from '@/lib/routes';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isEs = locale === 'es';
-  const title = isEs
-    ? 'Quiénes Somos | Mac Consultores Jurídicos & Asociados'
-    : 'About Us | Mac Consultores Jurídicos & Asociados';
-  const description = isEs
-    ? 'Conoce la historia, valores y el equipo de profesionales detrás de Mac Consultores Jurídicos & Asociados. Dedicados al ejercicio impecable del Derecho en Venezuela.'
-    : 'Learn about the history, values, and the team of professionals behind Mac Consultores Jurídicos & Asociados. Dedicated to the impeccable practice of Law in Venezuela.';
+  const dict = await getDictionary(locale);
+  const title = dict?.quienes_somos?.meta_title || '';
+  const description = dict?.quienes_somos?.meta_description || '';
 
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/about`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/about`;
