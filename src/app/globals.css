@@ -471,7 +471,7 @@ section {
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 
@@ -786,6 +786,9 @@ footer,
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transform: translateZ(0);
+    isolation: isolate;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
 .img-reveal img {
