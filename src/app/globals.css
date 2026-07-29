@@ -616,6 +616,8 @@ button,
 .btn-primary,
 .btn-outline {
   -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 /* =========================================================
