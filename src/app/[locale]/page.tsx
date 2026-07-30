@@ -6,6 +6,9 @@ import Link from 'next/link';
 import { getDictionary } from '@/i18n/getDictionary';
 import { getRoute } from '@/lib/routes';
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isEs = locale === 'es';
