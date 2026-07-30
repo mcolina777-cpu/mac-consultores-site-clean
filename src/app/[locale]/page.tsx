@@ -104,6 +104,9 @@ export default async function Home({ params }: Props) {
               <h2 className="section-title">{dict?.about?.title}</h2>
               <p>{dict?.about?.desc_1}</p>
               <p>{dict?.about?.desc_2}</p>
+              <Link href={getRoute(locale, "probonoPenal")} className="btn btn-primary mt-1rem">
+                Servicios Pro bono
+              </Link>
               <Link href={getRoute(locale, "about")} className="btn btn-outline mt-1rem">
                 {dict?.about?.btn}
               </Link>
