@@ -1,13 +1,12 @@
 import React from 'react';
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 import Image from 'next/image';
 import Hero from '@/components/Hero';
 import InsightDelDia from '@/components/InsightDelDia';
 import Link from 'next/link';
 import { getDictionary } from '@/i18n/getDictionary';
 import { getRoute } from '@/lib/routes';
-
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
