@@ -45,7 +45,7 @@ export default function Navbar({ dict, locale }: { dict: any, locale: string }) 
   return (
     <nav>
       <div className="container">
-        <Link href={`/${locale}`} className="logo no-underline">
+        <Link href="/" className="logo no-underline">
           <LogoSVG />
         </Link>
         

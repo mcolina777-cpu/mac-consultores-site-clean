@@ -152,12 +152,14 @@ export default function Footer({
                 </Link>
               </li>
             </ul>
-            <img
-              src="/assets/mac/mac-icon-192.png"
-              alt={brandLabel}
-              className="footer-seal-img"
-              loading="lazy"
-            />
+            <Link href="/">
+              <img
+                src="/assets/mac/mac-icon-192.png"
+                alt={brandLabel}
+                className="footer-seal-img"
+                loading="lazy"
+              />
+            </Link>
           </div>
         </div>
         {/* Línea inferior */}
