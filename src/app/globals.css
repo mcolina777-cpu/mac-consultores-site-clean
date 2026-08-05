@@ -176,7 +176,7 @@ nav .nav-links a {
   color: var(--primary);
   text-decoration: none;
   transition: color 0.3s ease;
-  font-family: var(--font-inter), 'Inter', sans-serif;
+  font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
 }
 
 .nav-links a:hover {
@@ -1226,39 +1226,27 @@ footer,
     padding: 10px 15px;
 }
 
-/* Fuerza el mismo tamaño y estilo para todos los enlaces del menú superior */
-nav .nav-links a {
-    font-family: var(--font-inter), 'Inter', sans-serif;
-    font-size: 0.85rem;      /* mismo tamaño de letra para todos */
-    font-weight: 600;        /* misma negrita */
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-}
-
 .lang-btn {
     background: none;
     border: none;
     padding: 0;
-    font-family: var(--font-inter), 'Inter', sans-serif;
+    font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
     font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     color: var(--primary);
     cursor: pointer;
-    transition: color 0.3s ease, opacity 0.3s ease, border-bottom-color 0.3s ease;
-    opacity: 0.5;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
     border-bottom: 1.5px solid transparent;
 }
 
 .lang-btn:hover {
     color: var(--accent);
-    opacity: 1;
 }
 
 .lang-btn.active {
     color: var(--accent);
-    opacity: 1;
     font-weight: 700;
     border-bottom: 1.5px solid var(--accent);
 }
