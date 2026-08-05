@@ -1,20 +1,28 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "../globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { getDictionary } from "@/i18n/getDictionary";
 import WhatsAppFloatButton from "@/components/WhatsAppFloatButton";
 
-const cormorantGaramond = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+const cormorantGaramond = localFont({
+  src: [
+    { path: "../../../public/fonts/Cormorant-400.ttf", weight: "400", style: "normal" },
+    { path: "../../../public/fonts/Cormorant-500.ttf", weight: "500", style: "normal" },
+    { path: "../../../public/fonts/Cormorant-600.ttf", weight: "600", style: "normal" },
+    { path: "../../../public/fonts/Cormorant-700.ttf", weight: "700", style: "normal" }
+  ],
   variable: "--font-cormorant",
 });
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+const inter = localFont({
+  src: [
+    { path: "../../../public/fonts/Inter-300.ttf", weight: "300", style: "normal" },
+    { path: "../../../public/fonts/Inter-400.ttf", weight: "400", style: "normal" },
+    { path: "../../../public/fonts/Inter-500.ttf", weight: "500", style: "normal" },
+    { path: "../../../public/fonts/Inter-600.ttf", weight: "600", style: "normal" }
+  ],
   variable: "--font-inter",
 });
 
