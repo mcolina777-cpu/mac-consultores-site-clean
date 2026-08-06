@@ -781,6 +781,58 @@ footer,
   transition: color 0.3s ease;
 }
 
+/* FOOTER – Móvil */
+@media (max-width: 768px) {
+  .footer {
+    padding: 60px 20px 30px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "info"
+      "nav"
+      "services"
+      "offices";
+    gap: 32px;
+  }
+
+  .footer-col.footer-info {
+    grid-area: info;
+  }
+
+  .footer-col:nth-of-type(2) {
+    grid-area: nav;
+  }
+
+  .footer-col:nth-of-type(3) {
+    grid-area: services;
+  }
+
+  .footer-col:nth-of-type(4) {
+    grid-area: offices;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    text-align: center;
+  }
+
+  .footer-bottom p,
+  .footer-bottom a,
+  .footer-location {
+    text-align: center;
+  }
+
+  .footer-legal {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
 /* Utility Classes */
 .img-reveal {
     border-radius: 8px;
