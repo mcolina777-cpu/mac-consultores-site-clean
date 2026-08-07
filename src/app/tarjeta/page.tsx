@@ -60,16 +60,7 @@ export default function TarjetaPage() {
                 linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
             }
 
-            .tarjeta-header::after {
-              content: '';
-              position: absolute;
-              right: -70px;
-              bottom: -90px;
-              width: 220px;
-              height: 220px;
-              border: 1px solid rgba(184, 147, 74, 0.32);
-              border-radius: 50%;
-            }
+
 
             .tarjeta-logo {
               position: relative;
