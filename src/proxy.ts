@@ -13,7 +13,8 @@ export function proxy(request: NextRequest) {
     pathname.startsWith('/assets') ||
     pathname.startsWith('/Logo') ||
     pathname === '/favicon.ico' ||
-    pathname === '/site.webmanifest'
+    pathname === '/site.webmanifest' ||
+    pathname.startsWith('/tarjeta')
   ) {
     return;
   }
