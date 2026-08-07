@@ -213,8 +213,8 @@ export default function TarjetaPage() {
             
             {/* Llamar */}
             <a 
-              href={CONTACT_DATA.phone ? \`tel:\${CONTACT_DATA.phone}\` : "#"} 
-              className={\`btn-action \${!CONTACT_DATA.phone ? 'disabled' : ''}\`}
+              href={CONTACT_DATA.phone ? `tel:${CONTACT_DATA.phone}` : "#"} 
+              className={`btn-action ${!CONTACT_DATA.phone ? 'disabled' : ''}`}
               title={!CONTACT_DATA.phone ? "Configuración pendiente" : "Llamar"}
             >
               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
@@ -224,7 +224,7 @@ export default function TarjetaPage() {
             {/* WhatsApp */}
             <a 
               href={CONTACT_DATA.whatsapp || "#"} 
-              className={\`btn-action \${!CONTACT_DATA.whatsapp ? 'disabled' : ''}\`}
+              className={`btn-action ${!CONTACT_DATA.whatsapp ? 'disabled' : ''}`}
               title={!CONTACT_DATA.whatsapp ? "Configuración pendiente" : "WhatsApp"}
             >
               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
@@ -233,8 +233,8 @@ export default function TarjetaPage() {
 
             {/* Correo */}
             <a 
-              href={CONTACT_DATA.email ? \`mailto:\${CONTACT_DATA.email}\` : "#"} 
-              className={\`btn-action \${!CONTACT_DATA.email ? 'disabled' : ''}\`}
+              href={CONTACT_DATA.email ? `mailto:${CONTACT_DATA.email}` : "#"} 
+              className={`btn-action ${!CONTACT_DATA.email ? 'disabled' : ''}`}
               title={!CONTACT_DATA.email ? "Configuración pendiente" : "Correo"}
             >
               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
@@ -244,7 +244,7 @@ export default function TarjetaPage() {
             {/* Agendar Consulta */}
             <a 
               href={CONTACT_DATA.calendarUrl || "#"} 
-              className={\`btn-action \${!CONTACT_DATA.calendarUrl ? 'disabled' : ''}\`}
+              className={`btn-action ${!CONTACT_DATA.calendarUrl ? 'disabled' : ''}`}
               title={!CONTACT_DATA.calendarUrl ? "Configuración pendiente" : "Agendar"}
             >
               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
