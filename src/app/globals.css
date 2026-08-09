@@ -2234,8 +2234,8 @@ body.nav-open {
 
 .footer-seal-img {
   display: block;
-  width: 48px;
-  max-width: 48px;
+  width: 56px;
+  max-width: 56px;
   height: auto;
   filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.18));
 }
@@ -2257,8 +2257,8 @@ body.nav-open {
   }
 
   .footer-seal-img {
-    width: 42px;
-    max-width: 42px;
+    width: 48px;
+    max-width: 48px;
   }
 }
 
