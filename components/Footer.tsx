@@ -152,9 +152,9 @@ export default function Footer({
                 </Link>
               </li>
             </ul>
-            <Link href="/">
+            <Link href="/" className="footer-seal-link">
               <img
-                src="/assets/mac/mac-icon-192.png"
+                src="/assets/mac/mac-lion-footer-transparent.png"
                 alt={brandLabel}
                 className="footer-seal-img"
                 loading="lazy"

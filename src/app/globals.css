@@ -2215,3 +2215,55 @@ body.nav-open {
   max-height: none !important;
   object-fit: cover;
 }
+
+/* Sello del león: integración exclusiva dentro del footer */
+.footer-seal-link {
+  align-self: flex-end;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 1.4rem;
+  padding: 0.35rem;
+  border-radius: 999px;
+  line-height: 0;
+  text-decoration: none;
+  opacity: 0.92;
+  transition: transform 220ms ease, opacity 220ms ease;
+}
+
+.footer-seal-img {
+  display: block;
+  width: 48px;
+  max-width: 48px;
+  height: auto;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.18));
+}
+
+.footer-seal-link:hover {
+  transform: translateY(-1px);
+  opacity: 1;
+}
+
+.footer-seal-link:focus-visible {
+  outline: 2px solid rgba(245, 215, 110, 0.95);
+  outline-offset: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer-seal-link {
+    align-self: center;
+    margin-top: 0.8rem;
+  }
+
+  .footer-seal-img {
+    width: 42px;
+    max-width: 42px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footer-seal-link {
+    transition: none;
+  }
+}
