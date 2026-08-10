@@ -171,10 +171,12 @@ export default function Footer({
             <p className="footer-location">
               <span>{locationLabel}</span>
               <span className="footer-location-separator"> · </span>
-              <span className="footer-localtime-label">
-                {localTimeLabel}:
+              <span className="footer-localtime">
+                <span className="footer-localtime-label">
+                  {localTimeLabel}:
+                </span>{" "}
+                <LocalClock locale={locale} />
               </span>
-              <LocalClock locale={locale} />
             </p>
           </div>
           <div className="footer-legal">
