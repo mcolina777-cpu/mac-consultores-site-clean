@@ -84,7 +84,7 @@ export default async function Home({ params }: Props) {
 
       <section className="bg-soft section-firma">
         <div className="container">
-          <div className="grid-split">
+          <div className="grid-split home-about-split">
             <div className="img-reveal-wrapper">
               <div 
                 className="img-reveal img-vertical" 
