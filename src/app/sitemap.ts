@@ -16,6 +16,7 @@ const routes = [
   '/legal',
   '/privacy',
   '/estrategia-teoria-del-caso',
+  '/seleccion-de-casos',
   '/estrategia-escenarios-representativos',
   '/quienes-somos-detalle',
 ];
