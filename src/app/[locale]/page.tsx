@@ -132,6 +132,7 @@ export default async function Home({ params }: Props) {
               <span className="section-tag">{dict?.home?.strategies?.case_selection?.tag}</span>
               <h3>{dict?.home?.strategies?.case_selection?.title}</h3>
               <p>{dict?.home?.strategies?.case_selection?.desc}</p>
+              <span className="news-link"><span>{dict?.news?.read_more}</span></span>
             </Link>
 
             <Link href={getRoute(locale, "estrategiaTeoriaDelCaso")} className="card">
