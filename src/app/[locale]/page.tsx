@@ -141,12 +141,12 @@ export default async function Home({ params }: Props) {
               <span className="news-link"><span>{dict?.news?.read_more}</span></span>
             </Link>
 
-            <article className="card">
+            <Link href={getRoute(locale, "estrategiaEscenariosRepresentativos")} className="card">
               <span className="section-tag">{dict?.home?.strategies?.representative_scenarios?.tag}</span>
               <h3>{dict?.home?.strategies?.representative_scenarios?.title}</h3>
               <p>{dict?.home?.strategies?.representative_scenarios?.desc}</p>
-              <Link href={getRoute(locale, "estrategiaEscenariosRepresentativos")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
-            </article>
+              <span className="news-link"><span>{dict?.news?.read_more}</span></span>
+            </Link>
           </div>
         </div>
       </section>
