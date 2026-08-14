@@ -503,7 +503,7 @@ section {
 
 .card .news-img {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    height: 180px;
     object-fit: cover;
     border-radius: 4px;
     margin-bottom: 1.5rem;
