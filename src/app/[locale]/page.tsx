@@ -128,11 +128,11 @@ export default async function Home({ params }: Props) {
           </div>
 
           <div className="grid-3">
-            <article className="card">
+            <Link href={getRoute(locale, "estrategiaSeleccionDeCasos")} className="card">
               <span className="section-tag">{dict?.home?.strategies?.case_selection?.tag}</span>
               <h3>{dict?.home?.strategies?.case_selection?.title}</h3>
               <p>{dict?.home?.strategies?.case_selection?.desc}</p>
-            </article>
+            </Link>
 
             <Link href={getRoute(locale, "estrategiaTeoriaDelCaso")} className="card">
               <span className="section-tag">{dict?.home?.strategies?.case_theory?.tag}</span>
