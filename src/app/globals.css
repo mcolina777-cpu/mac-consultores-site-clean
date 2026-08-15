@@ -2315,3 +2315,7 @@ body.nav-open {
     gap: 0.25rem;
   }
 }
+
+.b2b-contact-box {
+  padding: 4rem 0;
+}
