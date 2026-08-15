@@ -167,13 +167,13 @@ export default async function Home({ params }: Props) {
                 <span>{dict?.specialties?.details_link}</span>
               </span>
             </Link>
-            <div className="card">
+            <Link className="card" href={getRoute(locale, "services")}>
               <h3>{dict?.specialties?.card_2?.title}</h3>
               <p>{dict?.specialties?.card_2?.desc}</p>
-              <Link className="card-action-link" href={getRoute(locale, "services")}>
+              <span className="card-action-link">
                 <span>{dict?.specialties?.details_link}</span>
-              </Link>
-            </div>
+              </span>
+            </Link>
             <div className="card">
               <h3>{dict?.specialties?.card_3?.title}</h3>
               <p>{dict?.specialties?.card_3?.desc}</p>
