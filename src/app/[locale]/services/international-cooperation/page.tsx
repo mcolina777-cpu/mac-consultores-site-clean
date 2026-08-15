@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from "@/i18n/getDictionary";
+import B2BContactBox from "@/components/B2BContactBox";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -43,6 +44,8 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
               </picture>
             </div>
           </div>
+
+          <B2BContactBox data={data?.contactBox} locale={locale} />
 
           <div className="mt-4rem text-center">
             <span className="section-tag">{data?.proposal?.tag}</span>

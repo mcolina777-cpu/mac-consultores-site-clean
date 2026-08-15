@@ -408,6 +408,33 @@
         "title": "Opiniones Legales",
         "desc": "Emisión de dictámenes técnicos y legal opinions sobre normativa venezolana para ser utilizados en procedimientos extranjeros."
       }
+    },
+    "contactBox": {
+      "tag": "ALIANZAS INSTITUCIONALES",
+      "title": "Construyamos una alianza estratégica",
+      "description": "Si su firma requiere acompañamiento jurídico confiable en Venezuela o desea explorar una colaboración profesional, nuestro equipo está disponible para conocer sus necesidades.",
+      "emailPrefix": "También puede escribirnos a",
+      "email": "infomacconsul@gmail.com",
+      "form": {
+        "subject": "Solicitud de alianza estratégica — Mac Consultores Jurídicos & Asociados",
+        "fullName": "Nombre completo",
+        "organization": "Firma u organización",
+        "country": "País",
+        "email": "Correo corporativo",
+        "website": "Sitio web (opcional)",
+        "interest": "Área de interés",
+        "selectPlaceholder": "Seleccione una opción",
+        "options": {
+          "corresponsalia": "Corresponsalía jurídica en Venezuela",
+          "representacion": "Atención y representación de clientes",
+          "consultoria": "Consultoría estratégica",
+          "alianza": "Alianza institucional",
+          "otro": "Otro"
+        },
+        "message": "Mensaje",
+        "submit": "Solicitar información",
+        "privacy": "Su información será tratada con estricta confidencialidad."
+      }
     }
   },
   "seo": {

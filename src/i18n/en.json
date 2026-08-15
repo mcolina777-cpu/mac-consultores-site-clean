@@ -408,6 +408,33 @@
         "title": "Legal Opinions",
         "desc": "Issuance of technical reports and legal opinions on Venezuelan regulations to be used in foreign proceedings."
       }
+    },
+    "contactBox": {
+      "tag": "INSTITUTIONAL PARTNERSHIPS",
+      "title": "Let us build a strategic partnership",
+      "description": "If your firm requires reliable legal support in Venezuela or wishes to explore a professional collaboration, our team is available to learn about your needs.",
+      "emailPrefix": "You may also write to us at",
+      "email": "infomacconsul@gmail.com",
+      "form": {
+        "subject": "Strategic partnership inquiry — Mac Consultores Jurídicos & Asociados",
+        "fullName": "Full name",
+        "organization": "Law firm or organization",
+        "country": "Country",
+        "email": "Corporate email",
+        "website": "Website (optional)",
+        "interest": "Area of interest",
+        "selectPlaceholder": "Select an option",
+        "options": {
+          "corresponsalia": "Legal correspondent services in Venezuela",
+          "representacion": "Client assistance and representation",
+          "consultoria": "Strategic consulting",
+          "alianza": "Institutional partnership",
+          "otro": "Other"
+        },
+        "message": "Message",
+        "submit": "Request information",
+        "privacy": "Your information will be handled with strict confidentiality."
+      }
     }
   },
   "seo": {
