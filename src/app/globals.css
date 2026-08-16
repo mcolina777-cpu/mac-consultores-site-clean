@@ -2319,3 +2319,23 @@ body.nav-open {
 .b2b-contact-box {
   padding: 4rem 0;
 }
+
+@media (max-width: 480px) {
+  #alianzas-contacto .channel-card {
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  #alianzas-contacto .channel-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  #alianzas-contacto .channel-value {
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}
