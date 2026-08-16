@@ -88,7 +88,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
                   <li key={index}>{item}</li>
                 ))}
               </ul>
-              <Link href={getRoute(locale, "services.penal")} className="card-link">{dict?.services?.card_1?.link}</Link>
+              <span className="card-link">{dict?.services?.card_1?.link}</span>
             </Link>
             <div className="card">
               <span className="section-tag">02</span>
