@@ -438,6 +438,9 @@
     }
   },
   "seo": {
+    "economic_criminal_risk": {
+      "title": "Economic Criminal Risk Guide for Companies | Mac Consultores"
+    },
     "blog_criminalidad_economica": {
       "title": "Criminal Analysis: Evolution of Economic Crime | Mac Consultores Jurídicos & Asociados",
       "description": null,
@@ -851,5 +854,164 @@
   "pro_bono": {
     "home_note": "Como parte de nuestra responsabilidad social, contamos con un programa de asesoría pro bono penal gratuita y con restricciones específicas.",
     "home_link": "Conocer el programa pro bono penal →"
+  },
+  "economic_criminal_risk": {
+    "breadcrumb": "Resources / Economic Criminal Risk",
+    "h1": "5-Step Guide to Protect Your Company in Economic Criminal Investigations",
+    "subtitle": "A practical and methodological tool to anticipate, document, and respond to corporate criminal risk scenarios.",
+    "intro_p_1": "Economic criminal investigations represent one of the most complex challenges for corporate governance, as they can simultaneously compromise corporate assets, business continuity, market reputation, and the direct personal liability of directors, officers, auditors, legal representatives, and employees.",
+    "intro_p_2": "An improvised, disorganized response or one lacking procedural rigor can exponentially worsen the legal contingency. Conversely, legally planned action makes it possible to neutralize vulnerabilities, preserve evidentiary traceability, ensure documentary legality, and consolidate a sound technical defense strategy from the earliest actions taken by the authority.",
+    "protocol": {
+      "tag": "Corporate Response and Governance Protocol",
+      "title": "Five Methodological Response Phases",
+      "intro": "The following protocol is structured into five methodological phases."
+    },
+    "steps": {
+      "step_1": {
+        "tag": "Step 1",
+        "title": "Identify and define the risk",
+        "intro": "The first step is to determine precisely which fact, financial operation, commercial transaction, corporate decision, or factual conduct is being questioned or has triggered the authority’s request.",
+        "subheading": "Identification and diagnostic criteria",
+        "items": [
+          "Questioned operation: Identify which transaction, agreement, tax return, foreign-exchange flow, or accounting movement is under review.",
+          "Map of participants: Determine who participated directly or indirectly in the operation and the statutory or operational functions they performed.",
+          "Decision-making chain and authority: Identify which corporate bodies or officers made the decisions, under which powers, and pursuant to which corporate mandates.",
+          "Applicable regulatory framework: Determine which criminal laws, sector-specific regulations, including tax, banking, foreign-exchange, and customs rules, or compliance policies governed at the time of the facts.",
+          "Intervening authority: Determine whether the investigation originates from the Public Prosecutor’s Office, specialized police bodies, tax authorities, or regulatory agencies.",
+          "Procedural stage: Determine whether the matter involves a preliminary audit, voluntary information request, compulsory request, or a formal preparatory criminal investigation.",
+          "Involved parties: Identify directors, employees, affiliated legal entities, or third-party suppliers potentially exposed."
+        ],
+        "closing": "Not every formal irregularity, tax contingency, or commercial dispute constitutes a crime. Legal classification of the facts must be performed with strict criminal-law rigor before adopting measures that could self-incriminate the organization or compromise its defense position.",
+        "recommendation": {
+          "title": "Technical Recommendation / Critical Control Point",
+          "items": [
+            "Avoid issuing preliminary statements to authorities or the media without prior advice from specialized criminal counsel.",
+            "Conduct a criminal-law assessment of potential offenses, such as money laundering, fraud, or tax crimes, as distinct from mere administrative infractions."
+          ]
+        }
+      },
+      "step_2": {
+        "tag": "Step 2",
+        "title": "Immediately preserve documentation and digital evidence",
+        "intro": "In economic criminal matters, documentary and electronic evidence is central to clarifying the facts and rebutting liability. It is imperative to secure a sound chain of custody from the outset.",
+        "subheading": "Safeguard and retention mechanism",
+        "items": [
+          "Physical and digital integrity: Prevent intentional or accidental loss, alteration, or destruction of records.",
+          "File immutability: Suspend automatic overwrite policies for corporate servers and backups.",
+          "Email and messaging preservation: Secure email inboxes, corporate messaging logs, and key communications.",
+          "Accounting and financial records: Freeze and back up bank statements, official accounting books, financial statements, and tax records in the ERP.",
+          "Devices and cloud repositories: Preserve access to laptops and online platforms connected to the matter."
+        ],
+        "closing": "It is advisable to identify, classify, and safeguard agreements, invoices, payment records, shareholders’ meeting and board minutes, audit reports, authorizations, and any other file related to the operation under review.",
+        "recommendation": {
+          "title": "Technical Recommendation / Critical Control Point",
+          "items": [
+            "Deleting or altering data during a criminal investigation may constitute independent obstruction-of-justice offenses.",
+            "Obtain forensic images of servers and hard drives in accordance with digital-forensics standards."
+          ]
+        }
+      },
+      "step_3": {
+        "tag": "Step 3",
+        "title": "Establish a verifiable factual timeline",
+        "intro": "Accurate factual reconstruction is the backbone of an effective criminal defense. Collecting isolated documents is not enough; each corporate action must be ordered chronologically and causally.",
+        "subheading": "Factual reconstruction methodology",
+        "items": [
+          "Documented timeline: Establish exact dates for each milestone, meeting, approval, monetary transfer, and execution of documents.",
+          "Documentary traceability: Link every asserted fact to its corresponding auditable physical or digital evidentiary support.",
+          "Structured internal interviews: Gather accounts from operational actors under confidentiality and with corporate legal assistance.",
+          "Gap analysis: Detect inconsistencies, information gaps, or contradictions between statements and records before they are identified by the opposing party or the prosecutor."
+        ],
+        "closing": "A robust, verified factual narrative supported by evidence enables management to anticipate allegations, rebut prosecutorial theories, and raise well-grounded procedural objections.",
+        "recommendation": {
+          "title": "Technical Recommendation / Critical Control Point",
+          "items": [
+            "Create a “Facts vs. Evidence Matrix” to serve as a navigation map for litigation counsel.",
+            "Ensure that internal accounts do not conflict with declared accounting or tax data."
+          ]
+        }
+      },
+      "step_4": {
+        "tag": "Step 4",
+        "title": "Centralize communications and appoint a response team",
+        "intro": "During a criminal investigation, fragmented information and uncoordinated statements create significant risk. All institutional interaction should be channeled through a duly authorized crisis committee.",
+        "subheading": "Communication and spokesperson protocol",
+        "items": [
+          "Contingency Management Committee: Composed exclusively of senior management, the compliance officer, and external criminal counsel.",
+          "Single authorized spokesperson: Personnel without authorization must not respond to verbal or informal requests from authorities or the media.",
+          "Attorney-client privilege and confidentiality: Mark all analyses, preliminary reports, and opinions as protected by professional secrecy and attorney-client privilege.",
+          "Instructions for operational personnel: Train reception staff, security personnel, and IT teams on how to respond to judicial notices or unannounced inspections."
+        ],
+        "closing": "",
+        "recommendation": {
+          "title": "Technical Recommendation / Critical Control Point",
+          "items": [
+            "No employee should deliver original documents without preparing a formal record of delivery and receipt.",
+            "Establish a secure internal channel to prevent leaks that could harm the company’s reputation or compromise legal confidentiality."
+          ]
+        }
+      },
+      "step_5": {
+        "tag": "Step 5",
+        "title": "Engage specialized criminal counsel and define the procedural strategy",
+        "intro": "Economic criminal law requires highly specialized evidentiary and procedural analysis, combining corporate law, finance, and criminal litigation expertise. Early intervention by specialists can materially affect the outcome of the matter.",
+        "subheading": "Strategic pillars of the technical defense",
+        "items": [
+          "Demonstrating due diligence: Show that corporate conduct adhered to standards of good-faith business practice and regulatory compliance.",
+          "Active participation during the investigation: Request access to the case file, promote relevant investigative measures, and exercise formal oversight of the criminal investigation.",
+          "Precautionary measures and asset protection: Design immediate defenses against possible bank-account freezes, attachments, or prohibitions on disposal.",
+          "Remediation and institutional adjustment plan: Promptly implement internal corrective measures if operational failures or individual employee misconduct are identified."
+        ],
+        "closing": "A comprehensive strategy seeks not only dismissal or termination of the criminal case, but also the full preservation of economic viability, corporate reputation, and the legal security of directors.",
+        "recommendation": {
+          "title": "Technical Recommendation / Critical Control Point",
+          "items": [
+            "Early intervention by specialists helps align evidence preservation, procedural strategy, and business continuity from the authority’s earliest actions.",
+            "The adoption of internal corrective measures should be assessed within a coordinated and documented legal strategy."
+          ]
+        }
+      }
+    },
+    "matrix": {
+      "title": "Executive Matrix for Immediate Control and Response",
+      "headers": {
+        "phase": "Protocol phase",
+        "actions": "Immediate key actions",
+        "responsible": "Directly responsible"
+      },
+      "rows": {
+        "row_1": {
+          "phase": "1. Risk definition",
+          "actions": "Identify the questioned facts, applicable regulatory framework, exposed parties, and requesting authority.",
+          "responsible": "General Management / In-House Legal"
+        },
+        "row_2": {
+          "phase": "2. Document preservation",
+          "actions": "Activate a legal hold, freeze databases, secure emails, and obtain forensic images.",
+          "responsible": "IT / Compliance Officer"
+        },
+        "row_3": {
+          "phase": "3. Factual timeline",
+          "actions": "Build a chronological matrix of facts and connect each action to auditable evidence.",
+          "responsible": "Legal Team / Audit"
+        },
+        "row_4": {
+          "phase": "4. Centralization and spokesperson",
+          "actions": "Channel requests through the crisis committee and protect communications under professional secrecy.",
+          "responsible": "Crisis Committee / Legal Spokesperson"
+        },
+        "row_5": {
+          "phase": "5. Specialized criminal defense",
+          "actions": "Present exculpatory evidence, manage precautionary measures, and demonstrate compliance.",
+          "responsible": "External Criminal Counsel / General Management"
+        }
+      }
+    },
+    "notice": "This guide is provided for general informational purposes and does not replace a legal assessment of a specific case. Applicable measures must be defined according to the facts, the jurisdiction, and the relevant procedural stage.",
+    "cta": {
+      "title": "Is your company facing a request or an investigation?",
+      "desc": "Early, technically coordinated action helps preserve evidence, protect rights, and define an effective response strategy.",
+      "link": "Request a strategic assessment →"
+    }
   }
 }

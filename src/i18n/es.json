@@ -438,6 +438,9 @@
     }
   },
   "seo": {
+    "economic_criminal_risk": {
+      "title": "Guía de riesgo penal económico para empresas | Mac Consultores"
+    },
     "blog_criminalidad_economica": {
       "title": "Análisis Penal: Evolución de la Criminalidad Económica | Mac Consultores Jurídicos & Asociados",
       "description": null,
@@ -851,5 +854,164 @@
   "pro_bono": {
     "home_note": "Como parte de nuestra responsabilidad social, contamos con un programa de asesoría pro bono penal gratuita y con restricciones específicas.",
     "home_link": "Conocer el programa pro bono penal →"
+  },
+  "economic_criminal_risk": {
+    "breadcrumb": "Recursos / Riesgo penal económico",
+    "h1": "Guía en 5 pasos para proteger su empresa ante investigaciones penales económicas",
+    "subtitle": "Herramienta práctica y metodológica para anticipar, documentar y responder ante escenarios de riesgo penal empresarial.",
+    "intro_p_1": "Las investigaciones penales de naturaleza económica representan uno de los desafíos más complejos para la gobernanza corporativa, al tener el potencial de comprometer simultáneamente el patrimonio societario, la continuidad operativa de los negocios, la reputación en los mercados y la responsabilidad personal directa de directivos, administradores, auditores, representantes legales y colaboradores.",
+    "intro_p_2": "Una respuesta improvisada, desordenada o carente de rigor procesal puede agravar exponencialmente la contingencia jurídica. Por el contrario, una actuación jurídicamente planificada permite neutralizar vulnerabilidades, preservar la trazabilidad probatoria, asegurar la legalidad documental y consolidar una estrategia de defensa técnica sólida desde las primeras actuaciones de la autoridad.",
+    "protocol": {
+      "tag": "Protocolo de actuación y gobernanza corporativa",
+      "title": "Cinco fases metodológicas de respuesta",
+      "intro": "A continuación, se desarrolla el protocolo estructurado en cinco fases metodológicas."
+    },
+    "steps": {
+      "step_1": {
+        "tag": "Paso 1",
+        "title": "Identifique y delimite el riesgo",
+        "intro": "El primer paso consiste en determinar con exactitud qué hecho, operación financiera, transacción comercial, decisión corporativa o conducta fáctica está siendo cuestionada u originando el requerimiento de la autoridad.",
+        "subheading": "Criterios de identificación y diagnóstico",
+        "items": [
+          "Operación cuestionada: Qué transacción, contrato, declaración tributaria, flujo cambiario o movimiento contable está bajo análisis.",
+          "Mapa de intervinientes: Quiénes participaron directa o indirectamente en la operación y qué funciones estatutarias u operativas desempeñaban.",
+          "Línea de decisión y facultades: Qué órganos o directivos adoptaron las decisiones, bajo qué poderes y con apego a qué mandatos societarios.",
+          "Marco normativo aplicable: Qué leyes penales, regulaciones sectoriales (tributarias, bancarias, cambiarias, aduaneras) o políticas de compliance regían al momento de los hechos.",
+          "Autoridad interviniente: Si la investigación proviene del Ministerio Público, cuerpos policiales especializados, órganos de administración tributaria o entes reguladores.",
+          "Fase procedimental: Si se trata de una fiscalización previa, solicitud de información voluntaria, requerimiento coactivo o fase de investigación penal preparatoria formal.",
+          "Sujetos involucrados: Individualización de directivos, empleados, personas jurídicas vinculadas o terceros proveedores potencialmente expuestos."
+        ],
+        "closing": "No toda irregularidad formal, contingencia tributaria o disputa comercial califica como delito. La subsunción o calificación jurídica del hecho debe realizarse con estricto rigor técnico-penal antes de adoptar medidas que puedan autoincriminar a la organización o alterar la postura de defensa.",
+        "recommendation": {
+          "title": "Recomendación técnica / Punto crítico de control",
+          "items": [
+            "Evite emitir declaraciones preliminares ante autoridades o medios sin previa asesoría penal especializada.",
+            "Realice un diagnóstico de tipicidad penal, por ejemplo: legitimación de capitales, fraude o delitos fiscales, frente a meras infracciones administrativas."
+          ]
+        }
+      },
+      "step_2": {
+        "tag": "Paso 2",
+        "title": "Preserve inmediatamente la documentación y evidencia digital",
+        "intro": "En materia penal económica, la prueba documental y electrónica constituye el núcleo para esclarecer los hechos y desvirtuar responsabilidades. Es imperativo asegurar una cadena de custodia sólida desde el primer instante.",
+        "subheading": "Mecanismo de salvaguarda y retención",
+        "items": [
+          "Integridad física y digital: Prevenir la pérdida, alteración o destrucción intencional o accidental de expedientes.",
+          "Inmutabilidad de archivos: Suspender políticas de sobreescritura automática de servidores y backups corporativos.",
+          "Custodia de correos y mensajería: Asegurar buzones electrónicos, logs de mensajería corporativa y comunicaciones clave.",
+          "Registros contables y financieros: Congelar y respaldar estados de cuenta, libros contables oficiales, balances y comprobantes fiscales (ERP).",
+          "Dispositivos y repositorios en la nube: Preservar accesos, computadores portátiles y plataformas en línea vinculadas a la gestión."
+        ],
+        "closing": "Conviene identificar, clasificar y salvaguardar contratos, facturas, soportes de pago, actas de asamblea y de junta directiva, informes de auditoría, autorizaciones y cualquier otro expediente relacionado con la operación objeto de examen.",
+        "recommendation": {
+          "title": "Recomendación técnica / Punto crítico de control",
+          "items": [
+            "La eliminación o alteración de datos durante una investigación penal puede tipificar delitos autónomos de obstrucción a la justicia.",
+            "Obtenga copias espejo, imágenes forenses, de servidores y discos duros bajo estándares de informática forense."
+          ]
+        }
+      },
+      "step_3": {
+        "tag": "Paso 3",
+        "title": "Establezca una línea de hechos y cronología verificable",
+        "intro": "La reconstrucción fáctica precisa es la columna vertebral de una defensa penal efectiva. No basta con recopilar documentos aislados; es indispensable ordenar temporal y causalmente cada actuación societaria.",
+        "subheading": "Metodología de reconstrucción fáctica",
+        "items": [
+          "Eje temporal documentado: Fijar fechas exactas de cada hito, reunión, aprobación, transferencia dineraria y suscripción de instrumentos.",
+          "Trazabilidad documental: Vincular cada hecho afirmado con su respectivo soporte probatorio físico o digital auditable.",
+          "Entrevistas internas estructuradas: Recabar testimonios de los actores operativos bajo confidencialidad y asistencia legal corporativa.",
+          "Identificación de brechas (Gap Analysis): Detectar inconsistencias, vacíos de información o contradicciones entre testimonios y registros antes de que sean señalados por la contraparte o la fiscalía."
+        ],
+        "closing": "Contar con un relato fáctico robusto, verificado y respaldado probatoriamente permite a la dirección anticipar imputaciones, refutar tesis acusatorias y formular excepciones procesales fundamentadas.",
+        "recommendation": {
+          "title": "Recomendación técnica / Punto crítico de control",
+          "items": [
+            "Estructure una “Matriz de Hechos vs. Pruebas” que servirá como mapa de navegación para los abogados litigantes.",
+            "Asegure que los testimonios internos no entren en contradicción con la data contable o fiscal declarada."
+          ]
+        }
+      },
+      "step_4": {
+        "tag": "Paso 4",
+        "title": "Centralice las comunicaciones y designe un equipo de respuesta",
+        "intro": "Durante una investigación penal, la dispersión de información y las declaraciones descoordinadas constituyen un factor de alto riesgo. Toda interacción institucional debe canalizarse a través de un comité de crisis debidamente investido.",
+        "subheading": "Protocolo de comunicación y vocería",
+        "items": [
+          "Comité de Gestión de Contingencias: Integrado exclusivamente por la alta dirección, el oficial de cumplimiento y la asesoría penal externa.",
+          "Vocería única y autorizada: Prohibición expresa de que personal no autorizado atienda requerimientos verbales o informales de autoridades o medios.",
+          "Privilegio legal y confidencialidad: Rotular todos los análisis, informes preliminares y dictámenes bajo el secreto profesional abogado-cliente (Legal Privilege).",
+          "Instrucciones al personal operativo: Capacitar a recepcionistas, seguridad y TI sobre cómo proceder ante notificaciones judiciales o visitas inspectivas intempestivas."
+        ],
+        "closing": "",
+        "recommendation": {
+          "title": "Recomendación técnica / Punto crítico de control",
+          "items": [
+            "Ningún colaborador debe entregar documentación original sin levantar un acta formal de entrega y recepción.",
+            "Establezca un canal interno seguro para evitar filtraciones que puedan perjudicar la imagen corporativa o vulnerar la reserva legal."
+          ]
+        }
+      },
+      "step_5": {
+        "tag": "Paso 5",
+        "title": "Active asesoría legal penal especializada y defina la estrategia procesal",
+        "intro": "El derecho penal económico requiere una dogmática probatoria y procesal altamente especializada, combinando conocimientos de derecho corporativo, finanzas y litigio penal. La intervención temprana de especialistas marca la diferencia en el desenlace del proceso.",
+        "subheading": "Ejes estratégicos de la defensa técnica",
+        "items": [
+          "Acreditación de diligencia debida: Demostrar que la actuación corporativa se rigió bajo estándares de buena fe de negocios y cumplimiento normativo (Compliance).",
+          "Participación activa en sede investigativa: Solicitar copias del expediente, promover diligencias pertinentes y ejercer el control formal de la investigación penal.",
+          "Medidas cautelares y aseguramiento patrimonial: Diseñar defensas inmediatas contra posibles bloqueos de cuentas bancarias, embargos o prohibiciones de enajenar.",
+          "Plan de remediación y ajuste institucional: Implementar de inmediato correctivos internos si se detectan fallas operativas o desvíos individuales de empleados."
+        ],
+        "closing": "Una estrategia integral no solo busca la desestimación o sobreseimiento del caso penal, sino también la preservación irrestricta de la viabilidad económica, el honor societario y la tranquilidad jurídica de los directivos.",
+        "recommendation": {
+          "title": "Recomendación técnica / Punto crítico de control",
+          "items": [
+            "La intervención temprana de especialistas permite alinear la preservación probatoria, la estrategia procesal y la continuidad operativa desde las primeras actuaciones de la autoridad.",
+            "La adopción de correctivos internos debe evaluarse dentro de una estrategia jurídica coordinada y documentada."
+          ]
+        }
+      }
+    },
+    "matrix": {
+      "title": "Matriz ejecutiva de control y respuesta inmediata",
+      "headers": {
+        "phase": "Fase del protocolo",
+        "actions": "Acciones clave inmediatas",
+        "responsible": "Responsable directo"
+      },
+      "rows": {
+        "row_1": {
+          "phase": "1. Delimitación del riesgo",
+          "actions": "Determinar hecho cuestionado, marco normativo, sujetos expuestos y autoridad requirente.",
+          "responsible": "Dirección General / Legal Interno"
+        },
+        "row_2": {
+          "phase": "2. Preservación documental",
+          "actions": "Activar “Legal Hold”, congelar bases de datos, asegurar correos y copias espejo forenses.",
+          "responsible": "TI / Oficial de Cumplimiento"
+        },
+        "row_3": {
+          "phase": "3. Línea de tiempo fáctica",
+          "actions": "Construir matriz de hechos cronológicos y vincular cada actuación con prueba auditable.",
+          "responsible": "Equipo Legal / Auditoría"
+        },
+        "row_4": {
+          "phase": "4. Centralización y vocería",
+          "actions": "Canalizar solicitudes vía comité de crisis y amparar comunicaciones bajo secreto profesional.",
+          "responsible": "Comité de Crisis / Vocero Legal"
+        },
+        "row_5": {
+          "phase": "5. Defensa penal especializada",
+          "actions": "Promover pruebas de descargo, gestionar medidas cautelares y acreditar compliance.",
+          "responsible": "Asesoría Penal Externa / Dirección General"
+        }
+      }
+    },
+    "notice": "Esta guía tiene fines informativos generales y no sustituye la evaluación jurídica de un caso concreto. Las medidas aplicables deben definirse según los hechos, la jurisdicción y la etapa procedimental correspondiente.",
+    "cta": {
+      "title": "¿Su empresa enfrenta un requerimiento o una investigación?",
+      "desc": "Una intervención temprana y técnicamente coordinada ayuda a preservar evidencia, proteger derechos y definir una estrategia de respuesta.",
+      "link": "Solicitar evaluación estratégica →"
+    }
   }
 }

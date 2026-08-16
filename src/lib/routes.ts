@@ -18,7 +18,8 @@ export type RouteKey =
   | "estrategiaTeoriaDelCaso"
   | "estrategiaSeleccionDeCasos"
   | "estrategiaEscenariosRepresentativos"
-  | "probonoPenal";
+  | "probonoPenal"
+  | "resources.economic_criminal_risk";
 
 const routes: Record<AppLocale, Record<RouteKey, string>> = {
   es: {
@@ -40,6 +41,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     estrategiaSeleccionDeCasos: "/es/seleccion-de-casos",
     estrategiaEscenariosRepresentativos: "/es/estrategia-escenarios-representativos",
     probonoPenal: "/es/probono-penal",
+    "resources.economic_criminal_risk": "/es/resources/economic-criminal-risk",
   },
   en: {
     home: "/en",
@@ -60,6 +62,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     estrategiaSeleccionDeCasos: "/en/case-selection",
     estrategiaEscenariosRepresentativos: "/en/estrategia-escenarios-representativos",
     probonoPenal: "/en/probono-penal",
+    "resources.economic_criminal_risk": "/en/resources/economic-criminal-risk",
   },
 };
 
