@@ -444,6 +444,9 @@
     "defense_documentation": {
       "title": "Documentación para la defensa penal de empresas | Mac Consultores"
     },
+    "international_legal_services": {
+      "title": "Contratación de servicios legales internacionales | Mac Consultores"
+    },
     "blog_criminalidad_economica": {
       "title": "Análisis Penal: Evolución de la Criminalidad Económica | Mac Consultores Jurídicos & Asociados",
       "description": null,
@@ -606,7 +609,7 @@
         "tag": "Servicios internacionales",
         "title": "Plantilla de contrato de prestación de servicios legales internacionales",
         "desc": "Modelo de contrato orientado a clientes internacionales, con cláusulas de jurisdicción, ley aplicable, honorarios y confidencialidad.",
-        "cta": "DESCARGAR PLANTILLA →"
+        "cta": "LEER MÁS →"
       },
       "cta": "Ver recursos estratégicos"
     },
@@ -1054,6 +1057,49 @@
       "title": "¿Necesita organizar información para una defensa penal corporativa?",
       "desc": "Una revisión temprana puede ayudar a identificar documentación relevante, preservar su integridad y estructurar una respuesta jurídica coordinada.",
       "link": "Solicitar evaluación documental →"
+    }
+  },
+  "international_legal_services": {
+    "breadcrumb": "Recursos / Servicios internacionales",
+    "h1": "Contratación de servicios legales internacionales",
+    "subtitle": "Cómo estructurar una relación jurídica transfronteriza con alcance claro, coordinación adecuada y protección de información sensible.",
+    "intro_p_1": "La contratación de servicios jurídicos en contextos internacionales exige definir con precisión el asunto encomendado, la forma de coordinación, los límites de la representación y las condiciones económicas aplicables.",
+    "intro_p_2": "No existe un contrato estándar que resuelva correctamente todas las relaciones profesionales transfronterizas. Cada encargo debe considerar las jurisdicciones involucradas, la naturaleza del asunto, las reglas profesionales aplicables, los requerimientos de información y la dinámica operativa del cliente.",
+    "elements": {
+      "tag": "Elementos que requieren definición",
+      "title": "Aspectos clave de un encargo internacional",
+      "intro": "La estructura de un encargo internacional debe responder a las características específicas del asunto y de las partes involucradas.",
+      "scope": {
+        "title": "Alcance del encargo",
+        "desc": "La relación profesional debe establecer el objeto específico de la asesoría o representación, los resultados esperados, las actuaciones incluidas y los asuntos que requieren un acuerdo adicional."
+      },
+      "jurisdiction": {
+        "title": "Jurisdicción y coordinación internacional",
+        "desc": "Los encargos pueden involucrar legislación local, regulaciones extranjeras, autoridades administrativas, contrapartes internacionales o coordinación con otros asesores. La estructura debe definirse conforme a las particularidades del asunto."
+      },
+      "fees": {
+        "title": "Honorarios, gastos y gestión del servicio",
+        "desc": "Una propuesta profesional debe explicar la modalidad de honorarios, los gastos previsibles, las condiciones de facturación y los mecanismos de comunicación necesarios para la administración ordenada del encargo."
+      },
+      "confidentiality": {
+        "title": "Confidencialidad y manejo de información",
+        "desc": "Los asuntos internacionales suelen implicar información corporativa, financiera, personal o procesal sensible. El manejo de esa información exige estándares claros de confidencialidad y atención al marco aplicable."
+      },
+      "conflicts": {
+        "title": "Conflictos de interés y continuidad",
+        "desc": "Antes de aceptar una representación es necesario realizar las verificaciones correspondientes. También conviene definir las reglas de comunicación, el alcance temporal de la relación y las condiciones para una eventual terminación o transición ordenada."
+      }
+    },
+    "value": {
+      "title": "Un encargo internacional requiere una estructura a medida",
+      "p_1": "La calidad de un contrato de servicios legales no depende de utilizar un formato genérico. Depende de que la relación profesional refleje con precisión el alcance real del asunto, las responsabilidades de las partes, las jurisdicciones involucradas y los riesgos que deben gestionarse.",
+      "p_2": "Una estructuración temprana permite reducir ambigüedades, ordenar expectativas y establecer una base sólida para la coordinación jurídica durante todo el encargo."
+    },
+    "notice": "Este contenido tiene fines informativos generales y no constituye un modelo contractual ni sustituye la evaluación jurídica de una relación profesional concreta. Las condiciones de cada encargo deben definirse según el asunto, las jurisdicciones involucradas y las normas aplicables.",
+    "cta": {
+      "title": "¿Necesita estructurar un encargo legal internacional?",
+      "desc": "Evaluamos el alcance de su asunto, las jurisdicciones involucradas y las condiciones necesarias para diseñar una propuesta profesional adecuada.",
+      "link": "Solicitar propuesta de servicios internacionales →"
     }
   }
 }

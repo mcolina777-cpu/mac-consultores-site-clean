@@ -444,6 +444,9 @@
     "defense_documentation": {
       "title": "Documentation for Corporate Criminal Defense | Mac Consultores"
     },
+    "international_legal_services": {
+      "title": "International Legal Engagements | Mac Consultores"
+    },
     "blog_criminalidad_economica": {
       "title": "Criminal Analysis: Evolution of Economic Crime | Mac Consultores Jurídicos & Asociados",
       "description": null,
@@ -606,7 +609,7 @@
         "tag": "International services",
         "title": "Template for international legal services agreements",
         "desc": "Model agreement for international clients, with clauses on jurisdiction, applicable law, fees, and confidentiality.",
-        "cta": "DOWNLOAD TEMPLATE →"
+        "cta": "READ MORE →"
       },
       "cta": "View strategic resources"
     },
@@ -1054,6 +1057,49 @@
       "title": "Do you need to organize information for a corporate criminal defense?",
       "desc": "An early review can help identify relevant documentation, preserve its integrity, and structure a coordinated legal response.",
       "link": "Request a documentation assessment →"
+    }
+  },
+  "international_legal_services": {
+    "breadcrumb": "Resources / International Legal Engagements",
+    "h1": "International Legal Engagements",
+    "subtitle": "How to structure a cross-border legal relationship with a clear scope, appropriate coordination, and protection of sensitive information.",
+    "intro_p_1": "Engaging legal services in international contexts requires precise definition of the matter entrusted, the coordination framework, the limits of representation, and the applicable commercial terms.",
+    "intro_p_2": "There is no standard contract that can properly address every cross-border professional relationship. Each engagement must consider the jurisdictions involved, the nature of the matter, applicable professional rules, information requirements, and the client’s operational dynamics.",
+    "elements": {
+      "tag": "Elements requiring definition",
+      "title": "Key aspects of an international legal engagement",
+      "intro": "The structure of an international engagement must respond to the specific characteristics of the matter and the parties involved.",
+      "scope": {
+        "title": "Scope of engagement",
+        "desc": "The professional relationship should establish the specific subject of the advice or representation, the expected outcomes, the services included, and the matters requiring a separate agreement."
+      },
+      "jurisdiction": {
+        "title": "Jurisdiction and international coordination",
+        "desc": "Engagements may involve local law, foreign regulations, administrative authorities, international counterparties, or coordination with other advisers. The structure must be defined according to the particularities of the matter."
+      },
+      "fees": {
+        "title": "Fees, expenses, and service management",
+        "desc": "A professional proposal should explain the fee arrangement, foreseeable expenses, billing terms, and communication mechanisms needed for the orderly administration of the engagement."
+      },
+      "confidentiality": {
+        "title": "Confidentiality and information handling",
+        "desc": "International matters often involve sensitive corporate, financial, personal, or procedural information. Handling that information requires clear confidentiality standards and attention to the applicable framework."
+      },
+      "conflicts": {
+        "title": "Conflicts of interest and continuity",
+        "desc": "Before accepting a representation, the corresponding checks must be carried out. It is also advisable to define communication rules, the temporal scope of the relationship, and the conditions for an orderly termination or transition."
+      }
+    },
+    "value": {
+      "title": "An international engagement requires a tailored structure",
+      "p_1": "The quality of a legal services agreement does not depend on using a generic form. It depends on whether the professional relationship accurately reflects the real scope of the matter, the parties’ responsibilities, the jurisdictions involved, and the risks that must be managed.",
+      "p_2": "Early structuring helps reduce ambiguity, align expectations, and establish a sound basis for legal coordination throughout the engagement."
+    },
+    "notice": "This content is provided for general informational purposes and does not constitute a contract template or replace a legal assessment of a specific professional relationship. The terms of each engagement must be defined according to the matter, the jurisdictions involved, and the applicable rules.",
+    "cta": {
+      "title": "Do you need to structure an international legal engagement?",
+      "desc": "We assess the scope of your matter, the jurisdictions involved, and the conditions needed to design an appropriate professional proposal.",
+      "link": "Request an international legal services proposal →"
     }
   }
 }
