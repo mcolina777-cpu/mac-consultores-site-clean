@@ -441,6 +441,9 @@
     "economic_criminal_risk": {
       "title": "Economic Criminal Risk Guide for Companies | Mac Consultores"
     },
+    "defense_documentation": {
+      "title": "Documentation for Corporate Criminal Defense | Mac Consultores"
+    },
     "blog_criminalidad_economica": {
       "title": "Criminal Analysis: Evolution of Economic Crime | Mac Consultores Jurídicos & Asociados",
       "description": null,
@@ -597,7 +600,7 @@
         "tag": "Defense documentation",
         "title": "Checklist of documentation for corporate criminal defense",
         "desc": "Structured list of essential documents to organize criminal defense and respond quickly to requests from authorities.",
-        "cta": "DOWNLOAD CHECKLIST →"
+        "cta": "READ MORE →"
       },
       "template": {
         "tag": "International services",
@@ -1012,6 +1015,45 @@
       "title": "Is your company facing a request or an investigation?",
       "desc": "Early, technically coordinated action helps preserve evidence, protect rights, and define an effective response strategy.",
       "link": "Request a strategic assessment →"
+    }
+  },
+  "defense_documentation": {
+    "breadcrumb": "Resources / Defense Documentation",
+    "h1": "Documentation for Corporate Criminal Defense",
+    "subtitle": "How to organize relevant information and preserve evidence during a corporate criminal investigation.",
+    "intro_p_1": "When a company faces a criminal investigation, relevant documentation can be decisive in reconstructing the facts, defining responsibilities, and protecting the legal position of the organization and its directors.",
+    "intro_p_2": "The response should not be reduced to gathering papers. It requires an organized legal assessment to identify which information is relevant, how it should be preserved, and under which criteria it should be organized so as not to compromise evidentiary integrity or the defense strategy.",
+    "areas": {
+      "tag": "Critical documentation areas",
+      "title": "Four areas requiring legal assessment",
+      "intro": "Documentation may be assessed across four general areas, whose specific relevance depends on the facts, the stage of the investigation, and the applicable legal framework.",
+      "corporate": {
+        "title": "Corporate governance and structure",
+        "desc": "The defense may require reviewing how authority, decisions, and responsibilities were distributed within the organization, as well as the evolution of its institutional framework."
+      },
+      "commercial": {
+        "title": "Commercial operations and third-party relationships",
+        "desc": "Contractual and commercial documentation makes it possible to examine the origin, purpose, execution, and traceability of operations connected to the facts under review."
+      },
+      "financial": {
+        "title": "Financial, accounting, and tax information",
+        "desc": "Financial records can help reconstruct flows, decisions, authorizations, and records related to specific operations, always within the applicable legal scope."
+      },
+      "digital": {
+        "title": "Digital evidence and corporate communications",
+        "desc": "Emails, messaging, system records, and other digital assets require technically appropriate preservation to maintain their integrity and evidentiary usefulness."
+      }
+    },
+    "value": {
+      "title": "Document organization is part of the defense",
+      "p_1": "Effective document preparation is not about accumulating files. It involves identifying relevant information, preserving its integrity, avoiding alterations, and organizing background materials according to the legal strategy and the stage of the investigation.",
+      "p_2": "An early review can help identify gaps, inconsistencies, and exposure risks before documentation is presented to authorities or third parties."
+    },
+    "notice": "This content is provided for general informational purposes and does not replace a legal assessment of a specific case. The identification, preservation, and delivery of information must be defined according to the facts, the applicable legal framework, and the corresponding defense strategy.",
+    "cta": {
+      "title": "Do you need to organize information for a corporate criminal defense?",
+      "desc": "An early review can help identify relevant documentation, preserve its integrity, and structure a coordinated legal response.",
+      "link": "Request a documentation assessment →"
     }
   }
 }

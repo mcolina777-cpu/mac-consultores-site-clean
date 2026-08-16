@@ -441,6 +441,9 @@
     "economic_criminal_risk": {
       "title": "Guía de riesgo penal económico para empresas | Mac Consultores"
     },
+    "defense_documentation": {
+      "title": "Documentación para la defensa penal de empresas | Mac Consultores"
+    },
     "blog_criminalidad_economica": {
       "title": "Análisis Penal: Evolución de la Criminalidad Económica | Mac Consultores Jurídicos & Asociados",
       "description": null,
@@ -597,7 +600,7 @@
         "tag": "Documentación para la defensa",
         "title": "Checklist de documentación para la defensa penal de empresas",
         "desc": "Lista estructurada de documentos esenciales para organizar la defensa penal y responder con rapidez a los requerimientos de las autoridades.",
-        "cta": "DESCARGAR CHECKLIST →"
+        "cta": "LEER MÁS →"
       },
       "template": {
         "tag": "Servicios internacionales",
@@ -1012,6 +1015,45 @@
       "title": "¿Su empresa enfrenta un requerimiento o una investigación?",
       "desc": "Una intervención temprana y técnicamente coordinada ayuda a preservar evidencia, proteger derechos y definir una estrategia de respuesta.",
       "link": "Solicitar evaluación estratégica →"
+    }
+  },
+  "defense_documentation": {
+    "breadcrumb": "Recursos / Documentación para la defensa",
+    "h1": "Documentación para la defensa penal de empresas",
+    "subtitle": "Cómo ordenar información relevante y preservar evidencia ante una investigación penal empresarial.",
+    "intro_p_1": "Cuando una empresa enfrenta una investigación penal, la documentación relevante puede ser determinante para reconstruir los hechos, delimitar responsabilidades y proteger la posición jurídica de la organización y de sus directivos.",
+    "intro_p_2": "La respuesta no debe reducirse a reunir papeles. Requiere una evaluación jurídica ordenada que identifique qué información es pertinente, cómo debe preservarse y bajo qué criterios debe organizarse para no comprometer la integridad probatoria ni la estrategia de defensa.",
+    "areas": {
+      "tag": "Áreas documentales críticas",
+      "title": "Cuatro áreas que requieren evaluación jurídica",
+      "intro": "La documentación puede analizarse en cuatro áreas generales, cuya relevancia concreta depende de los hechos, la etapa de investigación y el marco jurídico aplicable.",
+      "corporate": {
+        "title": "Gobernanza y estructura corporativa",
+        "desc": "La defensa suele requerir revisar cómo se distribuyeron facultades, decisiones y responsabilidades dentro de la organización, así como la evolución de su marco institucional."
+      },
+      "commercial": {
+        "title": "Operaciones comerciales y relaciones con terceros",
+        "desc": "La documentación contractual y comercial permite examinar el origen, propósito, ejecución y trazabilidad de operaciones vinculadas con los hechos objeto de revisión."
+      },
+      "financial": {
+        "title": "Información financiera, contable y tributaria",
+        "desc": "Los soportes financieros permiten reconstruir flujos, decisiones, autorizaciones y registros relacionados con operaciones específicas, siempre dentro del alcance jurídico aplicable."
+      },
+      "digital": {
+        "title": "Evidencia digital y comunicaciones corporativas",
+        "desc": "Correos, mensajería, registros de sistemas y otros activos digitales requieren una preservación técnicamente adecuada para mantener su integridad y utilidad probatoria."
+      }
+    },
+    "value": {
+      "title": "La organización documental forma parte de la defensa",
+      "p_1": "Una preparación documental efectiva no consiste en acumular archivos. Implica identificar información pertinente, preservar su integridad, evitar alteraciones y ordenar los antecedentes conforme a la estrategia jurídica y la etapa de la investigación.",
+      "p_2": "Una revisión temprana permite detectar vacíos, inconsistencias y riesgos de exposición antes de que la documentación sea presentada ante autoridades o terceros."
+    },
+    "notice": "Este contenido tiene fines informativos generales y no sustituye la evaluación jurídica de un caso concreto. La identificación, preservación y entrega de información deben definirse conforme a los hechos, el marco legal aplicable y la estrategia de defensa correspondiente.",
+    "cta": {
+      "title": "¿Necesita organizar información para una defensa penal corporativa?",
+      "desc": "Una revisión temprana puede ayudar a identificar documentación relevante, preservar su integridad y estructurar una respuesta jurídica coordinada.",
+      "link": "Solicitar evaluación documental →"
     }
   }
 }
