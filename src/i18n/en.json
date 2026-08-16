@@ -324,6 +324,45 @@
         "Corporate Governance Advisory"
       ],
       "link": "VIEW DETAILS →"
+    },
+    "penal": {
+      "breadcrumb": "Services / Criminal and Procedural Criminal Law",
+      "h1": "Criminal and Procedural Criminal Law",
+      "subtitle": "Comprehensive technical defense in high-complexity proceedings, economic criminality, and financial crimes.",
+      "intro_p_1": "We assume comprehensive technical defense in high-complexity proceedings, economic criminality, and financial crimes. We focus on the control of procedural guarantees and the design of robust litigation strategies, aimed at preserving the rights and interests of the client throughout all stages of the criminal proceeding.",
+      "intro_p_2": "Criminal and procedural criminal defense requires understanding the facts, identifying criminal-law risks, evaluating evidentiary elements, and establishing a strategy that protects the client’s rights and interests at every stage of the criminal process.",
+      "areas": {
+        "tag": "Areas of intervention",
+        "title": "Criminal practice areas",
+        "intro": "Our intervention is structured across four complementary areas, whose specific relevance depends on the facts, the stage of the investigation, and the applicable legal framework.",
+        "defense": {
+          "title": "Defense against criminal charges",
+          "desc": "We intervene from the earliest investigative acts through the later stages of the process, paying particular attention to due process, the right to defense, the presumption of innocence, effective judicial protection, and other applicable constitutional and procedural guarantees."
+        },
+        "appeals": {
+          "title": "Cassation and Appeal Remedies",
+          "desc": "We assess the availability of appeal mechanisms, analyzing the acts carried out by investigative and judicial bodies, the evaluation of evidence, and the reasoning of decisions, in order to exercise the appropriate remedies to preserve the client’s rights."
+        },
+        "corporate": {
+          "title": "Corporate Criminal Liability",
+          "desc": "We pay special attention to matters related to economic and business criminality, property and financial crimes, money laundering, and criminal liability linked to corporate activity."
+        },
+        "laundering": {
+          "title": "Money Laundering",
+          "desc": "We act in the defense against investigations and accusations arising from operations that may compromise the criminal liability of individuals, entrepreneurs, administrators, or corporate structures, evaluating possible liability scenarios and available legal-procedural alternatives."
+        }
+      },
+      "value": {
+        "title": "Comprehensive criminal-law strategy",
+        "p_1": "Criminal and procedural criminal defense must be developed as a single, coherent strategy. The legal assessment of the facts cannot be separated from the way in which they are investigated, proven, and submitted for judicial consideration.",
+        "p_2": "Each matter is subject to individualized analysis aimed at identifying legally relevant facts, determining possible liability scenarios, evaluating available evidence, identifying risks and procedural violations, and designing a coherent and legally grounded defense strategy."
+      },
+      "notice": "This content is provided for general informational purposes and does not replace a legal assessment of a specific case. The defense strategy and procedural actions must be defined according to the facts, the jurisdiction, and the relevant procedural stage.",
+      "cta": {
+        "title": "Are you facing a criminal investigation or proceeding?",
+        "desc": "Early intervention makes it possible to assess risks, preserve rights, and structure a coherent defense strategy.",
+        "link": "Request a criminal assessment →"
+      }
     }
   },
   "cta": {
@@ -536,6 +575,9 @@
       "description": null,
       "og_title": "Legal Notice | Mac Consultores Jurídicos & Asociados",
       "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
+    },
+    "services_penal": {
+      "title": "Criminal and Procedural Criminal Law | Mac Consultores"
     }
   },
   "hero": {

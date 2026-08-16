@@ -324,6 +324,45 @@
         "Asesoría en Gobernanza Corporativa"
       ],
       "link": "VER DETALLES →"
+    },
+    "penal": {
+      "breadcrumb": "Servicios / Derecho Penal y Procesal Penal",
+      "h1": "Derecho Penal y Procesal Penal",
+      "subtitle": "Defensa técnica integral en procedimientos de alta complejidad, criminalidad económica y delitos financieros.",
+      "intro_p_1": "Asumimos la defensa técnica integral en procedimientos de alta complejidad, criminalidad económica y delitos financieros. Nos enfocamos en el control de garantías procesales y el diseño de estrategias de litigio sólidas, orientadas a preservar los derechos e intereses del cliente durante todas las etapas de la actuación penal.",
+      "intro_p_2": "La defensa penal y procesal penal exige comprender los hechos, identificar los riesgos jurídico-penales, evaluar los elementos probatorios y establecer una estrategia que proteja los derechos e intereses del cliente durante todas las etapas de la actuación penal.",
+      "areas": {
+        "tag": "Ámbitos de intervención",
+        "title": "Áreas de práctica penal",
+        "intro": "Nuestra intervención se estructura en cuatro ámbitos complementarios, cuya relevancia concreta depende de los hechos, la etapa de investigación y el marco jurídico aplicable.",
+        "defense": {
+          "title": "Defensa frente a acusaciones penales",
+          "desc": "Intervenimos desde las primeras actuaciones de investigación hasta las fases posteriores del proceso, atendiendo especialmente al respeto del debido proceso, el derecho a la defensa, la presunción de inocencia, la tutela judicial efectiva y las demás garantías constitucionales y procesales aplicables."
+        },
+        "appeals": {
+          "title": "Recursos de Casación y Apelación",
+          "desc": "Evaluamos la procedencia de los mecanismos de impugnación disponibles, analizando las actuaciones realizadas por los órganos de investigación y jurisdiccionales, la valoración de los elementos probatorios y la fundamentación de las decisiones, a fin de ejercer los recursos pertinentes para preservar los derechos del cliente."
+        },
+        "corporate": {
+          "title": "Criminalidad Corporativa",
+          "desc": "Prestamos especial atención a asuntos relacionados con criminalidad económica y empresarial, delitos patrimoniales y financieros, legitimación de capitales y responsabilidad penal vinculada con la actividad corporativa."
+        },
+        "laundering": {
+          "title": "Legitimación de Capitales",
+          "desc": "Actuamos en la defensa frente a investigaciones y acusaciones por operaciones que puedan comprometer la responsabilidad penal de personas, empresarios, administradores o estructuras corporativas, evaluando los posibles escenarios de responsabilidad y las alternativas jurídico-procesales disponibles."
+        }
+      },
+      "value": {
+        "title": "Estrategia jurídico-penal integral",
+        "p_1": "La defensa penal y procesal penal debe desarrollarse como una estrategia única. La valoración jurídica de los hechos no puede desvincularse de la forma en que estos son investigados, acreditados y sometidos a consideración judicial.",
+        "p_2": "Cada asunto es objeto de un análisis individualizado destinado a identificar los hechos jurídicamente relevantes, determinar los posibles escenarios de responsabilidad, evaluar los elementos probatorios disponibles, identificar riesgos y vulneraciones procesales, y diseñar una estrategia de defensa coherente y jurídicamente fundamentada."
+      },
+      "notice": "Este contenido tiene fines informativos generales y no sustituye la evaluación jurídica de un caso concreto. La estrategia de defensa y las actuaciones procedimentales deben definirse según los hechos, la jurisdicción y la etapa procesal correspondiente.",
+      "cta": {
+        "title": "¿Enfrenta una investigación o un procedimiento penal?",
+        "desc": "Una intervención temprana permite evaluar riesgos, preservar derechos y estructurar una estrategia de defensa coherente.",
+        "link": "Solicitar evaluación penal →"
+      }
     }
   },
   "cta": {
@@ -536,6 +575,9 @@
       "description": null,
       "og_title": "Aviso Legal | Mac Consultores Jurídicos & Asociados",
       "og_description": "Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad."
+    },
+    "services_penal": {
+      "title": "Derecho Penal y Procesal Penal | Mac Consultores"
     }
   },
   "hero": {
