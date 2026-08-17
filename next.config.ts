@@ -14,11 +14,6 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/:locale(es|en)/services/penal',
-        destination: '/:locale/services',
-        permanent: false,
-      },
-      {
         source: '/:locale(es|en)/services/constitucional',
         destination: '/:locale/services',
         permanent: false,
