@@ -139,19 +139,48 @@
       "link": "READ MORE →"
     },
     "values": {
-      "tag": "Institutional Values",
+      "tag": "About Us",
       "title": "Our Pillars",
-      "card_1": {
-        "title": "Strategic Vision",
-        "desc": "We do not merely react to conflict; we build preventive safeguards and anticipate risks to protect our clients' interests."
-      },
-      "card_2": {
-        "title": "Technical Rigor",
-        "desc": "Every action is backed by a deep dogmatic mastery and an exhaustive analysis of contemporary legal reality."
-      },
-      "card_3": {
-        "title": "Professional Confidentiality",
-        "desc": "Discretion and confidentiality are the foundation of our relationship with the client, ensuring an environment of maximum trust."
+      "intro_title": "About Us",
+      "intro_text": "At Mac Consultores Jurídicos & Asociados, we combine technical rigor and strategic vision to resolve the most complex legal challenges. We are distinguished by our unwavering commitment to professional confidentiality and excellence. More than advisors, we are strategic allies in the critical decision-making of companies and individuals, protecting your interests with maximum discretion and efficacy.",
+      "contact_box": {
+        "title": "Request a Confidential Evaluation",
+        "subtitle": "Tell us about your case. A specialist attorney will analyze your situation with absolute confidentiality.",
+        "form_fields": {
+          "nombre": {
+            "label": "Full Name"
+          },
+          "email": {
+            "label": "Email Address"
+          },
+          "telefono": {
+            "label": "Phone (optional)"
+          },
+          "area": {
+            "label": "Area of Interest",
+            "placeholder": "Select an option",
+            "options": {
+              "asesoria_corporativa": "Corporate Advisory",
+              "litigio": "Litigation",
+              "consultoria_particular": "Private Consulting",
+              "otro": "Other (specify)"
+            }
+          },
+          "mensaje": {
+            "label": "Brief description of your case"
+          }
+        },
+        "cta_button": "Request Confidential Analysis",
+        "trust_signals": [
+          "Information protected by professional secrecy.",
+          "Response guaranteed in under 24 business hours.",
+          {
+            "text": "By submitting, you accept our",
+            "link": "/privacidad",
+            "link_text": "Privacy Policy",
+            "suffix": "."
+          }
+        ]
       }
     },
     "mission": {
