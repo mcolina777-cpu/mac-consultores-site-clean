@@ -139,19 +139,48 @@
       "link": "LEER MÁS →"
     },
     "values": {
-      "tag": "Valores Institucionales",
+      "tag": "Quiénes Somos",
       "title": "Nuestros Pilares",
-      "card_1": {
-        "title": "Visión Estratégica",
-        "desc": "No solo reaccionamos ante el conflicto; construimos blindajes preventivos y anticipamos riesgos para proteger los intereses de nuestros clientes."
-      },
-      "card_2": {
-        "title": "Rigor Técnico",
-        "desc": "Cada actuación está sustentada en un profundo dominio dogmático y un análisis exhaustivo de la realidad jurídica contemporánea."
-      },
-      "card_3": {
-        "title": "Reserva Profesional",
-        "desc": "La discreción y la confidencialidad son la base de nuestra relación con el cliente, garantizando un entorno de máxima confianza."
+      "intro_title": "Quiénes Somos",
+      "intro_text": "En Mac Consultores Jurídicos & Asociados combinamos el rigor técnico y la visión estratégica para resolver los desafíos legales más complejos. Nos distingue nuestro compromiso inquebrantable con la reserva profesional y la excelencia. Más que asesores, somos aliados en la toma de decisiones críticas de empresas y particulares, protegiendo sus intereses con máxima discreción y eficacia.",
+      "contact_box": {
+        "title": "Solicite una Evaluación Confidencial",
+        "subtitle": "Cuéntenos su caso. Un abogado especialista analizará su situación con absoluta reserva.",
+        "form_fields": {
+          "nombre": {
+            "label": "Nombre completo"
+          },
+          "email": {
+            "label": "Correo electrónico"
+          },
+          "telefono": {
+            "label": "Teléfono (opcional)"
+          },
+          "area": {
+            "label": "Área de interés",
+            "placeholder": "Seleccione una opción",
+            "options": {
+              "asesoria_corporativa": "Asesoría Corporativa",
+              "litigio": "Litigio",
+              "consultoria_particular": "Consultoría Particular",
+              "otro": "Otro (especificar)"
+            }
+          },
+          "mensaje": {
+            "label": "Breve descripción de su caso"
+          }
+        },
+        "cta_button": "Solicitar Análisis Confidencial",
+        "trust_signals": [
+          "Información protegida por el secreto profesional.",
+          "Respuesta garantizada en menos de 24 horas hábiles.",
+          {
+            "text": "Al enviar, aceptas nuestra",
+            "link": "/privacidad",
+            "link_text": "Política de Privacidad",
+            "suffix": "."
+          }
+        ]
       }
     },
     "mission": {
