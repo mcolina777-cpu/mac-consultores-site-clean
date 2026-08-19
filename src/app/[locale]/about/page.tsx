@@ -207,7 +207,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               {dict?.quienes_somos?.values?.contact_box?.subtitle}
             </p>
 
-            <form className="mt-5 space-y-4" onSubmit={(e) => e.preventDefault()}>
+            <form className="mt-5 space-y-4">
               <div className="form-group">
                 <label htmlFor="nombre">
                   {dict?.quienes_somos?.values?.contact_box?.form_fields?.nombre?.label}
