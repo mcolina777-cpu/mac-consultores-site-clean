@@ -323,14 +323,16 @@
     },
     "card_2": {
       "title": "Constitutional Law",
-      "desc": "Effective protection of fundamental rights through the activation of constitutional protection mechanisms. We safeguard the legal security of our clients against institutional violations.",
+      "desc": "Protection and defence of fundamental rights in the face of acts, omissions or decisions that may compromise constitutional guarantees, due process, liberty, integrity and legal certainty.",
       "list": [
-        "Constitutional Amparo Actions",
-        "Habeas Corpus & Habeas Data",
-        "Conventionality Control",
-        "Normative Interpretation Consultancy"
+        "Protection of fundamental rights",
+        "Constitutional amparo action",
+        "Habeas corpus and habeas data",
+        "Due process and effective judicial protection",
+        "Constitutionality and conventionality review",
+        "Constitutional advice and interpretation"
       ],
-      "link": "VIEW DETAILS →"
+      "link": "Explore this service"
     },
     "card_3": {
       "title": "Cybercrimes and Digital Evidence",
@@ -391,6 +393,57 @@
         "title": "Are you facing a criminal investigation or proceeding?",
         "desc": "Early intervention makes it possible to assess risks, preserve rights, and structure a coherent defense strategy.",
         "link": "Request a criminal assessment →"
+      }
+    },
+    "constitucional": {
+      "breadcrumb": "Services / Constitutional Law",
+      "h1": "Constitutional Law",
+      "subtitle": "Legal protection of fundamental rights, constitutional guarantees and effective judicial protection.",
+      "intro_p_1": "The protection of fundamental rights requires a timely legal response when an act by a public authority or private party threatens, restricts or infringes guarantees recognised by the Constitution and international human rights instruments.",
+      "intro_p_2": "At Mac Consultores Jurídicos & Asociados, we provide legal advice and representation in constitutional matters, focused on the effective protection of fundamental rights, the defence of constitutional guarantees and the legal review of actions that may affect our clients’ liberty, integrity, due process, effective judicial protection or legal certainty.",
+      "areas": {
+        "tag": "Areas of practice",
+        "title": "Constitutional protection and fundamental guarantees",
+        "intro": "Every constitutional dispute requires identifying the right or guarantee involved, determining the act, omission or conduct causing the impact, and assessing the appropriate legal mechanism to seek protection.",
+        "rights": {
+          "title": "Protection of fundamental rights",
+          "desc": "We analyse matters involving illegitimate restrictions of fundamental rights, arbitrary actions, due-process violations, impairment of effective judicial protection and breaches of constitutional guarantees. Legal strategy is structured according to the particular circumstances of each matter and the nature of the affected right."
+        },
+        "amparo": {
+          "title": "Constitutional amparo action",
+          "desc": "We advise on the assessment and preparation of actions intended to obtain protection against infringements or threats to constitutional rights and guarantees. The analysis includes identifying the affected right, the conduct giving rise to the infringement, standing and the legal requirements relevant to determining the availability of constitutional protection."
+        },
+        "habeas": {
+          "title": "Habeas corpus and habeas data",
+          "desc": "We advise on constitutional mechanisms related to personal liberty and information protection. In habeas corpus matters, our work is focused on protecting personal liberty and security against deprivations or restrictions contrary to the legal system. In habeas data matters, we analyse issues involving access to, knowledge of, updating, rectification or protection of personal information."
+        },
+        "due_process": {
+          "title": "Due process and effective judicial protection",
+          "desc": "We analyse potential violations involving the right to defence, the natural judge, presumption of innocence, reasoned decisions, the right to appeal, access to justice and other due-process guarantees. Effective judicial protection requires that access to courts allow for a legally reasoned response within proceedings that respect constitutional guarantees."
+        },
+        "review": {
+          "title": "Constitutionality and conventionality review",
+          "desc": "We conduct legal analyses concerning the compatibility of acts, decisions or rules with the Constitution and with obligations arising from international human rights instruments, taking into account the principles and guarantees recognised by the constitutional framework and the Inter-American human rights protection system."
+        },
+        "consulting": {
+          "title": "Constitutional advice and interpretation",
+          "desc": "We provide specialised advice when an individual, company or organisation needs to determine the constitutional scope of a rule, administrative action, judicial decision or specific legal situation. The service includes analysis of the applicable constitutional provisions, their relationship with the broader legal system and the available protection or action mechanisms."
+        },
+        "strategy": {
+          "title": "Constitutional strategy",
+          "desc": "Our work combines constitutional analysis, assessment of guarantees, review of available background information and the design of a legal strategy aimed at seeking effective protection of fundamental rights, taking account of the particular circumstances of each matter."
+        }
+      },
+      "value": {
+        "title": "Specialised legal response",
+        "p_1": "Every constitutional dispute requires a precise determination of the right involved, the conduct causing the impact and the appropriate legal mechanism to seek its protection.",
+        "p_2": "Our objective is to provide a specialised legal response to constitutional infringements, strengthening the protection of our clients’ rights, guarantees and legal certainty."
+      },
+      "notice": "The assessment of each matter depends on its particular circumstances, the available background information and the applicable legal mechanisms.",
+      "cta": {
+        "title": "Do you require guidance on a constitutional matter?",
+        "desc": "Contact us to assess your situation and receive specialised legal guidance.",
+        "link": "Contact the firm"
       }
     }
   },
@@ -606,7 +659,10 @@
       "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
     },
     "services_penal": {
-      "title": "Criminal and Procedural Criminal Law | Mac Consultores"
+      "title": "Criminal Law and Criminal Procedure | Mac Consultores"
+    },
+    "services_constitucional": {
+      "title": "Constitutional Law | Mac Consultores Jurídicos & Asociados"
     }
   },
   "hero": {

@@ -313,14 +313,16 @@
     },
     "card_2": {
       "title": "Derecho Constitucional",
-      "desc": "Protección efectiva de derechos fundamentales mediante la activación de mecanismos de tutela constitucional. Blindamos la seguridad jurídica de nuestros clientes frente a vulneraciones institucionales.",
+      "desc": "Protección y defensa de derechos fundamentales frente a actuaciones, omisiones o decisiones que puedan comprometer las garantías constitucionales, el debido proceso, la libertad, la integridad y la seguridad jurídica.",
       "list": [
-        "Acción de Amparo Constitucional",
-        "Hábeas Corpus y Hábeas Data",
-        "Control de Convencionalidad",
-        "Consultoría en Interpretación Normativa"
+        "Tutela de derechos fundamentales",
+        "Acción de amparo constitucional",
+        "Hábeas corpus y hábeas data",
+        "Debido proceso y tutela judicial efectiva",
+        "Control de constitucionalidad y convencionalidad",
+        "Consultoría e interpretación constitucional"
       ],
-      "link": "VER DETALLES →"
+      "link": "Conocer el servicio"
     },
     "card_3": {
       "title": "Delitos Informáticos y Evidencia Digital",
@@ -381,6 +383,57 @@
         "title": "¿Enfrenta una investigación o un procedimiento penal?",
         "desc": "Una intervención temprana permite evaluar riesgos, preservar derechos y estructurar una estrategia de defensa coherente.",
         "link": "Solicitar evaluación penal →"
+      }
+    },
+    "constitucional": {
+      "breadcrumb": "Servicios / Derecho Constitucional",
+      "h1": "Derecho Constitucional",
+      "subtitle": "Protección jurídica de los derechos fundamentales, las garantías constitucionales y la tutela judicial efectiva.",
+      "intro_p_1": "La protección de los derechos fundamentales exige una respuesta jurídica oportuna cuando una actuación de una autoridad pública o de un particular amenaza, restringe o vulnera las garantías reconocidas por la Constitución y los instrumentos internacionales de derechos humanos.",
+      "intro_p_2": "En Mac Consultores Jurídicos & Asociados prestamos asesoramiento y representación jurídica en materia constitucional, orientados a la protección efectiva de los derechos fundamentales, la defensa de las garantías constitucionales y el control jurídico de actuaciones que puedan afectar la libertad, la integridad, el debido proceso, la tutela judicial efectiva o la seguridad jurídica de nuestros clientes.",
+      "areas": {
+        "tag": "Áreas de intervención",
+        "title": "Protección constitucional y garantías fundamentales",
+        "intro": "Cada controversia constitucional exige identificar el derecho o garantía comprometida, determinar el acto, omisión o actuación que produce la afectación y evaluar el mecanismo jurídico idóneo para procurar su protección.",
+        "rights": {
+          "title": "Tutela de los derechos fundamentales",
+          "desc": "Analizamos situaciones que involucren restricciones ilegítimas de derechos fundamentales, actuaciones arbitrarias, vulneraciones del debido proceso, afectaciones a la tutela judicial efectiva y transgresiones de garantías constitucionales. La estrategia jurídica se estructura conforme a las circunstancias particulares del caso y a la naturaleza del derecho afectado."
+        },
+        "amparo": {
+          "title": "Acción de Amparo Constitucional",
+          "desc": "Asesoramos en la evaluación y preparación de acciones destinadas a obtener tutela frente a vulneraciones o amenazas de derechos y garantías constitucionales. El análisis comprende la identificación del derecho afectado, la conducta que origina la vulneración, la legitimación correspondiente y los presupuestos jurídicos necesarios para determinar la procedencia de la tutela constitucional."
+        },
+        "habeas": {
+          "title": "Hábeas Corpus y Hábeas Data",
+          "desc": "Prestamos asesoramiento en mecanismos constitucionales vinculados con la libertad personal y la protección de la información. En materia de hábeas corpus, la intervención se orienta a la protección de la libertad y seguridad personal frente a privaciones o restricciones contrarias al ordenamiento jurídico. En materia de hábeas data, analizamos situaciones relacionadas con el acceso, conocimiento, actualización, rectificación o protección de información personal."
+        },
+        "due_process": {
+          "title": "Debido proceso y tutela judicial efectiva",
+          "desc": "Analizamos posibles vulneraciones relacionadas con el derecho a la defensa, juez natural, presunción de inocencia, motivación de las decisiones, derecho a recurrir, acceso a la justicia y demás garantías integrantes del debido proceso. La tutela judicial efectiva exige que el acceso a los órganos jurisdiccionales permite obtener una respuesta jurídicamente fundada dentro de un procedimiento respetuoso de las garantías constitucionales."
+        },
+        "review": {
+          "title": "Control de constitucionalidad y convencionalidad",
+          "desc": "Desarrollamos análisis jurídicos relacionados con la compatibilidad de actuaciones, decisiones o normas con la Constitución y con las obligaciones derivadas de los instrumentos internacionales de derechos humanos, considerando los principios y garantías reconocidos por el ordenamiento constitucional y el sistema interamericano de protección de los derechos humanos."
+        },
+        "consulting": {
+          "title": "Consultoría e interpretación constitucional",
+          "desc": "Prestamos asesoramiento especializado cuando una persona, empresa u organización necesita determinar el alcance constitucional de una norma, actuación administrativa, decisión judicial o situación jurídica concreta. El servicio comprende el análisis de las disposiciones constitucionales aplicables, su relación con el resto del ordenamiento jurídico y los posibles mecanismos de protección o actuación disponibles."
+        },
+        "strategy": {
+          "title": "Estrategia constitucional",
+          "desc": "Nuestra intervención combina análisis constitucional, evaluación de garantías, estudio de antecedentes y diseño de una estrategia jurídica dirigida a procurar una tutela efectiva de los derechos fundamentales, con atención a las circunstancias concretas de cada caso."
+        }
+      },
+      "value": {
+        "title": "Una respuesta jurídica especializada",
+        "p_1": "Cada controversia constitucional requiere determinar con precisión qué derecho está comprometido, cuál es la conducta que produce la afectación y cuál es el mecanismo jurídico adecuado para obtener su protección.",
+        "p_2": "El objetivo es brindar una respuesta jurídica especializada frente a vulneraciones constitucionales, fortaleciendo la protección de los derechos, las garantías y la seguridad jurídica de nuestros clientes."
+      },
+      "notice": "La evaluación de cada asunto depende de sus circunstancias particulares, de los antecedentes disponibles y de los mecanismos jurídicos aplicables.",
+      "cta": {
+        "title": "¿Requiere orientación en materia constitucional?",
+        "desc": "Contáctenos para evaluar su situación y recibir orientación jurídica especializada.",
+        "link": "Contactar a la firma"
       }
     }
   },
@@ -597,6 +650,9 @@
     },
     "services_penal": {
       "title": "Derecho Penal y Procesal Penal | Mac Consultores"
+    },
+    "services_constitucional": {
+      "title": "Derecho Constitucional | Mac Consultores Jurídicos & Asociados"
     }
   },
   "hero": {
