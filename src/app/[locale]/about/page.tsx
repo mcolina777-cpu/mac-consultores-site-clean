@@ -49,6 +49,24 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
+
+function renderTrustSignal(signal: string | { text: string; link: string; link_text: string; suffix: string; } | undefined) {
+  if (!signal) return null;
+  if (typeof signal === "string") return signal;
+  if (typeof signal === "object" && signal !== null) {
+    return (
+      <>
+        {signal.text}{" "}
+        <a href={signal.link} className="underline">
+          {signal.link_text}
+        </a>
+        {signal.suffix}
+      </>
+    );
+  }
+  return null;
+}
+
 export default async function QuienesSomos({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
@@ -249,27 +267,19 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
                 <div className="flex items-center gap-2">
                   <span>🔒</span>
                   <span>
-                    {dict?.quienes_somos?.values?.contact_box?.trust_signals?.[0]}
+                    {renderTrustSignal(dict?.quienes_somos?.values?.contact_box?.trust_signals?.[0])}
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span>⏱️</span>
                   <span>
-                    {dict?.quienes_somos?.values?.contact_box?.trust_signals?.[1]}
+                    {renderTrustSignal(dict?.quienes_somos?.values?.contact_box?.trust_signals?.[1])}
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span>🛡️</span>
                   <span>
-                    {dict?.quienes_somos?.values?.contact_box?.trust_signals?.[2]?.text}
-                    {" "}
-                    <a
-                      href={dict?.quienes_somos?.values?.contact_box?.trust_signals?.[2]?.link}
-                      className="underline"
-                    >
-                      {dict?.quienes_somos?.values?.contact_box?.trust_signals?.[2]?.link_text}
-                    </a>
-                    {dict?.quienes_somos?.values?.contact_box?.trust_signals?.[2]?.suffix}
+                    {renderTrustSignal(dict?.quienes_somos?.values?.contact_box?.trust_signals?.[2])}
                   </span>
                 </div>
               </div>
