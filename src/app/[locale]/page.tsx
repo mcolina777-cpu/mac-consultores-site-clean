@@ -1,6 +1,5 @@
 import React from 'react';
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
+export const revalidate = 3600;
 import Image from 'next/image';
 import Hero from '@/components/Hero';
 import InsightDelDia from '@/components/InsightDelDia';
