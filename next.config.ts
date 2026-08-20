@@ -20,6 +20,18 @@ const nextConfig: NextConfig = {
       }
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: '/en/case-selection',
+        destination: '/en/seleccion-de-casos',
+      },
+      {
+        source: '/en/services/constitutional',
+        destination: '/en/services/constitucional',
+      },
+    ];
+  },
 };
 
 export default nextConfig;
