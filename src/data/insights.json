@@ -1,5 +1,203 @@
 [
   {
+    "id": "derecho_internacional",
+    "es": {
+      "concepto": "Derecho Internacional",
+      "definicion": "La representación en asuntos transfronterizos exige precisión, coordinación y conocimiento de los marcos jurídicos aplicables."
+    },
+    "en": {
+      "concept": "International Law",
+      "definition": "Representation in cross-border matters requires precision, coordination, and knowledge of the applicable legal frameworks."
+    }
+  },
+  {
+    "id": "presuncion_inocencia",
+    "es": {
+      "concepto": "Presunción de Inocencia",
+      "definicion": "Toda persona debe ser tratada como inocente mientras no exista una decisión firme que establezca lo contrario."
+    },
+    "en": {
+      "concept": "Presumption of Innocence",
+      "definition": "Every person must be treated as innocent unless and until a final decision establishes otherwise."
+    }
+  },
+  {
+    "id": "derecho_defensa",
+    "es": {
+      "concepto": "Derecho a la Defensa",
+      "definicion": "La defensa efectiva requiere información oportuna, asesoría profesional y la posibilidad real de controvertir los argumentos y las pruebas."
+    },
+    "en": {
+      "concept": "Right to Defense",
+      "definition": "Effective defense requires timely information, professional counsel, and a genuine opportunity to challenge arguments and evidence."
+    }
+  },
+  {
+    "id": "legalidad",
+    "es": {
+      "concepto": "Principio de Legalidad",
+      "definicion": "Las actuaciones y decisiones deben fundarse en normas aplicables, respetando los límites que el ordenamiento jurídico establece."
+    },
+    "en": {
+      "concept": "Principle of Legality",
+      "definition": "Actions and decisions must be grounded in applicable rules and respect the limits established by the legal system."
+    }
+  },
+  {
+    "id": "igualdad_ante_ley",
+    "es": {
+      "concepto": "Igualdad ante la Ley",
+      "definicion": "La aplicación del derecho debe ser imparcial y garantizar un trato digno, objetivo y no discriminatorio."
+    },
+    "en": {
+      "concept": "Equality Before the Law",
+      "definition": "The application of the law must be impartial and ensure dignified, objective, and non-discriminatory treatment."
+    }
+  },
+  {
+    "id": "tutela_judicial",
+    "es": {
+      "concepto": "Tutela Judicial",
+      "definicion": "El acceso a mecanismos efectivos para proteger derechos es esencial para la confianza en la justicia."
+    },
+    "en": {
+      "concept": "Judicial Protection",
+      "definition": "Access to effective mechanisms for protecting rights is essential to confidence in justice."
+    }
+  },
+  {
+    "id": "integridad_profesional",
+    "es": {
+      "concepto": "Integridad Profesional",
+      "definicion": "La práctica jurídica exige independencia de criterio, rigor técnico y compromiso con la ética profesional."
+    },
+    "en": {
+      "concept": "Professional Integrity",
+      "definition": "Legal practice requires independent judgment, technical rigor, and a commitment to professional ethics."
+    }
+  },
+  {
+    "id": "cumplimiento_normativo",
+    "es": {
+      "concepto": "Cumplimiento Normativo",
+      "definicion": "Prevenir riesgos implica comprender las obligaciones aplicables y convertirlas en procesos claros y verificables."
+    },
+    "en": {
+      "concept": "Regulatory Compliance",
+      "definition": "Risk prevention requires understanding applicable obligations and turning them into clear, verifiable processes."
+    }
+  },
+  {
+    "id": "responsabilidad_corporativa",
+    "es": {
+      "concepto": "Responsabilidad Corporativa",
+      "definicion": "Las organizaciones fortalecen su sostenibilidad cuando deciden con transparencia, controles y respeto por sus deberes."
+    },
+    "en": {
+      "concept": "Corporate Responsibility",
+      "definition": "Organizations strengthen their sustainability when they act with transparency, controls, and respect for their duties."
+    }
+  },
+  {
+    "id": "gestion_riesgos",
+    "es": {
+      "concepto": "Gestión de Riesgos",
+      "definicion": "Anticipar escenarios jurídicos permite tomar decisiones informadas y proteger la continuidad de las operaciones."
+    },
+    "en": {
+      "concept": "Risk Management",
+      "definition": "Anticipating legal scenarios enables informed decisions and protects operational continuity."
+    }
+  },
+  {
+    "id": "mediacion",
+    "es": {
+      "concepto": "Mediación",
+      "definicion": "El diálogo estructurado puede transformar un conflicto en una solución viable, confidencial y orientada a resultados."
+    },
+    "en": {
+      "concept": "Mediation",
+      "definition": "Structured dialogue can turn a dispute into a viable, confidential, and results-oriented solution."
+    }
+  },
+  {
+    "id": "arbitraje",
+    "es": {
+      "concepto": "Arbitraje",
+      "definicion": "El arbitraje ofrece una vía especializada para resolver controversias cuando las partes buscan eficiencia y confidencialidad."
+    },
+    "en": {
+      "concept": "Arbitration",
+      "definition": "Arbitration offers a specialized path to resolve disputes when parties seek efficiency and confidentiality."
+    }
+  },
+  {
+    "id": "documentacion",
+    "es": {
+      "concepto": "Documentación Jurídica",
+      "definicion": "Los documentos claros y oportunos sostienen decisiones, previenen controversias y facilitan la defensa de los intereses."
+    },
+    "en": {
+      "concept": "Legal Documentation",
+      "definition": "Clear and timely documents support decisions, prevent disputes, and facilitate the defense of interests."
+    }
+  },
+  {
+    "id": "debida_diligencia_inicial",
+    "es": {
+      "concepto": "Debida Diligencia",
+      "definicion": "Conocer las partes, el contexto y los riesgos permite construir relaciones comerciales más seguras."
+    },
+    "en": {
+      "concept": "Due Diligence",
+      "definition": "Knowing the parties, the context, and the risks helps build safer business relationships."
+    }
+  },
+  {
+    "id": "confidencialidad_inicial",
+    "es": {
+      "concepto": "Confidencialidad",
+      "definicion": "Proteger la información sensible es una responsabilidad esencial en toda relación profesional."
+    },
+    "en": {
+      "concept": "Confidentiality",
+      "definition": "Protecting sensitive information is an essential responsibility in every professional relationship."
+    }
+  },
+  {
+    "id": "estrategia_legal",
+    "es": {
+      "concepto": "Estrategia Legal",
+      "definicion": "Una estrategia sólida conecta los hechos, la prueba y los objetivos con decisiones oportunas."
+    },
+    "en": {
+      "concept": "Legal Strategy",
+      "definition": "A sound strategy connects facts, evidence, and objectives through timely decisions."
+    }
+  },
+  {
+    "id": "seguridad_contrato",
+    "es": {
+      "concepto": "Seguridad Contractual",
+      "definicion": "Los acuerdos bien estructurados aclaran responsabilidades, reducen incertidumbre y preservan relaciones."
+    },
+    "en": {
+      "concept": "Contractual Certainty",
+      "definition": "Well-structured agreements clarify responsibilities, reduce uncertainty, and preserve relationships."
+    }
+  },
+  {
+    "id": "acceso_justicia",
+    "es": {
+      "concepto": "Acceso a la Justicia",
+      "definicion": "La orientación jurídica oportuna permite comprender opciones, ejercer derechos y tomar decisiones responsables."
+    },
+    "en": {
+      "concept": "Access to Justice",
+      "definition": "Timely legal guidance helps people understand their options, exercise their rights, and make responsible decisions."
+    }
+  },
+  {
     "id": "debido_proceso",
     "es": {
       "concepto": "Debido Proceso",
