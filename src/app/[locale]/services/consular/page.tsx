@@ -94,7 +94,6 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
             <p className="mb-2-5rem text-muted">{dict?.tramites_consulares?.form?.desc}</p>
             <form action="https://formsubmit.co/infomacconsul@gmail.com" method="POST">
               <input type="hidden" name="_next" value="https://mac-consultores.vercel.app/tramites-consulares" />
-              <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_subject" value="Nueva solicitud de Trámites Consulares / Exterior" />
               
               <div className="grid-2 mb-1-5rem">

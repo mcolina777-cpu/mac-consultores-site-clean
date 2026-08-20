@@ -66,7 +66,6 @@ export default function B2BContactBox({ data, locale }: B2BContactBoxProps) {
             action="https://formsubmit.co/infomacconsul@gmail.com"
             method="POST"
           >
-            <input type="hidden" name="_captcha" value="false" />
             <input
               type="hidden"
               name="_subject"
