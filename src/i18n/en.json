@@ -1246,5 +1246,56 @@
       "desc": "Early intervention makes it possible to assess risks, preserve rights and structure a coherent defence strategy.",
       "link": "Request a legal assessment →"
     }
+  },
+  "consultoria_preventiva": {
+    "breadcrumb": "Services / Preventive Legal Consulting",
+    "h1": "Preventive Legal Consulting",
+    "subtitle": "Identification, assessment and management of legal risks before they become conflicts or liabilities.",
+    "intro_p_1": "Legal prevention makes it possible to identify risks before they become conflicts, sanctions, liabilities or judicial proceedings. A business or professional decision may produce legal consequences that, when not assessed in a timely manner, can generate considerably higher economic, operational and reputational costs.",
+    "intro_p_2": "At Mac Consultores Jurídicos & Asociados, we offer preventive legal consulting focused on identifying, assessing and managing legal risks, accompanying companies, entrepreneurs, administrators and individuals in decision-making that may have relevant legal consequences.",
+    "areas": {
+      "tag": "Areas of intervention",
+      "title": "Preventive management of legal risk",
+      "intro": "Our intervention is structured across six complementary areas, whose specific relevance depends on the nature of the organisation, its operations and the applicable legal framework.",
+      "risk_management": {
+        "title": "Legal risk management",
+        "desc": "Preventive management begins with identifying situations that may generate legal exposure. We analyse operations, decisions, contractual relationships, organisational structures and internal procedures in order to determine existing legal risks, their possible impact and available alternatives to reduce them."
+      },
+      "compliance": {
+        "title": "Compliance and regulatory compliance",
+        "desc": "Regulatory compliance constitutes an essential component of legal prevention, especially within organisations that carry out activities subject to legal and regulatory obligations. We advise on identifying applicable obligations, reviewing procedures and evaluating internal mechanisms designed to promote compliance with the corresponding regulations."
+      },
+      "penal_risk": {
+        "title": "Prevention of criminal risk",
+        "desc": "An organisation may become exposed to criminal contingencies as a consequence of certain decisions, operations or individual actions developed within its structure. Preventive consulting makes it possible to identify possible liability scenarios and legally assess mechanisms designed to reduce such exposure."
+      },
+      "contractual": {
+        "title": "Contractual structuring and review",
+        "desc": "Contracts constitute one of the main instruments for distributing rights, obligations and risks between parties. We provide advice on the review, analysis and legal structuring of contractual relationships, seeking to identify clauses, obligations or scenarios that may generate subsequent contingencies."
+      },
+      "governance": {
+        "title": "Corporate governance",
+        "desc": "A properly defined organisational structure contributes to delimiting functions, responsibilities and decision-making processes. We advise on legal issues related to corporate governance, particularly in defining and reviewing responsibilities, decision-making mechanisms and internal structures that allow reducing uncertainties and improving the organisation's legal management."
+      },
+      "operations": {
+        "title": "Legal assessment of operations",
+        "desc": "Before executing a relevant operation, it is advisable to determine its possible legal implications. We conduct preventive analyses aimed at identifying obligations, restrictions, risks and contingencies associated with certain decisions or operations, providing the client with legal elements to evaluate available alternatives."
+      },
+      "methodology": {
+        "title": "Preventive methodology",
+        "desc": "Our consulting is structured around four fundamental stages: identification (determination of facts, operations or structures that may generate legal exposure), assessment (analysis of the nature, scope and potential impact of identified risks), prevention (determination of legal measures designed to reduce or control exposure) and accompaniment (advice during implementation and monitoring of adopted decisions)."
+      }
+    },
+    "value": {
+      "title": "Anticipating conflict",
+      "p_1": "Preventive legal consulting turns Law into a tool for management and decision-making, not only a mechanism for responding to conflict.",
+      "p_2": "At Mac Consultores Jurídicos & Asociados, we accompany our clients in the early identification of risks and in the construction of legal structures designed to provide greater security in their decisions, operations and professional or business relationships."
+    },
+    "notice": "This content is provided for general informational purposes and does not replace a legal assessment of a specific case. The preventive strategy and procedural actions must be defined according to the facts, the jurisdiction and the relevant stage.",
+    "cta": {
+      "title": "Do you need to assess legal risks in your organisation?",
+      "desc": "Early intervention makes it possible to identify risk scenarios and make informed decisions before conflict materialises.",
+      "link": "Request a preventive assessment →"
+    }
   }
 }

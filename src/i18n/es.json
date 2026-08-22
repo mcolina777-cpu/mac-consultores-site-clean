@@ -1246,5 +1246,56 @@
       "desc": "Una intervención temprana permite evaluar riesgos, preservar derechos y estructurar una estrategia de defensa coherente.",
       "link": "Solicitar evaluación jurídica →"
     }
+  },
+  "consultoria_preventiva": {
+    "breadcrumb": "Servicios / Consultoría Jurídica Preventiva",
+    "h1": "Consultoría Jurídica Preventiva",
+    "subtitle": "Identificación, evaluación y gestión de riesgos legales antes de que se conviertan en conflictos o responsabilidades.",
+    "intro_p_1": "La prevención jurídica permite identificar riesgos antes de que se conviertan en conflictos, sanciones, responsabilidades o procedimientos judiciales. Una decisión empresarial o profesional puede producir consecuencias jurídicas que, cuando no son evaluadas oportunamente, pueden generar costos económicos, operativos y reputacionales considerablemente mayores.",
+    "intro_p_2": "En Mac Consultores Jurídicos & Asociados ofrecemos consultoría jurídica preventiva orientada a identificar, evaluar y gestionar riesgos legales, acompañando a empresas, empresarios, administradores y particulares en la toma de decisiones que puedan tener consecuencias jurídicas relevantes.",
+    "areas": {
+      "tag": "Áreas de intervención",
+      "title": "Gestión preventiva del riesgo jurídico",
+      "intro": "Nuestra intervención se estructura en seis ámbitos complementarios, cuya relevancia concreta depende de la naturaleza de la organización, sus operaciones y el marco jurídico aplicable.",
+      "risk_management": {
+        "title": "Gestión del riesgo jurídico",
+        "desc": "La gestión preventiva comienza con la identificación de las situaciones que pueden generar exposición legal. Analizamos operaciones, decisiones, relaciones contractuales, estructuras organizativas y procedimientos internos con el propósito de determinar los riesgos jurídicos existentes, su posible impacto y las alternativas disponibles para reducirlos."
+      },
+      "compliance": {
+        "title": "Compliance y cumplimiento normativo",
+        "desc": "El cumplimiento normativo constituye un componente esencial de la prevención jurídica, especialmente dentro de organizaciones que desarrollan actividades sujetas a obligaciones legales y regulatorias. Asesoramos en la identificación de obligaciones aplicables, revisión de procedimientos y evaluación de mecanismos internos destinados a favorecer el cumplimiento de la normativa correspondiente."
+      },
+      "penal_risk": {
+        "title": "Prevención del riesgo penal",
+        "desc": "Una organización puede quedar expuesta a contingencias penales como consecuencia de determinadas decisiones, operaciones o actuaciones individuales desarrolladas dentro de su estructura. La consultoría preventiva permite identificar posibles escenarios de responsabilidad y evaluar jurídicamente los mecanismos destinados a reducir dicha exposición."
+      },
+      "contractual": {
+        "title": "Estructuración y revisión contractual",
+        "desc": "Los contratos constituyen uno de los principales instrumentos para distribuir derechos, obligaciones y riesgos entre las partes. Prestamos asesoramiento en la revisión, análisis y estructuración jurídica de relaciones contractuales, procurando identificar cláusulas, obligaciones o escenarios que puedan generar contingencias posteriores."
+      },
+      "governance": {
+        "title": "Gobernanza corporativa",
+        "desc": "Una estructura organizativa adecuadamente definida contribuye a delimitar funciones, responsabilidades y procesos de toma de decisiones. Asesoramos en cuestiones jurídicas relacionadas con la gobernanza corporativa, particularmente en la definición y revisión de responsabilidades, mecanismos de decisión y estructuras internas que permitan reducir incertidumbres y mejorar la gestión jurídica de la organización."
+      },
+      "operations": {
+        "title": "Evaluación jurídica de operaciones",
+        "desc": "Antes de ejecutar una operación relevante, resulta conveniente determinar sus posibles implicaciones jurídicas. Realizamos análisis preventivos destinados a identificar obligaciones, restricciones, riesgos y contingencias asociados con determinadas decisiones u operaciones, proporcionando al cliente elementos jurídicos para valorar las alternativas disponibles."
+      },
+      "methodology": {
+        "title": "Metodología preventiva",
+        "desc": "Nuestra consultoría se estructura sobre cuatro etapas fundamentales: identificación (determinación de los hechos, operaciones o estructuras que pueden generar exposición jurídica), evaluación (análisis de la naturaleza, alcance e impacto potencial de los riesgos identificados), prevención (determinación de medidas jurídicas destinadas a reducir o controlar la exposición) y acompañamiento (asesoramiento durante la implementación y seguimiento de las decisiones adoptadas)."
+      }
+    },
+    "value": {
+      "title": "Anticiparse al conflicto",
+      "p_1": "La consultoría jurídica preventiva convierte al Derecho en una herramienta de gestión y toma de decisiones, no únicamente en un mecanismo de respuesta frente al conflicto.",
+      "p_2": "En Mac Consultores Jurídicos & Asociados acompañamos a nuestros clientes en la identificación temprana de riesgos y en la construcción de estructuras jurídicas orientadas a proporcionar mayor seguridad en sus decisiones, operaciones y relaciones profesionales o empresariales."
+    },
+    "notice": "Este contenido tiene fines informativos generales y no sustituye la evaluación jurídica de un caso concreto. La estrategia preventiva y las actuaciones procedimentales deben definirse según los hechos, la jurisdicción y la etapa correspondiente.",
+    "cta": {
+      "title": "¿Requiere evaluar riesgos jurídicos en su organización?",
+      "desc": "Una intervención temprana permite identificar escenarios de riesgo y adoptar decisiones informadas antes de que el conflicto se materialice.",
+      "link": "Solicitar evaluación preventiva →"
+    }
   }
 }
