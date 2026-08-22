@@ -1199,5 +1199,52 @@
       "desc": "We assess the scope of your matter, the jurisdictions involved, and the conditions needed to design an appropriate professional proposal.",
       "link": "Request an international legal services proposal →"
     }
+  },
+  "delitos_informaticos": {
+    "breadcrumb": "Services / Cybercrimes and Digital Evidence",
+    "h1": "Cybercrimes and Digital Evidence",
+    "subtitle": "Legal advice and defence in matters of cybercrimes, electronic fraud and the use of digital evidence.",
+    "intro_p_1": "Digital transformation has generated new forms of criminality and, at the same time, has made electronic information an increasingly relevant element for investigation and defence in judicial proceedings.",
+    "intro_p_2": "At Mac Consultores Jurídicos & Asociados, we provide legal advice and defence in situations related to cybercrimes, electronic fraud, impacts on systems and data, privacy and the use of digital evidence, integrating legal analysis of the conduct with the assessment of the technological elements involved.",
+    "areas": {
+      "tag": "Areas of intervention",
+      "title": "Cybercrimes and digital evidence",
+      "intro": "Our intervention is structured across five complementary areas, whose specific relevance depends on the facts, the stage of the investigation and the applicable legal framework.",
+      "cybercrimes": {
+        "title": "Cybercrimes",
+        "desc": "We advise and exercise defence in investigations related to conduct allegedly committed through computer systems, electronic devices, communication networks or digital platforms. The analysis includes determining the possible criminal relevance of the facts, identifying the attributed conduct and evaluating the circumstances in which they occurred."
+      },
+      "fraud": {
+        "title": "Electronic fraud and digital contingencies",
+        "desc": "Operations carried out through digital platforms may generate situations of special complexity when there are unauthorised transfers, identity theft, manipulation of information, improper use of credentials or fraudulent mechanisms. We legally analyse the development of the operation, the communications made, the available records and other relevant elements to determine possible liabilities and the appropriate legal actions."
+      },
+      "evidence": {
+        "title": "Digital evidence",
+        "desc": "Digital evidence may be decisive in establishing the existence of a fact, reconstructing a sequence of events or supporting a particular hypothesis within an investigation. We legally analyse elements such as electronic communications, emails, messaging and digital conversations, electronic files and documents, transaction records, information contained on devices, data associated with digital activities and electronic logs and traces."
+      },
+      "integrity": {
+        "title": "Integrity and assessment of evidence",
+        "desc": "In matters of digital evidence, it is fundamental to examine the conditions under which an element was obtained, preserved and presented. Legal strategy may require questioning the authenticity, integrity, origin, method of obtaining or incorporation of certain digital elements, particularly when there are circumstances that may affect their probative value or the legitimacy of their use within a proceeding."
+      },
+      "privacy": {
+        "title": "Privacy and data protection",
+        "desc": "The use of personal and business information in digital environments raises important legal issues related to privacy and data protection. We advise on situations where there may be unauthorised access, use, disclosure, processing or circulation of information, evaluating the legal consequences that may arise from the facts and the measures available to protect affected rights."
+      },
+      "strategy": {
+        "title": "Defence and legal strategy",
+        "desc": "A technology-related dispute requires simultaneously understanding the digital fact and its legal relevance. Therefore, our intervention begins with an analysis of the circumstances of the case, identifies the relevant digital elements and determines their impact within the corresponding legal strategy. The action may include initial assessment of the contingency, identification of possible liabilities, legal analysis of digital evidence, assessment of the legality of its obtaining and incorporation, advice on investigations, design of defence strategy and protection of rights related to privacy and information."
+      }
+    },
+    "value": {
+      "title": "A legal response to digital criminality",
+      "p_1": "Technological incidents can produce criminal, financial and reputational consequences that require a specialised response. Proper identification of the facts and preservation of relevant elements are essential to determine available legal actions.",
+      "p_2": "At Mac Consultores Jurídicos & Asociados, we address these contingencies from an integral legal perspective, ensuring that technological complexity does not become a barrier to the adequate protection of our clients' rights and interests."
+    },
+    "notice": "This content is provided for general informational purposes and does not replace a legal assessment of a specific case. The defence strategy and procedural actions must be defined according to the facts, the jurisdiction and the relevant procedural stage.",
+    "cta": {
+      "title": "Are you facing an investigation or contingency related to technology?",
+      "desc": "Early intervention makes it possible to assess risks, preserve rights and structure a coherent defence strategy.",
+      "link": "Request a legal assessment →"
+    }
   }
 }

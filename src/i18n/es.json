@@ -1199,5 +1199,52 @@
       "desc": "Evaluamos el alcance de su asunto, las jurisdicciones involucradas y las condiciones necesarias para diseñar una propuesta profesional adecuada.",
       "link": "Solicitar propuesta de servicios internacionales →"
     }
+  },
+  "delitos_informaticos": {
+    "breadcrumb": "Servicios / Delitos Informáticos y Evidencia Digital",
+    "h1": "Delitos Informáticos y Evidencia Digital",
+    "subtitle": "Asesoramiento y defensa jurídica frente a delitos informáticos, fraude electrónico y utilización de evidencia digital.",
+    "intro_p_1": "La transformación digital ha generado nuevas formas de criminalidad y, al mismo tiempo, ha convertido la información electrónica en un elemento cada vez más relevante para la investigación y defensa en procedimientos judiciales.",
+    "intro_p_2": "En Mac Consultores Jurídicos & Asociados prestamos asesoramiento y defensa jurídica frente a situaciones relacionadas con delitos informáticos, fraude electrónico, afectaciones a sistemas y datos, privacidad y utilización de evidencia digital, integrando el análisis jurídico de la conducta con la valoración de los elementos tecnológicos involucrados.",
+    "areas": {
+      "tag": "Áreas de intervención",
+      "title": "Delitos informáticos y evidencia digital",
+      "intro": "Nuestra intervención se estructura en cinco ámbitos complementarios, cuya relevancia concreta depende de los hechos, la etapa de investigación y el marco jurídico aplicable.",
+      "cybercrimes": {
+        "title": "Delitos informáticos",
+        "desc": "Asesoramos y ejercemos la defensa en investigaciones relacionadas con conductas presuntamente cometidas mediante sistemas informáticos, dispositivos electrónicos, redes de comunicación o plataformas digitales. El análisis comprende la determinación de la posible relevancia penal de los hechos, la identificación de las conductas atribuidas y la evaluación de las circunstancias en las que se produjeron."
+      },
+      "fraud": {
+        "title": "Fraude electrónico y contingencias digitales",
+        "desc": "Las operaciones realizadas a través de plataformas digitales pueden generar situaciones de especial complejidad cuando existen transferencias no autorizadas, suplantación de identidad, manipulación de información, utilización indebida de credenciales o mecanismos fraudulentos. Analizamos jurídicamente el desarrollo de la operación, las comunicaciones realizadas, los registros disponibles y demás elementos relevantes para determinar las posibles responsabilidades y las actuaciones jurídicas procedentes."
+      },
+      "evidence": {
+        "title": "Evidencia digital",
+        "desc": "La evidencia digital puede resultar determinante para establecer la existencia de un hecho, reconstruir una secuencia de acontecimientos o sustentar una determinada hipótesis dentro de una investigación. Analizamos jurídicamente elementos tales como comunicaciones electrónicas, correos electrónicos, mensajería y conversaciones digitales, archivos y documentos electrónicos, registros de operaciones, información contenida en dispositivos, datos asociados a actividades digitales y registros y trazas electrónicas."
+      },
+      "integrity": {
+        "title": "Integridad y valoración de la evidencia",
+        "desc": "En materia de evidencia digital resulta fundamental examinar las condiciones en las que un elemento fue obtenido, preservado y presentado. La estrategia jurídica puede requerir cuestionar la autenticidad, integridad, origen, forma de obtención o incorporación de determinados elementos digitales, particularmente cuando existan circunstancias que puedan afectar su valor probatorio o la legitimidad de su utilización dentro de un procedimiento."
+      },
+      "privacy": {
+        "title": "Privacidad y protección de datos",
+        "desc": "La utilización de información personal y empresarial en entornos digitales plantea importantes cuestiones jurídicas relacionadas con la privacidad y la protección de datos. Asesoramos frente a situaciones en las que pueda existir acceso, utilización, divulgación, tratamiento o circulación indebida de información, evaluando las consecuencias jurídicas que puedan derivarse de los hechos y las medidas disponibles para proteger los derechos afectados."
+      },
+      "strategy": {
+        "title": "Defensa y estrategia jurídica",
+        "desc": "Una controversia relacionada con tecnología requiere comprender simultáneamente el hecho digital y su relevancia jurídica. Por ello, nuestra intervención parte del análisis de las circunstancias del caso, identifica los elementos digitales relevantes y determina su incidencia dentro de la estrategia jurídica correspondiente. La actuación puede comprender evaluación inicial de la contingencia, identificación de posibles responsabilidades, análisis jurídico de evidencia digital, evaluación de la legalidad de su obtención e incorporación, asesoramiento frente a investigaciones, diseño de estrategia de defensa y protección de derechos relacionados con privacidad e información."
+      }
+    },
+    "value": {
+      "title": "Una respuesta jurídica frente a la criminalidad digital",
+      "p_1": "Los incidentes tecnológicos pueden producir consecuencias penales, patrimoniales y reputacionales que requieren una respuesta especializada. La adecuada identificación de los hechos y la preservación de los elementos relevantes resultan esenciales para determinar las acciones jurídicas disponibles.",
+      "p_2": "En Mac Consultores Jurídicos & Asociados abordamos estas contingencias desde una perspectiva jurídica integral, procurando que la complejidad tecnológica no se convierta en una barrera para la adecuada protección de los derechos e intereses de nuestros clientes."
+    },
+    "notice": "Este contenido tiene fines informativos generales y no sustituye la evaluación jurídica de un caso concreto. La estrategia de defensa y las actuaciones procedimentales deben definirse según los hechos, la jurisdicción y la etapa procesal correspondiente.",
+    "cta": {
+      "title": "¿Enfrenta una investigación o contingencia relacionada con tecnología?",
+      "desc": "Una intervención temprana permite evaluar riesgos, preservar derechos y estructurar una estrategia de defensa coherente.",
+      "link": "Solicitar evaluación jurídica →"
+    }
   }
 }
