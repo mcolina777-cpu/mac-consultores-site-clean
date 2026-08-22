@@ -110,6 +110,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
                   <li key={index}>{item}</li>
                 ))}
               </ul>
+              <span className="card-link">{dict?.services?.card_3?.link}</span>
             </Link>
             <div className="card">
               <span className="section-tag">04</span>
