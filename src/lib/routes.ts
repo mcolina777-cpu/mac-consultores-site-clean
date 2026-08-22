@@ -12,6 +12,7 @@ export type RouteKey =
   | "privacy"
   | "services.penal"
   | "services.constitucional"
+  | "services.delitos_informaticos"
   | "services.consular"
   | "services.international_cooperation"
   | "quienesSomosDetalle"
@@ -36,6 +37,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     privacy: "/es/privacy",
     "services.penal": "/es/services/penal",
     "services.constitucional": "/es/services/constitucional",
+    "services.delitos_informaticos": "/es/services/delitos-informaticos",
     "services.consular": "/es/services/consular",
     "services.international_cooperation": "/es/services/international-cooperation",
     quienesSomosDetalle: "/es/quienes-somos-detalle",
@@ -59,6 +61,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     privacy: "/en/privacy",
     "services.penal": "/en/services/penal",
     "services.constitucional": "/en/services/constitutional",
+    "services.delitos_informaticos": "/en/services/delitos-informaticos",
     "services.consular": "/en/services/consular",
     "services.international_cooperation": "/en/services/international-cooperation",
     quienesSomosDetalle: "/en/quienes-somos-detalle",
