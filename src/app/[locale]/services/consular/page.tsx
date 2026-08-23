@@ -28,15 +28,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
         <div className="container">
           <div className="grid-split">
             <div className="about-text">
-              <span className="section-tag">{dict?.tramites_consulares?.intro?.tag}</span>
-              <h2 className="serif section-title mb-1-5rem">{dict?.tramites_consulares?.intro?.title}</h2>
-              <p className="text-left max-w-100 mb-1rem">{dict?.tramites_consulares?.intro?.p1}</p>
-              <p className="text-left max-w-100 mb-1rem">{dict?.tramites_consulares?.intro?.p2}</p>
-              <p className="text-left max-w-100 mb-1rem">{dict?.tramites_consulares?.intro?.p3}</p>
-              <p className="text-left max-w-100 mb-1rem">{dict?.tramites_consulares?.intro?.p4}</p>
-              <p className="text-left max-w-100 mb-1rem">{dict?.tramites_consulares?.intro?.p5}</p>
-              <p className="text-left max-w-100 mb-1rem">{dict?.tramites_consulares?.intro?.p6}</p>
-              <p className="text-left max-w-100 mb-0">{dict?.tramites_consulares?.intro?.p7}</p>
+              <p className="text-left max-w-100 mb-0">{dict?.tramites_consulares?.intro_p}</p>
             </div>
             <div className="img-reveal">
               <picture>
