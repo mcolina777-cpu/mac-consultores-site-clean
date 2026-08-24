@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from "@/i18n/getDictionary";
+import { getRoute } from "@/lib/routes";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -47,7 +48,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
             <h2 className="section-title heading-xl mb-0-5rem">{dict?.tramites_consulares?.support?.title}</h2>
           </div>
           <div className="grid-3">
-            <Link href="#" className="card">
+            <Link href={getRoute(locale, "consular.practica_consular")} className="card">
               <span className="section-tag">01</span>
               <h3 >{dict?.tramites_consulares?.support?.card_1?.title}</h3>
               <p >{dict?.tramites_consulares?.support?.card_1?.desc}</p>
