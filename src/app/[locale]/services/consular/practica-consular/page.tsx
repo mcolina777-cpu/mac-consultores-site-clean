@@ -30,15 +30,15 @@ export default async function PracticaConsularPage({ params }: { params: Promise
           <span className="breadcrumb">
             {dict?.tramites_consulares?.breadcrumb} / Práctica Consular
           </span>
-          <h1>Práctica Consular</h1>
-          <p className="subtitle">Representación y gestión ante autoridades consulares y migratorias.</p>
+          <h1>{dict?.consular?.practica_consular?.page_title}</h1>
+          <p className="subtitle">{dict?.consular?.practica_consular?.page_subtitle}</p>
         </div>
       </header>
 
       <section className="intro-section">
         <div className="container">
           <p className="text-left max-w-100 mb-0">
-            Brindamos asesoría y representación legal especializada ante misiones consulares, embajadas y autoridades migratorias.
+            {dict?.consular?.practica_consular?.intro}
           </p>
         </div>
       </section>

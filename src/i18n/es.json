@@ -1297,5 +1297,15 @@
       "desc": "Una intervención temprana permite identificar escenarios de riesgo y adoptar decisiones informadas antes de que el conflicto se materialice.",
       "link": "Solicitar evaluación preventiva →"
     }
+  },
+  "consular": {
+    "practica_consular": {
+      "card_title": "Práctica Consular",
+      "card_desc": "Asesoría y representación jurídica vinculada con actuaciones consulares.",
+      "card_link": "VER DETALLES →",
+      "page_title": "Práctica Consular",
+      "page_subtitle": "Asesoría y representación jurídica vinculada con actuaciones consulares.",
+      "intro": "Los asuntos consulares relacionados con Venezuela pueden involucrar poderes, representación, documentación con efectos jurídicos y actuaciones que requieren coordinación entre el cliente y distintos actores institucionales. En Mac Consultores Jurídicos & Asociados asesoramos en la estructuración y ejecución de actuaciones jurídicas vinculadas con Venezuela, procurando que cada gestión responda a una finalidad concreta y a una estrategia previamente definida."
+    }
   }
 }

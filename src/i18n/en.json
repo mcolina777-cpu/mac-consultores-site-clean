@@ -1297,5 +1297,15 @@
       "desc": "Early intervention makes it possible to identify risk scenarios and make informed decisions before conflict materialises.",
       "link": "Request a preventive assessment →"
     }
+  },
+  "consular": {
+    "practica_consular": {
+      "card_title": "Consular Practice",
+      "card_desc": "Legal advice and representation related to consular proceedings.",
+      "card_link": "VIEW DETAILS →",
+      "page_title": "Consular Practice",
+      "page_subtitle": "Legal advice and representation related to consular proceedings.",
+      "intro": "Consular matters related to Venezuela may involve powers of attorney, representation, documentation with legal effects, and proceedings that require coordination between the client and various institutional actors. At Mac Consultores Jurídicos & Asociados, we provide advice on the structuring and execution of legal actions linked to Venezuela, ensuring that each management responds to a specific purpose and a previously defined strategy."
+    }
   }
 }
