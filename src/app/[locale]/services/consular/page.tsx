@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from "@/i18n/getDictionary";
-import { getRoute } from "@/lib/routes";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -48,17 +47,12 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
             <h2 className="section-title heading-xl mb-0-5rem">{dict?.tramites_consulares?.support?.title}</h2>
           </div>
           <div className="grid-3">
-            <Link href={getRoute(locale, "tramites_consulares.practica_consular")} className="card">
+            <div className="card">
               <span className="section-tag">01</span>
-              <h3>{dict?.tramites_consulares?.support?.card_1?.title}</h3>
-              <p>{dict?.tramites_consulares?.support?.card_1?.desc}</p>
-              <ul className="service-list">
-                {dict?.tramites_consulares?.support?.card_1?.list?.map((item: string, index: number) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-              <span className="card-link">{dict?.tramites_consulares?.support?.card_1?.link}</span>
-            </Link>
+              <h3 >{dict?.tramites_consulares?.support?.card_1?.title}</h3>
+              <p >{dict?.tramites_consulares?.support?.card_1?.desc}</p>
+              <Link href="#practica-consular" className="card-link" >{dict?.tramites_consulares?.support?.card_1?.link}</Link>
+            </div>
             <div className="card">
               <span className="section-tag">02</span>
               <h3 >{dict?.tramites_consulares?.support?.card_2?.title}</h3>

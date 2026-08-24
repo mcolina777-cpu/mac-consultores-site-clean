@@ -23,8 +23,7 @@ export type RouteKey =
   | "probonoPenal"
   | "resources.economic_criminal_risk"
   | "resources.defense_documentation"
-  | "resources.international_legal_services"
-  | "tramites_consulares.practica_consular";
+  | "resources.international_legal_services";
 
 const routes: Record<AppLocale, Record<RouteKey, string>> = {
   es: {
@@ -51,7 +50,6 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "resources.economic_criminal_risk": "/es/resources/economic-criminal-risk",
     "resources.defense_documentation": "/es/resources/defense-documentation",
     "resources.international_legal_services": "/es/resources/international-legal-services",
-    "tramites_consulares.practica_consular": "/es/services/practica-consular",
   },
   en: {
     home: "/en",
@@ -77,7 +75,6 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "resources.economic_criminal_risk": "/en/resources/economic-criminal-risk",
     "resources.defense_documentation": "/en/resources/defense-documentation",
     "resources.international_legal_services": "/en/resources/international-legal-services",
-    "tramites_consulares.practica_consular": "/en/services/practica-consular",
   },
 };
 
