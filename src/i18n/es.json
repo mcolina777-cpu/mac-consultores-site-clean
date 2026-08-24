@@ -434,8 +434,17 @@
       "title": "Servicios Especializados para el Exterior",
       "card_1": {
         "title": "Práctica Consular",
-        "desc": "Apoderamiento legal y representación estratégica ante misiones consulares y autoridades migratorias para garantizar su movilidad y derechos fundamentales.",
-        "link": "VER DETALLES →"
+        "desc": "Asesoría y representación jurídica vinculada con actuaciones consulares",
+        "list": [
+          "Asesoría jurídica previa a actuaciones consulares",
+          "Preparación y revisión de documentos destinados a producir efectos jurídicos en Venezuela",
+          "Estructuración de poderes, mandatos y autorizaciones",
+          "Coordinación con autoridades consulares y representantes en Venezuela",
+          "Actuaciones relacionadas con intereses patrimoniales, corporativos o jurídicos",
+          "Coordinación jurídica de asuntos con elementos internacionales",
+          "Enfoque estratégico: desde el objetivo jurídico hasta la estructura documental"
+        ],
+        "link": "SOLICITAR ASESORÍA →"
       },
       "card_2": {
         "title": "Gestión Documental",
