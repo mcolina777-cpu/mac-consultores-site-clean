@@ -1300,12 +1300,38 @@
   },
   "consular": {
     "practica_consular": {
-      "card_title": "Práctica Consular",
-      "card_desc": "Asesoría y representación jurídica vinculada con actuaciones consulares.",
-      "card_link": "VER DETALLES →",
-      "page_title": "Práctica Consular",
-      "page_subtitle": "Asesoría y representación jurídica vinculada con actuaciones consulares.",
-      "intro": "Los asuntos consulares relacionados con Venezuela pueden involucrar poderes, representación, documentación con efectos jurídicos y actuaciones que requieren coordinación entre el cliente y distintos actores institucionales. En Mac Consultores Jurídicos & Asociados asesoramos en la estructuración y ejecución de actuaciones jurídicas vinculadas con Venezuela, procurando que cada gestión responda a una finalidad concreta y a una estrategia previamente definida."
+      "practica_consular": {
+        "card_title": "Práctica Consular",
+        "card_desc": "Asesoría y representación jurídica vinculada con actuaciones consulares y documentación con efectos en Venezuela.",
+        "card_link": "VER DETALLES →",
+        "card_list": [
+          "Asesoría jurídica previa a actuaciones consulares.",
+          "Preparación y revisión de documentos con efectos en Venezuela.",
+          "Estructuración de poderes, mandatos y autorizaciones.",
+          "Coordinación con autoridades consulares y representantes.",
+          "Actuaciones sobre intereses patrimoniales y corporativos."
+        ],
+        "page_title": "Práctica Consular",
+        "page_subtitle": "Asesoría y representación jurídica vinculada con actuaciones consulares.",
+        "intro": "Los asuntos consulares relacionados con Venezuela pueden involucrar poderes, representación, documentación con efectos jurídicos y actuaciones que requieren coordinación entre el cliente y distintos actores institucionales. En Mac Consultores Jurídicos & Asociados asesoramos en la estructuración y ejecución de actuaciones jurídicas vinculadas con Venezuela, procurando que cada gestión responda a una finalidad concreta y a una estrategia previamente definida.",
+        "sections": [
+          {
+            "title": "Cuándo intervenimos",
+            "list": [
+              "Asesoría jurídica previa a actuaciones consulares.",
+              "Preparación y revisión de documentos destinados a producir efectos jurídicos en Venezuela.",
+              "Estructuración de poderes, mandatos y autorizaciones.",
+              "Coordinación con autoridades consulares y representantes en Venezuela.",
+              "Actuaciones relacionadas con intereses patrimoniales, corporativos o jurídicos.",
+              "Coordinación jurídica de asuntos con elementos internacionales."
+            ]
+          },
+          {
+            "title": "Nuestro enfoque",
+            "content": "La actuación consular no se aborda como un trámite aislado. Partimos del objetivo jurídico que el cliente necesita alcanzar y determinamos la estructura documental y representativa necesaria para hacerlo viable."
+          }
+        ]
+      }
     }
   }
 }

@@ -40,6 +40,20 @@ export default async function PracticaConsularPage({ params }: { params: Promise
           <p className="text-left max-w-100 mb-0">
             {dict?.consular?.practica_consular?.intro}
           </p>
+
+          {dict?.consular?.practica_consular?.sections?.map((section: any, index: number) => (
+            <div key={index} className="content-section">
+              <h2 className="serif section-title">{section.title}</h2>
+              {section.list && (
+                <ul className="service-list">
+                  {section.list.map((item: string, i: number) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              )}
+              {section.content && <p>{section.content}</p>}
+            </div>
+          ))}
         </div>
       </section>
 

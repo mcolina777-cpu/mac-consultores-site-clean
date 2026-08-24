@@ -52,6 +52,11 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
               <span className="section-tag">01</span>
               <h3 >{dict?.consular?.practica_consular?.card_title}</h3>
               <p >{dict?.consular?.practica_consular?.card_desc}</p>
+              <ul className="service-list">
+                {dict?.consular?.practica_consular?.card_list?.map((item: string, index: number) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
               <span className="card-link" >{dict?.consular?.practica_consular?.card_link}</span>
             </Link>
             <div className="card">
