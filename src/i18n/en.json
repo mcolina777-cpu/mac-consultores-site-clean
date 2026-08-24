@@ -434,8 +434,17 @@
       "title": "Specialized Services for Abroad",
       "card_1": {
         "title": "Consular Practice",
-        "desc": "Legal empowerment and strategic representation before consular missions and migration authorities to guarantee your mobility and fundamental rights.",
-        "link": "VIEW DETAILS →"
+        "desc": "Legal advice and representation related to consular proceedings",
+        "list": [
+          "Legal advisory prior to consular proceedings",
+          "Preparation and review of documents with legal effects in Venezuela",
+          "Structuring of powers of attorney, mandates and authorizations",
+          "Coordination with consular authorities and representatives in Venezuela",
+          "Proceedings related to asset, corporate or legal interests",
+          "Legal coordination of matters with international elements",
+          "Strategic approach: from legal objective to documentary structure"
+        ],
+        "link": "REQUEST ADVISORY →"
       },
       "card_2": {
         "title": "Document Management",
