@@ -56,18 +56,7 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             <div className="card">
               <span className="section-tag">{data?.proposal?.card_1?.tag || "01"}</span>
               <h3>{data?.proposal?.card_1?.title}</h3>
-              
-              <p className="font-medium text-muted">
-                {data?.proposal?.card_1?.subtitle}
-              </p>
-
-              <p>{data?.proposal?.card_1?.p1}</p>
-              <p>{data?.proposal?.card_1?.p2}</p>
-              <p>{data?.proposal?.card_1?.p3}</p>
-
-              <h4 className="mt-4 mb-2 font-semibold">
-                {data?.proposal?.card_1?.section_when}
-              </h4>
+              <p>{data?.proposal?.card_1?.desc}</p>
 
               <ul className="service-list">
                 {data?.proposal?.card_1?.list?.map((item: string, index: number) => (
@@ -75,18 +64,7 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
                 ))}
               </ul>
 
-              <h4 className="mt-4 mb-2 font-semibold">
-                {data?.proposal?.card_1?.section_approach}
-              </h4>
-
-              <p>{data?.proposal?.card_1?.approach_p1}</p>
-              <p>{data?.proposal?.card_1?.approach_p2}</p>
-              <p>{data?.proposal?.card_1?.approach_p3}</p>
-              <p>{data?.proposal?.card_1?.approach_p4}</p>
-
-              <span className="card-link">
-                {data?.proposal?.card_1?.link}
-              </span>
+              <span className="card-link">{data?.proposal?.card_1?.link}</span>
             </div>
             <div className="card">
               <h3>{data?.proposal?.card_2?.title}</h3>
