@@ -489,8 +489,29 @@
       "tag": "Nuestra Propuesta",
       "title": "Soporte Local para Firmas Globales",
       "card_1": {
-        "title": "Corresponsalía Jurídica",
-        "desc": "Actuamos como sus corresponsales locales en Venezuela, gestionando actuaciones judiciales y trámites administrativos con total transparencia."
+        "tag": "01",
+        "title": "PRÁCTICA CONSULAR",
+        "subtitle": "Asesoría y representación jurídica vinculada con actuaciones consulares",
+        "p1": "Los asuntos consulares vinculados con Venezuela pueden trascender la simple gestión documental. En determinados casos, una actuación realizada ante una representación consular constituye el punto de partida para producir consecuencias jurídicas posteriores en Venezuela, particularmente cuando intervienen poderes, mandatos, autorizaciones, declaraciones, documentos patrimoniales o actuaciones destinadas a ser utilizadas ante autoridades venezolanas.",
+        "p2": "En Mac Consultores Jurídicos & Asociados abordamos estas situaciones desde una perspectiva jurídica integral. Antes de iniciar cualquier gestión, identificamos el propósito concreto que el cliente necesita alcanzar, determinamos qué actuación resulta jurídicamente adecuada y estructuramos la documentación necesaria para procurar que el acto pueda cumplir eficazmente su finalidad.",
+        "p3": "Nuestra intervención está dirigida especialmente a personas, empresas y titulares de intereses en Venezuela que se encuentran fuera del país y necesitan realizar actuaciones jurídicas sin desplazarse físicamente, así como a profesionales o firmas extranjeras que requieren coordinación jurídica local.",
+        "section_when": "Cuándo intervenimos",
+        "list": [
+          "Asesoría jurídica previa a actuaciones ante representaciones consulares.",
+          "Preparación, revisión y adecuación de documentos destinados a producir efectos jurídicos en Venezuela.",
+          "Estructuración de poderes, mandatos, autorizaciones y declaraciones.",
+          "Determinación del alcance de las facultades que deben ser conferidas al representante.",
+          "Coordinación jurídica entre el otorgante situado en el extranjero y el representante en Venezuela.",
+          "Actuaciones relacionadas con bienes, derechos, participaciones societarias, obligaciones o intereses patrimoniales.",
+          "Coordinación con abogados, notarios, representantes y otros profesionales que intervengan en la operación.",
+          "Análisis de situaciones que presentan simultáneamente elementos jurídicos venezolanos y extranjeros."
+        ],
+        "section_approach": "Nuestro enfoque",
+        "approach_p1": "No concebimos la actuación consular como un trámite aislado. La pregunta central es qué efecto jurídico necesita producir el cliente y cuál es el instrumento adecuado para conseguirlo.",
+        "approach_p2": "Por ello, examinamos previamente la finalidad de la actuación, la condición jurídica del otorgante y del representante, el alcance de las facultades requeridas y la autoridad ante la cual posteriormente deberá utilizarse el documento.",
+        "approach_p3": "Esta metodología permite reducir errores frecuentes: poderes insuficientes, facultades excesivamente amplias o imprecisas, documentos incompatibles con la finalidad perseguida o actuaciones realizadas sin considerar la etapa jurídica posterior.",
+        "approach_p4": "Nuestra función consiste en conectar la actuación realizada en el exterior con su finalidad jurídica efectiva en Venezuela, coordinando los distintos componentes de la operación bajo una dirección jurídica coherente.",
+        "link": "SOLICITAR ASESORÍA →"
       },
       "card_2": {
         "title": "Due Diligence Legal",
