@@ -54,38 +54,38 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
           
           <div className="grid-3">
             <div className="card">
-              <span className="section-tag">{data?.proposal?.card_1?.tag || data?.card_1?.tag || "01"}</span>
-              <h3>{data?.proposal?.card_1?.title || data?.card_1?.title}</h3>
+              <span className="section-tag">{data?.proposal?.card_1?.tag || "01"}</span>
+              <h3>{data?.proposal?.card_1?.title}</h3>
               
               <p className="font-medium text-muted">
-                {data?.proposal?.card_1?.subtitle || data?.card_1?.subtitle}
+                {data?.proposal?.card_1?.subtitle}
               </p>
 
-              <p>{data?.proposal?.card_1?.p1 || data?.card_1?.p1}</p>
-              <p>{data?.proposal?.card_1?.p2 || data?.card_1?.p2}</p>
-              <p>{data?.proposal?.card_1?.p3 || data?.card_1?.p3}</p>
+              <p>{data?.proposal?.card_1?.p1}</p>
+              <p>{data?.proposal?.card_1?.p2}</p>
+              <p>{data?.proposal?.card_1?.p3}</p>
 
               <h4 className="mt-4 mb-2 font-semibold">
-                {data?.proposal?.card_1?.section_when || data?.card_1?.section_when}
+                {data?.proposal?.card_1?.section_when}
               </h4>
 
               <ul className="service-list">
-                {(data?.proposal?.card_1?.list || data?.card_1?.list)?.map((item: string, index: number) => (
+                {data?.proposal?.card_1?.list?.map((item: string, index: number) => (
                   <li key={index}>{item}</li>
                 ))}
               </ul>
 
               <h4 className="mt-4 mb-2 font-semibold">
-                {data?.proposal?.card_1?.section_approach || data?.card_1?.section_approach}
+                {data?.proposal?.card_1?.section_approach}
               </h4>
 
-              <p>{data?.proposal?.card_1?.approach_p1 || data?.card_1?.approach_p1}</p>
-              <p>{data?.proposal?.card_1?.approach_p2 || data?.card_1?.approach_p2}</p>
-              <p>{data?.proposal?.card_1?.approach_p3 || data?.card_1?.approach_p3}</p>
-              <p>{data?.proposal?.card_1?.approach_p4 || data?.card_1?.approach_p4}</p>
+              <p>{data?.proposal?.card_1?.approach_p1}</p>
+              <p>{data?.proposal?.card_1?.approach_p2}</p>
+              <p>{data?.proposal?.card_1?.approach_p3}</p>
+              <p>{data?.proposal?.card_1?.approach_p4}</p>
 
               <span className="card-link">
-                {data?.proposal?.card_1?.link || data?.card_1?.link}
+                {data?.proposal?.card_1?.link}
               </span>
             </div>
             <div className="card">
