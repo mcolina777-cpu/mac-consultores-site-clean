@@ -53,23 +53,19 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
           </div>
           
           <div className="grid-3">
+            {/* TARJETA 1 (T1) */}
             <div className="card">
-              <span className="section-tag">{data?.proposal?.card_1?.tag || "01"}</span>
               <h3>{data?.proposal?.card_1?.title}</h3>
               <p>{data?.proposal?.card_1?.desc}</p>
-
-              <ul className="service-list">
-                {data?.proposal?.card_1?.list?.map((item: string, index: number) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-
-              <span className="card-link">{data?.proposal?.card_1?.link}</span>
             </div>
+
+            {/* TARJETA 2 (T2) */}
             <div className="card">
               <h3>{data?.proposal?.card_2?.title}</h3>
               <p>{data?.proposal?.card_2?.desc}</p>
             </div>
+
+            {/* TARJETA 3 (T3) */}
             <div className="card">
               <h3>{data?.proposal?.card_3?.title}</h3>
               <p>{data?.proposal?.card_3?.desc}</p>
