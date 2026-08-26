@@ -445,8 +445,9 @@
         "link": "VIEW DETAILS →"
       },
       "card_3": {
-        "title": "Family Law",
-        "desc": "Specialized litigation in cases of international child abduction and execution of transnational child support obligations with a humane approach.",
+        "tag": "03",
+        "title": "Cross-Border Contracts & Transactions",
+        "desc": "Strategic legal advisory in contract structuring, negotiation, and risk mitigation connected to Venezuela. Cross-border governing law, jurisdictional analysis, and dispute resolution mechanisms.",
         "link": "VIEW DETAILS →"
       },
       "card_4": {
@@ -1363,6 +1364,38 @@
         "p2": "We evaluate document provenance, issuing body, final recipient, substantive legal objective, and applicable statutory requirements. When professionals across multiple jurisdictions participate, we ensure unified documentary architecture and cohesive legal direction.",
         "p3": "This preempts a primary risk in international practice: satisfying procedural formalities without verifying whether the underlying instrument is legally viable for its intended purpose.",
         "p4": "Our service extends far beyond transiting paperwork across borders; we deliver legal governance and strategic coordination, ensuring all documentation forms part of a coherent cross-border strategy."
+      }
+    },
+    "contratos_internacionales": {
+      "h1": "Cross-Border Contracts & International Business",
+      "subtitle": "Legal advisory for cross-border commercial operations connected to Venezuela.",
+      "intro": {
+        "p1": "Cross-border transactions require legal risk assessments that extend beyond formal contractual reviews. When a commercial relationship involves Venezuela, complex issues arise regarding applicable governing law, jurisdiction, corporate authority, obligation performance, regulatory compliance, contractual liability, and dispute resolution mechanisms.",
+        "p2": "At Mac Consultores Jurídicos & Asociados, we advise on the structuring, review, and legal analysis of contracts and business operations connected to Venezuela, whether a counterparty is located within the territory or the operation spans parties across distinct jurisdictions.",
+        "p3": "Our objective is to identify preemptively the legal risks introduced by the cross-border dimension of the deal and structure contractual safeguards to effectively mitigate them."
+      },
+      "when_we_intervene": {
+        "title": "When we intervene",
+        "items": [
+          "Substantive legal review and risk analysis of domestic and international contracts.",
+          "Cross-border commercial agreements between parties across multiple jurisdictions.",
+          "Governing law, conflicts of laws, and jurisdictional clause assessments.",
+          "Evaluation and drafting of dispute resolution and international arbitration mechanisms.",
+          "Strategic contractual structuring, risk allocation, and negotiation.",
+          "Commercial agreements, services, agency, distribution, and corporate joint ventures.",
+          "Assessment of obligations to be performed wholly or partially within Venezuelan territory.",
+          "Identification of corporate representation and regulatory compliance contingencies.",
+          "Legal evaluation of transactions involving assets, entities, or interests in Venezuela.",
+          "Cross-border coordination with foreign counsel and international legal advisors."
+        ]
+      },
+      "approach": {
+        "title": "Our approach",
+        "p1": "We approach contracts as instruments for strategic risk distribution, obligation assignment, liability management, and substantive legal safeguards.",
+        "p2": "Thus, our analysis extends beyond mere drafting correctness. We evaluate how the agreement will perform in practice: who is bound, where obligations must be discharged, which statutory frameworks govern, consequences of default, and enforceable remedies available to protect our clients' rights.",
+        "p3": "Where multiple jurisdictions intersect, we rigorously examine the interface between international contractual architecture and Venezuelan statutory compliance.",
+        "p4": "This strategic perspective is vital for corporations, foreign investors, professionals, and individuals conducting commercial operations in Venezuela from abroad.",
+        "p5": "Early legal intervention identifies contingencies before they escalate into disputes, securing a clear and protected legal position during contract negotiation and execution."
       }
     }
   }

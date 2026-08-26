@@ -445,8 +445,9 @@
         "link": "VER DETALLES →"
       },
       "card_3": {
-        "title": "Derecho de Familia",
-        "desc": "Litigio especializado en casos de sustracción internacional de menores y ejecución de obligaciones alimentarias transnacionales con enfoque humano.",
+        "tag": "03",
+        "title": "Contratos y Negocios Internacionales",
+        "desc": "Asesoría jurídica estratégica en estructuración, negociación y análisis de contratos con conexión en Venezuela. Gestión preventiva de riesgos transfronterizos, ley aplicable y mecanismos de resolución de controversias.",
         "link": "VER DETALLES →"
       },
       "card_4": {
@@ -1363,6 +1364,38 @@
         "p2": "Analizamos la naturaleza del documento, su origen, la autoridad emisora, el destinatario, la finalidad jurídica y las formalidades que eventualmente deban cumplirse. Cuando existe intervención de profesionales de distintas jurisdicciones, procuramos que todos trabajen sobre una misma estructura documental y una finalidad jurídica común.",
         "p3": "Esto permite evitar uno de los principales problemas de la gestión internacional: cumplir formalidades documentales sin haber determinado previamente si el documento es jurídicamente idóneo para el propósito perseguido.",
         "p4": "Nuestro servicio no consiste simplemente en trasladar documentos de una jurisdicción a otra. Consiste en proporcionar criterio jurídico sobre su utilización y coordinación, procurando que la documentación forme parte de una estrategia jurídica previamente definida."
+      }
+    },
+    "contratos_internacionales": {
+      "h1": "Contratos y Negocios Internacionales",
+      "subtitle": "Asesoría jurídica para operaciones con conexión con Venezuela.",
+      "intro": {
+        "p1": "Las operaciones internacionales requieren una evaluación jurídica que vaya más allá de la revisión formal del contrato. Cuando una relación comercial involucra a Venezuela, pueden surgir cuestiones relacionadas con ley aplicable, jurisdicción, representación, ejecución de obligaciones, cumplimiento regulatorio, responsabilidad contractual y mecanismos para gestionar eventuales controversias.",
+        "p2": "En Mac Consultores Jurídicos & Asociados asesoramos en la estructuración, revisión y análisis jurídico de contratos y operaciones que presentan una conexión con Venezuela, tanto cuando la contraparte se encuentra dentro del país como cuando la operación se desarrolla entre partes situadas en diferentes jurisdicciones.",
+        "p3": "Nuestro objetivo es identificar desde el inicio qué riesgos jurídicos introduce la dimensión transfronteriza de la operación y cómo pueden ser gestionados contractualmente."
+      },
+      "when_we_intervene": {
+        "title": "Cuándo intervenimos",
+        "items": [
+          "Revisión y análisis jurídico de contratos nacionales e internacionales.",
+          "Contratos entre partes situadas en distintas jurisdicciones.",
+          "Análisis de ley aplicable y jurisdicción.",
+          "Evaluación de mecanismos de solución de controversias.",
+          "Estructuración y negociación contractual.",
+          "Contratos comerciales, de servicios, representación, distribución y colaboración empresarial.",
+          "Evaluación de obligaciones que deban ejecutarse total o parcialmente en Venezuela.",
+          "Identificación de riesgos vinculados con representación y cumplimiento.",
+          "Análisis jurídico de operaciones con activos, empresas o intereses situados en Venezuela.",
+          "Coordinación con abogados y asesores jurídicos de otras jurisdicciones."
+        ]
+      },
+      "approach": {
+        "title": "Nuestro enfoque",
+        "p1": "Consideramos el contrato como un instrumento de distribución de riesgos, obligaciones, responsabilidades y mecanismos de protección jurídica.",
+        "p2": "Por ello, no limitamos nuestro análisis a determinar si una cláusula está correctamente redactada. Evaluamos cómo funcionará el contrato en la realidad: quién queda obligado, dónde debe cumplirse la obligación, qué legislación puede resultar relevante, qué sucede ante un incumplimiento y cuáles son las herramientas disponibles para hacer valer los derechos derivados de la relación.",
+        "p3": "Cuando intervienen varias jurisdicciones, examinamos además la interacción entre la estructura contractual internacional y el componente jurídico venezolano.",
+        "p4": "Esta perspectiva resulta particularmente relevante para empresas, inversionistas, profesionales y personas que mantienen relaciones comerciales con Venezuela desde el exterior.",
+        "p5": "La intervención temprana permite identificar contingencias antes de que se conviertan en controversias y proporciona al cliente una posición jurídica más clara al momento de negociar, contratar o ejecutar la operación."
       }
     }
   }

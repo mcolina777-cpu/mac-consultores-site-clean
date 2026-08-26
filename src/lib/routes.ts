@@ -25,7 +25,8 @@ export type RouteKey =
   | "resources.defense_documentation"
   | "resources.international_legal_services"
   | "consular.practica_consular"
-  | "consular.gestion_documental";
+  | "consular.gestion_documental"
+  | "consular.contratos_internacionales";
 
 const routes: Record<AppLocale, Record<RouteKey, string>> = {
   es: {
@@ -54,6 +55,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "resources.international_legal_services": "/es/resources/international-legal-services",
     "consular.practica_consular": "/es/services/consular/practica-consular",
     "consular.gestion_documental": "/es/services/consular/gestion-documental",
+    "consular.contratos_internacionales": "/es/services/consular/contratos-internacionales",
   },
   en: {
     home: "/en",
@@ -81,6 +83,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "resources.international_legal_services": "/en/resources/international-legal-services",
     "consular.practica_consular": "/en/services/consular/consular-practice",
     "consular.gestion_documental": "/en/services/consular/document-management",
+    "consular.contratos_internacionales": "/en/services/consular/international-contracts",
   },
 };
 
