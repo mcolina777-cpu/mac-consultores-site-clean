@@ -490,23 +490,21 @@
       "title": "Soporte Local para Firmas Globales",
       "card_1": {
         "tag": "01",
-        "title": "PRÁCTICA CONSULAR",
-        "desc": "Los asuntos consulares vinculados con Venezuela pueden trascender la simple gestión documental. En determinados casos, una actuación consular constituye el punto de partida para producir consecuencias jurídicas y patrimoniales en el país.",
-        "list": [
-          "Asesoría jurídica previa a actuaciones consulares.",
-          "Adecuación de documentos para efectos en Venezuela.",
-          "Estructuración de poderes, mandatos y declaraciones.",
-          "Alcance de facultades conferidas al representante."
-        ],
+        "title": "Práctica Consular",
+        "desc": "Asesoría y representación jurídica previa a actuaciones consulares. Estructuración estratégica de poderes, mandatos y adecuación de documentos para personas y empresas fuera del país que requieren producir efectos legales y patrimoniales válidos en territorio venezolano.",
         "link": "SOLICITAR ASESORÍA →"
       },
       "card_2": {
+        "tag": "02",
         "title": "Due Diligence Legal",
-        "desc": "Análisis exhaustivo de riesgos y auditorías legales en jurisdicción venezolana para fusiones, adquisiciones o proyectos de inversión."
+        "desc": "Auditorías de riesgo corporativo, verificación regulatoria exhaustiva y revisión técnica de contingencias legales en jurisdicción venezolana para firmas internacionales que gestionan procesos de inversión, adquisiciones estratégicas o alianzas comerciales de alto nivel.",
+        "link": ""
       },
       "card_3": {
+        "tag": "03",
         "title": "Opiniones Legales",
-        "desc": "Emisión de dictámenes técnicos y legal opinions sobre normativa venezolana para ser utilizados en procedimientos extranjeros."
+        "desc": "Emisión de dictámenes técnicos e informes jurídicos especializados fundados en la normativa venezolana vigente, estructurados para respaldar la toma de decisiones corporativas y fundamentar posiciones procesales ante tribunales u organismos en el extranjero.",
+        "link": ""
       }
     },
     "contactBox": {

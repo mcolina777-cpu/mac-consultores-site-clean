@@ -490,23 +490,21 @@
       "title": "Local Support for Global Firms",
       "card_1": {
         "tag": "01",
-        "title": "CONSULAR PRACTICE",
-        "desc": "Consular matters related to Venezuela often transcend simple document processing. In specific cases, a consular act serves as the baseline to produce subsequent legal and estate consequences in the country.",
-        "list": [
-          "Prior legal advisory before consular proceedings.",
-          "Adapting documents for legal effects in Venezuela.",
-          "Structuring powers of attorney and affidavits.",
-          "Determining the legal scope for representatives."
-        ],
+        "title": "Consular Practice",
+        "desc": "Strategic legal advisory and representation prior to consular proceedings. Structuring powers of attorney, mandates, and adapting documents for cross-border entities and individuals requiring valid legal and estate effects within Venezuelan territory.",
         "link": "REQUEST ADVISORY →"
       },
       "card_2": {
+        "tag": "02",
         "title": "Legal Due Diligence",
-        "desc": "Exhaustive risk analysis and legal audits in the Venezuelan jurisdiction for mergers, acquisitions, or investment projects."
+        "desc": "Corporate risk audits, comprehensive regulatory compliance, and legal contingency reviews under Venezuelan jurisdiction for global firms managing cross-border foreign investments, strategic acquisitions, or high-level partnerships.",
+        "link": ""
       },
       "card_3": {
+        "tag": "03",
         "title": "Legal Opinions",
-        "desc": "Issuance of technical reports and legal opinions on Venezuelan regulations to be used in foreign proceedings."
+        "desc": "Issuance of specialized expert reports and legal opinions anchored in Venezuelan statutory framework, crafted to guide corporate decision-making and substantiate procedural arguments before foreign arbitral panels or foreign courts.",
+        "link": ""
       }
     },
     "contactBox": {
