@@ -1,7 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
 import { getDictionary } from "@/i18n/getDictionary";
-import { getRoute } from "@/lib/routes";
+import B2BContactBox from "@/components/B2BContactBox";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -10,8 +9,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ? 'Práctica Consular | Mac Consultores'
     : 'Consular Practice | Mac Consultores';
   const description = isEs
-    ? 'Apoderamiento legal y representación ante autoridades consulares y migratorias.'
-    : 'Legal empowerment and representation before consular and migration authorities.';
+    ? 'Asesoría jurídica y representación en gestiones consulares con efectos en Venezuela.'
+    : 'Legal advisory and representation in consular proceedings with effects in Venezuela.';
 
   return {
     title,
@@ -22,48 +21,46 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function ConsularPracticePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  const data = dict?.consular?.practica_consular;
 
   return (
     <main className="page-consular-detail">
-      <header className="page-header">
+      <header className="page-header header-soft-bg">
         <div className="container">
-          <span className="breadcrumb">
-            {dict?.tramites_consulares?.breadcrumb} / Consular Practice
-          </span>
-          <h1>{dict?.consular?.practica_consular?.page_title}</h1>
-          <p className="subtitle">{dict?.consular?.practica_consular?.page_subtitle}</p>
+          <span className="section-tag">{data?.tag}</span>
+          <h1 className="mb-1-5rem serif">{data?.h1}</h1>
         </div>
       </header>
 
-      <section className="intro-section">
+      <section className="section-padding-asym">
         <div className="container">
-          <p className="text-left max-w-100 mb-0">
-            {dict?.consular?.practica_consular?.intro}
-          </p>
+          {/* Intro Section */}
+          <div className="mb-3rem">
+            <p className="text-left max-w-100 mb-1rem">{data?.intro?.p1}</p>
+            <p className="text-left max-w-100 mb-1rem">{data?.intro?.p2}</p>
+            <p className="text-left max-w-100 mb-2rem">{data?.intro?.p3}</p>
+          </div>
 
-          {dict?.consular?.practica_consular?.sections?.map((section: any, index: number) => (
-            <div key={index} className="content-section">
-              <h2 className="serif section-title">{section.title}</h2>
-              {section.list && (
-                <ul className="service-list">
-                  {section.list.map((item: string, i: number) => (
-                    <li key={i}>{item}</li>
-                  ))}
-                </ul>
-              )}
-              {section.content && <p>{section.content}</p>}
-            </div>
-          ))}
-        </div>
-      </section>
+          {/* When we intervene */}
+          <div className="content-section mb-3rem">
+            <h2 className="serif section-title mb-1-5rem">{data?.when_we_intervene?.title}</h2>
+            <ul className="service-list">
+              {data?.when_we_intervene?.items?.map((item: string, i: number) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
+          </div>
 
-      <section className="bg-soft">
-        <div className="container">
-          <h2 className="serif section-title">Do you require legal assistance?</h2>
-          <p className="section-desc">Our team is prepared to analyze your case.</p>
-          <Link href={getRoute(locale, "contact")} className="btn btn-primary">
-            START ADMISSION PROCESS
-          </Link>
+          {/* Our approach */}
+          <div className="content-section mb-4rem">
+            <h2 className="serif section-title mb-1-5rem">{data?.approach?.title}</h2>
+            <p className="mb-1rem">{data?.approach?.p1}</p>
+            <p className="mb-1rem">{data?.approach?.p2}</p>
+            <p className="mb-1rem">{data?.approach?.p3}</p>
+            <p className="mb-1rem">{data?.approach?.p4}</p>
+          </div>
+
+          <B2BContactBox data={dict?.colaboracion_internacional?.contactBox} locale={locale} />
         </div>
       </section>
     </main>

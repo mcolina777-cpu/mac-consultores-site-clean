@@ -433,8 +433,9 @@
       "tag": "Areas of Support",
       "title": "Specialized Services for Abroad",
       "card_1": {
+        "tag": "01",
         "title": "Consular Practice",
-        "desc": "Strategic legal advisory and representation prior to consular proceedings. Structuring powers of attorney, mandates, and adapting documents for cross-border entities and individuals requiring valid legal and estate effects within Venezuelan territory.",
+        "desc": "Legal advisory and representation in consular proceedings. Strategic structuring of powers of attorney, mandates, and document compliance for full legal and estate validity in Venezuela.",
         "link": "VIEW DETAILS →"
       },
       "card_2": {
@@ -1306,36 +1307,33 @@
   },
   "consular": {
     "practica_consular": {
-      "card_title": "Consular Practice",
-      "card_desc": "Legal advice and representation related to consular proceedings and documentation with legal effects in Venezuela.",
-      "card_link": "VIEW DETAILS →",
-      "card_list": [
-        "Legal advice prior to consular proceedings.",
-        "Preparation and review of documents with legal effects in Venezuela.",
-        "Structuring of powers of attorney, mandates, and authorizations.",
-        "Coordination with consular authorities and local representatives.",
-        "Actions regarding asset and corporate interests."
-      ],
-      "page_title": "Consular Practice",
-      "page_subtitle": "Legal advice and representation related to consular proceedings.",
-      "intro": "Consular matters related to Venezuela may involve powers of attorney, representation, documentation with legal effects, and proceedings that require coordination between the client and various institutional actors. At Mac Consultores Jurídicos & Asociados, we provide advice on the structuring and execution of legal actions linked to Venezuela, ensuring that each management responds to a specific purpose and a previously defined strategy.",
-      "sections": [
-        {
-          "title": "When we intervene",
-          "list": [
-            "Legal advice prior to consular proceedings.",
-            "Preparation and review of documents with legal effects in Venezuela.",
-            "Structuring of powers of attorney, mandates, and authorizations.",
-            "Coordination with consular authorities and representatives in Venezuela.",
-            "Actions regarding asset, corporate, or legal interests.",
-            "Legal coordination of matters with international elements."
-          ]
-        },
-        {
-          "title": "Our approach",
-          "content": "Consular action is not approached as an isolated procedure. We start from the legal objective that the client needs to achieve and determine the documentary and representative structure necessary to make it viable."
-        }
-      ]
+      "tag": "01 — CONSULAR PRACTICE",
+      "h1": "Legal advisory and representation related to consular proceedings",
+      "intro": {
+        "p1": "Consular matters related to Venezuela often transcend simple document processing. In specific cases, an act carried out before a consular representation serves as the starting point to produce subsequent legal consequences in Venezuela, particularly when dealing with powers of attorney, mandates, authorizations, affidavits, estate documents, or instruments intended for use before Venezuelan authorities.",
+        "p2": "At Mac Consultores Jurídicos & Asociados, we approach these situations from a comprehensive legal perspective. Prior to initiating any procedure, we identify the specific purpose the client needs to achieve, determine the legally appropriate action, and structure the required documentation to ensure the act effectively fulfills its intended purpose.",
+        "p3": "Our intervention is specifically aimed at individuals, corporations, and stakeholders with interests in Venezuela who are abroad and need to execute legal actions without physical relocation, as well as foreign counsel or law firms requiring local legal coordination."
+      },
+      "when_we_intervene": {
+        "title": "When we intervene",
+        "items": [
+          "Prior legal advisory before proceedings before consular representations.",
+          "Preparation, review, and adaptation of documents intended to produce legal effects in Venezuela.",
+          "Structuring powers of attorney, mandates, authorizations, and affidavits.",
+          "Determining the precise scope of authority to be conferred upon the representative.",
+          "Legal coordination between the principal located abroad and the attorney-in-fact in Venezuela.",
+          "Proceedings involving real estate, assets, corporate shares, obligations, or estate interests.",
+          "Liaison with attorneys, notaries, representatives, and other professionals involved in the transaction.",
+          "Analysis of matters presenting concurrent Venezuelan and cross-border legal elements."
+        ]
+      },
+      "approach": {
+        "title": "Our approach",
+        "p1": "We do not view consular proceedings as isolated paperwork. The central question is what legal effect the client needs to produce and which instrument is legally fit to accomplish it.",
+        "p2": "Therefore, we examine in advance the purpose of the act, the legal capacity of both principal and representative, the required scope of powers, and the specific authority before which the document will ultimately be produced.",
+        "p3": "This methodology significantly mitigates common risks: insufficient powers, overly broad or ambiguous authorities, documents incompatible with their intended purpose, or acts executed without considering the subsequent legal stage in Venezuela.",
+        "p4": "Our role consists in bridging the action executed abroad with its effective legal purpose in Venezuela, coordinating all components of the operation under coherent legal direction."
+      }
     }
   }
 }
