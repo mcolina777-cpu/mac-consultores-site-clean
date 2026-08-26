@@ -439,8 +439,9 @@
         "link": "VER DETALLES →"
       },
       "card_2": {
-        "title": "Gestión Documental",
-        "desc": "Legalización internacional, Apostilla de La Haya y validación de documentos públicos con eficacia garantizada y rigor técnico procesal.",
+        "tag": "02",
+        "title": "Gestión Jurídico-Documental",
+        "desc": "Asesoría y coordinación jurídico-documental internacional. Validación de eficacia, legalización, Apostilla de La Haya y estructuración de documentos públicos o privados destinados a producir plenos efectos en Venezuela y otras jurisdicciones.",
         "link": "VER DETALLES →"
       },
       "card_3": {
@@ -1332,6 +1333,36 @@
         "p2": "Por ello, examinamos previamente la finalidad de la actuación, la condición jurídica del otorgante y del representante, el alcance de las facultades requeridas y la autoridad ante la cual posteriormente deberá utilizarse el documento.",
         "p3": "Esta metodología permite reducir errores frecuentes: poderes insuficientes, facultades excesivamente amplias o imprecisas, documentos incompatibles con la finalidad perseguida o actuaciones realizadas sin considerar la etapa jurídica posterior.",
         "p4": "Nuestra función consiste en conectar la actuación realizada en el exterior con su finalidad jurídica efectiva en Venezuela, coordinando los distintos componentes de la operación bajo una dirección jurídica coherente."
+      }
+    },
+    "gestion_documental": {
+      "h1": "Gestión Jurídico-Documental Internacional",
+      "subtitle": "Documentación con efectos jurídicos en Venezuela y otras jurisdicciones.",
+      "intro": {
+        "p1": "La circulación internacional de documentos no puede reducirse a la obtención de una apostilla o a una legalización. La verdadera cuestión jurídica consiste en determinar qué documento se necesita, cuál es su finalidad, quién debe recibirlo, qué formalidades requiere y qué efecto se pretende obtener mediante su utilización.",
+        "p2": "Un documento perfectamente válido en el país donde fue emitido puede resultar insuficiente para producir determinados efectos en otra jurisdicción si no se cumplen las formalidades exigidas por la legislación aplicable o por la autoridad receptora.",
+        "p3": "En Mac Consultores Jurídicos & Asociados prestamos asesoría y coordinación jurídico-documental para asuntos que conectan Venezuela con otras jurisdicciones. Nuestro trabajo comienza con la identificación de la finalidad jurídica del documento y continúa con la determinación de la ruta documental necesaria para su utilización."
+      },
+      "when_we_intervene": {
+        "title": "Cuándo intervenimos",
+        "items": [
+          "Análisis de documentos públicos y privados destinados a producir efectos internacionales.",
+          "Apostilla y legalización, según corresponda a la naturaleza y finalidad del documento.",
+          "Revisión de requisitos de validez, autenticidad y eficacia.",
+          "Documentación destinada a tribunales, registros, notarías y autoridades administrativas.",
+          "Documentos venezolanos destinados a producir efectos en otras jurisdicciones.",
+          "Documentación extranjera destinada a producir efectos jurídicos en Venezuela.",
+          "Revisión de documentos relacionados con representación, patrimonio, sociedades y operaciones comerciales.",
+          "Coordinación jurídica con notarios, traductores, abogados y profesionales de otras jurisdicciones.",
+          "Identificación preventiva de inconsistencias documentales que puedan impedir o retrasar la utilización del instrumento."
+        ]
+      },
+      "approach": {
+        "title": "Nuestro enfoque",
+        "p1": "Toda gestión comienza con una pregunta esencial: ¿Qué efecto jurídico debe producir el documento y ante qué autoridad será utilizado? La respuesta determina la ruta que debe seguirse.",
+        "p2": "Analizamos la naturaleza del documento, su origen, la autoridad emisora, el destinatario, la finalidad jurídica y las formalidades que eventualmente deban cumplirse. Cuando existe intervención de profesionales de distintas jurisdicciones, procuramos que todos trabajen sobre una misma estructura documental y una finalidad jurídica común.",
+        "p3": "Esto permite evitar uno de los principales problemas de la gestión internacional: cumplir formalidades documentales sin haber determinado previamente si el documento es jurídicamente idóneo para el propósito perseguido.",
+        "p4": "Nuestro servicio no consiste simplemente en trasladar documentos de una jurisdicción a otra. Consiste en proporcionar criterio jurídico sobre su utilización y coordinación, procurando que la documentación forme parte de una estrategia jurídica previamente definida."
       }
     }
   }

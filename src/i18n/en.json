@@ -439,8 +439,9 @@
         "link": "VIEW DETAILS →"
       },
       "card_2": {
-        "title": "Document Management",
-        "desc": "International legalization, Hague Apostille, and validation of public documents with guaranteed efficacy and procedural technical rigor.",
+        "tag": "02",
+        "title": "Legal-Documentary Management",
+        "desc": "International legal and documentary coordination. Efficacy validation, legalization, Hague Apostille, and structuring of public or private instruments intended to produce full legal validity in Venezuela and other jurisdictions.",
         "link": "VIEW DETAILS →"
       },
       "card_3": {
@@ -1332,6 +1333,36 @@
         "p2": "Therefore, we examine in advance the purpose of the act, the legal capacity of both principal and representative, the required scope of powers, and the specific authority before which the document will ultimately be produced.",
         "p3": "This methodology significantly mitigates common risks: insufficient powers, overly broad or ambiguous authorities, documents incompatible with their intended purpose, or acts executed without considering the subsequent legal stage in Venezuela.",
         "p4": "Our role consists in bridging the action executed abroad with its effective legal purpose in Venezuela, coordinating all components of the operation under coherent legal direction."
+      }
+    },
+    "gestion_documental": {
+      "h1": "Cross-Border Legal & Documentary Management",
+      "subtitle": "Documentation with full legal validity in Venezuela and international jurisdictions.",
+      "intro": {
+        "p1": "The cross-border circulation of legal instruments cannot be simplified to merely securing an apostille or consular legalization. The fundamental legal question lies in determining which instrument is needed, its statutory purpose, the recipient authority, mandatory formalities, and the exact legal outcome pursued through its execution.",
+        "p2": "A document fully valid in the issuing country may prove legally insufficient in another jurisdiction if statutory formalities mandated by governing laws or receiving administrative bodies are not rigorously satisfied.",
+        "p3": "At Mac Consultores Jurídicos & Asociados, we provide cross-border legal and documentary coordination for matters linking Venezuela with global jurisdictions. Our mandate begins by identifying the core legal purpose and determining the precise compliance roadmap required for enforceability."
+      },
+      "when_we_intervene": {
+        "title": "When we intervene",
+        "items": [
+          "Legal assessment of public and private deeds intended for international enforcement.",
+          "Apostille and consular authentication aligned with instrument nature and judicial destination.",
+          "Statutory verification of formal validity, authenticity, and legal enforceability.",
+          "Documentation destined for judicial courts, public registries, notaries, and administrative authorities.",
+          "Venezuelan legal instruments intended to produce binding effects in foreign jurisdictions.",
+          "Foreign legal documentation structured to take full legal effect in Venezuela.",
+          "Legal review of deeds governing corporate authority, assets, shares, and commercial transactions.",
+          "Cross-border legal liaison with notaries, sworn translators, barristers, and international counsel.",
+          "Preemptive identification of documentary discrepancies preventing procedural delays."
+        ]
+      },
+      "approach": {
+        "title": "Our approach",
+        "p1": "Every matter begins with a core question: What legal effect must the instrument produce, and before which governing authority will it be filed? The answer defines the procedural path.",
+        "p2": "We evaluate document provenance, issuing body, final recipient, substantive legal objective, and applicable statutory requirements. When professionals across multiple jurisdictions participate, we ensure unified documentary architecture and cohesive legal direction.",
+        "p3": "This preempts a primary risk in international practice: satisfying procedural formalities without verifying whether the underlying instrument is legally viable for its intended purpose.",
+        "p4": "Our service extends far beyond transiting paperwork across borders; we deliver legal governance and strategic coordination, ensuring all documentation forms part of a coherent cross-border strategy."
       }
     }
   }
