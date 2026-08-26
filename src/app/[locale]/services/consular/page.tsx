@@ -80,12 +80,12 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
               <p >{dict?.tramites_consulares?.support?.card_5?.desc}</p>
               <span className="card-link">{dict?.tramites_consulares?.support?.card_5?.link || "VER DETALLES →"}</span>
             </Link>
-            <div className="card">
-              <span className="section-tag">06</span>
+            <Link href={getRoute(locale, "consular.poderes_y_mandatos")} className="card block-link">
+              <span className="section-tag">{dict?.tramites_consulares?.support?.card_6?.tag || "06"}</span>
               <h3 >{dict?.tramites_consulares?.support?.card_6?.title}</h3>
               <p >{dict?.tramites_consulares?.support?.card_6?.desc}</p>
-              <Link href="#poderes-estrategicos" className="card-link" >{dict?.tramites_consulares?.support?.card_6?.link}</Link>
-            </div>
+              <span className="card-link">{dict?.tramites_consulares?.support?.card_6?.link || "VER DETALLES →"}</span>
+            </Link>
           </div>
         </div>
       </section>

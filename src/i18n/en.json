@@ -463,8 +463,9 @@
         "link": "VIEW DETAILS →"
       },
       "card_6": {
+        "tag": "06",
         "title": "Strategic Powers of Attorney",
-        "desc": "Advisory and drafting of mandates and special powers of attorney to ensure your asset and legal interests in Venezuela are always shielded.",
+        "desc": "Strategic drafting, scope delimitation, and review of cross-border powers of attorney for Venezuela. Precision across asset, judicial, and corporate authorities with rigorous validity and grantor control.",
         "link": "VIEW DETAILS →"
       }
     },
@@ -1463,6 +1464,38 @@
         "p4": "When representing clients based abroad, we integrate a critical dimension: seamless remote legal coordination.",
         "p5": "Clients remain fully informed on case developments, distinguishing decisions requiring executive sign-off from local tactical steps. We serve as the vital bridge, delivering effective legal execution in Venezuela.",
         "p6": "Judicial representation is thus delivered as a high-level strategic service, never a routine mechanical filing."
+      }
+    },
+    "poderes_y_mandatos": {
+      "h1": "Strategic Powers of Attorney & Mandates",
+      "subtitle": "Structuring of legal authority for representing interests in Venezuela.",
+      "intro": {
+        "p1": "For individuals located outside Venezuela, granting a power of attorney is an essential instrument for managing real estate, assets, judicial proceedings, corporate governance, and administrative matters within the country.",
+        "p2": "However, a power of attorney should never be treated as a routine formal template. Its practical efficacy requires that the conferred authorities are legally sufficient, precisely delimited, and strictly aligned with the underlying mandate.",
+        "p3": "At Mac Consultores Jurídicos & Asociados, we advise on the strategic drafting, scope structuring, and legal review of powers of attorney and mandates to safeguard personal, corporate, asset, and administrative interests in Venezuela."
+      },
+      "when_we_intervene": {
+        "title": "When we intervene",
+        "items": [
+          "Determination of precise legal authorities required for specific transactions or actions.",
+          "Drafting and review of special, limited, and general powers of attorney.",
+          "Structuring representation authorities for litigation and judicial proceedings.",
+          "Conferral of powers concerning real estate, movable property, and estate assets.",
+          "Authority structuring for shareholder meetings, corporate governance, and commercial acts.",
+          "Administrative authorities before public agencies, ministries, and regulatory bodies.",
+          "Cross-border coordination of instruments executed before foreign notaries and consulates.",
+          "Substantive review and amendment of preexisting powers of attorney.",
+          "Identification and correction of ambiguous, insufficient, or overly broad authorities.",
+          "Coordination with consulates, notaries public, and legal counsel across jurisdictions."
+        ]
+      },
+      "approach": {
+        "title": "Our approach",
+        "p1": "The core question is never simply 'which template is needed?', but rather: What specific action must the agent execute, and what exact legal authority is required to accomplish it?",
+        "p2": "Starting from that principle, we evaluate the substantive purpose of the mandate and structure only the necessary authorities.",
+        "p3": "An overly generic document often fails before Venezuelan institutions; an overly broad one creates significant asset risks for the principal. Rigorous structuring requires balance among legal sufficiency, statutory precision, and grantor control.",
+        "p4": "When executed abroad, we ensure full alignment between foreign notarial or consular formalities and local Venezuelan registry requirements.",
+        "p5": "Our goal is to ensure the power of attorney is not merely formally valid, but a functional legal tool that empowers the agent to act decisively in Venezuela within the principal's explicit mandate."
       }
     }
   }

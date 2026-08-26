@@ -463,8 +463,9 @@
         "link": "VER DETALLES →"
       },
       "card_6": {
-        "title": "Poderes Estratégicos",
-        "desc": "Asesoría y redacción de mandatos y facultades especiales para que sus intereses patrimoniales y legales en Venezuela estén siempre blindados.",
+        "tag": "06",
+        "title": "Poderes y Mandatos Estratégicos",
+        "desc": "Estructuración, delimitación y revisión jurídica de poderes y mandatos transfronterizos para actuar en Venezuela. Precisión en facultades patrimoniales, judiciales y corporativas con plena validez y control.",
         "link": "VER DETALLES →"
       }
     },
@@ -1463,6 +1464,38 @@
         "p4": "Cuando el cliente se encuentra en el extranjero, añadimos un componente esencial: la coordinación jurídica a distancia.",
         "p5": "El cliente debe conocer qué está ocurriendo, qué decisiones requieren su intervención y cuáles corresponden a la dirección jurídica local. Nuestra función consiste en establecer ese puente y proporcionar capacidad efectiva de actuación en Venezuela.",
         "p6": "La representación judicial se concibe así como un servicio estratégico, no meramente operativo."
+      }
+    },
+    "poderes_y_mandatos": {
+      "h1": "Poderes y Mandatos Estratégicos",
+      "subtitle": "Estructuración de facultades para la representación de intereses en Venezuela.",
+      "intro": {
+        "p1": "Para una persona que se encuentra fuera de Venezuela, otorgar un poder puede ser una herramienta indispensable para gestionar bienes, derechos, asuntos judiciales, relaciones corporativas o actuaciones administrativas dentro del país.",
+        "p2": "Sin embargo, un poder no debe ser tratado como un documento meramente formal. Su verdadera utilidad depende de que las facultades conferidas sean jurídicamente suficientes, adecuadamente delimitadas y coherentes con la finalidad para la cual se otorgan.",
+        "p3": "En Mac Consultores Jurídicos & Asociados asesoramos en la estructuración y revisión de poderes y mandatos destinados a facilitar la gestión de intereses jurídicos, patrimoniales, corporativos y administrativos en Venezuela."
+      },
+      "when_we_intervene": {
+        "title": "Cuándo intervenimos",
+        "items": [
+          "Determinación de las facultades necesarias para una actuación específica.",
+          "Redacción y revisión de poderes especiales y mandatos.",
+          "Estructuración de facultades para actuaciones judiciales.",
+          "Facultades relacionadas con bienes y derechos patrimoniales.",
+          "Facultades para actuaciones corporativas y societarias.",
+          "Facultades para gestiones administrativas.",
+          "Coordinación de poderes otorgados desde el extranjero.",
+          "Revisión y adecuación de poderes previamente otorgados.",
+          "Identificación de facultades insuficientes, ambiguas o innecesarias.",
+          "Coordinación con consulados, notarías, abogados y profesionales de otras jurisdicciones."
+        ]
+      },
+      "approach": {
+        "title": "Nuestro enfoque",
+        "p1": "La pregunta no es simplemente “¿qué poder necesita?”, sino: ¿Qué necesita hacer el representante y qué facultades requiere realmente para hacerlo?",
+        "p2": "A partir de esa premisa analizamos la finalidad concreta del mandato y determinamos las facultades que deben ser conferidas.",
+        "p3": "Un instrumento excesivamente genérico puede resultar insuficiente para determinadas actuaciones; uno excesivamente amplio puede conferir facultades que el otorgante no desea conceder. La correcta estructuración exige, por tanto, equilibrio entre suficiencia, precisión y control.",
+        "p4": "Cuando el poder es otorgado desde el extranjero, además, debe considerarse la interacción entre las formalidades de otorgamiento y su posterior utilización en Venezuela. Por ello, coordinamos el componente documental con la finalidad jurídica del instrumento.",
+        "p5": "Nuestro objetivo es que el poder no sea simplemente un documento formalmente válido, sino una herramienta jurídica funcional, diseñada para permitir al representante ejecutar las actuaciones que realmente necesita realizar en Venezuela dentro del alcance autorizado por el otorgante."
       }
     }
   }
