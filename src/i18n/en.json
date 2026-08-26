@@ -457,8 +457,9 @@
         "link": "VIEW DETAILS →"
       },
       "card_5": {
-        "title": "Judicial Representation",
-        "desc": "High-end technical defense in criminal, civil, or administrative proceedings in Venezuelan territory, without requiring physical presence.",
+        "tag": "05",
+        "title": "Litigation & Court Representation",
+        "desc": "Strategic legal representation and defense in Venezuelan courts for non-resident clients. Comprehensive procedural management, asset protection, documentary control, and ongoing cross-border legal coordination.",
         "link": "VIEW DETAILS →"
       },
       "card_6": {
@@ -1429,6 +1430,39 @@
         "p3": "We analyze the operational reality of the transaction, identify all participating entities, define their enforceable obligations, and evaluate applicable regulatory requirements.",
         "p4": "Our mandate focuses on preventative legal risk management rather than mere reactive defense, specifically when commercial decisions trigger long-term corporate, financial, or administrative liabilities.",
         "p5": "Consequently, we equip clients with rigorous legal analysis designed for executive decision-making, offering deep Venezuelan legal expertise while coordinating effectively with international counsel."
+      }
+    },
+    "representacion_judicial": {
+      "h1": "Litigation & Judicial Representation",
+      "subtitle": "Strategic legal defense and representation in Venezuela.",
+      "intro": {
+        "p1": "For individuals or corporations located outside Venezuela, facing judicial proceedings within the country involves substantial challenges: physical distance combined with navigating a distinct procedural system, making timely strategic decisions, producing evidence, and maintaining effective local presence.",
+        "p2": "In these scenarios, court representation extends far beyond formal procedural appearances. It demands strategic legal leadership, procedural oversight, evidentiary management, and ongoing communication with clients and foreign counsel.",
+        "p3": "At Mac Consultores Jurídicos & Asociados, we represent and counsel foreign and non-resident clients whose assets, commercial operations, or corporate interests in Venezuela require assertive local legal intervention."
+      },
+      "when_we_intervene": {
+        "title": "When we intervene",
+        "items": [
+          "Judicial representation of non-resident individuals and international corporations.",
+          "Protection and defense of high-value assets, commercial, and corporate interests.",
+          "Direct procedural and trial appearances across Venezuelan courts.",
+          "Pre-litigation legal assessments prior to filing claims.",
+          "Strategic evaluation of procedural stances, contingencies, and risk scenarios.",
+          "Continuous case monitoring and comprehensive procedural leadership.",
+          "Evaluation of judicial and enforcement contingencies.",
+          "Substantive review and analysis of litigation evidence and documentation.",
+          "Seamless coordination with clients' international legal teams across jurisdictions.",
+          "Tailored litigation strategy and alternative dispute resolution management."
+        ]
+      },
+      "approach": {
+        "title": "Our approach",
+        "p1": "Procedural strategy begins well before the first court appearance.",
+        "p2": "Litigation must be rigorously examined from its factual background, available documentary evidence, substantive legal standing, actionable claims, procedural risks, and potential outcome scenarios.",
+        "p3": "Therefore, prior to designing an action plan, we analyze available records to align legal avenues with our client's core objectives. We assess whether to initiate proceedings, defend, negotiate, or pursue specific procedural remedies.",
+        "p4": "When representing clients based abroad, we integrate a critical dimension: seamless remote legal coordination.",
+        "p5": "Clients remain fully informed on case developments, distinguishing decisions requiring executive sign-off from local tactical steps. We serve as the vital bridge, delivering effective legal execution in Venezuela.",
+        "p6": "Judicial representation is thus delivered as a high-level strategic service, never a routine mechanical filing."
       }
     }
   }

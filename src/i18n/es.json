@@ -457,8 +457,9 @@
         "link": "VER DETALLES →"
       },
       "card_5": {
+        "tag": "05",
         "title": "Representación Judicial",
-        "desc": "Defensa técnica de alta gama en procesos penales, civiles o administrativos en territorio venezolano, sin requerir su traslado físico al país.",
+        "desc": "Representación y defensa jurídica estratégica en tribunales de Venezuela para clientes no residentes. Dirección procesal integral, protección patrimonial, control documental y coordinación continua a distancia.",
         "link": "VER DETALLES →"
       },
       "card_6": {
@@ -1429,6 +1430,39 @@
         "p3": "Partimos de la naturaleza concreta de la operación, identificamos los sujetos que participan, determinamos sus respectivas obligaciones y examinamos las normas y condiciones regulatorias relevantes.",
         "p4": "El propósito no es únicamente reaccionar frente a una contingencia. Nuestra práctica privilegia la identificación preventiva del riesgo jurídico, especialmente cuando una decisión empresarial puede producir consecuencias contractuales, patrimoniales, corporativas o administrativas.",
         "p5": "De esta manera, proporcionamos al cliente una evaluación jurídica orientada a la toma de decisiones, particularmente en operaciones que requieren conocimiento del entorno jurídico venezolano y coordinación con asesores de otras jurisdicciones."
+      }
+    },
+    "representacion_judicial": {
+      "h1": "Representación Judicial",
+      "subtitle": "Representación y defensa estratégica en Venezuela.",
+      "intro": {
+        "p1": "Para una persona o empresa que se encuentra fuera de Venezuela, enfrentar un procedimiento judicial dentro del país supone una dificultad adicional: la distancia física se combina con la necesidad de comprender un sistema procesal, adoptar decisiones oportunas, producir documentación y contar con capacidad efectiva de actuación local.",
+        "p2": "En estos escenarios, la representación judicial no debe entenderse como una simple comparecencia ante un tribunal. Requiere dirección jurídica, análisis estratégico, control procesal, coordinación documental y comunicación permanente con el cliente y sus asesores.",
+        "p3": "En Mac Consultores Jurídicos & Asociados representamos y asesoramos a personas y entidades cuyos intereses en Venezuela requieren una intervención jurídica local, particularmente en asuntos de relevancia patrimonial, económica, corporativa o estratégica."
+      },
+      "when_we_intervene": {
+        "title": "Cuándo intervenimos",
+        "items": [
+          "Representación judicial de personas y entidades no residentes.",
+          "Defensa de intereses patrimoniales, económicos y corporativos.",
+          "Actuaciones procesales dentro de Venezuela.",
+          "Evaluación jurídica previa a la iniciación de acciones.",
+          "Análisis de posiciones procesales y escenarios posibles.",
+          "Seguimiento y dirección jurídica de procedimientos.",
+          "Evaluación de contingencias procesales.",
+          "Revisión y análisis de documentación relacionada con el litigio.",
+          "Coordinación con abogados y asesores jurídicos del cliente en otras jurisdicciones.",
+          "Diseño de estrategias de actuación frente a controversias judiciales."
+        ]
+      },
+      "approach": {
+        "title": "Nuestro enfoque",
+        "p1": "La estrategia procesal comienza antes de la primera actuación judicial.",
+        "p2": "Un litigio debe ser analizado desde sus antecedentes fácticos, la documentación disponible, la posición jurídica del cliente, las pretensiones posibles, los riesgos procesales y los distintos escenarios que pueden derivarse de la actuación.",
+        "p3": "Por ello, antes de definir una estrategia examinamos la información disponible y determinamos cuáles son los objetivos jurídicos del cliente. A partir de allí evaluamos las alternativas procesales y la conveniencia de iniciar, continuar, contestar, negociar o adoptar determinada actuación dentro del procedimiento.",
+        "p4": "Cuando el cliente se encuentra en el extranjero, añadimos un componente esencial: la coordinación jurídica a distancia.",
+        "p5": "El cliente debe conocer qué está ocurriendo, qué decisiones requieren su intervención y cuáles corresponden a la dirección jurídica local. Nuestra función consiste en establecer ese puente y proporcionar capacidad efectiva de actuación en Venezuela.",
+        "p6": "La representación judicial se concibe así como un servicio estratégico, no meramente operativo."
       }
     }
   }
