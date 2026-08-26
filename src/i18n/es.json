@@ -451,8 +451,9 @@
         "link": "VER DETALLES →"
       },
       "card_4": {
-        "title": "Sucesiones",
-        "desc": "Resolución de conflictos hereditarios y planificación patrimonial integral con activos o herederos dispersos en distintas jurisdicciones globales.",
+        "tag": "04",
+        "title": "Materia Energética",
+        "desc": "Asesoría jurídica estratégica en contratación, regulación y estructuras corporativas para el sector energético en Venezuela. Evaluación preventiva de riesgos, relaciones con operadores y proveedores, y cumplimiento normativo.",
         "link": "VER DETALLES →"
       },
       "card_5": {
@@ -1396,6 +1397,38 @@
         "p3": "Cuando intervienen varias jurisdicciones, examinamos además la interacción entre la estructura contractual internacional y el componente jurídico venezolano.",
         "p4": "Esta perspectiva resulta particularmente relevante para empresas, inversionistas, profesionales y personas que mantienen relaciones comerciales con Venezuela desde el exterior.",
         "p5": "La intervención temprana permite identificar contingencias antes de que se conviertan en controversias y proporciona al cliente una posición jurídica más clara al momento de negociar, contratar o ejecutar la operación."
+      }
+    },
+    "materia_energetica": {
+      "h1": "Materia Energética",
+      "subtitle": "Asesoría jurídica contractual, corporativa y regulatoria.",
+      "intro": {
+        "p1": "El sector energético venezolano presenta una elevada complejidad jurídica debido a la interacción entre regulación sectorial, contratación, estructuras empresariales, relaciones comerciales, inversión y actuación administrativa.",
+        "p2": "Las operaciones vinculadas con este sector requieren, por tanto, una aproximación que permita identificar no solamente las obligaciones contractuales de las partes, sino también el marco jurídico dentro del cual la operación debe desarrollarse y los riesgos que pueden afectar su ejecución.",
+        "p3": "En Mac Consultores Jurídicos & Asociados atendemos asuntos jurídicos vinculados con actividades y operaciones del sector energético que presentan elementos contractuales, corporativos, regulatorios o administrativos relacionados con Venezuela.",
+        "p4": "Nuestra intervención puede producirse tanto en una fase preventiva —antes de la celebración de una operación— como durante la ejecución de relaciones contractuales existentes o frente a contingencias que requieran evaluación jurídica."
+      },
+      "when_we_intervene": {
+        "title": "Cuándo intervenimos",
+        "items": [
+          "Análisis y revisión jurídica de contratos relacionados con el sector energético.",
+          "Evaluación de estructuras contractuales destinadas a ejecutarse en Venezuela.",
+          "Análisis del marco jurídico y regulatorio aplicable a una operación determinada.",
+          "Identificación y evaluación de riesgos jurídicos.",
+          "Relaciones contractuales entre operadores, proveedores y empresas de servicios.",
+          "Análisis jurídico de estructuras de inversión vinculadas con actividades energéticas.",
+          "Evaluación preventiva de contingencias contractuales, regulatorias o administrativas.",
+          "Revisión de obligaciones, responsabilidades y mecanismos de protección contractual.",
+          "Análisis de relaciones empresariales que involucren activos o actividades vinculadas con Venezuela."
+        ]
+      },
+      "approach": {
+        "title": "Nuestro enfoque",
+        "p1": "Nuestra metodología integra tres dimensiones esenciales: estructura corporativa + relación contractual + marco regulatorio.",
+        "p2": "La interacción entre estas tres dimensiones permite comprender la operación de manera integral y detectar riesgos que podrían pasar inadvertidos cuando el análisis se limita exclusivamente al contrato.",
+        "p3": "Partimos de la naturaleza concreta de la operación, identificamos los sujetos que participan, determinamos sus respectivas obligaciones y examinamos las normas y condiciones regulatorias relevantes.",
+        "p4": "El propósito no es únicamente reaccionar frente a una contingencia. Nuestra práctica privilegia la identificación preventiva del riesgo jurídico, especialmente cuando una decisión empresarial puede producir consecuencias contractuales, patrimoniales, corporativas o administrativas.",
+        "p5": "De esta manera, proporcionamos al cliente una evaluación jurídica orientada a la toma de decisiones, particularmente en operaciones que requieren conocimiento del entorno jurídico venezolano y coordinación con asesores de otras jurisdicciones."
       }
     }
   }

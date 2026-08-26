@@ -451,8 +451,9 @@
         "link": "VIEW DETAILS →"
       },
       "card_4": {
-        "title": "Inheritances & Estates",
-        "desc": "Resolution of inheritance disputes and comprehensive estate planning with assets or heirs dispersed across different global jurisdictions.",
+        "tag": "04",
+        "title": "Energy Law & Regulatory Practice",
+        "desc": "Strategic legal advisory in contractual, regulatory, and corporate structures for the Venezuelan energy sector. Preventative risk assessment, operator and supplier relations, and regulatory compliance oversight.",
         "link": "VIEW DETAILS →"
       },
       "card_5": {
@@ -1396,6 +1397,38 @@
         "p3": "Where multiple jurisdictions intersect, we rigorously examine the interface between international contractual architecture and Venezuelan statutory compliance.",
         "p4": "This strategic perspective is vital for corporations, foreign investors, professionals, and individuals conducting commercial operations in Venezuela from abroad.",
         "p5": "Early legal intervention identifies contingencies before they escalate into disputes, securing a clear and protected legal position during contract negotiation and execution."
+      }
+    },
+    "materia_energetica": {
+      "h1": "Energy Law & Practice",
+      "subtitle": "Contractual, corporate, and regulatory legal advisory.",
+      "intro": {
+        "p1": "The Venezuelan energy sector presents high legal complexity driven by the continuous interaction between sector-specific regulations, commercial contracting, corporate structures, investment frameworks, and administrative authority.",
+        "p2": "Transactions connected to this industry require a legal strategy that identifies not only the contractual commitments of the parties, but also the broader statutory framework within which operations must execute and the contingencies that could impact performance.",
+        "p3": "At Mac Consultores Jurídicos & Asociados, we advise on legal matters related to energy sector operations involving contractual, corporate, regulatory, or administrative dimensions connected to Venezuela.",
+        "p4": "Our counsel intervenes both proactively—prior to transaction closing—and throughout ongoing contractual execution, as well as in managing emerging legal contingencies."
+      },
+      "when_we_intervene": {
+        "title": "When we intervene",
+        "items": [
+          "Substantive legal review and analysis of energy sector commercial agreements.",
+          "Assessment of contractual structures to be performed within Venezuelan territory.",
+          "Evaluation of statutory, sectorial, and regulatory frameworks applicable to specific projects.",
+          "Legal risk identification and strategic mitigation advisory.",
+          "Contractual frameworks between operators, service contractors, and equipment suppliers.",
+          "Legal structuring and review of investment vehicles in energy-related ventures.",
+          "Preventative assessment of contractual, regulatory, and administrative contingencies.",
+          "Review of corporate liabilities, warranties, indemnities, and contractual protections.",
+          "Advisory on corporate relationships involving energy assets or operations in Venezuela."
+        ]
+      },
+      "approach": {
+        "title": "Our approach",
+        "p1": "Our methodology seamlessly integrates three core pillars: corporate structure + contractual framework + regulatory compliance.",
+        "p2": "This tri-dimensional analysis provides a holistic assessment of the transaction, uncovering vulnerabilities and risks that standard contractual reviews frequently overlook.",
+        "p3": "We analyze the operational reality of the transaction, identify all participating entities, define their enforceable obligations, and evaluate applicable regulatory requirements.",
+        "p4": "Our mandate focuses on preventative legal risk management rather than mere reactive defense, specifically when commercial decisions trigger long-term corporate, financial, or administrative liabilities.",
+        "p5": "Consequently, we equip clients with rigorous legal analysis designed for executive decision-making, offering deep Venezuelan legal expertise while coordinating effectively with international counsel."
       }
     }
   }
