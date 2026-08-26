@@ -22,15 +22,16 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
     <main className="page-colaboracion-internacional">
       <header className="page-header header-soft-bg">
         <div className="container">
-          <span className="section-tag" >{data?.breadcrumb}</span>
+          <span className="section-tag">{data?.breadcrumb}</span>
           <h1 className="mb-1-5rem">{data?.h1}</h1>
-          <p className="hero-subtitle" >{data?.title}</p>
+          <p className="hero-subtitle">{data?.title}</p>
         </div>
       </header>
 
       <section className="section-padding-asym">
         <div className="container">
-          <div className="grid-split">
+          {/* Bloque de Introducción con Imagen */}
+          <div className="grid-split mb-4rem">
             <div className="about-text">
               <span className="section-tag">{data?.intro?.tag}</span>
               <h2 className="serif section-title mb-1-5rem">{data?.intro?.title}</h2>
@@ -45,14 +46,14 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             </div>
           </div>
 
-          <B2BContactBox data={data?.contactBox} locale={locale} />
-
+          {/* Encabezado de la Propuesta / Tarjetas */}
           <div className="mt-4rem text-center">
             <span className="section-tag">{data?.proposal?.tag}</span>
             <h2 className="serif section-title mt-1rem mb-3rem">{data?.proposal?.title}</h2>
           </div>
           
-          <div className="grid-3">
+          {/* Grid de Tarjetas */}
+          <div className="grid-3 mb-5rem">
             {/* TARJETA 1 (T1) */}
             <div className="card">
               <span className="section-tag">{data?.proposal?.card_1?.tag || "01"}</span>
@@ -68,6 +69,9 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
               <span className="section-tag">{data?.proposal?.card_2?.tag || "02"}</span>
               <h3>{data?.proposal?.card_2?.title}</h3>
               <p>{data?.proposal?.card_2?.desc}</p>
+              {data?.proposal?.card_2?.link && (
+                <span className="card-link">{data?.proposal?.card_2?.link}</span>
+              )}
             </div>
 
             {/* TARJETA 3 (T3) */}
@@ -75,8 +79,14 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
               <span className="section-tag">{data?.proposal?.card_3?.tag || "03"}</span>
               <h3>{data?.proposal?.card_3?.title}</h3>
               <p>{data?.proposal?.card_3?.desc}</p>
+              {data?.proposal?.card_3?.link && (
+                <span className="card-link">{data?.proposal?.card_3?.link}</span>
+              )}
             </div>
           </div>
+
+          {/* Caja de Contacto B2B Reubicada al Final */}
+          <B2BContactBox data={data?.contactBox} locale={locale} />
         </div>
       </section>
     </main>
