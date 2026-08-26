@@ -1,6 +1,7 @@
 import React from 'react';
+import Link from 'next/link';
 import { getDictionary } from "@/i18n/getDictionary";
-import B2BContactBox from "@/components/B2BContactBox";
+import { getRoute } from "@/lib/routes";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -59,8 +60,16 @@ export default async function PracticaConsularPage({ params }: { params: Promise
             <p className="mb-1rem">{data?.approach?.p3}</p>
             <p className="mb-1rem">{data?.approach?.p4}</p>
           </div>
+        </div>
+      </section>
 
-          <B2BContactBox data={dict?.colaboracion_internacional?.contactBox} locale={locale} />
+      <section className="bg-soft text-center section-padding-asym">
+        <div className="container">
+          <h2 className="serif section-title mb-1-5rem">¿Requiere asistencia legal?</h2>
+          <p className="section-desc mb-2rem">Nuestro equipo está preparado para analizar su caso.</p>
+          <Link href={getRoute(locale, "contact")} className="btn btn-primary">
+            INICIAR PROCESO DE ADMISIÓN
+          </Link>
         </div>
       </section>
     </main>

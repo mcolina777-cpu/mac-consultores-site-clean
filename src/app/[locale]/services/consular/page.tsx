@@ -48,14 +48,14 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
             <h2 className="section-title heading-xl mb-0-5rem">{dict?.tramites_consulares?.support?.title}</h2>
           </div>
           <div className="grid-3">
-            <div className="card">
+            <Link href={getRoute(locale, "consular.practica_consular")} className="card">
               <span className="section-tag">{dict?.tramites_consulares?.support?.card_1?.tag || "01"}</span>
               <h3 >{dict?.tramites_consulares?.support?.card_1?.title}</h3>
               <p >{dict?.tramites_consulares?.support?.card_1?.desc}</p>
-              <Link href={`/${locale}/services/consular/practica-consular`} className="card-link">
+              <span className="card-link">
                 {dict?.tramites_consulares?.support?.card_1?.link || "VER DETALLES →"}
-              </Link>
-            </div>
+              </span>
+            </Link>
             <div className="card">
               <span className="section-tag">02</span>
               <h3 >{dict?.tramites_consulares?.support?.card_2?.title}</h3>
