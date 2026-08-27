@@ -71,14 +71,12 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             </Link>
 
             {/* TARJETA 3 (T3) */}
-            <div className="card">
+            <Link href={`/${locale}/services/international-cooperation/modelo-b2b`} className="card block-link">
               <span className="section-tag">{data?.proposal?.card_3?.tag || "03"}</span>
               <h3>{data?.proposal?.card_3?.title}</h3>
               <p>{data?.proposal?.card_3?.desc}</p>
-              {data?.proposal?.card_3?.link && (
-                <span className="card-link">{data?.proposal?.card_3?.link}</span>
-              )}
-            </div>
+              <span className="card-link">{data?.proposal?.card_3?.link || "VER DETALLES →"}</span>
+            </Link>
           </div>
 
           {/* Caja de Contacto B2B Reubicada al Final */}

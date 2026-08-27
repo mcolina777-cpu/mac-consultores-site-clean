@@ -508,9 +508,9 @@
       },
       "card_3": {
         "tag": "03",
-        "title": "Legal Opinions",
-        "desc": "Issuance of specialized expert reports and legal opinions anchored in Venezuelan statutory framework, crafted to guide corporate decision-making and substantiate procedural arguments before foreign arbitral panels or foreign courts.",
-        "link": ""
+        "title": "B2B Partnership Model",
+        "desc": "Professional partnership model founded on confidentiality, non-interference, and technical independence. Your firm retains international client direction while we provide local legal execution.",
+        "link": "VIEW DETAILS →"
       }
     },
     "landing_t1": {
@@ -564,6 +564,32 @@
         "title": "Tailored intervention for each matter",
         "p1": "The modality of engagement is determined following a thorough case assessment. Not all matters require litigation. Some require an expert legal opinion; others, regulatory research, documentary review, risk analysis, or local coordination.",
         "p2": "Our mandate begins by defining the exact legal requirements of the international firm, delivering rigorous, proportionate, and technically sound legal execution."
+      }
+    },
+    "landing_t3": {
+      "h1": "B2B Partnership Model",
+      "subtitle": "Professional cooperation founded on trust, clear scope definition, and non-interference.",
+      "intro": {
+        "p1": "An effective international alliance extends beyond hiring legal services in another jurisdiction. It requires a structured cooperation model where each legal team clearly understands its specific scope, role, and professional responsibility.",
+        "p2": "The B2B model at Mac Consultores Jurídicos & Asociados is designed so that the international firm maintains full strategic direction and client relationship, while our firm delivers specialized Local Counsel services in Venezuela under agreed parameters."
+      },
+      "when_we_intervene": {
+        "title": "How the partnership operates",
+        "items": [
+          "01 — Cooperation request: The international firm presents the matter and shares essential background documentation.",
+          "02 — Scope determination: Specific requirements are defined: statutory research, expert opinions, due diligence, corporate risk audits, or procedural support.",
+          "03 — Conflicts & independence review: Rigorous assessment of potential conflicts of interest and conditions ensuring technical independence prior to engagement.",
+          "04 — Engagement proposal: Formal definition of deliverables, timelines, methodology, communication channels, and fee structure.",
+          "05 — Execution & communication: Performance of agreed legal work with continuous updates through designated protocols.",
+          "06 — Delivery & closing: Substantive reports and documentation delivered to the lead firm, clearly delineating local legal findings from cross-border strategic matters."
+        ]
+      },
+      "approach": {
+        "title": "Core principles of cooperation",
+        "p1": "Confidenciality: Strict safeguarding of all shared information under applicable statutory and professional standards.",
+        "p2": "Independence & Non-interference: Technical autonomy is preserved, ensuring our support never displaces or interferes with the international firm's client relationship.",
+        "p3": "Transparency & Specialization: Clearly defined scopes, fees, and timelines, assessing each case based on technical complexity.",
+        "p4": "Beyond traditional correspondence: We build long-term B2B relationships where international firms rely on predictable, solvent, and structured legal capability in Venezuela."
       }
     },
     "contactBox": {

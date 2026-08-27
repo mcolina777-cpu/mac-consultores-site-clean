@@ -508,9 +508,9 @@
       },
       "card_3": {
         "tag": "03",
-        "title": "Opiniones Legales",
-        "desc": "Emisión de dictámenes técnicos e informes jurídicos especializados fundados en la normativa venezolana vigente, estructurados para respaldar la toma de decisiones corporativas y fundamentar posiciones procesales ante tribunales u organismos en el extranjero.",
-        "link": ""
+        "title": "Modelo de Alianza B2B",
+        "desc": "Marco de cooperación profesional basado en confidencialidad, no interferencia e independencia técnica. Su firma conserva la dirección internacional del cliente y nosotros aportamos el respaldo local.",
+        "link": "VER DETALLES →"
       }
     },
     "landing_t1": {
@@ -564,6 +564,32 @@
         "title": "Una intervención diseñada para cada asunto",
         "p1": "La modalidad de cooperación se determina después de conocer el caso. No todos los asuntos requieren representación judicial. Algunos requieren una opinión jurídica; otros, investigación normativa; otros, revisión documental, análisis de riesgo o coordinación local.",
         "p2": "Nuestro trabajo comienza precisamente por determinar qué necesita realmente la firma internacional para estructurar una respuesta jurídica precisa, técnica y a la medida."
+      }
+    },
+    "landing_t3": {
+      "h1": "Modelo de Alianza B2B",
+      "subtitle": "Cooperación profesional basada en confianza, delimitación y no interferencia.",
+      "intro": {
+        "p1": "Una alianza internacional eficaz no consiste simplemente en contratar servicios jurídicos en otro país. Requiere establecer una estructura de cooperación en la que cada profesional conozca exactamente su función, responsabilidad y ámbito de actuación.",
+        "p2": "El modelo B2B de Mac Consultores Jurídicos & Asociados está diseñado para que la firma internacional mantenga la relación y dirección estratégica de su cliente, mientras nuestra firma interviene como Local Counsel for Venezuela dentro del alcance específicamente acordado."
+      },
+      "when_we_intervene": {
+        "title": "Así funciona la alianza",
+        "items": [
+          "01 — Solicitud de cooperación: La firma internacional presenta el asunto y proporciona la información esencial disponible.",
+          "02 — Determinación del alcance jurídico: Se identifica qué requiere específicamente del Local Counsel: investigación, opinión jurídica, revisión documental, análisis de riesgo, asistencia procesal o coordinación institucional.",
+          "03 — Evaluación de independencia y conflictos: Antes de aceptar el encargo se verifica la existencia de posibles conflictos de intereses y las condiciones para preservar la independencia profesional.",
+          "04 — Propuesta de trabajo: Se establecen alcance, metodología, entregables, tiempos, responsabilidades, canales de comunicación y estructura de honorarios.",
+          "05 — Ejecución y comunicación: Se desarrollan las actividades acordadas manteniendo comunicación profesional con el despacho contratante conforme al protocolo definido.",
+          "06 — Entrega y cierre: Los resultados, informes o documentos se presentan al despacho contratante, delimitando claramente las materias atendidas por el Local Counsel y aquellas bajo responsabilidad de la firma internacional."
+        ]
+      },
+      "approach": {
+        "title": "Principios de la relación",
+        "p1": "Confidencialidad: Protección de la información recibida conforme a las obligaciones profesionales y jurídicas aplicables.",
+        "p2": "Independencia y No interferencia: Cada firma conserva autonomía técnica sobre sus materias y la cooperación no altera la relación profesional de la firma con su cliente.",
+        "p3": "Transparencia y Especialización: Alcance, honorarios y plazos definidos previamente, evaluando cada asunto según su naturaleza y complejidad.",
+        "p4": "Más que corresponsalía: Nuestra visión trasciende la figura tradicional del abogado corresponsal. Construimos relaciones profesionales B2B de largo plazo para contar con una capacidad jurídica local confiable, previsible y técnicamente solvente en Venezuela."
       }
     },
     "contactBox": {
