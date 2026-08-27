@@ -496,9 +496,9 @@
       "title": "Soporte Jurídico Local para Asuntos Transfronterizos",
       "card_1": {
         "tag": "01",
-        "title": "Práctica Consular",
-        "desc": "Asesoría y representación jurídica previa a actuaciones consulares. Estructuración estratégica de poderes, mandatos y adecuación de documentos para personas y empresas fuera del país que requieren producir efectos legales y patrimoniales válidos en territorio venezolano.",
-        "link": "SOLICITAR ASESORÍA →"
+        "title": "Local Counsel for Venezuela",
+        "desc": "Estructura jurídica local de apoyo para firmas internacionales. Análisis normativo, jurisprudencial e institucional para asuntos y operaciones con conexión en Venezuela con delimitación precisa del alcance.",
+        "link": "VER DETALLES →"
       },
       "card_2": {
         "tag": "02",
@@ -511,6 +511,34 @@
         "title": "Opiniones Legales",
         "desc": "Emisión de dictámenes técnicos e informes jurídicos especializados fundados en la normativa venezolana vigente, estructurados para respaldar la toma de decisiones corporativas y fundamentar posiciones procesales ante tribunales u organismos en el extranjero.",
         "link": ""
+      }
+    },
+    "landing_t1": {
+      "h1": "Local Counsel for Venezuela",
+      "subtitle": "Un punto de apoyo jurídico dentro de Venezuela para firmas y corporaciones internacionales.",
+      "intro": {
+        "p1": "La participación de una firma local puede resultar determinante cuando una operación, procedimiento o relación jurídica desarrollada internacionalmente presenta elementos vinculados con Venezuela.",
+        "p2": "El conocimiento de la legislación venezolana constituye solo una parte de la ecuación. La adecuada comprensión de un asunto puede requerir analizar simultáneamente legislación, jurisprudencia, criterios institucionales, procedimientos, documentación, competencias de las autoridades y condiciones prácticas de ejecución.",
+        "p3": "Mac Consultores Jurídicos & Asociados interviene como Local Counsel for Venezuela cuando una firma internacional necesita incorporar conocimiento jurídico venezolano a un asunto que dirige o coordina desde otra jurisdicción.",
+        "p4": "La intervención se define caso por caso y puede comprender investigación jurídica, análisis normativo y jurisprudencial, elaboración de informes, revisión documental, identificación de riesgos, coordinación institucional o asistencia jurídica local, según la naturaleza del encargo y las competencias profesionales aplicables."
+      },
+      "when_we_intervene": {
+        "title": "¿Cuándo puede resultar necesaria nuestra intervención?",
+        "items": [
+          "Cuando una operación internacional tiene activos, personas, empresas o intereses jurídicos en Venezuela.",
+          "Cuando deben ejecutarse actuaciones dentro del territorio venezolano.",
+          "Cuando una firma extranjera necesita interpretar la legislación venezolana aplicada a un caso concreto.",
+          "Cuando resulta necesario evaluar riesgos jurídicos antes de adoptar una decisión empresarial.",
+          "Cuando un procedimiento judicial, administrativo o institucional requiere conocimiento y seguimiento local.",
+          "Cuando el asunto exige coordinación entre profesionales situados en distintas jurisdicciones.",
+          "Cuando una firma internacional necesita un interlocutor jurídico estable para asuntos recurrentes relacionados con Venezuela."
+        ]
+      },
+      "approach": {
+        "title": "Determinación del alcance y valor estratégico",
+        "p1": "No ofrecemos una representación genérica ni asumimos funciones indeterminadas.",
+        "p2": "Antes de iniciar cualquier trabajo se determina: qué asunto debe atenderse; quién es el cliente final; qué jurisdicciones intervienen; qué actuaciones corresponden a Venezuela; qué información y documentación están disponibles; cuáles son los plazos; y qué responsabilidades corresponden a cada profesional. Esta delimitación permite evitar duplicidades, reducir riesgos de comunicación y establecer con precisión el ámbito de actuación de cada firma.",
+        "p3": "La ventaja de contar con un Local Counsel no reside únicamente en disponer de un abogado dentro del país. Reside en contar con un interlocutor jurídico capaz de traducir la realidad jurídica venezolana al lenguaje y a las necesidades de una operación internacional."
       }
     },
     "contactBox": {

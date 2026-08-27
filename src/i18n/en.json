@@ -496,9 +496,9 @@
       "title": "Local Legal Counsel for Cross-Border Matters",
       "card_1": {
         "tag": "01",
-        "title": "Consular Practice",
-        "desc": "Strategic legal advisory and representation prior to consular proceedings. Structuring powers of attorney, mandates, and adapting documents for cross-border entities and individuals requiring valid legal and estate effects within Venezuelan territory.",
-        "link": "REQUEST ADVISORY →"
+        "title": "Local Counsel for Venezuela",
+        "desc": "Dedicated local legal support for international law firms. Statutory, case-law, and institutional analysis for cross-border matters connected to Venezuela under precisely defined scopes of engagement.",
+        "link": "VIEW DETAILS →"
       },
       "card_2": {
         "tag": "02",
@@ -511,6 +511,34 @@
         "title": "Legal Opinions",
         "desc": "Issuance of specialized expert reports and legal opinions anchored in Venezuelan statutory framework, crafted to guide corporate decision-making and substantiate procedural arguments before foreign arbitral panels or foreign courts.",
         "link": ""
+      }
+    },
+    "landing_t1": {
+      "h1": "Local Counsel for Venezuela",
+      "subtitle": "On-the-ground Venezuelan legal support for international law firms and corporate legal departments.",
+      "intro": {
+        "p1": "The participation of a local law firm can be decisive when an international transaction, proceeding, or commercial relationship involves legal elements connected to Venezuela.",
+        "p2": "Substantive knowledge of Venezuelan statutes is only one part of the equation. Mastering cross-border matters requires analyzing legislation, case law, administrative criteria, procedural rules, documentation, agency authority, and practical enforcement conditions simultaneously.",
+        "p3": "Mac Consultores Jurídicos & Asociados acts as Local Counsel for Venezuela when an international firm needs to integrate Venezuelan legal expertise into a matter directed or coordinated from abroad.",
+        "p4": "Our engagement is structured on a case-by-case basis, covering legal research, statutory interpretation, expert opinions, document review, risk analysis, institutional coordination, and local counsel advisory."
+      },
+      "when_we_intervene": {
+        "title": "When is local counsel required?",
+        "items": [
+          "When a cross-border transaction involves assets, individuals, entities, or legal interests in Venezuela.",
+          "When procedural or operational actions must be performed within Venezuelan territory.",
+          "When foreign counsel requires technical interpretation of Venezuelan statutory law applied to specific matters.",
+          "When comprehensive legal risk assessments are needed prior to making strategic business decisions.",
+          "When judicial, administrative, or regulatory proceedings require dedicated local monitoring.",
+          "When multi-jurisdictional matters require seamless coordination among international legal teams.",
+          "When an international firm requires an ongoing, reliable legal point of contact for Venezuelan matters."
+        ]
+      },
+      "approach": {
+        "title": "Scope determination & strategic value",
+        "p1": "We do not offer generic representation or assume undefined responsibilities.",
+        "p2": "Before starting any engagement, we clearly define: the specific matter, ultimate client, participating jurisdictions, actions required in Venezuela, available documentation, delivery timelines, and respective responsibilities. This precise demarcation eliminates redundancies, minimizes communication gaps, and delineates each firm's professional scope.",
+        "p3": "The core value of engaging Local Counsel extends beyond having a licensed attorney in-country: it provides a strategic interlocutor capable of translating Venezuelan legal realities into the language and requirements of global transactions."
       }
     },
     "contactBox": {
