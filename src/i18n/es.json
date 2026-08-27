@@ -818,9 +818,7 @@
       "representative_scenarios": {
         "tag": "Escenarios representativos",
         "title": "Estrategias aplicadas en contextos sensibles",
-        "desc": "Desde investigaciones penales económicas contra empresas hasta acciones de amparo constitucional, nuestro enfoque se centra en anticipar riesgos, asegurar la cadena probatoria y proteger la reputación del cliente en cada decisión estratégica.",
-        "long_title": "Estrategias en escenarios penales y constitucionales sensibles",
-        "long_desc": "En los asuntos más sensibles —investigaciones penales económicas contra empresas, procedimientos con impacto mediático o acciones de amparo constitucional— diseñamos la estrategia combinando tres planos: jurídico, probatorio y reputacional.\n\nEn el plano jurídico, identificamos el marco normativo aplicable y los criterios jurisprudenciales relevantes, para saber con precisión cuáles son los márgenes reales de maniobra y qué vías procesales ofrecen mayor protección al cliente. En el plano probatorio, nos enfocamos en preservar la cadena de custodia, depurar la evidencia disponible y anticipar los ataques que la contraparte intentará dirigir contra los soportes documentales y testimoniales.\n\nFinalmente, analizamos el impacto reputacional de cada decisión: cómo comunicamos las actuaciones al cliente, qué riesgos existen de filtraciones o exposiciones públicas y qué medidas pueden tomarse para minimizar daños a la imagen personal o corporativa, sin sacrificar la solidez de la defensa técnica."
+        "desc": "Estrategias procesales aplicadas en contextos de alta sensibilidad penal, corporativa y constitucional. Anticipación de escenarios complejos, preservación probatoria rigurosa y protección integral patrimonial."
       }
     }
   },
@@ -894,18 +892,33 @@
     "p2": "Cada consulta se estudia de manera individual. Valoramos los hechos expuestos, la documentación disponible, los plazos relevantes, la competencia de las autoridades y las posibles vías de actuación. Este análisis permite determinar si el asunto requiere una intervención inmediata, información adicional o una estrategia jurídica específica.",
     "p3": "La evaluación preliminar tiene carácter orientador y no sustituye el estudio integral del expediente ni constituye garantía sobre el resultado de un procedimiento. Su propósito es ofrecer una orientación jurídica responsable sobre las posibilidades, limitaciones y pasos iniciales que conviene considerar."
   },
-  "strategy_representative_scenarios": {
-    "title": "Escenarios representativos | Mac Consultores",
-    "h1": "Escenarios de actuación representativos",
-    "intro": "A continuación, presentamos ejemplos genéricos de asuntos en los que la firma asume representación, resguardando siempre la confidencialidad inherente a nuestra práctica:",
-    "li1": "Defensa o querella por defraudación patrimonial compleja en el seno de grupos empresariales (desvío de fondos, falsedad documental, ocultación de patrimonio).",
-    "li2": "Defensa técnica frente a investigaciones por legitimación de capitales, delincuencia organizada y corrupción administrativa.",
-    "li3": "Asesoría preventiva y defensa en materia penal-tributaria y penal-bancaria.",
-    "li4": "Litigio penal asociado a conflictos de accionistas, apropiación indebida y administración desleal.",
-    "li5": "Consultoría para la prevención de riesgos penales corporativos y protocolos de cumplimiento legal (Compliance).",
-    "p1": "En los asuntos más sensibles —investigaciones penales económicas contra empresas, procedimientos con impacto mediático o acciones de amparo constitucional— diseñamos la estrategia combinando tres planos: jurídico, probatorio y reputacional.",
-    "p2": "En el plano jurídico, identificamos el marco normativo aplicable y los criterios jurisprudenciales relevantes, para saber con precisión cuáles son los márgenes reales de maniobra y qué vías procesales ofrecen mayor protección al cliente. En el plano probatorio, nos enfocamos en preservar la cadena de custodia, depurar la evidencia disponible y anticipar los ataques que la contraparte intentará dirigir contra los soportes documentales y testimoniales.",
-    "p3": "Finalmente, analizamos el impacto reputacional de cada decisión: cómo comunicamos las actuaciones al cliente, qué riesgos existen de filtraciones o exposiciones públicas y qué medidas pueden tomarse para minimizar daños a la imagen personal o corporativa, sin sacrificar la solidez de la defensa técnica."
+  "landing_estrategia_escenarios": {
+    "tag": "ESTRATEGIA PROCESAL",
+    "h1": "Estrategias Aplicadas en Contextos Sensibles",
+    "subtitle": "Defensa penal económica, tutela constitucional, preservación probatoria y protección patrimonial.",
+    "intro": {
+      "p1": "Los asuntos de especial complejidad jurídica exigen algo más que conocimiento normativo. Requieren capacidad para identificar escenarios, anticipar consecuencias, preservar evidencia y adoptar decisiones estratégicas en momentos en los que un error puede comprometer significativamente la posición jurídica del cliente.",
+      "p2": "En Mac Consultores Jurídicos & Asociados desarrollamos estrategias especialmente orientadas a asuntos penales, procesales penales, corporativos y constitucionales en los que confluyen intereses patrimoniales, empresariales, reputacionales o fundamentales.",
+      "p3": "Cada caso presenta circunstancias particulares. Por ello, los escenarios descritos a continuación no constituyen fórmulas predeterminadas, sino ámbitos representativos de problemas jurídicos que requieren análisis especializado."
+    },
+    "scenarios": {
+      "title": "Ámbitos y escenarios de intervención compleja",
+      "p1": "Investigaciones penales económicas y corporativas: Una investigación penal sobre una entidad mercantil proyecta efectos sobre directivos, representantes y socios. Nuestra respuesta combina defensa técnica penal, análisis documental exhaustivo y gestión del riesgo corporativo, mitigando la exposición jurídica sin actuaciones improvisadas.",
+      "p2": "Preservación y análisis de evidencia: En asuntos de alta sensibilidad, la prueba se encuentra dispersa en registros contables, contratos y soportes digitales. Aseguramos tempranamente la autenticidad, integridad, trazabilidad documental y cadena de custodia para su válida incorporación al proceso.",
+      "p3": "Medidas cautelares y decisiones urgentes: Frente a actuaciones judiciales o administrativas que afecten la libertad, bienes u operaciones empresariales, evaluamos con celeridad la legalidad, proporcionalidad y vías procesales de impugnación, ejecutando defensas fundadas incluso bajo plazos perentorios.",
+      "p4": "Acciones de amparo y tutela constitucional: Empleamos la jurisdicción constitucional con estricto rigor técnico frente a lesiones directas a derechos fundamentales, identificando con precisión la conducta lesiva, la relación causal y los mecanismos idóneos de restitución.",
+      "p5": "Gestión del impacto reputacional: Integramos la dimensión extraprocesal dentro de una evaluación integral del riesgo, ponderando cómo las decisiones forenses preservan la posición institucional, mercantil y personal del cliente."
+    },
+    "anticipation": {
+      "title": "Anticipación y formulación de escenarios",
+      "p1": "Los asuntos sensibles no se gestionan reaccionando tardíamente ante cada actuación de la contraparte. Nuestra metodología formula escenarios anticipatorios: ¿Qué decisiones podría adoptar la autoridad?, ¿Qué elementos de convicción pueden surgir? y ¿Cuáles son los riesgos inherentes a cada alternativa procesal?",
+      "p2": "La anticipación permite estructurar respuestas técnicas antes de que el escenario se materialice, garantizando que la defensa mantenga en todo momento la iniciativa procesal."
+    },
+    "approach": {
+      "title": "Estrategia, prueba y protección integral",
+      "p1": "En litigios complejos, la defensa eficaz exige articular tres objetivos inseparables: proteger la posición jurídica del cliente, asegurar la prueba relevante y tomar decisiones sustentadas en información técnica completa.",
+      "p2": "No existen fórmulas universales para asuntos sensibles: cada caso exige una estrategia procesalmente coherente, jurídicamente fundada y probatoriamente blindada."
+    }
   },
   "blog": {
     "intro": "En este blog reunimos análisis jurídicos, comentarios sobre decisiones relevantes y reflexiones sobre derecho constitucional, procesal y económico. Nuestro objetivo es ofrecer criterios claros y aplicables para la gestión de riesgos legales de empresas y particulares, más allá del comentario coyuntural de la norma o del caso. Cada artículo está pensado como una herramienta de lectura estratégica, para entender qué está pasando y cómo puede impactar en la toma de decisiones.",

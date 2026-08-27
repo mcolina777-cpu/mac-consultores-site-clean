@@ -818,9 +818,7 @@
       "representative_scenarios": {
         "tag": "Representative scenarios",
         "title": "Strategies applied in sensitive contexts",
-        "desc": "From economic criminal investigations against companies to constitutional protection actions, our approach focuses on anticipating risks, securing the evidentiary chain, and protecting the client's reputation in each strategic decision.",
-        "long_title": "Strategies in sensitive criminal and constitutional scenarios",
-        "long_desc": "In the most sensitive matters —economic criminal investigations against companies, proceedings with media exposure, or constitutional protection actions— we design strategy across three levels: legal, evidentiary, and reputational.\n\nOn the legal level, we identify the applicable legal framework and the relevant case law, to know precisely what the real margins of maneuver are and which procedural avenues offer the strongest protection for the client. On the evidentiary level, we focus on preserving the chain of custody, refining the available evidence, and anticipating the attacks the opposing party will direct at documents and witnesses.\n\nFinally, we analyze the reputational impact of each decision: how we communicate developments to the client, the risk of leaks or public exposure, and which measures can be taken to minimize damage to personal or corporate image, without sacrificing the strength of the technical defense."
+        "desc": "Procedural strategies applied in contexts of high criminal, corporate, and constitutional sensitivity. Anticipation of complex scenarios, rigorous evidentiary preservation, and comprehensive asset protection."
       }
     }
   },
@@ -894,18 +892,33 @@
     "p2": "Each consultation is assessed individually. We consider the facts presented, the available documentation, relevant deadlines, the jurisdiction of the authorities involved, and the possible courses of action. This assessment helps determine whether the matter requires immediate action, additional information, or a specific legal strategy.",
     "p3": "The preliminary assessment is intended as guidance only. It does not replace a comprehensive review of the case file and does not guarantee the outcome of any proceeding. Its purpose is to provide responsible legal guidance on the possibilities, limitations, and initial steps that may be appropriate."
   },
-  "strategy_representative_scenarios": {
-    "title": "Representative Scenarios | Mac Consultores",
-    "h1": "Representative Acting Scenarios",
-    "intro": "Below are generic examples of matters in which the firm assumes representation, always safeguarding the confidentiality inherent to our practice:",
-    "li1": "Defense or complaint for complex financial fraud within corporate groups (misappropriation of funds, documentary falsification, concealment of assets).",
-    "li2": "Technical defense against investigations for money laundering, organized crime, and administrative corruption.",
-    "li3": "Preventive advice and defense in criminal-tax and criminal-banking matters.",
-    "li4": "Criminal litigation associated with shareholder conflicts, misappropriation, and disloyal administration.",
-    "li5": "Consulting for the prevention of corporate criminal risks and legal compliance protocols (Compliance).",
-    "p1": "In the most sensitive matters —economic criminal investigations against companies, proceedings with media exposure, or constitutional protection actions— we design the strategy by combining three levels: legal, evidentiary, and reputational.",
-    "p2": "On the legal level, we identify the applicable legal framework and relevant case law, to know precisely what the real margins of maneuver are and which procedural avenues offer the greatest protection to the client. On the evidentiary level, we focus on preserving the chain of custody, purifying available evidence, and anticipating the attacks the opposing party will direct against documentary and testimonial evidence.",
-    "p3": "Finally, we analyze the reputational impact of each decision: how we communicate proceedings to the client, what risks of leaks or public exposure exist, and what measures can be taken to minimize damage to personal or corporate image, without sacrificing the strength of the technical defense."
+  "landing_estrategia_escenarios": {
+    "tag": "PROCEDURAL STRATEGY",
+    "h1": "Strategies Applied in Sensitive Contexts",
+    "subtitle": "Economic criminal defense, constitutional protection, evidentiary preservation, and asset protection.",
+    "intro": {
+      "p1": "Matters of special legal complexity demand more than just knowledge of the law. They require the ability to identify scenarios, anticipate consequences, preserve evidence, and make strategic decisions at times when a mistake can significantly compromise the client's legal position.",
+      "p2": "At Mac Consultores Jurídicos & Asociados, we develop strategies specifically designed for criminal, criminal procedural, corporate, and constitutional matters where patrimonial, business, reputational, or fundamental interests converge.",
+      "p3": "Every case presents unique circumstances. Therefore, the scenarios described below do not constitute predetermined formulas, but rather representative areas of legal problems that require specialized analysis."
+    },
+    "scenarios": {
+      "title": "Areas and scenarios of complex intervention",
+      "p1": "Economic and corporate criminal investigations: A criminal investigation into a corporate entity projects effects on directors, representatives, and partners. Our response combines technical criminal defense, exhaustive document analysis, and corporate risk management, mitigating legal exposure without improvised actions.",
+      "p2": "Preservation and analysis of evidence: In highly sensitive matters, evidence is scattered across accounting records, contracts, and digital media. We secure early authenticity, integrity, document traceability, and chain of custody for valid incorporation into the proceeding.",
+      "p3": "Precautionary measures and urgent decisions: Faced with judicial or administrative actions that affect freedom, assets, or business operations, we swiftly evaluate legality, proportionality, and procedural avenues for challenge, executing well-founded defenses even under peremptory deadlines.",
+      "p4": "Actions for amparo and constitutional protection: We employ constitutional jurisdiction with strict technical rigor against direct injuries to fundamental rights, precisely identifying the harmful conduct, the causal relationship, and the appropriate mechanisms for restitution.",
+      "p5": "Management of reputational impact: We integrate the extra-procedural dimension into a comprehensive risk assessment, weighing how forensic decisions preserve the institutional, commercial, and personal position of the client."
+    },
+    "anticipation": {
+      "title": "Anticipation and formulation of scenarios",
+      "p1": "Sensitive matters are not managed by reacting late to every move by the opposing party. Our methodology formulates anticipatory scenarios: What decisions could the authority adopt? What elements of conviction could arise? And what are the inherent risks of each procedural alternative?",
+      "p2": "Anticipation makes it possible to structure technical responses before the scenario materializes, ensuring that the defense maintains procedural initiative at all times."
+    },
+    "approach": {
+      "title": "Strategy, evidence, and comprehensive protection",
+      "p1": "In complex litigation, effective defense requires articulating three inseparable objectives: protecting the client's legal position, securing relevant evidence, and making decisions based on complete technical information.",
+      "p2": "There are no universal formulas for sensitive matters: each case requires a procedurally coherent, legally founded, and evidentiarily airtight strategy."
+    }
   },
   "blog": {
     "intro": "In this blog we bring together legal analysis, commentary on key court decisions and reflections on constitutional, procedural and economic law. Our aim is to provide clear, practical insights that help companies and individuals manage legal risk, beyond short-lived updates on statutes or cases. Each article is designed as a strategic reading tool, to understand what is happening and how it may affect decision-making.",
