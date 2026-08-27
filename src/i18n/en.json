@@ -808,7 +808,7 @@
       "case_selection": {
         "tag": "Case selection",
         "title": "Prioritizing cases with real viability",
-        "desc": "We prioritize cases with genuine legal viability, after a rigorous analysis of facts and applicable law. This methodology avoids unnecessary litigation and aligns expectations with legally realistic scenarios."
+        "desc": "Preliminary and rigorous evaluation of factual, evidentiary, and procedural viability. We identify real strengths and risks before litigating, avoiding unnecessary actions and ensuring responsible legal decisions."
       },
       "case_theory": {
         "tag": "Case theory",
@@ -832,6 +832,47 @@
     "p1": "Case theory is not rhetorical discourse; it is the backbone of any serious defense. We start from a central hypothesis that explains what happened, why it happened, and how the evidentiary elements support it against the accusatory version.",
     "p2": "From the earliest proceedings, we define the evidentiary narrative we want the court to hear and understand: what facts are admitted, which are disputed, what gaps the accusation has, and what indicators reveal that the imputation is forced or disproportionate. This theory guides the preparation of statements, selection of experts, cross-examination, and the use of documentary evidence.",
     "p3": "The result is a coherent procedural strategy: every writ, every action, and every plea responds to the same argumentative axis, avoiding defensive contradictions, improvisations, and shifts that undermine the client's credibility before the judges and the Public Prosecutor."
+  },
+  "landing_estrategia_seleccion_casos": {
+    "tag": "PROCEDURAL STRATEGY",
+    "h1": "Prioritizing Cases with Real Viability",
+    "subtitle": "Preliminary factual, evidentiary, and procedural evaluation for responsible legal action.",
+    "intro": {
+      "p1": "Specialized legal practice requires understanding that not every legally relevant problem must necessarily become a lawsuit, nor does every client claim have the necessary conditions to sustain effective judicial action.",
+      "p2": "At Mac Consultores Jurídicos & Asociados, accepting a matter begins with a preliminary evaluation aimed at determining its legal, evidentiary, and procedural viability. The objective is not simply to identify a possible action, but to establish if there are sufficient grounds to exercise it responsibly, what its real chances of success are, and what risks may arise from its promotion.",
+      "p3": "This methodology is particularly relevant in criminal, criminal procedural, and constitutional matters, where a prematurely adopted decision can produce consequences that are difficult to reverse. The existence of a conflict, complaint, or investigation does not by itself determine the convenience of initiating legal action: it is essential to examine the problem from a comprehensive perspective."
+    },
+    "methodology": {
+      "title": "The analysis starts with the facts",
+      "p1": "Before formulating a legal strategy, we reconstruct the problem.",
+      "p2": "We examine the relevant background, identify legally significant facts, differentiate proven facts from unverified assertions, and determine what information is needed to complete the evaluation.",
+      "p3": "This initial approach avoids a common mistake: building a legal strategy on a version of the facts that cannot later be proven.",
+      "p4": "Case selection therefore requires confronting the hypothesis proposed by the client with documentation and other available elements."
+    },
+    "pillars": {
+      "title": "Multidimensional viability evaluation",
+      "items": [
+        {
+          "title": "Legal viability",
+          "desc": "We delimit the facts and analyze the applicable legal framework, available actions, procedural requirements, and possible objections. In criminal matters, we examine typical adequacy, causes of exclusion of responsibility, and procedural consequences. In constitutional matters, we evaluate the alleged injury, the fundamental right compromised, and the appropriateness of the protection."
+        },
+        {
+          "title": "Evidentiary viability",
+          "desc": "Legal argumentation does not replace the need for evidence capable of supporting the relevant facts. We examine what can be proven, by what means, with what degree of reliability, and under what conditions of incorporation and assessment. The essential question is: Can we legally prove what we affirm?"
+        },
+        {
+          "title": "Procedural and strategic viability",
+          "desc": "We evaluate jurisdiction, standing, timing, procedural burdens, risks of precautionary measures, response scenarios of the opposing party, and foreseeable consequences of each alternative. The result may lead to taking the case, requesting additional information, modifying the initial strategy, or recommending preventive solutions."
+        }
+      ]
+    },
+    "approach": {
+      "title": "A methodology oriented towards responsible decisions",
+      "p1": "Case selection is not a barrier to accessing legal services. It is a mechanism of professional responsibility.",
+      "p2": "We prefer to identify the weaknesses of a matter early on rather than generating artificial expectations or promoting actions with limited legal utility.",
+      "p3": "Our function is to provide the client with a technically founded evaluation of what can be done, what is not advisable to do, and what conditions must be met to move forward.",
+      "p4": "Because a solid legal strategy does not begin by filing a lawsuit or a complaint: it begins by determining if there is really a case that can be defended."
+    }
   },
   "strategy_case_selection": {
     "title": "Case Selection | Mac Consultores",

@@ -808,7 +808,7 @@
       "case_selection": {
         "tag": "Selección de casos",
         "title": "Priorización de casos con viabilidad real",
-        "desc": "Priorizamos casos con viabilidad jurídica real, tras un análisis riguroso de los hechos y la normativa aplicable. Esta metodología evita litigios innecesarios y alinea expectativas con escenarios jurídicamente posibles."
+        "desc": "Evaluación preliminar y rigurosa de viabilidad fáctica, probatoria y procesal. Identificamos fortalezas y riesgos reales antes de litigar, evitando actuaciones innecesarias y garantizando decisiones jurídicas responsables."
       },
       "case_theory": {
         "tag": "Teoría del caso",
@@ -832,6 +832,47 @@
     "p1": "La teoría del caso no es un discurso retórico; es la columna vertebral de toda defensa seria. Partimos de una hipótesis central que explica qué ocurrió, por qué ocurrió y cómo los elementos de prueba la sostienen frente a la versión acusatoria.",
     "p2": "Desde las primeras diligencias, definimos cuál será la narrativa probatoria que queremos que el tribunal escuche y entienda: qué hechos se admiten, cuáles se disputan, qué vacíos tiene la acusación y qué indicadores revelan que la imputación es forzada o desproporcionada. Esta teoría guía la preparación de declaraciones, la selección de peritos, el contrainterrogatorio y el uso de la prueba documental.",
     "p3": "El resultado es una estrategia procesal coherente: cada escrito, cada actuación y cada alegato responde a un mismo eje argumental, evitando contradicciones defensivas, improvisaciones y giros que restan credibilidad al cliente ante los jueces y el Ministerio Público."
+  },
+  "landing_estrategia_seleccion_casos": {
+    "tag": "ESTRATEGIA PROCESAL",
+    "h1": "Priorización de Casos con Viabilidad Real",
+    "subtitle": "Evaluación preliminar fáctica, probatoria y procesal para una actuación jurídica responsable.",
+    "intro": {
+      "p1": "La práctica jurídica especializada exige comprender que no todo problema jurídicamente relevante debe convertirse necesariamente en un litigio, ni toda pretensión del cliente presenta las condiciones necesarias para sostener una actuación judicial eficaz.",
+      "p2": "En Mac Consultores Jurídicos & Asociados la aceptación de un asunto parte de una evaluación preliminar orientada a determinar su viabilidad jurídica, probatoria y procesal. El objetivo no consiste simplemente en identificar una posible acción, sino en establecer si existen fundamentos suficientes para ejercerla responsablemente, cuáles son sus posibilidades reales de prosperar y qué riesgos pueden derivarse de su promoción.",
+      "p3": "Esta metodología resulta particularmente relevante en materia penal, procesal penal y constitucional, donde una decisión adoptada prematuramente puede producir consecuencias difíciles de revertir. La existencia de un conflicto, una denuncia o una investigación no determina por sí sola la conveniencia de iniciar una actuación jurídica: es indispensable examinar el problema desde una perspectiva integral."
+    },
+    "methodology": {
+      "title": "El análisis comienza por los hechos",
+      "p1": "Antes de formular una estrategia jurídica, reconstruimos el problema.",
+      "p2": "Examinamos los antecedentes relevantes, identificamos los hechos jurídicamente significativos, diferenciamos hechos acreditados de afirmaciones todavía no verificadas y determinamos qué información resulta necesaria para completar la evaluación.",
+      "p3": "Esta primera aproximación permite evitar un error frecuente: construir una estrategia jurídica sobre una versión de los hechos que posteriormente no pueda ser demostrada.",
+      "p4": "La selección del caso exige, por tanto, confrontar la hipótesis planteada por el cliente con la documentación y demás elementos disponibles."
+    },
+    "pillars": {
+      "title": "Evaluación multidimensional de viabilidad",
+      "items": [
+        {
+          "title": "Viabilidad jurídica",
+          "desc": "Delimitamos los hechos y analizamos el marco normativo aplicable, las acciones disponibles, los presupuestos de procedencia y las posibles objeciones. En materia penal examinamos adecuación típica, causas de exclusión de responsabilidad y consecuencias procesales. En materia constitucional evaluamos la lesión alegada, el derecho fundamental comprometido y la procedencia de la tutela."
+        },
+        {
+          "title": "Viabilidad probatoria",
+          "desc": "La argumentación jurídica no sustituye la necesidad de contar con elementos de prueba capaces de sostener los hechos relevantes. Examinamos qué puede demostrarse, mediante qué medios, con qué grado de confiabilidad y bajo qué condiciones de incorporación y valoración. La pregunta esencial es: ¿Podemos demostrar jurídicamente aquello que afirmamos?"
+        },
+        {
+          "title": "Viabilidad procesal y estratégica",
+          "desc": "Evaluamos competencia, legitimación, oportunidad, cargas procesales, riesgos de medidas cautelares, escenarios de respuesta de la contraparte y consecuencias previsibles de cada alternativa. El resultado puede conducir a asumir el caso, solicitar información adicional, modificar la estrategia inicial o recomendar soluciones preventivas."
+        }
+      ]
+    },
+    "approach": {
+      "title": "Una metodología orientada a decisiones responsables",
+      "p1": "La selección de casos no constituye una barrera de acceso al servicio jurídico. Es un mecanismo de responsabilidad profesional.",
+      "p2": "Preferimos identificar tempranamente las debilidades de un asunto antes que generar expectativas artificiales o promover actuaciones cuya utilidad jurídica sea limitada.",
+      "p3": "Nuestra función consiste en proporcionar al cliente una evaluación técnicamente fundada sobre qué puede hacerse, qué no resulta aconsejable hacer y qué condiciones deben cumplirse para avanzar.",
+      "p4": "Porque una estrategia jurídica sólida no comienza presentando una demanda o una denuncia: comienza determinando si existe realmente un caso que pueda ser defendido."
+    }
   },
   "strategy_case_selection": {
     "title": "Selección de casos | Mac Consultores",
