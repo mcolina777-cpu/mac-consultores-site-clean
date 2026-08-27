@@ -813,9 +813,7 @@
       "case_theory": {
         "tag": "Case theory",
         "title": "Case theory as the axis of defense",
-        "desc": "Each matter is structured from the outset with a clear, coherent, and verifiable case theory. We integrate facts, evidence, and law into a solid legal narrative that guides the entire procedural strategy.",
-        "long_title": "Case theory: from hypothesis to procedural strategy",
-        "long_desc": "Case theory is not rhetorical decoration; it is the backbone of any serious defense. We start from a central hypothesis that explains what happened, why it happened, and how the evidence supports that version against the prosecution’s narrative.\n\nFrom the very first steps, we define the evidentiary story we want the court to hear and understand: which facts are admitted, which are disputed, where the accusation has gaps, and which indicators reveal that the charges are overstated or disproportionate. This theory guides the preparation of statements, the selection of experts, cross‑examination, and the use of documentary evidence.\n\nThe result is a coherent procedural strategy: every brief, every appearance, and every argument responds to a single guiding axis, avoiding defensive contradictions, improvisation, and shifts that undermine the client’s credibility before judges and the Public Prosecutor’s Office."
+        "desc": "The articulatory axis of the defense that integrates facts, evidence, and law into a coherent central hypothesis. We guide all procedural actions towards a verifiable technical narrative against the accusatory thesis."
       },
       "representative_scenarios": {
         "tag": "Representative scenarios",
@@ -826,12 +824,38 @@
       }
     }
   },
-  "strategy_case_theory": {
-    "title": "Case Theory | Mac Consultores",
-    "h1": "Case Theory: From Hypothesis to Procedural Strategy",
-    "p1": "Case theory is not rhetorical discourse; it is the backbone of any serious defense. We start from a central hypothesis that explains what happened, why it happened, and how the evidentiary elements support it against the accusatory version.",
-    "p2": "From the earliest proceedings, we define the evidentiary narrative we want the court to hear and understand: what facts are admitted, which are disputed, what gaps the accusation has, and what indicators reveal that the imputation is forced or disproportionate. This theory guides the preparation of statements, selection of experts, cross-examination, and the use of documentary evidence.",
-    "p3": "The result is a coherent procedural strategy: every writ, every action, and every plea responds to the same argumentative axis, avoiding defensive contradictions, improvisations, and shifts that undermine the client's credibility before the judges and the Public Prosecutor."
+  "landing_estrategia_teoria_caso": {
+    "tag": "PROCEDURAL STRATEGY",
+    "h1": "Case Theory as the Axis of Defense",
+    "subtitle": "Strategic integration of facts, evidence, and law for a verifiable criminal defense.",
+    "intro": {
+      "p1": "In criminal and criminal procedural matters, the defense cannot be reduced to responding in isolation to each action of the prosecution. A technically structured defense needs a central hypothesis about what happened, legally sustainable and capable of being proven through the available evidentiary elements.",
+      "p2": "That construction constitutes the case theory.",
+      "p3": "At Mac Consultores Jurídicos & Asociados, we conceive the case theory as the articulatory axis of the defense strategy. Its function is to integrate three inseparable dimensions: facts + evidence + law.",
+      "p4": "The case theory allows us to determine what must be proven, what elements must be questioned, what are the relevant proofs, what legal arguments must be developed, and how coherence must be maintained between the different actions of the process."
+    },
+    "facts": {
+      "title": "The construction begins with the facts",
+      "p1": "The first task consists of reconstructing the event subject to the procedure.",
+      "p2": "It is not simply a matter of reproducing the version provided by the client. It is necessary to identify chronologies, intervening subjects, conducts, circumstances, documents, communications, and other relevant elements.",
+      "p3": "From there, facts that can be considered established, those that require accreditation, and those that must be disputed are distinguished.",
+      "p4": "This differentiation is essential because a legally effective case theory cannot rest on assertions that lack evidentiary support."
+    },
+    "evidence_and_law": {
+      "title": "Evidence and legal delimitation",
+      "p1": "Evidence as a verification mechanism: The case theory must be verifiable. Each relevant factual proposition must be related to the evidentiary elements capable of supporting it or with the reasons that allow questioning the opposing party's evidence. We analyze relevance, utility, sufficiency, and consistency, evaluating evidentiary lawfulness, authenticity, traceability, and chain of custody.",
+      "p2": "The law delimits what is legally relevant: Not all facts have the same legal importance. We determine which directly affect the elements of the charge and link each proposition with the applicable rule, examining the structure of the criminal offense, forms of participation, and possible causes of exclusion or mitigation of responsibility."
+    },
+    "coherence": {
+      "title": "Procedural coherence and strategic anticipation",
+      "p1": "Coherence throughout the process: A case theory is not an argument exclusively for use in trial; it must guide the strategy from the earliest proceedings (interviews, document review, investigation, and precautionary measures). A defense that unjustifiably modifies its factual explanation generates contradictions that damage its credibility.",
+      "p2": "Anticipating the opposing party: We reconstruct the theory that the prosecution will foreseeably hold, anticipating its points of attack, arguments, and elements of conviction to structure solid responses before each hearing."
+    },
+    "approach": {
+      "title": "A verifiable strategy",
+      "p1": "The case theory provides clear direction in the face of essential questions: What happened? What must we prove? With what elements do we demonstrate our position? What rule is applicable and where are the weaknesses of the accusation?",
+      "p2": "In this way, the defense ceases to be a succession of isolated actions and becomes a coherent procedural strategy, verifiable and oriented towards a defined legal objective."
+    }
   },
   "landing_estrategia_seleccion_casos": {
     "tag": "PROCEDURAL STRATEGY",

@@ -813,9 +813,7 @@
       "case_theory": {
         "tag": "Teoría del caso",
         "title": "Teoría del caso como eje de la defensa",
-        "desc": "Cada asunto se estructura desde el inicio con una teoría del caso clara, coherente y verificable. Integramos hechos, prueba y derecho en una narrativa jurídica sólida que guía toda la actuación procesal, desde la primera diligencia hasta el cierre del caso.",
-        "long_title": "Teoría del caso: de la hipótesis a la estrategia procesal",
-        "long_desc": "La teoría del caso no es un discurso retórico; es la columna vertebral de toda defensa seria. Partimos de una hipótesis central que explica qué ocurrió, por qué ocurrió y cómo los elementos de prueba la sostienen frente a la versión acusatoria.\n\nDesde las primeras diligencias, definimos cuál será la narrativa probatoria que queremos que el tribunal escuche y entienda: qué hechos se admiten, cuáles se disputan, qué vacíos tiene la acusación y qué indicadores revelan que la imputación es forzada o desproporcionada. Esta teoría guía la preparación de declaraciones, la selección de peritos, el contrainterrogatorio y el uso de la prueba documental.\n\nEl resultado es una estrategia procesal coherente: cada escrito, cada actuación y cada alegato responde a un mismo eje argumental, evitando contradicciones defensivas, improvisaciones y giros que restan credibilidad al cliente ante los jueces y el Ministerio Público."
+        "desc": "Eje articulador de la defensa que integra hechos, prueba y derecho en una hipótesis central coherente. Orientamos toda la actuación procesal hacia una narrativa técnica verificable frente a la tesis acusatoria."
       },
       "representative_scenarios": {
         "tag": "Escenarios representativos",
@@ -826,12 +824,38 @@
       }
     }
   },
-  "strategy_case_theory": {
-    "title": "Teoría del caso | Mac Consultores",
-    "h1": "Teoría del caso: de la hipótesis a la estrategia procesal",
-    "p1": "La teoría del caso no es un discurso retórico; es la columna vertebral de toda defensa seria. Partimos de una hipótesis central que explica qué ocurrió, por qué ocurrió y cómo los elementos de prueba la sostienen frente a la versión acusatoria.",
-    "p2": "Desde las primeras diligencias, definimos cuál será la narrativa probatoria que queremos que el tribunal escuche y entienda: qué hechos se admiten, cuáles se disputan, qué vacíos tiene la acusación y qué indicadores revelan que la imputación es forzada o desproporcionada. Esta teoría guía la preparación de declaraciones, la selección de peritos, el contrainterrogatorio y el uso de la prueba documental.",
-    "p3": "El resultado es una estrategia procesal coherente: cada escrito, cada actuación y cada alegato responde a un mismo eje argumental, evitando contradicciones defensivas, improvisaciones y giros que restan credibilidad al cliente ante los jueces y el Ministerio Público."
+  "landing_estrategia_teoria_caso": {
+    "tag": "ESTRATEGIA PROCESAL",
+    "h1": "Teoría del Caso como Eje de la Defensa",
+    "subtitle": "Integración estratégica de hechos, prueba y derecho para una defensa penal verificable.",
+    "intro": {
+      "p1": "En materia penal y procesal penal, la defensa no puede reducirse a responder aisladamente a cada actuación de la acusación. Una defensa técnicamente estructurada necesita una hipótesis central sobre lo ocurrido, jurídicamente sustentable y susceptible de ser demostrada mediante los elementos probatorios disponibles.",
+      "p2": "Esa construcción constituye la teoría del caso.",
+      "p3": "En Mac Consultores Jurídicos & Asociados concebimos la teoría del caso como el eje articulador de la estrategia de defensa. Su función consiste en integrar tres dimensiones inseparables: hechos + prueba + derecho.",
+      "p4": "La teoría del caso permite determinar qué debe demostrarse, qué elementos deben ser cuestionados, cuáles son las pruebas relevantes, qué argumentos jurídicos deben desarrollarse y cómo debe mantenerse coherencia entre las distintas actuaciones del proceso."
+    },
+    "facts": {
+      "title": "La construcción comienza con los hechos",
+      "p1": "La primera tarea consiste en reconstruir el acontecimiento objeto del procedimiento.",
+      "p2": "No se trata de reproducir simplemente la versión proporcionada por el cliente. Es necesario identificar cronología, sujetos intervinientes, conductas, circunstancias, documentos, comunicaciones y demás elementos relevantes.",
+      "p3": "A partir de allí se distinguen los hechos que pueden considerarse establecidos, aquellos que requieren acreditación y aquellos que deben ser controvertidos.",
+      "p4": "Esta diferenciación es esencial porque una teoría del caso jurídicamente eficaz no puede descansar sobre afirmaciones que carezcan de respaldo probatorio."
+    },
+    "evidence_and_law": {
+      "title": "Prueba y delimitación jurídica",
+      "p1": "La prueba como mecanismo de verificación: La teoría del caso debe ser verificable. Cada proposición fáctica relevante debe relacionarse con los elementos probatorios capaces de sostenerla o con las razones que permiten cuestionar la prueba de la contraparte. Analizamos pertinencia, utilidad, suficiencia y consistencia, evaluando licitud probatoria, autenticidad, trazabilidad y cadena de custodia.",
+      "p2": "El derecho delimita lo jurídicamente relevante: No todos los hechos tienen la misma importancia jurídica. Determinamos cuáles inciden directamente en los elementos de la imputación y vinculamos cada proposición con la norma aplicable, examinando la estructura del tipo penal, las formas de participación y las posibles causas de exclusión o atenuación de responsabilidad."
+    },
+    "coherence": {
+      "title": "Coherencia procesal y anticipación estratégica",
+      "p1": "Coherencia durante todo el proceso: Una teoría del caso no es un argumento de uso exclusivo en juicio; debe orientar la estrategia desde las primeras diligencias (entrevistas, revisión documental, investigación y medidas cautelares). Una defensa que modifica injustificadamente su explicación fáctica genera contradicciones que dañan su credibilidad.",
+      "p2": "Anticipación de la contraparte: Reconstruimos la teoría que previsiblemente sostendrá la acusación, anticipando sus puntos de ataque, argumentos y elementos de convicción para estructurar respuestas sólidas antes de cada audiencia."
+    },
+    "approach": {
+      "title": "Una estrategia verificable",
+      "p1": "La teoría del caso proporciona dirección clara frente a preguntas esenciales: ¿Qué ocurrió? ¿Qué debemos demostrar? ¿Con qué elementos demostramos nuestra posición? ¿Qué norma resulta aplicable y dónde se encuentran las debilidades de la acusación?",
+      "p2": "De este modo, la defensa deja de ser una sucesión de actuaciones aisladas y se convierte en una estrategia procesal coherente, verificable y orientada a un objetivo jurídico definido."
+    }
   },
   "landing_estrategia_seleccion_casos": {
     "tag": "ESTRATEGIA PROCESAL",
