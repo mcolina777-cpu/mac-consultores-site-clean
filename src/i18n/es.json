@@ -502,9 +502,9 @@
       },
       "card_2": {
         "tag": "02",
-        "title": "Due Diligence Legal",
-        "desc": "Auditorías de riesgo corporativo, verificación regulatoria exhaustiva y revisión técnica de contingencias legales en jurisdicción venezolana para firmas internacionales que gestionan procesos de inversión, adquisiciones estratégicas o alianzas comerciales de alto nivel.",
-        "link": ""
+        "title": "Áreas de Cooperación Jurídica",
+        "desc": "Capacidad jurídica adaptada a cada asunto: investigación jurídica, opiniones técnicas, due diligence, riesgo penal corporativo, coordinación documental y soporte local en procedimientos transfronterizos.",
+        "link": "VER DETALLES →"
       },
       "card_3": {
         "tag": "03",
@@ -539,6 +539,31 @@
         "p1": "No ofrecemos una representación genérica ni asumimos funciones indeterminadas.",
         "p2": "Antes de iniciar cualquier trabajo se determina: qué asunto debe atenderse; quién es el cliente final; qué jurisdicciones intervienen; qué actuaciones corresponden a Venezuela; qué información y documentación están disponibles; cuáles son los plazos; y qué responsabilidades corresponden a cada profesional. Esta delimitación permite evitar duplicidades, reducir riesgos de comunicación y establecer con precisión el ámbito de actuación de cada firma.",
         "p3": "La ventaja de contar con un Local Counsel no reside únicamente en disponer de presencia profesional en el país. Reside en contar con una firma jurídica local con la solidez técnica y operativa necesaria para traducir la realidad jurídica venezolana al lenguaje y a las exigencias de una operación internacional."
+      }
+    },
+    "landing_t2": {
+      "h1": "Áreas de Cooperación Jurídica",
+      "subtitle": "Capacidad jurídica local para asuntos y operaciones con conexión con Venezuela.",
+      "intro": {
+        "p1": "La cooperación internacional puede adoptar distintas modalidades. Por ello, nuestra intervención no responde a un catálogo rígido de servicios, sino a la identificación previa de las necesidades concretas de la firma contratante y del asunto que requiere asistencia en Venezuela.",
+        "p2": "Nuestra práctica está particularmente orientada hacia Derecho Penal, Derecho Procesal Penal, responsabilidad corporativa y riesgo penal económico, sin perjuicio de otras materias que puedan ser objeto de cooperación profesional previa evaluación."
+      },
+      "when_we_intervene": {
+        "title": "Áreas y modalidades de intervención",
+        "items": [
+          "Investigación jurídica venezolana: Análisis de legislación, reglamentos, jurisprudencia, doctrina y criterios institucionales relevantes para proporcionar a la firma internacional una comprensión precisa del marco jurídico aplicable.",
+          "Informes y opiniones jurídicas: Elaboración de análisis jurídicos destinados a abogados, empresas y asesores internacionales que necesiten determinar las consecuencias jurídicas de una operación o circunstancia en Venezuela.",
+          "Riesgo penal corporativo: Evaluación preventiva de situaciones que puedan generar exposición penal para sociedades, administradores, representantes, empleados o terceros vinculados con operaciones en el país.",
+          "Investigaciones y procedimientos penales: Apoyo jurídico local en asuntos relacionados con investigaciones, actuaciones fiscales, procedimientos judiciales e incidencias procesales aplicables.",
+          "Due diligence jurídico: Revisión de documentación, antecedentes, estructuras societarias, operaciones o circunstancias determinadas desde la perspectiva del ordenamiento jurídico venezolano, con identificación de contingencias.",
+          "Coordinación documental e institucional: Apoyo en la identificación, organización, revisión y preparación de documentación necesaria para actuaciones dentro de Venezuela, así como coordinación profesional e institucional.",
+          "Asuntos transfronterizos: Participación como enlace jurídico local cuando un asunto desarrollado en otra jurisdicción involucre personas, empresas, activos, documentos u operaciones vinculadas con Venezuela."
+        ]
+      },
+      "approach": {
+        "title": "Una intervención diseñada para cada asunto",
+        "p1": "La modalidad de cooperación se determina después de conocer el caso. No todos los asuntos requieren representación judicial. Algunos requieren una opinión jurídica; otros, investigación normativa; otros, revisión documental, análisis de riesgo o coordinación local.",
+        "p2": "Nuestro trabajo comienza precisamente por determinar qué necesita realmente la firma internacional para estructurar una respuesta jurídica precisa, técnica y a la medida."
       }
     },
     "contactBox": {

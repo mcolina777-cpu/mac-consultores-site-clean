@@ -502,9 +502,9 @@
       },
       "card_2": {
         "tag": "02",
-        "title": "Legal Due Diligence",
-        "desc": "Corporate risk audits, comprehensive regulatory compliance, and legal contingency reviews under Venezuelan jurisdiction for global firms managing cross-border foreign investments, strategic acquisitions, or high-level partnerships.",
-        "link": ""
+        "title": "Areas of Legal Cooperation",
+        "desc": "Tailored legal practice: Venezuelan legal research, expert opinions, corporate risk assessments, due diligence audits, documentary coordination, and on-the-ground support for cross-border cases.",
+        "link": "VIEW DETAILS →"
       },
       "card_3": {
         "tag": "03",
@@ -539,6 +539,31 @@
         "p1": "We do not offer generic representation or assume undefined responsibilities.",
         "p2": "Before starting any engagement, we clearly define: the specific matter, ultimate client, participating jurisdictions, actions required in Venezuela, available documentation, delivery timelines, and respective responsibilities. This precise demarcation eliminates redundancies, minimizes communication gaps, and delineates each firm's professional scope.",
         "p3": "The true value of engaging Local Counsel extends far beyond mere jurisdictional presence. It lies in partnering with a structured local law firm equipped to translate Venezuelan legal realities into the technical rigor and strategic demands of cross-border operations."
+      }
+    },
+    "landing_t2": {
+      "h1": "Areas of Legal Cooperation",
+      "subtitle": "Local legal capacity for cross-border matters and transactions connected to Venezuela.",
+      "intro": {
+        "p1": "Cross-border cooperation adopts various modalities. Our intervention does not follow a rigid catalog of services; rather, it adapts to the specific needs of the contracting firm and the particular matter requiring assistance in Venezuela.",
+        "p2": "Our practice focuses primarily on Criminal Law, Criminal Procedural Law, corporate liability, and economic crime risk mitigation, alongside other substantive legal areas subject to prior case evaluation."
+      },
+      "when_we_intervene": {
+        "title": "Practice areas & cooperation modalities",
+        "items": [
+          "Venezuelan legal research: In-depth analysis of statutory law, administrative regulations, case law, doctrine, and institutional criteria to provide foreign counsel with a precise legal framework.",
+          "Legal opinions & expert reports: Technical legal evaluations designed for international counsel and corporations to assess the legal consequences of transactions or events under Venezuelan law.",
+          "Corporate criminal risk management: Preventative assessment of contingencies that could trigger criminal liability for corporations, directors, officers, or third parties connected to operations in Venezuela.",
+          "Criminal proceedings & inquiries: Strategic local support regarding prosecutorial inquiries, court proceedings, and procedural incidents within our scope of professional authority.",
+          "Legal due diligence: Comprehensive review of corporate documentation, historical records, entity structures, and business operations under Venezuelan law to identify material liabilities.",
+          "Documentary & institutional coordination: Organization, review, and legalization of documentation required for formal filings in Venezuela, coordinating directly with relevant authorities.",
+          "Cross-border transaction support: Acting as the dedicated local legal link when foreign transactions involve Venezuelan entities, assets, contracts, or regulatory obligations."
+        ]
+      },
+      "approach": {
+        "title": "Tailored intervention for each matter",
+        "p1": "The modality of engagement is determined following a thorough case assessment. Not all matters require litigation. Some require an expert legal opinion; others, regulatory research, documentary review, risk analysis, or local coordination.",
+        "p2": "Our mandate begins by defining the exact legal requirements of the international firm, delivering rigorous, proportionate, and technically sound legal execution."
       }
     },
     "contactBox": {
