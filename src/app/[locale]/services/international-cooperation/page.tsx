@@ -63,14 +63,12 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             </Link>
 
             {/* TARJETA 2 (T2) */}
-            <div className="card">
+            <Link href={`/${locale}/services/international-cooperation/areas-cooperacion`} className="card block-link">
               <span className="section-tag">{data?.proposal?.card_2?.tag || "02"}</span>
               <h3>{data?.proposal?.card_2?.title}</h3>
               <p>{data?.proposal?.card_2?.desc}</p>
-              {data?.proposal?.card_2?.link && (
-                <span className="card-link">{data?.proposal?.card_2?.link}</span>
-              )}
-            </div>
+              <span className="card-link">{data?.proposal?.card_2?.link || "VER DETALLES →"}</span>
+            </Link>
 
             {/* TARJETA 3 (T3) */}
             <div className="card">
