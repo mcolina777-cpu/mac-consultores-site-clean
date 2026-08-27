@@ -850,21 +850,10 @@
       "p4": "La selección del caso exige, por tanto, confrontar la hipótesis planteada por el cliente con la documentación y demás elementos disponibles."
     },
     "pillars": {
-      "title": "Evaluación multidimensional de viabilidad",
-      "items": [
-        {
-          "title": "Viabilidad jurídica",
-          "desc": "Delimitamos los hechos y analizamos el marco normativo aplicable, las acciones disponibles, los presupuestos de procedencia y las posibles objeciones. En materia penal examinamos adecuación típica, causas de exclusión de responsabilidad y consecuencias procesales. En materia constitucional evaluamos la lesión alegada, el derecho fundamental comprometido y la procedencia de la tutela."
-        },
-        {
-          "title": "Viabilidad probatoria",
-          "desc": "La argumentación jurídica no sustituye la necesidad de contar con elementos de prueba capaces de sostener los hechos relevantes. Examinamos qué puede demostrarse, mediante qué medios, con qué grado de confiabilidad y bajo qué condiciones de incorporación y valoración. La pregunta esencial es: ¿Podemos demostrar jurídicamente aquello que afirmamos?"
-        },
-        {
-          "title": "Viabilidad procesal y estratégica",
-          "desc": "Evaluamos competencia, legitimación, oportunidad, cargas procesales, riesgos de medidas cautelares, escenarios de respuesta de la contraparte y consecuencias previsibles de cada alternativa. El resultado puede conducir a asumir el caso, solicitar información adicional, modificar la estrategia inicial o recomendar soluciones preventivas."
-        }
-      ]
+      "title": "Evaluación de viabilidad jurídica, probatoria y procesal",
+      "p1": "Viabilidad jurídica: Una vez delimitados los hechos, analizamos el marco normativo aplicable, las acciones disponibles, los presupuestos de procedencia y las posibles objeciones. En materia penal examinamos adecuación típica, elementos del delito, causas de exclusión de responsabilidad y consecuencias procesales. En materia constitucional evaluamos la lesión alegada, el derecho fundamental comprometido y la procedencia de la tutela.",
+      "p2": "Viabilidad probatoria: La argumentación jurídica no sustituye la necesidad de contar con elementos de prueba capaces de sostener los hechos relevantes. Examinamos qué puede demostrarse, mediante qué medios, con qué grado de confiabilidad y bajo qué condiciones de incorporación y valoración. La pregunta esencial es: ¿Podemos demostrar jurídicamente aquello que afirmamos?",
+      "p3": "Viabilidad procesal y estratégica: Evaluamos competencia, legitimación, oportunidad, cargas procesales, riesgos, posibles medidas cautelares y escenarios de respuesta. El resultado puede conducir a asumir el caso, solicitar información adicional, modificar la estrategia inicial o recomendar soluciones preventivas."
     },
     "approach": {
       "title": "Una metodología orientada a decisiones responsables",

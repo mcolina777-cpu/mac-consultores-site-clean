@@ -850,21 +850,10 @@
       "p4": "Case selection therefore requires confronting the hypothesis proposed by the client with documentation and other available elements."
     },
     "pillars": {
-      "title": "Multidimensional viability evaluation",
-      "items": [
-        {
-          "title": "Legal viability",
-          "desc": "We delimit the facts and analyze the applicable legal framework, available actions, procedural requirements, and possible objections. In criminal matters, we examine typical adequacy, causes of exclusion of responsibility, and procedural consequences. In constitutional matters, we evaluate the alleged injury, the fundamental right compromised, and the appropriateness of the protection."
-        },
-        {
-          "title": "Evidentiary viability",
-          "desc": "Legal argumentation does not replace the need for evidence capable of supporting the relevant facts. We examine what can be proven, by what means, with what degree of reliability, and under what conditions of incorporation and assessment. The essential question is: Can we legally prove what we affirm?"
-        },
-        {
-          "title": "Procedural and strategic viability",
-          "desc": "We evaluate jurisdiction, standing, timing, procedural burdens, risks of precautionary measures, response scenarios of the opposing party, and foreseeable consequences of each alternative. The result may lead to taking the case, requesting additional information, modifying the initial strategy, or recommending preventive solutions."
-        }
-      ]
+      "title": "Evaluation of legal, evidentiary, and procedural viability",
+      "p1": "Legal viability: Once the facts are delimited, we analyze the applicable legal framework, available actions, procedural requirements, and possible objections. In criminal matters, we examine typical adequacy, elements of the crime, causes of exclusion of responsibility, and procedural consequences. In constitutional matters, we evaluate the alleged injury, the fundamental right compromised, and the appropriateness of the protection.",
+      "p2": "Evidentiary viability: Legal argumentation does not replace the need for evidence capable of supporting the relevant facts. We examine what can be proven, by what means, with what degree of reliability, and under what conditions of incorporation and assessment. The essential question is: Can we legally prove what we affirm?",
+      "p3": "Procedural and strategic viability: We evaluate jurisdiction, standing, timing, procedural burdens, risks, possible precautionary measures, and response scenarios. The result may lead to taking the case, requesting additional information, modifying the initial strategy, or recommending preventive solutions."
     },
     "approach": {
       "title": "A methodology oriented towards responsible decisions",

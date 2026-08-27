@@ -51,15 +51,10 @@ export default async function SeleccionDeCasos({ params }: { params: Promise<{ l
 
           {/* Pillars (Evaluación multidimensional) */}
           <div className="content-section mb-4rem">
-            <h2 className="serif section-title mb-2rem">{data?.pillars?.title}</h2>
-            <div className="grid-3">
-              {data?.pillars?.items?.map((item: { title: string, desc: string }, i: number) => (
-                <div key={i} className="card bg-soft">
-                  <h3 className="mb-1rem">{item.title}</h3>
-                  <p>{item.desc}</p>
-                </div>
-              ))}
-            </div>
+            <h2 className="serif section-title mb-1-5rem">{data?.pillars?.title}</h2>
+            {data?.pillars?.p1 && <p className="text-left max-w-100 mb-1rem">{data?.pillars?.p1}</p>}
+            {data?.pillars?.p2 && <p className="text-left max-w-100 mb-1rem">{data?.pillars?.p2}</p>}
+            {data?.pillars?.p3 && <p className="text-left max-w-100 mb-2rem">{data?.pillars?.p3}</p>}
           </div>
 
           {/* Approach */}
