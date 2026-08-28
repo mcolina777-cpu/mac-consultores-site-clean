@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       siteName: 'Mac Consultores Jurídicos & Asociados',
       images: [
         {
-          url: '/assets/img/OFICINA_2.jpg',
+          url: '/assets/img/OFICINA_2_1.jpeg',
           width: 1200,
           height: 630,
           alt: 'Dr. Marco A. Colina G. - Director General',
@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       card: 'summary_large_image',
       title,
       description,
-      images: ['/assets/img/OFICINA_2.jpg'],
+      images: ['/assets/img/OFICINA_2_1.jpeg'],
     },
   };
 }
@@ -103,9 +103,9 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
 
             <div className="img-reveal img-vertical">
               <picture>
-                <source srcSet="/assets/img-webp/OFICINA_2.webp" type="image/webp" />
+                <source srcSet="/assets/img-webp/OFICINA_2_1.webp" type="image/webp" />
                 <img
-                  src="/assets/img/OFICINA_2.jpg"
+                  src="/assets/img/OFICINA_2_1.jpeg"
                   alt="Dr. Marco A. Colina G. - Director General de Mac Consultores"
                   width={1536}
                   height={2048}
@@ -179,9 +179,9 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
           <div className="grid-split reverse">
             <div className="img-reveal">
               <picture>
-                <source srcSet="/assets/img-webp/OFICINA_3.webp" type="image/webp" />
+                <source srcSet="/assets/img-webp/OFICINA_3_1.webp" type="image/webp" />
                 <img
-                  src="/assets/img/OFICINA_3.jpg"
+                  src="/assets/img/OFICINA_3_1.jpeg"
                   alt="Despacho del Director General de Mac Consultores"
                   width={2752}
                   height={1536}
