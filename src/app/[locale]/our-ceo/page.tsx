@@ -66,7 +66,7 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
         </div>
       </header>
 
-      {/* BLOQUE 1: SEMBLANZA Y FOTOGRAFÍA EJECUTIVA VERTICAL */}
+      {/* BLOQUE 1: SEMBLANZA Y FOTOGRAFÍA EJECUTIVA VERTICAL (SIN BOTÓN DUPLICADO) */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split">
@@ -90,15 +90,6 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
                   ? 'Bajo su conducción, la firma ha consolidado un modelo de asesoría integral con capacidad para atender mandatos judiciales de clientes residenciados tanto en Venezuela como en el ámbito internacional.'
                   : 'Under his leadership, the firm has established a comprehensive legal advisory model capable of handling judicial mandates for clients based in Venezuela and internationally.')}
               </p>
-
-              <div className="mt-1-5rem">
-                <Link
-                  href={getRoute(locale, 'contact')}
-                  className="btn btn-primary"
-                >
-                  {isEs ? 'SOLICITAR CONSULTA ESTRATÉGICA' : 'REQUEST STRATEGIC CONSULTATION'}
-                </Link>
-              </div>
             </div>
 
             <div className="img-reveal img-vertical">
@@ -173,7 +164,7 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
         </div>
       </section>
 
-      {/* BLOQUE 3: DECLARACIÓN INSTITUCIONAL Y FOTO SECUNDARIA */}
+      {/* BLOQUE 3: DECLARACIÓN INSTITUCIONAL Y BOTÓN ÚNICO DE CONTACTO */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split reverse">
@@ -182,7 +173,7 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
                 <source srcSet="/assets/img-webp/OFICINA_3_1.webp" type="image/webp" />
                 <img
                   src="/assets/img/OFICINA_3_1.jpeg"
-                  alt="Despacho del Director General de Mac Consultores Jurídicos & Asociados"
+                  alt="Despacho del Director General de Mac Consultores"
                   width={2752}
                   height={1536}
                   loading="lazy"
@@ -203,7 +194,7 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
               </p>
               <Link
                 href={getRoute(locale, 'contact')}
-                className="btn btn-primary"
+                className="btn btn-outline btn-director"
               >
                 {isEs ? 'SOLICITAR CONSULTA ESTRATÉGICA' : 'REQUEST STRATEGIC CONSULTATION'}
               </Link>
