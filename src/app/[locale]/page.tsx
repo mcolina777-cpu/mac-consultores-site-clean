@@ -156,14 +156,14 @@ export default async function Home({ params }: Props) {
             <h2 className="section-title">{dict?.specialties?.title}</h2>
           </div>
           <div className="grid-3">
-            <Link className="card" href={getRoute(locale, "services")}>
+            <Link className="card" href={getRoute(locale, "services.penal")}>
               <h3>{dict?.specialties?.card_1?.title}</h3>
               <p>{dict?.specialties?.card_1?.desc}</p>
               <span className="card-action-link">
                 <span>{dict?.specialties?.details_link}</span>
               </span>
             </Link>
-            <Link className="card" href={getRoute(locale, "services")}>
+            <Link className="card" href={getRoute(locale, "services.constitucional")}>
               <h3>{dict?.specialties?.card_2?.title}</h3>
               <p>{dict?.specialties?.card_2?.desc}</p>
               <span className="card-action-link">
@@ -238,7 +238,7 @@ export default async function Home({ params }: Props) {
               </picture>
               <h3>{dict?.news?.card_2?.title}</h3>
               <p>{dict?.news?.card_2?.desc}</p>
-              <Link href={getRoute(locale, "blog")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
+              <Link href={getRoute(locale, "news")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
             </div>
             <div className="card">
               <picture>
