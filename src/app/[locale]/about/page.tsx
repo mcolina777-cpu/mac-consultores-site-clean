@@ -64,7 +64,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
         </div>
       </header>
 
-      {/* BLOQUE 1: TRAYECTORIA INSTITUCIONAL + FOTO VERTICAL */}
+      {/* BLOQUE 1: TRAYECTORIA INSTITUCIONAL + FOTO VERTICAL + ENLACE EDITORIAL */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split">
@@ -72,11 +72,19 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               <span className="section-tag">{data?.history?.tag}</span>
               <h2 className="serif section-title mb-1-5rem">{(data?.history as any)?.subtitle || data?.history?.title}</h2>
               <p className="text-left max-w-100 mb-1rem">{data?.history?.desc_1}</p>
-              <p className="text-left max-w-100 mb-1rem">{data?.history?.desc_2}</p>
-              {(data?.history as any)?.desc_3 && (
-                <p className="text-left max-w-100 mb-1-5rem">{(data?.history as any)?.desc_3}</p>
-              )}
+              <p className="text-left max-w-100 mb-2rem">{data?.history?.desc_2}</p>
+              
+              {/* Enlace editorial limpio y refinado hacia la landing page de Arquitectura Jurídica */}
+              <div className="mt-1-5rem">
+                <Link
+                  href={getRoute(locale, 'quienesSomosDetalle')}
+                  className="card-link text-uppercase font-bold tracking-wider"
+                >
+                  {(data as any)?.architecture?.link || "CONOCER NUESTRA HISTORIA Y ARQUITECTURA JURÍDICA →"}
+                </Link>
+              </div>
             </div>
+            
             <div className="img-reveal img-vertical">
               <picture>
                 <source srcSet="/assets/img-webp/OFICINA_1_1.webp" type="image/webp" />
@@ -120,7 +128,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
         </div>
       </section>
 
-      {/* BLOQUE 3: PROPÓSITO INSTITUCIONAL Y LIDERAZGO */}
+      {/* BLOQUE 3: PROPÓSITO INSTITUCIONAL Y LIDERAZGO (BOTÓN CON REGLA Y COLOR ORIGINAL) */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split reverse">
@@ -141,7 +149,10 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
                 {data?.mission?.quote}
               </h2>
               <p className="mb-2rem text-left max-w-100">{data?.mission?.desc}</p>
-              <Link href={getRoute(locale, 'ourCeo')} className="btn btn-primary">
+              <Link
+                href={getRoute(locale, 'ourCeo')}
+                className="btn btn-outline btn-director"
+              >
                 {data?.mission?.btn}
               </Link>
             </div>
