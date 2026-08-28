@@ -182,7 +182,7 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
                 <source srcSet="/assets/img-webp/OFICINA_3_1.webp" type="image/webp" />
                 <img
                   src="/assets/img/OFICINA_3_1.jpeg"
-                  alt="Despacho del Director General de Mac Consultores"
+                  alt="Despacho del Director General de Mac Consultores Jurídicos & Asociados"
                   width={2752}
                   height={1536}
                   loading="lazy"
