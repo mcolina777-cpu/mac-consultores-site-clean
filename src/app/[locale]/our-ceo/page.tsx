@@ -194,7 +194,7 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
               </p>
               <Link
                 href={getRoute(locale, 'contact')}
-                className="btn btn-outline btn-director"
+                className="btn btn-primary"
               >
                 {isEs ? 'SOLICITAR CONSULTA ESTRATÉGICA' : 'REQUEST STRATEGIC CONSULTATION'}
               </Link>
