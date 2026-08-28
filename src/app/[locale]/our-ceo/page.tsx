@@ -203,7 +203,7 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
               </p>
               <Link
                 href={getRoute(locale, 'about')}
-                className="btn btn-outline btn-director"
+                className="btn btn-primary"
               >
                 {isEs ? 'CONOCE LA FIRMA' : 'ABOUT THE FIRM'}
               </Link>
