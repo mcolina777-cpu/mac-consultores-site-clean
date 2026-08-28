@@ -16,7 +16,6 @@ export type RouteKey =
   | "services.consultoria_preventiva"
   | "services.consular"
   | "services.international_cooperation"
-  | "quienesSomosDetalle"
   | "estrategiaTeoriaDelCaso"
   | "estrategiaSeleccionDeCasos"
   | "estrategiaEscenariosRepresentativos"
@@ -48,7 +47,6 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.consultoria_preventiva": "/es/services/consultoria-preventiva",
     "services.consular": "/es/services/consular",
     "services.international_cooperation": "/es/services/international-cooperation",
-    quienesSomosDetalle: "/es/quienes-somos-detalle",
     estrategiaTeoriaDelCaso: "/es/estrategia-teoria-del-caso",
     estrategiaSeleccionDeCasos: "/es/seleccion-de-casos",
     estrategiaEscenariosRepresentativos: "/es/estrategia-escenarios-representativos",
@@ -79,7 +77,6 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.consultoria_preventiva": "/en/services/consultoria-preventiva",
     "services.consular": "/en/services/consular",
     "services.international_cooperation": "/en/services/international-cooperation",
-    quienesSomosDetalle: "/en/quienes-somos-detalle",
     estrategiaTeoriaDelCaso: "/en/estrategia-teoria-del-caso",
     estrategiaSeleccionDeCasos: "/en/case-selection",
     estrategiaEscenariosRepresentativos: "/en/estrategia-escenarios-representativos",
