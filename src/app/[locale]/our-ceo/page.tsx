@@ -7,8 +7,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isEs = locale === 'es';
   const dict = await getDictionary(locale);
-  const title = ((dict as any)?.our_ceo as any)?.meta_title || (isEs ? 'Dr. Marco A. Colina G. | Director General | Mac Consultores' : 'Dr. Marco A. Colina G. | CEO | Mac Consultores');
-  const description = ((dict as any)?.our_ceo as any)?.meta_description || '';
+  const data = (dict as Record<string, any>)?.our_ceo;
+  const title = data?.meta_title || (isEs ? 'Dr. Marco A. Colina G. | Director General | Mac Consultores' : 'Dr. Marco A. Colina G. | CEO | Mac Consultores');
+  const description = data?.meta_description || '';
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/our-ceo`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/our-ceo`;
   const enUrl = `https://mac-consultores-site-clean.vercel.app/en/our-ceo`;
@@ -51,7 +52,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function OurCeo({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  const data = (dict as any)?.our_ceo as any;
+  const data = (dict as Record<string, any>)?.our_ceo;
   const isEs = locale === 'es';
 
   return (
@@ -65,7 +66,7 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
         </div>
       </header>
 
-      {/* BLOQUE 1: SEMBLANZA Y FOTOGRAFÍA EJECUTIVA */}
+      {/* BLOQUE 1: SEMBLANZA Y FOTOGRAFÍA EJECUTIVA VERTICAL */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split">
@@ -102,6 +103,7 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
 
             <div className="img-reveal img-vertical">
               <picture>
+                <source srcSet="/assets/img-webp/OFICINA_2_1.webp" type="image/webp" />
                 <img
                   src="/assets/img/OFICINA_2_1.jpeg"
                   alt="Dr. Marco A. Colina G. - Director General de Mac Consultores"
@@ -115,7 +117,7 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
         </div>
       </section>
 
-      {/* BLOQUE 2: PILARES DE AUTORIDAD Y CREDENCIALES FORENSES (REDISEÑO APPLE PREMIUM) */}
+      {/* BLOQUE 2: PILARES DE AUTORIDAD Y CREDENCIALES FORENSES */}
       <section className="bg-soft section-padding-asym">
         <div className="container">
           <div className="axial-header axial-centered text-center mb-3-5rem">
@@ -126,7 +128,6 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
           </div>
 
           <div className="grid-3">
-            {/* Pilar 1 */}
             <div className="card">
               <span className="serif" style={{ fontSize: '2.5rem', fontWeight: 600, color: 'var(--color-primary)', display: 'block', marginBottom: '0.75rem', lineHeight: 1 }}>
                 +20
@@ -141,7 +142,6 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
               </p>
             </div>
 
-            {/* Pilar 2 */}
             <div className="card">
               <span className="serif" style={{ fontSize: '2.5rem', fontWeight: 600, color: 'var(--color-primary)', display: 'block', marginBottom: '0.75rem', lineHeight: 1 }}>
                 IV
@@ -156,7 +156,6 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
               </p>
             </div>
 
-            {/* Pilar 3 */}
             <div className="card">
               <span className="serif" style={{ fontSize: '2.5rem', fontWeight: 600, color: 'var(--color-primary)', display: 'block', marginBottom: '0.75rem', lineHeight: 1 }}>
                 TSJ
@@ -174,12 +173,13 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
         </div>
       </section>
 
-      {/* BLOQUE 3: DECLARACIÓN DE PRINCIPIOS Y COMPROMISO ÉTICO */}
+      {/* BLOQUE 3: DECLARACIÓN INSTITUCIONAL Y FOTO SECUNDARIA */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split reverse">
             <div className="img-reveal">
               <picture>
+                <source srcSet="/assets/img-webp/OFICINA_3_1.webp" type="image/webp" />
                 <img
                   src="/assets/img/OFICINA_3_1.jpeg"
                   alt="Despacho del Director General de Mac Consultores"
