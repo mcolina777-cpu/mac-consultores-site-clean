@@ -202,10 +202,10 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
                   : 'The defense of our clients’ corporate and individual interests requires rigorous analysis. Every legal theory undergoes strict doctrinal and evidentiary viability checks to ensure strength before the courts.'}
               </p>
               <Link
-                href={getRoute(locale, 'quienesSomosDetalle')}
-                className="btn btn-outline"
+                href={getRoute(locale, 'about')}
+                className="btn btn-outline btn-director"
               >
-                {isEs ? 'CONOCER LA FIRMA' : 'ABOUT THE FIRM'}
+                {isEs ? 'CONOCE LA FIRMA' : 'ABOUT THE FIRM'}
               </Link>
             </div>
           </div>
