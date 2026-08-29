@@ -7,8 +7,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isEs = locale === 'es';
   const dict = await getDictionary(locale);
-  const title = dict?.quienes_somos?.meta_title || (isEs ? 'Quiénes Somos | Mac Consultores Jurídicos & Asociados' : 'About Us | Mac Consultores Jurídicos & Asociados');
-  const description = dict?.quienes_somos?.meta_description || '';
+  const data = (dict as any)?.quienes_somos_detalle || (dict as any)?.quienes_somos;
+  const title = data?.title || (isEs ? 'Quiénes Somos | Mac Consultores Jurídicos & Asociados' : 'About Us | Mac Consultores Jurídicos & Asociados');
+  const description = (dict as any)?.quienes_somos?.meta_description || '';
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/about`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/about`;
   const enUrl = `https://mac-consultores-site-clean.vercel.app/en/about`;
@@ -50,45 +51,38 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function QuienesSomos({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const isEs = locale === 'es';
   const dict = await getDictionary(locale);
-  const data = dict?.quienes_somos;
-  const detalleData = dict?.quienes_somos_detalle;
+  const data = (dict as any)?.quienes_somos_detalle;
+  const isEs = locale === 'es';
 
   return (
     <main className="page-quienes-somos">
       {/* HEADER PRINCIPAL */}
       <header className="page-header header-soft-bg">
         <div className="container">
-          <span className="section-tag">{data?.breadcrumb || (isEs ? 'NUESTRA FIRMA' : 'OUR FIRM')}</span>
+          <span className="section-tag">{data?.breadcrumb || (isEs ? 'INICIO / LA FIRMA / NUESTRA HISTORIA' : 'HOME / THE FIRM / OUR HISTORY')}</span>
           <h1 className="mb-1-5rem serif">
-            {isEs ? 'Arquitectura jurídica para desafíos de alta complejidad' : 'Legal Architecture for High-Complexity Challenges'}
+            {data?.h1 || (isEs ? 'Arquitectura jurídica para desafíos de alta complejidad' : 'Legal Architecture for High-Complexity Challenges')}
           </h1>
           <p className="hero-subtitle">
-            {isEs ? 'Rigor, lealtad y estrategia al servicio de sus intereses' : 'Rigor, loyalty, and strategy serving your interests'}
+            {isEs ? 'Nuestra Historia, Principios y Rigor Metodológico' : 'Our History, Principles, and Methodological Rigor'}
           </p>
         </div>
       </header>
 
-      {/* BLOQUE 1: TRAYECTORIA INSTITUCIONAL + FOTO VERTICAL */}
+      {/* BLOQUE 1: NUESTRA HISTORIA Y TRAYECTORIA COMPLETA */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split">
             <div className="about-content">
-              <span className="section-tag">{data?.history?.tag || (isEs ? 'TRAYECTORIA INSTITUCIONAL' : 'INSTITUTIONAL HISTORY')}</span>
+              <span className="section-tag">{data?.history?.tag || (isEs ? 'NUESTRA HISTORIA' : 'OUR HISTORY')}</span>
               <h2 className="serif section-title mb-1-5rem">
-                {(data?.history as any)?.subtitle || (isEs ? 'Fundación y Expansión (2015)' : 'Foundation and Expansion (2015)')}
+                {isEs ? 'Fundación y Vocación Forense' : 'Foundation and Forensic Vocation'}
               </h2>
-              <p className="text-left max-w-100 mb-1-5rem">
-                {detalleData?.history?.p1 || (isEs 
-                  ? 'Fundada en el año 2015 bajo la dirección del Dr. Marco A. Colina G., Mac Consultores Jurídicos & Asociados nació con la vocación de ofrecer un modelo de asesoría integral y litigación estratégica.' 
-                  : 'Founded in 2015 under the leadership of Dr. Marco A. Colina G., Mac Consultores Jurídicos & Asociados was established to offer comprehensive advisory and strategic litigation.')}
-              </p>
-              <p className="text-left max-w-100 mb-2rem">
-                {detalleData?.history?.p2 || (isEs 
-                  ? 'A lo largo de nuestra trayectoria, hemos consolidado una práctica profesional que atiende con idéntico rigor mandatos de clientes nacionales e internacionales, desarrollando soluciones a la medida para cada caso.'
-                  : 'Throughout our history, we have consolidated a professional practice that handles mandates from national and international clients with identical rigor, developing tailored solutions for each case.')}
-              </p>
+              <p className="text-left max-w-100 mb-1rem">{data?.history?.p1}</p>
+              <p className="text-left max-w-100 mb-1rem">{data?.history?.p2}</p>
+              <p className="text-left max-w-100 mb-1rem">{data?.history?.p3}</p>
+              <p className="text-left max-w-100 mb-2rem">{data?.history?.p4}</p>
             </div>
             
             <div className="img-reveal img-vertical">
@@ -107,58 +101,64 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
         </div>
       </section>
 
-      {/* BLOQUE 2: VALORES Y PRINCIPIOS RECTORES */}
+      {/* BLOQUE 2: MISIÓN Y LOS 4 PRINCIPIOS RECTORES */}
       <section className="bg-soft section-padding-asym">
         <div className="container">
-          <div className="axial-header axial-centered text-center mb-3rem">
-            <span className="section-tag">{isEs ? 'PRINCIPIOS RECTORES' : 'GUIDING PRINCIPLES'}</span>
-            <h2 className="serif section-title mt-1rem">{detalleData?.mission?.title || (isEs ? 'Valores y Principios' : 'Values and Principles')}</h2>
+          <div className="axial-header axial-centered text-center mb-3-5rem">
+            <span className="section-tag">{isEs ? 'DEONTOLOGÍA & ÉTICA' : 'DEONTOLOGY & ETHICS'}</span>
+            <h2 className="serif section-title mt-1rem">{data?.mission?.title || (isEs ? 'Misión y Valores' : 'Mission & Values')}</h2>
+            <p className="max-w-700 mx-auto mt-1-5rem" style={{ fontSize: '1.1rem', lineHeight: 1.7, fontStyle: 'italic' }}>
+              “{data?.mission?.p1}”
+            </p>
+            <p className="max-w-700 mx-auto mt-1rem text-muted" style={{ fontSize: '0.95rem' }}>
+              {data?.mission?.p2}
+            </p>
           </div>
-          <div className="grid-3">
-            <div className="card">
-              <span className="serif text-primary" style={{ fontSize: '2rem', display: 'block', marginBottom: '0.5rem' }}>I</span>
-              <h3 className="serif">{isEs ? 'Legalidad' : 'Legality'}</h3>
-              <p>{isEs ? 'Como fundamento inquebrantable de toda actuación jurídica y procesal.' : 'As the unwavering foundation of all legal and procedural actions.'}</p>
-            </div>
-            <div className="card">
-              <span className="serif text-primary" style={{ fontSize: '2rem', display: 'block', marginBottom: '0.5rem' }}>II</span>
-              <h3 className="serif">{isEs ? 'Independencia Técnica' : 'Technical Independence'}</h3>
-              <p>{isEs ? 'Para garantizar criterios objetivos, libres de conflictos de interés.' : 'To guarantee objective criteria, free from conflicts of interest.'}</p>
-            </div>
-            <div className="card">
-              <span className="serif text-primary" style={{ fontSize: '2rem', display: 'block', marginBottom: '0.5rem' }}>III</span>
-              <h3 className="serif">{isEs ? 'Confidencialidad' : 'Confidentiality'}</h3>
-              <p>{isEs ? 'Secreto profesional como compromiso absoluto para la protección del cliente.' : 'Professional secrecy as an absolute commitment to client protection.'}</p>
-            </div>
+
+          <div className="grid-2 gap-2rem" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+            {data?.mission?.list?.map((item: string, idx: number) => (
+              <div key={idx} className="card" style={{ padding: '2rem', background: 'var(--color-bg-card, #ffffff)' }}>
+                <span className="serif text-primary" style={{ fontSize: '1.5rem', fontWeight: 600, display: 'block', marginBottom: '0.75rem' }}>
+                  0{idx + 1}
+                </span>
+                <div
+                  style={{ fontSize: '0.95rem', lineHeight: 1.6 }}
+                  dangerouslySetInnerHTML={{ __html: item }}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* BLOQUE 3: ÁREAS DE PRÁCTICA ESPECIALIZADAS */}
+      {/* BLOQUE 3: ÁREAS DE PRÁCTICA */}
       <section className="section-padding-asym">
         <div className="container">
-          <div className="axial-header axial-centered text-center mb-3rem">
+          <div className="axial-header axial-centered text-center mb-3-5rem">
             <span className="section-tag">{isEs ? 'CAPACIDAD TÉCNICA' : 'TECHNICAL CAPACITY'}</span>
-            <h2 className="serif section-title mt-1rem">{detalleData?.areas?.title || (isEs ? 'Áreas de Práctica Especializadas' : 'Specialized Practice Areas')}</h2>
+            <h2 className="serif section-title mt-1rem">{data?.areas?.title || (isEs ? 'Áreas de Práctica' : 'Practice Areas')}</h2>
+            <p className="max-w-700 mx-auto mt-1rem text-muted" style={{ fontSize: '0.95rem' }}>
+              {data?.areas?.p1}
+            </p>
           </div>
-          <div className="grid-3">
-            <div className="card">
-              <h3 className="serif">{isEs ? 'Derecho Penal Corporativo' : 'Corporate Criminal Law'}</h3>
-              <p>{isEs ? 'Defensa técnica especializada y representación de intereses patrimoniales y corporativos ante la jurisdicción penal.' : 'Specialized technical defense and representation of patrimonial and corporate interests before the criminal jurisdiction.'}</p>
-            </div>
-            <div className="card">
-              <h3 className="serif">{isEs ? 'Consultoría en Riesgos Jurídicos' : 'Legal Risk Consulting'}</h3>
-              <p>{isEs ? 'Diagnóstico preventivo e implementación de estrategias de mitigación para blindar las operaciones de nuestros patrocinados.' : 'Preventive diagnosis and implementation of mitigation strategies to shield our clients’ operations.'}</p>
-            </div>
-            <div className="card">
-              <h3 className="serif">{isEs ? 'Litigación Especializada' : 'Specialized Litigation'}</h3>
-              <p>{isEs ? 'Representación de alta complejidad, incluyendo recursos extraordinarios ante tribunales superiores y de casación.' : 'High-complexity representation, including extraordinary appeals before higher courts and supreme tribunals.'}</p>
-            </div>
+
+          <div className="grid-3 gap-2rem">
+            {data?.areas?.list?.map((item: string, idx: number) => (
+              <div key={idx} className="card" style={{ padding: '2rem' }}>
+                <span className="serif text-primary" style={{ fontSize: '1.5rem', fontWeight: 600, display: 'block', marginBottom: '0.75rem' }}>
+                  {['I', 'II', 'III'][idx] || idx + 1}
+                </span>
+                <div
+                  style={{ fontSize: '0.95rem', lineHeight: 1.6 }}
+                  dangerouslySetInnerHTML={{ __html: item }}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* BLOQUE 4: PROPÓSITO INSTITUCIONAL Y LIDERAZGO FORENSE */}
+      {/* BLOQUE 4: LO QUE NOS DISTINGUE Y LIDERAZGO FORENSE */}
       <section className="bg-soft section-padding-asym">
         <div className="container">
           <div className="grid-split reverse">
@@ -174,20 +174,20 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               </picture>
             </div>
             <div className="vision-text">
-              <span className="section-tag">{(data?.mission as any)?.tag || (isEs ? "LIDERAZGO FORENSE" : "LEGAL LEADERSHIP")}</span>
+              <span className="section-tag">{isEs ? 'MÉTODO & RIGOR' : 'METHOD & RIGOR'}</span>
               <h2 className="serif heading-lg mb-1-5rem line-height-1-1">
-                {data?.mission?.quote || (isEs ? '“El rigor metodológico es la garantía de nuestra efectividad.”' : '“Methodological rigor is the guarantee of our effectiveness.”')}
+                {data?.distinction?.title || (isEs ? 'Lo Que Nos Distingue' : 'What Sets Us Apart')}
               </h2>
-              <p className="mb-2rem text-left max-w-100">
-                {detalleData?.distinction?.p1 || (isEs 
-                  ? 'Más allá de la práctica tradicional, concebimos cada caso como un desafío de arquitectura jurídica, donde cada elemento probatorio y dogmático se estructura con precisión milimétrica.'
-                  : 'Beyond traditional practice, we conceive each case as a challenge in legal architecture, where every evidentiary and doctrinal element is structured with millimeter precision.')}
-              </p>
+              <p className="mb-1rem text-left max-w-100">{data?.distinction?.p1}</p>
+              <p className="mb-1rem text-left max-w-100">{data?.distinction?.p2}</p>
+              <p className="mb-1-5rem text-left max-w-100">{data?.distinction?.p3}</p>
+              <p className="mb-2rem text-left max-w-100 font-medium">{data?.distinction?.p4}</p>
+              
               <Link
                 href={getRoute(locale, 'ourCeo')}
                 className="btn btn-primary"
               >
-                {data?.mission?.btn || (isEs ? 'CONOCE A NUESTRO DIRECTOR' : 'MEET OUR DIRECTOR')}
+                {isEs ? 'CONOCE A NUESTRO DIRECTOR GENERAL' : 'MEET OUR MANAGING PARTNER'}
               </Link>
             </div>
           </div>
