@@ -123,13 +123,23 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '2rem', alignItems: 'stretch' }}>
-            <Link href={getRoute(locale, "about.legalidad_diligencia" as any)} className="card" style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}>
-              <span className="section-tag">{(dict as any)?.deontologia?.legalidad_diligencia?.card_tag || '01'}</span>
-              <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>{(dict as any)?.deontologia?.legalidad_diligencia?.card_title || 'Legalidad y Diligencia'}</h3>
-              <p className="card-desc mb-1rem" style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                {(dict as any)?.deontologia?.legalidad_diligencia?.card_desc}
+            <Link href={getRoute(locale, "about.legalidad_diligencia" as any)} className="card">
+              <span className="section-tag">01</span>
+              <h3>{isEs ? 'Legalidad y Diligencia' : 'Legality & Due Diligence'}</h3>
+              <p className="card-desc">
+                {isEs 
+                  ? 'Como fundamento inquebrantable de toda actuación jurídica y procesal.' 
+                  : 'As the unwavering foundation of all legal and procedural actions.'}
               </p>
-              <span className="card-link mt-auto">{(dict as any)?.deontologia?.legalidad_diligencia?.card_link || 'VER DETALLES →'}</span>
+              <ul className="service-list">
+                <li>{isEs ? 'Sometimiento estricto a la Constitución y la Ley' : 'Strict adherence to Constitution and Law'}</li>
+                <li>{isEs ? 'Evaluación y diligencia desde el primer contacto' : 'Assessment and diligence from first contact'}</li>
+                <li>{isEs ? 'Análisis jurídico y procesal responsable' : 'Responsible legal and procedural analysis'}</li>
+                <li>{isEs ? 'Control riguroso de plazos y términos' : 'Strict control of deadlines and proceedings'}</li>
+                <li>{isEs ? 'Comunicación transparente y expectativas reales' : 'Transparent communication and realistic expectations'}</li>
+                <li>{isEs ? 'Estrategias fundadas en la legitimidad de los medios' : 'Strategies based on legitimate means'}</li>
+              </ul>
+              <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
             </Link>
 
             <div className="card" style={{ color: 'inherit' }}>
