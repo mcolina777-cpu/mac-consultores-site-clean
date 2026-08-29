@@ -127,7 +127,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               <span className="section-tag">{(dict as any)?.deontologia?.legalidad_diligencia?.card_tag || '01'}</span>
               <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>{(dict as any)?.deontologia?.legalidad_diligencia?.card_title || 'Legalidad y Diligencia'}</h3>
               <p className="card-desc mb-1rem" style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                {isEs ? 'Toda estrategia jurídica en nuestra firma se fundamenta en el estricto sometimiento a la Constitución y las leyes. La diligencia rige cada actuación desde el primer contacto, evaluando la viabilidad técnica y los riesgos procesales para consolidar defensas legítimas y sostenibles.' : 'Every legal strategy in our firm is based on strict adherence to the Constitution and the laws. Diligence governs every action from the first contact, evaluating technical viability and procedural risks to consolidate legitimate and sustainable defenses.'}
+                {(dict as any)?.deontologia?.legalidad_diligencia?.card_desc}
               </p>
               <span className="card-link mt-auto">{(dict as any)?.deontologia?.legalidad_diligencia?.card_link || 'VER DETALLES →'}</span>
             </Link>
