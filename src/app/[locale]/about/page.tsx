@@ -109,28 +109,50 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
         </div>
       </section>
 
-      {/* BLOQUE 2: VALORES Y PILARES INSTITUCIONALES (GRID-3 LIMPIO Y COMPACTO) */}
+      {/* BLOQUE 2: MISIÓN Y LOS 4 PRINCIPIOS RECTORES (DISEÑO EDITORIAL TIPOGRÁFICO) */}
       <section className="bg-soft section-padding-asym">
         <div className="container">
-          <div className="axial-header axial-centered text-center mb-3rem">
-            <span className="section-tag">{data?.values?.tag || (isEs ? 'PRINCIPIOS RECTORES' : 'GUIDING PRINCIPLES')}</span>
-            <h2 className="serif section-title mt-1rem">{data?.values?.title || (isEs ? 'Nuestros Pilares' : 'Our Pillars')}</h2>
+          <div className="axial-header axial-centered text-center mb-3-5rem">
+            <span className="section-tag">{isEs ? 'DEONTOLOGÍA & VALORES' : 'DEONTOLOGY & VALUES'}</span>
+            <h2 className="serif section-title mt-1rem">{isEs ? 'Misión y Principios Fundacionales' : 'Mission and Foundational Principles'}</h2>
+            <p className="max-w-800 mx-auto mt-1-5rem serif" style={{ fontSize: '1.2rem', lineHeight: 1.6, color: 'var(--color-primary)' }}>
+              “{isEs 
+                ? 'Nuestra misión es transformar los desafíos legales de nuestros clientes en escenarios de seguridad jurídica y crecimiento, mediante soluciones estratégicas, técnicamente sólidas y desarrolladas con absoluto apego a la ética profesional.' 
+                : 'Our mission is to transform our clients’ legal challenges into scenarios of legal certainty and growth, through strategic, technically sound solutions developed with absolute adherence to professional ethics.'}”
+            </p>
           </div>
-          <div className="grid-3">
-            <div className="card">
-              <span className="section-tag">01</span>
-              <h3 className="serif">{data?.values?.card_1?.title || (isEs ? 'Visión Estratégica' : 'Strategic Vision')}</h3>
-              <p>{data?.values?.card_1?.desc}</p>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '2.5rem' }}>
+            <div style={{ borderTop: '2px solid var(--color-accent, #c5a880)', paddingTop: '1.5rem' }}>
+              <span className="serif text-primary" style={{ fontSize: '1.5rem', fontWeight: 600, display: 'block', marginBottom: '0.5rem' }}>I</span>
+              <h3 className="serif mb-0-5rem" style={{ fontSize: '1.15rem' }}>{isEs ? 'Legalidad y Diligencia' : 'Legality & Due Diligence'}</h3>
+              <p style={{ fontSize: '0.9rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
+                {isEs ? 'Como fundamento inquebrantable de toda actuación jurídica y procesal.' : 'As the unwavering foundation of all legal and procedural actions.'}
+              </p>
             </div>
-            <div className="card">
-              <span className="section-tag">02</span>
-              <h3 className="serif">{data?.values?.card_2?.title || (isEs ? 'Rigor Técnico' : 'Technical Rigor')}</h3>
-              <p>{data?.values?.card_2?.desc}</p>
+
+            <div style={{ borderTop: '2px solid var(--color-accent, #c5a880)', paddingTop: '1.5rem' }}>
+              <span className="serif text-primary" style={{ fontSize: '1.5rem', fontWeight: 600, display: 'block', marginBottom: '0.5rem' }}>II</span>
+              <h3 className="serif mb-0-5rem" style={{ fontSize: '1.15rem' }}>{isEs ? 'Independencia Técnica' : 'Technical Independence'}</h3>
+              <p style={{ fontSize: '0.9rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
+                {isEs ? 'Garantiza criterios objetivos y rigurosos, libres de injerencias ajenas al interés del cliente.' : 'Guarantees objective and rigorous criteria, free from external interference.'}
+              </p>
             </div>
-            <div className="card">
-              <span className="section-tag">03</span>
-              <h3 className="serif">{data?.values?.card_3?.title || (isEs ? 'Reserva Profesional' : 'Professional Secrecy')}</h3>
-              <p>{data?.values?.card_3?.desc}</p>
+
+            <div style={{ borderTop: '2px solid var(--color-accent, #c5a880)', paddingTop: '1.5rem' }}>
+              <span className="serif text-primary" style={{ fontSize: '1.5rem', fontWeight: 600, display: 'block', marginBottom: '0.5rem' }}>III</span>
+              <h3 className="serif mb-0-5rem" style={{ fontSize: '1.15rem' }}>{isEs ? 'Transparencia y Buena Fe' : 'Transparency & Good Faith'}</h3>
+              <p style={{ fontSize: '0.9rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
+                {isEs ? 'En cada etapa de la relación profesional y procesal con quienes confían en nosotros.' : 'At every stage of the professional and procedural relationship with our clients.'}
+              </p>
+            </div>
+
+            <div style={{ borderTop: '2px solid var(--color-accent, #c5a880)', paddingTop: '1.5rem' }}>
+              <span className="serif text-primary" style={{ fontSize: '1.5rem', fontWeight: 600, display: 'block', marginBottom: '0.5rem' }}>IV</span>
+              <h3 className="serif mb-0-5rem" style={{ fontSize: '1.15rem' }}>{isEs ? 'Confidencialidad y Secreto' : 'Confidentiality & Secrecy'}</h3>
+              <p style={{ fontSize: '0.9rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
+                {isEs ? 'Compromiso absoluto en el tratamiento y custodia de la información confiada.' : 'Absolute commitment to the protection and custody of confidential information.'}
+              </p>
             </div>
           </div>
         </div>
