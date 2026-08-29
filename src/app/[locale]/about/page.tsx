@@ -7,9 +7,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isEs = locale === 'es';
   const dict = await getDictionary(locale);
-  const data = (dict as any)?.quienes_somos_detalle || (dict as any)?.quienes_somos;
-  const title = data?.title || (isEs ? 'Quiénes Somos | Mac Consultores Jurídicos & Asociados' : 'About Us | Mac Consultores Jurídicos & Asociados');
-  const description = (dict as any)?.quienes_somos?.meta_description || '';
+  const data = (dict as any)?.quienes_somos;
+  const title = data?.meta_title || (isEs ? 'Quiénes Somos | Mac Consultores Jurídicos & Asociados' : 'About Us | Mac Consultores Jurídicos & Asociados');
+  const description = data?.meta_description || '';
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/about`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/about`;
   const enUrl = `https://mac-consultores-site-clean.vercel.app/en/about`;
@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function QuienesSomos({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  const data = (dict as any)?.quienes_somos_detalle;
+  const data = (dict as any)?.quienes_somos;
   const isEs = locale === 'es';
 
   return (
@@ -60,17 +60,17 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
       {/* HEADER PRINCIPAL */}
       <header className="page-header header-soft-bg">
         <div className="container">
-          <span className="section-tag">{data?.breadcrumb || (isEs ? 'INICIO / LA FIRMA / NUESTRA HISTORIA' : 'HOME / THE FIRM / OUR HISTORY')}</span>
+          <span className="section-tag">{data?.breadcrumb || (isEs ? 'INICIO / LA FIRMA' : 'HOME / THE FIRM')}</span>
           <h1 className="mb-1-5rem serif">
-            {data?.h1 || (isEs ? 'Arquitectura jurídica para desafíos de alta complejidad' : 'Legal Architecture for High-Complexity Challenges')}
+            {isEs ? 'Arquitectura jurídica para desafíos de alta complejidad' : 'Legal Architecture for High-Complexity Challenges'}
           </h1>
           <p className="hero-subtitle">
-            {isEs ? 'Nuestra Historia, Principios y Rigor Metodológico' : 'Our History, Principles, and Methodological Rigor'}
+            {isEs ? 'Rigor, lealtad y estrategia al servicio de sus intereses' : 'Rigor, loyalty, and strategy serving your interests'}
           </p>
         </div>
       </header>
 
-      {/* BLOQUE 1: NUESTRA HISTORIA Y TRAYECTORIA COMPLETA */}
+      {/* BLOQUE 1: TRAYECTORIA INSTITUCIONAL (PROPORCIÓN PERFECTA CON LA FOTO) */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split">
@@ -79,10 +79,8 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               <h2 className="serif section-title mb-1-5rem">
                 {isEs ? 'Fundación y Vocación Forense' : 'Foundation and Forensic Vocation'}
               </h2>
-              <p className="text-left max-w-100 mb-1rem">{data?.history?.p1}</p>
-              <p className="text-left max-w-100 mb-1rem">{data?.history?.p2}</p>
-              <p className="text-left max-w-100 mb-1rem">{data?.history?.p3}</p>
-              <p className="text-left max-w-100 mb-2rem">{data?.history?.p4}</p>
+              <p className="text-left max-w-100 mb-1rem">{data?.history?.desc_1}</p>
+              <p className="text-left max-w-100 mb-2rem">{data?.history?.desc_2}</p>
             </div>
             
             <div className="img-reveal img-vertical">
@@ -101,65 +99,35 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
         </div>
       </section>
 
-      {/* BLOQUE 2: MISIÓN Y LOS 4 PRINCIPIOS RECTORES */}
+      {/* BLOQUE 2: VALORES Y PILARES INSTITUCIONALES (GRID-3 LIMPIO Y COMPACTO) */}
       <section className="bg-soft section-padding-asym">
         <div className="container">
-          <div className="axial-header axial-centered text-center mb-3-5rem">
-            <span className="section-tag">{isEs ? 'DEONTOLOGÍA & ÉTICA' : 'DEONTOLOGY & ETHICS'}</span>
-            <h2 className="serif section-title mt-1rem">{data?.mission?.title || (isEs ? 'Misión y Valores' : 'Mission & Values')}</h2>
-            <p className="max-w-700 mx-auto mt-1-5rem" style={{ fontSize: '1.1rem', lineHeight: 1.7, fontStyle: 'italic' }}>
-              “{data?.mission?.p1}”
-            </p>
-            <p className="max-w-700 mx-auto mt-1rem text-muted" style={{ fontSize: '0.95rem' }}>
-              {data?.mission?.p2}
-            </p>
+          <div className="axial-header axial-centered text-center mb-3rem">
+            <span className="section-tag">{data?.values?.tag || (isEs ? 'PRINCIPIOS RECTORES' : 'GUIDING PRINCIPLES')}</span>
+            <h2 className="serif section-title mt-1rem">{data?.values?.title || (isEs ? 'Nuestros Pilares' : 'Our Pillars')}</h2>
           </div>
-
-          <div className="grid-2 gap-2rem" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
-            {data?.mission?.list?.map((item: string, idx: number) => (
-              <div key={idx} className="card" style={{ padding: '2rem', background: 'var(--color-bg-card, #ffffff)' }}>
-                <span className="serif text-primary" style={{ fontSize: '1.5rem', fontWeight: 600, display: 'block', marginBottom: '0.75rem' }}>
-                  0{idx + 1}
-                </span>
-                <div
-                  style={{ fontSize: '0.95rem', lineHeight: 1.6 }}
-                  dangerouslySetInnerHTML={{ __html: item }}
-                />
-              </div>
-            ))}
+          <div className="grid-3">
+            <div className="card">
+              <span className="section-tag">01</span>
+              <h3 className="serif">{data?.values?.card_1?.title || (isEs ? 'Visión Estratégica' : 'Strategic Vision')}</h3>
+              <p>{data?.values?.card_1?.desc}</p>
+            </div>
+            <div className="card">
+              <span className="section-tag">02</span>
+              <h3 className="serif">{data?.values?.card_2?.title || (isEs ? 'Rigor Técnico' : 'Technical Rigor')}</h3>
+              <p>{data?.values?.card_2?.desc}</p>
+            </div>
+            <div className="card">
+              <span className="section-tag">03</span>
+              <h3 className="serif">{data?.values?.card_3?.title || (isEs ? 'Reserva Profesional' : 'Professional Secrecy')}</h3>
+              <p>{data?.values?.card_3?.desc}</p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* BLOQUE 3: ÁREAS DE PRÁCTICA */}
+      {/* BLOQUE 3: PROPÓSITO INSTITUCIONAL Y LIDERAZGO FORENSE */}
       <section className="section-padding-asym">
-        <div className="container">
-          <div className="axial-header axial-centered text-center mb-3-5rem">
-            <span className="section-tag">{isEs ? 'CAPACIDAD TÉCNICA' : 'TECHNICAL CAPACITY'}</span>
-            <h2 className="serif section-title mt-1rem">{data?.areas?.title || (isEs ? 'Áreas de Práctica' : 'Practice Areas')}</h2>
-            <p className="max-w-700 mx-auto mt-1rem text-muted" style={{ fontSize: '0.95rem' }}>
-              {data?.areas?.p1}
-            </p>
-          </div>
-
-          <div className="grid-3 gap-2rem">
-            {data?.areas?.list?.map((item: string, idx: number) => (
-              <div key={idx} className="card" style={{ padding: '2rem' }}>
-                <span className="serif text-primary" style={{ fontSize: '1.5rem', fontWeight: 600, display: 'block', marginBottom: '0.75rem' }}>
-                  {['I', 'II', 'III'][idx] || idx + 1}
-                </span>
-                <div
-                  style={{ fontSize: '0.95rem', lineHeight: 1.6 }}
-                  dangerouslySetInnerHTML={{ __html: item }}
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* BLOQUE 4: LO QUE NOS DISTINGUE Y LIDERAZGO FORENSE */}
-      <section className="bg-soft section-padding-asym">
         <div className="container">
           <div className="grid-split reverse">
             <div className="img-reveal">
@@ -174,20 +142,18 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               </picture>
             </div>
             <div className="vision-text">
-              <span className="section-tag">{isEs ? 'MÉTODO & RIGOR' : 'METHOD & RIGOR'}</span>
+              <span className="section-tag">{isEs ? "LIDERAZGO FORENSE" : "FORENSIC LEADERSHIP"}</span>
               <h2 className="serif heading-lg mb-1-5rem line-height-1-1">
-                {data?.distinction?.title || (isEs ? 'Lo Que Nos Distingue' : 'What Sets Us Apart')}
+                {data?.mission?.quote || (isEs ? '“Nuestra misión es transformar desafíos legales en escenarios de seguridad y crecimiento.”' : '“Our mission is to transform legal challenges into security and growth.”')}
               </h2>
-              <p className="mb-1rem text-left max-w-100">{data?.distinction?.p1}</p>
-              <p className="mb-1rem text-left max-w-100">{data?.distinction?.p2}</p>
-              <p className="mb-1-5rem text-left max-w-100">{data?.distinction?.p3}</p>
-              <p className="mb-2rem text-left max-w-100 font-medium">{data?.distinction?.p4}</p>
-              
+              <p className="mb-2rem text-left max-w-100">
+                {data?.mission?.desc}
+              </p>
               <Link
                 href={getRoute(locale, 'ourCeo')}
                 className="btn btn-primary"
               >
-                {isEs ? 'CONOCE A NUESTRO DIRECTOR GENERAL' : 'MEET OUR MANAGING PARTNER'}
+                {data?.mission?.btn || (isEs ? 'CONOCE A NUESTRO DIRECTOR GENERAL' : 'MEET OUR MANAGING PARTNER')}
               </Link>
             </div>
           </div>
