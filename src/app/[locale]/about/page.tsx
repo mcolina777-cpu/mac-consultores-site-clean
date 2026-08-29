@@ -122,16 +122,24 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             </p>
           </div>
 
-          <div className="cards-grid">
+          <div className="grid-2">
             {/* Tarjeta 01 */}
             <Link href={getRoute(locale, "about.legalidad_diligencia" as any)} className="card">
               <span className="section-tag">01</span>
               <h3>{isEs ? 'Legalidad y Diligencia' : 'Legality & Due Diligence'}</h3>
-              <p className="card-editorial-text">
+              <p>
                 {isEs 
-                  ? 'Constituye el pilar fundamental de nuestra práctica forense, asegurando el sometimiento estricto al ordenamiento constitucional y normativo en cada etapa del encargo. Desde el contacto inicial, evaluamos con riguroso celo técnico la viabilidad, plazos procesales y expectativas reales del caso, estructurando soluciones estratégicas que descansan invariablemente en la legitimidad de los medios y la defensa leal de sus derechos e intereses jurídicos.'
-                  : 'It constitutes the foundational pillar of our forensic practice, ensuring strict adherence to the constitutional and legal framework at every stage of the engagement. From the initial consultation, we assess case feasibility, procedural deadlines, and realistic expectations with rigorous technical diligence, structuring strategic solutions grounded strictly in legitimate means and the loyal defense of your legal rights and interests.'}
+                  ? 'Como fundamento inquebrantable de toda actuación jurídica y procesal.' 
+                  : 'As the unwavering foundation of all legal and procedural actions.'}
               </p>
+              <ul className="service-list">
+                <li>{isEs ? 'Sometimiento estricto a la Constitución y la Ley' : 'Strict adherence to Constitution and Law'}</li>
+                <li>{isEs ? 'Evaluación y diligencia desde el primer contacto' : 'Assessment and diligence from first contact'}</li>
+                <li>{isEs ? 'Análisis jurídico y procesal responsable' : 'Responsible legal and procedural analysis'}</li>
+                <li>{isEs ? 'Control riguroso de plazos y términos' : 'Strict control of deadlines and proceedings'}</li>
+                <li>{isEs ? 'Comunicación transparente y expectativas reales' : 'Transparent communication and realistic expectations'}</li>
+                <li>{isEs ? 'Estrategias fundadas en la legitimidad de los medios' : 'Strategies based on legitimate means'}</li>
+              </ul>
               <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
             </Link>
 
@@ -139,7 +147,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             <div className="card">
               <span className="section-tag">02</span>
               <h3>{isEs ? 'Independencia Técnica' : 'Technical Independence'}</h3>
-              <p className="card-desc">
+              <p>
                 {isEs 
                   ? 'Garantiza criterios objetivos y rigurosos, libres de injerencias ajenas al cliente.' 
                   : 'Guarantees objective and rigorous criteria, free from external interference.'}
@@ -159,7 +167,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             <div className="card">
               <span className="section-tag">03</span>
               <h3>{isEs ? 'Transparencia y Buena Fe' : 'Transparency & Good Faith'}</h3>
-              <p className="card-desc">
+              <p>
                 {isEs 
                   ? 'En cada etapa de la relación profesional y procesal con el cliente.' 
                   : 'At every stage of the professional and procedural relationship.'}
@@ -179,7 +187,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             <div className="card">
               <span className="section-tag">04</span>
               <h3>{isEs ? 'Confidencialidad y Secreto' : 'Confidentiality & Secrecy'}</h3>
-              <p className="card-desc">
+              <p>
                 {isEs 
                   ? 'Compromiso absoluto en el tratamiento y custodia de la información.' 
                   : 'Absolute commitment to the protection of confidential information.'}
