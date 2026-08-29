@@ -122,7 +122,8 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             </p>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '2rem', alignItems: 'stretch' }}>
+          <div className="cards-grid">
+            {/* Tarjeta 01 */}
             <Link href={getRoute(locale, "about.legalidad_diligencia" as any)} className="card">
               <span className="section-tag">01</span>
               <h3>{isEs ? 'Legalidad y Diligencia' : 'Legality & Due Diligence'}</h3>
@@ -142,31 +143,64 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
             </Link>
 
-            <div className="card" style={{ color: 'inherit' }}>
+            {/* Tarjeta 02 */}
+            <div className="card">
               <span className="section-tag">02</span>
-              <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>{isEs ? 'Independencia Técnica' : 'Technical Independence'}</h3>
-              <p className="card-desc mb-1rem" style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                {isEs ? 'Garantiza criterios objetivos y rigurosos, libres de injerencias ajenas al interés del cliente.' : 'Guarantees objective and rigorous criteria, free from external interference.'}
+              <h3>{isEs ? 'Independencia Técnica' : 'Technical Independence'}</h3>
+              <p className="card-desc">
+                {isEs 
+                  ? 'Garantiza criterios objetivos y rigurosos, libres de injerencias ajenas al cliente.' 
+                  : 'Guarantees objective and rigorous criteria, free from external interference.'}
               </p>
-              <span className="card-link mt-auto" style={{ opacity: 0, pointerEvents: 'none' }}>VER DETALLES →</span>
+              <ul className="service-list">
+                <li>{isEs ? 'Criterios jurídicos objetivos e imparciales' : 'Objective and impartial legal criteria'}</li>
+                <li>{isEs ? 'Autonomía frente a intereses ajenos al caso' : 'Autonomy from outside interests'}</li>
+                <li>{isEs ? 'Evaluación técnica y rigurosa de viabilidad' : 'Rigorous technical feasibility evaluation'}</li>
+                <li>{isEs ? 'Defensa orientada exclusivamente a la verdad' : 'Defense oriented strictly to the truth'}</li>
+                <li>{isEs ? 'Libertad de apreciación fáctica y probatoria' : 'Freedom of factual and evidentiary assessment'}</li>
+                <li>{isEs ? 'Protección efectiva de garantías sustantivas' : 'Effective protection of substantive guarantees'}</li>
+              </ul>
+              <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
             </div>
 
-            <div className="card" style={{ color: 'inherit' }}>
+            {/* Tarjeta 03 */}
+            <div className="card">
               <span className="section-tag">03</span>
-              <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>{isEs ? 'Transparencia y Buena Fe' : 'Transparency & Good Faith'}</h3>
-              <p className="card-desc mb-1rem" style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                {isEs ? 'En cada etapa de la relación profesional y procesal con quienes confían en nosotros.' : 'At every stage of the professional and procedural relationship with our clients.'}
+              <h3>{isEs ? 'Transparencia y Buena Fe' : 'Transparency & Good Faith'}</h3>
+              <p className="card-desc">
+                {isEs 
+                  ? 'En cada etapa de la relación profesional y procesal con el cliente.' 
+                  : 'At every stage of the professional and procedural relationship.'}
               </p>
-              <span className="card-link mt-auto" style={{ opacity: 0, pointerEvents: 'none' }}>VER DETALLES →</span>
+              <ul className="service-list">
+                <li>{isEs ? 'Lealtad y probidad en la actuación procesal' : 'Loyalty and integrity in procedural action'}</li>
+                <li>{isEs ? 'Información clara, veraz y oportuna' : 'Clear, truthful, and timely information'}</li>
+                <li>{isEs ? 'Gestión ética de expectativas y resultados' : 'Ethical management of expectations'}</li>
+                <li>{isEs ? 'Rendición de cuentas sobre la gestión del caso' : 'Accountability regarding case management'}</li>
+                <li>{isEs ? 'Relaciones basadas en la confianza recíproca' : 'Relationships built on mutual trust'}</li>
+                <li>{isEs ? 'Pleno respeto a las partes y a la magistratura' : 'Full respect for the parties and the court'}</li>
+              </ul>
+              <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
             </div>
 
-            <div className="card" style={{ color: 'inherit' }}>
+            {/* Tarjeta 04 */}
+            <div className="card">
               <span className="section-tag">04</span>
-              <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>{isEs ? 'Confidencialidad y Secreto' : 'Confidentiality & Secrecy'}</h3>
-              <p className="card-desc mb-1rem" style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                {isEs ? 'Compromiso absoluto en el tratamiento y custodia de la información confiada.' : 'Absolute commitment to the protection and custody of confidential information.'}
+              <h3>{isEs ? 'Confidencialidad y Secreto' : 'Confidentiality & Secrecy'}</h3>
+              <p className="card-desc">
+                {isEs 
+                  ? 'Compromiso absoluto en el tratamiento y custodia de la información.' 
+                  : 'Absolute commitment to the protection of confidential information.'}
               </p>
-              <span className="card-link mt-auto" style={{ opacity: 0, pointerEvents: 'none' }}>VER DETALLES →</span>
+              <ul className="service-list">
+                <li>{isEs ? 'Deber deontológico de sigilo profesional' : 'Deontological duty of professional secrecy'}</li>
+                <li>{isEs ? 'Custodia segura de expedientes y documentos' : 'Secure custody of case files and documents'}</li>
+                <li>{isEs ? 'Protección estricta de datos confidenciales' : 'Strict protection of confidential data'}</li>
+                <li>{isEs ? 'Privacidad en todas las consultas y trámites' : 'Privacy in all consultations and procedures'}</li>
+                <li>{isEs ? 'Garantía de reserva legal permanente' : 'Permanent guarantee of legal privilege'}</li>
+                <li>{isEs ? 'Entorno confiable para la toma de decisiones' : 'Trusted environment for decision making'}</li>
+              </ul>
+              <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
             </div>
           </div>
         </div>
