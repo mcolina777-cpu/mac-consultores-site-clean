@@ -70,17 +70,27 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
         </div>
       </header>
 
-      {/* BLOQUE 1: TRAYECTORIA INSTITUCIONAL (PROPORCIÓN PERFECTA CON LA FOTO) */}
+      {/* BLOQUE 1: NUESTRA HISTORIA Y TRAYECTORIA COMPLETA */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split">
             <div className="about-content">
-              <span className="section-tag">{data?.history?.tag || (isEs ? 'NUESTRA HISTORIA' : 'OUR HISTORY')}</span>
+              <span className="section-tag">{isEs ? 'NUESTRA HISTORIA' : 'OUR HISTORY'}</span>
               <h2 className="serif section-title mb-1-5rem">
                 {isEs ? 'Fundación y Vocación Forense' : 'Foundation and Forensic Vocation'}
               </h2>
-              <p className="text-left max-w-100 mb-1rem">{data?.history?.desc_1}</p>
-              <p className="text-left max-w-100 mb-2rem">{data?.history?.desc_2}</p>
+              <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.7 }}>
+                {data?.history?.p1 || "Mac Consultores Jurídicos & Asociados es una firma boutique especializada en servicios jurídicos de alta complejidad, con sede en la ciudad de Caracas, Venezuela, fundada en el año 2015 por el abogado y docente universitario Marco A. Colina G."}
+              </p>
+              <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.7 }}>
+                {data?.history?.p2 || "Desde su fundación, la firma se concibió como un punto de encuentro entre la formación académica y la práctica profesional del Derecho. Su socio fundador acredita más de veinte años de ejercicio profesional ininterrumpido, complementados con estudios de cuarto nivel en Derecho Constitucional y Ciencias Penales y Jurídicas."}
+              </p>
+              <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.7 }}>
+                {data?.history?.p3 || "Bajo su dirección general, Mac Consultores ha construido un modelo de asesoría jurídica integral dirigido tanto a personas naturales como jurídicas, con capacidad para atender mandatos de clientes dentro y fuera de Venezuela."}
+              </p>
+              <p className="text-left max-w-100 mb-2rem" style={{ lineHeight: 1.7 }}>
+                {data?.history?.p4 || "Actualmente, el Dr. Marco A. Colina G. ejerce la función de Director General (CEO), siendo responsable de la conducción estratégica, administrativa y operativa de la firma."}
+              </p>
             </div>
             
             <div className="img-reveal img-vertical">
