@@ -122,7 +122,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             </p>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '2.5rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '2rem', alignItems: 'stretch' }}>
             <Link href={getRoute(locale, "about.legalidad_diligencia" as any)} className="card" style={{ textDecoration: 'none', color: 'inherit' }}>
               <span className="section-tag">{(dict as any)?.deontologia?.legalidad_diligencia?.card_tag || '01'}</span>
               <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>{(dict as any)?.deontologia?.legalidad_diligencia?.card_title || 'Legalidad y Diligencia'}</h3>
@@ -132,28 +132,31 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               <span className="card-link mt-auto">{(dict as any)?.deontologia?.legalidad_diligencia?.card_link || 'VER DETALLES →'}</span>
             </Link>
 
-            <div style={{ borderTop: '2px solid var(--color-accent, #c5a880)', paddingTop: '1.5rem' }}>
-              <span className="serif text-primary" style={{ fontSize: '1.5rem', fontWeight: 600, display: 'block', marginBottom: '0.5rem' }}>II</span>
-              <h3 className="serif mb-0-5rem" style={{ fontSize: '1.15rem' }}>{isEs ? 'Independencia Técnica' : 'Technical Independence'}</h3>
-              <p style={{ fontSize: '0.9rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
+            <div className="card" style={{ color: 'inherit' }}>
+              <span className="section-tag">02</span>
+              <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>{isEs ? 'Independencia Técnica' : 'Technical Independence'}</h3>
+              <p className="card-desc mb-1rem" style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
                 {isEs ? 'Garantiza criterios objetivos y rigurosos, libres de injerencias ajenas al interés del cliente.' : 'Guarantees objective and rigorous criteria, free from external interference.'}
               </p>
+              <span className="card-link mt-auto" style={{ opacity: 0, pointerEvents: 'none' }}>VER DETALLES →</span>
             </div>
 
-            <div style={{ borderTop: '2px solid var(--color-accent, #c5a880)', paddingTop: '1.5rem' }}>
-              <span className="serif text-primary" style={{ fontSize: '1.5rem', fontWeight: 600, display: 'block', marginBottom: '0.5rem' }}>III</span>
-              <h3 className="serif mb-0-5rem" style={{ fontSize: '1.15rem' }}>{isEs ? 'Transparencia y Buena Fe' : 'Transparency & Good Faith'}</h3>
-              <p style={{ fontSize: '0.9rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
+            <div className="card" style={{ color: 'inherit' }}>
+              <span className="section-tag">03</span>
+              <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>{isEs ? 'Transparencia y Buena Fe' : 'Transparency & Good Faith'}</h3>
+              <p className="card-desc mb-1rem" style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
                 {isEs ? 'En cada etapa de la relación profesional y procesal con quienes confían en nosotros.' : 'At every stage of the professional and procedural relationship with our clients.'}
               </p>
+              <span className="card-link mt-auto" style={{ opacity: 0, pointerEvents: 'none' }}>VER DETALLES →</span>
             </div>
 
-            <div style={{ borderTop: '2px solid var(--color-accent, #c5a880)', paddingTop: '1.5rem' }}>
-              <span className="serif text-primary" style={{ fontSize: '1.5rem', fontWeight: 600, display: 'block', marginBottom: '0.5rem' }}>IV</span>
-              <h3 className="serif mb-0-5rem" style={{ fontSize: '1.15rem' }}>{isEs ? 'Confidencialidad y Secreto' : 'Confidentiality & Secrecy'}</h3>
-              <p style={{ fontSize: '0.9rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
+            <div className="card" style={{ color: 'inherit' }}>
+              <span className="section-tag">04</span>
+              <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>{isEs ? 'Confidencialidad y Secreto' : 'Confidentiality & Secrecy'}</h3>
+              <p className="card-desc mb-1rem" style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
                 {isEs ? 'Compromiso absoluto en el tratamiento y custodia de la información confiada.' : 'Absolute commitment to the protection and custody of confidential information.'}
               </p>
+              <span className="card-link mt-auto" style={{ opacity: 0, pointerEvents: 'none' }}>VER DETALLES →</span>
             </div>
           </div>
         </div>
