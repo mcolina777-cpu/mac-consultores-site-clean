@@ -30,7 +30,7 @@ export default async function LegalidadDiligenciaPage({ params }: { params: Prom
 
       <section className="section-padding-asym">
         <div className="container">
-          <div className="layout-reading">
+          <div className="layout-reading" style={{ textAlign: 'left' }}>
             <p className="mb-1-5rem" style={{ fontSize: '1.1rem', lineHeight: 1.7, color: 'var(--color-text)' }}>{data.intro_1}</p>
             <p className="mb-1-5rem" style={{ fontSize: '1.1rem', lineHeight: 1.7, color: 'var(--color-text)' }}>{data.intro_2}</p>
             <p className="mb-3rem" style={{ fontSize: '1.1rem', lineHeight: 1.7, color: 'var(--color-text)' }}>{data.intro_3}</p>
@@ -67,7 +67,7 @@ export default async function LegalidadDiligenciaPage({ params }: { params: Prom
             <p className="mb-3rem" style={{ lineHeight: 1.7 }}>{data.sec6_p2}</p>
           </div>
           
-          <div className="layout-reading mt-3rem">
+          <div className="layout-reading mt-3rem" style={{ textAlign: 'left' }}>
              <Link href={getRoute(locale, "about")} className="btn btn-primary">
                {data.back_link}
              </Link>
