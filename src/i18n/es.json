@@ -1644,5 +1644,46 @@
         "p5": "Nuestro objetivo es que el poder no sea simplemente un documento formalmente válido, sino una herramienta jurídica funcional, diseñada para permitir al representante ejecutar las actuaciones que realmente necesita realizar en Venezuela dentro del alcance autorizado por el otorgante."
       }
     }
+  },
+  "deontologia": {
+    "legalidad_diligencia": {
+      "card_tag": "01",
+      "card_title": "Legalidad y Diligencia",
+      "card_desc": "Toda estrategia jurídica en nuestra firma se fundamenta en el estricto sometimiento a la Constitución y las leyes. La diligencia rige cada actuación desde el primer contacto, evaluando la viabilidad técnica, los antecedentes y los riesgos procesales con absoluto rigor. Garantizamos un control riguroso de plazos y una gestión transparente de expectativas, consolidando defensas legítimas y sostenibles en el tiempo.",
+      "card_link": "VER DETALLES →",
+      "landing": {
+        "title": "Legalidad y Diligencia",
+        "subtitle": "El ejercicio jurídico como actuación sometida al Derecho",
+        "intro_1": "La actuación profesional de Mac Consultores Jurídicos & Asociados parte de una premisa esencial: toda estrategia jurídica debe desarrollarse dentro del marco establecido por la Constitución, las leyes y las normas que regulan la actuación de los profesionales del Derecho.",
+        "intro_2": "La defensa de los intereses del cliente no puede confundirse con la utilización de cualquier medio para alcanzar un resultado. El ejercicio profesional exige determinar previamente qué puede hacerse jurídicamente, qué debe hacerse y cuáles son los límites que no pueden ser traspasados.",
+        "intro_3": "La legalidad constituye, por tanto, un parámetro de actuación y, al mismo tiempo, un criterio para evaluar la viabilidad de cada estrategia.",
+        "sec1_title": "Diligencia desde el primer contacto",
+        "sec1_p1": "La diligencia profesional comienza antes de asumir formalmente un asunto.",
+        "sec1_p2": "Una adecuada intervención requiere conocer suficientemente los hechos relevantes, identificar la documentación disponible, determinar los objetivos del cliente y establecer cuáles son las cuestiones jurídicas que deben ser examinadas.",
+        "sec1_p3": "Por ello, procuramos evitar decisiones sustentadas en información incompleta o en apreciaciones preliminares que todavía no hayan sido verificadas.",
+        "sec1_p4": "Cada asunto exige una evaluación proporcional a su naturaleza, complejidad y urgencia.",
+        "sec2_title": "Análisis jurídico responsable",
+        "sec2_p1": "La diligencia no significa actuar apresuradamente. Significa actuar oportunamente, técnicamente y con fundamento.",
+        "sec2_p2": "El análisis comprende la identificación de las normas aplicables, la revisión de antecedentes jurisprudenciales cuando resulten pertinentes, la valoración de los riesgos jurídicos y procesales y la determinación de las alternativas disponibles.",
+        "sec2_p3": "En materia penal y procesal penal, esta exigencia adquiere especial importancia debido a las consecuencias que pueden derivarse de una decisión incorrecta o inoportuna.",
+        "sec2_p4": "Una estrategia defensiva debe considerar no solamente la actuación inmediata, sino también sus posibles efectos sobre las etapas posteriores del procedimiento.",
+        "sec3_title": "Control de plazos y actuaciones",
+        "sec3_p1": "La diligencia profesional también se manifiesta en la gestión ordenada del asunto.",
+        "sec3_p2": "La identificación de términos, oportunidades procesales, actuaciones pendientes, documentos necesarios y decisiones que requieren intervención del cliente forma parte de la estructura básica de una representación responsable.",
+        "sec3_p3": "La complejidad de un caso no justifica la improvisación. Por el contrario, cuanto mayor sea su complejidad, mayor debe ser el nivel de organización requerido para preservar las oportunidades jurídicas disponibles.",
+        "sec4_title": "Información y expectativas",
+        "sec4_p1": "La diligencia comprende igualmente una comunicación responsable con el cliente.",
+        "sec4_p2": "No consideramos adecuado presentar como certeza aquello que jurídicamente constituye una posibilidad, ni garantizar resultados que dependen de decisiones de autoridades, tribunales, terceros o circunstancias ajenas al control profesional.",
+        "sec4_p3": "El cliente debe conocer, dentro de lo razonablemente posible, qué se sabe, qué debe verificarse, cuáles son los riesgos y qué alternativas existen. La honestidad en la evaluación del caso forma parte de la diligencia.",
+        "sec5_title": "Legalidad como límite y como garantía",
+        "sec5_p1": "La legalidad no constituye una restricción externa a la estrategia jurídica. Es precisamente el marco que permite construir una defensa legítima, sostenible y profesionalmente responsable.",
+        "sec5_p2": "Una actuación jurídicamente eficaz debe poder resistir el análisis de su fundamento, procedimiento y finalidad.",
+        "sec5_p3": "Por ello, nuestra metodología procura que cada decisión relevante responda a una pregunta fundamental: ¿Es jurídicamente admisible, técnicamente necesaria y estratégicamente conveniente? Cuando estas tres dimensiones coinciden, la actuación profesional adquiere una base sólida.",
+        "sec6_title": "Un compromiso permanente",
+        "sec6_p1": "Legalidad y diligencia no son declaraciones abstractas. Se expresan en la forma de estudiar un expediente, analizar una prueba, revisar un documento, preparar una actuación procesal, evaluar un riesgo o recomendar al cliente una determinada alternativa.",
+        "sec6_p2": "Nuestro compromiso consiste en desarrollar cada asunto con rigor jurídico, atención profesional y respeto por los límites que impone el ordenamiento jurídico. Porque una estrategia verdaderamente profesional no se mide únicamente por el resultado que pretende alcanzar, sino también por la forma jurídicamente legítima en que procura alcanzarlo.",
+        "back_link": "CONOCER NUESTROS PRINCIPIOS →"
+      }
+    }
   }
 }

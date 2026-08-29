@@ -3,6 +3,7 @@ export type AppLocale = "es" | "en";
 export type RouteKey =
   | "home"
   | "about"
+  | "about.legalidad_diligencia"
   | "ourCeo"
   | "news"
   | "services"
@@ -34,6 +35,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
   es: {
     home: "/es",
     about: "/es/about",
+    "about.legalidad_diligencia": "/es/about/legalidad-diligencia",
     ourCeo: "/es/our-ceo",
     news: "/es/news",
     services: "/es/services",
@@ -64,6 +66,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
   en: {
     home: "/en",
     about: "/en/about",
+    "about.legalidad_diligencia": "/en/about/legality-due-diligence",
     ourCeo: "/en/our-ceo",
     news: "/en/news",
     services: "/en/services",

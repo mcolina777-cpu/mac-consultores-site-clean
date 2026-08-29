@@ -1644,5 +1644,46 @@
         "p5": "Our goal is to ensure the power of attorney is not merely formally valid, but a functional legal tool that empowers the agent to act decisively in Venezuela within the principal's explicit mandate."
       }
     }
+  },
+  "deontologia": {
+    "legalidad_diligencia": {
+      "card_tag": "01",
+      "card_title": "Legality & Due Diligence",
+      "card_desc": "Every legal strategy in our firm is founded on strict adherence to the Constitution and the law. Due diligence governs every action from the first contact, assessing technical viability, precedents, and procedural risks with absolute rigor. We ensure strict control of deadlines and transparent management of expectations, building legitimate and sustainable defenses.",
+      "card_link": "VIEW DETAILS →",
+      "landing": {
+        "title": "Legality and Due Diligence",
+        "subtitle": "Legal practice as an action subject to the Law",
+        "intro_1": "The professional performance of Mac Consultores Jurídicos & Asociados starts from an essential premise: every legal strategy must be developed within the framework established by the Constitution, the laws, and the rules governing the actions of legal professionals.",
+        "intro_2": "The defense of the client's interests cannot be confused with the use of any means to achieve a result. Professional practice requires previously determining what can be done legally, what must be done, and what limits cannot be crossed.",
+        "intro_3": "Legality constitutes, therefore, a parameter of action and, at the same time, a criterion to evaluate the viability of each strategy.",
+        "sec1_title": "Diligence from the first contact",
+        "sec1_p1": "Professional diligence begins before formally taking on a matter.",
+        "sec1_p2": "Adequate intervention requires sufficient knowledge of the relevant facts, identification of available documentation, determination of the client's objectives, and establishment of the legal issues to be examined.",
+        "sec1_p3": "Therefore, we try to avoid decisions based on incomplete information or preliminary assessments that have not yet been verified.",
+        "sec1_p4": "Each matter requires an evaluation proportional to its nature, complexity, and urgency.",
+        "sec2_title": "Responsible legal analysis",
+        "sec2_p1": "Diligence does not mean acting hastily. It means acting opportunely, technically, and with foundation.",
+        "sec2_p2": "The analysis includes the identification of applicable rules, the review of jurisprudential precedents when relevant, the assessment of legal and procedural risks, and the determination of available alternatives.",
+        "sec2_p3": "In criminal and procedural criminal matters, this requirement acquires special importance due to the consequences that can arise from an incorrect or untimely decision.",
+        "sec2_p4": "A defensive strategy must consider not only the immediate action but also its possible effects on the subsequent stages of the procedure.",
+        "sec3_title": "Control of deadlines and actions",
+        "sec3_p1": "Professional diligence is also manifested in the orderly management of the matter.",
+        "sec3_p2": "The identification of terms, procedural opportunities, pending actions, necessary documents, and decisions requiring client intervention is part of the basic structure of responsible representation.",
+        "sec3_p3": "The complexity of a case does not justify improvisation. On the contrary, the greater its complexity, the higher the level of organization required to preserve available legal opportunities.",
+        "sec4_title": "Information and expectations",
+        "sec4_p1": "Diligence equally includes responsible communication with the client.",
+        "sec4_p2": "We do not consider it appropriate to present as certainty what legally constitutes a possibility, nor to guarantee results that depend on decisions of authorities, courts, third parties, or circumstances beyond professional control.",
+        "sec4_p3": "The client must know, within what is reasonably possible, what is known, what needs to be verified, what the risks are, and what alternatives exist. Honesty in evaluating the case is part of diligence.",
+        "sec5_title": "Legality as a limit and as a guarantee",
+        "sec5_p1": "Legality does not constitute an external restriction to the legal strategy. It is precisely the framework that allows building a legitimate, sustainable, and professionally responsible defense.",
+        "sec5_p2": "A legally effective action must be able to withstand the analysis of its foundation, procedure, and purpose.",
+        "sec5_p3": "Therefore, our methodology ensures that every relevant decision answers a fundamental question: Is it legally admissible, technically necessary, and strategically convenient? When these three dimensions coincide, professional action acquires a solid foundation.",
+        "sec6_title": "A permanent commitment",
+        "sec6_p1": "Legality and diligence are not abstract statements. They are expressed in the way a file is studied, evidence is analyzed, a document is reviewed, a procedural action is prepared, a risk is evaluated, or a specific alternative is recommended to the client.",
+        "sec6_p2": "Our commitment consists of developing each matter with legal rigor, professional attention, and respect for the limits imposed by the legal system. Because a truly professional strategy is not measured solely by the result it seeks to achieve, but also by the legally legitimate way in which it seeks to achieve it.",
+        "back_link": "KNOW OUR PRINCIPLES →"
+      }
+    }
   }
 }
