@@ -2367,3 +2367,11 @@ body.nav-open {
     word-break: break-word;
   }
 }
+
+/* Estandarización tipográfica para tarjetas (.card) en todo el sitio */
+.card p,
+.card-editorial-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-muted, #4b5563);
+}
