@@ -124,7 +124,11 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
 
           <div className="grid-2">
             {/* Tarjeta 01 */}
-            <Link href={getRoute(locale, "about.legalidad_diligencia" as any)} className="card">
+            <Link 
+              href={getRoute(locale, "about.legalidad_diligencia" as any)} 
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
               <span className="section-tag">01</span>
               <h3>{isEs ? 'Legalidad y Diligencia' : 'Legality & Due Diligence'}</h3>
               <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
@@ -132,11 +136,17 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
                   ? 'Constituye el fundamento inquebrantable de nuestra práctica forense, asegurando el sometimiento estricto al ordenamiento constitucional y a la legalidad vigente en cada etapa procesal. Desde el contacto inicial, evaluamos con riguroso celo técnico la viabilidad del caso, el control estricto de los términos procesales y las expectativas reales del mandante, estructurando defensas y mandatos que descansan invariablemente en la legitimidad de los medios jurídicos empleados.'
                   : 'Constitutes the unwavering foundation of our forensic practice, ensuring strict adherence to the constitutional order and current legal framework throughout every procedural stage. From the initial consultation, we assess case feasibility, strict management of procedural deadlines, and realistic client expectations with rigorous technical diligence, structuring defenses and mandates grounded strictly in the legitimacy of legal means.'}
               </p>
-              <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
+              <span className="card-link mt-auto">
+                {isEs ? "Leer más →" : "Read more →"}
+              </span>
             </Link>
 
             {/* Tarjeta 02 */}
-            <Link href={getRoute(locale, "about.independencia_tecnica" as any)} className="card">
+            <Link 
+              href={getRoute(locale, "about.independencia_tecnica" as any)} 
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
               <span className="section-tag">02</span>
               <h3>{isEs ? 'Independencia Técnica' : 'Technical Independence'}</h3>
               <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
@@ -144,7 +154,9 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
                   ? 'Garantiza un criterio jurídico objetivo, riguroso e innegociable, libre de presiones o conveniencias ajenas al análisis técnico del caso. Evaluamos la realidad fáctica y probatoria con plena autonomía funcional, comunicando con honestidad tanto fortalezas como riesgos, para proporcionar el juicio profesional certero e indispensable que permite al cliente tomar decisiones estratégicas debidamente informadas.'
                   : 'Guarantees an objective, rigorous, and non-negotiable legal criterion, free from external pressures or convenience outside strict technical analysis. We evaluate factual and evidentiary realities with complete functional autonomy, honestly communicating strengths and risks to provide the indispensable professional judgment required for clients to make thoroughly informed strategic and procedural decisions.'}
               </p>
-              <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
+              <span className="card-link mt-auto">
+                {isEs ? "Leer más →" : "Read more →"}
+              </span>
             </Link>
 
             {/* Tarjeta 03 */}
