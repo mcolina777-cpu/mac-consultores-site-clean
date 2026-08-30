@@ -6,6 +6,7 @@ export type RouteKey =
   | "about.legalidad_diligencia"
   | "about.independencia_tecnica"
   | "about.transparencia_buena_fe"
+  | "about.confidencialidad_secreto"
   | "ourCeo"
   | "news"
   | "services"
@@ -40,6 +41,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "about.legalidad_diligencia": "/es/about/legalidad-diligencia",
     "about.independencia_tecnica": "/es/about/independencia-tecnica",
     "about.transparencia_buena_fe": "/es/about/transparencia-buena-fe",
+    "about.confidencialidad_secreto": "/es/about/confidencialidad-secreto",
     ourCeo: "/es/our-ceo",
     news: "/es/news",
     services: "/es/services",
@@ -73,6 +75,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "about.legalidad_diligencia": "/en/about/legality-due-diligence",
     "about.independencia_tecnica": "/en/about/technical-independence",
     "about.transparencia_buena_fe": "/en/about/transparency-good-faith",
+    "about.confidencialidad_secreto": "/en/about/confidentiality-professional-secrecy",
     ourCeo: "/en/our-ceo",
     news: "/en/news",
     services: "/en/services",
