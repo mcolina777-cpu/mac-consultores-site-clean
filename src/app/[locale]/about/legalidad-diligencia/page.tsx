@@ -46,7 +46,7 @@ export default async function LegalidadDiligenciaPage({ params }: { params: Prom
         </div>
       </header>
 
-      {/* CONTENIDO EXTENDIDO CON BALANCE VISUAL */}
+      {/* CONTENIDO EXTENDIDO */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split">
@@ -67,7 +67,7 @@ export default async function LegalidadDiligenciaPage({ params }: { params: Prom
               </p>
 
               <h3 className="serif mb-1rem">{isEs ? 'Pilares de Actuación Forense' : 'Pillars of Forensic Action'}</h3>
-              <ul className="service-list mb-2-5rem" style={{ listStyle: 'none', paddingLeft: 0 }}>
+              <ul className="service-list mb-2rem" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li style={{ marginBottom: '1rem' }}>
                   <strong>{isEs ? 'Sometimiento estricto a la Constitución y la Ley: ' : 'Strict adherence to Constitution and Law: '}</strong>
                   {isEs ? 'Alineación de cada tesis defensiva con la doctrina vinculante y el bloque de constitucionalidad.' : 'Alignment of every defensive argument with binding doctrine and constitutional law.'}
@@ -97,20 +97,6 @@ export default async function LegalidadDiligenciaPage({ params }: { params: Prom
               <Link href={getRoute(locale, 'about')} className="btn btn-primary">
                 {isEs ? '← VOLVER A LA FIRMA' : '← BACK TO THE FIRM'}
               </Link>
-            </div>
-
-            {/* COLUMNA VISUAL DE BALANCE */}
-            <div className="img-reveal">
-              <picture>
-                <source srcSet="/assets/img-webp/SALA_REUNIONES_1_OPT.webp" type="image/webp" />
-                <img
-                  src="/assets/img/SALA_REUNIONES_1_OPT.jpg"
-                  alt="Despacho institucional de Mac Consultores Jurídicos & Asociados"
-                  width={2752}
-                  height={1536}
-                  loading="lazy"
-                />
-              </picture>
             </div>
           </div>
         </div>
