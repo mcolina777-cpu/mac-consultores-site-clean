@@ -127,19 +127,11 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             <Link href={getRoute(locale, "about.legalidad_diligencia" as any)} className="card">
               <span className="section-tag">01</span>
               <h3>{isEs ? 'Legalidad y Diligencia' : 'Legality & Due Diligence'}</h3>
-              <p>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
                 {isEs 
-                  ? 'Como fundamento inquebrantable de toda actuación jurídica y procesal.' 
-                  : 'As the unwavering foundation of all legal and procedural actions.'}
+                  ? 'Constituye el fundamento inquebrantable de nuestra práctica forense, asegurando el sometimiento estricto al ordenamiento constitucional y a la legalidad vigente en cada etapa procesal. Desde el contacto inicial, evaluamos con riguroso celo técnico la viabilidad del caso, el control estricto de los términos procesales y las expectativas reales del mandante, estructurando defensas y mandatos que descansan invariablemente en la legitimidad de los medios jurídicos empleados.'
+                  : 'Constitutes the unwavering foundation of our forensic practice, ensuring strict adherence to the constitutional order and current legal framework throughout every procedural stage. From the initial consultation, we assess case feasibility, strict management of procedural deadlines, and realistic client expectations with rigorous technical diligence, structuring defenses and mandates grounded strictly in the legitimacy of legal means.'}
               </p>
-              <ul className="service-list">
-                <li>{isEs ? 'Sometimiento estricto a la Constitución y la Ley' : 'Strict adherence to Constitution and Law'}</li>
-                <li>{isEs ? 'Evaluación y diligencia desde el primer contacto' : 'Assessment and diligence from first contact'}</li>
-                <li>{isEs ? 'Análisis jurídico y procesal responsable' : 'Responsible legal and procedural analysis'}</li>
-                <li>{isEs ? 'Control riguroso de plazos y términos' : 'Strict control of deadlines and proceedings'}</li>
-                <li>{isEs ? 'Comunicación transparente y expectativas reales' : 'Transparent communication and realistic expectations'}</li>
-                <li>{isEs ? 'Estrategias fundadas en la legitimidad de los medios' : 'Strategies based on legitimate means'}</li>
-              </ul>
               <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
             </Link>
 
