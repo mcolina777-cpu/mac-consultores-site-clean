@@ -148,15 +148,21 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             </Link>
 
             {/* Tarjeta 03 */}
-            <Link href={getRoute(locale, "about.transparencia_buena_fe" as any)} className="card">
+            <Link 
+              href={getRoute(locale, "about.transparencia_buena_fe" as any)} 
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
               <span className="section-tag">03</span>
               <h3>{isEs ? 'Transparencia y Buena Fe' : 'Transparency & Good Faith'}</h3>
               <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
                 {isEs 
-                  ? 'Rige la relación profesional mediante una comunicación clara, veraz y oportuna sobre el alcance, riesgos y condiciones de cada encargo. Delimitamos con precisión el objeto de la intervención, gestionando expectativas con estricta honestidad y promoviendo una lealtad recíproca indispensable para edificar una confianza jurídica sólida, transparente y plenamente verificable en cada etapa del mandato.'
-                  : 'Governs the professional relationship through clear, truthful, and timely communication regarding the scope, risks, and terms of every engagement. We precisely define the mandate, managing expectations with rigorous honesty and fostering mutual loyalty essential to building solid, transparent, and verifiable legal trust throughout every single stage of the representation.'}
+                  ? "La confianza jurídica se construye sobre información clara, delimitación del encargo y honestidad recíproca. Exige comunicar riesgos reales, evitar promesas de resultados y definir con precisión honorarios y alcance, garantizando una relación profesional leal y verificable."
+                  : "Legal trust is built upon clear information, defined scope, and reciprocal honesty. It demands communicating real risks, avoiding guaranteed outcomes, and precisely defining fees and engagement scope, ensuring a loyal and verifiable professional relationship."}
               </p>
-              <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
+              <span className="card-link mt-auto">
+                {isEs ? "Leer más →" : "Read more →"}
+              </span>
             </Link>
 
             {/* Tarjeta 04 */}
