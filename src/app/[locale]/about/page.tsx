@@ -169,24 +169,25 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             </Link>
 
             {/* Tarjeta 04 */}
-            <div className="card">
+            <Link 
+              href={getRoute(locale, "about.confidencialidad_secreto" as any)} 
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
               <span className="section-tag">04</span>
-              <h3>{isEs ? 'Confidencialidad y Secreto' : 'Confidentiality & Secrecy'}</h3>
-              <p>
+              <h3>{isEs ? 'Confidencialidad y Secreto' : 'Confidentiality & Professional Secrecy'}</h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
+              >
                 {isEs 
-                  ? 'Compromiso absoluto en el tratamiento y custodia de la información.' 
-                  : 'Absolute commitment to the protection of confidential information.'}
+                  ? "La información confiada al abogado constituye un ámbito de especial reserva y protección jurídica. El secreto profesional no es una simple formalidad, sino una condición estructural indispensable para el ejercicio efectivo del derecho de defensa, la evaluación rigurosa del caso y la salvaguarda de intereses personales, corporativos y estratégicos frente a terceros."
+                  : "Information entrusted to counsel constitutes a domain of special reserve and legal protection. Professional secrecy is not a mere formality, but a structural condition essential for the effective exercise of the right to defense, rigorous case assessment, and the safeguarding of personal, corporate, and strategic interests against third parties."}
               </p>
-              <ul className="service-list">
-                <li>{isEs ? 'Deber deontológico de sigilo profesional' : 'Deontological duty of professional secrecy'}</li>
-                <li>{isEs ? 'Custodia segura de expedientes y documentos' : 'Secure custody of case files and documents'}</li>
-                <li>{isEs ? 'Protección estricta de datos confidenciales' : 'Strict protection of confidential data'}</li>
-                <li>{isEs ? 'Privacidad en todas las consultas y trámites' : 'Privacy in all consultations and procedures'}</li>
-                <li>{isEs ? 'Garantía de reserva legal permanente' : 'Permanent guarantee of legal privilege'}</li>
-                <li>{isEs ? 'Entorno confiable para la toma de decisiones' : 'Trusted environment for decision making'}</li>
-              </ul>
-              <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
-            </div>
+              <span className="card-link mt-auto">
+                {isEs ? "Leer más →" : "Read more →"}
+              </span>
+            </Link>
           </div>
         </div>
       </section>
