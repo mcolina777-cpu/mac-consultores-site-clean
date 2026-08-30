@@ -127,10 +127,12 @@
     "meta_title": "About Us | Mac Consultores Jurídicos & Asociados",
     "meta_description": "Learn about the history, values, and the team of professionals behind Mac Consultores Jurídicos & Asociados. Dedicated to the impeccable practice of Law in Venezuela.",
     "history": {
-      "tag": "Our History",
-      "title": "A trajectory defined by rigor and integrity.",
-      "desc_1": "Mac Consultores Jurídicos & Asociados is a boutique law firm based in Caracas, conceived to handle high-complexity legal matters with a selective, strategic, and technically rigorous approach. Our practice focuses on corporate criminal law, economic crime, fraud, financial scams, and money laundering, always building a defense based on case theory and evidentiary strategy.",
-      "desc_2": "We understand that not all cases require the same type of intervention, nor do all matters merit being taken on. Therefore, we pre-evaluate the legal viability and relevance of each assignment under the direction of Atty. Marco A. Colina G., combining more than two decades of professional experience with a flexible collaboration structure that integrates specialists and strategic allies to serve clients inside and outside Venezuela."
+      "tag": "OUR HISTORY",
+      "title": "Foundation and Forensic Vocation",
+      "p1": "Mac Consultores Jurídicos & Asociados is a boutique law firm specialized in high-complexity legal services, headquartered in Caracas, Venezuela, founded in 2015 by attorney and university professor Marco A. Colina G.",
+      "p2": "Since its inception, the firm was conceived as a convergence between academic scholarship and the professional practice of law. Its founding partner brings over twenty years of uninterrupted legal practice, complemented by postgraduate studies in Constitutional Law and Criminal and Juridical Sciences.",
+      "p3": "Under his general direction, Mac Consultores has developed a comprehensive legal advisory model tailored to both individuals and corporate entities, equipped to handle client mandates within and outside Venezuela.",
+      "p4": "Currently, Dr. Marco A. Colina G. serves as Managing Director (CEO), leading the firm’s strategic, administrative, and operational governance."
     },
     "architecture": {
       "tag": "LEGAL ARCHITECTURE FOR HIGH‑COMPLEXITY CHALLENGES",
