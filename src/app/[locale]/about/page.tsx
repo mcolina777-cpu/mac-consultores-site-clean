@@ -136,24 +136,16 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             </Link>
 
             {/* Tarjeta 02 */}
-            <div className="card">
+            <Link href={getRoute(locale, "about.independencia_tecnica" as any)} className="card">
               <span className="section-tag">02</span>
               <h3>{isEs ? 'Independencia Técnica' : 'Technical Independence'}</h3>
-              <p>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
                 {isEs 
-                  ? 'Garantiza criterios objetivos y rigurosos, libres de injerencias ajenas al cliente.' 
-                  : 'Guarantees objective and rigorous criteria, free from external interference.'}
+                  ? 'Garantiza un criterio jurídico objetivo, riguroso e innegociable, libre de presiones o conveniencias ajenas al análisis técnico del caso. Evaluamos la realidad fáctica y probatoria con plena autonomía funcional, comunicando con honestidad tanto fortalezas como riesgos, para proporcionar el juicio profesional certero e indispensable que permite al cliente tomar decisiones estratégicas debidamente informadas.'
+                  : 'Guarantees an objective, rigorous, and non-negotiable legal criterion, free from external pressures or convenience outside strict technical analysis. We evaluate factual and evidentiary realities with complete functional autonomy, honestly communicating strengths and risks to provide the indispensable professional judgment required for clients to make thoroughly informed strategic and procedural decisions.'}
               </p>
-              <ul className="service-list">
-                <li>{isEs ? 'Criterios jurídicos objetivos e imparciales' : 'Objective and impartial legal criteria'}</li>
-                <li>{isEs ? 'Autonomía frente a intereses ajenos al caso' : 'Autonomy from outside interests'}</li>
-                <li>{isEs ? 'Evaluación técnica y rigurosa de viabilidad' : 'Rigorous technical feasibility evaluation'}</li>
-                <li>{isEs ? 'Defensa orientada exclusivamente a la verdad' : 'Defense oriented strictly to the truth'}</li>
-                <li>{isEs ? 'Libertad de apreciación fáctica y probatoria' : 'Freedom of factual and evidentiary assessment'}</li>
-                <li>{isEs ? 'Protección efectiva de garantías sustantivas' : 'Effective protection of substantive guarantees'}</li>
-              </ul>
               <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
-            </div>
+            </Link>
 
             {/* Tarjeta 03 */}
             <div className="card">
