@@ -155,10 +155,10 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             >
               <span className="section-tag">03</span>
               <h3>{isEs ? 'Transparencia y Buena Fe' : 'Transparency & Good Faith'}</h3>
-              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
+              <p className="card-desc text-muted mb-1-5rem flex-grow-1" style={{ lineHeight: 1.7 }}>
                 {isEs 
-                  ? "La confianza jurídica se construye sobre información clara, delimitación del encargo y honestidad recíproca. Exige comunicar riesgos reales, evitar promesas de resultados y definir con precisión honorarios y alcance, garantizando una relación profesional leal y verificable."
-                  : "Legal trust is built upon clear information, defined scope, and reciprocal honesty. It demands communicating real risks, avoiding guaranteed outcomes, and precisely defining fees and engagement scope, ensuring a loyal and verifiable professional relationship."}
+                  ? "La confianza jurídica se construye sobre información clara, delimitación del encargo y honestidad recíproca. Exige comunicar con objetividad los riesgos reales del asunto, evitar promesas infundadas de resultados y definir con total precisión los honorarios y el alcance de la intervención. Asimismo, requiere una conducta leal y colaborativa de ambas partes, garantizando una relación profesional transparente, coherente y plenamente verificable."
+                  : "Legal trust is built upon clear information, defined scope, and reciprocal honesty. It requires objectively communicating real risks, avoiding unfounded promises of results, and precisely defining fee structures and the scope of intervention. Furthermore, it demands loyal and collaborative conduct from both parties, ensuring a transparent, consistent, and fully verifiable professional relationship."}
               </p>
               <span className="card-link mt-auto">
                 {isEs ? "Leer más →" : "Read more →"}
