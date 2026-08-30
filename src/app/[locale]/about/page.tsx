@@ -148,24 +148,16 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             </Link>
 
             {/* Tarjeta 03 */}
-            <div className="card">
+            <Link href={getRoute(locale, "about.transparencia_buena_fe" as any)} className="card">
               <span className="section-tag">03</span>
               <h3>{isEs ? 'Transparencia y Buena Fe' : 'Transparency & Good Faith'}</h3>
-              <p>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
                 {isEs 
-                  ? 'En cada etapa de la relación profesional y procesal con el cliente.' 
-                  : 'At every stage of the professional and procedural relationship.'}
+                  ? 'Rige la relación profesional mediante una comunicación clara, veraz y oportuna sobre el alcance, riesgos y condiciones de cada encargo. Delimitamos con precisión el objeto de la intervención, gestionando expectativas con estricta honestidad y promoviendo una lealtad recíproca indispensable para edificar una confianza jurídica sólida, transparente y plenamente verificable en cada etapa del mandato.'
+                  : 'Governs the professional relationship through clear, truthful, and timely communication regarding the scope, risks, and terms of every engagement. We precisely define the mandate, managing expectations with rigorous honesty and fostering mutual loyalty essential to building solid, transparent, and verifiable legal trust throughout every single stage of the representation.'}
               </p>
-              <ul className="service-list">
-                <li>{isEs ? 'Lealtad y probidad en la actuación procesal' : 'Loyalty and integrity in procedural action'}</li>
-                <li>{isEs ? 'Información clara, veraz y oportuna' : 'Clear, truthful, and timely information'}</li>
-                <li>{isEs ? 'Gestión ética de expectativas y resultados' : 'Ethical management of expectations'}</li>
-                <li>{isEs ? 'Rendición de cuentas sobre la gestión del caso' : 'Accountability regarding case management'}</li>
-                <li>{isEs ? 'Relaciones basadas en la confianza recíproca' : 'Relationships built on mutual trust'}</li>
-                <li>{isEs ? 'Pleno respeto a las partes y a la magistratura' : 'Full respect for the parties and the court'}</li>
-              </ul>
               <span className="card-link">{isEs ? 'VER DETALLES →' : 'VIEW DETAILS →'}</span>
-            </div>
+            </Link>
 
             {/* Tarjeta 04 */}
             <div className="card">
