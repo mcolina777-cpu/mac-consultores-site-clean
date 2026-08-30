@@ -4,6 +4,7 @@ export type RouteKey =
   | "home"
   | "about"
   | "about.legalidad_diligencia"
+  | "about.independencia_tecnica"
   | "ourCeo"
   | "news"
   | "services"
@@ -36,6 +37,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     home: "/es",
     about: "/es/about",
     "about.legalidad_diligencia": "/es/about/legalidad-diligencia",
+    "about.independencia_tecnica": "/es/about/independencia-tecnica",
     ourCeo: "/es/our-ceo",
     news: "/es/news",
     services: "/es/services",
@@ -67,6 +69,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     home: "/en",
     about: "/en/about",
     "about.legalidad_diligencia": "/en/about/legality-due-diligence",
+    "about.independencia_tecnica": "/en/about/technical-independence",
     ourCeo: "/en/our-ceo",
     news: "/en/news",
     services: "/en/services",
