@@ -2368,7 +2368,7 @@ body.nav-open {
   }
 }
 
-/* Estandarización tipográfica editorial con soporte de justificado y guionado */
+/* Estandarización tipográfica con molde rígido anti-parpadeo (Layout Shift) */
 .card p,
 .card-editorial-text {
   font-size: 0.95rem;
@@ -2381,4 +2381,12 @@ body.nav-open {
   hyphens: auto;
   word-break: break-word;
   overflow-wrap: break-word;
+  margin-bottom: 1.5rem;
+}
+
+/* En pantallas de escritorio (grid-3), reservar el molde de 7 a 9 líneas */
+@media (min-width: 901px) {
+  .card-editorial-text {
+    min-height: 140px;
+  }
 }
