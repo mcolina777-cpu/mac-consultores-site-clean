@@ -79,48 +79,43 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
           </div>
           
           <div className="grid-2">
+            {/* T1: Derecho Penal */}
             <Link href={getRoute(locale, "services.penal")} className="card">
               <span className="section-tag">01</span>
               <h3>{dict?.services?.card_1?.title}</h3>
-              <p>{dict?.services?.card_1?.desc}</p>
-              <ul className="service-list">
-                {dict?.services?.card_1?.list?.map((item: string, index: number) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
+              <p className="card-editorial-text">
+                {dict?.services?.card_1?.desc}
+              </p>
               <span className="card-link">{dict?.services?.card_1?.link}</span>
             </Link>
+
+            {/* T2: Derecho Constitucional */}
             <Link href={getRoute(locale, "services.constitucional")} className="card">
               <span className="section-tag">02</span>
               <h3>{dict?.services?.card_2?.title}</h3>
-              <p>{dict?.services?.card_2?.desc}</p>
-              <ul className="service-list">
-                {dict?.services?.card_2?.list?.map((item: string, index: number) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
+              <p className="card-editorial-text">
+                {dict?.services?.card_2?.desc}
+              </p>
               <span className="card-link">{dict?.services?.card_2?.link}</span>
             </Link>
+
+            {/* T3: Delitos Informáticos */}
             <Link href={getRoute(locale, "services.delitos_informaticos")} className="card">
               <span className="section-tag">03</span>
               <h3>{dict?.services?.card_3?.title}</h3>
-              <p>{dict?.services?.card_3?.desc}</p>
-              <ul className="service-list">
-                {dict?.services?.card_3?.list?.map((item: string, index: number) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
+              <p className="card-editorial-text">
+                {dict?.services?.card_3?.desc}
+              </p>
               <span className="card-link">{dict?.services?.card_3?.link}</span>
             </Link>
+
+            {/* T4: Consultoría Preventiva */}
             <Link href={getRoute(locale, "services.consultoria_preventiva")} className="card">
               <span className="section-tag">04</span>
               <h3>{dict?.services?.card_4?.title}</h3>
-              <p>{dict?.services?.card_4?.desc}</p>
-              <ul className="service-list">
-                {dict?.services?.card_4?.list?.map((item: string, index: number) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
+              <p className="card-editorial-text">
+                {dict?.services?.card_4?.desc}
+              </p>
               <span className="card-link">{dict?.services?.card_4?.link}</span>
             </Link>
           </div>

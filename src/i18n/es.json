@@ -283,48 +283,22 @@
   "services": {
     "card_1": {
       "title": "Derecho Penal y Procesal Penal",
-      "desc": "Asumimos la defensa técnica integral en procedimientos de alta complejidad, criminalidad económica y delitos financieros. Nos enfocamos en el control de garantías procesales y el diseño de estrategias de litigio sólidas.",
-      "list": [
-        "Defensa frente a acusaciones penales",
-        "Recursos de Casación y Apelación",
-        "Criminalidad Corporativa",
-        "Legitimación de Capitales"
-      ],
+      "desc": "Asumimos la defensa técnica penal integral en litigios y procedimientos de alta complejidad, criminalidad económica y delitos corporativos. Diseñamos estrategias forenses rigurosas fundamentadas en el estricto control de garantías procesales, protegiendo la libertad personal, el debido proceso y los derechos del justiciable ante los órganos de investigación y tribunales competentes mediante una sólida fundamentación probatoria y recursiva.",
       "link": "VER DETALLES →"
     },
     "card_2": {
       "title": "Derecho Constitucional",
-      "desc": "Protección y defensa de derechos fundamentales frente a actuaciones, omisiones o decisiones que puedan comprometer las garantías constitucionales, el debido proceso, la libertad, la integridad y la seguridad jurídica.",
-      "list": [
-        "Tutela de derechos fundamentales",
-        "Acción de amparo constitucional",
-        "Hábeas corpus y hábeas data",
-        "Debido proceso y tutela judicial efectiva",
-        "Control de constitucionalidad y convencionalidad",
-        "Consultoría e interpretación constitucional"
-      ],
+      "desc": "Ejercemos la tutela y defensa técnica de derechos fundamentales mediante la interposición de acciones de amparo constitucional, hábeas corpus, hábeas data y recursos de interpretación jurídica. Respaldamos la supremacía constitucional y el debido proceso en controversias complejas, estructurando argumentos de estricto derecho para restablecer situaciones jurídicas infringidas y garantizar la tutela judicial efectiva ante la Sala Constitucional.",
       "link": "VER DETALLES →"
     },
     "card_3": {
       "title": "Delitos Informáticos y Evidencia Digital",
-      "desc": "Especialización en el abordaje jurídico de contingencias tecnológicas. Gestión de incidentes de seguridad, fraude electrónico y análisis legal de elementos probatorios digitales.",
-      "list": [
-        "Defensa en Delitos Informáticos",
-        "Gestión de Fraude y Sabotaje Digital",
-        "Auditoría Jurídica de Evidencia",
-        "Protección de Privacidad de Datos"
-      ],
+      "desc": "Especialización jurídica integral en el abordaje estratégico de incidentes tecnológicos, fraudes electrónicos, vulneración de sistemas y delitos informáticos tipificados. Evaluamos la evidencia digital con rigor probatorio y pericial informático, articulando respuestas procesales inmediatas, auditorías forenses y estrategias de litigio penal destinadas a salvaguardar los activos de información, la privacidad corporativa y la responsabilidad patrimonial del cliente.",
       "link": "VER DETALLES →"
     },
     "card_4": {
       "title": "Consultoría Jurídica Preventiva",
-      "desc": "Diseño de estructuras legales para la mitigación de riesgos. Acompañamos a empresas y particulares en la toma de decisiones estratégicas para evitar contingencias procesales.",
-      "list": [
-        "Compliance y Cumplimiento Normativo",
-        "Gestión de Riesgo Legal",
-        "Estructuración Contractual Compleja",
-        "Asesoría en Gobernanza Corporativa"
-      ],
+      "desc": "Diseñamos estructuras jurídicas estratégicas y programas de cumplimiento normativo penal corporativo orientados a prevenir y mitigar riesgos legales operativos e institucionales. Asesoramos integralmente a juntas directivas, empresas y particulares en la toma de decisiones críticas, gobernanza interna y blindaje contractual preventivo para evitar contingencias judiciales, sanciones regulatorias y responsabilidades penales de las personas jurídicas y sus administradores.",
       "link": "VER DETALLES →"
     },
     "penal": {

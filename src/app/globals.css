@@ -2374,4 +2374,6 @@ body.nav-open {
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--text-muted, #4b5563);
+  text-align: justify;
+  text-justify: inter-word;
 }

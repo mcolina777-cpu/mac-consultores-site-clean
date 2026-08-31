@@ -285,48 +285,22 @@
   "services": {
     "card_1": {
       "title": "Criminal and Procedural Criminal Law",
-      "desc": "We assume comprehensive technical defense in high-complexity proceedings, economic criminality, and financial crimes. We focus on the control of procedural guarantees and the design of robust litigation strategies.",
-      "list": [
-        "Defense against criminal charges",
-        "Cassation and Appeal Remedies",
-        "Corporate Criminal Liability",
-        "Money Laundering"
-      ],
+      "desc": "We assume comprehensive technical criminal defense across complex legal proceedings, economic criminality, and corporate offenses. We design rigorous forensic strategies grounded in strict procedural guarantee enforcement, safeguarding personal liberty, due process, and fundamental client rights before investigative bodies and competent judicial tribunals through unyielding evidentiary analysis and robust appellate advocacy across every procedural stage.",
       "link": "VIEW DETAILS →"
     },
     "card_2": {
       "title": "Constitutional Law",
-      "desc": "Protection and defence of fundamental rights in the face of acts, omissions or decisions that may compromise constitutional guarantees, due process, liberty, integrity and legal certainty.",
-      "list": [
-        "Protection of fundamental rights",
-        "Constitutional amparo action",
-        "Habeas corpus and habeas data",
-        "Due process and effective judicial protection",
-        "Constitutionality and conventionality review",
-        "Constitutional advice and interpretation"
-      ],
+      "desc": "We exercise the direct defense of fundamental rights through constitutional amparo actions, habeas corpus, habeas data, and judicial interpretation remedies. We safeguard constitutional supremacy and procedural due process across complex controversies, structuring strict legal arguments to restore infringed legal guarantees and secure effective judicial protection before the Supreme Tribunal Constitutional Chamber and supervisory courts.",
       "link": "VIEW DETAILS →"
     },
     "card_3": {
       "title": "Cybercrimes and Digital Evidence",
-      "desc": "Specialization in the legal approach to technological contingencies. Incident management, electronic fraud, and legal analysis of digital evidence.",
-      "list": [
-        "Defense in Cybercrimes",
-        "Fraud Management & Digital Sabotage",
-        "Legal Audit of Evidence",
-        "Data Privacy Protection"
-      ],
+      "desc": "We provide specialized legal counsel addressing technological incidents, electronic fraud, system breaches, and cybercrimes. We evaluate digital evidence with strict procedural and computer forensic rigor, coordinating immediate legal responses, evidence audits, and criminal litigation strategies designed to safeguard information assets, corporate data privacy, and protect against institutional and personal reputational or financial exposures.",
       "link": "VIEW DETAILS →"
     },
     "card_4": {
       "title": "Preventive Legal Consulting",
-      "desc": "Design of legal structures for risk mitigation. We accompany corporations and individuals in strategic decision-making to avoid procedural contingencies.",
-      "list": [
-        "Compliance & Regulatory Compliance",
-        "Legal Risk Management",
-        "Complex Contractual Structuring",
-        "Corporate Governance Advisory"
-      ],
+      "desc": "We design strategic legal frameworks and corporate criminal compliance programs aimed at identifying and mitigating operational and legal risks before disputes arise. We advise corporate boards, businesses, and individuals on critical decision-making, governance policies, and preventive contractual structuring to avoid regulatory sanctions, judicial contingencies, and criminal liability exposure for companies and their directors.",
       "link": "VIEW DETAILS →"
     },
     "penal": {
