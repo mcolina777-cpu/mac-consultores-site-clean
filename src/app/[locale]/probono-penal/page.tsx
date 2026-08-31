@@ -46,7 +46,7 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
                 <p className="mb-1-5rem text-justify">{data?.p3}</p>
               </div>
 
-              {/* Bloque de Acceso al Reglamento */}
+              {/* Bloque de Acceso al Reglamento Dinámico */}
               <div className="alt-channels mt-2rem">
                 <h4 className="contact-subtitle contact-subtitle-border mb-1-5rem">
                   {data?.reglamento_section_title}
@@ -60,11 +60,14 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
                   >
                     <span className="channel-icon">⚖️</span>
                     <div className="channel-text">
-                      <span className="font-bold text-primary block">Consultar Reglamento Institucional en Línea →</span>
-                      <span className="channel-value text-sm text-muted">Conozca los 17 artículos, principios rectores, límites de actuación y el procedimiento de selección.</span>
+                      <span className="font-bold text-primary block">
+                        {data?.reglamento_online_title}
+                      </span>
+                      <span className="channel-value text-sm text-muted">
+                        {data?.reglamento_online_desc}
+                      </span>
                     </div>
                   </Link>
-
                   {/* Botón 2 */}
                   <Link
                     href={`/${locale}/probono-penal/reglamento-completo`}
@@ -72,8 +75,12 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
                   >
                     <span className="channel-icon">📄</span>
                     <div className="channel-text">
-                      <span className="font-bold text-primary block">Consultar Reglamento Oficial</span>
-                      <span className="channel-value text-sm text-muted">Documento institucional para consulta en línea.</span>
+                      <span className="font-bold text-primary block">
+                        {data?.reglamento_oficial_title}
+                      </span>
+                      <span className="channel-value text-sm text-muted">
+                        {data?.reglamento_oficial_desc}
+                      </span>
                     </div>
                   </Link>
                 </div>
