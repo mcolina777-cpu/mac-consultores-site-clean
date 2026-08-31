@@ -58,7 +58,9 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             <Link href={`/${locale}/services/international-cooperation/local-counsel`} className="card block-link">
               <span className="section-tag">{data?.proposal?.card_1?.tag || "01"}</span>
               <h3>{data?.proposal?.card_1?.title}</h3>
-              <p>{data?.proposal?.card_1?.desc}</p>
+              <p className="card-editorial-text">
+                {data?.proposal?.card_1?.desc}
+              </p>
               <span className="card-link">{data?.proposal?.card_1?.link || "VER DETALLES →"}</span>
             </Link>
 
@@ -66,7 +68,9 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             <Link href={`/${locale}/services/international-cooperation/areas-cooperacion`} className="card block-link">
               <span className="section-tag">{data?.proposal?.card_2?.tag || "02"}</span>
               <h3>{data?.proposal?.card_2?.title}</h3>
-              <p>{data?.proposal?.card_2?.desc}</p>
+              <p className="card-editorial-text">
+                {data?.proposal?.card_2?.desc}
+              </p>
               <span className="card-link">{data?.proposal?.card_2?.link || "VER DETALLES →"}</span>
             </Link>
 
@@ -74,7 +78,9 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             <Link href={`/${locale}/services/international-cooperation/modelo-b2b`} className="card block-link">
               <span className="section-tag">{data?.proposal?.card_3?.tag || "03"}</span>
               <h3>{data?.proposal?.card_3?.title}</h3>
-              <p>{data?.proposal?.card_3?.desc}</p>
+              <p className="card-editorial-text">
+                {data?.proposal?.card_3?.desc}
+              </p>
               <span className="card-link">{data?.proposal?.card_3?.link || "VER DETALLES →"}</span>
             </Link>
           </div>
