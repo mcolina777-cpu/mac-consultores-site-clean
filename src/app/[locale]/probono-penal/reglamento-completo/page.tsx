@@ -93,7 +93,21 @@ export default async function ReglamentoProBono({ params }: { params: Promise<{ 
 
             <hr className="divider-subtle my-3rem" />
 
-
+            {/* Articulado del Reglamento (17 Artículos) */}
+            <div className="editorial-block mb-4rem">
+              <h2 className="serif section-title text-center mb-3rem">{data?.articles_main_title}</h2>
+              
+              <div className="articles-flow">
+                {data?.articles?.map((art: { num: string; title: string; content: string }, idx: number) => (
+                  <div key={idx} className="article-item mb-2-5rem">
+                    <h4 className="serif heading-sm text-primary mb-0-5rem font-bold">
+                      {art.num}. {art.title}
+                    </h4>
+                    <p className="text-justify">{art.content}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
 
             {/* Procedimiento de 4 Etapas */}
             <div className="editorial-block bg-soft p-2-5rem rounded-8 mb-4rem">

@@ -53,27 +53,27 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
                 </h4>
                 
                 <div className="channels-grid grid-1-col gap-1rem">
-                  {/* Enlace a la Landing Institucional del Reglamento */}
-                  <Link
-                    href={getRoute(locale, "probono_reglamento") || `/${locale}/probono-penal/reglamento`}
-                    className="channel-card"
-                  >
-                    <span className="channel-icon">⚖️</span>
-                    <div className="channel-text">
-                      <span className="font-bold text-primary block">{data?.reglamento_online_title}</span>
-                      <span className="channel-value text-sm text-muted">{data?.reglamento_online_desc}</span>
-                    </div>
-                  </Link>
-
-                  {/* Enlace para consultar reglamento */}
+                  {/* Botón 1: Resumen y Criterios Institucionales */}
                   <Link
                     href={`/${locale}/probono-penal/reglamento`}
                     className="channel-card"
                   >
+                    <span className="channel-icon">⚖️</span>
+                    <div className="channel-text">
+                      <span className="font-bold text-primary block">Consultar Criterios y Resumen Normativo →</span>
+                      <span className="channel-value text-sm text-muted">Conozca los principios rectores, límites de actuación y el procedimiento de selección.</span>
+                    </div>
+                  </Link>
+
+                  {/* Botón 2: Reglamento Completo Oficial */}
+                  <Link
+                    href={`/${locale}/probono-penal/reglamento-completo`}
+                    className="channel-card"
+                  >
                     <span className="channel-icon">📄</span>
                     <div className="channel-text">
-                      <span className="font-bold text-primary block">Consultar Reglamento Oficial</span>
-                      <span className="channel-value text-sm text-muted">Documento institucional para consulta en línea.</span>
+                      <span className="font-bold text-primary block">Consultar Reglamento Oficial Completo</span>
+                      <span className="channel-value text-sm text-muted">Texto normativo institucional íntegro (16 secciones) para lectura en línea.</span>
                     </div>
                   </Link>
                 </div>
