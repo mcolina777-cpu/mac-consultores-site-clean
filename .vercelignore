@@ -3,7 +3,7 @@
 *.zip
 *.tar
 *.tar.gz
-*.pdf
+!public/docs/*.pdf
 *.doc
 *.docx
 *.xls
