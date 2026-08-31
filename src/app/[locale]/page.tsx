@@ -127,21 +127,21 @@ export default async function Home({ params }: Props) {
             <Link href={getRoute(locale, "estrategiaSeleccionDeCasos")} className="card">
               <span className="section-tag">{dict?.home?.strategies?.case_selection?.tag}</span>
               <h3>{dict?.home?.strategies?.case_selection?.title}</h3>
-              <p>{dict?.home?.strategies?.case_selection?.desc}</p>
+              <p className="card-editorial-text">{dict?.home?.strategies?.case_selection?.desc}</p>
               <span className="news-link"><span>{dict?.news?.read_more}</span></span>
             </Link>
 
             <Link href={getRoute(locale, "estrategiaTeoriaDelCaso")} className="card">
               <span className="section-tag">{dict?.home?.strategies?.case_theory?.tag}</span>
               <h3>{dict?.home?.strategies?.case_theory?.title}</h3>
-              <p>{dict?.home?.strategies?.case_theory?.desc}</p>
+              <p className="card-editorial-text">{dict?.home?.strategies?.case_theory?.desc}</p>
               <span className="news-link"><span>{dict?.news?.read_more}</span></span>
             </Link>
 
             <Link href={getRoute(locale, "estrategiaEscenariosRepresentativos")} className="card">
               <span className="section-tag">{dict?.home?.strategies?.representative_scenarios?.tag}</span>
               <h3>{dict?.home?.strategies?.representative_scenarios?.title}</h3>
-              <p>{dict?.home?.strategies?.representative_scenarios?.desc}</p>
+              <p className="card-editorial-text">{dict?.home?.strategies?.representative_scenarios?.desc}</p>
               <span className="news-link"><span>{dict?.news?.read_more}</span></span>
             </Link>
           </div>
