@@ -227,6 +227,25 @@
         "title": "Constitutional Protection",
         "desc": "Specialist in the activation of jurisdictional guarantees, amparo actions, and constitutional review to restore rights infringed in flawed judicial proceedings."
       }
+    },
+    "pillars": {
+      "tag": "TECHNICAL RIGOR",
+      "title": "Pillars of Practice and Trajectory",
+      "card_1": {
+        "tag": "+20 YEARS",
+        "title": "Continuous Legal Practice",
+        "desc": "Strategic litigation and specialized procedural leadership before trial courts, appellate courts, and criminal and constitutional jurisdictions."
+      },
+      "card_2": {
+        "tag": "POSTGRADUATE",
+        "title": "Academic Level & Teaching",
+        "desc": "Postgraduate studies in Constitutional and Criminal Law, complemented by extensive academic scholarship and university lecturing."
+      },
+      "card_3": {
+        "tag": "TSJ / SUPREME COURT",
+        "title": "Cassation & Constitutional Protection",
+        "desc": "Technical substantiation of extraordinary criminal cassation appeals and constitutional protection motions before higher courts."
+      }
     }
   },
   "socios": {

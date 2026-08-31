@@ -225,6 +225,25 @@
         "title": "Tutela Constitucional",
         "desc": "Especialista en la activación de garantías jurisdiccionales, acciones de amparo y revisión constitucional para restablecer derechos infringidos en procesos judiciales viciados."
       }
+    },
+    "pillars": {
+      "tag": "SOLVENCIA TÉCNICA",
+      "title": "Pilares de Práctica y Trayectoria",
+      "card_1": {
+        "tag": "+20 AÑOS",
+        "title": "Ejercicio Forense Ininterrumpido",
+        "desc": "Litigación estratégica y dirección procesal especializada ante tribunales de instancia, cortes superiores y jurisdicción penal y constitucional."
+      },
+      "card_2": {
+        "tag": "IV NIVEL",
+        "title": "Nivel Académico & Docencia",
+        "desc": "Estudios de postgrado en Derecho Constitucional y Ciencias Penales y Criminológicas, complementados con una destacada trayectoria en la cátedra universitaria."
+      },
+      "card_3": {
+        "tag": "TSJ",
+        "title": "Casación y Tutela Constitucional",
+        "desc": "Sustanciación técnica de recursos extraordinarios de casación penal y acciones de amparo para la protección efectiva de garantías fundamentales."
+      }
     }
   },
   "socios": {

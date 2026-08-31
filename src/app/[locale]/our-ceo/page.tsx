@@ -111,55 +111,38 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
       {/* BLOQUE 2: PILARES DE AUTORIDAD Y CREDENCIALES FORENSES */}
       <section className="bg-soft section-padding-asym">
         <div className="container">
-          <div className="axial-header axial-centered text-center mb-3-5rem">
-            <span className="section-tag">{data?.pillars?.tag || (isEs ? 'SOLVENCIA TÉCNICA' : 'TECHNICAL RIGOR')}</span>
-            <h2 className="serif section-title mt-1rem">
-              {data?.pillars?.title || (isEs ? 'Pilares de Práctica y Trayectoria' : 'Pillars of Practice and Trajectory')}
-            </h2>
+          {/* Encabezado centrado */}
+          <div className="mt-2rem mb-3rem text-center">
+            <span className="section-tag">{data?.pillars?.tag}</span>
+            <h2 className="serif section-title mt-1rem">{data?.pillars?.title}</h2>
           </div>
-          <div className="grid-3">
-            {/* Tarjeta 1 */}
+
+          {/* Grid de 3 Tarjetas con la estructura exacta de Servicios */}
+          <div className="grid-3 mb-3rem">
+            {/* TARJETA 1 */}
             <div className="card">
-              <span className="card-metric">
-                {data?.pillars?.card_1?.badge || '+20'}
-              </span>
-              <h3 className="serif">
-                {data?.pillars?.card_1?.title || (isEs ? 'Años de Ejercicio Forense' : 'Years of Legal Practice')}
-              </h3>
+              <span className="section-tag">{data?.pillars?.card_1?.tag}</span>
+              <h3 className="serif">{data?.pillars?.card_1?.title}</h3>
               <p className="card-editorial-text">
-                {data?.pillars?.card_1?.desc || (isEs
-                  ? 'Litigación estratégica y dirección procesal ininterrumpida ante tribunales de instancia, cortes superiores y jurisdicción especializada.'
-                  : 'Strategic litigation and uninterrupted procedural leadership before trial courts, appellate courts, and specialized jurisdictions.')}
+                {data?.pillars?.card_1?.desc}
               </p>
             </div>
 
-            {/* Tarjeta 2 */}
+            {/* TARJETA 2 */}
             <div className="card">
-              <span className="card-metric">
-                {data?.pillars?.card_2?.badge || 'IV'}
-              </span>
-              <h3 className="serif">
-                {data?.pillars?.card_2?.title || (isEs ? 'Nivel Académico & Docencia' : 'Postgraduate Degree & Teaching')}
-              </h3>
+              <span className="section-tag">{data?.pillars?.card_2?.tag}</span>
+              <h3 className="serif">{data?.pillars?.card_2?.title}</h3>
               <p className="card-editorial-text">
-                {data?.pillars?.card_2?.desc || (isEs
-                  ? 'Estudios de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas, complementados con una destacada labor en la formación universitaria.'
-                  : 'Advanced studies in Constitutional and Criminal Law, complemented by extensive university teaching and academic scholarship.')}
+                {data?.pillars?.card_2?.desc}
               </p>
             </div>
 
-            {/* Tarjeta 3 */}
+            {/* TARJETA 3 */}
             <div className="card">
-              <span className="card-metric">
-                {data?.pillars?.card_3?.badge || 'TSJ'}
-              </span>
-              <h3 className="serif">
-                {data?.pillars?.card_3?.title || (isEs ? 'Casación y Tutela Constitucional' : 'Supreme Court & Constitutional Law')}
-              </h3>
+              <span className="section-tag">{data?.pillars?.card_3?.tag}</span>
+              <h3 className="serif">{data?.pillars?.card_3?.title}</h3>
               <p className="card-editorial-text">
-                {data?.pillars?.card_3?.desc || (isEs
-                  ? 'Interposición y sustanciación de recursos extraordinarios de casación penal y acciones de amparo para la protección efectiva de garantías fundamentales.'
-                  : 'Filing and substantiation of extraordinary appeals before the Supreme Tribunal of Justice and constitutional protection mechanisms.')}
+                {data?.pillars?.card_3?.desc}
               </p>
             </div>
           </div>
