@@ -34,7 +34,7 @@ export default async function ReglamentoProBono({ params }: { params: Promise<{ 
       <header className="page-header">
         <div className="container">
           <span className="breadcrumb">
-            <Link href={getRoute(locale, "pro_bono_penal") || `/${locale}/probono-penal`}>
+            <Link href={`/${locale}/probono-penal`}>
               {data?.breadcrumb_parent || "Programa Pro Bono"}
             </Link>{" "}
             / {data?.breadcrumb_current || "Reglamento"}
@@ -132,7 +132,7 @@ export default async function ReglamentoProBono({ params }: { params: Promise<{ 
                 MAC CONSULTORES JURÍDICOS & ASOCIADOS
               </p>
               <Link 
-                href={getRoute(locale, "pro_bono_penal") || `/${locale}/probono-penal`}
+                href={`/${locale}/probono-penal`}
                 className="btn btn-primary"
               >
                 {data?.back_btn}
