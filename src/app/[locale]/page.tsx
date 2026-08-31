@@ -214,7 +214,7 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
 
-      {/* ACTUALIDAD / NOTICIAS (Tarjetas 10, 11 y 12 100% Clicables) */}
+      {/* ACTUALIDAD / NOTICIAS (Tarjetas 10, 11 y 12 con enlaces directos a fuentes) */}
       <section>
         <div className="container">
           <div className="axial-header axial-centered">
@@ -222,8 +222,13 @@ export default async function Home({ params }: Props) {
             <h2 className="section-title">{dict?.news?.title}</h2>
           </div>
           <div className="grid-3">
-            {/* T10 */}
-            <Link href={getRoute(locale, "news")} className="card block-link">
+            {/* T10: Reformas Procesales */}
+            <a 
+              href="https://accesoalajusticia.org/modificaciones-codigo-organico-procesal-penal-copp-venezolano-historia-7-tiempos/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="card block-link"
+            >
               <picture>
                 <source srcSet="/assets/img-webp/OFICINA_1.webp" type="image/webp" />
                 <img src="/assets/img/OFICINA_1.jpg" alt="Noticia 1" className="news-img" width="1600" height="900" loading="lazy" />
@@ -231,10 +236,15 @@ export default async function Home({ params }: Props) {
               <h3>{dict?.news?.card_1?.title}</h3>
               <p className="card-editorial-text">{dict?.news?.card_1?.desc}</p>
               <span className="news-link"><span>{dict?.news?.read_more}</span></span>
-            </Link>
+            </a>
 
-            {/* T11 */}
-            <Link href={getRoute(locale, "news")} className="card block-link">
+            {/* T11: Criterios Vinculantes / Jurisprudencia */}
+            <a 
+              href="https://vlex.es/vid/derecho-presuncion-inocencia-391378250" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="card block-link"
+            >
               <picture>
                 <source srcSet="/assets/img-webp/OFICINA_2.webp" type="image/webp" />
                 <img src="/assets/img/OFICINA_2.jpg" alt="Noticia 2" className="news-img" width="1600" height="900" loading="lazy" />
@@ -242,10 +252,15 @@ export default async function Home({ params }: Props) {
               <h3>{dict?.news?.card_2?.title}</h3>
               <p className="card-editorial-text">{dict?.news?.card_2?.desc}</p>
               <span className="news-link"><span>{dict?.news?.read_more}</span></span>
-            </Link>
+            </a>
 
-            {/* T12 */}
-            <Link href={getRoute(locale, "news")} className="card block-link">
+            {/* T12: Colaboración Legal Internacional */}
+            <a 
+              href="https://theimpactlawyers.com/es/articulos/la-colaboracion-de-las-firmas-legales-una-practica-extendida-en-la-abogacia" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="card block-link"
+            >
               <picture>
                 <source srcSet="/assets/img-webp/OFICINA_3.webp" type="image/webp" />
                 <img src="/assets/img/OFICINA_3.jpg" alt="Noticia 3" className="news-img" width="1600" height="900" loading="lazy" />
@@ -253,7 +268,7 @@ export default async function Home({ params }: Props) {
               <h3>{dict?.news?.card_3?.title}</h3>
               <p className="card-editorial-text">{dict?.news?.card_3?.desc}</p>
               <span className="news-link"><span>{dict?.news?.read_more}</span></span>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
