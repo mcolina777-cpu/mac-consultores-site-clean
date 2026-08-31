@@ -9,45 +9,64 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: dict?.pro_bono_penal?.seo_title,
     description: dict?.pro_bono_penal?.seo_desc,
+    alternates: {
+      canonical: `https://macconsultoresjuridicos.com/${locale}/probono-penal`,
+    },
   };
 }
 
 export default async function ProBonoPenal({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  const data = dict?.pro_bono_penal;
 
   return (
     <main className="page-probono">
       <header className="page-header">
         <div className="container">
-          <span className="breadcrumb">{dict?.pro_bono_penal?.tag}</span>
-          <h1>{dict?.pro_bono_penal?.h1}</h1>
+          <span className="breadcrumb">{data?.tag}</span>
+          <h1 className="serif">{data?.h1}</h1>
+          <p className="hero-subtitle text-muted mt-1rem">{data?.subtitle}</p>
         </div>
       </header>
 
-      <section>
+      <section className="section-padding">
         <div className="container">
           <div className="grid-2 contact-grid-start">
             
-            {/* Columna Izquierda: Información */}
+            {/* Columna Izquierda: Información Institucional y Enlace al Reglamento */}
             <div className="contact-info">
-              <p className="text-lg mb-2rem">
-                {dict?.pro_bono_penal?.intro}
+              <p className="text-lg mb-1-5rem font-semibold text-primary">
+                {data?.intro}
               </p>
-
-              <div className="layout-reading mb-3rem">
-                <p className="mb-1-5rem">{dict?.pro_bono_penal?.p1}</p>
-                <p className="mb-1-5rem">{dict?.pro_bono_penal?.p2}</p>
-                <p className="mb-1-5rem">{dict?.pro_bono_penal?.p3}</p>
+              
+              <div className="layout-reading mb-2-5rem">
+                <p className="mb-1-5rem text-justify">{data?.p1}</p>
+                <p className="mb-1-5rem text-justify">{data?.p2}</p>
+                <p className="mb-1-5rem text-justify">{data?.p3}</p>
               </div>
 
-              {/* Enlace al PDF reglamento */}
-              <div className="alt-channels mt-3rem">
+              {/* Bloque de Acceso al Reglamento */}
+              <div className="alt-channels mt-2rem">
                 <h4 className="contact-subtitle contact-subtitle-border mb-1-5rem">
-                  {dict?.pro_bono_penal?.pdf_note}
+                  {data?.reglamento_section_title}
                 </h4>
+                
                 <div className="channels-grid grid-1-col gap-1rem">
+                  {/* Enlace a la Landing Institucional del Reglamento */}
                   <Link
+                    href={getRoute(locale, "probono_reglamento") || `/${locale}/probono-penal/reglamento`}
+                    className="channel-card"
+                  >
+                    <span className="channel-icon">⚖️</span>
+                    <div className="channel-text">
+                      <span className="font-bold text-primary block">{data?.reglamento_online_title}</span>
+                      <span className="channel-value text-sm text-muted">{data?.reglamento_online_desc}</span>
+                    </div>
+                  </Link>
+
+                  {/* Enlace alternativo para descarga de PDF */}
+                  <a
                     href="/docs/reglamento-pro-bono-penal-mac-consultores.pdf"
                     className="channel-card"
                     target="_blank"
@@ -55,79 +74,63 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
                   >
                     <span className="channel-icon">📄</span>
                     <div className="channel-text">
-                      <span className="channel-value">{dict?.pro_bono_penal?.pdf_link}</span>
+                      <span className="font-bold text-primary block">{data?.pdf_link_title}</span>
+                      <span className="channel-value text-sm text-muted">{data?.pdf_link_desc}</span>
                     </div>
-                  </Link>
+                  </a>
                 </div>
+              </div>
+
+              {/* Lema de Compromiso */}
+              <div className="mt-3rem p-1-5rem bg-soft rounded-8 border-subtle">
+                <p className="serif text-center font-bold text-primary mb-0">
+                  {data?.commitment_badge}
+                </p>
               </div>
             </div>
 
-            {/* Columna Derecha: Formulario */}
+            {/* Columna Derecha: Formulario de Postulación Sticky */}
             <div className="form-column">
               <div className="form-card sticky-card">
                 <h3 className="serif heading-md text-primary mb-1-5rem">
-                  {dict?.pro_bono_penal?.form_title}
+                  {data?.form_title}
                 </h3>
                 <p className="section-desc text-sm mb-2rem">
-                  {dict?.pro_bono_penal?.form_desc}
+                  {data?.form_desc}
                 </p>
-
                 <form>
-                  <div className="form-group mb-1rem">
-                    <label className="form-label" htmlFor="nombre">
-                      {dict?.pro_bono_penal?.form_nombre_label}
-                    </label>
-                    <input className="form-input" id="nombre" name="nombre" type="text" required />
-                  </div>
-
-                  <div className="grid-2 form-grid-mobile mb-1rem gap-20px">
-                    <div className="form-group">
-                      <label className="form-label" htmlFor="email">
-                        {dict?.pro_bono_penal?.form_email_label}
-                      </label>
-                      <input className="form-input" id="email" name="email" type="email" required />
-                    </div>
-                    <div className="form-group">
-                      <label className="form-label" htmlFor="telefono">
-                        {dict?.pro_bono_penal?.form_telefono_label}
-                      </label>
-                      <input className="form-input" id="telefono" name="telefono" type="tel" />
-                    </div>
-                  </div>
-
                   <div className="form-group mb-1-5rem">
-                    <label className="form-label" htmlFor="victima">
-                      {dict?.pro_bono_penal?.form_victima_label}
-                    </label>
-                    <select className="form-input font-inherit" id="victima" name="victima" required defaultValue="">
-                      <option value="" disabled>
-                        {dict?.pro_bono_penal?.form_victima_option_default}
-                      </option>
-                      <option value="si">
-                        {dict?.pro_bono_penal?.form_victima_option_si}
-                      </option>
-                      <option value="no">
-                        {dict?.pro_bono_penal?.form_victima_option_no}
-                      </option>
+                    <label className="form-label">{data?.form_nombre_label}</label>
+                    <input type="text" className="form-control" required />
+                  </div>
+                  <div className="form-group mb-1-5rem">
+                    <label className="form-label">{data?.form_email_label}</label>
+                    <input type="email" className="form-control" required />
+                  </div>
+                  <div className="form-group mb-1-5rem">
+                    <label className="form-label">{data?.form_telefono_label}</label>
+                    <input type="tel" className="form-control" required />
+                  </div>
+                  <div className="form-group mb-1-5rem">
+                    <label className="form-label">{data?.form_victima_label}</label>
+                    <select className="form-control" required>
+                      <option value="">{data?.form_victima_option_default}</option>
+                      <option value="si">{data?.form_victima_option_si}</option>
+                      <option value="no">{data?.form_victima_option_no}</option>
                     </select>
                   </div>
-
                   <div className="form-group mb-1-5rem">
-                    <label className="form-label" htmlFor="resumen">
-                      {dict?.pro_bono_penal?.form_resumen_label}
-                    </label>
-                    <textarea className="form-textarea" id="resumen" name="resumen" rows={5} required></textarea>
+                    <label className="form-label">{data?.form_resumen_label}</label>
+                    <textarea rows={4} className="form-control" required></textarea>
                   </div>
-
-                  <div className="form-group mb-1-5rem">
-                    <label className="checkbox-label flex items-start gap-2">
-                      <input type="checkbox" name="acepta_condiciones" required className="mt-1" />
-                      <span className="text-sm">{dict?.pro_bono_penal?.form_condiciones_text}</span>
+                  <div className="form-check mb-1-5rem">
+                    <label className="text-xs text-muted">
+                      <input type="checkbox" required className="mr-0-5rem" />
+                      {data?.form_condiciones_text}
                     </label>
                   </div>
-
                   <button type="submit" className="btn btn-primary w-100">
-                    {dict?.pro_bono_penal?.form_btn}
+                    {data?.form_btn}
                   </button>
                 </form>
               </div>
