@@ -111,17 +111,19 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
       {/* BLOQUE 2: PILARES DE AUTORIDAD Y CREDENCIALES FORENSES */}
       <section className="bg-soft section-padding-asym">
         <div className="container">
-          <div className="axial-header axial-centered text-center mb-3-5rem">
+          {/* Encabezado centrado */}
+          <div className="mt-2rem mb-3rem text-center">
             <span className="section-tag">{isEs ? 'SOLVENCIA TÉCNICA' : 'TECHNICAL RIGOR'}</span>
             <h2 className="serif section-title mt-1rem">
               {isEs ? 'Pilares de Práctica y Trayectoria' : 'Pillars of Practice and Trajectory'}
             </h2>
           </div>
 
+          {/* Grid de 3 Tarjetas con numeración 01, 02, 03 */}
           <div className="grid-3 mb-3rem">
-            {/* TARJETA 1 */}
+            {/* TARJETA 01 */}
             <div className="card">
-              <span className="section-tag">+20 AÑOS</span>
+              <span className="section-tag">01</span>
               <h3 className="serif">{isEs ? 'Años de Ejercicio Forense' : 'Years of Legal Practice'}</h3>
               <p className="card-editorial-text">
                 {isEs
@@ -130,9 +132,9 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
               </p>
             </div>
 
-            {/* TARJETA 2 */}
+            {/* TARJETA 02 */}
             <div className="card">
-              <span className="section-tag">IV NIVEL</span>
+              <span className="section-tag">02</span>
               <h3 className="serif">{isEs ? 'Nivel Académico & Docencia' : 'Postgraduate Degree & Teaching'}</h3>
               <p className="card-editorial-text">
                 {isEs
@@ -141,9 +143,9 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
               </p>
             </div>
 
-            {/* TARJETA 3 */}
+            {/* TARJETA 03 */}
             <div className="card">
-              <span className="section-tag">TSJ</span>
+              <span className="section-tag">03</span>
               <h3 className="serif">{isEs ? 'Casación y Tutela Constitucional' : 'Supreme Court & Constitutional Law'}</h3>
               <p className="card-editorial-text">
                 {isEs
