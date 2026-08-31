@@ -68,14 +68,14 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
                   {/* Enlace alternativo para descarga de PDF */}
                   <a
                     href="/docs/reglamento-pro-bono-penal-mac-consultores.pdf"
-                    className="channel-card"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="channel-card"
                   >
                     <span className="channel-icon">📄</span>
                     <div className="channel-text">
-                      <span className="font-bold text-primary block">{data?.pdf_link_title}</span>
-                      <span className="channel-value text-sm text-muted">{data?.pdf_link_desc}</span>
+                      <span className="font-bold text-primary block">Descargar Reglamento Oficial (PDF)</span>
+                      <span className="channel-value text-sm text-muted">Documento institucional para consulta y archivo fuera de línea.</span>
                     </div>
                   </a>
                 </div>
