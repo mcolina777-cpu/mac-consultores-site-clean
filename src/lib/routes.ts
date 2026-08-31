@@ -24,6 +24,7 @@ export type RouteKey =
   | "estrategiaSeleccionDeCasos"
   | "estrategiaEscenariosRepresentativos"
   | "probonoPenal"
+  | "probono_reglamento"
   | "resources.economic_criminal_risk"
   | "resources.defense_documentation"
   | "resources.international_legal_services"
@@ -59,6 +60,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     estrategiaSeleccionDeCasos: "/es/seleccion-de-casos",
     estrategiaEscenariosRepresentativos: "/es/estrategia-escenarios-representativos",
     probonoPenal: "/es/probono-penal",
+    probono_reglamento: "/es/probono-penal/reglamento",
     "resources.economic_criminal_risk": "/es/resources/economic-criminal-risk",
     "resources.defense_documentation": "/es/resources/defense-documentation",
     "resources.international_legal_services": "/es/resources/international-legal-services",
@@ -93,6 +95,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     estrategiaSeleccionDeCasos: "/en/case-selection",
     estrategiaEscenariosRepresentativos: "/en/estrategia-escenarios-representativos",
     probonoPenal: "/en/probono-penal",
+    probono_reglamento: "/en/probono-penal/regulations",
     "resources.economic_criminal_risk": "/en/resources/economic-criminal-risk",
     "resources.defense_documentation": "/en/resources/defense-documentation",
     "resources.international_legal_services": "/en/resources/international-legal-services",

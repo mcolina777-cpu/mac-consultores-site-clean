@@ -1659,5 +1659,170 @@
         "back_link": "CONOCER NUESTROS PRINCIPIOS →"
       }
     }
+  },
+  "reglamento_pro_bono": {
+    "breadcrumb_parent": "Programa Pro Bono",
+    "breadcrumb_current": "Reglamento Institucional",
+    "h1": "Reglamento del Programa Pro Bono",
+    "subtitle": "Acceso responsable a la orientación jurídica técnica y deontológica.",
+    "intro_title": "Compromiso Institucional y Función Social",
+    "intro_p1": "El Programa Pro Bono de Mac Consultores Jurídicos & Asociados constituye una iniciativa de responsabilidad social profesional orientada a facilitar, dentro de las posibilidades y capacidades de la firma, el acceso a una primera orientación jurídica a personas que, por sus circunstancias particulares, requieran apoyo para comprender la dimensión jurídica de una situación concreta.",
+    "intro_p2": "El ejercicio pro bono forma parte de la responsabilidad social de la abogacía y expresa el compromiso de la profesión con el acceso a la justicia, la protección de los derechos y la promoción de una cultura jurídica responsable. Nuestro Programa no pretende sustituir la asistencia jurídica pública, la defensa penal de oficio, los servicios de las instituciones competentes ni la representación profesional permanente.",
+    "intro_p3": "Mac Consultores Jurídicos & Asociados entiende el trabajo pro bono como una expresión de responsabilidad profesional y no como un servicio comercial gratuito. Por esta razón, cada solicitud es sometida a un proceso de evaluación previo y solamente serán atendidos aquellos requerimientos compatibles con la naturaleza, especialización y línea editorial de la firma.",
+    "social_title": "Objetivos y Función Social del Programa",
+    "social_desc": "La función social del Programa Pro Bono consiste en contribuir, dentro de un marco profesional limitado y responsable, a reducir barreras de acceso a la orientación jurídica mediante los siguientes propósitos:",
+    "social_items": [
+      "Facilitar una primera aproximación jurídica frente a situaciones que involucren derechos o intereses legítimos.",
+      "Orientar al solicitante acerca de la naturaleza jurídica preliminar de su situación.",
+      "Identificar las vías institucionales, procesales o administrativas que resulten pertinentes.",
+      "Promover el conocimiento de los derechos, deberes y mecanismos legales disponibles.",
+      "Contribuir a una cultura de prevención jurídica y actuación responsable ante las instituciones.",
+      "Identificar situaciones que requieran la intervención posterior de organismos públicos o defensores de oficio."
+    ],
+    "principles_title": "Principios Rectores del Programa",
+    "principles": [
+      {
+        "title": "Legalidad",
+        "desc": "Toda orientación se fundamentará, dentro de los límites de la intervención, en el ordenamiento jurídico aplicable y en los principios constitucionales y legales pertinentes."
+      },
+      {
+        "title": "Independencia Técnica",
+        "desc": "La aceptación o rechazo de una solicitud responde exclusivamente a criterios jurídicos, técnicos, institucionales y de capacidad operativa de la firma."
+      },
+      {
+        "title": "Confidencialidad",
+        "desc": "La información suministrada por el solicitante será tratada con la debida reserva profesional, dentro de los límites establecidos por la legislación y la ética profesional."
+      },
+      {
+        "title": "Responsabilidad",
+        "desc": "La intervención pro bono será desarrollada con el mismo criterio de seriedad, prudencia y rigor técnico que orienta la actuación profesional de la firma."
+      },
+      {
+        "title": "No Discriminación",
+        "desc": "La evaluación no estará basada en criterios arbitrarios. La admisión dependerá de la naturaleza del asunto, sus características jurídicas y la disponibilidad de la firma."
+      },
+      {
+        "title": "Transparencia y Autonomía",
+        "desc": "El solicitante será informado con claridad sobre el alcance y limitaciones del servicio. La orientación no sustituye la decisión final que adopte el interesado."
+      }
+    ],
+    "limits_title": "Alcance, Modalidad y Delimitación",
+    "limits_p1": "Mac Consultores Jurídicos & Asociados atenderá entre UNO (1) y DOS (2) casos pro bono mensuales, dependiendo de la disponibilidad operativa. La existencia del Programa no genera un derecho automático de admisión; cada solicitud es evaluada individualmente.",
+    "no_litigation_title": "NO LITIGAMOS DENTRO DEL PROGRAMA PRO BONO",
+    "no_litigation_desc": "El Programa NO comprende litigación ni representación judicial permanente ante tribunales, comparecencias, asistencia a audiencias ni representación ante el Ministerio Público. Su carácter es estrictamente documental y de orientación técnica inicial.",
+    "denuncias_limit": "Límite especial para denuncias: Las orientaciones o redacciones pro bono tendrán una extensión máxima de DOS (2) FOLIOS.",
+    "articles_main_title": "Articulado del Reglamento",
+    "articles": [
+      {
+        "num": "ARTÍCULO 1",
+        "title": "OBJETO",
+        "content": "El presente Reglamento establece las condiciones de funcionamiento, admisión, evaluación y alcance del Programa Pro Bono de Mac Consultores Jurídicos & Asociados."
+      },
+      {
+        "num": "ARTÍCULO 2",
+        "title": "NATURALEZA",
+        "content": "El Programa tiene carácter institucional, voluntario, limitado y selectivo. La recepción de una solicitud no constituye aceptación del caso ni genera obligación de representación profesional."
+      },
+      {
+        "num": "ARTÍCULO 3",
+        "title": "CUPO MENSUAL",
+        "content": "La firma atenderá entre UNO (1) y DOS (2) casos por mes. El número efectivo podrá ser inferior cuando no existan solicitudes compatibles o cuando las circunstancias operativas aconsejen no realizar nuevas admisiones."
+      },
+      {
+        "num": "ARTÍCULO 4",
+        "title": "SOLICITUD",
+        "content": "Toda persona interesada deberá proporcionar información suficiente, clara, veraz y relevante. La firma podrá solicitar documentación adicional para determinar la naturaleza del requerimiento."
+      },
+      {
+        "num": "ARTÍCULO 5",
+        "title": "EVALUACIÓN",
+        "content": "Las solicitudes serán evaluadas con base en criterios jurídicos, técnicos, éticos, institucionales y de disponibilidad. La ausencia de respuesta a solicitudes de información podrá determinar el cierre de la evaluación."
+      },
+      {
+        "num": "ARTÍCULO 6",
+        "title": "ADMISIÓN",
+        "content": "La admisión será comunicada expresamente. Ningún intercambio preliminar de información deberá interpretarse como aceptación del caso ni genera derecho a intervención continuada."
+      },
+      {
+        "num": "ARTÍCULO 7",
+        "title": "CONFLICTO DE INTERESES",
+        "content": "Antes de iniciar cualquier intervención sustancial, la firma verificará la inexistencia de conflictos de interés. La detección de un conflicto determinará la no admisión o terminación inmediata de la orientación."
+      },
+      {
+        "num": "ARTÍCULO 8",
+        "title": "DOCUMENTACIÓN",
+        "content": "El solicitante es responsable de aportar documentos e información auténticos. La firma no responde por consecuencias derivadas de datos falsos, incompletos o deliberadamente omitidos."
+      },
+      {
+        "num": "ARTÍCULO 9",
+        "title": "EXTENSIÓN DE LA INTERVENCIÓN",
+        "content": "La intervención estará limitada al alcance expresamente determinado por la firma. Cualquier actuación adicional requerirá evaluación y acuerdo profesional independiente."
+      },
+      {
+        "num": "ARTÍCULO 10",
+        "title": "DENUNCIAS",
+        "content": "Las denuncias objeto de orientación pro bono tendrán una extensión máxima de DOS (2) FOLIOS. La firma no asumirá la elaboración indefinida de ampliaciones ni recursos procesales sucesivos."
+      },
+      {
+        "num": "ARTÍCULO 11",
+        "title": "AUSENCIA DE LITIGACIÓN",
+        "content": "El Programa no comprende litigación, representación judicial ni seguimiento procesal. La aceptación de una solicitud no constituye mandato judicial ni patrocinio permanente."
+      },
+      {
+        "num": "ARTÍCULO 12",
+        "title": "GRATUIDAD",
+        "content": "La intervención admitida dentro del Programa tiene carácter pro bono y no genera honorarios profesionales. La gratuidad no cubre gastos de terceros, tasas, aranceles, copias, certificaciones ni peritajes."
+      },
+      {
+        "num": "ARTÍCULO 13",
+        "title": "PLAZOS",
+        "content": "La atención depende de la disponibilidad del Programa. La existencia de una situación urgente o plazos procesales perentorios no obliga a una intervención inmediata; el solicitante debe procurar asistencia ordinaria urgente."
+      },
+      {
+        "num": "ARTÍCULO 14",
+        "title": "CIERRE",
+        "content": "La intervención concluye por: cumplimiento del objeto de orientación, alcance del límite de folios, necesidad de litigación sobrevenida, conflicto de interés, o información insuficiente o falsa."
+      },
+      {
+        "num": "ARTÍCULO 15",
+        "title": "AUSENCIA DE GARANTÍA DE RESULTADOS",
+        "content": "La orientación constituye una valoración técnica limitada y no representa garantía de resultado ante tribunales u órganos públicos. Las decisiones adoptadas por el interesado serán de su exclusiva responsabilidad."
+      },
+      {
+        "num": "ARTÍCULO 16",
+        "title": "MODIFICACIÓN DEL PROGRAMA",
+        "content": "Mac Consultores Jurídicos & Asociados se reserva la facultad de modificar, suspender temporalmente o finalizar el Programa cuando las circunstancias operativas o institucionales lo requieran."
+      },
+      {
+        "num": "ARTÍCULO 17",
+        "title": "ACEPTACIÓN DE CONDICIONES",
+        "content": "El envío de la solicitud implica la declaración expresa de haber leído, comprendido y aceptado íntegramente las condiciones y limitaciones establecidas en el presente Reglamento."
+      }
+    ],
+    "procedure_title": "Procedimiento de Solicitud en Cuatro Etapas",
+    "procedure_steps": [
+      {
+        "step": "ETAPA 01",
+        "title": "Solicitud",
+        "desc": "El interesado presenta una descripción clara, concreta y veraz de su situación a través del formulario."
+      },
+      {
+        "step": "ETAPA 02",
+        "title": "Evaluación",
+        "desc": "La firma revisa preliminarmente la naturaleza del asunto, la documentación aportada y la disponibilidad operativa."
+      },
+      {
+        "step": "ETAPA 03",
+        "title": "Determinación de Alcance",
+        "desc": "Cuando corresponda, se define el tipo específico de orientación jurídica que será suministrada y sus límites."
+      },
+      {
+        "step": "ETAPA 04",
+        "title": "Respuesta",
+        "desc": "La firma comunica formalmente la admisión, el rechazo o la solicitud de información complementaria."
+      }
+    ],
+    "closing_quote": "Uno o dos casos al mes. Una intervención concreta. Un compromiso profesional.",
+    "back_btn": "IR AL FORMULARIO DE SOLICITUD"
   }
 }

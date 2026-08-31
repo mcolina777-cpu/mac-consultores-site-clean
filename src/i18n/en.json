@@ -1661,5 +1661,170 @@
         "back_link": "KNOW OUR PRINCIPLES →"
       }
     }
+  },
+  "reglamento_pro_bono": {
+    "breadcrumb_parent": "Pro Bono Program",
+    "breadcrumb_current": "Program Regulations",
+    "h1": "Pro Bono Program Regulations",
+    "subtitle": "Responsible access to technical and ethical legal guidance.",
+    "intro_title": "Institutional Commitment & Social Responsibility",
+    "intro_p1": "The Pro Bono Program at Mac Consultores Jurídicos & Asociados represents an institutional initiative aimed at facilitating initial legal guidance to individuals who require assistance understanding the legal dimensions of their situation within our operational capacities.",
+    "intro_p2": "Pro bono practice reflects our commitment to justice and the rule of law. Our program does not substitute public legal defense, court-appointed counsel, or ongoing professional representation, focusing instead on limited, responsible initial legal orientation.",
+    "intro_p3": "We view pro bono work as a professional responsibility rather than a commercial service. Every application is subjected to preliminary evaluation, admitting only matters compatible with our specialization and institutional editorial policy.",
+    "social_title": "Social Purpose and Objectives",
+    "social_desc": "The program aims to reduce legal access barriers through strict professional standards by pursuing the following objectives:",
+    "social_items": [
+      "Facilitating an initial legal assessment for legitimate matters.",
+      "Guiding applicants regarding the preliminary legal nature of their situation.",
+      "Identifying relevant administrative, judicial, or institutional pathways.",
+      "Promoting legal literacy and institutional awareness.",
+      "Encouraging preventive legal culture and responsible institutional conduct.",
+      "Identifying cases that require court-appointed public defense or specialized public bodies."
+    ],
+    "principles_title": "Guiding Principles",
+    "principles": [
+      {
+        "title": "Legality",
+        "desc": "All guidance is strictly grounded in the applicable legal framework and constitutional principles."
+      },
+      {
+        "title": "Technical Independence",
+        "desc": "Case evaluations and admissions depend solely on legal, technical, and operational capacity criteria."
+      },
+      {
+        "title": "Confidentiality",
+        "desc": "Applicant information is handled with strict professional secrecy under applicable legal and ethical rules."
+      },
+      {
+        "title": "Professional Responsibility",
+        "desc": "Pro bono matters are handled with the same rigor, prudence, and standard of care as paid engagements."
+      },
+      {
+        "title": "Non-Discrimination",
+        "desc": "Evaluation is objective, based exclusively on legal merit, case nature, and available firm bandwidth."
+      },
+      {
+        "title": "Transparency & Autonomy",
+        "desc": "Applicants are clearly informed about scope limitations. Guidance does not substitute independent decision-making."
+      }
+    ],
+    "limits_title": "Scope, Modality, and Operational Limits",
+    "limits_p1": "Mac Consultores Jurídicos & Asociados will handle one (1) to two (2) pro bono matters per month. Program existence does not grant automatic admission rights; each case is evaluated individually.",
+    "no_litigation_title": "WE DO NOT LITIGATE UNDER THE PRO BONO PROGRAM",
+    "no_litigation_desc": "The program strictly excludes litigation, court appearances, continuous procedural representation, and hearings before prosecutors or courts. Scope is strictly documentary and orientational.",
+    "denuncias_limit": "Special limit for formal criminal complaints: Advisory drafts are subject to a strict maximum length of TWO (2) PAGES.",
+    "articles_main_title": "Program Regulations & Bylaws",
+    "articles": [
+      {
+        "num": "ARTICLE 1",
+        "title": "PURPOSE",
+        "content": "These Regulations govern the operating conditions, admission, evaluation, and scope of the Pro Bono Program at Mac Consultores Jurídicos & Asociados."
+      },
+      {
+        "num": "ARTICLE 2",
+        "title": "NATURE",
+        "content": "The program is institutional, voluntary, limited, and selective. Application receipt does not constitute case acceptance or legal representation."
+      },
+      {
+        "num": "ARTICLE 3",
+        "title": "MONTHLY QUOTA",
+        "content": "The firm will handle one (1) to two (2) cases per month, subject to operational availability and qualifying matters."
+      },
+      {
+        "num": "ARTICLE 4",
+        "title": "APPLICATION",
+        "content": "Applicants must provide clear, truthful, and relevant information. The firm may request additional documents to evaluate the matter."
+      },
+      {
+        "num": "ARTICLE 5",
+        "title": "EVALUATION",
+        "content": "Matters are assessed based on legal, technical, ethical, and capacity factors. Failure to supply requested details may close the review."
+      },
+      {
+        "num": "ARTICLE 6",
+        "title": "ADMISSION",
+        "content": "Admission is communicated expressly. Preliminary communications do not imply acceptance or create ongoing representation."
+      },
+      {
+        "num": "ARTICLE 7",
+        "title": "CONFLICTS OF INTEREST",
+        "content": "Conflict checks are conducted prior to substantive work. Detecting a conflict will result in immediate non-admission or termination."
+      },
+      {
+        "num": "ARTICLE 8",
+        "title": "DOCUMENTATION",
+        "content": "Applicants are responsible for document authenticity. The firm is not liable for outcomes stemming from false or omitted information."
+      },
+      {
+        "num": "ARTICLE 9",
+        "title": "SCOPE OF WORK",
+        "content": "Intervention is strictly limited to the communicated scope. Additional tasks require separate professional arrangements."
+      },
+      {
+        "num": "ARTICLE 10",
+        "title": "COMPLAINT DRAFTS",
+        "content": "Guidance on formal criminal complaints is limited to a maximum of TWO (2) PAGES. The firm does not undertake endless revisions or appeals."
+      },
+      {
+        "num": "ARTICLE 11",
+        "title": "NO LITIGATION",
+        "content": "The program excludes court litigation and procedural monitoring. Case admission does not constitute judicial power of attorney."
+      },
+      {
+        "num": "ARTICLE 12",
+        "title": "PRO BONO BASIS",
+        "content": "Admitted matters generate no professional fees for agreed work. Third-party costs, taxes, official fees, and copies remain excluded."
+      },
+      {
+        "num": "ARTICLE 13",
+        "title": "TIMELINES",
+        "content": "Handling depends on firm availability. Urgent matters or expiring statutory deadlines require immediate private or public defense."
+      },
+      {
+        "num": "ARTICLE 14",
+        "title": "CLOSURE",
+        "content": "Work concludes upon: completing orientation, reaching page limits, emerging litigation needs, conflicts, or false information."
+      },
+      {
+        "num": "ARTICLE 15",
+        "title": "NO GUARANTEE OF OUTCOME",
+        "content": "Guidance constitutes a limited professional assessment and does not guarantee results before courts or public authorities."
+      },
+      {
+        "num": "ARTICLE 16",
+        "title": "PROGRAM AMENDMENTS",
+        "content": "The firm reserves the right to modify, suspend, or terminate the program as institutional requirements dictate."
+      },
+      {
+        "num": "ARTICLE 17",
+        "title": "ACCEPTANCE OF TERMS",
+        "content": "Submitting an application constitutes express acknowledgment and agreement to all terms set forth in these Regulations."
+      }
+    ],
+    "procedure_title": "Four-Stage Application Process",
+    "procedure_steps": [
+      {
+        "step": "STAGE 01",
+        "title": "Application",
+        "desc": "The applicant submits a clear, specific, and truthful case summary via the form."
+      },
+      {
+        "step": "STAGE 02",
+        "title": "Evaluation",
+        "desc": "The firm reviews the legal merits, documentation, and operational bandwidth."
+      },
+      {
+        "step": "STAGE 03",
+        "title": "Scope Determination",
+        "desc": "When admitted, the specific orientation parameters and boundaries are formally established."
+      },
+      {
+        "step": "STAGE 04",
+        "title": "Response",
+        "desc": "The firm formally notifies admission, rejection, or requests supplemental information."
+      }
+    ],
+    "closing_quote": "One or two cases per month. A concrete intervention. A professional commitment.",
+    "back_btn": "GO TO APPLICATION FORM"
   }
 }
