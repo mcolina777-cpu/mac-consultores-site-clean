@@ -2368,7 +2368,7 @@ body.nav-open {
   }
 }
 
-/* Estandarización tipográfica para tarjetas (.card) en todo el sitio */
+/* Estandarización tipográfica editorial con soporte de justificado y guionado */
 .card p,
 .card-editorial-text {
   font-size: 0.95rem;
@@ -2376,4 +2376,9 @@ body.nav-open {
   color: var(--text-muted, #4b5563);
   text-align: justify;
   text-justify: inter-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
