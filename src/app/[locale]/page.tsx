@@ -214,7 +214,7 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
 
-      {/* ACTUALIDAD / NOTICIAS */}
+      {/* ACTUALIDAD / NOTICIAS (Tarjetas 10, 11 y 12) */}
       <section>
         <div className="container">
           <div className="axial-header axial-centered">
@@ -222,31 +222,36 @@ export default async function Home({ params }: Props) {
             <h2 className="section-title">{dict?.news?.title}</h2>
           </div>
           <div className="grid-3">
+            {/* T10 */}
             <div className="card">
               <picture>
                 <source srcSet="/assets/img-webp/OFICINA_1.webp" type="image/webp" />
-                <img src="/assets/img/OFICINA_1.jpg" alt="Noticia 1" className="news-img" width="2752" height="1536" loading="lazy" />
+                <img src="/assets/img/OFICINA_1.jpg" alt="Noticia 1" className="news-img" width="1600" height="900" loading="lazy" />
               </picture>
               <h3>{dict?.news?.card_1?.title}</h3>
-              <p>{dict?.news?.card_1?.desc}</p>
+              <p className="card-editorial-text">{dict?.news?.card_1?.desc}</p>
               <Link href={getRoute(locale, "news")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
             </div>
+
+            {/* T11 */}
             <div className="card">
               <picture>
                 <source srcSet="/assets/img-webp/OFICINA_2.webp" type="image/webp" />
-                <img src="/assets/img/OFICINA_2.jpg" alt="Noticia 2" className="news-img" width="2752" height="1536" loading="lazy" />
+                <img src="/assets/img/OFICINA_2.jpg" alt="Noticia 2" className="news-img" width="1600" height="900" loading="lazy" />
               </picture>
               <h3>{dict?.news?.card_2?.title}</h3>
-              <p>{dict?.news?.card_2?.desc}</p>
+              <p className="card-editorial-text">{dict?.news?.card_2?.desc}</p>
               <Link href={getRoute(locale, "news")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
             </div>
+
+            {/* T12 */}
             <div className="card">
               <picture>
                 <source srcSet="/assets/img-webp/OFICINA_3.webp" type="image/webp" />
-                <img src="/assets/img/OFICINA_3.jpg" alt="Noticia 3" className="news-img" width="2752" height="1536" loading="lazy" />
+                <img src="/assets/img/OFICINA_3.jpg" alt="Noticia 3" className="news-img" width="1600" height="900" loading="lazy" />
               </picture>
               <h3>{dict?.news?.card_3?.title}</h3>
-              <p>{dict?.news?.card_3?.desc}</p>
+              <p className="card-editorial-text">{dict?.news?.card_3?.desc}</p>
               <Link href={getRoute(locale, "news")} className="news-link"><span>{dict?.news?.read_more}</span></Link>
             </div>
           </div>
