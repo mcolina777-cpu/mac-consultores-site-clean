@@ -193,21 +193,21 @@ export default async function Home({ params }: Props) {
             <Link className="card" href={getRoute(locale, "resources.economic_criminal_risk")}>
               <span className="section-tag">{dict?.home?.resources?.guide?.tag}</span>
               <h3>{dict?.home?.resources?.guide?.title}</h3>
-              <p>{dict?.home?.resources?.guide?.desc}</p>
+              <p className="card-editorial-text">{dict?.home?.resources?.guide?.desc}</p>
               <span className="news-link">{dict?.home?.resources?.guide?.cta}</span>
             </Link>
 
             <Link className="card" href={getRoute(locale, "resources.defense_documentation")}>
               <span className="section-tag">{dict?.home?.resources?.checklist?.tag}</span>
               <h3>{dict?.home?.resources?.checklist?.title}</h3>
-              <p>{dict?.home?.resources?.checklist?.desc}</p>
+              <p className="card-editorial-text">{dict?.home?.resources?.checklist?.desc}</p>
               <span className="news-link">{dict?.home?.resources?.checklist?.cta}</span>
             </Link>
 
             <Link className="card" href={getRoute(locale, "resources.international_legal_services")}>
               <span className="section-tag">{dict?.home?.resources?.template?.tag}</span>
               <h3>{dict?.home?.resources?.template?.title}</h3>
-              <p>{dict?.home?.resources?.template?.desc}</p>
+              <p className="card-editorial-text">{dict?.home?.resources?.template?.desc}</p>
               <span className="news-link">{dict?.home?.resources?.template?.cta}</span>
             </Link>
           </div>
