@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 type InsightDelDiaClientProps = {
   data: {
@@ -12,20 +12,14 @@ type InsightDelDiaClientProps = {
 };
 
 export default function InsightDelDiaClient({ data }: InsightDelDiaClientProps) {
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
-
   return (
     <div className="daily-insight-inner">
       <span className="daily-insight-tag">{data.tag}</span>
-      <h2 className={`daily-insight-concept ${isLoaded ? "is-loaded" : ""}`}>{data.title}</h2>
-      <p className={`daily-insight-definition ${isLoaded ? "is-loaded" : ""}`}>
+      <h2 className="daily-insight-concept is-loaded">{data.title}</h2>
+      <p className="daily-insight-definition is-loaded">
         {data.body}
       </p>
-      <p className={`daily-insight-definition daily-insight-footer ${isLoaded ? "is-loaded" : ""}`}>
+      <p className="daily-insight-definition daily-insight-footer is-loaded">
         {data.footer}
       </p>
     </div>

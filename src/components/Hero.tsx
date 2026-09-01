@@ -6,13 +6,15 @@ import { getRoute } from "@/lib/routes";
 export default function Hero({ dict, locale }: { dict: any, locale: string }) {
   return (
     <header className="hero">
-      <div className="hero-background">
+      <div className="hero-background" style={{ backgroundColor: '#1a1f26' }}>
         <Image
           src="/assets/img/Hero 1.webp"
           alt="Sede principal de Mac Consultores Jurídicos & Asociados"
           fill
           priority
           fetchPriority="high"
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8/x8AAqMB0Fk+W34AAAAASUVORK5CYII="
           className="hero-image"
         />
         <div className="hero-overlay" />
