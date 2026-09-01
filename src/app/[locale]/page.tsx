@@ -189,33 +189,74 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
       
-      {/* ESPECIALIDADES */}
-      <section>
+      {/* ESPECIALIDADES (BLOQUE 2: TARJETAS 4, 5 Y 6) */}
+      <section className="section-padding-asym">
         <div className="container">
-          <div className="axial-header axial-centered">
-            <span className="section-tag">{dict?.specialties?.tag}</span>
-            <h2 className="section-title">{dict?.specialties?.title}</h2>
+          <div className="axial-header axial-centered text-center mb-3-5rem">
+            <span className="section-tag">{dict?.specialties?.tag || (locale === 'es' ? 'ÁREAS DE PRÁCTICA' : 'PRACTICE AREAS')}</span>
+            <h2 className="serif section-title mt-1rem">{dict?.specialties?.title || (locale === 'es' ? 'Especialidades y Servicios Forenses' : 'Specialties and Forensic Services')}</h2>
           </div>
-          <div className="grid-3">
-            <Link className="card" href={getRoute(locale, "services.penal")}>
-              <h3>{dict?.specialties?.card_1?.title}</h3>
-              <p className="card-editorial-text">{dict?.specialties?.card_1?.desc}</p>
-              <span className="card-action-link">
-                <span>{dict?.specialties?.details_link}</span>
+          <div className="grid-3 mb-3rem">
+            {/* TARJETA 04 */}
+            <Link 
+              href={getRoute(locale, "services.penal")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">{locale === 'es' ? 'DERECHO PENAL CORPORATIVO' : 'CORPORATE CRIMINAL LAW'}</span>
+              <h3 className="serif">{locale === 'es' ? 'Penal Económico & Corporativo' : 'Economic & Corporate Crime'}</h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {locale === 'es'
+                  ? 'Asumimos la defensa técnica y representación penal especializada de empresas, directores y accionistas frente a investigaciones complejas por delitos económicos, patrimoniales y societarios. Nuestro enfoque forense articula el diseño de programas preventivos de cumplimiento con una rigurosa litigación estratégica en estrados, neutralizando imputaciones infundadas y salvaguardando la continuidad operativa y reputacional de la entidad mercantil.'
+                  : 'We provide specialized criminal defense and technical representation for corporations, executive boards, and shareholders facing complex white-collar investigations. Our forensic approach combines proactive corporate compliance design with aggressive courtroom advocacy, effectively dismantling unfounded charges while safeguarding the operational continuity and market reputation of the enterprise.'}
+              </p>
+              <span className="card-link mt-auto">
+                {locale === 'es' ? 'Leer más →' : 'Read more →'}
               </span>
             </Link>
-            <Link className="card" href={getRoute(locale, "services.constitucional")}>
-              <h3>{dict?.specialties?.card_2?.title}</h3>
-              <p className="card-editorial-text">{dict?.specialties?.card_2?.desc}</p>
-              <span className="card-action-link">
-                <span>{dict?.specialties?.details_link}</span>
+
+            {/* TARJETA 05 */}
+            <Link 
+              href={getRoute(locale, "services.constitucional")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">{locale === 'es' ? 'TUTELA CONSTITUCIONAL' : 'CONSTITUTIONAL LAW'}</span>
+              <h3 className="serif">{locale === 'es' ? 'Amparo y Tutela Constitucional' : 'Constitutional Injunctions'}</h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {locale === 'es'
+                  ? 'Ejercemos la tutela judicial urgente ante los tribunales de la República y la Sala Constitucional del Tribunal Supremo de Justicia, interponiendo acciones de amparo frente a fallos judiciales lesivos, vías de hecho administrativas y actos arbitrarios. La intervención técnica se orienta a la protección inmediata de libertades fundamentales, garantías del debido proceso y derechos patrimoniales esenciales.'
+                  : 'We deliver urgent constitutional litigation before appellate courts and the Constitutional Chamber of the Supreme Tribunal of Justice, filing injunctions against flawed judicial rulings, administrative overreach, and arbitrary actions. Technical advocacy focuses on the prompt protection of fundamental liberties, procedural due process guarantees, and critical corporate property rights.'}
+              </p>
+              <span className="card-link mt-auto">
+                {locale === 'es' ? 'Leer más →' : 'Read more →'}
               </span>
             </Link>
-            <Link className="card" href={getRoute(locale, "services.consular")}>
-              <h3>{dict?.specialties?.card_3?.title}</h3>
-              <p className="card-editorial-text">{dict?.specialties?.card_3?.desc}</p>
-              <span className="card-action-link">
-                <span>{dict?.specialties?.details_link}</span>
+
+            {/* TARJETA 06 */}
+            <Link 
+              href={getRoute(locale, "services.consular")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">{locale === 'es' ? 'DERECHO INTERNACIONAL' : 'INTERNATIONAL LAW'}</span>
+              <h3 className="serif">{locale === 'es' ? 'Asuntos Consulares & Extranjería' : 'Consular & International Matters'}</h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {locale === 'es'
+                  ? 'Brindamos asesoría jurídica estratégica para clientes y empresas residenciados en el exterior con intereses o contingencias legales en Venezuela. Gestionamos la protocolización de mandatos, legalizaciones, apostillas, validación de documentos foráneos y representación judicial integral, garantizando el cumplimiento estricto del Derecho Internacional Privado y la plena seguridad jurídica de cada actuación transfronteriza.'
+                  : 'We provide strategic legal counsel for international clients and corporations managing judicial or asset interests in Venezuela. We handle cross-border powers of attorney, certified legalizations, Hague Apostilles, and comprehensive judicial representation, ensuring strict compliance with Private International Law standards and complete legal certainty across jurisdictions.'}
+              </p>
+              <span className="card-link mt-auto">
+                {locale === 'es' ? 'Leer más →' : 'Read more →'}
               </span>
             </Link>
           </div>
