@@ -173,7 +173,7 @@ export default async function DetencionInFragantiArticle({ params }: Props) {
             </p>
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
-                {isEs ? 'SOLICITAR ASESORÍA PENAL' : 'REQUEST CRIMINAL DEFENSE CONSULTATION'}
+                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
               </Link>
               <Link href={`/${locale}/blog`} className="btn btn-secondary">
                 {isEs ? '← VOLVER AL BLOG' : '← BACK TO BLOG'}
