@@ -263,34 +263,89 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
 
-      {/* RECURSOS ESTRATÉGICOS PARA EMPRESAS */}
-      <section className="bg-soft">
+      {/* RECURSOS ESTRATÉGICOS PARA EMPRESAS (BLOQUE 3) */}
+      <section className="bg-soft section-padding-asym">
         <div className="container">
-          <div className="axial-header axial-centered">
-            <span className="section-tag">{dict?.home?.resources?.tag}</span>
-            <h2 className="section-title">{dict?.home?.resources?.title}</h2>
+          <div className="axial-header axial-centered text-center mb-3-5rem">
+            <span className="section-tag">{locale === 'es' ? 'RECURSOS ESTRATÉGICOS' : 'STRATEGIC RESOURCES'}</span>
+            <h2 className="serif section-title mt-1rem">
+              {locale === 'es' ? 'Recursos Estratégicos para Empresas' : 'Strategic Resources for Businesses'}
+            </h2>
           </div>
-
-          <div className="grid-3">
-            <Link className="card" href={getRoute(locale, "resources.economic_criminal_risk")}>
-              <span className="section-tag">{dict?.home?.resources?.guide?.tag}</span>
-              <h3>{dict?.home?.resources?.guide?.title}</h3>
-              <p className="card-editorial-text">{dict?.home?.resources?.guide?.desc}</p>
-              <span className="news-link">{dict?.home?.resources?.guide?.cta}</span>
+          <div className="grid-3 mb-3rem">
+            {/* TARJETA 01 */}
+            <Link 
+              href={getRoute(locale, "resources.economic_criminal_risk")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">{locale === 'es' ? 'RIESGO PENAL CORPORATIVO' : 'CORPORATE CRIMINAL RISK'}</span>
+              <h3 className="serif">
+                {locale === 'es' 
+                  ? 'Guía Preventiva ante Investigaciones Penales Económicas' 
+                  : 'Preventive Guide for Corporate Criminal Inquiries'}
+              </h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {locale === 'es'
+                  ? 'Sistematiza los protocolos forenses indispensables para la identificación, contención y mitigación del riesgo penal corporativo frente a inspecciones estatales o procesos judiciales imprevistos. Brinda a los órganos directivos criterios técnicos rigurosos para auditar la responsabilidad de los administradores, blindar la toma de decisiones mercantiles y articular una respuesta procesal oportuna que preserve la continuidad operativa y reputacional de la empresa.'
+                  : 'Systematizes essential forensic protocols for identifying, containing, and mitigating corporate criminal exposure during sudden state regulatory audits or judicial inquiries. It equips corporate boards with rigorous technical criteria to audit officer liabilities, shield executive commercial decision-making, and mount an immediate procedural response that safeguards the operational continuity and market reputation of the enterprise.'}
+              </p>
+              <span className="card-link mt-auto">
+                {locale === 'es' ? 'Leer más →' : 'Read more →'}
+              </span>
             </Link>
 
-            <Link className="card" href={getRoute(locale, "resources.defense_documentation")}>
-              <span className="section-tag">{dict?.home?.resources?.checklist?.tag}</span>
-              <h3>{dict?.home?.resources?.checklist?.title}</h3>
-              <p className="card-editorial-text">{dict?.home?.resources?.checklist?.desc}</p>
-              <span className="news-link">{dict?.home?.resources?.checklist?.cta}</span>
+            {/* TARJETA 02 */}
+            <Link 
+              href={getRoute(locale, "resources.defense_documentation")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">{locale === 'es' ? 'AUDITORÍA PROBATORIA' : 'EVIDENTIARY AUDIT'}</span>
+              <h3 className="serif">
+                {locale === 'es' 
+                  ? 'Checklist Documental para la Defensa Penal Corporativa' 
+                  : 'Documentary Checklist for Corporate Criminal Defense'}
+              </h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {locale === 'es'
+                  ? 'Estructura el protocolo técnico de recopilación, aseguramiento y preservación de fuentes de prueba documentales, contables y digitales indispensables para estructurar la defensa judicial de la empresa. Garantiza la cadena de custodia y trazabilidad probatoria ante inspecciones administrativas o allanamientos, permitiendo a la representación letrada desvirtuar imputaciones fácticas infundadas mediante un soporte probatorio robusto y procesalmente idóneo.'
+                  : 'Structures the technical protocol for gathering, securing, and preserving documentary, accounting, and digital evidence essential to mount a rigorous corporate criminal defense. It ensures chain of custody and evidentiary traceability during state inspections or search warrants, enabling legal defense to effectively dismantle unfounded factual charges through robust, procedurally sound documentary backing.'}
+              </p>
+              <span className="card-link mt-auto">
+                {locale === 'es' ? 'Leer más →' : 'Read more →'}
+              </span>
             </Link>
 
-            <Link className="card" href={getRoute(locale, "resources.international_legal_services")}>
-              <span className="section-tag">{dict?.home?.resources?.template?.tag}</span>
-              <h3>{dict?.home?.resources?.template?.title}</h3>
-              <p className="card-editorial-text">{dict?.home?.resources?.template?.desc}</p>
-              <span className="news-link">{dict?.home?.resources?.template?.cta}</span>
+            {/* TARJETA 03 */}
+            <Link 
+              href={getRoute(locale, "resources.international_legal_services")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">{locale === 'es' ? 'CONTRATACIÓN TRANSFRONTERIZA' : 'CROSS-BORDER CONTRACTS'}</span>
+              <h3 className="serif">
+                {locale === 'es' 
+                  ? 'Estructura Contractual para Servicios Legales Internacionales' 
+                  : 'Contractual Framework for International Legal Services'}
+              </h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {locale === 'es'
+                  ? 'Establece las bases jurídicas y operativas para la contratación de servicios profesionales y representación técnica en asuntos multijurisdiccionales con nexo en Venezuela. Define con precisión la delimitación del alcance letrado, cláusulas de estricta confidencialidad, honorarios bajo estándares internacionales y mecanismos de resolución de controversias, blindando la relación entre el cliente extranjero y el despacho local con absoluta certeza jurídica.'
+                  : 'Establishes the legal and operational foundations for retaining professional counsel and specialized technical representation in multi-jurisdictional matters connected to Venezuela. It clearly defines professional scope limits, strict confidentiality covenants, internationally accepted fee structures, and dispute resolution mechanisms, securing the attorney-client engagement between foreign entities and domestic counsel with complete legal certainty.'}
+              </p>
+              <span className="card-link mt-auto">
+                {locale === 'es' ? 'Leer más →' : 'Read more →'}
+              </span>
             </Link>
           </div>
         </div>
