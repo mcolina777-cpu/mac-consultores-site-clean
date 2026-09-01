@@ -351,60 +351,104 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
 
-      {/* ACTUALIDAD / NOTICIAS (Tarjetas 10, 11 y 12 con enlaces directos a fuentes) */}
-      <section>
+      {/* ACTUALIDAD / NOTICIAS (BLOQUE 4) */}
+      <section className="section-padding-asym">
         <div className="container">
-          <div className="axial-header axial-centered">
-            <span className="section-tag">{dict?.news?.tag}</span>
-            <h2 className="section-title">{dict?.news?.title}</h2>
+          <div className="axial-header axial-centered text-center mb-3-5rem">
+            <span className="section-tag">{locale === 'es' ? 'ACTUALIDAD' : 'CURRENT AFFAIRS'}</span>
+            <h2 className="serif section-title mt-1rem">
+              {locale === 'es' ? 'Noticias & Publicaciones' : 'News & Publications'}
+            </h2>
           </div>
-          <div className="grid-3">
-            {/* T10: Reformas Procesales */}
+          <div className="grid-3 mb-3rem">
+            {/* TARJETA 10: Reformas Procesales */}
             <a 
               href="https://accesoalajusticia.org/modificaciones-codigo-organico-procesal-penal-copp-venezolano-historia-7-tiempos/" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="card block-link"
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
-              <picture>
+              <picture className="mb-1-5rem">
                 <source srcSet="/assets/img-webp/OFICINA_1.webp" type="image/webp" />
-                <img src="/assets/img/OFICINA_1.jpg" alt="Noticia 1" className="news-img" width="1600" height="900" loading="lazy" />
+                <img src="/assets/img/OFICINA_1.jpg" alt="Noticia 1" className="news-img" width="1600" height="900" loading="lazy" style={{ borderRadius: '4px', width: '100%', height: 'auto', objectFit: 'cover' }} />
               </picture>
-              <h3>{dict?.news?.card_1?.title}</h3>
-              <p className="card-editorial-text">{dict?.news?.card_1?.desc}</p>
-              <span className="news-link"><span>{dict?.news?.read_more}</span></span>
+              <h3 className="serif">
+                {locale === 'es' 
+                  ? 'Impacto de la Nueva Legislación Penal' 
+                  : 'Impact of New Criminal Legislation'}
+              </h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {locale === 'es'
+                  ? 'Análisis dogmático y procesal sobre las reformas al Código Orgánico Procesal Penal y su incidencia en el ejercicio de la defensa técnica. Examinamos los nuevos estándares de control de garantías, plazos de investigación y exigencias de admisibilidad recursiva que rigen los litigios penales y constitucionales de alta complejidad dentro de la jurisdicción ordinaria y especializada.'
+                  : 'Doctrinal and procedural analysis regarding recent amendments to the Organic Code of Criminal Procedure and their impact on technical defense. We evaluate emerging standards in constitutional guarantee oversight, investigative statutory deadlines, and appellate admissibility criteria governing high-complexity criminal and constitutional litigation across Venezuelan trial and appellate courts.'}
+              </p>
+              <span className="card-link mt-auto">
+                {locale === 'es' ? 'Leer más →' : 'Read more →'}
+              </span>
             </a>
 
-            {/* T11: Criterios Vinculantes / Jurisprudencia */}
+            {/* TARJETA 11: Criterios Vinculantes */}
             <a 
               href="https://vlex.es/vid/derecho-presuncion-inocencia-391378250" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="card block-link"
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
-              <picture>
+              <picture className="mb-1-5rem">
                 <source srcSet="/assets/img-webp/OFICINA_2.webp" type="image/webp" />
-                <img src="/assets/img/OFICINA_2.jpg" alt="Noticia 2" className="news-img" width="1600" height="900" loading="lazy" />
+                <img src="/assets/img/OFICINA_2.jpg" alt="Noticia 2" className="news-img" width="1600" height="900" loading="lazy" style={{ borderRadius: '4px', width: '100%', height: 'auto', objectFit: 'cover' }} />
               </picture>
-              <h3>{dict?.news?.card_2?.title}</h3>
-              <p className="card-editorial-text">{dict?.news?.card_2?.desc}</p>
-              <span className="news-link"><span>{dict?.news?.read_more}</span></span>
+              <h3 className="serif">
+                {locale === 'es' 
+                  ? 'Criterios Vinculantes y Garantías Procesales' 
+                  : 'Binding Precedents & Procedural Safeguards'}
+              </h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {locale === 'es'
+                  ? 'Revisión crítica de las líneas jurisprudenciales vinculantes dictadas por el Tribunal Supremo de Justicia en torno a la tutela judicial efectiva y presunción de inocencia. Evaluamos la doctrina obligatoria en materia de estándar probatorio, nulidades procesales y motivación de fallos judiciales para consolidar una argumentación forense rigurosa en estrados y audiencias orales.'
+                  : 'Critical review of binding case law established by the Supreme Tribunal of Justice concerning effective judicial protection and the presumption of innocence. We assess mandatory doctrine regarding evidentiary thresholds, procedural nullities, and judicial reasoning standards to reinforce rigorous forensic advocacy before domestic trial benches and appellate chambers.'}
+              </p>
+              <span className="card-link mt-auto">
+                {locale === 'es' ? 'Leer más →' : 'Read more →'}
+              </span>
             </a>
 
-            {/* T12: Colaboración Legal Internacional */}
+            {/* TARJETA 12: Colaboración Legal Internacional */}
             <a 
               href="https://theimpactlawyers.com/es/articulos/la-colaboracion-de-las-firmas-legales-una-practica-extendida-en-la-abogacia" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="card block-link"
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
-              <picture>
+              <picture className="mb-1-5rem">
                 <source srcSet="/assets/img-webp/OFICINA_3.webp" type="image/webp" />
-                <img src="/assets/img/OFICINA_3.jpg" alt="Noticia 3" className="news-img" width="1600" height="900" loading="lazy" />
+                <img src="/assets/img/OFICINA_3.jpg" alt="Noticia 3" className="news-img" width="1600" height="900" loading="lazy" style={{ borderRadius: '4px', width: '100%', height: 'auto', objectFit: 'cover' }} />
               </picture>
-              <h3>{dict?.news?.card_3?.title}</h3>
-              <p className="card-editorial-text">{dict?.news?.card_3?.desc}</p>
-              <span className="news-link"><span>{dict?.news?.read_more}</span></span>
+              <h3 className="serif">
+                {locale === 'es' 
+                  ? 'Marcos de Cooperación Legal Internacional' 
+                  : 'International Legal Cooperation Frameworks'}
+              </h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {locale === 'es'
+                  ? 'Estudio sobre las tendencias de cooperación interjurisdiccional entre despachos globales y firmas locales en asuntos corporativos transfronterizos. Analizamos los mecanismos de asistencia mutua, coordinación de litigios multijurisdiccionales y el rol determinante del asesor local para mitigar riesgos regulatorios y preservar la seguridad jurídica de corporaciones e inversionistas internacionales en Venezuela.'
+                  : 'Study on modern trends in cross-border cooperation between global law firms and domestic counsel in multi-jurisdictional corporate matters. We analyze mutual legal assistance frameworks, cross-border dispute coordination, and the pivotal role of strategic local counsel in mitigating regulatory exposure and securing legal certainty for international corporations in Venezuela.'}
+              </p>
+              <span className="card-link mt-auto">
+                {locale === 'es' ? 'Leer más →' : 'Read more →'}
+              </span>
             </a>
           </div>
         </div>
