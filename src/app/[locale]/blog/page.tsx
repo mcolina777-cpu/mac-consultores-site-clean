@@ -73,7 +73,7 @@ export default async function BlogIndex({ params }: Props) {
         </div>
       </header>
 
-      {/* BLOQUE DE TARJETAS EDITORIALES (GRID-2 IGUAL A SECCIÓN FIRMA) */}
+      {/* BLOQUE DE TARJETAS EDITORIALES (GRID-2 SIMÉTRICO: 4 ARTÍCULOS) */}
       <section className="bg-soft section-padding-asym">
         <div className="container">
           <div className="grid-2">
@@ -134,6 +134,27 @@ export default async function BlogIndex({ params }: Props) {
                 {isEs
                   ? 'La correcta acreditación de la cualidad procesal constituye un presupuesto insoslayable para la validez de cualquier actuación judicial. El examen riguroso de las facultades de representación en las jurisdicciones civil y penal exige analizar con celo técnico los requisitos de otorgamiento, sustitución y delimitación del mandato, previniendo excepciones procesales que puedan comprometer la eficacia de la defensa en juicio.'
                   : 'Proper verification of legal standing represents an indispensable procedural prerequisite for judicial validity across all court proceedings. A thorough technical analysis of power of attorney requirements within civil and criminal procedural codes ensures proper delegation, formal substitution, and scope definition, effectively preventing procedural exceptions and safeguarding the integrity of courtroom advocacy.'}
+              </p>
+              <span className="card-link mt-auto">
+                {isEs ? 'Leer más →' : 'Read more →'}
+              </span>
+            </Link>
+
+            {/* ARTÍCULO 04 */}
+            <Link 
+              href={`/${locale}/blog/detencion-in-fraganti-derecho-defensa`}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">{isEs ? 'DERECHO PROCESAL PENAL' : 'CRIMINAL PROCEDURAL LAW'}</span>
+              <h3 className="serif">{isEs ? 'Detención in Fraganti y Derecho a la Defensa' : 'In Flagrante Arrest and the Right to Defense'}</h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {isEs
+                  ? 'La inmediatez de la aprehensión policial en situaciones de flagrancia no suspende las garantías constitucionales del imputado ni convalida actuaciones arbitrarias. El ejercicio oportuno de la defensa técnica desde los actos iniciales resulta determinante para examinar la licitud de la detención, verificar la cadena de custodia probatoria y asegurar el respeto estricto a la presunción de inocencia ante el control judicial.'
+                  : 'The procedural immediacy of an in flagrante arrest does not suspend constitutional guarantees nor validate arbitrary state intervention. Early technical defense intervention from initial police custody is vital to challenge arrest legality, scrutinize evidentiary chain of custody, and enforce strict adherence to the presumption of innocence during judicial oversight before trial courts.'}
               </p>
               <span className="card-link mt-auto">
                 {isEs ? 'Leer más →' : 'Read more →'}
