@@ -66,7 +66,7 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
         </div>
       </header>
 
-      {/* BLOQUE 1: SEMBLANZA Y FOTOGRAFÍA EJECUTIVA VERTICAL (SIN BOTÓN DUPLICADO) */}
+      {/* BLOQUE 1: SEMBLANZA Y FOTOGRAFÍA EJECUTIVA VERTICAL */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split">
@@ -91,7 +91,6 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
                   : 'Under his leadership, the firm has established a comprehensive legal advisory model capable of handling judicial mandates for clients based in Venezuela and internationally.')}
               </p>
             </div>
-
             <div className="img-reveal img-vertical">
               <picture>
                 <source srcSet="/assets/img-webp/OFICINA_2_1.webp" type="image/webp" />
@@ -119,38 +118,47 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
             </h2>
           </div>
 
-          {/* Grid de 3 Tarjetas con numeración 01, 02, 03 */}
+          {/* Grid de 3 Tarjetas con numeración 01, 02, 03 y diseño editorial uniforme */}
           <div className="grid-3 mb-3rem">
             {/* TARJETA 01 */}
-            <div className="card">
+            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
               <span className="section-tag">01</span>
               <h3 className="serif">{isEs ? 'Años de Ejercicio Forense' : 'Years of Legal Practice'}</h3>
-              <p className="card-editorial-text">
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
+              >
                 {isEs
-                  ? 'Litigación estratégica y dirección procesal ininterrumpida ante tribunales de instancia, cortes superiores y jurisdicción especializada.'
-                  : 'Strategic litigation and uninterrupted procedural leadership before trial courts, appellate courts, and specialized jurisdictions.'}
+                  ? 'Más de dos décadas de ejercicio profesional ininterrumpido respaldan una práctica forense caracterizada por la dirección técnica, estratégica y procesal en litigios de alta complejidad. La intervención en estrados abarca desde tribunales de instancia hasta cortes superiores, garantizando la articulación oportuna de medios probatorios, el control estricto de términos y una representación judicial rigurosa en cada etapa del proceso.'
+                  : 'Over two decades of uninterrupted professional practice support a forensic approach characterized by strategic and procedural direction in high-complexity litigation. Representation before trial and appellate courts ensures the timely presentation of evidence, rigorous management of procedural deadlines, and meticulous defense standards designed to safeguard our clients’ legal standing throughout every stage of judicial proceedings.'}
               </p>
             </div>
 
             {/* TARJETA 02 */}
-            <div className="card">
+            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
               <span className="section-tag">02</span>
               <h3 className="serif">{isEs ? 'Nivel Académico & Docencia' : 'Postgraduate Degree & Teaching'}</h3>
-              <p className="card-editorial-text">
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
+              >
                 {isEs
-                  ? 'Estudios de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas, complementados con una destacada labor en la formación universitaria.'
-                  : 'Advanced studies in Constitutional and Criminal Law, complemented by extensive university teaching and academic scholarship.'}
+                  ? 'La sólida formación dogmática constituye el pilar fundamental para el abordaje de controversias sustantivas y procesales complejas. Con estudios superiores de cuarto nivel en Derecho Constitucional y Ciencias Penales, complementados por una sostenida trayectoria docente universitaria, el análisis jurídico trasciende la mera aplicación formal de la norma, integrando criterios doctrinales y jurisprudenciales avanzados al diseño de cada estrategia defensiva.'
+                  : 'Advanced legal education provides the essential foundation for addressing complex substantive and procedural disputes. Holding postgraduate credentials in Constitutional and Criminal Law, complemented by dedicated university teaching experience, our legal analysis integrates advanced doctrinal and jurisprudence criteria, delivering high-level technical frameworks tailored to the specific evidentiary and regulatory realities of each case.'}
               </p>
             </div>
 
             {/* TARJETA 03 */}
-            <div className="card">
+            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
               <span className="section-tag">03</span>
               <h3 className="serif">{isEs ? 'Casación y Tutela Constitucional' : 'Supreme Court & Constitutional Law'}</h3>
-              <p className="card-editorial-text">
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
+              >
                 {isEs
-                  ? 'Interposición y sustanciación de recursos extraordinarios de casación penal y acciones de amparo para la protección efectiva de garantías fundamentales.'
-                  : 'Filing and substantiation of extraordinary appeals before the Supreme Tribunal of Justice and constitutional protection mechanisms.'}
+                  ? 'Especialización forense orientada a la interposición, formalización y sustanciación de recursos extraordinarios de casación ante el Tribunal Supremo de Justicia, así como acciones de tutela constitucional. La labor técnica se enfoca en denunciar vicios de juzgamiento, quebrantamientos de formas sustanciales y violaciones a garantías procesales, restableciendo el orden jurídico y resguardando los derechos fundamentales del justiciable.'
+                  : 'Highly specialized practice focused on drafting, filing, and substantiating extraordinary appeals before the Supreme Tribunal of Justice, alongside constitutional protection remedies. Technical advocacy concentrates on identifying jurisdictional errors, procedural breaches, and due process infringements, actively securing judicial review and upholding the fundamental constitutional guarantees required to protect our clients against arbitrary or flawed rulings.'}
               </p>
             </div>
           </div>
