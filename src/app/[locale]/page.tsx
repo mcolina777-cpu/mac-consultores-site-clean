@@ -115,34 +115,75 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
 
-      {/* ESTRATEGIAS REPRESENTATIVAS */}
-      <section className="bg-soft section-strategies">
+      {/* ESTRATEGIAS REPRESENTATIVAS (BLOQUE 1: TARJETAS 1, 2 Y 3) */}
+      <section className="bg-soft section-padding-asym">
         <div className="container">
-          <div className="axial-header axial-centered">
-            <span className="section-tag">{dict?.home?.strategies?.tag}</span>
-            <h2 className="section-title">{dict?.home?.strategies?.title}</h2>
+          <div className="axial-header axial-centered text-center mb-3-5rem">
+            <span className="section-tag">{dict?.home?.strategies?.tag || (locale === 'es' ? 'METODOLOGÍA & LITIGACIÓN' : 'METHODOLOGY & LITIGATION')}</span>
+            <h2 className="serif section-title mt-1rem">{dict?.home?.strategies?.title || (locale === 'es' ? 'Estrategias Forenses y Criterio Procesal' : 'Forensic Strategies and Litigation Standards')}</h2>
           </div>
-
-          <div className="grid-3">
-            <Link href={getRoute(locale, "estrategiaSeleccionDeCasos")} className="card">
-              <span className="section-tag">{dict?.home?.strategies?.case_selection?.tag}</span>
-              <h3>{dict?.home?.strategies?.case_selection?.title}</h3>
-              <p className="card-editorial-text">{dict?.home?.strategies?.case_selection?.desc}</p>
-              <span className="news-link"><span>{dict?.news?.read_more}</span></span>
+          <div className="grid-3 mb-3rem">
+            {/* TARJETA 01 */}
+            <Link 
+              href={getRoute(locale, "estrategiaSeleccionDeCasos")} 
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">01</span>
+              <h3 className="serif">{locale === 'es' ? 'Selección de Casos y Viabilidad' : 'Case Selection & Feasibility'}</h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {locale === 'es'
+                  ? 'Adoptamos un criterio riguroso y selectivo en la admisión de mandatos judiciales, evaluando previamente la viabilidad dogmática, fáctica y probatoria de cada asunto. Esta metodología permite concentrar la capacidad analítica del despacho en litigios de alta complejidad, garantizando a nuestros patrocinados una dirección forense personalizada, éticamente sólida y con probabilidades reales de éxito procesal.'
+                  : 'We apply a strict, highly selective approach to case intake, evaluating the doctrinal and evidentiary merits of every legal matter beforehand. This rigorous methodology focuses our analytical capacity on high-complexity litigation, delivering customized, ethically sound forensic representation designed to safeguard client interests across all judicial proceedings.'}
+              </p>
+              <span className="card-link mt-auto">
+                {locale === 'es' ? 'Leer más →' : 'Read more →'}
+              </span>
             </Link>
 
-            <Link href={getRoute(locale, "estrategiaTeoriaDelCaso")} className="card">
-              <span className="section-tag">{dict?.home?.strategies?.case_theory?.tag}</span>
-              <h3>{dict?.home?.strategies?.case_theory?.title}</h3>
-              <p className="card-editorial-text">{dict?.home?.strategies?.case_theory?.desc}</p>
-              <span className="news-link"><span>{dict?.news?.read_more}</span></span>
+            {/* TARJETA 02 */}
+            <Link 
+              href={getRoute(locale, "estrategiaTeoriaDelCaso")} 
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">02</span>
+              <h3 className="serif">{locale === 'es' ? 'Teoría del Caso y Litigación' : 'Case Theory & Trial Strategy'}</h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {locale === 'es'
+                  ? 'La construcción de la teoría del caso constituye el eje rector de nuestra práctica procesal en estrados penales y constitucionales. Articulamos de manera temprana los hechos controvertidos con el ordenamiento sustantivo aplicable y los medios de convicción conducentes, estructurando defensas técnicas sólidas que anticipan objeciones, neutralizan imputaciones y guían con eficacia la actuación en cada audiencia.'
+                  : 'Structuring a comprehensive case theory forms the cornerstone of our advocacy across criminal and constitutional courts. We align factual controversies with substantive law and pertinent evidentiary assets from early stages, establishing robust technical defenses that anticipate prosecutorial theories, dismantle unfounded charges, and maintain procedural dominance throughout trial hearings.'}
+              </p>
+              <span className="card-link mt-auto">
+                {locale === 'es' ? 'Leer más →' : 'Read more →'}
+              </span>
             </Link>
 
-            <Link href={getRoute(locale, "estrategiaEscenariosRepresentativos")} className="card">
-              <span className="section-tag">{dict?.home?.strategies?.representative_scenarios?.tag}</span>
-              <h3>{dict?.home?.strategies?.representative_scenarios?.title}</h3>
-              <p className="card-editorial-text">{dict?.home?.strategies?.representative_scenarios?.desc}</p>
-              <span className="news-link"><span>{dict?.news?.read_more}</span></span>
+            {/* TARJETA 03 */}
+            <Link 
+              href={getRoute(locale, "estrategiaEscenariosRepresentativos")} 
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">03</span>
+              <h3 className="serif">{locale === 'es' ? 'Escenarios Representativos' : 'Representative Scenarios'}</h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {locale === 'es'
+                  ? 'Nuestra experiencia forense abarca la conducción estratégica de controversias corporativas complejas, fraudes societarios, delitos económicos, tutelas constitucionales urgentes y recursos de casación. Cada escenario es abordado mediante un análisis de riesgos exhaustivo, privilegiando el control formal de las actuaciones procesales y la preservación de la seguridad jurídica y reputacional de nuestros clientes.'
+                  : 'Our forensic practice encompasses strategic representation across complex corporate disputes, white-collar crimes, financial fraud, urgent constitutional remedies, and supreme court appeals. Every scenario undergoes rigorous risk analysis, prioritizing strict procedural oversight and the steadfast protection of our clients’ legal certainty and corporate reputation.'}
+              </p>
+              <span className="card-link mt-auto">
+                {locale === 'es' ? 'Leer más →' : 'Read more →'}
+              </span>
             </Link>
           </div>
         </div>
