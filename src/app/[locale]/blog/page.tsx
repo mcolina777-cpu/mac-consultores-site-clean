@@ -73,10 +73,10 @@ export default async function BlogIndex({ params }: Props) {
         </div>
       </header>
 
-      {/* BLOQUE DE TARJETAS EDITORIALES DE ARTÍCULOS */}
+      {/* BLOQUE DE TARJETAS EDITORIALES (GRID-2 IGUAL A SECCIÓN FIRMA) */}
       <section className="bg-soft section-padding-asym">
         <div className="container">
-          <div className="grid-3 mb-3rem">
+          <div className="grid-2">
             {/* ARTÍCULO 01 */}
             <Link 
               href={`/${locale}/blog/criminalidad-economica`}
@@ -87,7 +87,7 @@ export default async function BlogIndex({ params }: Props) {
               <h3 className="serif">{isEs ? 'Criminalidad Económica y Compliance Penal' : 'Economic Crime and Corporate Compliance'}</h3>
               <p 
                 className="card-editorial-text"
-                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
               >
                 {isEs
                   ? 'El ejercicio de la actividad corporativa contemporánea impone una rigurosa evaluación de riesgos frente a las exigencias del Derecho penal económico. La adecuada estructuración de programas de cumplimiento normativo y la delimitación de deberes fiduciarios permiten mitigar contingencias penales de alta complejidad, garantizando una defensa técnica especializada sustentada en el control previo de imputación y la preservación del patrimonio societario.'
@@ -108,7 +108,7 @@ export default async function BlogIndex({ params }: Props) {
               <h3 className="serif">{isEs ? 'El Amparo Constitucional como Garantía Vital' : 'Constitutional Injunction as a Fundamental Guarantee'}</h3>
               <p 
                 className="card-editorial-text"
-                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
               >
                 {isEs
                   ? 'La acción de tutela constitucional representa el instrumento forense por excelencia para restablecer de manera inmediata situaciones jurídicas infringidas por actos de autoridad o particulares. Su interposición exige una técnica jurídica depurada orientada a acreditar la violación directa a garantías fundamentales, evitando dilaciones indebidas y asegurando el restablecimiento pleno de la tutela judicial efectiva en estrados constitucionales.'
@@ -129,7 +129,7 @@ export default async function BlogIndex({ params }: Props) {
               <h3 className="serif">{isEs ? 'El Régimen de Poderes en el CPC y el COPP' : 'Representation and Power of Attorney in CPC & COPP'}</h3>
               <p 
                 className="card-editorial-text"
-                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
               >
                 {isEs
                   ? 'La correcta acreditación de la cualidad procesal constituye un presupuesto insoslayable para la validez de cualquier actuación judicial. El examen riguroso de las facultades de representación en las jurisdicciones civil y penal exige analizar con celo técnico los requisitos de otorgamiento, sustitución y delimitación del mandato, previniendo excepciones procesales que puedan comprometer la eficacia de la defensa en juicio.'
