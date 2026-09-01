@@ -241,19 +241,19 @@ export default async function Home({ params }: Props) {
 
             {/* TARJETA 06 */}
             <Link 
-              href={getRoute(locale, "services.consular")}
+              href={`/${locale}/services/local-counsel-venezuela`}
               className="card hover-lift"
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
               <span className="section-tag">{locale === 'es' ? 'DERECHO INTERNACIONAL' : 'INTERNATIONAL LAW'}</span>
-              <h3 className="serif">{locale === 'es' ? 'Asuntos Consulares & Extranjería' : 'Consular & International Matters'}</h3>
+              <h3 className="serif">Local Counsel for Venezuela</h3>
               <p 
                 className="card-editorial-text"
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
               >
                 {locale === 'es'
-                  ? 'Brindamos asesoría jurídica estratégica para clientes y empresas residenciados en el exterior con intereses o contingencias legales en Venezuela. Gestionamos la protocolización de mandatos, legalizaciones, apostillas, validación de documentos foráneos y representación judicial integral, garantizando el cumplimiento estricto del Derecho Internacional Privado y la plena seguridad jurídica de cada actuación transfronteriza.'
-                  : 'We provide strategic legal counsel for international clients and corporations managing judicial or asset interests in Venezuela. We handle cross-border powers of attorney, certified legalizations, Hague Apostilles, and comprehensive judicial representation, ensuring strict compliance with Private International Law standards and complete legal certainty across jurisdictions.'}
+                  ? 'Actuamos como plataforma de cooperación jurídica y asesor local estratégico para firmas internacionales, departamentos corporativos y clientes en el exterior con intereses u operaciones vinculadas a Venezuela. Aportamos la capacidad técnica indispensable para auditar contingencias penales corporativas, validar documentos transfronterizos y coordinar actuaciones judiciales y regulatorias bajo el estricto cumplimiento del ordenamiento jurídico nacional.'
+                  : 'We act as a strategic local counsel platform for international law firms, corporate legal departments, and overseas clients managing legal interests or transactions tied to Venezuela. We deliver specialized local capacity to audit corporate criminal risks, substantiate cross-border documentation, and conduct judicial or regulatory proceedings under strict adherence to Venezuelan domestic and international legal standards.'}
               </p>
               <span className="card-link mt-auto">
                 {locale === 'es' ? 'Leer más →' : 'Read more →'}
