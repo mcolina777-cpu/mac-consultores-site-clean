@@ -73,8 +73,6 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
             style={{
               fontSize: '1.15rem',
               lineHeight: 1.6,
-              maxWidth: '760px',
-              margin: '0 auto',
               color: 'var(--text-muted, #4b5563)',
             }}
           >
