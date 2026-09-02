@@ -1870,6 +1870,12 @@ footer,
         object-position: center center;
         max-height: none;
     }
+
+    .card.bg-soft.text-center .btn {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
 }
 
 /* Local Time Footer Styles */
