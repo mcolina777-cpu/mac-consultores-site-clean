@@ -5,7 +5,6 @@ import { getRoute } from '@/lib/routes';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
   return {
     title: locale === 'es' ? 'Consultoría Jurídica Preventiva | Mac Consultores' : 'Preventive Legal Consulting | Mac Consultores',
   };
@@ -15,97 +14,180 @@ export default async function ServicesConsultoriaPreventiva({ params }: { params
   const { locale } = await params;
   const dict = await getDictionary(locale);
   const data = dict?.consultoria_preventiva;
+  const isEs = locale === 'es';
+
+  const paragraphStyle = {
+    lineHeight: 1.75,
+    fontSize: '1.05rem',
+    color: 'var(--text-main, #1f2937)',
+  };
 
   return (
-    <main className="page-consultoria-preventiva">
-      <header className="page-header">
+    <main className="page-article">
+      <header className="page-header header-soft-bg">
         <div className="container">
-          <span className="breadcrumb">{data?.breadcrumb}</span>
-          <h1>{data?.h1}</h1>
-          <p className="subtitle">{data?.subtitle}</p>
+          <span className="section-tag">
+            {data?.breadcrumb || (isEs ? 'CONSULTORÍA JURÍDICA PREVENTIVA' : 'PREVENTIVE LEGAL CONSULTING')}
+          </span>
+
+          <h1 className="mb-1-5rem serif">{data?.h1}</h1>
+
+          <p className="hero-subtitle">{data?.subtitle}</p>
         </div>
       </header>
 
-      <section className="bg-soft">
-        <div className="container">
-          <div className="layout-reading">
-            <p className="mb-1-5rem">{data?.intro_p_1}</p>
-            <p className="mb-1-5rem">{data?.intro_p_2}</p>
+      <section className="bg-soft section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div className="content-section">
+            <p className="text-left max-w-100 mb-1-5rem" style={paragraphStyle}>
+              {data?.intro_p_1}
+            </p>
+
+            <p className="text-left max-w-100 mb-1-5rem" style={paragraphStyle}>
+              {data?.intro_p_2}
+            </p>
           </div>
         </div>
       </section>
 
-      <section>
-        <div className="container">
-          <div className="axial-header">
+      <section className="section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div className="axial-header mb-2rem">
             <span className="section-tag">{data?.areas?.tag}</span>
-            <h2 className="section-title">{data?.areas?.title}</h2>
-          </div>
-          <div className="layout-reading mb-3rem">
-            <p>{data?.areas?.intro}</p>
+            <h2 className="serif section-title mt-1rem">{data?.areas?.title}</h2>
           </div>
 
-          <div>
+          <div className="content-section mb-3rem">
+            <p className="text-left max-w-100" style={paragraphStyle}>
+              {data?.areas?.intro}
+            </p>
+          </div>
+
+          <div className="content-section">
             <article className="mb-3rem">
-              <h3 className="mb-1rem">{data?.areas?.risk_management?.title}</h3>
-              <p>{data?.areas?.risk_management?.desc}</p>
+              <h3 className="serif mb-1rem">{data?.areas?.risk_management?.title}</h3>
+              <p className="text-left max-w-100" style={paragraphStyle}>
+                {data?.areas?.risk_management?.desc}
+              </p>
             </article>
 
             <article className="mb-3rem">
-              <h3 className="mb-1rem">{data?.areas?.compliance?.title}</h3>
-              <p>{data?.areas?.compliance?.desc}</p>
+              <h3 className="serif mb-1rem">{data?.areas?.compliance?.title}</h3>
+              <p className="text-left max-w-100" style={paragraphStyle}>
+                {data?.areas?.compliance?.desc}
+              </p>
             </article>
 
             <article className="mb-3rem">
-              <h3 className="mb-1rem">{data?.areas?.penal_risk?.title}</h3>
-              <p>{data?.areas?.penal_risk?.desc}</p>
+              <h3 className="serif mb-1rem">{data?.areas?.penal_risk?.title}</h3>
+              <p className="text-left max-w-100" style={paragraphStyle}>
+                {data?.areas?.penal_risk?.desc}
+              </p>
             </article>
 
             <article className="mb-3rem">
-              <h3 className="mb-1rem">{data?.areas?.contractual?.title}</h3>
-              <p>{data?.areas?.contractual?.desc}</p>
+              <h3 className="serif mb-1rem">{data?.areas?.contractual?.title}</h3>
+              <p className="text-left max-w-100" style={paragraphStyle}>
+                {data?.areas?.contractual?.desc}
+              </p>
             </article>
 
             <article className="mb-3rem">
-              <h3 className="mb-1rem">{data?.areas?.governance?.title}</h3>
-              <p>{data?.areas?.governance?.desc}</p>
+              <h3 className="serif mb-1rem">{data?.areas?.governance?.title}</h3>
+              <p className="text-left max-w-100" style={paragraphStyle}>
+                {data?.areas?.governance?.desc}
+              </p>
             </article>
 
             <article className="mb-3rem">
-              <h3 className="mb-1rem">{data?.areas?.operations?.title}</h3>
-              <p>{data?.areas?.operations?.desc}</p>
+              <h3 className="serif mb-1rem">{data?.areas?.operations?.title}</h3>
+              <p className="text-left max-w-100" style={paragraphStyle}>
+                {data?.areas?.operations?.desc}
+              </p>
             </article>
 
             <article className="mb-3rem">
-              <h3 className="mb-1rem">{data?.areas?.methodology?.title}</h3>
-              <p>{data?.areas?.methodology?.desc}</p>
+              <h3 className="serif mb-1rem">{data?.areas?.methodology?.title}</h3>
+              <p className="text-left max-w-100" style={paragraphStyle}>
+                {data?.areas?.methodology?.desc}
+              </p>
             </article>
           </div>
         </div>
       </section>
 
-      <section className="bg-soft">
-        <div className="container">
-          <div className="axial-header">
-            <h2 className="section-title">{data?.value?.title}</h2>
+      <section className="bg-soft section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div className="axial-header mb-2rem">
+            <h2 className="serif section-title">{data?.value?.title}</h2>
           </div>
-          <div className="layout-reading">
-            <p className="mb-1-5rem">{data?.value?.p_1}</p>
-            <p className="mb-1-5rem">{data?.value?.p_2}</p>
+
+          <div className="content-section">
+            <p className="text-left max-w-100 mb-1-5rem" style={paragraphStyle}>
+              {data?.value?.p_1}
+            </p>
+
+            <p className="text-left max-w-100 mb-1-5rem" style={paragraphStyle}>
+              {data?.value?.p_2}
+            </p>
           </div>
-          <div className="mt-3rem">
-            <p>{data?.notice}</p>
-          </div>
+
+          {data?.notice && (
+            <p
+              className="text-left max-w-100 mt-3rem text-muted"
+              style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
+            >
+              {data.notice}
+            </p>
+          )}
         </div>
       </section>
 
-      <section className="text-center">
-        <div className="container">
-          <h2 className="mb-1-5rem">{data?.cta?.title}</h2>
-          <p className="mb-1-5rem">{data?.cta?.desc}</p>
-          <Link href={getRoute(locale, "contact")} className="btn btn-primary">
-            {data?.cta?.link}
-          </Link>
+      <section className="section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div
+            className="card bg-soft p-3rem text-center"
+            style={{
+              border: '1px solid var(--border-color, #e5e7eb)',
+              borderRadius: '8px',
+            }}
+          >
+            <span className="section-tag">
+              {isEs ? 'CONSULTORÍA JURÍDICA PREVENTIVA' : 'PREVENTIVE LEGAL CONSULTING'}
+            </span>
+
+            <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
+              {isEs
+                ? '“La prevención jurídica eficaz comienza antes de que una contingencia se transforme en un conflicto.”'
+                : '“Effective legal prevention begins before a contingency becomes a conflict.”'}
+            </h3>
+
+            <p
+              className="max-w-800 mx-auto mb-2rem text-muted"
+              style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
+            >
+              {isEs
+                ? 'Mac Consultores Jurídicos & Asociados acompaña a empresas, directivos y particulares en la identificación de riesgos, toma de decisiones y estructuración de medidas jurídicas preventivas.'
+                : 'Mac Consultores Jurídicos & Asociados advises companies, executives, and individuals in risk identification, decision-making, and the structuring of preventive legal measures.'}
+            </p>
+
+            <div
+              style={{
+                display: 'flex',
+                gap: '1rem',
+                justifyContent: 'center',
+                flexWrap: 'wrap',
+              }}
+            >
+              <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
+                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+              </Link>
+
+              <Link href={`/${locale}`} className="btn btn-secondary">
+                {isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME'}
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
     </main>
