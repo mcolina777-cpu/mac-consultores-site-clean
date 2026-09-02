@@ -130,7 +130,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
               <span className="section-tag">01</span>
-              <h3>{isEs ? 'Legalidad y Diligencia' : 'Legality & Due Diligence'}</h3>
+              <h3 className="serif">{isEs ? 'Legalidad y Diligencia' : 'Legality & Due Diligence'}</h3>
               <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
                 {isEs 
                   ? 'Constituye el fundamento inquebrantable de nuestra práctica forense, asegurando el sometimiento estricto al ordenamiento constitucional y a la legalidad vigente en cada etapa procesal. Desde el contacto inicial, evaluamos con riguroso celo técnico la viabilidad del caso, el control estricto de los términos procesales y las expectativas reales del mandante, estructurando defensas y mandatos que descansan invariablemente en la legitimidad de los medios jurídicos empleados.'
@@ -148,7 +148,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
               <span className="section-tag">02</span>
-              <h3>{isEs ? 'Independencia Técnica' : 'Technical Independence'}</h3>
+              <h3 className="serif">{isEs ? 'Independencia Técnica' : 'Technical Independence'}</h3>
               <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
                 {isEs 
                   ? 'Garantiza un criterio jurídico objetivo, riguroso e innegociable, libre de presiones o conveniencias ajenas al análisis técnico del caso. Evaluamos la realidad fáctica y probatoria con plena autonomía funcional, comunicando con honestidad tanto fortalezas como riesgos, para proporcionar el juicio profesional certero e indispensable que permite al cliente tomar decisiones estratégicas debidamente informadas.'
@@ -166,7 +166,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
               <span className="section-tag">03</span>
-              <h3>{isEs ? 'Transparencia y Buena Fe' : 'Transparency & Good Faith'}</h3>
+              <h3 className="serif">{isEs ? 'Transparencia y Buena Fe' : 'Transparency & Good Faith'}</h3>
               <p 
                 className="card-editorial-text"
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
@@ -187,7 +187,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
               <span className="section-tag">04</span>
-              <h3>{isEs ? 'Confidencialidad y Secreto' : 'Confidentiality & Professional Secrecy'}</h3>
+              <h3 className="serif">{isEs ? 'Confidencialidad y Secreto' : 'Confidentiality & Professional Secrecy'}</h3>
               <p 
                 className="card-editorial-text"
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
@@ -232,6 +232,54 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
                 className="btn btn-primary"
               >
                 {data?.mission?.btn || (isEs ? 'CONOCE A NUESTRO DIRECTOR GENERAL' : 'MEET OUR MANAGING PARTNER')}
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* CIERRE INSTITUCIONAL */}
+      <section className="bg-soft section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div
+            className="card bg-soft p-3rem text-center"
+            style={{
+              border: '1px solid var(--border-color, #e5e7eb)',
+              borderRadius: '8px',
+            }}
+          >
+            <span className="section-tag">
+              {isEs ? 'MAC CONSULTORES JURÍDICOS & ASOCIADOS' : 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'}
+            </span>
+
+            <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
+              {isEs
+                ? '“Una firma construida sobre rigor técnico, lealtad profesional y estrategia jurídica para asuntos de alta complejidad.”'
+                : '“A firm built on technical rigor, professional loyalty, and legal strategy for high-complexity matters.”'}
+            </h3>
+
+            <p
+              className="max-w-800 mx-auto mb-2rem text-muted"
+              style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
+            >
+              {isEs
+                ? 'Conozca nuestro enfoque institucional y contacte a la firma para evaluar asuntos que requieran criterio jurídico especializado en Venezuela.'
+                : 'Learn about our institutional approach and contact the firm to assess matters requiring specialized legal judgment in Venezuela.'}
+            </p>
+
+            <div
+              style={{
+                display: 'flex',
+                gap: '1rem',
+                justifyContent: 'center',
+                flexWrap: 'wrap',
+              }}
+            >
+              <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
+                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+              </Link>
+
+              <Link href={`/${locale}`} className="btn btn-secondary">
+                {isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME'}
               </Link>
             </div>
           </div>
