@@ -83,7 +83,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
         </div>
       </header>
 
-      <section style={{ padding: '40px 0 80px 0' }}>
+      <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split mb-4rem">
             <div className="about-content">
@@ -198,7 +198,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
         </div>
       </section>
 
-      <section className="bg-soft" style={{ padding: '40px 0 80px 0' }}>
+      <section className="bg-soft section-padding-asym">
         <div
           className="container"
           style={{ maxWidth: '840px', margin: '0 auto' }}
