@@ -54,7 +54,7 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
           </div>
           
           {/* Grid de Tarjetas */}
-          <div className="grid-3 mb-5rem">
+          <div className="grid-3 mb-4rem">
             {/* TARJETA 1 (T1) */}
             <Link href={`/${locale}/services/international-cooperation/local-counsel`} className="card block-link">
               <span className="section-tag">{data?.proposal?.card_1?.tag || "01"}</span>
@@ -85,51 +85,49 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
               <span className="card-link">{data?.proposal?.card_3?.link || "VER DETALLES →"}</span>
             </Link>
           </div>
+        </div>
+      </section>
 
-          <div className="mt-5rem pb-5rem">
+      {/* CIERRE INSTITUCIONAL */}
+      <section className="bg-soft section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div
+            className="card bg-soft p-3rem text-center"
+            style={{
+              border: '1px solid var(--border-color, #e5e7eb)',
+              borderRadius: '8px',
+            }}
+          >
+            <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
+              {isEs
+                ? 'Alianzas estratégicas para una expansión jurídica segura en Venezuela.'
+                : 'Strategic partnerships for secure legal expansion in Venezuela.'}
+            </h3>
+
+            <p
+              className="max-w-800 mx-auto mb-2rem text-muted"
+              style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
+            >
+              {isEs
+                ? 'Acompañamos a firmas, empresas y organizaciones internacionales en la estructuración de relaciones de cooperación, corresponsalía y representación jurídica con alcance en Venezuela.'
+                : 'We assist firms, companies, and international organizations in structuring cooperation, correspondent, and legal representation relationships with reach in Venezuela.'}
+            </p>
+
             <div
-              className="card text-center"
               style={{
-                maxWidth: '840px',
-                margin: '0 auto',
+                display: 'flex',
+                gap: '1rem',
+                justifyContent: 'center',
+                flexWrap: 'wrap',
               }}
             >
-              <h2 className="serif">
-                {isEs
-                  ? 'Alianzas estratégicas para una expansión jurídica segura en Venezuela.'
-                  : 'Strategic partnerships for secure legal expansion in Venezuela.'}
-              </h2>
+              <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
+                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+              </Link>
 
-              <p
-                className="max-w-800 mx-auto mb-2rem text-muted"
-                style={{
-                  lineHeight: 1.6,
-                  fontSize: '0.95rem',
-                  textAlign: 'center',
-                }}
-              >
-                {isEs
-                  ? 'Acompañamos a firmas, empresas y organizaciones internacionales en la estructuración de relaciones de cooperación, corresponsalía y representación jurídica con alcance en Venezuela.'
-                  : 'We assist firms, companies, and international organizations in structuring cooperation, correspondent, and legal representation relationships with reach in Venezuela.'}
-              </p>
-
-              <div className="flex justify-center gap-1rem flex-wrap">
-                <Link
-                  href={getRoute(locale, 'contact')}
-                  className="btn btn-primary"
-                >
-                  {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
-                </Link>
-
-                <Link
-                  href={getRoute(locale, 'services.international_cooperation')}
-                  className="btn btn-secondary"
-                >
-                  {isEs
-                    ? '← VOLVER A ALIANZAS'
-                    : '← BACK TO INTERNATIONAL COOPERATION'}
-                </Link>
-              </div>
+              <Link href={getRoute(locale, 'services.international_cooperation')} className="btn btn-secondary">
+                {isEs ? '← VOLVER A ALIANZAS' : '← BACK TO INTERNATIONAL COOPERATION'}
+              </Link>
             </div>
           </div>
         </div>
