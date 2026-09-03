@@ -254,6 +254,19 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                     />
                   </div>
 
+                  <div className="form-group mb-1rem">
+                    <label className="form-label">
+                      {locale === 'es' ? 'País' : 'Country'}
+                    </label>
+                    <input
+                      className="form-input"
+                      type="text"
+                      name="pais"
+                      placeholder={locale === 'es' ? 'Indique su país' : 'Enter your country'}
+                      required
+                    />
+                  </div>
+
                   <div className="form-group mb-1-5rem">
                     <label className="form-label">
                       {dict?.contacto?.form?.label_reason}
