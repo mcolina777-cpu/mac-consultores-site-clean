@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from "@/i18n/getDictionary";
-import B2BContactBox from "@/components/B2BContactBox";
+import { getRoute } from "@/lib/routes";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function ColaboracionInternacional({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const isEs = locale === 'es';
   const dict = await getDictionary(locale);
   const data = dict?.colaboracion_internacional;
 
@@ -85,8 +86,52 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             </Link>
           </div>
 
-          {/* Caja de Contacto B2B Reubicada al Final */}
-          <B2BContactBox data={data?.contactBox} locale={locale} />
+          <div className="mt-5rem pb-5rem">
+            <div
+              className="card text-center"
+              style={{
+                maxWidth: '840px',
+                margin: '0 auto',
+              }}
+            >
+              <h2 className="serif">
+                {isEs
+                  ? 'Alianzas estratégicas para una expansión jurídica segura en Venezuela.'
+                  : 'Strategic partnerships for secure legal expansion in Venezuela.'}
+              </h2>
+
+              <p
+                className="max-w-800 mx-auto mb-2rem text-muted"
+                style={{
+                  lineHeight: 1.6,
+                  fontSize: '0.95rem',
+                  textAlign: 'center',
+                }}
+              >
+                {isEs
+                  ? 'Acompañamos a firmas, empresas y organizaciones internacionales en la estructuración de relaciones de cooperación, corresponsalía y representación jurídica con alcance en Venezuela.'
+                  : 'We assist firms, companies, and international organizations in structuring cooperation, correspondent, and legal representation relationships with reach in Venezuela.'}
+              </p>
+
+              <div className="flex justify-center gap-1rem flex-wrap">
+                <Link
+                  href={getRoute(locale, 'contact')}
+                  className="btn btn-primary"
+                >
+                  {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+                </Link>
+
+                <Link
+                  href={getRoute(locale, 'services.international_cooperation')}
+                  className="btn btn-secondary"
+                >
+                  {isEs
+                    ? '← VOLVER A ALIANZAS'
+                    : '← BACK TO INTERNATIONAL COOPERATION'}
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
