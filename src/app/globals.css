@@ -1494,7 +1494,7 @@ footer,
         justify-content: space-between;
         align-items: center;
         padding: 15px 20px;
-        flex-wrap: nowrap; /* queda en una sola fila */
+        flex-wrap: wrap; /* queda en una sola fila pero permite empujar el menú */
     }
 
     /* Versión móvil del logo: se sobreescribe la versión desktop */
@@ -1540,9 +1540,6 @@ footer,
     /* Menú desplegable móvil: debajo del logo, no encima */
     nav .nav-links {
         display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
         width: 100%;
         background: var(--bg-white);
         flex-direction: column;
