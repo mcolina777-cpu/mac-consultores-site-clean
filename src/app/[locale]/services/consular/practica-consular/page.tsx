@@ -23,6 +23,7 @@ export default async function PracticaConsularPage({ params }: { params: Promise
   const { locale } = await params;
   const dict = await getDictionary(locale);
   const data = dict?.consular?.practica_consular;
+  const isEs = locale === 'es';
 
   return (
     <main className="page-consular-detail">
@@ -62,13 +63,53 @@ export default async function PracticaConsularPage({ params }: { params: Promise
         </div>
       </section>
 
-      <section className="bg-soft text-center section-padding-asym">
-        <div className="container">
-          <h2 className="serif section-title mb-1-5rem">¿Requiere asistencia legal?</h2>
-          <p className="section-desc mb-2rem">Nuestro equipo está preparado para analizar su caso.</p>
-          <Link href={getRoute(locale, "contact")} className="btn btn-primary">
-            INICIAR PROCESO DE ADMISIÓN
-          </Link>
+      {/* CIERRE INSTITUCIONAL */}
+      <section className="bg-soft section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div
+            className="card bg-soft p-3rem text-center"
+            style={{
+              border: '1px solid var(--border-color, #e5e7eb)',
+              borderRadius: '8px',
+            }}
+          >
+            <span className="section-tag">
+              {isEs
+                ? 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'
+                : 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'}
+            </span>
+
+            <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
+              {isEs
+                ? '“Asesoría jurídica especializada y representación estratégica para asuntos consulares en Venezuela.”'
+                : '“Specialized legal advisory and strategic representation for consular matters in Venezuela.”'}
+            </h3>
+
+            <p
+              className="max-w-800 mx-auto mb-2rem text-muted"
+              style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
+            >
+              {isEs
+                ? 'Nuestra firma brinda soporte a ciudadanos venezolanos en el exterior, incluyendo la gestión documental, legalización y preparación de mandatos para surtir efectos legales en el territorio nacional.'
+                : 'Our firm provides support to Venezuelan citizens abroad, including document management, legalization, and preparation of mandates intended to produce legal effects within the national territory.'}
+            </p>
+
+            <div
+              style={{
+                display: 'flex',
+                gap: '1rem',
+                justifyContent: 'center',
+                flexWrap: 'wrap',
+              }}
+            >
+              <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
+                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+              </Link>
+              <Link href={getRoute(locale, 'services.consular')} className="btn btn-secondary">
+                {isEs ? '← VOLVER A GESTIÓN CONSULAR' : '← BACK TO CONSULAR SERVICES'}
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
     </main>
