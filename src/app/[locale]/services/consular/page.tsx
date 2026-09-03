@@ -114,38 +114,6 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
         </div>
       </section>
 
-      <section>
-        <div className="container">
-          <div className="form-card">
-            <h2 className="serif heading-lg text-primary mb-2rem">{dict?.tramites_consulares?.form?.title}</h2>
-            <p className="mb-2-5rem text-muted">{dict?.tramites_consulares?.form?.desc}</p>
-            <form action="https://formsubmit.co/infomacconsul@gmail.com" method="POST">
-              <input type="hidden" name="_next" value="https://mac-consultores.vercel.app/tramites-consulares" />
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_subject" value="Nueva solicitud de Trámites Consulares / Exterior" />
-              
-              <div className="grid-2 mb-1-5rem">
-                <div className="form-group">
-                  <label className="form-label">{dict?.tramites_consulares?.form?.label_name}</label>
-                  <input className="form-input" type="text" name="nombre" placeholder={dict?.tramites_consulares?.form?.placeholder_name} required  />
-                </div>
-                <div className="form-group">
-                  <label className="form-label">{dict?.tramites_consulares?.form?.label_country}</label>
-                  <input className="form-input" type="text" name="pais" placeholder={dict?.tramites_consulares?.form?.placeholder_country} required  />
-                </div>
-              </div>
-              
-              <div className="form-group mb-1-5rem">
-                <label className="form-label">{dict?.tramites_consulares?.form?.label_message}</label>
-                <textarea className="form-textarea-no-font" name="mensaje" rows={5} placeholder={dict?.tramites_consulares?.form?.placeholder_message} required></textarea>
-              </div>
-              
-              <button type="submit" className="btn btn-primary" >{dict?.tramites_consulares?.form?.btn}</button>
-            </form>
-          </div>
-        </div>
-      </section>
-
       {/* CIERRE INSTITUCIONAL */}
       <section className="bg-soft section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
@@ -187,6 +155,9 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
             >
               <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
                 {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+              </Link>
+              <Link href={getRoute(locale, 'home')} className="btn btn-secondary">
+                {isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME'}
               </Link>
             </div>
           </div>
