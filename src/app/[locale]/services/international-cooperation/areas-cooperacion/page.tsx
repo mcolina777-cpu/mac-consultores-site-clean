@@ -29,7 +29,6 @@ export default async function AreasCooperacionPage({ params }: { params: Promise
     <main className="page-consular-detail">
       <header className="page-header header-soft-bg">
         <div className="container">
-          {data?.tag && <span className="section-tag">{data.tag}</span>}
           <h1 className="mb-1-5rem serif">{data?.h1}</h1>
           <p className="subtitle">{data?.subtitle}</p>
         </div>
