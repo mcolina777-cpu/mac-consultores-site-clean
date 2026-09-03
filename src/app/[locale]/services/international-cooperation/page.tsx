@@ -54,7 +54,7 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
           </div>
           
           {/* Grid de Tarjetas */}
-          <div className="grid-3 mb-4rem">
+          <div className="grid-3" style={{ marginBottom: '6rem' }}>
             {/* TARJETA 1 (T1) */}
             <Link href={`/${locale}/services/international-cooperation/local-counsel`} className="card block-link">
               <span className="section-tag">{data?.proposal?.card_1?.tag || "01"}</span>
