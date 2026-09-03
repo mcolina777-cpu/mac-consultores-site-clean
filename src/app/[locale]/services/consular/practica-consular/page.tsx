@@ -34,12 +34,15 @@ export default async function PracticaConsularPage({ params }: { params: Promise
       </header>
 
       <section className="section-padding-asym">
-        <div className="container">
+        <div
+          className="container"
+          style={{ maxWidth: '840px', margin: '0 auto' }}
+        >
           {/* Intro Section */}
           <div className="mb-3rem">
-            <p className="text-left max-w-100 mb-1rem">{data?.intro?.p1}</p>
-            <p className="text-left max-w-100 mb-1rem">{data?.intro?.p2}</p>
-            <p className="text-left max-w-100 mb-2rem">{data?.intro?.p3}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.intro?.p1}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.intro?.p2}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.intro?.p3}</p>
           </div>
 
           {/* When we intervene */}
@@ -55,10 +58,10 @@ export default async function PracticaConsularPage({ params }: { params: Promise
           {/* Our approach */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">{data?.approach?.title}</h2>
-            <p className="mb-1rem">{data?.approach?.p1}</p>
-            <p className="mb-1rem">{data?.approach?.p2}</p>
-            <p className="mb-1rem">{data?.approach?.p3}</p>
-            <p className="mb-1rem">{data?.approach?.p4}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p1}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p2}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p3}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p4}</p>
           </div>
         </div>
       </section>
@@ -87,7 +90,11 @@ export default async function PracticaConsularPage({ params }: { params: Promise
 
             <p
               className="max-w-800 mx-auto mb-2rem text-muted"
-              style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
+              style={{
+                lineHeight: 1.6,
+                fontSize: '0.95rem',
+                textAlign: 'center'
+              }}
             >
               {isEs
                 ? 'Nuestra firma brinda soporte a ciudadanos venezolanos en el exterior, incluyendo la gestión documental, legalización y preparación de mandatos para surtir efectos legales en el territorio nacional.'
