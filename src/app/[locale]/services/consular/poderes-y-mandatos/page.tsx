@@ -87,7 +87,7 @@ export default async function PoderesYMandatosPage({ params }: { params: Promise
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
                 ? '“Estructuración y formalización de poderes, mandatos y facultades internacionales para actuar en Venezuela.”'
-                : '“Structuring and formalization of international powers of attorney, mandates, and faculties to act in Venezuela.”'}
+                : '“Structuring and formalization of international powers, mandates, and authorities to act in Venezuela.”'}
             </h3>
 
             <p
@@ -95,8 +95,8 @@ export default async function PoderesYMandatosPage({ params }: { params: Promise
               style={{ lineHeight: 1.6, fontSize: '0.95rem', textAlign: 'center' }}
             >
               {isEs
-                ? 'Garantizamos que sus instrumentos de mandato cumplan con todos los requisitos formales, probatorios y registrales exigidos por la legislación venezolana para su plena eficacia jurídica.'
-                : 'We ensure that your mandate instruments comply with all formal, evidentiary, and registry requirements demanded by Venezuelan legislation for their full legal efficacy.'}
+                ? 'Asesoramos la preparación y revisión de instrumentos de mandato con delimitación precisa de facultades administrativas, judiciales y patrimoniales, asegurando su eficacia jurídica y registral en Venezuela.'
+                : 'We advise on the preparation and review of mandate instruments with precise limitations on administrative, judicial, and patrimonial powers, ensuring their legal and registrable effectiveness in Venezuela.'}
             </p>
 
             <div
