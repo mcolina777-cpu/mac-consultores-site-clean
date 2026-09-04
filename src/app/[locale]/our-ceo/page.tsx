@@ -243,8 +243,8 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“Una firma construida sobre rigor técnico, lealtad profesional y estrategia jurídica para asuntos de alta complejidad.”'
-                : '“A firm built on technical rigor, professional loyalty, and legal strategy for high-complexity matters.”'}
+                ? '“La dirección de cada asunto exige criterio, método y una comprensión rigurosa de los riesgos jurídicos involucrados.”'
+                : '“The direction of every matter requires judgment, method, and a rigorous understanding of the legal risks involved.”'}
             </h3>
 
             <p
@@ -252,8 +252,8 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
               {isEs
-                ? 'Conozca nuestro enfoque institucional y contacte a la firma para evaluar asuntos que requieran criterio jurídico especializado en Venezuela.'
-                : 'Learn about our institutional approach and contact the firm to assess matters requiring specialized legal judgment in Venezuela.'}
+                ? 'Conozca el enfoque directivo que articula experiencia forense, formación académica y estrategia jurídica para asuntos de alta complejidad.'
+                : 'Learn about the executive approach that combines forensic experience, academic training, and legal strategy for high-complexity matters.'}
             </p>
 
             <div
