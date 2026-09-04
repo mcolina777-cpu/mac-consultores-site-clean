@@ -48,7 +48,8 @@
       "admission_hint": "This form constitutes the firm's **legal admission process**. Based on the information provided, the relevance of the case will be determined and, if applicable, the corresponding **private consultation** will be coordinated.",
       "title": "Legal Admission Form",
       "penal_opt3": "Ordinary Crimes (Others)",
-      "reason_opt6": "Others"
+      "reason_opt6": "Others",
+      "reason_probono": "Pro Bono Evaluation Request"
     },
     "channels": {
       "title": "Alternative Channels",

@@ -197,6 +197,27 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                     }}
                   ></p>
                 )}
+
+                <div
+                  className="probono-contact-hint text-sm mb-1-5rem"
+                  style={{
+                    padding: '1rem',
+                    backgroundColor: 'rgba(0,0,0,0.03)',
+                    borderRadius: '4px',
+                    borderLeft: '3px solid var(--color-primary)',
+                    lineHeight: '1.5',
+                  }}
+                >
+                  <strong>
+                    {locale === 'es'
+                      ? '¿Solicita una evaluación Pro Bono?'
+                      : 'Are you requesting a pro bono evaluation?'}
+                  </strong>
+                  <br />
+                  {locale === 'es'
+                    ? 'Seleccione “Solicitud de Evaluación Pro Bono” en el campo Motivo de Consulta.'
+                    : 'Select “Pro Bono Evaluation Request” in the Consultation Reason field.'}
+                </div>
                 
                 <form
                   action="https://formsubmit.co/infomacconsul@gmail.com"
@@ -291,6 +312,9 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                       </option>
                       <option value="Asesoría Corporativa / Compliance">
                         {dict?.contacto?.form?.reason_opt4}
+                      </option>
+                      <option value="probono">
+                        {dict?.contacto?.form?.reason_probono}
                       </option>
                       <option value="Otros">
                         {dict?.contacto?.form?.reason_opt6}
