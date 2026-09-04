@@ -179,8 +179,8 @@ export default async function LocalCounselService({ params }: Props) {
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“Una firma construida sobre rigor técnico, lealtad profesional y estrategia jurídica para asuntos de alta complejidad.”'
-                : '“A firm built on technical rigor, professional loyalty, and legal strategy for high-complexity matters.”'}
+                ? '“Una firma local para quienes necesitan actuar en Venezuela con claridad, respaldo técnico y coordinación estratégica.”'
+                : '“A local firm for those who need to act in Venezuela with clarity, technical support, and strategic coordination.”'}
             </h3>
 
             <p
@@ -188,8 +188,8 @@ export default async function LocalCounselService({ params }: Props) {
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
               {isEs
-                ? 'Conozca nuestro enfoque institucional y contacte a la firma para evaluar asuntos que requieran criterio jurídico especializado en Venezuela.'
-                : 'Learn about our institutional approach and contact the firm to assess matters requiring specialized legal judgment in Venezuela.'}
+                ? 'Acompañamos a clientes, empresas y organizaciones internacionales en asuntos que requieren conocimiento del entorno jurídico venezolano y representación profesional confiable.'
+                : 'We assist clients, companies, and international organizations with matters requiring knowledge of the Venezuelan legal environment and reliable professional representation.'}
             </p>
 
             <div
