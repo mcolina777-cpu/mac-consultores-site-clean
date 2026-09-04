@@ -125,8 +125,8 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
                 {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
               </Link>
 
-              <Link href={getRoute(locale, 'services.international_cooperation')} className="btn btn-secondary">
-                {isEs ? '← VOLVER A ALIANZAS' : '← BACK TO INTERNATIONAL COOPERATION'}
+              <Link href={getRoute(locale, 'services')} className="btn btn-secondary">
+                {isEs ? '← VOLVER A ÁREAS DE PRÁCTICA' : '← BACK TO PRACTICE AREAS'}
               </Link>
             </div>
           </div>
