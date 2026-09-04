@@ -313,7 +313,13 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                       <option value="Asesoría Corporativa / Compliance">
                         {dict?.contacto?.form?.reason_opt4}
                       </option>
-                      <option value="probono">
+                      <option
+                        value={
+                          locale === 'es'
+                            ? 'Solicitud de Evaluación Pro Bono'
+                            : 'Pro Bono Evaluation Request'
+                        }
+                      >
                         {dict?.contacto?.form?.reason_probono}
                       </option>
                       <option value="Otros">
