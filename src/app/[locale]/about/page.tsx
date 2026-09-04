@@ -253,8 +253,8 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“Una firma construida sobre rigor técnico, lealtad profesional y estrategia jurídica para asuntos de alta complejidad.”'
-                : '“A firm built on technical rigor, professional loyalty, and legal strategy for high-complexity matters.”'}
+                ? '“Una práctica jurídica construida sobre principios firmes, rigor técnico y una visión institucional orientada a la confianza.”'
+                : '“A legal practice built on firm principles, technical rigor, and an institutional vision grounded in trust.”'}
             </h3>
 
             <p
@@ -262,8 +262,8 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
               {isEs
-                ? 'Conozca nuestro enfoque institucional y contacte a la firma para evaluar asuntos que requieran criterio jurídico especializado en Venezuela.'
-                : 'Learn about our institutional approach and contact the firm to assess matters requiring specialized legal judgment in Venezuela.'}
+                ? 'Conozca la identidad, los principios y la trayectoria que sustentan el trabajo de Mac Consultores Jurídicos & Asociados.'
+                : 'Learn about the identity, principles, and professional trajectory that support the work of Mac Consultores Jurídicos & Asociados.'}
             </p>
 
             <div
