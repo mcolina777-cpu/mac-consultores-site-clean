@@ -98,12 +98,36 @@ export default async function ReglamentoProBono({ params }: { params: Promise<{ 
             {/* Procedimiento de 4 Etapas */}
             <div className="editorial-block bg-soft p-2-5rem rounded-8 mb-4rem">
               <h3 className="serif heading-md text-primary text-center mb-2rem">{data?.procedure_title}</h3>
-              <div className="grid-2 gap-1-5rem">
+              <div
+                style={{
+                  display: 'grid',
+                  gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                  gap: '2rem'
+                }}
+              >
                 {data?.procedure_steps?.map((step: { step: string; title: string; desc: string }, idx: number) => (
-                  <div key={idx} className="bg-white p-1-5rem rounded-6 border-subtle">
-                    <span className="section-tag">{step.step}</span>
-                    <h5 className="font-bold text-primary mt-0-5rem mb-0-5rem">{step.title}</h5>
-                    <p className="text-sm text-muted">{step.desc}</p>
+                  <div
+                    key={idx}
+                    className="bg-white rounded-6 border-subtle"
+                    style={{
+                      padding: '2rem',
+                      display: 'flex',
+                      flexDirection: 'column'
+                    }}
+                  >
+                    <span className="section-tag" style={{ marginBottom: '1rem' }}>{step.step}</span>
+                    <h5
+                      className="font-bold text-primary"
+                      style={{ marginTop: 0, marginBottom: '1rem', fontSize: '1.2rem', lineHeight: 1.4 }}
+                    >
+                      {step.title}
+                    </h5>
+                    <p
+                      className="text-muted"
+                      style={{ margin: 0, fontSize: '0.95rem', lineHeight: 1.6 }}
+                    >
+                      {step.desc}
+                    </p>
                   </div>
                 ))}
               </div>
