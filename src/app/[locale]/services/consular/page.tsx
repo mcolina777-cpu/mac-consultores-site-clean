@@ -132,8 +132,8 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“Una firma construida sobre rigor técnico, lealtad profesional y estrategia jurídica para asuntos de alta complejidad.”'
-                : '“A firm built on technical rigor, professional loyalty, and legal strategy for high-complexity matters.”'}
+                ? '“La asistencia jurídica en Venezuela exige claridad, diligencia profesional y una comprensión precisa del entorno local.”'
+                : '“Legal assistance in Venezuela requires clarity, professional diligence, and a precise understanding of the local environment.”'}
             </h3>
 
             <p
@@ -141,8 +141,8 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
               {isEs
-                ? 'Conozca nuestro enfoque institucional y contacte a la firma para evaluar asuntos que requieran criterio jurídico especializado en Venezuela.'
-                : 'Learn about our institutional approach and contact the firm to assess matters requiring specialized legal judgment in Venezuela.'}
+                ? 'Acompañamos a ciudadanos, empresas y organizaciones en la evaluación de asuntos consulares y requerimientos jurídicos vinculados con Venezuela.'
+                : 'We assist individuals, companies, and organizations in assessing consular matters and legal requirements connected to Venezuela.'}
             </p>
 
             <div
