@@ -19,6 +19,7 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
   const { locale } = await params;
   const dict = await getDictionary(locale);
   const data = dict?.pro_bono_penal;
+  const isEs = locale === 'es';
 
   return (
     <main className="page-probono">
@@ -32,7 +33,7 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
 
       <section className="section-padding">
         <div className="container">
-          <div className="grid-2 contact-grid-start">
+          <div className="contact-grid-start max-w-800 mx-auto">
             
             {/* Columna Izquierda: Información Institucional y Enlace al Reglamento */}
             <div className="contact-info">
@@ -94,53 +95,62 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
               </div>
             </div>
 
-            {/* Columna Derecha: Formulario de Postulación Sticky */}
-            <div className="form-column">
-              <div className="form-card sticky-card">
-                <h3 className="serif heading-md text-primary mb-1-5rem">
-                  {data?.form_title}
-                </h3>
-                <p className="section-desc text-sm mb-2rem">
-                  {data?.form_desc}
-                </p>
-                <form>
-                  <div className="form-group mb-1-5rem">
-                    <label className="form-label">{data?.form_nombre_label}</label>
-                    <input type="text" className="form-control" required />
-                  </div>
-                  <div className="form-group mb-1-5rem">
-                    <label className="form-label">{data?.form_email_label}</label>
-                    <input type="email" className="form-control" required />
-                  </div>
-                  <div className="form-group mb-1-5rem">
-                    <label className="form-label">{data?.form_telefono_label}</label>
-                    <input type="tel" className="form-control" required />
-                  </div>
-                  <div className="form-group mb-1-5rem">
-                    <label className="form-label">{data?.form_victima_label}</label>
-                    <select className="form-control" required>
-                      <option value="">{data?.form_victima_option_default}</option>
-                      <option value="si">{data?.form_victima_option_si}</option>
-                      <option value="no">{data?.form_victima_option_no}</option>
-                    </select>
-                  </div>
-                  <div className="form-group mb-1-5rem">
-                    <label className="form-label">{data?.form_resumen_label}</label>
-                    <textarea rows={4} className="form-control" required></textarea>
-                  </div>
-                  <div className="form-check mb-1-5rem">
-                    <label className="text-xs text-muted">
-                      <input type="checkbox" required className="mr-0-5rem" />
-                      {data?.form_condiciones_text}
-                    </label>
-                  </div>
-                  <button type="submit" className="btn btn-primary w-100">
-                    {data?.form_btn}
-                  </button>
-                </form>
-              </div>
-            </div>
+          </div>
+        </div>
+      </section>
 
+      {/* CIERRE INSTITUCIONAL */}
+      <section className="bg-soft section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div
+            className="card bg-soft p-3rem text-center"
+            style={{
+              border: '1px solid var(--border-color, #e5e7eb)',
+              borderRadius: '8px',
+            }}
+          >
+            <span className="section-tag">
+              {isEs
+                ? 'COMPROMISO CON EL ACCESO A LA JUSTICIA'
+                : 'COMMITMENT TO ACCESS TO JUSTICE'}
+            </span>
+
+            <h3
+              className="serif mt-1rem mb-1rem"
+              style={{ fontSize: '1.4rem' }}
+            >
+              {isEs
+                ? 'La responsabilidad jurídica también exige atender casos que requieren una defensa técnica comprometida.'
+                : 'Legal responsibility also requires addressing matters that call for committed technical defense.'}
+            </h3>
+
+            <p
+              className="max-w-800 mx-auto mb-2rem text-muted"
+              style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
+            >
+              {isEs
+                ? 'Mac Consultores Jurídicos & Asociados evalúa solicitudes pro bono de manera individual, conforme a la naturaleza del caso, su relevancia jurídica y las condiciones particulares de la persona solicitante.'
+                : 'Mac Consultores Jurídicos & Asociados evaluates pro bono requests individually, considering the nature of the matter, its legal relevance, and the particular circumstances of the applicant.'}
+            </p>
+
+            <div
+              style={{
+                display: 'flex',
+                gap: '1rem',
+                justifyContent: 'center',
+                flexWrap: 'wrap',
+              }}
+            >
+              <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
+                {isEs
+                  ? 'SOLICITAR EVALUACIÓN PRO BONO'
+                  : 'REQUEST PRO BONO EVALUATION'}
+              </Link>
+
+              <Link href={`/${locale}`} className="btn btn-secondary">
+                {isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME'}
+              </Link>
+            </div>
           </div>
         </div>
       </section>
