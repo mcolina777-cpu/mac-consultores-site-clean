@@ -95,7 +95,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     estrategiaSeleccionDeCasos: "/en/case-selection",
     estrategiaEscenariosRepresentativos: "/en/estrategia-escenarios-representativos",
     probonoPenal: "/en/probono-penal",
-    probono_reglamento: "/en/probono-penal/regulations",
+    probono_reglamento: "/en/probono-penal/reglamento",
     "resources.economic_criminal_risk": "/en/resources/economic-criminal-risk",
     "resources.defense_documentation": "/en/resources/defense-documentation",
     "resources.international_legal_services": "/en/resources/international-legal-services",
