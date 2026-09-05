@@ -11,12 +11,12 @@ export async function generateMetadata({ params }: Props) {
   const isEs = locale === 'es';
 
   const title = isEs 
-    ? 'Local Counsel for Venezuela | Mac Consultores Jurídicos'
-    : 'Local Counsel for Venezuela | Mac Consultores Jurídicos';
+    ? 'Servicios Jurídicos para Empresas Extranjeras en Venezuela | Mac Consultores Jurídicos'
+    : 'Legal Services for Foreign Companies in Venezuela | Mac Consultores Jurídicos';
   
   const description = isEs
-    ? 'Plataforma de cooperación jurídica y Local Counsel en Venezuela para firmas internacionales, departamentos legales corporativos y empresas extranjeras.'
-    : 'Legal cooperation platform and Local Counsel in Venezuela for international law firms, corporate legal departments, and global enterprises.';
+    ? 'Asesoría jurídica directa, evaluación de riesgos, opiniones doctrinales y representación local en Venezuela para corporaciones extranjeras, departamentos legales e inversionistas.'
+    : 'Direct legal advisory, corporate risk assessments, formal legal opinions, and domestic representation in Venezuela for foreign corporations, legal departments, and international investors.';
 
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/local-counsel-venezuela`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/services/local-counsel-venezuela`;
@@ -67,17 +67,17 @@ export default async function LocalCounselService({ params }: Props) {
       <header className="page-header header-soft-bg">
         <div className="container">
           <span className="section-tag">
-            {isEs ? 'PRÁCTICA INTERNACIONAL / COOPERACIÓN JURÍDICA' : 'INTERNATIONAL PRACTICE / LEGAL COOPERATION'}
+            {isEs ? 'PRÁCTICA INTERNACIONAL / SERVICIOS CORPORATIVOS EN VENEZUELA' : 'INTERNATIONAL PRACTICE / CORPORATE SERVICES IN VENEZUELA'}
           </span>
           <h1 className="mb-1-5rem serif">
             {isEs 
-              ? 'Local Counsel for Venezuela' 
-              : 'Local Counsel for Venezuela'}
+              ? 'Servicios Jurídicos para Empresas Extranjeras en Venezuela' 
+              : 'Legal Services for Foreign Companies in Venezuela'}
           </h1>
           <p className="hero-subtitle">
             {isEs
-              ? 'Capacidad jurídica local estratégica para firmas internacionales, departamentos legales corporativos y operaciones transfronterizas.'
-              : 'Strategic local legal capacity for international law firms, corporate legal departments, and cross-border transactions.'}
+              ? 'Capacidad jurídica local para evaluar riesgos penales corporativos, validar documentación transfronteriza, emitir opiniones legales y representar a empresas extranjeras en Venezuela.'
+              : 'Local legal capacity to assess corporate criminal risks, validate cross-border documentation, issue formal legal opinions, and represent foreign companies in Venezuela.'}
           </p>
         </div>
       </header>
@@ -86,7 +86,7 @@ export default async function LocalCounselService({ params }: Props) {
       <section className="section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
           
-          {/* BLOQUE 1: CONCEPTO Y FUNCIÓN DEL LOCAL COUNSEL */}
+          {/* BLOQUE 1: CAPACIDAD TÉCNICA LOCAL PARA EMPRESAS EXTRANJERAS */}
           <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
               {isEs ? '1. Capacidad Jurídica Local para Operaciones Globales' : '1. Local Legal Capacity for Global Transactions'}
@@ -98,20 +98,20 @@ export default async function LocalCounselService({ params }: Props) {
             </p>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'Nuestra función no consiste en sustituir al abogado que conduce la relación principal con el cliente, sino en aportar la capacidad técnica local indispensable para analizar, auditar y ejecutar actuaciones en territorio venezolano, asegurando que la firma extranjera mantenga el control estratégico integral de la operación.'
-                : 'Our role does not replace lead international counsel managing the primary client relationship; instead, we provide the indispensable technical capacity to analyze, audit, and execute proceedings in Venezuela, ensuring lead counsel retains overall strategic dominance.'}
+                ? 'Nuestra intervención aporta la capacidad técnica local indispensable para analizar, auditar y ejecutar actuaciones jurídicas en territorio venezolano, coordinando de manera directa con directores generales, departamentos legales internos o apoderados corporativos de la empresa matriz.'
+                : 'Our practice provides the essential domestic technical capacity to analyze, audit, and execute legal proceedings in Venezuelan territory, coordinating directly with corporate directors, internal legal departments, or designated counsel of the parent company.'}
             </p>
           </div>
 
-          {/* BLOQUE 2: COOPERACIÓN JURÍDICA SIN DUPLICIDAD */}
+          {/* BLOQUE 2: SEGURIDAD JURÍDICA Y EFICACIA OPERATIVA */}
           <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
-              {isEs ? '2. Alianza Estratégica: Cooperación, no Competencia' : '2. Strategic Alliance: Cooperation over Competition'}
+              {isEs ? '2. Seguridad Jurídica y Eficacia Operativa en Venezuela' : '2. Legal Certainty and Operational Execution in Venezuela'}
             </h2>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'Partimos de una premisa clara e innegociable: la firma internacional preserva la titularidad del mandato de su cliente; Mac Consultores Jurídicos & Asociados proporciona el soporte técnico en el foro local. Esta dinámica previene duplicidades operativas y delimita con precisión el alcance de la intervención.'
-                : 'We operate under a clear principle: the international law firm maintains full client relationship ownership; Mac Consultores Jurídicos & Asociados provides technical support in the domestic forum. This framework prevents operational overlap and strictly defines collaborative scopes.'}
+                ? 'Estructuramos cada actuación bajo estándares estrictos de confidencialidad, rigor técnico y delimitación precisa del encargo profesional. Esto permite a corporaciones extranjeras e inversionistas contar con respaldo jurídico sólido en el país, mitigando contingencias operativas y garantizando que sus decisiones estratégicas se ajusten plenamente al ordenamiento venezolano.'
+                : 'We structure each engagement under strict standards of confidentiality, technical rigor, and precise professional scope. This enables foreign corporations and investors to rely on solid legal footing in the country, mitigating operational liabilities and ensuring strategic decisions fully align with the Venezuelan legal framework.'}
             </p>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
@@ -127,8 +127,8 @@ export default async function LocalCounselService({ params }: Props) {
             </h2>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'Nuestra estructura como Local Counsel responde a requerimientos forenses específicos en los siguientes ejes de práctica:'
-                : 'Our Local Counsel structure addresses specific forensic requirements across the following core practice axes:'}
+                ? 'Nuestra práctica forense y de asesoría corporativa responde a requerimientos específicos en los siguientes ejes de actuación:'
+                : 'Our forensic practice and corporate advisory address specific requirements across the following practice areas:'}
             </p>
             <ul className="service-list mb-2rem">
               <li>
@@ -179,8 +179,8 @@ export default async function LocalCounselService({ params }: Props) {
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“Una firma local para quienes necesitan actuar en Venezuela con claridad, respaldo técnico y coordinación estratégica.”'
-                : '“A local firm for those who need to act in Venezuela with clarity, technical support, and strategic coordination.”'}
+                ? 'Respaldo técnico y representación profesional para sus operaciones en Venezuela.'
+                : 'Technical support and professional advocacy for your operations in Venezuela.'}
             </h3>
 
             <p
@@ -188,8 +188,8 @@ export default async function LocalCounselService({ params }: Props) {
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
               {isEs
-                ? 'Acompañamos a clientes, empresas y organizaciones internacionales en asuntos que requieren conocimiento del entorno jurídico venezolano y representación profesional confiable.'
-                : 'We assist clients, companies, and international organizations with matters requiring knowledge of the Venezuelan legal environment and reliable professional representation.'}
+                ? 'Asesoramos a directores generales, departamentos legales internos y grupos transfronterizos que requieren certeza técnica y gestión procesal en el entorno jurídico venezolano.'
+                : 'We assist corporate directors, general counsel, and multinational groups requiring technical certainty and reliable procedural execution in Venezuela.'}
             </p>
 
             <div
@@ -201,7 +201,10 @@ export default async function LocalCounselService({ params }: Props) {
               }}
             >
               <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
-                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+                {isEs ? 'CONSULTAR REQUERIMIENTO CORPORATIVO' : 'SUBMIT CORPORATE INQUIRY'}
+              </Link>
+              <Link href={getRoute(locale, 'services')} className="btn btn-outline">
+                {isEs ? '← VOLVER A SERVICIOS' : '← BACK TO SERVICES'}
               </Link>
             </div>
           </div>
