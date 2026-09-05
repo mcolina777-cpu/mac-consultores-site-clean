@@ -102,10 +102,25 @@ export default async function Home({ params }: Props) {
               <p className="img-caption"></p>
             </div>
             <div className="about-text">
-              <span className="section-tag">{dict?.about?.tag}</span>
-              <h2 className="section-title">{dict?.about?.title}</h2>
-              <p>{dict?.about?.desc_1}</p>
-              <p>{dict?.about?.desc_2}</p>
+              <span className="section-tag">{locale === 'es' ? 'Nuestra Firma' : 'Our Firm'}</span>
+              <h2 className="section-title">
+                {locale === 'es' ? 'Cimientos sólidos para desafíos complejos.' : 'Solid foundations for complex challenges.'}
+              </h2>
+              <p>
+                {locale === 'es'
+                  ? 'En Mac Consultores Jurídicos & Asociados, entendemos el derecho como una disciplina de alta precisión. Nuestra práctica combina integridad, rigor técnico y capacidad de anticipación estratégica para atender asuntos penales, constitucionales y corporativos de especial complejidad.'
+                  : 'At Mac Consultores Jurídicos & Asociados, we understand law as a discipline requiring precision. Our practice combines integrity, technical rigor, and strategic foresight in handling complex criminal, constitutional, and corporate matters.'}
+              </p>
+              <p>
+                {locale === 'es'
+                  ? 'Liderados por el Dr. Marco A. Colina G., integramos más de dos décadas de experiencia en litigio penal y constitucional con una visión académica y estratégica del ejercicio profesional. Asesoramos y representamos a personas, empresas, directivos y clientes internacionales que requieren criterio jurídico sólido, gestión rigurosa y capacidad de respuesta en Venezuela.'
+                  : 'Led by Dr. Marco A. Colina G., we combine more than two decades of experience in criminal and constitutional litigation with an academic and strategic approach to legal practice. We advise and represent individuals, companies, executives, and international clients who require sound legal judgment, rigorous management, and reliable capacity in Venezuela.'}
+              </p>
+              <p>
+                {locale === 'es'
+                  ? 'Nuestra firma trabaja cada asunto con una metodología selectiva y personalizada, orientada a identificar riesgos, estructurar estrategias viables y proteger los intereses jurídicos y patrimoniales de nuestros clientes con responsabilidad, confidencialidad y absoluta solidez técnica.'
+                  : 'Our firm approaches every matter through a selective and personalized methodology designed to identify risks, structure viable strategies, and protect our clients’ legal and proprietary interests with responsibility, confidentiality, and technical strength.'}
+              </p>
               <div className="mt-1-5rem">
                 <Link href={getRoute(locale, "about")} className="btn btn-outline">
                   {locale === 'es' ? 'CONOCE LA FIRMA' : 'ABOUT THE FIRM'}
@@ -247,14 +262,14 @@ export default async function Home({ params }: Props) {
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
               <span className="section-tag">{locale === 'es' ? 'DERECHO INTERNACIONAL' : 'INTERNATIONAL LAW'}</span>
-              <h3 className="serif">Local Counsel for Venezuela</h3>
+              <h3 className="serif">{locale === 'es' ? 'Servicios Jurídicos para Empresas Extranjeras en Venezuela' : 'Legal Services for Foreign Companies in Venezuela'}</h3>
               <p 
                 className="card-editorial-text"
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
               >
                 {locale === 'es'
-                  ? 'Actuamos como plataforma de cooperación jurídica y asesor local estratégico para firmas internacionales, departamentos corporativos y clientes en el exterior con intereses u operaciones vinculadas a Venezuela. Aportamos la capacidad técnica indispensable para auditar contingencias penales corporativas, validar documentos transfronterizos y coordinar actuaciones judiciales y regulatorias bajo el estricto cumplimiento del ordenamiento jurídico nacional.'
-                  : 'We act as a strategic local counsel platform for international law firms, corporate legal departments, and overseas clients managing legal interests or transactions tied to Venezuela. We deliver specialized local capacity to audit corporate criminal risks, substantiate cross-border documentation, and conduct judicial or regulatory proceedings under strict adherence to Venezuelan domestic and international legal standards.'}
+                  ? 'Capacidad jurídica local para evaluar riesgos corporativos, validar documentación transfronteriza y atender asuntos jurídicos de empresas extranjeras con intereses en Venezuela.'
+                  : 'Local legal capacity to assess corporate risks, validate cross-border documentation, and address legal matters for foreign companies with interests in Venezuela.'}
               </p>
               <span className="card-link mt-auto">
                 {locale === 'es' ? 'Leer más →' : 'Read more →'}
