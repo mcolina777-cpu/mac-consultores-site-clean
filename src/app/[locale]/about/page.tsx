@@ -222,10 +222,12 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             <div className="vision-text">
               <span className="section-tag">{isEs ? "LIDERAZGO FORENSE" : "FORENSIC LEADERSHIP"}</span>
               <h2 className="serif heading-lg mb-1-5rem line-height-1-1">
-                {data?.mission?.quote || (isEs ? '“Nuestra misión es transformar desafíos legales en escenarios de seguridad y crecimiento.”' : '“Our mission is to transform legal challenges into security and growth.”')}
+                {data?.mission?.quote || (isEs ? '“Dirección estratégica y rigor dogmático en controversias de alta complejidad.”' : '“Strategic direction and doctrinal rigor in high-complexity disputes.”')}
               </h2>
               <p className="mb-2rem text-left max-w-100">
-                {data?.mission?.desc}
+                {data?.mission?.desc || (isEs
+                  ? 'Bajo la conducción del Dr. Marco A. Colina G., la firma articula experiencia forense, estricto control de las garantías procesales y criterio académico para brindar defensa técnica sólida a clientes nacionales e internacionales con intereses en Venezuela.'
+                  : 'Led by Dr. Marco A. Colina G., the firm combines trial experience, strict protection of procedural guarantees, and academic insight to provide rigorous legal representation to domestic and international clients with interests in Venezuela.')}
               </p>
               <Link
                 href={getRoute(locale, 'ourCeo')}
