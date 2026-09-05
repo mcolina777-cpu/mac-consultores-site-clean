@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from "@/i18n/getDictionary";
-
+import { getRoute } from "@/lib/routes";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
@@ -53,6 +53,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function Contacto({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  const isEs = locale === 'es';
 
   return (
     <main className="page-contacto">
@@ -381,6 +382,55 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                   </p>
                 </form>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CIERRE INSTITUCIONAL */}
+      <section className="bg-soft section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div
+            className="card bg-soft p-3rem text-center"
+            style={{
+              border: '1px solid var(--border-color, #e5e7eb)',
+              borderRadius: '8px',
+            }}
+          >
+            <span className="section-tag">
+              {isEs ? 'CONFIDENCIALIDAD Y ADMISIÓN TÉCNICA' : 'CONFIDENTIALITY AND TECHNICAL ADMISSION'}
+            </span>
+
+            <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
+              {isEs
+                ? 'Toda comunicación inicial merece reserva, criterio y evaluación profesional.'
+                : 'Every initial communication deserves discretion, judgment, and professional assessment.'}
+            </h3>
+
+            <p
+              className="max-w-800 mx-auto mb-2rem text-muted"
+              style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
+            >
+              {isEs
+                ? 'Cada asunto es examinado individualmente bajo criterios de confidencialidad, rigor jurídico y viabilidad técnica, antes de determinar el alcance de cualquier eventual relación profesional.'
+                : 'Each matter is individually assessed under standards of confidentiality, legal rigor, and technical viability before determining the scope of any potential professional relationship.'}
+            </p>
+
+            <div
+              style={{
+                display: 'flex',
+                gap: '1rem',
+                justifyContent: 'center',
+                flexWrap: 'wrap',
+              }}
+            >
+              <Link href={getRoute(locale as any, 'about.confidencialidad_secreto')} className="btn btn-primary">
+                {isEs ? 'CONOCER NUESTRO COMPROMISO' : 'LEARN ABOUT OUR COMMITMENT'}
+              </Link>
+
+              <Link href={`/${locale}`} className="btn btn-secondary">
+                {isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME'}
+              </Link>
             </div>
           </div>
         </div>
