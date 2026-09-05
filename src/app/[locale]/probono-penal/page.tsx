@@ -54,27 +54,11 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
                 </h4>
                 
                 <div className="channels-grid grid-1-col gap-1rem">
-                  {/* Botón 1 */}
-                  <Link
-                    href={`/${locale}/probono-penal/reglamento`}
-                    className="channel-card"
-                  >
-                    <span className="channel-icon">⚖️</span>
-                    <div className="channel-text">
-                      <span className="font-bold text-primary block">
-                        {data?.reglamento_online_title}
-                      </span>
-                      <span className="channel-value text-sm text-muted">
-                        {data?.reglamento_online_desc}
-                      </span>
-                    </div>
-                  </Link>
-                  {/* Botón 2 */}
                   <Link
                     href={`/${locale}/probono-penal/reglamento-completo`}
                     className="channel-card"
                   >
-                    <span className="channel-icon">📄</span>
+                    <span className="channel-icon">⚖️</span>
                     <div className="channel-text">
                       <span className="font-bold text-primary block">
                         {data?.reglamento_oficial_title}
