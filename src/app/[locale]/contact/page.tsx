@@ -349,11 +349,8 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                       <option value="Delitos Económicos / Financieros">
                         {dict?.contacto?.form?.penal_opt1}
                       </option>
-                      <option value="Delitos Violentos / No Económicos">
+                      <option value="Legitimación de Capitales / Delitos Financieros">
                         {dict?.contacto?.form?.penal_opt2}
-                      </option>
-                      <option value="Delitos Ordinarios">
-                        {dict?.contacto?.form?.penal_opt3}
                       </option>
                     </select>
                   </div>

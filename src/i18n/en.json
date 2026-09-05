@@ -36,8 +36,7 @@
       "label_penal": "Type of facts (only if your inquiry is criminal)",
       "penal_default": "Not applicable / Non-criminal",
       "penal_opt1": "Acts of an economic or corporate nature (fraud, corruption, embezzlement, corporate crimes)",
-      "penal_opt2": "Violent crimes or other non-economic offenses (assault, homicide, domestic violence, etc.)",
-      "hint_violent": "Mac Consultores Jurídicos & Asociados does not handle cases of common violent crimes or other criminal matters outside the corporate scope.",
+      "penal_opt2": "Investigations into money laundering, financial, or banking offenses",
       "label_desc": "Brief description of inquiry",
       "placeholder_desc": "Describe briefly and objectively the reason for your inquiry (maximum 500 characters).",
       "hint_admin": "This channel is not authorized to issue legal criteria or indicate what you should do in your specific case. Its purpose is exclusively administrative: to collect basic information to evaluate the relevance of a professional consultation subject to fees.",
@@ -47,7 +46,6 @@
       "success": "Your request for admission has been registered. The firm will assess the information provided and, if applicable, contact you to coordinate a professional consultation subject to fees.",
       "admission_hint": "This form constitutes the firm's **legal admission process**. Based on the information provided, the relevance of the case will be determined and, if applicable, the corresponding **private consultation** will be coordinated.",
       "title": "Legal Admission Form",
-      "penal_opt3": "Ordinary Crimes (Others)",
       "reason_opt6": "Others",
       "reason_probono": "Pro Bono Evaluation Request"
     },

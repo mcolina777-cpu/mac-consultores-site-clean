@@ -36,8 +36,7 @@
       "label_penal": "Tipo de hechos (solo si su consulta es penal)",
       "penal_default": "No aplica / No es penal",
       "penal_opt1": "Hechos de naturaleza económica o corporativa (fraude, corrupción, administración desleal, delitos societarios)",
-      "penal_opt2": "Delitos violentos u otros no económicos (lesiones, homicidio, violencia doméstica, etc.)",
-      "hint_violent": "Mac Consultores Jurídicos & Asociados no asume casos de delitos violentos comunes u otras materias penales ajenas al ámbito corporativo.",
+      "penal_opt2": "Investigaciones por legitimación de capitales, delitos financieros o bancarios",
       "label_desc": "Descripción breve de su consulta",
       "placeholder_desc": "Describa de forma breve y objetiva el motivo de su consulta (máximo 500 caracteres).",
       "hint_admin": "Este canal no está habilitado para emitir criterios legales ni indicar qué debe hacer en su caso concreto. Su finalidad es exclusivamente administrativa: recopilar información básica para valorar la pertinencia de una consulta profesional sujeta a honorarios.",
@@ -47,7 +46,6 @@
       "success": "Su solicitud de admisión ha sido registrada. La firma valorará la información aportada y, de corresponder, se contactará con usted para coordinar una consulta profesional sujeta a honorarios.",
       "admission_hint": "Este formulario constituye el **proceso de admisión legal** de la firma. Con base en la información suministrada se determinará la pertinencia del caso y, en caso de ser procedente, se coordinará la **consulta privada** correspondiente.",
       "title": "Formulario de Admisión Legal",
-      "penal_opt3": "Delitos Ordinarios (Otros)",
       "reason_opt6": "Otros",
       "reason_probono": "Solicitud de Evaluación Pro Bono"
     },
