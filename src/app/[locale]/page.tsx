@@ -268,8 +268,8 @@ export default async function Home({ params }: Props) {
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
               >
                 {locale === 'es'
-                  ? 'Capacidad jurídica local para evaluar riesgos corporativos, validar documentación transfronteriza y atender asuntos jurídicos de empresas extranjeras con intereses en Venezuela.'
-                  : 'Local legal capacity to assess corporate risks, validate cross-border documentation, and address legal matters for foreign companies with interests in Venezuela.'}
+                  ? 'Capacidad jurídica local para evaluar riesgos corporativos, validar documentación transfronteriza y atender asuntos jurídicos de empresas extranjeras con intereses en Venezuela. Coordinamos con órganos directivos y despachos internacionales en la emisión de opiniones legales, auditorías y gestión de contingencias en el país.'
+                  : 'Local legal capacity to assess corporate risks, validate cross-border documentation, and address legal matters for foreign companies with interests in Venezuela. We coordinate with executive boards and international counsel to provide formal legal opinions, regulatory audits, and preventive guidance on legal contingencies across the country.'}
               </p>
               <span className="card-link mt-auto">
                 {locale === 'es' ? 'Leer más →' : 'Read more →'}
