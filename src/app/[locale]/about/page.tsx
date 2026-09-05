@@ -83,7 +83,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
                 {data?.history?.p1 || "Mac Consultores Jurídicos & Asociados es una firma boutique especializada en servicios jurídicos de alta complejidad, con sede en la ciudad de Caracas, Venezuela, fundada en el año 2015 por el Dr. Marco A. Colina G., abogado litigante y docente universitario."}
               </p>
               <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.7 }}>
-                {data?.history?.p2 || "Desde su fundación, la firma se concibió como un punto de encuentro entre el rigor académico y la práctica forense del Derecho. Su socio fundador acredita más de veinte años de ejercicio profesional ininterrumpido, complementados con estudios de cuarto nivel en Derecho Constitucional y Ciencias Penales y Jurídicas."}
+                {data?.history?.p2 || "Desde su fundación, la firma se concibió como un punto de encuentro entre el rigor académico y la práctica forense del Derecho. Su socio fundador acredita más de veinte años de ejercicio profesional ininterrumpido, complementados con estudios de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas."}
               </p>
               <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.7 }}>
                 {data?.history?.p3 || "Bajo su dirección general, Mac Consultores ha construido un modelo de asesoría jurídica integral dirigido a personas, empresas, órganos directivos y clientes en el exterior, con capacidad técnica para atender mandatos complejos dentro y fuera de Venezuela."}
