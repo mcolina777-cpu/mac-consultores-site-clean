@@ -227,7 +227,7 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                   <input
                     type="hidden"
                     name="_next"
-                    value="https://mac-consultores.vercel.app/contacto"
+                    value={`https://mac-consultores-site-clean.vercel.app/${locale}/contact?sent=success`}
                   />
                   <input type="hidden" name="_captcha" value="false" />
                   <input
@@ -302,17 +302,20 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                       <option value="" disabled>
                         {dict?.contacto?.form?.reason_default}
                       </option>
-                      <option value="Defensa Penal Preventiva">
+                      <option value="Consultoría Penal Corporativa">
                         {dict?.contacto?.form?.reason_opt1}
                       </option>
-                      <option value="Proceso Penal en Curso">
+                      <option value="Denuncia o Querella (Sin Proceso Previo)">
                         {dict?.contacto?.form?.reason_opt2}
                       </option>
-                      <option value="Amparo Constitucional">
+                      <option value="Segunda Opinión Penal (Proceso en Curso)">
                         {dict?.contacto?.form?.reason_opt3}
                       </option>
-                      <option value="Asesoría Corporativa / Compliance">
+                      <option value="Trámites Consulares y Gestión Documental">
                         {dict?.contacto?.form?.reason_opt4}
+                      </option>
+                      <option value="Operaciones Patrimoniales y Corporativas">
+                        {dict?.contacto?.form?.reason_opt5}
                       </option>
                       <option
                         value={
@@ -323,7 +326,9 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                       >
                         {dict?.contacto?.form?.reason_probono}
                       </option>
-                      <option value="Otros">
+                      <option
+                        value={locale === 'es' ? 'Otros' : 'Other'}
+                      >
                         {dict?.contacto?.form?.reason_opt6}
                       </option>
                     </select>
@@ -344,7 +349,7 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                       <option value="Delitos Económicos / Financieros">
                         {dict?.contacto?.form?.penal_opt1}
                       </option>
-                      <option value="Delitos Informáticos">
+                      <option value="Delitos Violentos / No Económicos">
                         {dict?.contacto?.form?.penal_opt2}
                       </option>
                       <option value="Delitos Ordinarios">
