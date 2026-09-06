@@ -8,6 +8,9 @@ export type RouteKey =
   | "about.transparencia_buena_fe"
   | "about.confidencialidad_secreto"
   | "ourCeo"
+  | "ourCeo.ejercicio_forense"
+  | "ourCeo.nivel_academico"
+  | "ourCeo.casacion_tutela"
   | "news"
   | "services"
   | "blog"
@@ -44,6 +47,9 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "about.transparencia_buena_fe": "/es/about/transparencia-buena-fe",
     "about.confidencialidad_secreto": "/es/about/confidencialidad-secreto",
     ourCeo: "/es/our-ceo",
+    "ourCeo.ejercicio_forense": "/es/our-ceo/ejercicio-forense",
+    "ourCeo.nivel_academico": "/es/our-ceo/nivel-academico-docencia",
+    "ourCeo.casacion_tutela": "/es/our-ceo/casacion-tutela-constitucional",
     news: "/es/news",
     services: "/es/services",
     blog: "/es/blog",
@@ -79,6 +85,9 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "about.transparencia_buena_fe": "/en/about/transparencia-buena-fe",
     "about.confidencialidad_secreto": "/en/about/confidencialidad-secreto",
     ourCeo: "/en/our-ceo",
+    "ourCeo.ejercicio_forense": "/en/our-ceo/ejercicio-forense",
+    "ourCeo.nivel_academico": "/en/our-ceo/nivel-academico-docencia",
+    "ourCeo.casacion_tutela": "/en/our-ceo/casacion-tutela-constitucional",
     news: "/en/news",
     services: "/en/services",
     blog: "/en/blog",
