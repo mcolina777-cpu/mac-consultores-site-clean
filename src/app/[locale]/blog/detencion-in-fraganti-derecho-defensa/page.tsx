@@ -175,8 +175,8 @@ export default async function DetencionInFragantiArticle({ params }: Props) {
               <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
                 {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
               </Link>
-              <Link href={`/${locale}/blog`} className="btn btn-secondary">
-                {isEs ? '← VOLVER AL BLOG' : '← BACK TO BLOG'}
+              <Link href={getRoute(locale, 'blog')} className="btn btn-secondary">
+                {isEs ? '← VOLVER AL BLOG' : '← BACK TO THE BLOG'}
               </Link>
             </div>
           </div>

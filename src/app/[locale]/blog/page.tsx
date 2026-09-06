@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from '@/i18n/getDictionary';
+import { getRoute } from '@/lib/routes';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -160,6 +161,68 @@ export default async function BlogIndex({ params }: Props) {
                 {isEs ? 'Leer más →' : 'Read more →'}
               </span>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* CIERRE INSTITUCIONAL */}
+      <section className="bg-soft section-padding-asym">
+        <div
+          className="container"
+          style={{ maxWidth: '840px', margin: '0 auto' }}
+        >
+          <div
+            className="card bg-soft text-center"
+            style={{
+              padding: '3rem',
+              border: '1px solid var(--border-color, #e5e7eb)',
+              borderRadius: '8px',
+            }}
+          >
+            <span className="section-tag">
+              MAC CONSULTORES JURÍDICOS & ASOCIADOS
+            </span>
+
+            <h3
+              className="serif mt-1rem mb-1rem"
+              style={{ fontSize: '1.4rem' }}
+            >
+              {isEs
+                ? '“El análisis dogmático riguroso y la doctrina procesal sustentan una defensa técnica efectiva.”'
+                : '“Rigorous doctrinal analysis and procedural insight provide the foundation for effective technical defense.”'}
+            </h3>
+
+            <p
+              className="max-w-800 mx-auto mb-2rem text-muted"
+              style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
+            >
+              {isEs
+                ? 'Consulte con nuestro equipo forense para evaluar la viabilidad dogmática y procesal de su caso bajo los más altos estándares del Derecho penal y constitucional.'
+                : 'Consult our legal team to assess the doctrinal and procedural viability of your case under the highest standards of criminal and constitutional law.'}
+            </p>
+
+            <div
+              style={{
+                display: 'flex',
+                gap: '1rem',
+                justifyContent: 'center',
+                flexWrap: 'wrap',
+              }}
+            >
+              <Link
+                href={getRoute(locale, 'contact')}
+                className="btn btn-primary"
+              >
+                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+              </Link>
+
+              <Link
+                href={getRoute(locale, 'home')}
+                className="btn btn-secondary"
+              >
+                {isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME'}
+              </Link>
+            </div>
           </div>
         </div>
       </section>

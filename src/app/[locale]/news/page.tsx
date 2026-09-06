@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from '@/i18n/getDictionary';
+import { getRoute } from '@/lib/routes';
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -57,6 +58,7 @@ export async function generateMetadata({ params }: Props) {
 export default async function Noticias({ params }: Props) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  const isEs = locale === 'es';
 
   return (
     <main>
@@ -108,6 +110,68 @@ export default async function Noticias({ params }: Props) {
                 {dict?.noticias?.read_more}
               </a>
             </article>
+          </div>
+        </div>
+      </section>
+
+      {/* CIERRE INSTITUCIONAL */}
+      <section className="bg-soft section-padding-asym">
+        <div
+          className="container"
+          style={{ maxWidth: '840px', margin: '0 auto' }}
+        >
+          <div
+            className="card bg-soft text-center"
+            style={{
+              padding: '3rem',
+              border: '1px solid var(--border-color, #e5e7eb)',
+              borderRadius: '8px',
+            }}
+          >
+            <span className="section-tag">
+              MAC CONSULTORES JURÍDICOS & ASOCIADOS
+            </span>
+
+            <h3
+              className="serif mt-1rem mb-1rem"
+              style={{ fontSize: '1.4rem' }}
+            >
+              {isEs
+                ? '“El conocimiento oportuno de las reformas y criterios vinculantes define la solidez de una estrategia.”'
+                : '“Timely insight into legal reforms and binding precedents defines the strength of any legal strategy.”'}
+            </h3>
+
+            <p
+              className="max-w-800 mx-auto mb-2rem text-muted"
+              style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
+            >
+              {isEs
+                ? 'Nuestra práctica forense analiza de manera permanente las modificaciones legislativas y tendencias jurisprudenciales para anticipar contingencias procesales.'
+                : 'Our legal practice continuously assesses statutory developments and jurisprudential trends to anticipate procedural contingencies.'}
+            </p>
+
+            <div
+              style={{
+                display: 'flex',
+                gap: '1rem',
+                justifyContent: 'center',
+                flexWrap: 'wrap',
+              }}
+            >
+              <Link
+                href={getRoute(locale, 'contact')}
+                className="btn btn-primary"
+              >
+                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+              </Link>
+
+              <Link
+                href={getRoute(locale, 'home')}
+                className="btn btn-secondary"
+              >
+                {isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME'}
+              </Link>
+            </div>
           </div>
         </div>
       </section>
