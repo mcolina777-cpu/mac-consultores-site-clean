@@ -1,17 +1,16 @@
 import React from 'react';
 import Link from 'next/link';
-import { getDictionary } from '@/i18n/getDictionary';
 import { getRoute } from '@/lib/routes';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isEs = locale === 'es';
-  const dict = await getDictionary(locale);
-  const data = (dict as Record<string, any>)?.our_ceo;
-  const title = data?.meta_title || (isEs ? 'Dr. Marco A. Colina G. | Director General | Mac Consultores Jurídicos & Asociados' : 'Dr. Marco A. Colina G. | Managing Director | Mac Consultores Jurídicos & Asociados');
-  const description = data?.meta_description || (isEs
+  const title = isEs
+    ? 'Dr. Marco A. Colina G. | Director General | Mac Consultores Jurídicos & Asociados'
+    : 'Dr. Marco A. Colina G. | Managing Director | Mac Consultores Jurídicos & Asociados';
+  const description = isEs
     ? 'Perfil profesional y trayectoria del Dr. Marco A. Colina G., fundador y Director General de Mac Consultores Jurídicos & Asociados. Litigio penal y constitucional en Venezuela.'
-    : 'Professional profile and legal trajectory of Dr. Marco A. Colina G., founder and Managing Director of Mac Consultores Jurídicos & Asociados. Criminal and constitutional litigation in Venezuela.');
+    : 'Professional profile and legal trajectory of Dr. Marco A. Colina G., founder and Managing Director of Mac Consultores Jurídicos & Asociados. Criminal and constitutional litigation in Venezuela.';
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/our-ceo`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/our-ceo`;
   const enUrl = `https://mac-consultores-site-clean.vercel.app/en/our-ceo`;
@@ -53,8 +52,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function OurCeo({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
-  const data = (dict as Record<string, any>)?.our_ceo;
   const isEs = locale === 'es';
 
   return (
@@ -62,9 +59,9 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
       {/* HEADER PRINCIPAL */}
       <header className="page-header header-soft-bg">
         <div className="container">
-          <span className="section-tag">{data?.breadcrumb || (isEs ? 'DIRECCIÓN GENERAL' : 'EXECUTIVE LEADERSHIP')}</span>
-          <h1 className="mb-1-5rem serif">{data?.name || 'Dr. Marco A. Colina G.'}</h1>
-          <p className="hero-subtitle">{data?.title || (isEs ? 'Director General (CEO) & Fundador' : 'Founder & Managing Director (CEO)')}</p>
+          <span className="section-tag">{isEs ? 'DIRECCIÓN GENERAL' : 'EXECUTIVE LEADERSHIP'}</span>
+          <h1 className="mb-1-5rem serif">Dr. Marco A. Colina G.</h1>
+          <p className="hero-subtitle">{isEs ? 'Director General (CEO) & Fundador' : 'Founder & Managing Director (CEO)'}</p>
         </div>
       </header>
 
@@ -73,24 +70,24 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
         <div className="container">
           <div className="grid-split">
             <div className="about-content">
-              <span className="section-tag">{data?.profile?.tag || (isEs ? 'TRAYECTORIA & LIDERAZGO' : 'PROFILE & LEADERSHIP')}</span>
+              <span className="section-tag">{isEs ? 'TRAYECTORIA & LIDERAZGO' : 'PROFILE & LEADERSHIP'}</span>
               <h2 className="serif section-title mb-1-5rem">
-                {data?.profile?.heading || (isEs ? 'Visión Estratégica y Rigor Jurídico' : 'Strategic Vision and Legal Rigor')}
+                {isEs ? 'Visión Estratégica y Rigor Jurídico' : 'Strategic Vision and Legal Rigor'}
               </h2>
               <p className="text-left max-w-100 mb-1rem">
-                {data?.profile?.bio_1 || (isEs 
+                {isEs 
                   ? 'Abogado litigante y docente universitario con más de dos décadas de ejercicio profesional ininterrumpido en el foro penal y constitucional. Fundador y Director General de Mac Consultores Jurídicos & Asociados.'
-                  : 'Trial attorney and university professor with over two decades of continuous forensic practice in criminal and constitutional law. Founder and Managing Director of Mac Consultores Jurídicos & Asociados.')}
+                  : 'Trial attorney and university professor with over two decades of continuous forensic practice in criminal and constitutional law. Founder and Managing Director of Mac Consultores Jurídicos & Asociados.'}
               </p>
               <p className="text-left max-w-100 mb-1-5rem">
-                {data?.profile?.bio_2 || (isEs
+                {isEs
                   ? 'Su práctica articula una sólida formación dogmática con la dirección estratégica en litigios complejos, consultoría corporativa y casación ante el Tribunal Supremo de Justicia.'
-                  : 'His practice combines rigorous doctrinal foundations with strategic direction in complex litigation, corporate consulting, and cassation before the Supreme Tribunal of Justice.')}
+                  : 'His practice combines rigorous doctrinal foundations with strategic direction in complex litigation, corporate consulting, and cassation before the Supreme Tribunal of Justice.'}
               </p>
               <p className="text-left max-w-100 mb-2rem">
-                {data?.profile?.bio_3 || (isEs
+                {isEs
                   ? 'Conduce la firma bajo un modelo de asesoría integral y representación judicial rigurosa para clientes con intereses jurídicos y empresariales en Venezuela y en el exterior.'
-                  : 'He leads the firm under a model of comprehensive legal advisory and rigorous judicial representation for clients with legal and business interests in Venezuela and abroad.')}
+                  : 'He leads the firm under a model of comprehensive legal advisory and rigorous judicial representation for clients with legal and business interests in Venezuela and abroad.'}
               </p>
             </div>
             <div className="img-reveal img-vertical">
@@ -135,8 +132,8 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
               >
                 {isEs
-                  ? 'Más de dos décadas de práctica ininterrumpida respaldan una dirección procesal rigurosa en litigios penales y constitucionales de alta complejidad, desde tribunales de instancia hasta cortes superiores.'
-                  : 'Over two decades of uninterrupted practice support rigorous procedural direction in high-complexity criminal and constitutional litigation, from trial courts to higher appellate jurisdictions.'}
+                  ? 'Más de dos décadas de ejercicio profesional ininterrumpido respaldan una práctica forense caracterizada por la dirección técnica, estratégica y procesal en litigios de alta complejidad. La intervención en estrados abarca desde tribunales de instancia hasta cortes superiores, con especial atención al control estricto de los términos procesales y al análisis riguroso de los medios probatorios.'
+                  : 'Over two decades of continuous professional practice support a forensic approach defined by technical, strategic, and procedural direction in high-complexity litigation. Courtroom advocacy spans trial and appellate courts, with careful management of procedural deadlines and rigorous analysis of the evidentiary record.'}
               </p>
               <span className="card-link mt-auto">
                 {isEs ? 'Conocer trayectoria forense →' : 'View forensic practice →'}
@@ -156,8 +153,8 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
               >
                 {isEs
-                  ? 'Estudios superiores de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas, complementados por una sostenida trayectoria docente universitaria e investigación dogmática avanzada.'
-                  : 'Postgraduate credentials in Constitutional Law and Criminal and Criminological Sciences, complemented by dedicated university lecturing and advanced legal scholarship.'}
+                  ? 'La sólida formación dogmática constituye el sustento indispensable para el análisis de controversias sustantivas y procesales complejas. Con estudios superiores de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas, junto a una sostenida trayectoria docente universitaria, el análisis jurídico integra criterios doctrinales y jurisprudenciales aplicables al diseño de cada estrategia.'
+                  : 'Rigorous doctrinal foundations provide an essential basis for analyzing complex substantive and procedural disputes. Holding postgraduate credentials in Constitutional Law and Criminal and Criminological Sciences, together with sustained university teaching experience, our legal analysis integrates applicable doctrinal and case-law criteria into the design of each strategy.'}
               </p>
               <span className="card-link mt-auto">
                 {isEs ? 'Conocer formación académica →' : 'View academic credentials →'}
@@ -177,8 +174,8 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
               >
                 {isEs
-                  ? 'Especialización técnica en la formalización y sustanciación de recursos extraordinarios de casación ante el TSJ y acciones de amparo, orientadas a la tutela efectiva del debido proceso y las garantías fundamentales.'
-                  : 'Specialized technical advocacy in drafting and substantiating extraordinary cassation appeals before the Supreme Court and constitutional protection actions, aimed at safeguarding due process and fundamental rights.'}
+                  ? 'Especialización técnica orientada a la interposición, formalización y sustanciación de recursos extraordinarios de casación ante el Tribunal Supremo de Justicia y acciones de amparo constitucional. La labor jurídica se concentra en el análisis fundado de quebrantamientos de formas sustanciales, vicios de juzgamiento e infracciones al debido proceso y a las garantías fundamentales.'
+                  : 'Specialized technical advocacy focused on drafting, filing, and substantiating extraordinary cassation appeals before the Supreme Tribunal of Justice and constitutional protection remedies. Legal representation centers on the careful analysis of procedural breaches, judicial errors of law, and potential infringements of due process and fundamental constitutional guarantees.'}
               </p>
               <span className="card-link mt-auto">
                 {isEs ? 'Conocer litigio superior →' : 'View appellate practice →'}
