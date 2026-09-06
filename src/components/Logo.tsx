@@ -44,7 +44,7 @@ export default function Logo({ className = '', isDarkTheme = false }: LogoProps)
         color: 'transparent',
         margin: 0,
         padding: 0,
-        transform: 'translateY(4cqw)'
+        transform: 'translateY(0)'
       }}>
         MAC
       </div>
@@ -58,7 +58,7 @@ export default function Logo({ className = '', isDarkTheme = false }: LogoProps)
         marginTop: '6cqw',
         margin: 0,
         padding: 0,
-        transform: 'translateY(2cqw)'
+        transform: 'translateY(0)'
       }}>
         CONSULTORES JURÍDICOS &amp; ASOCIADOS
       </div>
