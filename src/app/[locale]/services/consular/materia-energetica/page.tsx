@@ -112,7 +112,7 @@ export default async function MateriaEnergeticaPage({ params }: { params: Promis
                 {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
               </Link>
               <Link href={getRoute(locale, 'services.consular')} className="btn btn-secondary">
-                {isEs ? '← VOLVER A GESTIÓN CONSULAR' : '← BACK TO CONSULAR SERVICES'}
+                {isEs ? '← VOLVER A INTERNACIONAL' : '← BACK TO INTERNATIONAL'}
               </Link>
             </div>
           </div>

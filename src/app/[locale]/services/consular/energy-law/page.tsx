@@ -73,9 +73,21 @@ export default async function EnergyLawPage({ params }: { params: Promise<{ loca
           <p className="section-desc mb-2rem">
             {locale === 'en' ? 'Our team is prepared to analyze your case.' : 'Nuestro equipo está preparado para analizar su caso.'}
           </p>
-          <Link href={getRoute(locale, "contact")} className="btn btn-primary">
-            {locale === 'en' ? 'START ADMISSION PROCESS' : 'INICIAR PROCESO DE ADMISIÓN'}
-          </Link>
+          <div
+            style={{
+              display: 'flex',
+              gap: '1rem',
+              justifyContent: 'center',
+              flexWrap: 'wrap',
+            }}
+          >
+            <Link href={getRoute(locale, "contact")} className="btn btn-primary">
+              {locale === 'en' ? 'START ADMISSION PROCESS' : 'INICIAR PROCESO DE ADMISIÓN'}
+            </Link>
+            <Link href={getRoute(locale, "services.consular")} className="btn btn-secondary">
+              {locale === 'en' ? '← BACK TO INTERNATIONAL' : '← VOLVER A INTERNACIONAL'}
+            </Link>
+          </div>
         </div>
       </section>
     </main>

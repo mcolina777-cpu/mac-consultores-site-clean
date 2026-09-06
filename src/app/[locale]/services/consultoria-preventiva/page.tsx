@@ -183,8 +183,8 @@ export default async function ServicesConsultoriaPreventiva({ params }: { params
                 {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
               </Link>
 
-              <Link href={`/${locale}`} className="btn btn-secondary">
-                {isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME'}
+              <Link href={getRoute(locale, 'services')} className="btn btn-secondary">
+                {isEs ? '← VOLVER A SERVICIOS' : '← BACK TO SERVICES'}
               </Link>
             </div>
           </div>
