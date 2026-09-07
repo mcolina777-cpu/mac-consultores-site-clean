@@ -2400,14 +2400,18 @@ body.nav-open {
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--text-muted, #4b5563);
-  text-align: justify;
-  text-justify: inter-word;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+  text-align: left;
+  text-justify: auto;
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
   word-break: break-word;
   overflow-wrap: break-word;
   margin-bottom: 1.5rem;
+}
+
+.card.text-center p {
+  text-align: center;
 }
 
 /* En pantallas de escritorio (grid-3), reservar el molde de 7 a 9 líneas */
