@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { getDictionary } from "@/i18n/getDictionary";
 import { getRoute } from "@/lib/routes";
+import ContactFormSelectors from './ContactFormSelectors';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
@@ -333,121 +334,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                     />
                   </div>
 
-                  <div className="form-group mb-1-5rem">
-                    <label className="form-label">
-                      {dict?.contacto?.form?.label_reason}
-                    </label>
-                    {/* CORRECCIÓN BILINGÜE:
-                        Los valores enviados por los selectores de Contacto corresponden
-                        al locale activo y no permanecen fijados en español. */}
-                    <select
-                      className="form-input font-inherit"
-                      name="motivo"
-                      required
-                      defaultValue=""
-                    >
-                      <option value="" disabled>
-                        {dict?.contacto?.form?.reason_default}
-                      </option>
-                      <option
-                        value={
-                          locale === 'es'
-                            ? 'Consultoría Penal Corporativa'
-                            : 'Corporate Criminal Consulting'
-                        }
-                      >
-                        {dict?.contacto?.form?.reason_opt1}
-                      </option>
-                      <option
-                        value={
-                          locale === 'es'
-                            ? 'Denuncia o Querella (Sin Proceso Previo)'
-                            : 'Complaint or Accusation (Without Prior Proceedings)'
-                        }
-                      >
-                        {dict?.contacto?.form?.reason_opt2}
-                      </option>
-                      <option
-                        value={
-                          locale === 'es'
-                            ? 'Segunda Opinión Penal (Proceso en Curso)'
-                            : 'Second Criminal Opinion (Ongoing Proceeding)'
-                        }
-                      >
-                        {dict?.contacto?.form?.reason_opt3}
-                      </option>
-                      <option
-                        value={
-                          locale === 'es'
-                            ? 'Trámites Consulares y Gestión Documental'
-                            : 'Consular Procedures and Document Management'
-                        }
-                      >
-                        {dict?.contacto?.form?.reason_opt4}
-                      </option>
-                      <option
-                        value={
-                          locale === 'es'
-                            ? 'Operaciones Patrimoniales y Corporativas'
-                            : 'Asset and Corporate Transactions'
-                        }
-                      >
-                        {dict?.contacto?.form?.reason_opt5}
-                      </option>
-                      <option
-                        value={
-                          locale === 'es'
-                            ? 'Solicitud de Evaluación Pro Bono'
-                            : 'Pro Bono Evaluation Request'
-                        }
-                      >
-                        {dict?.contacto?.form?.reason_probono}
-                      </option>
-                      <option
-                        value={locale === 'es' ? 'Otros' : 'Other'}
-                      >
-                        {dict?.contacto?.form?.reason_opt6}
-                      </option>
-                    </select>
-                    {dict?.contacto?.form?.hint_practice && (
-                      <small className="form-hint form-hint-text">
-                        {dict.contacto.form.hint_practice}
-                      </small>
-                    )}
-                  </div>
-
-                  <div className="form-group mb-1-5rem">
-                    <label className="form-label">
-                      {dict?.contacto?.form?.label_penal}
-                    </label>
-                    <select
-                      className="form-input font-inherit"
-                      name="naturaleza-penal"
-                      defaultValue={locale === 'es' ? 'No aplica' : 'Not applicable'}
-                    >
-                      <option value={locale === 'es' ? 'No aplica' : 'Not applicable'}>
-                        {dict?.contacto?.form?.penal_default}
-                      </option>
-                      <option
-                        value={
-                          locale === 'es'
-                            ? 'Delitos Económicos / Financieros'
-                            : 'Economic / Financial Crimes'
-                        }
-                      >
-                        {dict?.contacto?.form?.penal_opt1}
-                      </option>
-                      <option
-                        value={
-                          locale === 'es'
-                            ? 'Legitimación de Capitales / Delitos Financieros'
-                            : 'Money Laundering / Financial Crimes'
-                        }
-                      >
-                        {dict?.contacto?.form?.penal_opt2}
-                      </option>
-                    </select>
-                  </div>
+                  <ContactFormSelectors dict={dict} locale={locale} />
 
                   <div className="form-group mb-1-5rem">
                     <label className="form-label">
