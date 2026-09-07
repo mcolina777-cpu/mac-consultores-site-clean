@@ -1,23 +1,57 @@
 "use client";
 
 import React from "react";
+import { useParams, usePathname } from "next/navigation";
+
+// CORRECCIÓN BILINGÜE:
+// El mensaje y el aria-label de WhatsApp se adaptan al locale actual.
+// Se conserva el número, la URL y el diseño original del botón.
 
 const WHATSAPP_PHONE = "582124142324";
-const WHATSAPP_MESSAGE =
-  "Buenos días, deseo información sobre una consulta profesional y honorarios.";
 
-const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(
-  WHATSAPP_MESSAGE
-)}`;
+const WHATSAPP_MESSAGES = {
+  es: "Buenos días, deseo información sobre una consulta profesional y honorarios.",
+  en: "Good morning, I would like information about a professional consultation and legal fees.",
+};
 
-export default function WhatsAppFloatButton() {
+const ARIA_LABELS = {
+  es: "Contactar por WhatsApp",
+  en: "Contact WhatsApp",
+};
+
+interface WhatsAppFloatButtonProps {
+  locale?: string;
+}
+
+export default function WhatsAppFloatButton({ locale: propLocale }: WhatsAppFloatButtonProps = {}) {
+  const params = useParams();
+  const pathname = usePathname();
+
+  const activeLocale =
+    propLocale ||
+    (typeof params?.locale === "string"
+      ? params.locale
+      : Array.isArray(params?.locale)
+      ? params.locale[0]
+      : "") ||
+    (pathname?.startsWith("/en") ? "en" : "es");
+
+  const isEnglish = activeLocale.toLowerCase().startsWith("en");
+
+  const message = isEnglish ? WHATSAPP_MESSAGES.en : WHATSAPP_MESSAGES.es;
+  const ariaLabel = isEnglish ? ARIA_LABELS.en : ARIA_LABELS.es;
+
+  const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(
+    message
+  )}`;
+
   return (
     <a
       href={whatsappUrl}
       className="mac-whatsapp-float"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Contactar por WhatsApp"
+      aria-label={ariaLabel}
       title="WhatsApp solo para coordinación inicial"
     >
       <span className="mac-whatsapp-icon">
