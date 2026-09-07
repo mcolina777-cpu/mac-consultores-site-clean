@@ -337,6 +337,9 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                     <label className="form-label">
                       {dict?.contacto?.form?.label_reason}
                     </label>
+                    {/* CORRECCIÓN BILINGÜE:
+                        Los valores enviados por los selectores de Contacto corresponden
+                        al locale activo y no permanecen fijados en español. */}
                     <select
                       className="form-input font-inherit"
                       name="motivo"
@@ -346,19 +349,49 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                       <option value="" disabled>
                         {dict?.contacto?.form?.reason_default}
                       </option>
-                      <option value="Consultoría Penal Corporativa">
+                      <option
+                        value={
+                          locale === 'es'
+                            ? 'Consultoría Penal Corporativa'
+                            : 'Corporate Criminal Consulting'
+                        }
+                      >
                         {dict?.contacto?.form?.reason_opt1}
                       </option>
-                      <option value="Denuncia o Querella (Sin Proceso Previo)">
+                      <option
+                        value={
+                          locale === 'es'
+                            ? 'Denuncia o Querella (Sin Proceso Previo)'
+                            : 'Complaint or Accusation (Without Prior Proceedings)'
+                        }
+                      >
                         {dict?.contacto?.form?.reason_opt2}
                       </option>
-                      <option value="Segunda Opinión Penal (Proceso en Curso)">
+                      <option
+                        value={
+                          locale === 'es'
+                            ? 'Segunda Opinión Penal (Proceso en Curso)'
+                            : 'Second Criminal Opinion (Ongoing Proceeding)'
+                        }
+                      >
                         {dict?.contacto?.form?.reason_opt3}
                       </option>
-                      <option value="Trámites Consulares y Gestión Documental">
+                      <option
+                        value={
+                          locale === 'es'
+                            ? 'Trámites Consulares y Gestión Documental'
+                            : 'Consular Procedures and Document Management'
+                        }
+                      >
                         {dict?.contacto?.form?.reason_opt4}
                       </option>
-                      <option value="Operaciones Patrimoniales y Corporativas">
+                      <option
+                        value={
+                          locale === 'es'
+                            ? 'Operaciones Patrimoniales y Corporativas'
+                            : 'Asset and Corporate Transactions'
+                        }
+                      >
                         {dict?.contacto?.form?.reason_opt5}
                       </option>
                       <option
@@ -390,15 +423,27 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                     <select
                       className="form-input font-inherit"
                       name="naturaleza-penal"
-                      defaultValue="No aplica"
+                      defaultValue={locale === 'es' ? 'No aplica' : 'Not applicable'}
                     >
-                      <option value="No aplica">
+                      <option value={locale === 'es' ? 'No aplica' : 'Not applicable'}>
                         {dict?.contacto?.form?.penal_default}
                       </option>
-                      <option value="Delitos Económicos / Financieros">
+                      <option
+                        value={
+                          locale === 'es'
+                            ? 'Delitos Económicos / Financieros'
+                            : 'Economic / Financial Crimes'
+                        }
+                      >
                         {dict?.contacto?.form?.penal_opt1}
                       </option>
-                      <option value="Legitimación de Capitales / Delitos Financieros">
+                      <option
+                        value={
+                          locale === 'es'
+                            ? 'Legitimación de Capitales / Delitos Financieros'
+                            : 'Money Laundering / Financial Crimes'
+                        }
+                      >
                         {dict?.contacto?.form?.penal_opt2}
                       </option>
                     </select>
