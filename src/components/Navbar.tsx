@@ -109,7 +109,7 @@ export default function Navbar({ dict, locale }: { dict: any, locale: string }) 
   return (
     <nav>
       <div className="container">
-        <Link href="/" className="logo no-underline">
+        <Link href={getRoute(locale, "home")} className="logo no-underline">
           <LogoSVG />
         </Link>
         

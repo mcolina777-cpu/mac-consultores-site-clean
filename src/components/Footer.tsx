@@ -152,7 +152,7 @@ export default function Footer({
                 </Link>
               </li>
             </ul>
-            <Link href="/" className="footer-seal-link">
+            <Link href={getRoute(locale, "home")} className="footer-seal-link">
               <img
                 src="/assets/mac/mac-lion-footer-transparent.png"
                 alt={brandLabel}
