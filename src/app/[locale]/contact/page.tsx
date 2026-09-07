@@ -72,9 +72,28 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
       </header>
 
       <section>
+        <style>{`
+          @media (min-width: 769px) {
+            .page-contacto .contact-grid-start {
+              grid-template-columns: 380px 1fr;
+              gap: 2.5rem;
+              align-items: start;
+            }
+            .page-contacto .contact-info.sticky-card {
+              position: sticky;
+              top: 120px;
+              align-self: start;
+            }
+          }
+          @media (max-width: 768px) {
+            .page-contacto .contact-info.sticky-card {
+              position: static !important;
+            }
+          }
+        `}</style>
         <div className="container">
           <div className="grid-2 contact-grid-start">
-            <div className="contact-info">
+            <div className="contact-info sticky-card">
               <span className="section-tag">{dict?.contacto?.info?.tag}</span>
 
               {/* AJUSTE 1: título sin margen excesivo */}
@@ -182,7 +201,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
             </div>
 
             <div className="form-column">
-              <div className="form-card sticky-card">
+              <div className="form-card">
                 {isSuccess && dict?.contacto?.form?.success && (
                   <div
                     className="form-success-message text-sm mb-1-5rem"
