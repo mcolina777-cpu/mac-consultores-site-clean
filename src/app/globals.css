@@ -458,6 +458,15 @@ section {
     gap: 32px;
 }
 
+/* CORRECCIÓN RESPONSIVE:
+   En tabletas, .grid-3 utiliza dos columnas
+   para evitar la compresión del contenido. */
+@media (min-width: 769px) and (max-width: 1023px) {
+  .grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 /* Rejilla de Tarjetas About / Principios */
 .cards-grid {
   display: grid;
