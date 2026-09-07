@@ -424,7 +424,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                     {dict?.contacto?.form?.btn}
                   </button>
                   
-                  <p className="form-hint-center">
+                  <p className="form-hint form-hint-text">
                     {dict?.contacto?.form?.hint_relation}
                   </p>
                 </form>
