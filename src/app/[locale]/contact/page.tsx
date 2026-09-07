@@ -50,8 +50,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-export default async function Contacto({ params }: { params: Promise<{ locale: string }> }) {
+type ContactoProps = {
+  params: Promise<{ locale: string }>;
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
+};
+
+export default async function Contacto({ params, searchParams }: ContactoProps) {
   const { locale } = await params;
+  const resolvedSearchParams = searchParams ? await searchParams : {};
+  const isSuccess = resolvedSearchParams?.sent === 'success';
   const dict = await getDictionary(locale);
   const isEs = locale === 'es';
 
@@ -176,6 +183,24 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
 
             <div className="form-column">
               <div className="form-card sticky-card">
+                {isSuccess && dict?.contacto?.form?.success && (
+                  <div
+                    className="form-success-message text-sm mb-1-5rem"
+                    style={{
+                      padding: '1rem 1.25rem',
+                      backgroundColor: '#f0fdf4',
+                      borderRadius: '4px',
+                      border: '1px solid #bbf7d0',
+                      borderLeft: '4px solid #16a34a',
+                      color: '#166534',
+                      lineHeight: '1.5',
+                    }}
+                    role="status"
+                  >
+                    {dict.contacto.form.success}
+                  </div>
+                )}
+
                 <h3 className="serif heading-md text-primary mb-1-5rem">
                   {dict?.contacto?.form?.title}
                 </h3>
@@ -332,6 +357,11 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                         {dict?.contacto?.form?.reason_opt6}
                       </option>
                     </select>
+                    {dict?.contacto?.form?.hint_practice && (
+                      <small className="form-hint form-hint-text">
+                        {dict.contacto.form.hint_practice}
+                      </small>
+                    )}
                   </div>
 
                   <div className="form-group mb-1-5rem">
@@ -371,6 +401,21 @@ export default async function Contacto({ params }: { params: Promise<{ locale: s
                       {dict?.contacto?.form?.hint_admin}
                     </small>
                   </div>
+
+                  {dict?.contacto?.form?.hint_fees && (
+                    <div
+                      className="fees-hint text-sm mb-1-5rem"
+                      style={{
+                        padding: '1rem',
+                        backgroundColor: 'rgba(0,0,0,0.03)',
+                        borderRadius: '4px',
+                        borderLeft: '3px solid var(--color-primary)',
+                        lineHeight: '1.5',
+                      }}
+                    >
+                      {dict.contacto.form.hint_fees}
+                    </div>
+                  )}
 
                   <button
                     type="submit"
