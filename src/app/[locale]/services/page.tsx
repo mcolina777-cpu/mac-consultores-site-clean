@@ -245,7 +245,11 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
             <Link
               href={getRoute(locale, "services.consular")}
               className="card"
-              style={{ textDecoration: 'none', color: 'inherit' }}
+              style={{
+                textDecoration: 'none',
+                color: 'inherit',
+                gridColumn: '1 / -1',
+              }}
             >
               <span className="section-tag">07</span>
               <h3 className="serif">
@@ -253,7 +257,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
                   ? 'Gestión Consular y Clientes en el Exterior'
                   : 'Consular Services & Clients Abroad'}
               </h3>
-              <p className="card-editorial-text">
+              <p className="card-editorial-text" style={{ minHeight: 'auto' }}>
                 {isEs
                   ? 'Brindamos asesoría, representación y gestión jurídica local a venezolanos en el exterior, empresas e inversionistas con intereses patrimoniales o corporativos en Venezuela. Coordinamos poderes notariales, legalizaciones, litigios patrimoniales y contratación transfronteriza sin requerir traslado físico al país.'
                   : 'We deliver specialized legal advisory, representation, and local management to Venezuelans abroad, international companies, and global investors with estate or corporate interests in Venezuela. We coordinate powers of attorney, document legalizations, estate litigation, and cross-border agreements without physical travel.'}
