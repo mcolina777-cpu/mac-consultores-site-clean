@@ -43,10 +43,9 @@ body {
 }
 
 body {
-  font-family: var(--font-inter), Inter, sans-serif;
-  font-size: 1.05rem;
-  line-height: 1.65;
-  font-weight: 400;
+  font-family: var(--font-cormorant), "Cormorant Garamond", serif;
+  font-size: 1.15rem;
+  line-height: 1.6;
   color: var(--text-main);
   background-color: var(--bg-white);
   overflow-x: hidden;
@@ -73,8 +72,7 @@ h1,
 h2,
 h3,
 h4,
-.serif,
-.section-title {
+.serif {
   font-family: var(--font-cormorant), "Cormorant Garamond", serif;
   font-weight: 600;
   color: var(--primary);
@@ -84,12 +82,10 @@ h4,
 }
 
 p {
-  font-family: var(--font-inter), Inter, sans-serif;
-  font-size: 1.05rem;
-  line-height: 1.65;
-  font-weight: 400;
   margin-bottom: 1.5rem;
+  line-height: 1.6;
   text-align: left;
+  font-weight: 400;
   color: var(--text-muted);
 }
 
@@ -196,7 +192,6 @@ nav .nav-links a {
 }
 
 .lang-btn {
-    font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
     font-size: 0.85rem;
     font-weight: 600;
     color: var(--primary);
@@ -545,7 +540,7 @@ section {
 
 /* Métricas e insignias de autoridad en tarjetas */
 .card-metric {
-  font-family: var(--font-cormorant), "Cormorant Garamond", serif;
+  font-family: var(--font-serif, inherit);
   font-size: 2.5rem;
   font-weight: 600;
   color: var(--color-primary, var(--primary));
@@ -2068,7 +2063,6 @@ footer,
 .max-w-100 { max-width: 100%; }
 .text-center { text-align: center; }
 .text-left { text-align: left; }
-.text-justify { text-align: justify; }
 .flex-wrap { flex-wrap: wrap; }
 .flex-center-y { display: flex; align-items: center; }
 .grid-1-col { display: grid; grid-template-columns: 1fr; }
@@ -2117,9 +2111,7 @@ footer,
 .heading-lg { font-size: 2.2rem; }
 .heading-md { font-size: 1.8rem; }
 
-blockquote,
 .quote-block {
-  font-family: var(--font-cormorant), "Cormorant Garamond", serif;
   font-size: 1.5rem;
   font-style: italic;
   margin-top: 2rem;
