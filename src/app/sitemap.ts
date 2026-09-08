@@ -21,6 +21,8 @@ const routes = [
   '/seleccion-de-casos',
   '/estrategia-escenarios-representativos',
   '/quienes-somos-detalle',
+  '/probono-penal',
+  '/probono-penal/reglamento',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -22,6 +22,16 @@ const nextConfig: NextConfig = {
         source: '/services/local-counsel-venezuela',
         destination: '/es/services/empresas-extranjeras',
         permanent: true,
+      },
+      {
+        source: '/:locale(es|en)/probono-penal/reglamento-completo',
+        destination: '/:locale/probono-penal/reglamento',
+        permanent: true,
+      },
+      {
+        source: '/probono-penal/reglamento-completo',
+        destination: '/es/probono-penal/reglamento',
+        permanent: true,
       }
     ];
   },

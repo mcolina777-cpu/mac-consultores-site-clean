@@ -59,7 +59,7 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
                 
                 <div className="channels-grid grid-1-col gap-1rem">
                   <Link
-                    href={`/${locale}/probono-penal/reglamento-completo`}
+                    href={getRoute(locale, "probono_reglamento")}
                     className="channel-card"
                   >
                     <span className="channel-icon">⚖️</span>
