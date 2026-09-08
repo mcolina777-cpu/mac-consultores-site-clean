@@ -194,6 +194,74 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
                 {dict?.services?.card_4?.link}
               </span>
             </Link>
+
+            {/* TARJETA 05: EMPRESAS EXTRANJERAS */}
+            <Link
+              href={getRoute(locale, "services.empresas_extranjeras")}
+              className="card"
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              <span className="section-tag">05</span>
+              <h3 className="serif">
+                {dict?.empresas_extranjeras?.h1 ||
+                  (isEs
+                    ? 'Servicios Jurídicos para Empresas Extranjeras en Venezuela'
+                    : 'Legal Services for Foreign Companies in Venezuela')}
+              </h3>
+              <p className="card-editorial-text">
+                {isEs
+                  ? 'Capacidad jurídica local para evaluar riesgos corporativos, validar documentación transfronteriza y atender asuntos jurídicos de empresas extranjeras con intereses en Venezuela. Coordinamos con órganos directivos y despachos internacionales en la emisión de opiniones legales, auditorías y gestión de contingencias en el país.'
+                  : 'Local legal capacity to assess corporate risks, validate cross-border documentation, and address legal matters for foreign companies with interests in Venezuela. We coordinate with executive boards and international counsel to provide formal legal opinions, regulatory audits, and preventive guidance on legal contingencies across the country.'}
+              </p>
+              <span className="card-link">
+                {dict?.services?.card_1?.link || (isEs ? 'VER DETALLES →' : 'VIEW DETAILS →')}
+              </span>
+            </Link>
+
+            {/* TARJETA 06: COLABORACIÓN INTERNACIONAL */}
+            <Link
+              href={getRoute(locale, "services.international_cooperation")}
+              className="card"
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              <span className="section-tag">06</span>
+              <h3 className="serif">
+                {isEs
+                  ? 'Colaboración Internacional & Local Counsel'
+                  : 'International Cooperation & Local Counsel'}
+              </h3>
+              <p className="card-editorial-text">
+                {dict?.colaboracion_internacional?.proposal?.card_1?.desc ||
+                  (isEs
+                    ? 'Actuamos como consultores locales estratégicos para firmas internacionales y corporaciones con intereses en Venezuela. Proporcionamos análisis normativo riguroso, doctrina especializada y soporte en litigios complejos, garantizando solvencia técnica y delimitación precisa del alcance sin alterar la relación con el cliente.'
+                    : 'We serve as strategic local counsel for international law firms and multinational corporations with interests in Venezuela. We deliver rigorous statutory analysis, specialized legal doctrine, and support in complex litigation, ensuring technical excellence and clear scope definition without disrupting the attorney-client relationship.')}
+              </p>
+              <span className="card-link">
+                {dict?.services?.card_1?.link || (isEs ? 'VER DETALLES →' : 'VIEW DETAILS →')}
+              </span>
+            </Link>
+
+            {/* TARJETA 07: GESTIÓN CONSULAR */}
+            <Link
+              href={getRoute(locale, "services.consular")}
+              className="card"
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              <span className="section-tag">07</span>
+              <h3 className="serif">
+                {isEs
+                  ? 'Gestión Consular y Clientes en el Exterior'
+                  : 'Consular Services & Clients Abroad'}
+              </h3>
+              <p className="card-editorial-text">
+                {isEs
+                  ? 'Brindamos asesoría, representación y gestión jurídica local a venezolanos en el exterior, empresas e inversionistas con intereses patrimoniales o corporativos en Venezuela. Coordinamos poderes notariales, legalizaciones, litigios patrimoniales y contratación transfronteriza sin requerir traslado físico al país.'
+                  : 'We deliver specialized legal advisory, representation, and local management to Venezuelans abroad, international companies, and global investors with estate or corporate interests in Venezuela. We coordinate powers of attorney, document legalizations, estate litigation, and cross-border agreements without physical travel.'}
+              </p>
+              <span className="card-link">
+                {dict?.services?.card_1?.link || (isEs ? 'VER DETALLES →' : 'VIEW DETAILS →')}
+              </span>
+            </Link>
           </div>
         </div>
       </section>
