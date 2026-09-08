@@ -13,9 +13,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ? 'Asesoría jurídica y representación en gestiones consulares con efectos en Venezuela.'
     : 'Legal advisory and representation in consular proceedings with effects in Venezuela.';
 
+  const canonical = isEs
+    ? 'https://mac-consultores-site-clean.vercel.app/es/services/consular/practica-consular'
+    : 'https://mac-consultores-site-clean.vercel.app/en/services/consular/consular-practice';
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/consular/practica-consular';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/consular/consular-practice';
+
   return {
     title,
     description,
+    alternates: {
+      canonical,
+      languages: {
+        es: esUrl,
+        en: enUrl,
+      },
+    },
   };
 }
 
@@ -23,6 +36,7 @@ export default async function ConsularPracticePage({ params }: { params: Promise
   const { locale } = await params;
   const dict = await getDictionary(locale);
   const data = dict?.consular?.practica_consular;
+  const isEs = locale === 'es';
 
   return (
     <main className="page-consular-detail">
@@ -33,12 +47,15 @@ export default async function ConsularPracticePage({ params }: { params: Promise
       </header>
 
       <section className="section-padding-asym">
-        <div className="container">
+        <div
+          className="container"
+          style={{ maxWidth: '840px', margin: '0 auto' }}
+        >
           {/* Intro Section */}
           <div className="mb-3rem">
-            <p className="text-left max-w-100 mb-1rem">{data?.intro?.p1}</p>
-            <p className="text-left max-w-100 mb-1rem">{data?.intro?.p2}</p>
-            <p className="text-left max-w-100 mb-2rem">{data?.intro?.p3}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.intro?.p1}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.intro?.p2}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.intro?.p3}</p>
           </div>
 
           {/* When we intervene */}
@@ -54,36 +71,64 @@ export default async function ConsularPracticePage({ params }: { params: Promise
           {/* Our approach */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">{data?.approach?.title}</h2>
-            <p className="mb-1rem">{data?.approach?.p1}</p>
-            <p className="mb-1rem">{data?.approach?.p2}</p>
-            <p className="mb-1rem">{data?.approach?.p3}</p>
-            <p className="mb-1rem">{data?.approach?.p4}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p1}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p2}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p3}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p4}</p>
           </div>
         </div>
       </section>
 
-      <section className="bg-soft text-center section-padding-asym">
-        <div className="container">
-          <h2 className="serif section-title mb-1-5rem">
-            {locale === 'en' ? 'Do you require legal assistance?' : '¿Requiere asistencia legal?'}
-          </h2>
-          <p className="section-desc mb-2rem">
-            {locale === 'en' ? 'Our team is prepared to analyze your case.' : 'Nuestro equipo está preparado para analizar su caso.'}
-          </p>
+      {/* CIERRE INSTITUCIONAL */}
+      <section className="bg-soft section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
           <div
+            className="card bg-soft p-3rem text-center"
             style={{
-              display: 'flex',
-              gap: '1rem',
-              justifyContent: 'center',
-              flexWrap: 'wrap',
+              border: '1px solid var(--border-color, #e5e7eb)',
+              borderRadius: '8px',
             }}
           >
-            <Link href={getRoute(locale, "contact")} className="btn btn-primary">
-              {locale === 'en' ? 'START ADMISSION PROCESS' : 'INICIAR PROCESO DE ADMISIÓN'}
-            </Link>
-            <Link href={getRoute(locale, "services.consular")} className="btn btn-secondary">
-              {locale === 'en' ? '← BACK TO INTERNATIONAL' : '← VOLVER A INTERNACIONAL'}
-            </Link>
+            <span className="section-tag">
+              {isEs
+                ? 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'
+                : 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'}
+            </span>
+
+            <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
+              {isEs
+                ? '“Asesoría jurídica especializada y representación estratégica para asuntos consulares en Venezuela.”'
+                : '“Specialized legal advisory and strategic representation for consular matters in Venezuela.”'}
+            </h3>
+
+            <p
+              className="max-w-800 mx-auto mb-2rem text-muted"
+              style={{
+                lineHeight: 1.6,
+                fontSize: '0.95rem',
+                textAlign: 'center'
+              }}
+            >
+              {isEs
+                ? 'Nuestra firma brinda soporte a ciudadanos venezolanos en el exterior, incluyendo la gestión documental, legalización y preparación de mandatos para surtir efectos legales en el territorio nacional.'
+                : 'Our firm provides support to Venezuelan citizens abroad, including document management, legalization, and preparation of mandates intended to produce legal effects within the national territory.'}
+            </p>
+
+            <div
+              style={{
+                display: 'flex',
+                gap: '1rem',
+                justifyContent: 'center',
+                flexWrap: 'wrap',
+              }}
+            >
+              <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
+                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+              </Link>
+              <Link href={getRoute(locale, 'services.consular')} className="btn btn-secondary">
+                {isEs ? '← VOLVER A INTERNACIONAL' : '← BACK TO INTERNATIONAL'}
+              </Link>
+            </div>
           </div>
         </div>
       </section>

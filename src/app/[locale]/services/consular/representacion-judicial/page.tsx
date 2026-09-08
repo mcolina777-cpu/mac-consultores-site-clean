@@ -13,9 +13,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ? 'Representación y defensa jurídica estratégica en tribunales de Venezuela para clientes no residentes.'
     : 'Strategic legal representation and defense in Venezuelan courts for non-resident clients.';
 
+  const canonical = isEs
+    ? 'https://mac-consultores-site-clean.vercel.app/es/services/consular/representacion-judicial'
+    : 'https://mac-consultores-site-clean.vercel.app/en/services/consular/judicial-representation';
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/consular/representacion-judicial';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/consular/judicial-representation';
+
   return {
     title,
     description,
+    alternates: {
+      canonical,
+      languages: {
+        es: esUrl,
+        en: enUrl,
+      },
+    },
   };
 }
 

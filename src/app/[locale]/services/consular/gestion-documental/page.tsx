@@ -13,9 +13,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ? 'Asesoría y coordinación jurídico-documental internacional con efectos en Venezuela.'
     : 'Cross-border legal and documentary coordination with effects in Venezuela.';
 
+  const canonical = isEs
+    ? 'https://mac-consultores-site-clean.vercel.app/es/services/consular/gestion-documental'
+    : 'https://mac-consultores-site-clean.vercel.app/en/services/consular/document-management';
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/consular/gestion-documental';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/consular/document-management';
+
   return {
     title,
     description,
+    alternates: {
+      canonical,
+      languages: {
+        es: esUrl,
+        en: enUrl,
+      },
+    },
   };
 }
 

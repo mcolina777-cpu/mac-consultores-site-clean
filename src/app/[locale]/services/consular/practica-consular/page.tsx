@@ -13,9 +13,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ? 'Asesoría jurídica y representación en gestiones consulares con efectos en Venezuela.'
     : 'Legal advisory and representation in consular proceedings with effects in Venezuela.';
 
+  const canonical = isEs
+    ? 'https://mac-consultores-site-clean.vercel.app/es/services/consular/practica-consular'
+    : 'https://mac-consultores-site-clean.vercel.app/en/services/consular/consular-practice';
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/consular/practica-consular';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/consular/consular-practice';
+
   return {
     title,
     description,
+    alternates: {
+      canonical,
+      languages: {
+        es: esUrl,
+        en: enUrl,
+      },
+    },
   };
 }
 

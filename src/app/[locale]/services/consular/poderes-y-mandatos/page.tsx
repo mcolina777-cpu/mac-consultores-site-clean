@@ -13,9 +13,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ? 'Estructuración, delimitación y revisión jurídica de poderes y mandatos transfronterizos para actuar en Venezuela.'
     : 'Strategic drafting, scope delimitation, and review of cross-border powers of attorney for Venezuela.';
 
+  const canonical = isEs
+    ? 'https://mac-consultores-site-clean.vercel.app/es/services/consular/poderes-y-mandatos'
+    : 'https://mac-consultores-site-clean.vercel.app/en/services/consular/strategic-powers';
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/consular/poderes-y-mandatos';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/consular/strategic-powers';
+
   return {
     title,
     description,
+    alternates: {
+      canonical,
+      languages: {
+        es: esUrl,
+        en: enUrl,
+      },
+    },
   };
 }
 

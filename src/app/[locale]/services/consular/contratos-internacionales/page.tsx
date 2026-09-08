@@ -13,9 +13,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ? 'Asesoría jurídica estratégica en estructuración, negociación y análisis de contratos con conexión en Venezuela.'
     : 'Strategic legal advisory in contract structuring, negotiation, and risk mitigation connected to Venezuela.';
 
+  const canonical = isEs
+    ? 'https://mac-consultores-site-clean.vercel.app/es/services/consular/contratos-internacionales'
+    : 'https://mac-consultores-site-clean.vercel.app/en/services/consular/international-contracts';
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/consular/contratos-internacionales';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/consular/international-contracts';
+
   return {
     title,
     description,
+    alternates: {
+      canonical,
+      languages: {
+        es: esUrl,
+        en: enUrl,
+      },
+    },
   };
 }
 

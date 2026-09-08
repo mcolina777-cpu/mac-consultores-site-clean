@@ -13,9 +13,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ? 'Asesoría jurídica estratégica en contratación, regulación y estructuras corporativas para el sector energético en Venezuela.'
     : 'Strategic legal advisory in contractual, regulatory, and corporate structures for the Venezuelan energy sector.';
 
+  const canonical = isEs
+    ? 'https://mac-consultores-site-clean.vercel.app/es/services/consular/materia-energetica'
+    : 'https://mac-consultores-site-clean.vercel.app/en/services/consular/energy-law';
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/consular/materia-energetica';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/consular/energy-law';
+
   return {
     title,
     description,
+    alternates: {
+      canonical,
+      languages: {
+        es: esUrl,
+        en: enUrl,
+      },
+    },
   };
 }
 
