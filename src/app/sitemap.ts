@@ -10,6 +10,8 @@ const routes = [
   '/services',
   '/services/consular',
   '/services/international-cooperation',
+  '/services/international-cooperation/local-counsel',
+  '/services/empresas-extranjeras',
   '/blog',
   '/news',
   '/contact',

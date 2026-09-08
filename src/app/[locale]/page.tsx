@@ -257,7 +257,7 @@ export default async function Home({ params }: Props) {
 
             {/* TARJETA 06 */}
             <Link 
-              href={`/${locale}/services/local-counsel-venezuela`}
+              href={getRoute(locale, "services.empresas_extranjeras")}
               className="card hover-lift"
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >

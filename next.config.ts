@@ -12,6 +12,16 @@ const nextConfig: NextConfig = {
         source: '/:locale(es|en)/international-cooperation',
         destination: '/:locale/services/international-cooperation',
         permanent: true,
+      },
+      {
+        source: '/:locale(es|en)/services/local-counsel-venezuela',
+        destination: '/:locale/services/empresas-extranjeras',
+        permanent: true,
+      },
+      {
+        source: '/services/local-counsel-venezuela',
+        destination: '/es/services/empresas-extranjeras',
+        permanent: true,
       }
     ];
   },

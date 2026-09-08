@@ -23,6 +23,8 @@ export type RouteKey =
   | "services.consultoria_preventiva"
   | "services.consular"
   | "services.international_cooperation"
+  | "services.local_counsel"
+  | "services.empresas_extranjeras"
   | "estrategiaTeoriaDelCaso"
   | "estrategiaSeleccionDeCasos"
   | "estrategiaEscenariosRepresentativos"
@@ -62,6 +64,8 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.consultoria_preventiva": "/es/services/consultoria-preventiva",
     "services.consular": "/es/services/consular",
     "services.international_cooperation": "/es/services/international-cooperation",
+    "services.local_counsel": "/es/services/international-cooperation/local-counsel",
+    "services.empresas_extranjeras": "/es/services/empresas-extranjeras",
     estrategiaTeoriaDelCaso: "/es/estrategia-teoria-del-caso",
     estrategiaSeleccionDeCasos: "/es/seleccion-de-casos",
     estrategiaEscenariosRepresentativos: "/es/estrategia-escenarios-representativos",
@@ -100,6 +104,8 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.consultoria_preventiva": "/en/services/consultoria-preventiva",
     "services.consular": "/en/services/consular",
     "services.international_cooperation": "/en/services/international-cooperation",
+    "services.local_counsel": "/en/services/international-cooperation/local-counsel",
+    "services.empresas_extranjeras": "/en/services/empresas-extranjeras",
     estrategiaTeoriaDelCaso: "/en/estrategia-teoria-del-caso",
     estrategiaSeleccionDeCasos: "/en/case-selection",
     estrategiaEscenariosRepresentativos: "/en/estrategia-escenarios-representativos",

@@ -614,6 +614,56 @@
       }
     }
   },
+  "empresas_extranjeras": {
+    "seo": {
+      "title": "Servicios Jurídicos para Empresas Extranjeras en Venezuela | Mac Consultores Jurídicos",
+      "description": "Asesoría jurídica directa, evaluación de riesgos, opiniones doctrinales y representación local en Venezuela para corporaciones extranjeras, departamentos legales e inversionistas.",
+      "og_title": "Servicios Jurídicos para Empresas Extranjeras en Venezuela | Mac Consultores Jurídicos",
+      "og_description": "Asesoría jurídica directa, evaluación de riesgos, opiniones doctrinales y representación local en Venezuela para corporaciones extranjeras, departamentos legales e inversionistas."
+    },
+    "breadcrumb": "PRÁCTICA INTERNACIONAL / SERVICIOS CORPORATIVOS EN VENEZUELA",
+    "h1": "Servicios Jurídicos para Empresas Extranjeras en Venezuela",
+    "subtitle": "Capacidad jurídica local para evaluar riesgos penales corporativos, validar documentación transfronteriza, emitir opiniones legales y representar a empresas extranjeras en Venezuela.",
+    "section_1": {
+      "title": "1. Capacidad Jurídica Local para Operaciones Globales",
+      "p1": "La creciente complejidad de los negocios transfronterizos exige un conocimiento simultáneo de múltiples jurisdicciones. Cuando una corporación extranjera o cliente internacional mantiene activos, inversiones, contratos, representantes o contingencias vinculadas con Venezuela, la intervención de un asesor jurídico local resulta determinante para comprender y ejecutar correctamente los aspectos sometidos al ordenamiento jurídico nacional.",
+      "p2": "Nuestra intervención aporta la capacidad técnica local indispensable para analizar, auditar y ejecutar actuaciones jurídicas en territorio venezolano, coordinando de manera directa con directores generales, departamentos legales internos o apoderados corporativos de la empresa matriz."
+    },
+    "section_2": {
+      "title": "2. Seguridad Jurídica y Eficacia Operativa en Venezuela",
+      "p1": "Estructuramos cada actuación bajo estándares estrictos de confidencialidad, rigor técnico y delimitación precisa del encargo profesional. Esto permite a corporaciones extranjeras e inversionistas contar con respaldo jurídico sólido en el país, mitigando contingencias operativas y garantizando que sus decisiones estratégicas se ajusten plenamente al ordenamiento venezolano.",
+      "p2": "Intervenimos en auditorías de riesgo penal económico, investigaciones regulatorias, opiniones legales especializadas (legal opinions), due diligence corporativo y validación de instrumentos transfronterizos destinados a producir plenos efectos en Venezuela o en el extranjero."
+    },
+    "section_3": {
+      "title": "3. Escenarios de Intervención para Asuntos Transfronterizos",
+      "intro": "Nuestra práctica forense y de asesoría corporativa responde a requerimientos específicos en los siguientes ejes de actuación:",
+      "items": [
+        {
+          "label": "Riesgo Penal Corporativo y Compliance:",
+          "desc": "Evaluación dogmática sobre contingencias penales de subsidiarias, socios o directivos en territorio venezolano."
+        },
+        {
+          "label": "Documentación y Mandatos Internacionales:",
+          "desc": "Protocolización, legalización consular, apostillas y adecuación formal de poderes foráneos para su plena validez procesal."
+        },
+        {
+          "label": "Asistencia Procesal y Coordinación Local:",
+          "desc": "Representación ante tribunales, cortes superiores y entes regulatorios en defensa de intereses internacionales."
+        },
+        {
+          "label": "Informes Doctrinales y Opiniones Legales:",
+          "desc": "Emisión de criterios jurídicos fundamentados para arbitrajes internacionales o tribunales extranjeros sobre Derecho venezolano."
+        }
+      ]
+    },
+    "cta": {
+      "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
+      "title": "Respaldo técnico y representación profesional para sus operaciones en Venezuela.",
+      "desc": "Asesoramos a directores generales, departamentos legales internos y grupos transfronterizos que requieren certeza técnica y gestión procesal en el entorno jurídico venezolano.",
+      "btn_contact": "CONSULTAR REQUERIMIENTO CORPORATIVO",
+      "btn_back": "← VOLVER A SERVICIOS"
+    }
+  },
   "seo": {
     "economic_criminal_risk": {
       "title": "Guía de riesgo penal económico para empresas | Mac Consultores"

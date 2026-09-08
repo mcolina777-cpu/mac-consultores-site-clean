@@ -614,6 +614,56 @@
       }
     }
   },
+  "empresas_extranjeras": {
+    "seo": {
+      "title": "Legal Services for Foreign Companies in Venezuela | Mac Consultores Jurídicos",
+      "description": "Direct legal advisory, corporate risk assessments, formal legal opinions, and domestic representation in Venezuela for foreign corporations, legal departments, and international investors.",
+      "og_title": "Legal Services for Foreign Companies in Venezuela | Mac Consultores Jurídicos",
+      "og_description": "Direct legal advisory, corporate risk assessments, formal legal opinions, and domestic representation in Venezuela for foreign corporations, legal departments, and international investors."
+    },
+    "breadcrumb": "INTERNATIONAL PRACTICE / CORPORATE SERVICES IN VENEZUELA",
+    "h1": "Legal Services for Foreign Companies in Venezuela",
+    "subtitle": "Local legal capacity to assess corporate criminal risks, validate cross-border documentation, issue formal legal opinions, and represent foreign companies in Venezuela.",
+    "section_1": {
+      "title": "1. Local Legal Capacity for Global Transactions",
+      "p1": "The growing complexity of cross-border transactions demands concurrent knowledge across multiple jurisdictions. When an international corporation or overseas client holds assets, investments, contracts, representatives, or legal liabilities connected with Venezuela, local counsel intervention is essential to execute matters governed by Venezuelan law.",
+      "p2": "Our practice provides the essential domestic technical capacity to analyze, audit, and execute legal proceedings in Venezuelan territory, coordinating directly with corporate directors, internal legal departments, or designated counsel of the parent company."
+    },
+    "section_2": {
+      "title": "2. Legal Certainty and Operational Execution in Venezuela",
+      "p1": "We structure each engagement under strict standards of confidentiality, technical rigor, and precise professional scope. This enables foreign corporations and investors to rely on solid legal footing in the country, mitigating operational liabilities and ensuring strategic decisions fully align with the Venezuelan legal framework.",
+      "p2": "We assist in corporate criminal risk audits, regulatory inquiries, formal legal opinions, corporate due diligence, and cross-border document authentication destined to produce legal effects in Venezuela or overseas."
+    },
+    "section_3": {
+      "title": "3. Cross-Border Practice Scenarios",
+      "intro": "Our forensic practice and corporate advisory address specific requirements across the following practice areas:",
+      "items": [
+        {
+          "label": "Corporate Criminal Risk & Compliance:",
+          "desc": "Technical risk assessment regarding criminal liabilities of local subsidiaries, partners, or executives in Venezuela."
+        },
+        {
+          "label": "Cross-Border Documentation & Powers:",
+          "desc": "Authentication, consular legalization, Hague apostilles, and procedural validation of foreign powers of attorney."
+        },
+        {
+          "label": "Procedural Advocacy & Domestic Coordination:",
+          "desc": "Direct representation before courts, appellate jurisdictions, and regulatory bodies defending international interests."
+        },
+        {
+          "label": "Doctrinal Reports & Formal Legal Opinions:",
+          "desc": "Issuance of authoritative legal opinions for international arbitrations or foreign courts interpreting Venezuelan law."
+        }
+      ]
+    },
+    "cta": {
+      "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
+      "title": "Technical support and professional advocacy for your operations in Venezuela.",
+      "desc": "We assist corporate directors, general counsel, and multinational groups requiring technical certainty and reliable procedural execution in Venezuela.",
+      "btn_contact": "SUBMIT CORPORATE INQUIRY",
+      "btn_back": "← BACK TO SERVICES"
+    }
+  },
   "seo": {
     "economic_criminal_risk": {
       "title": "Economic Criminal Risk Guide for Companies | Mac Consultores"
