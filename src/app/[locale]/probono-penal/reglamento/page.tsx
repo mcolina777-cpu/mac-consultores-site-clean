@@ -18,7 +18,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title,
     description,
     alternates: {
-      canonical: `https://macconsultoresjuridicos.com/${locale}/probono-penal/reglamento`,
+      // AJUSTE SEO TEMPORAL:
+      // Durante la etapa de desarrollo, los canonicals utilizan
+      // el dominio de Vercel. El dominio permanente se configurará
+      // únicamente al finalizar y publicar el website.
+      canonical: `https://mac-consultores-site-clean.vercel.app/${locale}/probono-penal/reglamento`,
     },
   };
 }

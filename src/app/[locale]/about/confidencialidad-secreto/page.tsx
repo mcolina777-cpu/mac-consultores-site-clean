@@ -16,10 +16,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title,
     description,
     alternates: {
-      canonical: `https://macconsultoresjuridicos.com/${locale}/about/confidencialidad-secreto`,
+      // AJUSTE SEO TEMPORAL:
+      // Durante la etapa de desarrollo, los canonicals utilizan
+      // el dominio de Vercel. El dominio permanente se configurará
+      // únicamente al finalizar y publicar el website.
+      canonical: `https://mac-consultores-site-clean.vercel.app/${locale}/about/confidencialidad-secreto`,
       languages: {
-        es: `https://macconsultoresjuridicos.com/es/about/confidencialidad-secreto`,
-        en: `https://macconsultoresjuridicos.com/en/about/confidencialidad-secreto`,
+        es: `https://mac-consultores-site-clean.vercel.app/es/about/confidencialidad-secreto`,
+        en: `https://mac-consultores-site-clean.vercel.app/en/about/confidencialidad-secreto`,
       },
     },
   };

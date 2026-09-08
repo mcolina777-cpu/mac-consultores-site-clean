@@ -16,10 +16,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title,
     description,
     alternates: {
-      canonical: `https://macconsultoresjuridicos.com/${locale}/about/transparencia-buena-fe`,
+      // AJUSTE SEO TEMPORAL:
+      // Durante la etapa de desarrollo, los canonicals utilizan
+      // el dominio de Vercel. El dominio permanente se configurará
+      // únicamente al finalizar y publicar el website.
+      canonical: `https://mac-consultores-site-clean.vercel.app/${locale}/about/transparencia-buena-fe`,
       languages: {
-        es: `https://macconsultoresjuridicos.com/es/about/transparencia-buena-fe`,
-        en: `https://macconsultoresjuridicos.com/en/about/transparencia-buena-fe`,
+        es: `https://mac-consultores-site-clean.vercel.app/es/about/transparencia-buena-fe`,
+        en: `https://mac-consultores-site-clean.vercel.app/en/about/transparencia-buena-fe`,
       },
     },
   };

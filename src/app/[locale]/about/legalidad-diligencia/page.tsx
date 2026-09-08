@@ -16,10 +16,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title,
     description,
     alternates: {
-      canonical: `https://macconsultoresjuridicos.com/${locale}/about/legalidad-diligencia`,
+      // AJUSTE SEO TEMPORAL:
+      // Durante la etapa de desarrollo, los canonicals utilizan
+      // el dominio de Vercel. El dominio permanente se configurará
+      // únicamente al finalizar y publicar el website.
+      canonical: `https://mac-consultores-site-clean.vercel.app/${locale}/about/legalidad-diligencia`,
       languages: {
-        es: `https://macconsultoresjuridicos.com/es/about/legalidad-diligencia`,
-        en: `https://macconsultoresjuridicos.com/en/about/legalidad-diligencia`,
+        es: `https://mac-consultores-site-clean.vercel.app/es/about/legalidad-diligencia`,
+        en: `https://mac-consultores-site-clean.vercel.app/en/about/legalidad-diligencia`,
       },
     },
   };
