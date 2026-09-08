@@ -2429,3 +2429,32 @@ body.nav-open {
     min-height: 140px;
   }
 }
+
+/* CORRECCIÓN RESPONSIVE CEO:
+   En móvil horizontal, el retrato libera la restricción
+   de ancho rígido y limita su altura para conservar
+   un encuadre ejecutivo natural. */
+@media (max-height: 500px) and (orientation: landscape) {
+  .page-our-ceo .img-reveal.img-vertical {
+    width: auto !important;
+    max-width: 100% !important;
+    height: clamp(260px, 72vh, 360px) !important;
+    max-height: 360px !important;
+    aspect-ratio: 3 / 4 !important;
+    margin: 0 auto !important;
+    overflow: hidden !important;
+  }
+
+  .page-our-ceo .img-reveal.img-vertical picture,
+  .page-our-ceo .img-reveal.img-vertical img {
+    width: 100% !important;
+    max-width: none !important;
+    height: 100% !important;
+    max-height: 360px !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+    display: block !important;
+    margin: 0 auto !important;
+  }
+}
+
