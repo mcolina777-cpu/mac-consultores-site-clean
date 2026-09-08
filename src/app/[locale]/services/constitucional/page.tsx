@@ -19,9 +19,11 @@ export async function generateMetadata({ params }: Props) {
     ? 'Acciones de amparo, tutela judicial efectiva y defensa de garantías constitucionales, debido proceso y derechos fundamentales en Venezuela.'
     : 'Constitutional injunctions, effective judicial protection, and defense of due process, fundamental guarantees, and constitutional rights in Venezuela.';
 
-  const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/constitucional`;
+  const url = isEs
+    ? 'https://mac-consultores-site-clean.vercel.app/es/services/constitucional'
+    : 'https://mac-consultores-site-clean.vercel.app/en/services/constitutional';
   const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/constitucional';
-  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/constitucional';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/constitutional';
 
   return {
     title,

@@ -5,8 +5,52 @@ import { getRoute } from '@/lib/routes';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const isEs = locale === 'es';
+
+  const title = isEs
+    ? 'Consultoría Jurídica Preventiva | Mac Consultores'
+    : 'Preventive Legal Consulting | Mac Consultores';
+
+  const description = isEs
+    ? 'Diseño de programas de cumplimiento normativo, gobernanza corporativa, auditoría de riesgos penales y blindaje contractual preventivo en Venezuela.'
+    : 'Corporate compliance design, corporate governance, criminal risk audits, and preventive contractual safeguards in Venezuela.';
+
+  const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/consultoria-preventiva`;
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/consultoria-preventiva';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/consultoria-preventiva';
+
   return {
-    title: locale === 'es' ? 'Consultoría Jurídica Preventiva | Mac Consultores' : 'Preventive Legal Consulting | Mac Consultores',
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: {
+        es: esUrl,
+        en: enUrl,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: '/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/img/logo-mac-og.jpg'],
+    },
   };
 }
 

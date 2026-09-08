@@ -5,11 +5,53 @@ import { getRoute } from "@/lib/routes";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const isEs = locale === 'es';
   const dict = await getDictionary(locale);
   
+  const title = dict?.seo?.colaboracion_internacional?.title || (isEs
+    ? 'Colaboración Internacional & Local Counsel | Mac Consultores Jurídicos'
+    : 'International Legal Cooperation & Local Counsel | Mac Consultores Jurídicos');
+
+  const description = dict?.seo?.colaboracion_internacional?.description || (isEs
+    ? 'Soporte jurídico local en Venezuela para firmas internacionales y corporaciones transfronterizas bajo modelo B2B.'
+    : 'Local Venezuelan legal support for international law firms and cross-border corporations under a B2B model.');
+
+  const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/international-cooperation`;
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/international-cooperation';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/international-cooperation';
+
   return {
-    title: dict?.seo?.colaboracion_internacional?.title,
-    description: dict?.seo?.colaboracion_internacional?.description,
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: {
+        es: esUrl,
+        en: enUrl,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: '/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/img/logo-mac-og.jpg'],
+    },
   };
 }
 
@@ -66,7 +108,7 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             </Link>
 
             {/* TARJETA 2 (T2) */}
-            <Link href={`/${locale}/services/international-cooperation/areas-cooperacion`} className="card block-link">
+            <Link href={getRoute(locale, "services.international_cooperation.areas_cooperacion")} className="card block-link">
               <span className="section-tag">{data?.proposal?.card_2?.tag || "02"}</span>
               <h3>{data?.proposal?.card_2?.title}</h3>
               <p className="card-editorial-text">
@@ -76,7 +118,7 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             </Link>
 
             {/* TARJETA 3 (T3) */}
-            <Link href={`/${locale}/services/international-cooperation/modelo-b2b`} className="card block-link">
+            <Link href={getRoute(locale, "services.international_cooperation.modelo_b2b")} className="card block-link">
               <span className="section-tag">{data?.proposal?.card_3?.tag || "03"}</span>
               <h3>{data?.proposal?.card_3?.title}</h3>
               <p className="card-editorial-text">

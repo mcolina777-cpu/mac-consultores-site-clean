@@ -5,9 +5,53 @@ import { getRoute } from "@/lib/routes";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const isEs = locale === 'es';
   const dict = await getDictionary(locale);
+
+  const title = dict?.seo?.tramites_consulares?.title || (isEs
+    ? 'Gestión Consular y Clientes Internacionales | Mac Consultores Jurídicos'
+    : 'Consular Services & International Clients | Mac Consultores Jurídicos');
+
+  const description = dict?.seo?.tramites_consulares?.description || (isEs
+    ? 'Gestión jurídica, legalizaciones, poderes y representación para venezolanos en el exterior y clientes internacionales.'
+    : 'Cross-border legal representation, consular powers of attorney, and legalizations for clients abroad.');
+
+  const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/consular`;
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/consular';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/consular';
+
   return {
-    title: dict?.seo?.tramites_consulares?.title,
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: {
+        es: esUrl,
+        en: enUrl,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: '/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/img/logo-mac-og.jpg'],
+    },
   };
 }
 

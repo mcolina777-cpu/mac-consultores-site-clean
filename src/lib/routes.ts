@@ -23,6 +23,8 @@ export type RouteKey =
   | "services.consultoria_preventiva"
   | "services.consular"
   | "services.international_cooperation"
+  | "services.international_cooperation.areas_cooperacion"
+  | "services.international_cooperation.modelo_b2b"
   | "services.local_counsel"
   | "services.empresas_extranjeras"
   | "estrategiaTeoriaDelCaso"
@@ -64,6 +66,8 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.consultoria_preventiva": "/es/services/consultoria-preventiva",
     "services.consular": "/es/services/consular",
     "services.international_cooperation": "/es/services/international-cooperation",
+    "services.international_cooperation.areas_cooperacion": "/es/services/international-cooperation/areas-cooperacion",
+    "services.international_cooperation.modelo_b2b": "/es/services/international-cooperation/modelo-b2b",
     "services.local_counsel": "/es/services/international-cooperation/local-counsel",
     "services.empresas_extranjeras": "/es/services/empresas-extranjeras",
     estrategiaTeoriaDelCaso: "/es/estrategia-teoria-del-caso",
@@ -104,6 +108,8 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.consultoria_preventiva": "/en/services/consultoria-preventiva",
     "services.consular": "/en/services/consular",
     "services.international_cooperation": "/en/services/international-cooperation",
+    "services.international_cooperation.areas_cooperacion": "/en/services/international-cooperation/areas-cooperacion",
+    "services.international_cooperation.modelo_b2b": "/en/services/international-cooperation/modelo-b2b",
     "services.local_counsel": "/en/services/international-cooperation/local-counsel",
     "services.empresas_extranjeras": "/en/services/empresas-extranjeras",
     estrategiaTeoriaDelCaso: "/en/estrategia-teoria-del-caso",

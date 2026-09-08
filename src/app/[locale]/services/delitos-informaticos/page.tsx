@@ -5,8 +5,52 @@ import { getRoute } from '@/lib/routes';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const isEs = locale === 'es';
+
+  const title = isEs
+    ? 'Delitos Informáticos y Evidencia Digital | Mac Consultores'
+    : 'Cybercrimes and Digital Evidence | Mac Consultores';
+
+  const description = isEs
+    ? 'Defensa penal técnica y asesoría especializada en incidentes tecnológicos, fraudes electrónicos, evidencia digital y auditorías forenses en Venezuela.'
+    : 'Specialized legal defense and technical counsel in cyber incidents, electronic fraud, digital evidence, and computer forensics in Venezuela.';
+
+  const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/delitos-informaticos`;
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/delitos-informaticos';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/delitos-informaticos';
+
   return {
-    title: locale === 'es' ? 'Delitos Informáticos y Evidencia Digital | Mac Consultores' : 'Cybercrimes and Digital Evidence | Mac Consultores',
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: {
+        es: esUrl,
+        en: enUrl,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: '/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/img/logo-mac-og.jpg'],
+    },
   };
 }
 

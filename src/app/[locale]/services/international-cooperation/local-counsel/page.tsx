@@ -13,9 +13,42 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ? 'Un punto de apoyo jurídico dentro de Venezuela para firmas y corporaciones internacionales.'
     : 'On-the-ground Venezuelan legal support for international law firms and corporate legal departments.';
 
+  const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/international-cooperation/local-counsel`;
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/international-cooperation/local-counsel';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/services/international-cooperation/local-counsel';
+
   return {
     title,
     description,
+    alternates: {
+      canonical: url,
+      languages: {
+        es: esUrl,
+        en: enUrl,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: '/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/img/logo-mac-og.jpg'],
+    },
   };
 }
 
