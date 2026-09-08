@@ -29,17 +29,34 @@ export function resolveLocalizedUrl(targetLocale: string, currentPath: string): 
   // Correspondencias bidireccionales autorizadas:
   // Par 1: /es/services/constitucional <-> /en/services/constitutional
   // Par 2: /es/seleccion-de-casos <-> /en/case-selection
+
+  // CORRECCIÓN DE RUTAS BILINGÜES:
+  // Mapeo bidireccional de los seis servicios consulares
+  // cuyos slugs difieren entre español e inglés.
+  const routePairs: [string, string][] = [
+    ['/es/services/constitucional', '/en/services/constitutional'],
+    ['/es/seleccion-de-casos', '/en/case-selection'],
+    ['/es/services/consular/practica-consular', '/en/services/consular/consular-practice'],
+    ['/es/services/consular/gestion-documental', '/en/services/consular/document-management'],
+    ['/es/services/consular/contratos-internacionales', '/en/services/consular/international-contracts'],
+    ['/es/services/consular/materia-energetica', '/en/services/consular/energy-law'],
+    ['/es/services/consular/representacion-judicial', '/en/services/consular/judicial-representation'],
+    ['/es/services/consular/poderes-y-mandatos', '/en/services/consular/strategic-powers'],
+  ];
+
   if (targetLocale === 'en') {
-    if (url === '/es/services/constitucional' || url.startsWith('/es/services/constitucional/')) {
-      localizedBase = '/en/services/constitutional' + url.slice('/es/services/constitucional'.length);
-    } else if (url === '/es/seleccion-de-casos' || url.startsWith('/es/seleccion-de-casos/')) {
-      localizedBase = '/en/case-selection' + url.slice('/es/seleccion-de-casos'.length);
+    for (const [esPath, enPath] of routePairs) {
+      if (url === esPath || url.startsWith(esPath + '/')) {
+        localizedBase = enPath + url.slice(esPath.length);
+        break;
+      }
     }
   } else if (targetLocale === 'es') {
-    if (url === '/en/services/constitutional' || url.startsWith('/en/services/constitutional/')) {
-      localizedBase = '/es/services/constitucional' + url.slice('/en/services/constitutional'.length);
-    } else if (url === '/en/case-selection' || url.startsWith('/en/case-selection/')) {
-      localizedBase = '/es/seleccion-de-casos' + url.slice('/en/case-selection'.length);
+    for (const [esPath, enPath] of routePairs) {
+      if (url === enPath || url.startsWith(enPath + '/')) {
+        localizedBase = esPath + url.slice(enPath.length);
+        break;
+      }
     }
   }
 
