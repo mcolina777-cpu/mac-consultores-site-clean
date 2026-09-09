@@ -107,11 +107,6 @@ export default function Footer({
                   {newsLabel}
                 </Link>
               </li>
-              <li>
-                <Link href={getRoute(locale, "probonoPenal")}>
-                  {f.link_pro_bono}
-                </Link>
-              </li>
             </ul>
           </div>
           {/* Columna servicios */}
@@ -136,6 +131,11 @@ export default function Footer({
               <li>
                 <Link href={getRoute(locale, "services.international_cooperation")}>
                   {colaboracionLabel}
+                </Link>
+              </li>
+              <li>
+                <Link href={getRoute(locale, "probonoPenal")}>
+                  {f.link_pro_bono}
                 </Link>
               </li>
             </ul>
