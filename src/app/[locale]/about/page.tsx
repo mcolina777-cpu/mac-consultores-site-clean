@@ -231,7 +231,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               </p>
               <Link
                 href={getRoute(locale, 'ourCeo')}
-                className="btn btn-primary"
+                className="btn btn-primary btn-director"
               >
                 {data?.mission?.btn || (isEs ? 'CONOCE A NUESTRO DIRECTOR GENERAL' : 'MEET OUR MANAGING PARTNER')}
               </Link>

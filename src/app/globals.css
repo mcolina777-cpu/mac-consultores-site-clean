@@ -1373,18 +1373,42 @@ footer,
 
 
 
-/* Enlace "CONOCE A NUESTRO DIRECTOR GENERAL" / "MEET OUR MANAGING DIRECTOR" */
+/* Botones específicos de la página Quiénes Somos */
 .page-quienes-somos .vision-text .btn-director {
-  background-color: var(--primary-dark);
-  color: #ffffff;
-  border-color: var(--primary-dark);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.25;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
-.page-quienes-somos .vision-text .btn-director:hover,
-.page-quienes-somos .vision-text .btn-director:focus {
-  background-color: var(--accent);
-  color: #ffffff;
-  border-color: var(--accent);
+.page-quienes-somos .btn-secondary {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  box-shadow: none;
+  border-radius: 50px;
+  font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
+}
+
+.page-quienes-somos .btn-secondary:hover,
+.page-quienes-somos .btn-secondary:active {
+  background-color: rgba(0, 38, 68, 0.06);
+  color: var(--primary-dark);
+  border-color: var(--primary-dark);
+  transform: translateY(-1px);
+}
+
+.page-quienes-somos .btn-secondary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .quienes-somos-card {
@@ -1874,6 +1898,39 @@ footer,
         box-sizing: border-box;
         text-align: center;
     }
+
+    /* Sobrescritura controlada para Quiénes Somos en móvil (≤768px) */
+    .page-quienes-somos .vision-text .btn-director {
+        padding: 12px 20px;
+        font-size: 0.82rem;
+        letter-spacing: 0.8px;
+    }
+
+    .page-quienes-somos .card.bg-soft.text-center > div:has(.btn),
+    .page-quienes-somos .card.bg-soft.text-center > div:last-child {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px !important;
+    }
+
+    .page-quienes-somos .card.bg-soft.text-center .btn.btn-primary {
+        width: 100%;
+        max-width: 320px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .page-quienes-somos .card.bg-soft.text-center .btn.btn-secondary {
+        width: auto;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 12px 24px;
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+    }
 }
 
 /* Local Time Footer Styles */
@@ -2358,6 +2415,13 @@ body.nav-open {
     object-fit: cover !important;
     object-position: left center !important;
   }
+
+  /* Ajuste de botón del Director en tablet */
+  .page-quienes-somos .vision-text .btn-director {
+    padding: 12px 20px;
+    font-size: 0.84rem;
+    letter-spacing: 0.9px;
+  }
 }
 
 /* Respuesta táctil localizada para tarjetas en pantallas touch */
@@ -2412,6 +2476,13 @@ body.nav-open {
     white-space: normal;
     overflow-wrap: anywhere;
     word-break: break-word;
+  }
+
+  /* Ajuste de botón del Director en móvil compacto */
+  .page-quienes-somos .vision-text .btn-director {
+    padding: 12px 18px;
+    font-size: 0.82rem;
+    letter-spacing: 0.8px;
   }
 }
 
