@@ -15,6 +15,8 @@ type FooterDict = {
     consular?: string;
     colaboracion?: string;
     location?: string;
+    officeAddress?: string;
+    timezoneCity?: string;
     cta?: string;
     copyright?: string;
     local_time?: string;
@@ -60,7 +62,8 @@ export default function Footer({
 
   const descLabel = f.desc;
 
-  const locationLabel = f.location;
+  const officeAddress = f.officeAddress || f.location;
+  const timezoneCity = f.timezoneCity || "Caracas, Venezuela";
   const ctaLabel = f.cta;
   const legalNoticeLabel = f.legal_notice;
   const privacyLabel = f.privacy;
@@ -140,7 +143,7 @@ export default function Footer({
           <div className="footer-col">
             <h4 className="footer-title">{officesTitle}</h4>
             <ul className="footer-links">
-              <li>{locationLabel}</li>
+              <li>{officeAddress}</li>
               <li>
                 <a href="mailto:infomacconsul@gmail.com">
                   infomacconsul@gmail.com
@@ -169,7 +172,7 @@ export default function Footer({
               &copy; {new Date().getFullYear()} {copyrightText}
             </p>
             <p className="footer-location">
-              <span>{locationLabel}</span>
+              <span>{timezoneCity}</span>
               <span className="footer-location-separator"> · </span>
               <span className="footer-localtime">
                 <span className="footer-localtime-label">
