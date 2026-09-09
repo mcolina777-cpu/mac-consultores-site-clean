@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import LocalClock from "./LocalClock";
 import { getRoute } from "@/lib/routes";
+import { CONTACT_EMAIL } from "@/lib/constants";
 
 type FooterDict = {
   brand?: string;
@@ -145,8 +146,8 @@ export default function Footer({
             <ul className="footer-links">
               <li>{officeAddress}</li>
               <li>
-                <a href="mailto:infomacconsul@gmail.com">
-                  infomacconsul@gmail.com
+                <a href={`mailto:${CONTACT_EMAIL}`}>
+                  {CONTACT_EMAIL}
                 </a>
               </li>
               <li>
