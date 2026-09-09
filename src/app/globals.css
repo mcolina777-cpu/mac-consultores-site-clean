@@ -839,6 +839,45 @@ footer,
   transition: color 0.3s ease;
 }
 
+/* FOOTER – Tablets y pantallas intermedias */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer {
+    padding: 70px 0 36px;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "info nav"
+      "services offices";
+    gap: 36px 40px;
+    margin-bottom: 36px;
+  }
+
+  .footer-col.footer-info {
+    grid-area: info;
+  }
+
+  .footer-col:nth-of-type(2) {
+    grid-area: nav;
+  }
+
+  .footer-col:nth-of-type(3) {
+    grid-area: services;
+  }
+
+  .footer-col:nth-of-type(4) {
+    grid-area: offices;
+  }
+
+  .footer-bottom {
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+  }
+}
+
 /* FOOTER – Móvil */
 @media (max-width: 768px) {
   .footer {
