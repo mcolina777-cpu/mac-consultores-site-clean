@@ -95,11 +95,11 @@ export default async function Home({ params }: Props) {
                   alt={dict?.home?.alt_lobby || ""} 
                   width={1080} 
                   height={1920} 
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="our-firm-img-vertical"
                   style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
                 />
               </div>
-              <p className="img-caption"></p>
             </div>
             <div className="about-text">
               <span className="section-tag">{locale === 'es' ? 'Nuestra Firma' : 'Our Firm'}</span>

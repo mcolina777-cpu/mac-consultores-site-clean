@@ -1425,10 +1425,10 @@ footer,
     }
     /* ============================== */
 
-    /* Firma: casi pegada a la siguiente sección */
+    /* Firma: espaciado equilibrado en móvil */
     .section-firma {
-        padding-top: 8px;
-        padding-bottom: 4px;
+        padding-top: 36px;
+        padding-bottom: 36px;
     }
 
     /* Estrategias: título muy cercano a la firma */
@@ -1437,11 +1437,13 @@ footer,
         padding-bottom: 24px;
     }
 
-    /* Imagen de recepción en sección firma: ajustes para móvil */
+    /* Imagen institucional en sección firma: responsive móvil */
     .section-firma .img-reveal {
-        max-width: 280px;
-        margin: 0 auto 1.5rem auto;
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
         height: auto;
+        overflow: hidden;
     }
 
     .section-firma .img-reveal img,
@@ -1452,32 +1454,19 @@ footer,
         display: block;
     }
 
-    /* Foto del Director en página de Firma: sin recorte en móvil */
-    .page-firma .section-firma .img-reveal {
-        overflow: visible;      /* quita el recorte del contenedor solo en móvil */
-        max-height: none;
-        max-width: 280px;
-        margin: 0 auto 1.5rem auto;
-    }
-
-    .page-firma .section-firma .img-reveal img,
-    .page-firma .section-firma .our-firm-img-vertical {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;    /* muestra la foto completa */
-        object-position: center center;
-        display: block;
-        max-height: none;       /* Asegurar prioridad sobre el max-height global */
-    }
-
-    /* Imagen vertical de recepción en home: igual, sin techo adicional */
+    /* Imagen vertical de recepción en home: proporción 4:5 y encuadre institucional */
     .section-firma .img-reveal.img-vertical {
+        aspect-ratio: 4 / 5;
         max-height: none;
+        overflow: hidden;
+        position: relative;
     }
     
     .section-firma .img-reveal.img-vertical img,
     .section-firma .our-firm-img-vertical {
         max-height: none;
+        object-fit: cover;
+        object-position: left center;
     }
 
     .grid-split, .grid-2, .grid-3 { 
@@ -2331,20 +2320,43 @@ body.nav-open {
   }
 }
 
-/* Corrección localizada: sección foto vertical + texto de inicio en móvil */
-@media (max-width: 768px) {
+/* Corrección controlada: sección "Nuestra Firma" (foto vertical + texto) en móvil y tablet */
+@media (max-width: 1024px) {
+  .section-firma {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  .home-about-split {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .home-about-split .img-reveal-wrapper {
+    width: 100%;
+    align-items: center;
+  }
+
   .home-about-split .img-reveal.img-vertical {
-    height: clamp(320px, 90vw, 420px) !important;
-    aspect-ratio: auto !important;
-    max-height: 420px !important;
+    width: 100% !important;
+    max-width: 480px !important;
+    margin: 0 auto !important;
+    aspect-ratio: 4 / 5 !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: hidden !important;
+    position: relative !important;
   }
 
   .home-about-split .img-reveal.img-vertical picture,
-  .home-about-split .img-reveal.img-vertical img {
-    width: 100%;
+  .home-about-split .img-reveal.img-vertical img,
+  .home-about-split .our-firm-img-vertical {
+    width: 100% !important;
     height: 100% !important;
-    max-height: 420px !important;
-    object-fit: cover;
+    max-height: none !important;
+    display: block !important;
+    object-fit: cover !important;
+    object-position: left center !important;
   }
 }
 
