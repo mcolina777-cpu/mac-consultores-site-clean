@@ -320,7 +320,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
                 {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
               </Link>
 
-              <Link href={getRoute(locale, "home")} className="btn btn-outline">
+              <Link href={getRoute(locale, "home")} className="btn btn-secondary">
                 {isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME'}
               </Link>
             </div>
