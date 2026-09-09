@@ -671,7 +671,8 @@ section {
 button,
 .btn,
 .btn-primary,
-.btn-outline {
+.btn-outline,
+.btn-secondary {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: none;
   appearance: none;
@@ -1094,20 +1095,31 @@ footer,
 .page-firma .vision-text .btn {
     align-self: flex-start;
     margin-top: 1.5rem;
-    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-.page-firma .vision-text .btn:hover {
-    color: var(--accent);
-}
-
-.page-servicios .bg-soft .btn {
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.page-servicios .bg-soft .btn:hover {
-    background-color: var(--accent);
+.page-firma .vision-text .btn-primary:hover,
+.page-firma .vision-text .btn-primary:active,
+.page-firma .vision-text .btn-primary:focus {
     color: var(--text-white);
+    background-color: var(--primary-dark);
+    border-color: var(--accent-light);
+    box-shadow: 0 10px 26px rgba(0, 31, 56, 0.50);
+    transform: translateY(-2px);
+}
+
+.page-servicios .bg-soft .btn-primary:hover,
+.page-servicios .bg-soft .btn-primary:active,
+.page-servicios .bg-soft .btn-primary:focus {
+    background-color: var(--primary-dark);
+    border-color: var(--accent-light);
+    color: var(--text-white);
+}
+
+.page-servicios .bg-soft .btn-outline:hover,
+.page-servicios .bg-soft .btn-outline:active,
+.page-servicios .bg-soft .btn-outline:focus {
+    background-color: var(--primary);
+    color: #ffffff;
 }
 
 /* Ajustes de interlineado visual para páginas legales */
@@ -1384,12 +1396,14 @@ footer,
   max-width: 100%;
 }
 
-.page-quienes-somos .btn-secondary {
+.page-quienes-somos .btn-secondary,
+.page-quienes-somos .btn-secondary:visited {
   background-color: transparent;
   color: var(--primary);
   border: 1px solid var(--primary);
   box-shadow: none;
   border-radius: 50px;
+  text-decoration: none;
   font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
   font-size: 0.9rem;
   font-weight: 600;
@@ -1398,12 +1412,22 @@ footer,
   transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
 }
 
-.page-quienes-somos .btn-secondary:hover,
-.page-quienes-somos .btn-secondary:active {
+.page-quienes-somos .btn-secondary:hover {
   background-color: rgba(0, 38, 68, 0.06);
   color: var(--primary-dark);
   border-color: var(--primary-dark);
   transform: translateY(-1px);
+}
+
+.page-quienes-somos .btn-secondary:active {
+  background-color: rgba(0, 38, 68, 0.06);
+  color: var(--primary);
+  border-color: var(--primary-dark);
+  transform: translateY(0);
+}
+
+.page-quienes-somos .btn-secondary:focus {
+  outline: none;
 }
 
 .page-quienes-somos .btn-secondary:focus-visible {
@@ -1424,12 +1448,22 @@ footer,
   transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
 }
 
-.card.bg-soft.text-center .btn-secondary:hover,
-.card.bg-soft.text-center .btn-secondary:active {
+.card.bg-soft.text-center .btn-secondary:hover {
   background-color: rgba(0, 38, 68, 0.06);
   color: var(--primary-dark);
   border-color: var(--primary-dark);
   transform: translateY(-1px);
+}
+
+.card.bg-soft.text-center .btn-secondary:active {
+  background-color: rgba(0, 38, 68, 0.06);
+  color: var(--primary);
+  border-color: var(--primary-dark);
+  transform: translateY(0);
+}
+
+.card.bg-soft.text-center .btn-secondary:focus {
+  outline: none;
 }
 
 .card.bg-soft.text-center .btn-secondary:focus-visible {
