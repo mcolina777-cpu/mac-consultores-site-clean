@@ -2387,7 +2387,7 @@ body.nav-open {
 
 /* Sello del león: integración exclusiva dentro del footer */
 .footer-seal-link {
-  align-self: flex-end;
+  align-self: flex-start;
   display: inline-flex;
   align-items: center;
   justify-content: center;
