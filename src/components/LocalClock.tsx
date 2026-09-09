@@ -12,19 +12,21 @@ export default function LocalClock({ locale = "es" }: LocalClockProps) {
   useEffect(() => {
     const updateTime = () => {
       const now = new Date();
+      const isEn = locale.toLowerCase().startsWith("en");
+      const intlLocale = isEn ? "en-US" : "es-VE";
       const options: Intl.DateTimeFormatOptions = {
         timeZone: "America/Caracas",
-        hour: "2-digit",
+        hour: isEn ? "numeric" : "2-digit",
         minute: "2-digit",
         hour12: true,
       };
-      setLocalTime(new Intl.DateTimeFormat("es-VE", options).format(now));
+      setLocalTime(new Intl.DateTimeFormat(intlLocale, options).format(now));
     };
 
     updateTime();
     const intervalId = setInterval(updateTime, 60000);
     return () => clearInterval(intervalId);
-  }, []);
+  }, [locale]);
 
   return (
     <span 
