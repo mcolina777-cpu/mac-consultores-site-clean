@@ -825,18 +825,19 @@
     }
   },
   "hero": {
-    "tag": "CORPORATE CRIMINAL LAW · LOCAL COUNSEL FOR VENEZUELA",
-    "h1": "Corporate criminal defense and legal strategy in Venezuela.",
-    "desc": "We are a boutique firm focused on corporate criminal law and economic risk. We provide preventive counsel, technical defense, and judicial representation to corporations, executives, and international firms requiring rigorous legal judgment and reliable local support in Venezuela.",
-    "btn": "SCHEDULE STRATEGIC CONSULTATION",
-    "btn_hint": "We evaluate each matter individually to determine its scope, feasibility, and alignment with our practice areas. Where appropriate, we establish a professional engagement tailored to the nature and complexity of the case."
+    "tag": "BOUTIQUE LAW FIRM · CARACAS, VENEZUELA",
+    "h1": "Corporate criminal defense, legal judgment, and strategy in Venezuela.",
+    "desc": "We advise and represent corporations, executives, and international law firms in complex litigation, corporate criminal law, and the prevention of legal and asset-related risks in Venezuela, combining technical rigor with strategic judgment.",
+    "btn": "REQUEST A MATTER EVALUATION",
+    "btn_sec": "EXPLORE OUR PRACTICE",
+    "btn_hint": "We evaluate each matter individually to determine its scope, viability, and alignment with our practice areas. Where appropriate, we establish a professional engagement tailored to the nature and complexity of the matter."
   },
   "about": {
-    "tag": "Our Firm",
-    "title": "Solid foundations for complex challenges.",
-    "desc_1": "At Mac Consultores Jurídicos & Asociados, we view law as a discipline of high precision. Our practice is defined by integrity, technical rigor, and the capacity for strategic anticipation at every stage of the proceedings.",
-    "desc_2": "Led by Atty. Marco A. Colina G., we combine over two decades of experience in criminal and constitutional litigation with a vanguard academic vision, ensuring solid and ethical results for a national and international clientele.",
-    "btn": "Discover our history"
+    "tag": "OUR FIRM",
+    "title": "Technical rigor and institutional strength for complex challenges.",
+    "desc_1": "At Mac Consultores Jurídicos & Asociados, we approach the practice of law as a discipline of high technical standards. Our practice combines more than two decades of criminal and constitutional litigation experience with an academic and strategic vision dedicated to protecting corporate, asset-related, and institutional interests in Venezuela.",
+    "desc_2": "Led by Dr. Marco A. Colina G., we apply a selective and tailored methodology to every engagement. We evaluate procedural viability, anticipate contingencies, and structure legal solutions in strict compliance with forensic ethics and the protection of our clients' interests.",
+    "btn": "ABOUT THE FIRM →"
   },
   "specialties": {
     "tag": "Specialties",
@@ -873,50 +874,57 @@
     }
   },
   "home": {
-    "meta_title": "Mac Consultores Jurídicos & Asociados | Corporate criminal law and selected matters in Venezuela",
-    "meta_description": "Selective boutique law firm focused on corporate criminal law, financial fraud, asset protection and strategic procedures in Venezuela for clients abroad, including consular and document services.",
+    "meta_title": "MAC Consultores | Corporate Criminal Law in Venezuela",
+    "meta_description": "Boutique law firm specializing in corporate criminal law, complex litigation, and strategic legal counsel in Venezuela for corporations and global firms.",
     "alt_lobby": "Main lobby of Mac Consultores Jurídicos & Asociados",
-    "resources": {
-      "tag": "Resources",
-      "title": "Strategic resources for businesses",
-      "guide": {
-        "tag": "Economic criminal risk",
-        "title": "5-step guide to protect your company in economic criminal investigations",
-        "desc": "Specialized technical guide summarizing essential measures for the prevention, mitigation, and control of corporate criminal risk. It analyzes due diligence protocols, director liabilities, and institutional compliance frameworks designed to shield enterprises against complex regulatory contingencies, fiscal audits, and institutional sanctions.",
-        "cta": "READ MORE →"
+    "pillars": {
+      "tag": "PRACTICE ARCHITECTURE",
+      "title": "Legal capabilities, jurisdictional reach, and practice model.",
+      "firm": {
+        "tag": "01 · INSTITUTIONAL IDENTITY",
+        "title": "Identity & Forensic Leadership",
+        "desc": "Firm foundation, forensic background of the managing partner, and ethical principles ensuring technical independence, confidentiality, and analytical rigor in sensitive matters.",
+        "link": "Explore the firm →"
       },
-      "checklist": {
-        "tag": "Defense documentation",
-        "title": "Checklist of documentation for corporate criminal defense",
-        "desc": "A structured checklist for the systematic collection, custody, and preservation of crucial documentary and digital evidence in corporate criminal defense. It facilitates preliminary evidentiary audits and ensures procedural traceability of critical information during complex judicial inspections, regulatory inquiries, or investigative proceedings.",
-        "cta": "READ MORE →"
+      "services": {
+        "tag": "02 · FORENSIC CAPACITIES",
+        "title": "Criminal Defense & Strategic Litigation",
+        "desc": "Technical defense in white-collar offenses, corporate risk control, constitutional injunctions, and extraordinary appeals before appellate chambers and the Supreme Tribunal of Justice.",
+        "link": "View practice areas →"
       },
-      "template": {
-        "tag": "International services",
-        "title": "Template for international legal services agreements",
-        "desc": "A strategic contractual framework designed to govern cross-border legal relationships and commercial transactions connected to Venezuela. It precisely defines professional legal scopes, governing law, strict confidentiality covenants, and dispute resolution mechanisms under international standards of absolute legal certainty and institutional backing.",
-        "cta": "READ MORE →"
+      "international": {
+        "tag": "03 · CROSS-BORDER MATTERS",
+        "title": "Legal Representation in Venezuela",
+        "desc": "Legal representation for non-resident companies, individuals, and clients with legal matters, operations, or interests in Venezuela.",
+        "link": "International services →"
       },
-      "cta": "View strategic resources"
-    },
-    "strategies": {
-      "tag": "Strategic case highlights",
-      "title": "Strategies that reflect how we litigate",
-      "case_selection": {
-        "tag": "Case selection",
-        "title": "Prioritizing cases with real viability",
-        "desc": "We conduct preliminary evaluations regarding the factual, legal, and evidentiary viability of each dispute. We rigorously analyze procedural risks, defensive strengths, and regulatory contingencies to structure a clear and timely roadmap, ensuring highly technical, selective, and institutionally sound legal representation before competent judicial and prosecutorial authorities."
-      },
-      "case_theory": {
-        "tag": "Case theory",
-        "title": "Case theory as the axis of defense",
-        "desc": "We construct the theory of the case as the methodological core of technical defense, coherently integrating verifiable facts with statutory provisions and applicable evidentiary standards. We ensure absolute argumentative consistency across all procedural phases, safeguarding the client's legal position before courts, tribunals, and criminal investigation bodies."
-      },
-      "representative_scenarios": {
-        "tag": "Representative scenarios",
-        "title": "Strategies applied in sensitive contexts",
-        "desc": "We design advanced procedural strategies for high-complexity criminal, constitutional, and regulatory litigation. We anticipate adverse scenarios, articulate sound defensive remedies, and exercise rigorous oversight of fundamental guarantees to safeguard effective judicial protection, individual liberty, and corporate assets against arbitrary decisions or procedural overreach in contentious matters."
+      "alliances": {
+        "tag": "04 · B2B COOPERATION",
+        "title": "Strategic Alliances & Legal Correspondence",
+        "desc": "Local coordination and legal support for foreign law firms operating in Venezuela while retaining direct management of their client relationship.",
+        "link": "Cooperation model →"
       }
+    },
+    "publications": {
+      "tag": "LEGAL INSIGHTS & ANALYSIS",
+      "title": "Publications & Legal Analysis",
+      "article_1_tag": "CORPORATE CRIMINAL LAW",
+      "article_1_title": "Corporate Criminal Liability and Economic Crime",
+      "article_1_desc": "Doctrinal and procedural analysis regarding criminal liability risks in modern corporate management, executive accountability, and crime prevention frameworks in Venezuela.",
+      "article_2_tag": "PROCEDURAL LAW",
+      "article_2_title": "Judicial Powers of Attorney and Legal Mandates in Criminal Procedure",
+      "article_2_desc": "Comparative analysis regarding judicial representation, express powers, and power of attorney formalities under the CPC and the Organic Code of Criminal Procedure.",
+      "article_3_tag": "CONSTITUTIONAL PROTECTION",
+      "article_3_title": "Constitutional Amparo as a Safeguard of Fundamental Rights",
+      "article_3_desc": "Doctrine and case law on constitutional injunctions as an urgent and preferential judicial remedy against fundamental rights infringements.",
+      "read_more": "Read more →",
+      "view_all": "VIEW ALL PUBLICATIONS →"
+    },
+    "closing": {
+      "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
+      "quote": "“A firm built on technical rigor, professional loyalty, and legal strategy for high-complexity matters.”",
+      "desc": "Learn about our institutional approach and submit your matter for preliminary evaluation under strict confidentiality.",
+      "btn": "REQUEST A MATTER EVALUATION"
     }
   },
   "landing_estrategia_teoria_caso": {

@@ -825,18 +825,19 @@
     }
   },
   "hero": {
-    "tag": "DERECHO PENAL CORPORATIVO · LOCAL COUNSEL FOR VENEZUELA",
-    "h1": "Defensa penal corporativa y estrategia jurídica en Venezuela.",
-    "desc": "Somos una firma boutique especializada en derecho penal corporativo y riesgos económicos. Brindamos asesoría preventiva, defensa técnica y representación judicial a empresas, directivos y firmas internacionales que requieren criterio jurídico riguroso y apoyo local en Venezuela.",
-    "btn": "AGENDAR CONSULTA ESTRATÉGICA",
-    "btn_hint": "Evaluamos cada asunto de manera individual para determinar su alcance, viabilidad y encaje con nuestras áreas de práctica. Cuando corresponde, establecemos una relación profesional ajustada a la naturaleza y complejidad del asunto."
+    "tag": "FIRMA JURÍDICA BOUTIQUE · CARACAS, VENEZUELA",
+    "h1": "Defensa penal corporativa, criterio jurídico y estrategia en Venezuela.",
+    "desc": "Asesoramos y representamos a empresas, directivos y firmas internacionales en litigios complejos, derecho penal corporativo y prevención de riesgos patrimoniales en Venezuela, combinando rigor técnico con visión estratégica.",
+    "btn": "SOLICITAR EVALUACIÓN DE ASUNTO",
+    "btn_sec": "CONOCER NUESTRA PRÁCTICA",
+    "btn_hint": "Evaluamos cada asunto de manera individual para determinar su alcance, viabilidad y encaje con nuestras áreas de práctica. Cuando corresponde, establecemos una relación profesional ajustada a la naturaleza y complejidad del encargo."
   },
   "about": {
-    "tag": "Nuestra Firma",
-    "title": "Cimientos sólidos para desafíos complejos.",
-    "desc_1": "En Mac Consultores Jurídicos & Asociados, entendemos el derecho como una disciplina de alta precisión. Nuestra práctica se define por la integridad, el rigor técnico y la capacidad de anticipación estratégica en cada etapa del proceso.",
-    "desc_2": "Liderados por el Abg. Marco A. Colina G., combinamos más de dos décadas de experiencia en el litigio penal y constitucional con una visión académica de vanguardia, garantizando resultados sólidos y éticos para una clientela nacional e internacional.",
-    "btn": "Conocer nuestra historia"
+    "tag": "NUESTRA FIRMA",
+    "title": "Criterio técnico y solidez institucional para desafíos complejos.",
+    "desc_1": "En Mac Consultores Jurídicos & Asociados concebimos el ejercicio del derecho como una disciplina de alta exigencia técnica. Nuestra práctica combina más de dos décadas de experiencia en litigio penal y constitucional con una visión académica y estratégica orientada a la protección de intereses corporativos, patrimoniales e institucionales en Venezuela.",
+    "desc_2": "Bajo la dirección del Dr. Marco A. Colina G., aplicamos una metodología selectiva y personalizada en cada mandato. Analizamos la viabilidad procesal, anticipamos contingencias y estructuramos soluciones jurídicas con estricto apego a la deontología forense y a la protección de los intereses de nuestros clientes.",
+    "btn": "CONOCER LA FIRMA →"
   },
   "specialties": {
     "tag": "Especialidades",
@@ -873,50 +874,57 @@
     }
   },
   "home": {
-    "meta_title": "Mac Consultores Jurídicos & Asociados | Penal corporativo y casos selectos en Venezuela",
-    "meta_description": "Firma boutique selectiva que atiende casos de derecho penal corporativo, fraudes, estafas financieras y asuntos patrimoniales en Venezuela para clientes en el exterior, complementados con trámites consulares y documentales estratégicos.",
+    "meta_title": "Mac Consultores Jurídicos | Penal Corporativo en Venezuela",
+    "meta_description": "Firma boutique especializada en derecho penal corporativo, litigio complejo y consultoría jurídica estratégica en Venezuela para empresas y firmas globales.",
     "alt_lobby": "Lobby principal de Mac Consultores Jurídicos & Asociados",
-    "resources": {
-      "tag": "Recursos",
-      "title": "Recursos estratégicos para empresas",
-      "guide": {
-        "tag": "Riesgo penal económico",
-        "title": "Guía en 5 pasos para proteger su empresa ante investigaciones penales económicas",
-        "desc": "Guía técnica especializada que sistematiza las medidas clave para la prevención, mitigación y control del riesgo penal corporativo. Analiza protocolos de debida diligencia, responsabilidad de los administradores y estructuras de cumplimiento normativo para blindar a la empresa frente a contingencias regulatorias, investigaciones fiscales y sanciones institucionales complejas.",
-        "cta": "LEER MÁS →"
+    "pillars": {
+      "tag": "ARQUITECTURA DE PRÁCTICA",
+      "title": "Capacidades jurídicas, alcance y modelo de actuación.",
+      "firm": {
+        "tag": "01 · IDENTIDAD INSTITUCIONAL",
+        "title": "Identidad y Dirección Forense",
+        "desc": "Fundación, trayectoria procesal del socio fundador y principios deontológicos que garantizan independencia técnica, confidencialidad y rigor analítico en la conducción de asuntos sensibles.",
+        "link": "Conocer la firma →"
       },
-      "checklist": {
-        "tag": "Documentación para la defensa",
-        "title": "Checklist de documentación para la defensa penal de empresas",
-        "desc": "Lista estructurada y exhaustiva para la recopilación, custodia y preservación de evidencias documentales y digitales indispensables en la defensa penal corporativa. Facilita la auditoría probatoria preliminar y garantiza la trazabilidad procesal de la información crítica ante posibles requerimientos judiciales, inspecciones administrativas e investigaciones penales de alta complejidad.",
-        "cta": "LEER MÁS →"
+      "services": {
+        "tag": "02 · CAPACIDADES FORENSES",
+        "title": "Defensa Penal y Litigio Estratégico",
+        "desc": "Defensa técnica en delitos económicos, control de riesgos corporativos, amparo constitucional y recursos extraordinarios ante tribunales superiores y la Sala de Casación Penal.",
+        "link": "Ver áreas de práctica →"
       },
-      "template": {
-        "tag": "Servicios internacionales",
-        "title": "Plantilla de contrato de prestación de servicios legales internacionales",
-        "desc": "Estructura contractual estratégica diseñada para regular relaciones jurídicas y transacciones comerciales transfronterizas con conexión en Venezuela. Delimita con precisión el alcance de la representación letrada, ley aplicable, cláusulas de estricta confidencialidad y mecanismos de resolución de controversias bajo estándares internacionales de absoluta seguridad y solvencia jurídica.",
-        "cta": "LEER MÁS →"
+      "international": {
+        "tag": "03 · ASUNTOS TRANSFRONTERIZOS",
+        "title": "Representación Jurídica en Venezuela",
+        "desc": "Representación jurídica para empresas, personas y patrimonios no residentes con asuntos, operaciones o intereses jurídicos en Venezuela.",
+        "link": "Servicios internacionales →"
       },
-      "cta": "Ver recursos estratégicos"
-    },
-    "strategies": {
-      "tag": "Estrategias representativas",
-      "title": "Estrategias que reflejan nuestra forma de litigar",
-      "case_selection": {
-        "tag": "Selección de casos",
-        "title": "Priorización de casos con viabilidad real",
-        "desc": "Evaluamos preliminarmente la viabilidad fáctica, jurídica y probatoria de cada controversia legal. Analizamos con rigor los riesgos procesales, fortalezas defensivas y contingencias regulatorias para estructurar una ruta estratégica clara y oportuna, garantizando una intervención letrada de alta exigencia técnica, selectiva y con plena solvencia institucional ante las autoridades competentes."
-      },
-      "case_theory": {
-        "tag": "Teoría del caso",
-        "title": "Teoría del caso como eje de la defensa",
-        "desc": "Construimos la teoría del caso como eje metodológico y rector de la defensa técnica, integrando coherentemente los hechos verificables con la subsunción normativa y el estándar probatorio aplicable. Aseguramos absoluta consistencia argumentativa durante todas las etapas del procedimiento, blindando la posición jurídica del justiciable ante tribunales y órganos de investigación penal."
-      },
-      "representative_scenarios": {
-        "tag": "Escenarios representativos",
-        "title": "Estrategias aplicadas en contextos sensibles",
-        "desc": "Diseñamos estrategias procesales avanzadas para litigios penales, constitucionales y regulatorios de alta complejidad técnica. Anticipamos escenarios adversos, articulamos medios de defensa idóneos y ejercemos un estricto control de garantías fundamentales para salvaguardar la tutela judicial efectiva, la libertad individual y el patrimonio corporativo frente a decisiones o actuaciones arbitrarias."
+      "alliances": {
+        "tag": "04 · COOPERACIÓN B2B",
+        "title": "Alianzas y Corresponsalía Jurídica",
+        "desc": "Coordinación y soporte jurídico local para firmas extranjeras que requieren actuar en Venezuela sin perder la dirección de la relación con su cliente.",
+        "link": "Modelo de corresponsalía →"
       }
+    },
+    "publications": {
+      "tag": "CRITERIO JURÍDICO & ANÁLISIS",
+      "title": "Publicaciones y Criterio Forense Propio",
+      "article_1_tag": "DERECHO PENAL CORPORATIVO",
+      "article_1_title": "Responsabilidad Penal de las Personas Jurídicas y Criminalidad Económica",
+      "article_1_desc": "Análisis dogmático y procesal sobre los riesgos penales en la gestión empresarial moderna, la responsabilidad directiva y los programas de prevención delictiva en Venezuela.",
+      "article_2_tag": "DERECHO PROCESAL",
+      "article_2_title": "El Régimen de Poderes y Mandatos Judiciales en el Proceso Penal",
+      "article_2_desc": "Análisis comparativo sobre la representación judicial, facultades expresas y formalidades de apoderamiento bajo el CPC y el Código Orgánico Procesal Penal.",
+      "article_3_tag": "TUTELA CONSTITUCIONAL",
+      "article_3_title": "La Acción de Amparo Constitucional como Tutela de Garantías Vitales",
+      "article_3_desc": "Doctrina y jurisprudencia sobre el amparo como mecanismo de tutela judicial urgente y preferente frente a la vulneración de derechos fundamentales.",
+      "read_more": "Leer más →",
+      "view_all": "VER TODAS LAS PUBLICACIONES →"
+    },
+    "closing": {
+      "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
+      "quote": "“Una firma construida sobre rigor técnico, lealtad profesional y estrategia jurídica para asuntos de alta complejidad.”",
+      "desc": "Conozca nuestro enfoque institucional y someta su asunto a evaluación preliminar bajo estricta confidencialidad.",
+      "btn": "SOLICITAR EVALUACIÓN DE ASUNTO"
     }
   },
   "landing_estrategia_teoria_caso": {

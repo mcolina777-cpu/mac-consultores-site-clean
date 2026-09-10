@@ -47,9 +47,20 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
             {dict?.desc}
           </p>
           <div className="hero-btns" style={{ marginTop: '1.5rem' }}>
-            <Link href={getRoute(locale, "contact")} className="btn btn-primary">
-              {dict?.btn}
-            </Link>
+            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
+              <Link href={getRoute(locale, "contact")} className="btn btn-primary" style={{ marginTop: 0 }}>
+                {dict?.btn}
+              </Link>
+              {dict?.btn_sec && (
+                <Link
+                  href={getRoute(locale, "services")}
+                  className="btn btn-outline"
+                  style={{ color: '#ffffff', borderColor: 'rgba(255, 255, 255, 0.6)' }}
+                >
+                  {dict.btn_sec}
+                </Link>
+              )}
+            </div>
             {dict?.btn_hint && (
               <p
                 className="hero-btn-hint text-sm"
