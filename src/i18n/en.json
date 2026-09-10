@@ -421,10 +421,61 @@
   },
   "tramites_consulares": {
     "title": "Venezuelans Abroad | Mac Consultores Jurídicos & Asociados",
-    "breadcrumb": "Services / Diaspora",
-    "h1": "Legal Management for Venezuelans Abroad and International Clients",
-    "subtitle": "We protect and manage your interests in Venezuela, no matter where you are.",
-    "intro_p": "The Venezuelan diaspora and growing international interconnection have increased cases where individuals and companies maintain asset, corporate, or legal interests in Venezuela, even when their residence, economic activity, or operations center is abroad. At Mac Consultores Jurídicos & Asociados, we provide legal advice, representation, and local management to Venezuelans residing overseas, as well as to companies, investors, and international clients requiring professional action within the Venezuelan jurisdiction, without needing to physically travel to the country.",
+    "breadcrumb": "LOCAL COUNSEL · CROSS-BORDER PRACTICE",
+    "h1": "Local Counsel and Legal Representation in Venezuela",
+    "subtitle": "Rigorous legal judgment, procedural leadership, and local legal support for corporations, international law firms, and clients with interests in the country.",
+    "intro_p": "In a complex jurisdictional landscape, strategic decisions require specialized legal judgment, local institutional insight, and strict professional discretion. At Mac Consultores Jurídicos & Asociados, we act as Local Counsel for foreign law firms and assist multinational corporations, investors, and non-resident clients requiring skilled technical defense, court representation, and cross-border coordination in Venezuela, delivering rigorous analysis and procedural guidance without requiring unnecessary travel.",
+    "cta_primary": "ASSESS YOUR MATTER WITH LOCAL COUNSEL",
+    "cta_secondary": "EXPLORE PRACTICE AREAS",
+    "bloque_1": {
+      "tag": "CORPORATE PRACTICE",
+      "title": "Local Counsel & Cross-Border Practice",
+      "subtitle": "Specialized legal support in Venezuela for global enterprises and law firms.",
+      "intro": "We coordinate with corporate boards, in-house counsel, and international law firms to deliver formal legal opinions, structure cross-border transactions, and manage litigation before Venezuelan judicial and regulatory authorities.",
+      "card_1": {
+        "tag": "01",
+        "title": "Local Counsel for Foreign Law Firms",
+        "desc": "We act as local co-counsel and strategic correspondents in Venezuela for international law firms and corporate legal departments. We issue independent legal opinions, assess regulatory exposures, and articulate court defense in direct coordination with foreign lead counsel.",
+        "link": "VIEW DETAILS →"
+      },
+      "card_2": {
+        "tag": "02",
+        "title": "Cross-Border Contracts & Compliance",
+        "desc": "We structure, audit, and negotiate cross-border commercial contracts executed in Venezuela. We evaluate governing law, appropriate jurisdiction, and dispute resolution clauses, mitigating legal and financial exposure against unexpected regulatory shifts and local operational contingencies.",
+        "link": "VIEW DETAILS →"
+      },
+      "card_3": {
+        "tag": "03",
+        "title": "Court Litigation & Judicial Defense in Venezuela",
+        "desc": "We provide technical advocacy and procedural direction across civil, commercial, and corporate disputes before Venezuelan trial and appellate courts. We conduct litigation with evidentiary rigor, remote case tracking, and transparent reporting under strict confidentiality standards.",
+        "link": "VIEW DETAILS →"
+      }
+    },
+    "bloque_2": {
+      "tag": "PRIVATE CLIENT & ASSETS",
+      "title": "Notarial Instruments & Asset Representation",
+      "subtitle": "Technical precision in legal mandates and asset governance for non-residents.",
+      "intro": "We assist private clients and family offices in the legal structuring and disposition of assets in Venezuela, drafting strict powers of attorney and facilitating the formal validity and effectiveness of instruments executed before foreign notaries and consular offices.",
+      "card_1": {
+        "tag": "04",
+        "title": "Strategic Powers of Attorney & Mandates",
+        "desc": "We structure and review powers of attorney with meticulous delimitation of judicial, administrative, and asset-disposition powers. We seek formal regularity and help prevent registry defects in instruments granted before foreign notaries or consular missions abroad.",
+        "link": "VIEW DETAILS →"
+      },
+      "card_2": {
+        "tag": "05",
+        "title": "Cross-Border Document Authentication",
+        "desc": "We coordinate evidentiary review, legalization, and Hague Apostille processing for corporate and private documents intended to take legal effect in Venezuela or abroad, helping support their admissibility in judicial and administrative proceedings.",
+        "link": "VIEW DETAILS →"
+      }
+    },
+    "cierre": {
+      "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
+      "quote": "“Cross-border legal coordination demands technical rigor, local legal insight, and a precise understanding of Venezuela’s institutional framework.”",
+      "desc": "We evaluate corporate, procedural, and asset matters connected to Venezuela to determine their legal viability and structure a tailored domestic strategy.",
+      "btn_primary": "EVALUATE MATTER WITH THE FIRM",
+      "btn_secondary": "← BACK TO HOME"
+    },
     "support": {
       "tag": "Areas of Support",
       "title": "Specialized Services for Abroad",

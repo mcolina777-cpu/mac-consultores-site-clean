@@ -421,10 +421,61 @@
   },
   "tramites_consulares": {
     "title": "Venezolanos en el Exterior | Mac Consultores Jurídicos & Asociados",
-    "breadcrumb": "Servicios / Diáspora",
-    "h1": "Gestión Jurídica para Venezolanos en el Exterior y Clientes Internacionales",
-    "subtitle": "Protegemos y gestionamos sus intereses en Venezuela, sin importar dónde se encuentre.",
-    "intro_p": "La diáspora venezolana y la interconexión internacional han incrementado los casos en que personas y empresas mantienen intereses patrimoniales, corporativos o jurídicos en Venezuela, aun cuando su residencia o centro de operaciones esté en el extranjero. En Mac Consultores Jurídicos & Asociados brindamos asesoría, representación y gestión jurídica local a venezolanos en el exterior, así como a empresas, inversionistas y clientes internacionales que requieren actuación profesional dentro de la jurisdicción venezolana, sin que deban trasladarse físicamente al país.",
+    "breadcrumb": "LOCAL COUNSEL · PRÁCTICA TRANSFRONTERIZA",
+    "h1": "Local Counsel y Representación Jurídica en Venezuela",
+    "subtitle": "Criterio jurídico riguroso, dirección procesal y acompañamiento local para corporaciones, despachos internacionales y clientes con intereses en el país.",
+    "intro_p": "En un entorno jurisdiccional complejo, las decisiones estratégicas requieren criterio técnico especializado, comprensión del medio local y estricta reserva profesional. En Mac Consultores Jurídicos & Asociados actuamos como Local Counsel para firmas de abogados extranjeras y asistimos a corporaciones, inversionistas y clientes no residentes que requieren representación letrada, defensa procesal y coordinación jurídica en Venezuela, aportando análisis riguroso y seguimiento letrado sin requerir traslados innecesarios.",
+    "cta_primary": "EVALUAR ASUNTO CON LOCAL COUNSEL",
+    "cta_secondary": "CONOCER ÁREAS DE PRÁCTICA",
+    "bloque_1": {
+      "tag": "PRÁCTICA CORPORATIVA",
+      "title": "Local Counsel y Asuntos Transfronterizos",
+      "subtitle": "Soporte letrado en Venezuela para corporaciones y despachos globales.",
+      "intro": "Coordinamos con órganos directivos, asesorías jurídicas internas y firmas internacionales en la emisión de dictámenes, estructuración de acuerdos transfronterizos y conducción de litigios ante la jurisdicción venezolana.",
+      "card_1": {
+        "tag": "01",
+        "title": "Local Counsel para Firmas Extranjeras",
+        "desc": "Actuamos como corresponsales jurídicos y asesores locales en Venezuela para firmas internacionales y departamentos legales. Emitimos opiniones jurídicas independientes, evaluamos contingencias regulatorias y articulamos la defensa técnica en coordinación directa con el equipo letrado matriz.",
+        "link": "VER DETALLES →"
+      },
+      "card_2": {
+        "tag": "02",
+        "title": "Contratación Transfronteriza y Cumplimiento",
+        "desc": "Estructuramos, auditamos y negociamos contratos mercantiles internacionales con ejecución en Venezuela. Evaluamos ley aplicable, jurisdicción idónea y cláusulas arbitrales, mitigando la exposición patrimonial frente a cambios normativos o riesgos operativos locales.",
+        "link": "VER DETALLES →"
+      },
+      "card_3": {
+        "tag": "03",
+        "title": "Representación Judicial y Litigios en Venezuela",
+        "desc": "Ejercemos la defensa técnica y dirección procesal en controversias civiles, mercantiles y societarias ante tribunales venezolanos. Conducimos cada litigio con rigor probatorio, monitoreo a distancia e informes periódicos con absoluta confidencialidad.",
+        "link": "VER DETALLES →"
+      }
+    },
+    "bloque_2": {
+      "tag": "PRÁCTICA PATRIMONIAL",
+      "title": "Instrumentación Notarial y Asuntos Patrimoniales",
+      "subtitle": "Rigor técnico en mandatos y actos jurídicos para clientes no residentes.",
+      "intro": "Asistimos a personas naturales y grupos familiares en la estructuración jurídica y disposición de activos en Venezuela, redactando apoderamientos rigurosos y facilitando la adecuada eficacia de instrumentos otorgados en el exterior.",
+      "card_1": {
+        "tag": "04",
+        "title": "Poderes y Mandatos Estratégicos",
+        "desc": "Diseñamos y auditamos mandatos y poderes notariales con delimitación precisa de facultades judiciales, administrativas y de disposición. Procuramos la regularidad formal y prevenimos nulidades registrales en instrumentos otorgados ante notarías o sedes consulares en el extranjero.",
+        "link": "VER DETALLES →"
+      },
+      "card_2": {
+        "tag": "05",
+        "title": "Eficacia Documental y Homologación",
+        "desc": "Coordinamos la revisión probatoria, legalización y trámite de apostilla de La Haya para documentos corporativos y patrimoniales destinados a surtir efectos en Venezuela o el exterior, orientados a respaldar su admisibilidad judicial y eficacia jurídica y administrativa.",
+        "link": "VER DETALLES →"
+      }
+    },
+    "cierre": {
+      "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
+      "quote": "“La coordinación jurídica transfronteriza exige rigor técnico, criterio local y comprensión precisa del marco institucional venezolano.”",
+      "desc": "Evaluamos asuntos corporativos, procesales y patrimoniales con nexo en Venezuela para determinar su viabilidad técnica y proponer una estrategia de actuación local adaptada a sus requerimientos.",
+      "btn_primary": "EVALUAR ASUNTO CON LA FIRMA",
+      "btn_secondary": "← VOLVER AL INICIO"
+    },
     "support": {
       "tag": "Áreas de Soporte",
       "title": "Servicios Especializados para el Exterior",
@@ -455,7 +506,7 @@
       "card_5": {
         "tag": "05",
         "title": "Representación Judicial",
-        "desc": "Ejercemos la representación judicial y defensa técnica de derechos patrimoniales ante tribunales venezolanos para clientes domiciliados en el exterior. Conducimos litigios civiles y mercantiles con dirección procesal rigurosa, monitoreo a distancia y rendición periódica de cuentas con absoluta transparencia.",
+        "desc": "Ejercemos la representación judicial y defensa técnica de derechos patrimoniales ante tribunales venezolanos para clientes domiciliados en el exterior. Conducimos litigios civiles y mercantiles con dirección procesal rigurosa, monitoreo a distancia e informes periódicos con absoluta transparencia.",
         "link": "VER DETALLES →"
       },
       "card_6": {

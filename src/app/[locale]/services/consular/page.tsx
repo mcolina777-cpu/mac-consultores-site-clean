@@ -64,9 +64,25 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
     <main className="page-tramites-consulares">
       <header className="page-header header-soft-bg">
         <div className="container">
-          <span className="section-tag" >{dict?.tramites_consulares?.breadcrumb}</span>
+          <span className="section-tag">{dict?.tramites_consulares?.breadcrumb}</span>
           <h1 className="mb-1-5rem">{dict?.tramites_consulares?.h1}</h1>
-          <p className="hero-subtitle" >{dict?.tramites_consulares?.subtitle}</p>
+          <p className="hero-subtitle mb-2rem">{dict?.tramites_consulares?.subtitle}</p>
+          <div
+            style={{
+              display: 'flex',
+              gap: '1rem',
+              justifyContent: 'center',
+              flexWrap: 'wrap',
+              marginTop: '1.5rem',
+            }}
+          >
+            <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
+              {dict?.tramites_consulares?.cta_primary}
+            </Link>
+            <Link href={`${getRoute(locale, 'home')}#areas-practica`} className="btn btn-secondary">
+              {dict?.tramites_consulares?.cta_secondary}
+            </Link>
+          </div>
         </div>
       </header>
 
@@ -79,80 +95,108 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
             <div className="img-reveal">
               <picture>
                 <source srcSet="/assets/img-webp/SALA_REUNIONES_1_OPT.webp" type="image/webp" />
-                <img src="/assets/img/SALA_REUNIONES_1_OPT.jpg" alt="Sala de Reuniones Internacionales en Mac Consultores" width="2752" height="1536" loading="lazy" />
+                <img
+                  src="/assets/img/SALA_REUNIONES_1_OPT.jpg"
+                  alt={isEs ? "Sala de Reuniones Internacionales en Mac Consultores" : "International Meeting Room at Mac Consultores"}
+                  width="2752"
+                  height="1536"
+                  loading="lazy"
+                />
               </picture>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="bg-soft">
+      {/* BLOQUE 1: ACTUACIÓN CORPORATIVA Y TRANSFRONTERIZA (3 TARJETAS) */}
+      <section className="bg-soft section-padding-asym">
         <div className="container">
-          <div className="section-header text-left mb-4rem">
-            <span className="section-tag" >{dict?.tramites_consulares?.support?.tag}</span>
-            <h2 className="section-title heading-xl mb-0-5rem">{dict?.tramites_consulares?.support?.title}</h2>
+          <div className="section-header text-left mb-3rem">
+            <span className="section-tag">{dict?.tramites_consulares?.bloque_1?.tag}</span>
+            <h2 className="section-title heading-xl mb-0-5rem">{dict?.tramites_consulares?.bloque_1?.title}</h2>
+            <p className="hero-subtitle mb-1rem" style={{ fontSize: '1.1rem', color: 'var(--primary)' }}>
+              {dict?.tramites_consulares?.bloque_1?.subtitle}
+            </p>
+            <p className="max-w-800 text-muted" style={{ lineHeight: 1.6, fontSize: '0.95rem' }}>
+              {dict?.tramites_consulares?.bloque_1?.intro}
+            </p>
           </div>
           <div className="grid-3">
-            {/* T1: Práctica Consular */}
+            {/* T1: Local Counsel para Firmas Extranjeras */}
             <Link href={getRoute(locale, "consular.practica_consular")} className="card">
-              <span className="section-tag">{dict?.tramites_consulares?.support?.card_1?.tag || "01"}</span>
-              <h3>{dict?.tramites_consulares?.support?.card_1?.title}</h3>
+              <span className="section-tag">{dict?.tramites_consulares?.bloque_1?.card_1?.tag || "01"}</span>
+              <h3>{dict?.tramites_consulares?.bloque_1?.card_1?.title}</h3>
               <p className="card-editorial-text">
-                {dict?.tramites_consulares?.support?.card_1?.desc}
+                {dict?.tramites_consulares?.bloque_1?.card_1?.desc}
               </p>
               <span className="card-link">
-                {dict?.tramites_consulares?.support?.card_1?.link || "VER DETALLES →"}
+                {dict?.tramites_consulares?.bloque_1?.card_1?.link || (isEs ? "VER DETALLES →" : "VIEW DETAILS →")}
               </span>
             </Link>
-            
-            {/* T2: Gestión Jurídico-Documental */}
-            <Link href={getRoute(locale, "consular.gestion_documental")} className="card block-link">
-              <span className="section-tag">{dict?.tramites_consulares?.support?.card_2?.tag || "02"}</span>
-              <h3>{dict?.tramites_consulares?.support?.card_2?.title}</h3>
+
+            {/* T2: Contratación Transfronteriza y Cumplimiento */}
+            <Link href={getRoute(locale, "consular.contratos_internacionales")} className="card">
+              <span className="section-tag">{dict?.tramites_consulares?.bloque_1?.card_2?.tag || "02"}</span>
+              <h3>{dict?.tramites_consulares?.bloque_1?.card_2?.title}</h3>
               <p className="card-editorial-text">
-                {dict?.tramites_consulares?.support?.card_2?.desc}
+                {dict?.tramites_consulares?.bloque_1?.card_2?.desc}
               </p>
-              <span className="card-link">{dict?.tramites_consulares?.support?.card_2?.link || "VER DETALLES →"}</span>
+              <span className="card-link">
+                {dict?.tramites_consulares?.bloque_1?.card_2?.link || (isEs ? "VER DETALLES →" : "VIEW DETAILS →")}
+              </span>
             </Link>
-            
-            {/* T3: Contratos y Negocios Internacionales */}
-            <Link href={getRoute(locale, "consular.contratos_internacionales")} className="card block-link">
-              <span className="section-tag">{dict?.tramites_consulares?.support?.card_3?.tag || "03"}</span>
-              <h3>{dict?.tramites_consulares?.support?.card_3?.title}</h3>
+
+            {/* T3: Representación Judicial y Litigios en Venezuela */}
+            <Link href={getRoute(locale, "consular.representacion_judicial")} className="card">
+              <span className="section-tag">{dict?.tramites_consulares?.bloque_1?.card_3?.tag || "03"}</span>
+              <h3>{dict?.tramites_consulares?.bloque_1?.card_3?.title}</h3>
               <p className="card-editorial-text">
-                {dict?.tramites_consulares?.support?.card_3?.desc}
+                {dict?.tramites_consulares?.bloque_1?.card_3?.desc}
               </p>
-              <span className="card-link">{dict?.tramites_consulares?.support?.card_3?.link || "VER DETALLES →"}</span>
+              <span className="card-link">
+                {dict?.tramites_consulares?.bloque_1?.card_3?.link || (isEs ? "VER DETALLES →" : "VIEW DETAILS →")}
+              </span>
             </Link>
-            
-            {/* T4: Materia Energética */}
-            <Link href={getRoute(locale, "consular.materia_energetica")} className="card block-link">
-              <span className="section-tag">{dict?.tramites_consulares?.support?.card_4?.tag || "04"}</span>
-              <h3>{dict?.tramites_consulares?.support?.card_4?.title}</h3>
+          </div>
+        </div>
+      </section>
+
+      {/* BLOQUE 2: ASUNTOS PATRIMONIALES Y DOCUMENTACIÓN JURÍDICA (2 TARJETAS) */}
+      <section className="section-padding-asym">
+        <div className="container">
+          <div className="section-header text-left mb-3rem">
+            <span className="section-tag">{dict?.tramites_consulares?.bloque_2?.tag}</span>
+            <h2 className="section-title heading-xl mb-0-5rem">{dict?.tramites_consulares?.bloque_2?.title}</h2>
+            <p className="hero-subtitle mb-1rem" style={{ fontSize: '1.1rem', color: 'var(--primary)' }}>
+              {dict?.tramites_consulares?.bloque_2?.subtitle}
+            </p>
+            <p className="max-w-800 text-muted" style={{ lineHeight: 1.6, fontSize: '0.95rem' }}>
+              {dict?.tramites_consulares?.bloque_2?.intro}
+            </p>
+          </div>
+          <div className="grid-2">
+            {/* T4: Poderes y Mandatos Estratégicos */}
+            <Link href={getRoute(locale, "consular.poderes_y_mandatos")} className="card">
+              <span className="section-tag">{dict?.tramites_consulares?.bloque_2?.card_1?.tag || "04"}</span>
+              <h3>{dict?.tramites_consulares?.bloque_2?.card_1?.title}</h3>
               <p className="card-editorial-text">
-                {dict?.tramites_consulares?.support?.card_4?.desc}
+                {dict?.tramites_consulares?.bloque_2?.card_1?.desc}
               </p>
-              <span className="card-link">{dict?.tramites_consulares?.support?.card_4?.link || "VER DETALLES →"}</span>
+              <span className="card-link">
+                {dict?.tramites_consulares?.bloque_2?.card_1?.link || (isEs ? "VER DETALLES →" : "VIEW DETAILS →")}
+              </span>
             </Link>
-            
-            {/* T5: Representación Judicial */}
-            <Link href={getRoute(locale, "consular.representacion_judicial")} className="card block-link">
-              <span className="section-tag">{dict?.tramites_consulares?.support?.card_5?.tag || "05"}</span>
-              <h3>{dict?.tramites_consulares?.support?.card_5?.title}</h3>
+
+            {/* T5: Eficacia Documental y Homologación */}
+            <Link href={getRoute(locale, "consular.gestion_documental")} className="card">
+              <span className="section-tag">{dict?.tramites_consulares?.bloque_2?.card_2?.tag || "05"}</span>
+              <h3>{dict?.tramites_consulares?.bloque_2?.card_2?.title}</h3>
               <p className="card-editorial-text">
-                {dict?.tramites_consulares?.support?.card_5?.desc}
+                {dict?.tramites_consulares?.bloque_2?.card_2?.desc}
               </p>
-              <span className="card-link">{dict?.tramites_consulares?.support?.card_5?.link || "VER DETALLES →"}</span>
-            </Link>
-            
-            {/* T6: Poderes y Mandatos Estratégicos */}
-            <Link href={getRoute(locale, "consular.poderes_y_mandatos")} className="card block-link">
-              <span className="section-tag">{dict?.tramites_consulares?.support?.card_6?.tag || "06"}</span>
-              <h3>{dict?.tramites_consulares?.support?.card_6?.title}</h3>
-              <p className="card-editorial-text">
-                {dict?.tramites_consulares?.support?.card_6?.desc}
-              </p>
-              <span className="card-link">{dict?.tramites_consulares?.support?.card_6?.link || "VER DETALLES →"}</span>
+              <span className="card-link">
+                {dict?.tramites_consulares?.bloque_2?.card_2?.link || (isEs ? "VER DETALLES →" : "VIEW DETAILS →")}
+              </span>
             </Link>
           </div>
         </div>
@@ -169,24 +213,18 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
             }}
           >
             <span className="section-tag">
-              {isEs
-                ? 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'
-                : 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'}
+              {dict?.tramites_consulares?.cierre?.tag || 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'}
             </span>
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
-              {isEs
-                ? '“La asistencia jurídica en Venezuela exige claridad, diligencia profesional y una comprensión precisa del entorno local.”'
-                : '“Legal assistance in Venezuela requires clarity, professional diligence, and a precise understanding of the local environment.”'}
+              {dict?.tramites_consulares?.cierre?.quote}
             </h3>
 
             <p
               className="max-w-800 mx-auto mb-2rem text-muted"
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
-              {isEs
-                ? 'Acompañamos a ciudadanos, empresas y organizaciones en la evaluación de asuntos consulares y requerimientos jurídicos vinculados con Venezuela.'
-                : 'We assist individuals, companies, and organizations in assessing consular matters and legal requirements connected to Venezuela.'}
+              {dict?.tramites_consulares?.cierre?.desc}
             </p>
 
             <div
@@ -198,10 +236,10 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
               }}
             >
               <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
-                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+                {dict?.tramites_consulares?.cierre?.btn_primary || (isEs ? 'EVALUAR ASUNTO CON LA FIRMA' : 'EVALUATE MATTER WITH THE FIRM')}
               </Link>
               <Link href={getRoute(locale, 'home')} className="btn btn-secondary">
-                {isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME'}
+                {dict?.tramites_consulares?.cierre?.btn_secondary || (isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME')}
               </Link>
             </div>
           </div>
