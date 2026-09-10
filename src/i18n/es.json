@@ -134,20 +134,20 @@
     "history": {
       "tag": "NUESTRA TRAYECTORIA",
       "title": "Génesis y vocación institucional",
-      "p1": "MAC Consultores Jurídicos & Asociados es una firma boutique especializada en litigio penal corporativo, tutela constitucional y controversias complejas, con sede en la ciudad de Caracas, Venezuela, fundada en el año 2015 por el Dr. Marco A. Colina G.",
-      "p2": "Desde su origen, la firma fue concebida como un despacho de alta exigencia técnica, fundado sobre la articulación entre el análisis dogmático riguroso y la práctica forense en tribunales. A lo largo de su trayectoria, ha consolidado un ejercicio profesional independiente, enfocado en la defensa técnica de personas naturales, empresas y grupos corporativos nacionales e internacionales con intereses en el país."
+      "p1": "Fundada en 2015 en Caracas, MAC Consultores Jurídicos & Asociados es una firma boutique especializada en litigio penal corporativo, tutela constitucional y controversias complejas.",
+      "p2": "Desde su origen, articula el análisis dogmático con la práctica forense para ejercer una defensa técnica independiente en favor de empresas, directivos y grupos corporativos con intereses en Venezuela."
     },
     "boutique": {
       "tag": "MODELO DE ACTUACIÓN",
       "title": "La práctica boutique: profundidad técnica sobre volumen masivo",
-      "p1": "MAC Consultores Jurídicos & Asociados opera bajo un modelo deliberado de firma boutique. Frente a las estructuras generalistas orientadas a la tramitación estandarizada o al litigio de volumen, la firma limita conscientemente el número de mandatos que asume para garantizar un estudio dogmático exhaustivo, una inmersión directa en el acervo probatorio y una conducción procesal personalizada en cada caso.",
-      "p2": "Operar como boutique implica que ningún expediente sensible es delegado a personal subalterno sin supervisión estricta. Cada asunto confiado al despacho cuenta con la dirección directa y el criterio estratégico de su liderazgo profesional, asegurando un control riguroso de términos procesales, una interlocución permanente con el mandante y un estándar técnico orientado a la protección jurídica de intereses patrimoniales e institucionales en Venezuela."
+      "p1": "Operamos bajo un modelo deliberado de firma boutique. Frente al litigio masivo, limitamos conscientemente el número de mandatos para dedicar a cada asunto un estudio dogmático exhaustivo y una inmersión probatoria directa.",
+      "p2": "Cada caso se conduce bajo la dirección directa de nuestro liderazgo profesional, con supervisión técnica acorde con la naturaleza del asunto. Preservamos la profundidad analítica, el control de los lapsos y una interlocución transparente con el cliente en la protección jurídica de sus intereses."
     },
     "intake": {
       "tag": "CRITERIO DE ADMISIÓN",
       "title": "Admisión selectiva y viabilidad procesal responsable",
-      "p1": "La firma no acepta mandatos de forma indiscriminada. El ejercicio responsable del Derecho exige determinar con objetividad, antes de formalizar la representación, si una controversia posee fundamento jurídico real, viabilidad procesal razonable y compatibilidad ética con nuestros estándares deontológicos.",
-      "p2": "Este proceso de admisión selectiva protege a nuestros clientes de litigios infundados o de expectativas procesales desmedidas. Asimismo, permite preservar la independencia de criterio del despacho y concentrar nuestros recursos analíticos exclusivamente en aquellos asuntos donde la intervención técnica especializada resulte indispensable para salvaguardar derechos fundamentales, libertades corporativas o contingencias patrimoniales complejas."
+      "p1": "La firma no asume representaciones de forma indiscriminada. Antes de aceptar un asunto, realizamos una evaluación previa para verificar su fundamento jurídico, viabilidad procesal real y compatibilidad ética con nuestros estándares profesionales.",
+      "p2": "Este filtro riguroso descarta expectativas infundadas o litigios temerarios, permitiendo concentrar nuestros recursos analíticos exclusivamente en causas donde la intervención técnica especializada resulta determinante para la tutela de derechos e intereses patrimoniales."
     },
     "method": {
       "tag": "METODOLOGÍA DE TRABAJO",
@@ -155,17 +155,17 @@
       "phase_1_tag": "FASE 01",
       "phase_1_title": "Evaluación preliminar y diagnóstico de viabilidad",
       "phase_1_subtitle": "Análisis fáctico, normativo y control preventivo.",
-      "phase_1_desc": "Todo asunto inicia con un examen riguroso de los hechos y la documentación aportada. Evaluamos la legitimidad procesal, la concurrencia de prescripciones o caducidades, la tipicidad de las conductas investigadas y los riesgos legales involucrados. Si el asunto carece de viabilidad o de encaje técnico con nuestras áreas de práctica, lo comunicamos con absoluta honestidad previa a cualquier compromiso formal.",
+      "phase_1_desc": "Examinamos con rigor los hechos y la documentación inicial para evaluar legitimidad procesal, prescripciones y tipicidad normativa. Si una causa carece de viabilidad jurídica sostenible, lo advertimos con total honestidad antes de asumir cualquier compromiso formal.",
       "phase_1_link": "VER CRITERIO DE VIABILIDAD PROCESAL →",
       "phase_2_tag": "FASE 02",
       "phase_2_title": "Construcción de la estrategia y articulación probatoria",
       "phase_2_subtitle": "Diseño de la teoría del caso y anticipación procesal.",
-      "phase_2_desc": "Determinada la viabilidad del encargo, estructuramos una teoría del caso coherente, sustentada en doctrina jurídica aplicable y precedentes vinculantes de los tribunales superiores. Diseñamos el plan probatorio idóneo, anticipamos las contingencias del proceso y definimos la hoja de ruta procesal, estableciendo con precisión los alcances de la actuación y la preservación de garantías.",
+      "phase_2_desc": "Diseñamos una teoría del caso coherente que integra hechos, prueba y Derecho, fundamentada en doctrina y jurisprudencia vinculante. Trazamos un plan probatorio riguroso y anticipamos contingencias procesales para definir una hoja de ruta certera.",
       "phase_2_link": "CONOCER EL DISEÑO DE LA TEORÍA DEL CASO →",
       "phase_3_tag": "FASE 03",
       "phase_3_title": "Conducción estratégica y escenarios de litigio",
       "phase_3_subtitle": "Anticipación procesal, medidas urgentes y tutela de garantías.",
-      "phase_3_desc": "Frente a controversias de alta sensibilidad, articulamos respuestas técnicas inmediatas ante investigaciones corporativas, medidas cautelares e incidencias procesales complejas. Formulamos escenarios anticipatorios para preservar la iniciativa procesal, asegurar la evidencia crítica y defender las garantías constitucionales con estricto rigor forense.",
+      "phase_3_desc": "Desplegamos respuestas técnicas inmediatas ante investigaciones corporativas, medidas cautelares e incidencias complejas. Formulamos escenarios anticipatorios para conservar la iniciativa procesal, preservar la evidencia crítica y defender las garantías constitucionales con rigor procesal.",
       "phase_3_link": "Ver escenarios y estrategia forense →"
     },
     "principles": {
@@ -174,26 +174,26 @@
       "mission_quote": "“Nuestra misión es transformar controversias complejas en escenarios de seguridad jurídica, protección del debido proceso y tutela efectiva de intereses legítimos, mediante soluciones estratégicas desarrolladas con absoluto rigor técnico y apego a la ética forense.”",
       "card_1_number": "01",
       "card_1_title": "Legalidad y Diligencia Profesional",
-      "card_1_desc": "Sometimiento irrestricto al ordenamiento constitucional y a las formalidades de ley. Actuamos con celo procesal y estudio riguroso desde el primer contacto, fundamentando cada defensa exclusivamente en medios procesales legítimos.",
+      "card_1_desc": "Actuación fundada en el orden constitucional, el estudio riguroso de la causa y el empleo exclusivo de medios procesales legítimos.",
       "card_1_link": "Leer más →",
       "card_2_number": "02",
       "card_2_title": "Independencia Técnica",
-      "card_2_desc": "Criterio jurídico objetivo, libre de presiones indebidas o conveniencias ajenas a la estricta apreciación del Derecho. Evaluamos hechos y pruebas con autonomía funcional para brindar un juicio legal certero y verificable.",
+      "card_2_desc": "Análisis autónomo de hechos y pruebas, libre de presiones o conveniencias ajenas a la estricta y objetiva aplicación del Derecho.",
       "card_2_link": "Leer más →",
       "card_3_number": "03",
       "card_3_title": "Transparencia y Buena Fe",
-      "card_3_desc": "Relación profesional fundada en la claridad, la delimitación precisa del mandato y la honestidad recíproca. Comunicamos riesgos reales sin falsas promesas de resultados y estructuramos honorarios de manera transparente.",
+      "card_3_desc": "Delimitación clara del mandato, comunicación honesta de riesgos reales sin promesas infundadas y condiciones profesionales transparentes.",
       "card_3_link": "Leer más →",
       "card_4_number": "04",
       "card_4_title": "Confidencialidad y Secreto Profesional",
-      "card_4_desc": "La reserva de la información confiada es una condición estructural innegociable. Protegemos los antecedentes, datos y estrategias de nuestros clientes frente a terceros como pilar fundamental del derecho a la defensa.",
+      "card_4_desc": "Protección estricta e innegociable de la información, antecedentes y estrategias confiadas por nuestros clientes bajo secreto profesional.",
       "card_4_link": "Leer más →"
     },
     "director_bridge": {
       "tag": "DIRECCIÓN ESTRATÉGICA",
       "title": "Liderazgo procesal y supervisión directa de cada mandato",
       "quote": "“Dirección estratégica y rigor dogmático en controversias de alta complejidad.”",
-      "desc": "Cada asunto admitido por la firma se conduce bajo la supervisión directa del Dr. Marco A. Colina G., con atención a la solvencia técnica y al control procesal.",
+      "desc": "Cada asunto admitido por la firma se conduce bajo la dirección directa y el criterio técnico del Dr. Marco A. Colina G., con estricto control procesal.",
       "btn": "CONOCER AL DIRECTOR GENERAL →"
     },
     "dispatch": {
@@ -205,11 +205,11 @@
       "card_1_link": "Ver áreas de práctica →",
       "card_2_tag": "02 · ASUNTOS TRANSFRONTERIZOS",
       "card_2_title": "Internacional · Representación Jurídica en Venezuela",
-      "card_2_desc": "Representación jurídica y mandatos específicos para empresas, directivos y personas no residentes con intereses patrimoniales y operaciones en Venezuela.",
+      "card_2_desc": "Representación jurídica y mandatos específicos para empresas extranjeras, directivos y personas no residentes con intereses patrimoniales y operaciones en Venezuela.",
       "card_2_link": "Servicios internacionales →",
       "card_3_tag": "03 · COOPERACIÓN B2B",
       "card_3_title": "Alianzas y Corresponsalía Jurídica",
-      "card_3_desc": "Coordinación y soporte procesal en Venezuela para despachos internacionales que requieren una actuación local rigurosa sin intermediación burocrática.",
+      "card_3_desc": "Coordinación procesal y soporte local en Venezuela para firmas internacionales que requieren una actuación jurídica rigurosa, transparente y sin intermediación burocrática.",
       "card_3_link": "Modelo de alianzas →"
     },
     "closing": {

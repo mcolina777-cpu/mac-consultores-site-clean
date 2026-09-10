@@ -134,20 +134,20 @@
     "history": {
       "tag": "OUR BACKGROUND",
       "title": "Genesis and Institutional Purpose",
-      "p1": "MAC Consultores Jurídicos & Asociados is a boutique law firm specialized in corporate criminal defense, constitutional litigation, and high-complexity disputes, headquartered in Caracas, Venezuela, founded in 2015 by Dr. Marco A. Colina G.",
-      "p2": "From its inception, the firm was conceived as a practice of high technical standards, established upon the convergence of rigorous doctrinal analysis and courtroom advocacy. Throughout its trajectory, it has consolidated an independent legal practice dedicated to the technical defense of individuals, corporations, and multinational corporate groups with interests in the country."
+      "p1": "Founded in Caracas in 2015, MAC Consultores Jurídicos & Asociados is a boutique law firm specialized in corporate criminal defense, constitutional litigation, and high-complexity disputes.",
+      "p2": "The firm combines doctrinal rigor with trial advocacy to deliver independent, technical counsel for corporations, executive boards, and multinational entities with legal interests in Venezuela."
     },
     "boutique": {
       "tag": "PRACTICE MODEL",
       "title": "The Boutique Model: Depth of Technical Analysis Over Mass Volume",
-      "p1": "MAC Consultores Jurídicos & Asociados intentionally operates as a boutique law firm. In contrast to high-volume or generalist legal practices focused on standardized procedures, the firm deliberately limits its caseload. This selective approach ensures comprehensive doctrinal analysis, direct engagement with evidentiary records, and meticulous procedural management for each matter.",
-      "p2": "Operating as a boutique means that no sensitive case is delegated to junior personnel without strict oversight. Every matter entrusted to the firm is directed under the technical leadership and strategic judgment of its senior counsel. This guarantees disciplined deadline management, continuous communication with the client, and an unwavering standard dedicated to protecting legal, corporate, and asset-related interests in Venezuela."
+      "p1": "We operate deliberately as a boutique law firm. Rather than pursuing high-volume caseloads, we consciously restrict our engagements to devote exhaustive doctrinal analysis and direct evidentiary immersion to every controversy.",
+      "p2": "Every matter is conducted under the direct supervision and strategic judgment of senior counsel, with technical oversight tailored to its complexity. This structure preserves analytical depth, procedural discipline, and continuous communication with the client."
     },
     "intake": {
       "tag": "INTAKE CRITERIA",
       "title": "Selective Case Intake and Responsible Procedural Feasibility",
-      "p1": "The firm does not accept client engagements indiscriminately. The responsible practice of law requires an objective pre-assessment before formal representation is established, verifying whether a controversy possesses genuine legal foundation, reasonable procedural feasibility, and full ethical compatibility with our professional standards.",
-      "p2": "This selective intake policy protects clients from unwarranted litigation and unrealistic procedural expectations. Furthermore, it preserves the firm’s technical independence and directs our analytical resources exclusively toward matters where specialized legal advocacy is vital to safeguard fundamental rights, corporate governance, or complex asset-related interests."
+      "p1": "The firm does not accept engagements indiscriminately. Before formalizing representation, we conduct a preliminary evaluation to verify substantive legal merits, realistic procedural feasibility, and strict ethical compatibility with our professional standards.",
+      "p2": "This intake process filters out ungrounded expectations, allowing our analytical resources to focus exclusively on controversies where specialized technical advocacy is essential to protecting fundamental rights and corporate assets."
     },
     "method": {
       "tag": "WORKING METHODOLOGY",
@@ -155,12 +155,12 @@
       "phase_1_tag": "PHASE 01",
       "phase_1_title": "Preliminary Assessment and Feasibility Diagnosis",
       "phase_1_subtitle": "Factual, statutory, and preventive legal evaluation.",
-      "phase_1_desc": "Every engagement begins with an exacting examination of facts and available documentation. We assess procedural standing, statutory limitations, the legal categorization of allegations, and underlying risk exposures. If a matter lacks legal feasibility or technical alignment with our practice areas, we state so clearly and objectively prior to any formal engagement.",
+      "phase_1_desc": "We rigorously examine facts and initial records to verify procedural standing, statutes of limitations, and statutory alignment. If a matter lacks legal feasibility, we state so candidly before undertaking formal representation.",
       "phase_1_link": "VIEW PROCEDURAL FEASIBILITY CRITERIA →",
       "phase_2_tag": "PHASE 02",
       "phase_2_title": "Strategic Theory and Evidentiary Articulation",
       "phase_2_subtitle": "Case theory design and procedural risk anticipation.",
-      "phase_2_desc": "Once feasibility is confirmed, we construct a cohesive case theory grounded in applicable legal doctrine and binding appellate precedent. We develop a structured evidentiary plan, anticipate procedural contingencies, and define a clear procedural roadmap, delineating the scope of intervention and the preservation of due process guarantees.",
+      "phase_2_desc": "We construct a cohesive case theory integrating facts, evidence, and substantive law, supported by binding appellate precedent. We design a targeted evidentiary plan and anticipate contingencies to establish a dependable procedural roadmap.",
       "phase_2_link": "EXPLORE CASE THEORY AND STRATEGY →",
       "phase_3_tag": "PHASE 03",
       "phase_3_title": "Strategic Advocacy and Litigation Scenarios",
@@ -174,26 +174,26 @@
       "mission_quote": "“Our mission is to address complex legal disputes through technical rigor, due process safeguards, and the effective protection of legitimate interests, delivering strategic counsel grounded in legal doctrine and professional ethics.”",
       "card_1_number": "01",
       "card_1_title": "Legality and Professional Diligence",
-      "card_1_desc": "Uncompromising adherence to constitutional order and procedural law. We approach each matter with meticulous diligence from day one, grounding every defense strictly in legitimate legal remedies.",
+      "card_1_desc": "Practice grounded in constitutional order, meticulous case analysis, and the exclusive use of legitimate procedural remedies.",
       "card_1_link": "Read more →",
       "card_2_number": "02",
       "card_2_title": "Technical Independence",
-      "card_2_desc": "Objective legal criteria free from external influence or considerations unrelated to strict statutory analysis. We evaluate facts and evidence with complete autonomy to provide dependable, verifiable legal judgment.",
+      "card_2_desc": "Autonomous evaluation of facts and evidence, free from external pressures or interests outside objective statutory analysis.",
       "card_2_link": "Read more →",
       "card_3_number": "03",
       "card_3_title": "Transparency and Good Faith",
-      "card_3_desc": "A professional relationship built on clear communication, well-defined mandates, and reciprocal integrity. We objectively communicate risks without false assurances, establishing clear and predictable engagement terms.",
+      "card_3_desc": "Clear mandate definition, honest communication of procedural risks without ungrounded promises, and transparent professional terms.",
       "card_3_link": "Read more →",
       "card_4_number": "04",
       "card_4_title": "Confidentiality and Professional Secrecy",
-      "card_4_desc": "The absolute reserve of entrusted information is a vital, non-negotiable safeguard. We treat all client disclosures, evidence, and defense strategies under strict professional privilege to ensure an uncompromised right of defense.",
+      "card_4_desc": "Strict and non-negotiable protection of information, case records, and defense strategies entrusted by our clients under professional privilege.",
       "card_4_link": "Read more →"
     },
     "director_bridge": {
       "tag": "EXECUTIVE DIRECTION",
       "title": "Litigation Leadership and Direct Oversight of Every Matter",
       "quote": "“Strategic direction and doctrinal rigor in high-complexity disputes.”",
-      "desc": "Every matter accepted by the firm is directed under the personal supervision of Dr. Marco A. Colina G., with attention to technical depth and disciplined procedural oversight.",
+      "desc": "Every matter accepted by the firm is conducted under the direct supervision and strategic judgment of Dr. Marco A. Colina G., with disciplined procedural oversight.",
       "btn": "MEET OUR MANAGING DIRECTOR →"
     },
     "dispatch": {
@@ -201,15 +201,15 @@
       "title": "Operational Reach and Practice Scope",
       "card_1_tag": "01 · LITIGATION CAPACITIES",
       "card_1_title": "Criminal Defense & Constitutional Litigation",
-      "card_1_desc": "Corporate criminal defense, white-collar crimes, fundamental rights protection, and extraordinary cassation appeals before the Supreme Tribunal of Justice.",
+      "card_1_desc": "Corporate criminal defense, economic crimes, fundamental rights protection, and extraordinary cassation appeals before the Supreme Tribunal of Justice.",
       "card_1_link": "View practice areas →",
       "card_2_tag": "02 · CROSS-BORDER MATTERS",
       "card_2_title": "International · Legal Representation in Venezuela",
-      "card_2_desc": "Direct legal representation and specialized mandates for non-resident corporations, executives, and individuals with operations or legal interests in Venezuela.",
+      "card_2_desc": "Direct legal representation and specialized mandates for foreign corporations, executive boards, and non-resident individuals with assets or operations in Venezuela.",
       "card_2_link": "International legal services →",
       "card_3_tag": "03 · B2B COOPERATION",
       "card_3_title": "Strategic Alliances & Legal Correspondence",
-      "card_3_desc": "Local procedural coordination and litigation counsel for international law firms requiring dependable on-the-ground capability in Venezuela.",
+      "card_3_desc": "Local procedural coordination and legal support in Venezuela for international law firms requiring rigorous assistance while retaining their client relationship.",
       "card_3_link": "Alliance model →"
     },
     "closing": {
