@@ -79,7 +79,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
             <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
               {dict?.tramites_consulares?.cta_primary}
             </Link>
-            <Link href={`${getRoute(locale, 'home')}#areas-practica`} className="btn btn-secondary">
+            <Link href={`${getRoute(locale, 'home')}#areas-practica`} className="btn btn-outline">
               {dict?.tramites_consulares?.cta_secondary}
             </Link>
           </div>
