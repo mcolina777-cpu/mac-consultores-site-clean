@@ -122,131 +122,159 @@
     "link_pro_bono": "Pro Bono Services"
   },
   "quienes_somos": {
-    "title": "Who We Are | Mac Consultores Jurídicos & Asociados",
+    "title": "The Firm | MAC Consultores Jurídicos & Asociados",
     "breadcrumb": "Home / The Firm",
-    "h1": "Who We Are",
-    "meta_title": "About Us | Mac Consultores Jurídicos & Asociados",
-    "meta_description": "Learn about the history, values, and the team of professionals behind Mac Consultores Jurídicos & Asociados. Dedicated to the impeccable practice of Law in Venezuela.",
+    "meta_title": "The Firm | MAC Consultores Jurídicos & Asociados",
+    "meta_description": "Boutique law firm in Caracas specializing in corporate criminal defense and constitutional litigation. Explore our method, selective intake, and ethics.",
+    "hero": {
+      "eyebrow": "THE FIRM · INSTITUTIONAL IDENTITY",
+      "h1": "A Boutique Firm for High-Complexity Legal Matters",
+      "subtitle": "Founded in Caracas in 2015, MAC Consultores combines technical rigor, a structured working method, and selective dedication in protecting legal interests in Venezuela."
+    },
     "history": {
-      "tag": "OUR HISTORY",
-      "title": "Foundation and Forensic Vocation",
-      "p1": "Mac Consultores Jurídicos & Asociados is a boutique law firm specialized in high-complexity legal services, headquartered in Caracas, Venezuela, founded in 2015 by Dr. Marco A. Colina G., trial attorney and university professor.",
-      "p2": "Since its inception, the firm was conceived as a convergence between academic scholarship and forensic legal practice. Its founding partner brings over twenty years of uninterrupted legal practice, complemented by postgraduate studies in Constitutional Law and Criminal and Criminological Sciences.",
-      "p3": "Under his general direction, Mac Consultores has built a comprehensive legal advisory model tailored to individuals, corporations, executive boards, and international clients, equipped to handle complex mandates within and outside Venezuela.",
-      "p4": "Currently, Dr. Marco A. Colina G. serves as Managing Director (CEO), leading the firm’s strategic, administrative, and operational governance."
+      "tag": "OUR BACKGROUND",
+      "title": "Genesis and Institutional Purpose",
+      "p1": "MAC Consultores Jurídicos & Asociados is a boutique law firm specialized in corporate criminal defense, constitutional litigation, and high-complexity disputes, headquartered in Caracas, Venezuela, founded in 2015 by Dr. Marco A. Colina G.",
+      "p2": "From its inception, the firm was conceived as a practice of high technical standards, established upon the convergence of rigorous doctrinal analysis and courtroom advocacy. Throughout its trajectory, it has consolidated an independent legal practice dedicated to the technical defense of individuals, corporations, and multinational corporate groups with interests in the country."
     },
-    "architecture": {
-      "tag": "LEGAL ARCHITECTURE FOR HIGH‑COMPLEXITY CHALLENGES",
-      "title": "How we structure defence in complex cases",
-      "desc": "Delve into how we design the theory of the case, articulate evidence, and define the procedural roadmap in highly complex criminal and constitutional matters.",
-      "link": "READ MORE →"
+    "boutique": {
+      "tag": "PRACTICE MODEL",
+      "title": "The Boutique Model: Depth of Technical Analysis Over Mass Volume",
+      "p1": "MAC Consultores Jurídicos & Asociados intentionally operates as a boutique law firm. In contrast to high-volume or generalist legal practices focused on standardized procedures, the firm deliberately limits its caseload. This selective approach ensures comprehensive doctrinal analysis, direct engagement with evidentiary records, and meticulous procedural management for each matter.",
+      "p2": "Operating as a boutique means that no sensitive case is delegated to junior personnel without strict oversight. Every matter entrusted to the firm is directed under the technical leadership and strategic judgment of its senior counsel. This guarantees disciplined deadline management, continuous communication with the client, and an unwavering standard dedicated to protecting legal, corporate, and asset-related interests in Venezuela."
     },
-    "values": {
-      "tag": "Institutional Values",
-      "title": "Our Pillars",
-      "card_1": {
-        "title": "Strategic Vision",
-        "desc": "We do not merely react to conflict; we build preventive safeguards and anticipate risks to protect our clients' interests."
-      },
-      "card_2": {
-        "title": "Technical Rigor",
-        "desc": "Every action is backed by a deep dogmatic mastery and an exhaustive analysis of contemporary legal reality."
-      },
-      "card_3": {
-        "title": "Professional Confidentiality",
-        "desc": "Discretion and confidentiality are the foundation of our relationship with the client, ensuring an environment of maximum trust."
-      }
+    "intake": {
+      "tag": "INTAKE CRITERIA",
+      "title": "Selective Case Intake and Responsible Procedural Feasibility",
+      "p1": "The firm does not accept client engagements indiscriminately. The responsible practice of law requires an objective pre-assessment before formal representation is established, verifying whether a controversy possesses genuine legal foundation, reasonable procedural feasibility, and full ethical compatibility with our professional standards.",
+      "p2": "This selective intake policy protects clients from unwarranted litigation and unrealistic procedural expectations. Furthermore, it preserves the firm’s technical independence and directs our analytical resources exclusively toward matters where specialized legal advocacy is vital to safeguard fundamental rights, corporate governance, or complex asset-related interests."
     },
-    "mission": {
-      "quote": "\"Strategic direction and doctrinal rigor in high-complexity disputes.\"",
-      "desc": "Led by Dr. Marco A. Colina G., the firm combines trial experience, strict protection of procedural guarantees, and academic insight to provide rigorous legal representation to domestic and international clients with interests in Venezuela.",
-      "btn": "MEET OUR MANAGING DIRECTOR"
-    }
-  },
-  "quienes_somos_detalle": {
-    "title": "Legal Architecture | Mac Consultores Jurídicos & Associates",
-    "breadcrumb": "Home / The Firm / Our History",
-    "h1": "Legal architecture for high-complexity challenges",
-    "history": {
-      "tag": "Our History",
-      "p1": "Mac Consultores Jurídicos & Associates is a boutique law firm specializing in high-complexity legal services, headquartered in Caracas, Venezuela, founded in 2015 by attorney and university professor Marco A. Colina G.",
-      "p2": "From its inception, the firm was conceived as a meeting point between academic training and the professional practice of Law. Its founding partner possesses over twenty years of continuous professional practice, complemented by postgraduate studies in Constitutional Law and Criminal and Criminological Sciences, alongside a consolidated trajectory in strategic litigation, specialized legal consulting, and university teaching.",
-      "p3": "Under his general direction, Mac Consultores has built an integrated legal advisory model aimed at both individuals and corporate entities, with clients inside and outside Venezuela. This international projection allows clients located in any jurisdiction to entrust their representation to the firm through the granting of the corresponding powers of attorney and mandates, in accordance with applicable legal formalities.",
-      "p4": "Currently, Dr. Marco A. Colina G. serves as the Managing Director (Chief Executive Officer - CEO) within Mac Consultores Jurídicos & Associates, being responsible for the strategic, administrative, and operational leadership of the firm."
+    "method": {
+      "tag": "WORKING METHODOLOGY",
+      "title": "Case Architecture: A Structured Three-Phase Method",
+      "phase_1_tag": "PHASE 01",
+      "phase_1_title": "Preliminary Assessment and Feasibility Diagnosis",
+      "phase_1_subtitle": "Factual, statutory, and preventive legal evaluation.",
+      "phase_1_desc": "Every engagement begins with an exacting examination of facts and available documentation. We assess procedural standing, statutory limitations, the legal categorization of allegations, and underlying risk exposures. If a matter lacks legal feasibility or technical alignment with our practice areas, we state so clearly and objectively prior to any formal engagement.",
+      "phase_2_tag": "PHASE 02",
+      "phase_2_title": "Strategic Theory and Evidentiary Articulation",
+      "phase_2_subtitle": "Case theory design and procedural risk anticipation.",
+      "phase_2_desc": "Once feasibility is confirmed, we construct a cohesive case theory grounded in applicable legal doctrine and binding appellate precedent. We develop a structured evidentiary plan, anticipate procedural contingencies, and define a clear procedural roadmap, delineating the scope of intervention and the preservation of due process guarantees.",
+      "phase_3_tag": "PHASE 03",
+      "phase_3_title": "Disciplined Courtroom Advocacy and Procedural Follow-through",
+      "phase_3_subtitle": "Trial representation, appellate remedies, and regular client reporting.",
+      "phase_3_desc": "We execute legal representation in strict compliance with the Venezuelan procedural legal framework. From trial court proceedings to extraordinary cassation and constitutional protection motions before the Supreme Tribunal of Justice, we maintain rigorous deadline control, active defense of constitutional rights, and transparent, consistent communication with our clients."
     },
-    "mission": {
-      "title": "Mission and Values",
-      "p1": "Our mission is to transform our clients' legal challenges into scenarios of legal certainty and growth, through strategic, technically sound solutions developed with absolute adherence to professional ethics.",
-      "p2": "This mission is upheld by principles that guide each of our actions:",
-      "list": [
-        "<strong>Legality and professional diligence</strong> — as the unwavering foundation of all legal action.",
-        "<strong>Technical independence</strong> — which guarantees objective criteria, free from interference external to the client's interests.",
-        "<strong>Transparency and good faith</strong> — at every stage of the professional relationship with those who trust in us.",
-        "<strong>Confidentiality and professional secrecy</strong> — as an absolute commitment in the treatment of the information entrusted to us."
-      ]
+    "principles": {
+      "tag": "DEONTOLOGY & VALUES",
+      "title": "Foundational Principles of Professional Practice",
+      "mission_quote": "“Our mission is to address complex legal disputes through technical rigor, due process safeguards, and the effective protection of legitimate interests, delivering strategic counsel grounded in legal doctrine and professional ethics.”",
+      "card_1_number": "01",
+      "card_1_title": "Legality and Professional Diligence",
+      "card_1_desc": "Uncompromising adherence to constitutional order and procedural law. We approach each matter with meticulous diligence from day one, grounding every defense strictly in legitimate legal remedies.",
+      "card_1_link": "Read more →",
+      "card_2_number": "02",
+      "card_2_title": "Technical Independence",
+      "card_2_desc": "Objective legal criteria free from external influence or considerations unrelated to strict statutory analysis. We evaluate facts and evidence with complete autonomy to provide dependable, verifiable legal judgment.",
+      "card_2_link": "Read more →",
+      "card_3_number": "03",
+      "card_3_title": "Transparency and Good Faith",
+      "card_3_desc": "A professional relationship built on clear communication, well-defined mandates, and reciprocal integrity. We objectively communicate risks without false assurances, establishing clear and predictable engagement terms.",
+      "card_3_link": "Read more →",
+      "card_4_number": "04",
+      "card_4_title": "Confidentiality and Professional Secrecy",
+      "card_4_desc": "The absolute reserve of entrusted information is a vital, non-negotiable safeguard. We treat all client disclosures, evidence, and defense strategies under strict professional privilege to ensure an uncompromised right of defense.",
+      "card_4_link": "Read more →"
     },
-    "areas": {
-      "title": "Practice Areas",
-      "p1": "The firm's professional practice is concentrated in three major lines of specialization, handled with a rigorous technical approach and adapted to the particularities of each matter:",
-      "list": [
-        "<strong>Corporate Criminal Law:</strong> Specialized technical defense against criminal investigations and proceedings involving corporate entities, their directors, and representatives.",
-        "<strong>Strategic Consulting in Legal Risks:</strong> Preventive diagnosis and design of mitigation mechanisms against high-impact legal exposures.",
-        "<strong>Litigation and Specialized Defense:</strong> Technical representation before the competent jurisdictional authorities in criminal, constitutional, and high-complexity matters."
-      ]
+    "director_bridge": {
+      "tag": "EXECUTIVE DIRECTION",
+      "title": "Litigation Leadership and Direct Oversight of Every Matter",
+      "quote": "“Strategic direction and doctrinal rigor in high-complexity disputes.”",
+      "desc": "Every matter accepted by the firm is directed under the personal supervision of Dr. Marco A. Colina G., with attention to technical depth and disciplined procedural oversight.",
+      "btn": "MEET OUR MANAGING DIRECTOR →"
     },
-    "distinction": {
-      "title": "What Sets Us Apart",
-      "p1": "Every matter submitted for our consideration is subject to a rigorous preliminary evaluation aimed at determining its technical and legal viability before defining any course of action. This comprehensive analysis—which examines backgrounds, evidentiary elements, and applicable regulations—allows us to build a solid, coherent, and verifiable case theory, tailored to the legitimate interests of each client.",
-      "p2": "We complement this methodology with the incorporation of advanced technological tools, which allow us to optimize information processing and substantially expedite response times.",
-      "p3": "This combination of legal tradition and technical modernity enables us to offer agile responses without compromising the rigor that each case demands.",
-      "p4": "At Mac Consultores Jurídicos & Associates, we do not make promises of results, but rather a commitment to serious analysis, a well-founded strategy, and close accompaniment at every stage of the process. Therefore, we consolidate ourselves as the strategic ally that individuals and corporations need to protect their rights, their assets, and their reputation.",
-      "quote": "\"Our mission is to transform legal challenges into scenarios of legal certainty and growth.\""
+    "dispatch": {
+      "tag": "INSTITUTIONAL CAPACITIES",
+      "title": "Operational Reach and Practice Scope",
+      "card_1_tag": "01 · LITIGATION CAPACITIES",
+      "card_1_title": "Criminal Defense & Constitutional Litigation",
+      "card_1_desc": "Corporate criminal defense, white-collar crimes, fundamental rights protection, and extraordinary cassation appeals before the Supreme Tribunal of Justice.",
+      "card_1_link": "View practice areas →",
+      "card_2_tag": "02 · CROSS-BORDER MATTERS",
+      "card_2_title": "International · Legal Representation in Venezuela",
+      "card_2_desc": "Direct legal representation and specialized mandates for non-resident corporations, executives, and individuals with operations or legal interests in Venezuela.",
+      "card_2_link": "International legal services →",
+      "card_3_tag": "03 · B2B COOPERATION",
+      "card_3_title": "Strategic Alliances & Legal Correspondence",
+      "card_3_desc": "Local procedural coordination and litigation counsel for international law firms requiring dependable on-the-ground capability in Venezuela.",
+      "card_3_link": "Alliance model →"
+    },
+    "closing": {
+      "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
+      "title": "Objective Legal Assessment for High-Stakes Controversies",
+      "desc": "If your organization, executive board, or international counsel requires specialized legal support in Venezuela, we evaluate your matter’s procedural feasibility under strict professional secrecy.",
+      "btn_primary": "REQUEST A MATTER EVALUATION",
+      "btn_secondary": "EXPLORE PRACTICE AREAS →"
     }
   },
   "ceo": {
-    "title": "Our CEO | Mac Consultores Jurídicos & Asociados",
+    "title": "Dr. Marco A. Colina G. | Managing Director | MAC Consultores",
+    "meta_title": "Dr. Marco A. Colina G. | Managing Director | MAC Consultores",
+    "meta_description": "Career profile of Dr. Marco A. Colina G., Managing Director and Founding Partner. Over 20 years in trial advocacy, criminal cassation, and constitutional law.",
     "breadcrumb": "Institutional Leadership",
-    "h1": "Atty. Marco A. Colina G.",
-    "about": {
-      "tag": "Managing Director",
-      "title": "Technical vision and forensic leadership.",
-      "desc_1": "Atty. Marco A. Colina G. is the founder and Managing Director of Mac Consultores Jurídicos & Asociados. With over 20 years of uninterrupted professional practice in the Venezuelan criminal and constitutional forum, his practice is distinguished by dogmatic rigor and the design of high-precision procedural strategies.",
-      "desc_2": "His approach combines deep technical knowledge with a pragmatic vision of justice, guaranteeing the comprehensive protection of the rights and interests of corporations and individuals in highly complex scenarios."
+    "hero": {
+      "eyebrow": "EXECUTIVE LEADERSHIP · LITIGATION PRACTICE",
+      "h1": "Dr. Marco A. Colina G.",
+      "subtitle": "Managing Director and Founding Partner"
     },
-    "profile": {
-      "tag": "Professional Profile",
-      "title": "Leadership Specialties",
-      "card_1": {
-        "title": "Cassation Litigation",
-        "desc": "Expert in filing and defending extraordinary appeals for cassation before the Supreme Tribunal of Justice, achieving rulings that set jurisprudential precedents."
-      },
-      "card_2": {
-        "title": "Advanced Criminal Law",
-        "desc": "Strategic approach to white-collar crimes, economic criminality, and organized crime, protecting companies and their executives against criminal contingencies."
-      },
-      "card_3": {
-        "title": "Constitutional Protection",
-        "desc": "Specialist in the activation of jurisdictional guarantees, amparo actions, and constitutional review to restore rights infringed in flawed judicial proceedings."
-      }
+    "bio": {
+      "tag": "PROFESSIONAL PROFILE",
+      "title": "Strategic Direction in Criminal Defense and Constitutional Controversies",
+      "p1": "Dr. Marco A. Colina G. is a trial attorney and university professor with over two decades of continuous litigation practice in the Venezuelan criminal and constitutional courts. As founder and Managing Director of MAC Consultores Jurídicos & Asociados, his practice focuses on the technical direction of complex substantive disputes, corporate defense in economic crime investigations, and appellate remedies.",
+      "p2": "His legal practice is anchored in deep doctrinal rigor, supported by postgraduate credentials in Constitutional Law and Criminal and Criminological Sciences. For years, he has served as a university lecturer in substantive and procedural law, bridging legal doctrine with the operational realities of trial advocacy.",
+      "p3": "He possesses extensive trial and appellate experience drafting and substantiating extraordinary cassation appeals before the Criminal Chamber of the Supreme Tribunal of Justice, as well as constitutional amparo actions before the Constitutional Chamber, focusing on fundamental rights preservation, evidentiary review, and procedural due process."
     },
     "pillars": {
       "tag": "TECHNICAL RIGOR",
       "title": "Pillars of Practice and Trajectory",
       "card_1": {
+        "number": "01",
         "tag": "+20 YEARS",
-        "title": "Continuous Legal Practice",
-        "desc": "Strategic litigation and specialized procedural leadership before trial courts, appellate courts, and criminal and constitutional jurisdictions."
+        "title": "Years of Litigation Practice",
+        "desc": "Over two decades of continuous professional practice support a forensic approach defined by technical, strategic, and procedural direction in high-complexity litigation. Courtroom advocacy spans trial and appellate courts, with careful management of procedural deadlines and rigorous analysis of the evidentiary record.",
+        "link": "View litigation career →"
       },
       "card_2": {
+        "number": "02",
         "tag": "POSTGRADUATE",
-        "title": "Academic Level & Teaching",
-        "desc": "Postgraduate studies in Constitutional and Criminal Law, complemented by extensive academic scholarship and university lecturing."
+        "title": "Academic Credentials & Teaching",
+        "desc": "Rigorous doctrinal foundations provide an essential basis for analyzing complex substantive and procedural disputes. Holding postgraduate credentials in Constitutional Law and Criminal and Criminological Sciences, together with sustained university teaching experience, our legal analysis integrates applicable doctrinal and case-law criteria into the design of each strategy.",
+        "link": "View academic background →"
       },
       "card_3": {
+        "number": "03",
         "tag": "TSJ / SUPREME COURT",
         "title": "Cassation & Constitutional Protection",
-        "desc": "Technical substantiation of extraordinary criminal cassation appeals and constitutional protection motions before higher courts."
+        "desc": "Specialized technical advocacy focused on drafting, filing, and substantiating extraordinary cassation appeals before the Supreme Tribunal of Justice and constitutional protection remedies. Legal representation centers on the careful analysis of procedural breaches, judicial errors of law, and potential infringements of due process and fundamental constitutional guarantees.",
+        "link": "View appellate practice →"
       }
+    },
+    "technical_direction": {
+      "tag": "TECHNICAL OVERSIGHT",
+      "title": "Direct Oversight and Case Theory Audit",
+      "desc": "Every matter accepted by the firm is directed under the personal supervision of Dr. Marco A. Colina G., with attention to technical depth and disciplined procedural oversight."
+    },
+    "ethics": {
+      "tag": "EXECUTIVE ETHICS",
+      "quote": "“We do not promise outcomes. Our commitment is to act with technical rigor, method, and professional integrity.”",
+      "desc": "At MAC Consultores, we approach the representation of our clients' rights and interests as a responsibility of the highest order. The inherent complexities of the judicial framework preclude baseless outcome assurances. Our standard is defined by subjecting every matter to a preliminary doctrinal and evidentiary feasibility assessment, articulating a robust technical strategy, and advocating before the courts with procedural integrity, diligence, and strict fidelity to due process."
+    },
+    "closing": {
+      "tag": "EXECUTIVE LEADERSHIP · STRATEGIC EVALUATION",
+      "title": "Experienced Legal Leadership for High-Stakes Matters",
+      "desc": "Every matter accepted by the firm is directed under the personal supervision of Dr. Marco A. Colina G., with attention to technical depth and disciplined procedural oversight.",
+      "btn_primary": "REQUEST A MATTER EVALUATION",
+      "btn_secondary": "EXPLORE THE FIRM AND ITS METHOD"
     }
   },
   "socios": {

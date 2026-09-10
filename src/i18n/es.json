@@ -122,131 +122,159 @@
     "link_pro_bono": "Servicios Pro Bono"
   },
   "quienes_somos": {
-    "title": "Quiénes Somos | Mac Consultores Jurídicos & Asociados",
+    "title": "La Firma | MAC Consultores Jurídicos & Asociados",
     "breadcrumb": "Inicio / La Firma",
-    "h1": "Quiénes Somos",
-    "meta_title": "Quiénes Somos | Mac Consultores Jurídicos & Asociados",
-    "meta_description": "Conoce la historia, valores y el equipo de profesionales detrás de Mac Consultores Jurídicos & Asociados. Dedicados al ejercicio impecable del Derecho en Venezuela.",
+    "meta_title": "La Firma | MAC Consultores Jurídicos & Asociados",
+    "meta_description": "Firma boutique en Caracas especializada en litigio penal corporativo y constitucional. Conozca nuestro método, admisión selectiva y principios deontológicos.",
+    "hero": {
+      "eyebrow": "LA FIRMA · IDENTIDAD INSTITUCIONAL",
+      "h1": "Una firma boutique para asuntos jurídicos de alta complejidad",
+      "subtitle": "Fundada en 2015 en Caracas, MAC Consultores combina rigor técnico, método de trabajo y dedicación selectiva en la defensa de intereses jurídicos en Venezuela."
+    },
     "history": {
-      "tag": "Nuestra Historia",
-      "title": "Fundación y Vocación Forense",
-      "p1": "Mac Consultores Jurídicos & Asociados es una firma boutique especializada en servicios jurídicos de alta complejidad, con sede en la ciudad de Caracas, Venezuela, fundada en el año 2015 por el Dr. Marco A. Colina G., abogado litigante y docente universitario.",
-      "p2": "Desde su fundación, la firma se concibió como un punto de encuentro entre el rigor académico y la práctica forense del Derecho. Su socio fundador acredita más de veinte años de ejercicio profesional ininterrumpido, complementados con estudios de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas.",
-      "p3": "Bajo su dirección general, Mac Consultores ha construido un modelo de asesoría jurídica integral dirigido a personas, empresas, órganos directivos y clientes en el exterior, con capacidad técnica para atender mandatos complejos dentro y fuera de Venezuela.",
-      "p4": "Actualmente, el Dr. Marco A. Colina G. ejerce la función de Director General (CEO), siendo responsable de la conducción estratégica, administrativa y operativa de la firma."
+      "tag": "NUESTRA TRAYECTORIA",
+      "title": "Génesis y vocación institucional",
+      "p1": "MAC Consultores Jurídicos & Asociados es una firma boutique especializada en litigio penal corporativo, tutela constitucional y controversias complejas, con sede en la ciudad de Caracas, Venezuela, fundada en el año 2015 por el Dr. Marco A. Colina G.",
+      "p2": "Desde su origen, la firma fue concebida como un despacho de alta exigencia técnica, fundado sobre la articulación entre el análisis dogmático riguroso y la práctica forense en tribunales. A lo largo de su trayectoria, ha consolidado un ejercicio profesional independiente, enfocado en la defensa técnica de personas naturales, empresas y grupos corporativos nacionales e internacionales con intereses en el país."
     },
-    "architecture": {
-      "tag": "ARQUITECTURA JURÍDICA PARA DESAFÍOS DE ALTA COMPLEJIDAD",
-      "title": "Cómo estructuramos la defensa en casos complejos",
-      "desc": "Profundice en la forma en que diseñamos la teoría del caso, articulamos la prueba y definimos la hoja de ruta procesal en asuntos penales y constitucionales de alta complejidad.",
-      "link": "LEER MÁS →"
+    "boutique": {
+      "tag": "MODELO DE ACTUACIÓN",
+      "title": "La práctica boutique: profundidad técnica sobre volumen masivo",
+      "p1": "MAC Consultores Jurídicos & Asociados opera bajo un modelo deliberado de firma boutique. Frente a las estructuras generalistas orientadas a la tramitación estandarizada o al litigio de volumen, la firma limita conscientemente el número de mandatos que asume para garantizar un estudio dogmático exhaustivo, una inmersión directa en el acervo probatorio y una conducción procesal personalizada en cada caso.",
+      "p2": "Operar como boutique implica que ningún expediente sensible es delegado a personal subalterno sin supervisión estricta. Cada asunto confiado al despacho cuenta con la dirección directa y el criterio estratégico de su liderazgo profesional, asegurando un control riguroso de términos procesales, una interlocución permanente con el mandante y un estándar técnico orientado a la protección jurídica de intereses patrimoniales e institucionales en Venezuela."
     },
-    "values": {
-      "tag": "Valores Institucionales",
-      "title": "Nuestros Pilares",
-      "card_1": {
-        "title": "Visión Estratégica",
-        "desc": "No solo reaccionamos ante el conflicto; construimos blindajes preventivos y anticipamos riesgos para proteger los intereses de nuestros clientes."
-      },
-      "card_2": {
-        "title": "Rigor Técnico",
-        "desc": "Cada actuación está sustentada en un profundo dominio dogmático y un análisis exhaustivo de la realidad jurídica contemporánea."
-      },
-      "card_3": {
-        "title": "Reserva Profesional",
-        "desc": "La discreción y la confidencialidad son la base de nuestra relación con el cliente, garantizando un entorno de máxima confianza."
-      }
+    "intake": {
+      "tag": "CRITERIO DE ADMISIÓN",
+      "title": "Admisión selectiva y viabilidad procesal responsable",
+      "p1": "La firma no acepta mandatos de forma indiscriminada. El ejercicio responsable del Derecho exige determinar con objetividad, antes de formalizar la representación, si una controversia posee fundamento jurídico real, viabilidad procesal razonable y compatibilidad ética con nuestros estándares deontológicos.",
+      "p2": "Este proceso de admisión selectiva protege a nuestros clientes de litigios infundados o de expectativas procesales desmedidas. Asimismo, permite preservar la independencia de criterio del despacho y concentrar nuestros recursos analíticos exclusivamente en aquellos asuntos donde la intervención técnica especializada resulte indispensable para salvaguardar derechos fundamentales, libertades corporativas o contingencias patrimoniales complejas."
     },
-    "mission": {
-      "quote": "\"Dirección estratégica y rigor dogmático en controversias de alta complejidad.\"",
-      "desc": "Bajo la conducción del Dr. Marco A. Colina G., la firma articula experiencia forense, estricto control de las garantías procesales y criterio académico para brindar defensa técnica sólida a clientes nacionales e internacionales con intereses en Venezuela.",
-      "btn": "CONOCE A NUESTRO DIRECTOR GENERAL"
-    }
-  },
-  "quienes_somos_detalle": {
-    "title": "Arquitectura jurídica | Mac Consultores Jurídicos & Asociados",
-    "breadcrumb": "Inicio / La Firma / Nuestra Historia",
-    "h1": "Arquitectura jurídica para desafíos de alta complejidad",
-    "history": {
-      "tag": "Nuestra Historia",
-      "p1": "Mac Consultores Jurídicos & Asociados es una firma boutique especializada en servicios jurídicos de alta complejidad, con sede en la ciudad de Caracas, Venezuela, fundada en el año 2015 por el abogado y docente universitario Marco A. Colina G.",
-      "p2": "Desde su fundación, la firma se concibió como un punto de encuentro entre la formación académica y la práctica profesional del Derecho. Su socio fundador acredita más de veinte años de ejercicio profesional ininterrumpido, complementados con estudios de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas, además de una trayectoria consolidada en la litigación estratégica, la consultoría jurídica especializada y la docencia universitaria.",
-      "p3": "Bajo su dirección general, Mac Consultores ha construido un modelo de asesoría jurídica integral dirigido tanto a personas naturales como a personas jurídicas, con clientes dentro y fuera de Venezuela. Esta proyección internacional permite que clientes ubicados en cualquier jurisdicción confíen su representación a la firma, mediante el otorgamiento de los poderes y mandatos correspondientes, conforme a las formalidades legales aplicables.",
-      "p4": "Actualmente, el Dr. Marco A. Colina G. ejerce la función de Director General (Chief Executive Officer - CEO), dentro de Mac Consultores Jurídicos & Asociados, siendo responsable de la conducción estratégica, administrativa y operativa de la firma."
+    "method": {
+      "tag": "METODOLOGÍA DE TRABAJO",
+      "title": "Arquitectura técnica del caso: un método estructurado en tres fases",
+      "phase_1_tag": "FASE 01",
+      "phase_1_title": "Evaluación preliminar y diagnóstico de viabilidad",
+      "phase_1_subtitle": "Análisis fáctico, normativo y control preventivo.",
+      "phase_1_desc": "Todo asunto inicia con un examen riguroso de los hechos y la documentación aportada. Evaluamos la legitimidad procesal, la concurrencia de prescripciones o caducidades, la tipicidad de las conductas investigadas y los riesgos legales involucrados. Si el asunto carece de viabilidad o de encaje técnico con nuestras áreas de práctica, lo comunicamos con absoluta honestidad previa a cualquier compromiso formal.",
+      "phase_2_tag": "FASE 02",
+      "phase_2_title": "Construcción de la estrategia y articulación probatoria",
+      "phase_2_subtitle": "Diseño de la teoría del caso y anticipación procesal.",
+      "phase_2_desc": "Determinada la viabilidad del encargo, estructuramos una teoría del caso coherente, sustentada en doctrina jurídica aplicable y precedentes vinculantes de los tribunales superiores. Diseñamos el plan probatorio idóneo, anticipamos las contingencias del proceso y definimos la hoja de ruta procesal, estableciendo con precisión los alcances de la actuación y la preservación de garantías.",
+      "phase_3_tag": "FASE 03",
+      "phase_3_title": "Actuación y seguimiento procesal riguroso",
+      "phase_3_subtitle": "Defensa en estrados, recursos e interlocución continua.",
+      "phase_3_desc": "Ejercemos la representación técnica con estricta sujeción al ordenamiento procesal venezolano. Desde la intervención ante órganos auxiliares de justicia y tribunales de instancia hasta la formalización de recursos de amparo o casación ante el Tribunal Supremo de Justicia, mantenemos un control exhaustivo de plazos, una defensa activa de garantías constitucionales y una rendición de cuentas clara al mandante."
     },
-    "mission": {
-      "title": "Misión y Valores",
-      "p1": "Nuestra misión es transformar los desafíos legales de nuestros clientes en escenarios de seguridad jurídica y crecimiento, mediante soluciones estratégicas, técnicamente sólidas y desarrolladas con absoluto apego a la ética profesional.",
-      "p2": "Esta misión se sostiene sobre principios que orientan cada una de nuestras actuaciones:",
-      "list": [
-        "<strong>Legalidad y diligencia profesional</strong> — como fundamento inquebrantable de toda actuación jurídica.",
-        "<strong>Independencia técnica</strong> — que garantiza criterios objetivos, libres de injerencias ajenas al interés del cliente.",
-        "<strong>Transparencia y buena fe</strong> — en cada etapa de la relación profesional con quienes confían en nosotros.",
-        "<strong>Confidencialidad y secreto profesional</strong> — como compromiso absoluto en el tratamiento de la información que se nos confía."
-      ]
+    "principles": {
+      "tag": "DEONTOLOGÍA & VALORES",
+      "title": "Principios fundacionales del ejercicio profesional",
+      "mission_quote": "“Nuestra misión es transformar controversias complejas en escenarios de seguridad jurídica, protección del debido proceso y tutela efectiva de intereses legítimos, mediante soluciones estratégicas desarrolladas con absoluto rigor técnico y apego a la ética forense.”",
+      "card_1_number": "01",
+      "card_1_title": "Legalidad y Diligencia Profesional",
+      "card_1_desc": "Sometimiento irrestricto al ordenamiento constitucional y a las formalidades de ley. Actuamos con celo procesal y estudio riguroso desde el primer contacto, fundamentando cada defensa exclusivamente en medios procesales legítimos.",
+      "card_1_link": "Leer más →",
+      "card_2_number": "02",
+      "card_2_title": "Independencia Técnica",
+      "card_2_desc": "Criterio jurídico objetivo, libre de presiones indebidas o conveniencias ajenas a la estricta apreciación del Derecho. Evaluamos hechos y pruebas con autonomía funcional para brindar un juicio legal certero y verificable.",
+      "card_2_link": "Leer más →",
+      "card_3_number": "03",
+      "card_3_title": "Transparencia y Buena Fe",
+      "card_3_desc": "Relación profesional fundada en la claridad, la delimitación precisa del mandato y la honestidad recíproca. Comunicamos riesgos reales sin falsas promesas de resultados y estructuramos honorarios de manera transparente.",
+      "card_3_link": "Leer más →",
+      "card_4_number": "04",
+      "card_4_title": "Confidencialidad y Secreto Profesional",
+      "card_4_desc": "La reserva de la información confiada es una condición estructural innegociable. Protegemos los antecedentes, datos y estrategias de nuestros clientes frente a terceros como pilar fundamental del derecho a la defensa.",
+      "card_4_link": "Leer más →"
     },
-    "areas": {
-      "title": "Áreas de Práctica",
-      "p1": "El ejercicio profesional de la firma se concentra en tres grandes líneas de especialización, atendidas con un enfoque técnico riguroso y adaptadas a las particularidades de cada asunto:",
-      "list": [
-        "<strong>Derecho Penal Corporativo:</strong> Defensa técnica especializada frente a investigaciones y procesos penales que involucran a personas jurídicas, sus directivos y representantes.",
-        "<strong>Consultoría Estratégica en Riesgos Jurídicos:</strong> Diagnóstico preventivo y diseño de mecanismos de mitigación frente a exposiciones legales de alto impacto.",
-        "<strong>Litigación y Defensa Especializada:</strong> Representación técnica ante las instancias jurisdiccionales competentes en asuntos penales, constitucionales y de alta complejidad."
-      ]
+    "director_bridge": {
+      "tag": "DIRECCIÓN ESTRATÉGICA",
+      "title": "Liderazgo procesal y supervisión directa de cada mandato",
+      "quote": "“Dirección estratégica y rigor dogmático en controversias de alta complejidad.”",
+      "desc": "Cada asunto admitido por la firma se conduce bajo la supervisión directa del Dr. Marco A. Colina G., con atención a la solvencia técnica y al control procesal.",
+      "btn": "CONOCER AL DIRECTOR GENERAL →"
     },
-    "distinction": {
-      "title": "Lo Que Nos Distingue",
-      "p1": "Cada asunto sometido a nuestra consideración es objeto de una evaluación preliminar rigurosa, dirigida a determinar su viabilidad técnica y jurídica antes de definir cualquier línea de acción. Este análisis integral —que examina antecedentes, elementos probatorios y normativa aplicable— permite construir una teoría del caso sólida, coherente y verificable, ajustada a los intereses legítimos de cada cliente.",
-      "p2": "Complementamos esta metodología con la incorporación de herramientas tecnológicas avanzadas, que permiten optimizar el procesamiento de la información y agilizar sustancialmente los tiempos de respuesta.",
-      "p3": "Esta combinación de tradición jurídica y modernidad técnica nos permite ofrecer respuestas ágiles, sin renunciar al rigor que cada caso exige.",
-      "p4": "En Mac Consultores Jurídicos & Asociados no formulamos promesas de resultados, sino el compromiso de un análisis serio, una estrategia bien fundamentada y un acompañamiento cercano en cada etapa del proceso. Por ello, nos consolidamos como el aliado estratégico que personas naturales y jurídicas necesitan para proteger sus derechos, su patrimonio y su reputación.",
-      "quote": "\"Nuestra misión es transformar desafíos legales en escenarios de seguridad jurídica y crecimiento.\""
+    "dispatch": {
+      "tag": "CAPACIDADES INSTITUCIONALES",
+      "title": "Despliegue operativo y alcance de práctica",
+      "card_1_tag": "01 · CAPACIDADES FORENSES",
+      "card_1_title": "Defensa Penal y Litigio Constitucional",
+      "card_1_desc": "Litigio penal corporativo, delitos económicos, tutela de derechos fundamentales y recursos extraordinarios de casación ante el Tribunal Supremo de Justicia.",
+      "card_1_link": "Ver áreas de práctica →",
+      "card_2_tag": "02 · ASUNTOS TRANSFRONTERIZOS",
+      "card_2_title": "Internacional · Representación Jurídica en Venezuela",
+      "card_2_desc": "Representación jurídica y mandatos específicos para empresas, directivos y personas no residentes con intereses patrimoniales y operaciones en Venezuela.",
+      "card_2_link": "Servicios internacionales →",
+      "card_3_tag": "03 · COOPERACIÓN B2B",
+      "card_3_title": "Alianzas y Corresponsalía Jurídica",
+      "card_3_desc": "Coordinación y soporte procesal en Venezuela para despachos internacionales que requieren una actuación local rigurosa sin intermediación burocrática.",
+      "card_3_link": "Modelo de alianzas →"
+    },
+    "closing": {
+      "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
+      "title": "Evaluación objetiva de asuntos jurídicos de alta exigencia",
+      "desc": "Si su empresa, directiva o representación requiere asistencia técnica en controversias complejas en Venezuela, examinamos la viabilidad procesal de su caso con estricta reserva profesional.",
+      "btn_primary": "SOLICITAR EVALUACIÓN DE ASUNTO",
+      "btn_secondary": "VER ÁREAS DE PRÁCTICA →"
     }
   },
   "ceo": {
-    "title": "Nuestro CEO | Mac Consultores Jurídicos & Asociados",
+    "title": "Dr. Marco A. Colina G. | Director General | MAC Consultores",
+    "meta_title": "Dr. Marco A. Colina G. | Director General | MAC Consultores",
+    "meta_description": "Perfil profesional del Dr. Marco A. Colina G., Director General y Socio Fundador. Más de 20 años de ejercicio en litigio penal, casación TSJ y docencia.",
     "breadcrumb": "Liderazgo Institucional",
-    "h1": "Abg. Marco A. Colina G.",
-    "about": {
-      "tag": "Director General",
-      "title": "Visión técnica y liderazgo forense.",
-      "desc_1": "El Abg. Marco A. Colina G. es el fundador y Director General de Mac Consultores Jurídicos & Asociados. Con más de 20 años de ejercicio profesional ininterrumpido en el foro penal y constitucional venezolano, su práctica se distingue por el rigor dogmático y el diseño de estrategias procesales de alta precisión.",
-      "desc_2": "Su enfoque combina el conocimiento técnico profundo con una visión pragmática de la justicia, garantizando la protección integral de los derechos e intereses de corporaciones y particulares en escenarios de máxima complejidad."
+    "hero": {
+      "eyebrow": "DIRECCIÓN GENERAL · PRÁCTICA LITIGIOSA",
+      "h1": "Dr. Marco A. Colina G.",
+      "subtitle": "Director General y Socio Fundador"
     },
-    "profile": {
-      "tag": "Perfil Profesional",
-      "title": "Especialidades de Liderazgo",
-      "card_1": {
-        "title": "Litigio de Casación",
-        "desc": "Experto en la interposición y defensa de recursos extraordinarios de casación ante el Tribunal Supremo de Justicia, logrando sentencias que sientan precedente jurisprudencial."
-      },
-      "card_2": {
-        "title": "Derecho Penal Superior",
-        "desc": "Abordaje estratégico de delitos de cuello blanco, criminalidad económica y delincuencia organizada, protegiendo a la empresa y sus directivos frente a contingencias penales."
-      },
-      "card_3": {
-        "title": "Tutela Constitucional",
-        "desc": "Especialista en la activación de garantías jurisdiccionales, acciones de amparo y revisión constitucional para restablecer derechos infringidos en procesos judiciales viciados."
-      }
+    "bio": {
+      "tag": "PERFIL PROFESIONAL",
+      "title": "Dirección estratégica en litigio penal y controversias constitucionales",
+      "p1": "El Dr. Marco A. Colina G. es abogado litigante y docente universitario con más de dos décadas de ejercicio profesional ininterrumpido en el foro penal y constitucional venezolano. Como fundador y Director General de MAC Consultores Jurídicos & Asociados, su práctica se concentra en la conducción técnica de controversias sustantivas de alta complejidad, la defensa corporativa en procesos penales económicos y la formalización de recursos extraordinarios.",
+      "p2": "Su ejercicio profesional se sustenta en una rigurosa formación dogmática complementada con estudios superiores de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas. Durante años, ha ejercido la docencia universitaria en cátedras sustantivas y procesales, articulando el análisis doctrinal con la realidad del litigio en estrados.",
+      "p3": "Cuenta con una trayectoria especializada en la formalización de recursos extraordinarios de casación ante la Sala de Casación Penal del Tribunal Supremo de Justicia y en la interposición de acciones de amparo constitucional ante la Sala Constitucional, enfocando su labor en la tutela judicial efectiva, la observancia del debido proceso y la denuncia fundada de quebrantamientos de garantías fundamentales."
     },
     "pillars": {
       "tag": "SOLVENCIA TÉCNICA",
       "title": "Pilares de Práctica y Trayectoria",
       "card_1": {
+        "number": "01",
         "tag": "+20 AÑOS",
-        "title": "Ejercicio Forense Ininterrumpido",
-        "desc": "Litigación estratégica y dirección procesal especializada ante tribunales de instancia, cortes superiores y jurisdicción penal y constitucional."
+        "title": "Años de Ejercicio Forense",
+        "desc": "Más de dos décadas de ejercicio profesional ininterrumpido respaldan una práctica forense caracterizada por la dirección técnica, estratégica y procesal en litigios de alta complejidad. La intervención en estrados abarca desde tribunales de instancia hasta cortes superiores, con especial atención al control estricto de los términos procesales y al análisis riguroso de los medios probatorios.",
+        "link": "Conocer trayectoria forense →"
       },
       "card_2": {
+        "number": "02",
         "tag": "IV NIVEL",
         "title": "Nivel Académico & Docencia",
-        "desc": "Estudios de postgrado en Derecho Constitucional y Ciencias Penales y Criminológicas, complementados con una destacada trayectoria en la cátedra universitaria."
+        "desc": "La sólida formación dogmática constituye el sustento indispensable para el análisis de controversias sustantivas y procesales complejas. Con estudios superiores de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas, junto a una sostenida trayectoria docente universitaria, el análisis jurídico integra criterios doctrinales y jurisprudenciales aplicables al diseño de cada estrategia.",
+        "link": "Conocer formación académica →"
       },
       "card_3": {
+        "number": "03",
         "tag": "TSJ",
         "title": "Casación y Tutela Constitucional",
-        "desc": "Sustanciación técnica de recursos extraordinarios de casación penal y acciones de amparo para la protección efectiva de garantías fundamentales."
+        "desc": "Especialización técnica orientada a la interposición, formalización y sustanciación de recursos extraordinarios de casación ante el Tribunal Supremo de Justicia y acciones de amparo constitucional. La labor jurídica se concentra en el análisis fundado de quebrantamientos de formas sustanciales, vicios de juzgamiento e infracciones al debido proceso y a las garantías fundamentales.",
+        "link": "Conocer litigio superior →"
       }
+    },
+    "technical_direction": {
+      "tag": "DIRECCIÓN TÉCNICA",
+      "title": "Supervisión directa y auditoría de la teoría del caso",
+      "desc": "Cada asunto admitido por la firma se conduce bajo la supervisión directa del Dr. Marco A. Colina G., con atención a la solvencia técnica y al control procesal."
+    },
+    "ethics": {
+      "tag": "DEONTOLOGÍA DIRECTIVA",
+      "quote": "“No formulamos promesas de resultados. Nuestro compromiso es actuar con rigor técnico, método y lealtad profesional.”",
+      "desc": "En MAC Consultores concebimos la defensa de los derechos e intereses de nuestros clientes como un ejercicio de máxima responsabilidad. La complejidad del ordenamiento jurídico y la naturaleza de las controversias procesales hacen inadmisibles las garantías de resultado infundadas. El estándar de nuestro despacho radica en someter cada asunto a un control previo de viabilidad dogmática y probatoria, definiendo una estrategia técnica sólida y defendiéndola en estrados con lealtad procesal, honestidad profesional y estricto apego al debido proceso."
+    },
+    "closing": {
+      "tag": "DIRECCIÓN GENERAL · EVALUACIÓN ESTRATÉGICA",
+      "title": "Dirección jurídica experimentada para asuntos de alta exigencia",
+      "desc": "Cada asunto admitido por la firma se conduce bajo la supervisión directa del Dr. Marco A. Colina G., con atención a la solvencia técnica y al control procesal.",
+      "btn_primary": "SOLICITAR EVALUACIÓN DE ASUNTO",
+      "btn_secondary": "EXPLORAR LA FIRMA Y SU MÉTODO"
     }
   },
   "socios": {

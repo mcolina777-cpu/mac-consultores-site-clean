@@ -1,16 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
+import { getDictionary } from '@/i18n/getDictionary';
 import { getRoute } from '@/lib/routes';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isEs = locale === 'es';
-  const title = isEs
-    ? 'Dr. Marco A. Colina G. | Director General | Mac Consultores Jurídicos & Asociados'
-    : 'Dr. Marco A. Colina G. | Managing Director | Mac Consultores Jurídicos & Asociados';
-  const description = isEs
-    ? 'Perfil profesional y trayectoria del Dr. Marco A. Colina G., fundador y Director General de Mac Consultores Jurídicos & Asociados. Litigio penal y constitucional en Venezuela.'
-    : 'Professional profile and legal trajectory of Dr. Marco A. Colina G., founder and Managing Director of Mac Consultores Jurídicos & Asociados. Criminal and constitutional litigation in Venezuela.';
+  const dict = await getDictionary(locale);
+  const data = dict?.ceo;
+  const title = data?.meta_title;
+  const description = data?.meta_description;
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/our-ceo`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/our-ceo`;
   const enUrl = `https://mac-consultores-site-clean.vercel.app/en/our-ceo`;
@@ -52,42 +51,37 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function OurCeo({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const isEs = locale === 'es';
+  const dict = await getDictionary(locale);
+  const d = dict.ceo;
 
   return (
     <main className="page-our-ceo">
-      {/* HEADER PRINCIPAL */}
+      {/* 1. HERO PROFESIONAL */}
       <header className="page-header header-soft-bg">
         <div className="container">
-          <span className="section-tag">{isEs ? 'DIRECCIÓN GENERAL' : 'EXECUTIVE LEADERSHIP'}</span>
-          <h1 className="mb-1-5rem serif">Dr. Marco A. Colina G.</h1>
-          <p className="hero-subtitle">{isEs ? 'Director General (CEO) & Fundador' : 'Founder & Managing Director (CEO)'}</p>
+          <span className="section-tag">{d.hero.eyebrow}</span>
+          <h1 className="mb-1-5rem serif">{d.hero.h1}</h1>
+          <p className="hero-subtitle">{d.hero.subtitle}</p>
         </div>
       </header>
 
-      {/* BLOQUE 1: SEMBLANZA Y FOTOGRAFÍA EJECUTIVA VERTICAL */}
+      {/* 2. TRAYECTORIA Y PERFIL PROCESAL */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split">
             <div className="about-content">
-              <span className="section-tag">{isEs ? 'TRAYECTORIA & LIDERAZGO' : 'PROFILE & LEADERSHIP'}</span>
+              <span className="section-tag">{d.bio.tag}</span>
               <h2 className="serif section-title mb-1-5rem">
-                {isEs ? 'Visión Estratégica y Rigor Jurídico' : 'Strategic Vision and Legal Rigor'}
+                {d.bio.title}
               </h2>
-              <p className="text-left max-w-100 mb-1rem">
-                {isEs 
-                  ? 'Abogado litigante y docente universitario con más de dos décadas de ejercicio profesional ininterrumpido en el foro penal y constitucional. Fundador y Director General de Mac Consultores Jurídicos & Asociados.'
-                  : 'Trial attorney and university professor with over two decades of continuous forensic practice in criminal and constitutional law. Founder and Managing Director of Mac Consultores Jurídicos & Asociados.'}
+              <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.7 }}>
+                {d.bio.p1}
               </p>
-              <p className="text-left max-w-100 mb-1-5rem">
-                {isEs
-                  ? 'Su práctica articula una sólida formación dogmática con la dirección estratégica en litigios complejos, consultoría corporativa y casación ante el Tribunal Supremo de Justicia.'
-                  : 'His practice combines rigorous doctrinal foundations with strategic direction in complex litigation, corporate consulting, and cassation before the Supreme Tribunal of Justice.'}
+              <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.7 }}>
+                {d.bio.p2}
               </p>
-              <p className="text-left max-w-100 mb-2rem">
-                {isEs
-                  ? 'Conduce la firma bajo un modelo de asesoría integral y representación judicial rigurosa para clientes con intereses jurídicos y empresariales en Venezuela y en el exterior.'
-                  : 'He leads the firm under a model of comprehensive legal advisory and rigorous judicial representation for clients with legal and business interests in Venezuela and abroad.'}
+              <p className="text-left max-w-100 mb-2rem" style={{ lineHeight: 1.7 }}>
+                {d.bio.p3}
               </p>
             </div>
             <div className="img-reveal img-vertical">
@@ -106,87 +100,89 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
         </div>
       </section>
 
-      {/* BLOQUE 2: PILARES DE AUTORIDAD Y CREDENCIALES FORENSES (CLICABLES) */}
+      {/* 3. PILARES DE AUTORIDAD Y CREDENCIALES */}
       <section className="bg-soft section-padding-asym">
         <div className="container">
-          {/* Encabezado centrado */}
-          <div className="mt-2rem mb-3rem text-center">
-            <span className="section-tag">{isEs ? 'SOLVENCIA TÉCNICA' : 'TECHNICAL RIGOR'}</span>
+          <div className="axial-header axial-centered text-center mb-3-5rem">
+            <span className="section-tag">{d.pillars.tag}</span>
             <h2 className="serif section-title mt-1rem">
-              {isEs ? 'Pilares de Práctica y Trayectoria' : 'Pillars of Practice and Trajectory'}
+              {d.pillars.title}
             </h2>
           </div>
 
-          {/* Grid de 3 Tarjetas Interactivas con numeración 01, 02, 03 */}
-          <div className="grid-3 mb-3rem">
-            {/* TARJETA 01 */}
+          <div className="grid-3 mb-1rem">
             <Link 
               href={getRoute(locale, 'ourCeo.ejercicio_forense')}
               className="card hover-lift"
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
-              <span className="section-tag">01</span>
-              <h3 className="serif">{isEs ? 'Años de Ejercicio Forense' : 'Years of Forensic Practice'}</h3>
+              <span className="section-tag">{d.pillars.card_1.number}</span>
+              <h3 className="serif">{d.pillars.card_1.title}</h3>
               <p 
                 className="card-editorial-text"
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
               >
-                {isEs
-                  ? 'Más de dos décadas de ejercicio profesional ininterrumpido respaldan una práctica forense caracterizada por la dirección técnica, estratégica y procesal en litigios de alta complejidad. La intervención en estrados abarca desde tribunales de instancia hasta cortes superiores, con especial atención al control estricto de los términos procesales y al análisis riguroso de los medios probatorios.'
-                  : 'Over two decades of continuous professional practice support a forensic approach defined by technical, strategic, and procedural direction in high-complexity litigation. Courtroom advocacy spans trial and appellate courts, with careful management of procedural deadlines and rigorous analysis of the evidentiary record.'}
+                {d.pillars.card_1.desc}
               </p>
               <span className="card-link mt-auto">
-                {isEs ? 'Conocer trayectoria forense →' : 'View forensic practice →'}
+                {d.pillars.card_1.link}
               </span>
             </Link>
 
-            {/* TARJETA 02 */}
             <Link 
               href={getRoute(locale, 'ourCeo.nivel_academico')}
               className="card hover-lift"
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
-              <span className="section-tag">02</span>
-              <h3 className="serif">{isEs ? 'Nivel Académico & Docencia' : 'Academic Credentials & Teaching'}</h3>
+              <span className="section-tag">{d.pillars.card_2.number}</span>
+              <h3 className="serif">{d.pillars.card_2.title}</h3>
               <p 
                 className="card-editorial-text"
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
               >
-                {isEs
-                  ? 'La sólida formación dogmática constituye el sustento indispensable para el análisis de controversias sustantivas y procesales complejas. Con estudios superiores de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas, junto a una sostenida trayectoria docente universitaria, el análisis jurídico integra criterios doctrinales y jurisprudenciales aplicables al diseño de cada estrategia.'
-                  : 'Rigorous doctrinal foundations provide an essential basis for analyzing complex substantive and procedural disputes. Holding postgraduate credentials in Constitutional Law and Criminal and Criminological Sciences, together with sustained university teaching experience, our legal analysis integrates applicable doctrinal and case-law criteria into the design of each strategy.'}
+                {d.pillars.card_2.desc}
               </p>
               <span className="card-link mt-auto">
-                {isEs ? 'Conocer formación académica →' : 'View academic credentials →'}
+                {d.pillars.card_2.link}
               </span>
             </Link>
 
-            {/* TARJETA 03 */}
             <Link 
               href={getRoute(locale, 'ourCeo.casacion_tutela')}
               className="card hover-lift"
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
-              <span className="section-tag">03</span>
-              <h3 className="serif">{isEs ? 'Casación y Tutela Constitucional' : 'Cassation & Constitutional Protection'}</h3>
+              <span className="section-tag">{d.pillars.card_3.number}</span>
+              <h3 className="serif">{d.pillars.card_3.title}</h3>
               <p 
                 className="card-editorial-text"
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
               >
-                {isEs
-                  ? 'Especialización técnica orientada a la interposición, formalización y sustanciación de recursos extraordinarios de casación ante el Tribunal Supremo de Justicia y acciones de amparo constitucional. La labor jurídica se concentra en el análisis fundado de quebrantamientos de formas sustanciales, vicios de juzgamiento e infracciones al debido proceso y a las garantías fundamentales.'
-                  : 'Specialized technical advocacy focused on drafting, filing, and substantiating extraordinary cassation appeals before the Supreme Tribunal of Justice and constitutional protection remedies. Legal representation centers on the careful analysis of procedural breaches, judicial errors of law, and potential infringements of due process and fundamental constitutional guarantees.'}
+                {d.pillars.card_3.desc}
               </p>
               <span className="card-link mt-auto">
-                {isEs ? 'Conocer litigio superior →' : 'View appellate practice →'}
+                {d.pillars.card_3.link}
               </span>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* BLOQUE 3: DECLARACIÓN INSTITUCIONAL Y BOTÓN ÚNICO DE CONTACTO */}
+      {/* 4. DIRECCIÓN TÉCNICA */}
       <section className="section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div className="card bg-soft text-center p-3rem" style={{ border: '1px solid var(--border-color, #e5e7eb)', borderRadius: '8px' }}>
+            <span className="section-tag">{d.technical_direction.tag}</span>
+            <h2 className="serif section-title mt-1rem mb-1-5rem">{d.technical_direction.title}</h2>
+            <p className="max-w-800 mx-auto card-editorial-text" style={{ lineHeight: 1.7, fontSize: '1.05rem', color: 'var(--text-color, #1f2937)' }}>
+              {d.technical_direction.desc}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 5. COMPROMISO ÉTICO */}
+      <section className="bg-soft section-padding-asym">
         <div className="container">
           <div className="grid-split reverse">
             <div className="img-reveal">
@@ -202,30 +198,26 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
               </picture>
             </div>
             <div className="vision-text">
-              <span className="section-tag">{isEs ? 'CRITERIO DIRECTIVO' : 'EXECUTIVE APPROACH'}</span>
+              <span className="section-tag">{d.ethics.tag}</span>
               <h2 className="serif heading-lg mb-1-5rem line-height-1-1">
-                {isEs
-                  ? '“No formulamos promesas de resultados; garantizamos rigor técnico, método y lealtad profesional.”'
-                  : '“We do not make outcome promises; we guarantee technical rigor, structured methodology, and professional loyalty.”'}
+                {d.ethics.quote}
               </h2>
-              <p className="mb-2rem text-left max-w-100">
-                {isEs
-                  ? 'La defensa de los intereses corporativos y personales de nuestros patrocinados exige un análisis desprovisto de ligerezas. Cada planteamiento jurídico es sometido a un control previo de viabilidad dogmática y probatoria para asegurar la máxima solidez en estrados.'
-                  : 'The defense of our clients’ corporate and individual interests requires rigorous analysis. Every legal theory undergoes strict doctrinal and evidentiary viability checks to ensure strength before the courts.'}
+              <p className="mb-2rem text-left max-w-100" style={{ lineHeight: 1.7 }}>
+                {d.ethics.desc}
               </p>
               <Link
                 href={getRoute(locale, 'contact')}
                 className="btn btn-primary"
               >
-                {isEs ? 'SOLICITAR CONSULTA ESTRATÉGICA' : 'REQUEST STRATEGIC CONSULTATION'}
+                {d.closing.btn_primary}
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CIERRE INSTITUCIONAL */}
-      <section className="bg-soft section-padding-asym">
+      {/* 6. CIERRE INSTITUCIONAL Y CTA */}
+      <section className="section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
           <div
             className="card bg-soft p-3rem text-center"
@@ -235,24 +227,18 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
             }}
           >
             <span className="section-tag">
-              {isEs
-                ? 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'
-                : 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'}
+              {d.closing.tag}
             </span>
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
-              {isEs
-                ? '“La dirección de cada asunto exige criterio, método y una comprensión rigurosa de los riesgos jurídicos involucrados.”'
-                : '“The direction of every matter requires judgment, method, and a rigorous understanding of the legal risks involved.”'}
+              {d.closing.title}
             </h3>
 
             <p
               className="max-w-800 mx-auto mb-2rem text-muted"
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
-              {isEs
-                ? 'Conozca el enfoque directivo que articula experiencia forense, formación académica y estrategia jurídica en litigios de alta complejidad.'
-                : 'Learn about the executive approach that combines forensic experience, academic background, and legal strategy in complex litigation.'}
+              {d.closing.desc}
             </p>
 
             <div
@@ -264,11 +250,11 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
               }}
             >
               <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
-                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+                {d.closing.btn_primary}
               </Link>
 
               <Link href={getRoute(locale, 'about')} className="btn btn-secondary">
-                {isEs ? '← VOLVER A LA FIRMA' : '← BACK TO THE FIRM'}
+                {d.closing.btn_secondary}
               </Link>
             </div>
           </div>

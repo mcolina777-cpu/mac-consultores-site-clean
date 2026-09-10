@@ -7,9 +7,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isEs = locale === 'es';
   const dict = await getDictionary(locale);
-  const data = (dict as any)?.quienes_somos;
-  const title = data?.meta_title || (isEs ? 'Quiénes Somos | Mac Consultores Jurídicos & Asociados' : 'About Us | Mac Consultores Jurídicos & Asociados');
-  const description = data?.meta_description || '';
+  const data = dict?.quienes_somos;
+  const title = data?.meta_title;
+  const description = data?.meta_description;
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/about`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/about`;
   const enUrl = `https://mac-consultores-site-clean.vercel.app/en/about`;
@@ -52,44 +52,31 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function QuienesSomos({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  const data = (dict as any)?.quienes_somos;
-  const isEs = locale === 'es';
+  const d = dict.quienes_somos;
 
   return (
     <main className="page-quienes-somos">
-      {/* HEADER PRINCIPAL */}
+      {/* 1. HERO INSTITUCIONAL */}
       <header className="page-header header-soft-bg">
         <div className="container">
-          <span className="section-tag">{data?.breadcrumb || (isEs ? 'INICIO / LA FIRMA' : 'HOME / THE FIRM')}</span>
-          <h1 className="mb-1-5rem serif">
-            {isEs ? 'Arquitectura jurídica para desafíos de alta complejidad' : 'Legal Architecture for High-Complexity Challenges'}
-          </h1>
-          <p className="hero-subtitle">
-            {isEs ? 'Rigor, lealtad y estrategia al servicio de sus intereses' : 'Rigor, loyalty, and strategy serving your interests'}
-          </p>
+          <span className="section-tag">{d.hero.eyebrow}</span>
+          <h1 className="mb-1-5rem serif">{d.hero.h1}</h1>
+          <p className="hero-subtitle">{d.hero.subtitle}</p>
         </div>
       </header>
 
-      {/* BLOQUE 1: NUESTRA HISTORIA Y TRAYECTORIA COMPLETA */}
+      {/* 2. HISTORIA INSTITUCIONAL */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="grid-split">
             <div className="about-content">
-              <span className="section-tag">{isEs ? 'NUESTRA HISTORIA' : 'OUR HISTORY'}</span>
-              <h2 className="serif section-title mb-1-5rem">
-                {isEs ? 'Fundación y Vocación Forense' : 'Foundation and Forensic Vocation'}
-              </h2>
+              <span className="section-tag">{d.history.tag}</span>
+              <h2 className="serif section-title mb-1-5rem">{d.history.title}</h2>
               <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.7 }}>
-                {data?.history?.p1 || "Mac Consultores Jurídicos & Asociados es una firma boutique especializada en servicios jurídicos de alta complejidad, con sede en la ciudad de Caracas, Venezuela, fundada en el año 2015 por el Dr. Marco A. Colina G., abogado litigante y docente universitario."}
-              </p>
-              <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.7 }}>
-                {data?.history?.p2 || "Desde su fundación, la firma se concibió como un punto de encuentro entre el rigor académico y la práctica forense del Derecho. Su socio fundador acredita más de veinte años de ejercicio profesional ininterrumpido, complementados con estudios de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas."}
-              </p>
-              <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.7 }}>
-                {data?.history?.p3 || "Bajo su dirección general, Mac Consultores ha construido un modelo de asesoría jurídica integral dirigido a personas, empresas, órganos directivos y clientes en el exterior, con capacidad técnica para atender mandatos complejos dentro y fuera de Venezuela."}
+                {d.history.p1}
               </p>
               <p className="text-left max-w-100 mb-2rem" style={{ lineHeight: 1.7 }}>
-                {data?.history?.p4 || "Actualmente, el Dr. Marco A. Colina G. ejerce la función de Director General (CEO), siendo responsable de la conducción estratégica, administrativa y operativa de la firma."}
+                {d.history.p2}
               </p>
             </div>
             
@@ -109,103 +96,176 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
         </div>
       </section>
 
-      {/* BLOQUE 2: MISIÓN Y LOS 4 PRINCIPIOS RECTORES (DISEÑO EDITORIAL TIPOGRÁFICO) */}
+      {/* 3. MODELO BOUTIQUE */}
       <section className="bg-soft section-padding-asym">
         <div className="container">
           <div className="axial-header axial-centered text-center mb-3-5rem">
-            <span className="section-tag">{isEs ? 'DEONTOLOGÍA & VALORES' : 'DEONTOLOGY & VALUES'}</span>
-            <h2 className="serif section-title mt-1rem">{isEs ? 'Misión y Principios Fundacionales' : 'Mission and Foundational Principles'}</h2>
+            <span className="section-tag">{d.boutique.tag}</span>
+            <h2 className="serif section-title mt-1rem">{d.boutique.title}</h2>
+          </div>
+
+          <div className="grid-2">
+            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+              <p className="card-editorial-text" style={{ lineHeight: 1.7, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
+                {d.boutique.p1}
+              </p>
+            </div>
+
+            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+              <p className="card-editorial-text" style={{ lineHeight: 1.7, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
+                {d.boutique.p2}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. CRITERIO DE ADMISIÓN SELECTIVA */}
+      <section className="section-padding-asym">
+        <div className="container">
+          <div className="axial-header axial-centered text-center mb-3-5rem">
+            <span className="section-tag">{d.intake.tag}</span>
+            <h2 className="serif section-title mt-1rem">{d.intake.title}</h2>
+          </div>
+
+          <div className="grid-2">
+            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+              <p className="card-editorial-text" style={{ lineHeight: 1.7, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
+                {d.intake.p1}
+              </p>
+            </div>
+
+            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+              <p className="card-editorial-text" style={{ lineHeight: 1.7, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
+                {d.intake.p2}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 5. MÉTODO DE TRABAJO EN TRES FASES */}
+      <section className="bg-soft section-padding-asym">
+        <div className="container">
+          <div className="axial-header axial-centered text-center mb-3-5rem">
+            <span className="section-tag">{d.method.tag}</span>
+            <h2 className="serif section-title mt-1rem">{d.method.title}</h2>
+          </div>
+
+          <div className="grid-3">
+            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+              <span className="section-tag">{d.method.phase_1_tag}</span>
+              <h3 className="serif mb-0-5rem">{d.method.phase_1_title}</h3>
+              <p className="text-muted mb-1rem" style={{ fontSize: '0.85rem', fontStyle: 'italic' }}>
+                {d.method.phase_1_subtitle}
+              </p>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
+                {d.method.phase_1_desc}
+              </p>
+            </div>
+
+            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+              <span className="section-tag">{d.method.phase_2_tag}</span>
+              <h3 className="serif mb-0-5rem">{d.method.phase_2_title}</h3>
+              <p className="text-muted mb-1rem" style={{ fontSize: '0.85rem', fontStyle: 'italic' }}>
+                {d.method.phase_2_subtitle}
+              </p>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
+                {d.method.phase_2_desc}
+              </p>
+            </div>
+
+            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+              <span className="section-tag">{d.method.phase_3_tag}</span>
+              <h3 className="serif mb-0-5rem">{d.method.phase_3_title}</h3>
+              <p className="text-muted mb-1rem" style={{ fontSize: '0.85rem', fontStyle: 'italic' }}>
+                {d.method.phase_3_subtitle}
+              </p>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
+                {d.method.phase_3_desc}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 6. PRINCIPIOS DEONTOLÓGICOS (4 PILARES) */}
+      <section className="section-padding-asym">
+        <div className="container">
+          <div className="axial-header axial-centered text-center mb-3-5rem">
+            <span className="section-tag">{d.principles.tag}</span>
+            <h2 className="serif section-title mt-1rem">{d.principles.title}</h2>
             <p className="max-w-800 mx-auto mt-1-5rem serif" style={{ fontSize: '1.2rem', lineHeight: 1.6, color: 'var(--color-primary)' }}>
-              “{isEs 
-                ? 'Nuestra misión es transformar los desafíos legales de nuestros clientes en escenarios de seguridad jurídica y crecimiento, mediante soluciones estratégicas, técnicamente sólidas y desarrolladas con absoluto apego a la ética profesional.' 
-                : 'Our mission is to transform our clients’ legal challenges into scenarios of legal certainty and growth, through strategic, technically sound solutions developed with absolute adherence to professional ethics.'}”
+              {d.principles.mission_quote}
             </p>
           </div>
 
           <div className="grid-2">
-            {/* Tarjeta 01 */}
-            <Link 
-              href={getRoute(locale, "about.legalidad_diligencia" as any)} 
+            <Link
+              href={getRoute(locale, "about.legalidad_diligencia")}
               className="card hover-lift"
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
-              <span className="section-tag">01</span>
-              <h3 className="serif">{isEs ? 'Legalidad y Diligencia' : 'Legality & Due Diligence'}</h3>
+              <span className="section-tag">{d.principles.card_1_number}</span>
+              <h3 className="serif">{d.principles.card_1_title}</h3>
               <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
-                {isEs 
-                  ? 'Constituye el fundamento inquebrantable de nuestra práctica forense, asegurando el sometimiento estricto al ordenamiento constitucional y a la legalidad vigente en cada etapa procesal. Desde el contacto inicial, evaluamos con riguroso celo técnico la viabilidad del caso, el control estricto de los términos procesales y las expectativas reales del mandante, estructurando defensas y mandatos que descansan invariablemente en la legitimidad de los medios jurídicos empleados.'
-                  : 'Constitutes the unwavering foundation of our forensic practice, ensuring strict adherence to the constitutional order and current legal framework throughout every procedural stage. From the initial consultation, we assess case feasibility, strict management of procedural deadlines, and realistic client expectations with rigorous technical diligence, structuring defenses and mandates grounded strictly in the legitimacy of legal means.'}
+                {d.principles.card_1_desc}
               </p>
               <span className="card-link mt-auto">
-                {isEs ? "Leer más →" : "Read more →"}
+                {d.principles.card_1_link}
               </span>
             </Link>
 
-            {/* Tarjeta 02 */}
-            <Link 
-              href={getRoute(locale, "about.independencia_tecnica" as any)} 
+            <Link
+              href={getRoute(locale, "about.independencia_tecnica")}
               className="card hover-lift"
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
-              <span className="section-tag">02</span>
-              <h3 className="serif">{isEs ? 'Independencia Técnica' : 'Technical Independence'}</h3>
+              <span className="section-tag">{d.principles.card_2_number}</span>
+              <h3 className="serif">{d.principles.card_2_title}</h3>
               <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
-                {isEs 
-                  ? 'Garantiza un criterio jurídico objetivo, riguroso e innegociable, libre de presiones o conveniencias ajenas al análisis técnico del caso. Evaluamos la realidad fáctica y probatoria con plena autonomía funcional, comunicando con honestidad tanto fortalezas como riesgos, para proporcionar el juicio profesional certero e indispensable que permite al cliente tomar decisiones estratégicas debidamente informadas.'
-                  : 'Guarantees an objective, rigorous, and non-negotiable legal criterion, free from external pressures or convenience outside strict technical analysis. We evaluate factual and evidentiary realities with complete functional autonomy, honestly communicating strengths and risks to provide the indispensable professional judgment required for clients to make thoroughly informed strategic and procedural decisions.'}
+                {d.principles.card_2_desc}
               </p>
               <span className="card-link mt-auto">
-                {isEs ? "Leer más →" : "Read more →"}
+                {d.principles.card_2_link}
               </span>
             </Link>
 
-            {/* Tarjeta 03 */}
-            <Link 
-              href={getRoute(locale, "about.transparencia_buena_fe" as any)} 
+            <Link
+              href={getRoute(locale, "about.transparencia_buena_fe")}
               className="card hover-lift"
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
-              <span className="section-tag">03</span>
-              <h3 className="serif">{isEs ? 'Transparencia y Buena Fe' : 'Transparency & Good Faith'}</h3>
-              <p 
-                className="card-editorial-text"
-                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
-              >
-                {isEs 
-                  ? "La confianza jurídica se construye sobre información clara, delimitación del encargo y honestidad recíproca. Exige comunicar con objetividad los riesgos reales del asunto, evitar promesas infundadas de resultados y definir con total precisión los honorarios y el alcance de la intervención. Asimismo, requiere una conducta leal y colaborativa de ambas partes, garantizando una relación profesional transparente, coherente y plenamente verificable."
-                  : "Legal trust is built upon clear information, defined scope, and reciprocal honesty. It requires objectively communicating real risks, avoiding unfounded promises of results, and precisely defining fee structures and the scope of intervention. Furthermore, it demands loyal and collaborative conduct from both parties, ensuring a transparent, consistent, and fully verifiable professional relationship."}
+              <span className="section-tag">{d.principles.card_3_number}</span>
+              <h3 className="serif">{d.principles.card_3_title}</h3>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
+                {d.principles.card_3_desc}
               </p>
               <span className="card-link mt-auto">
-                {isEs ? "Leer más →" : "Read more →"}
+                {d.principles.card_3_link}
               </span>
             </Link>
 
-            {/* Tarjeta 04 */}
-            <Link 
-              href={getRoute(locale, "about.confidencialidad_secreto" as any)} 
+            <Link
+              href={getRoute(locale, "about.confidencialidad_secreto")}
               className="card hover-lift"
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
-              <span className="section-tag">04</span>
-              <h3 className="serif">{isEs ? 'Confidencialidad y Secreto' : 'Confidentiality & Professional Secrecy'}</h3>
-              <p 
-                className="card-editorial-text"
-                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}
-              >
-                {isEs 
-                  ? "La información confiada al abogado constituye un ámbito de especial reserva y protección jurídica. El secreto profesional no es una simple formalidad, sino una condición estructural indispensable para el ejercicio efectivo del derecho de defensa, la evaluación rigurosa del caso y la salvaguarda de intereses personales, corporativos y estratégicos frente a terceros."
-                  : "Information entrusted to counsel constitutes a domain of special reserve and legal protection. Professional secrecy is not a mere formality, but a structural condition essential for the effective exercise of the right to defense, rigorous case assessment, and the safeguarding of personal, corporate, and strategic interests against third parties."}
+              <span className="section-tag">{d.principles.card_4_number}</span>
+              <h3 className="serif">{d.principles.card_4_title}</h3>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
+                {d.principles.card_4_desc}
               </p>
               <span className="card-link mt-auto">
-                {isEs ? "Leer más →" : "Read more →"}
+                {d.principles.card_4_link}
               </span>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* BLOQUE 3: PROPÓSITO INSTITUCIONAL Y LIDERAZGO FORENSE */}
-      <section className="section-padding-asym">
+      {/* 7. PUENTE HACIA EL DIRECTOR GENERAL */}
+      <section className="bg-soft section-padding-asym">
         <div className="container">
           <div className="grid-split reverse">
             <div className="img-reveal">
@@ -220,26 +280,82 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               </picture>
             </div>
             <div className="vision-text">
-              <span className="section-tag">{isEs ? "LIDERAZGO FORENSE" : "FORENSIC LEADERSHIP"}</span>
+              <span className="section-tag">{d.director_bridge.tag}</span>
               <h2 className="serif heading-lg mb-1-5rem line-height-1-1">
-                {data?.mission?.quote || (isEs ? '“Dirección estratégica y rigor dogmático en controversias de alta complejidad.”' : '“Strategic direction and doctrinal rigor in high-complexity disputes.”')}
+                {d.director_bridge.quote}
               </h2>
-              <p className="mb-2rem text-left max-w-100">
-                {data?.mission?.desc || (isEs
-                  ? 'Bajo la conducción del Dr. Marco A. Colina G., la firma articula experiencia forense, estricto control de las garantías procesales y criterio académico para brindar defensa técnica sólida a clientes nacionales e internacionales con intereses en Venezuela.'
-                  : 'Led by Dr. Marco A. Colina G., the firm combines trial experience, strict protection of procedural guarantees, and academic insight to provide rigorous legal representation to domestic and international clients with interests in Venezuela.')}
+              <p className="mb-2rem text-left max-w-100" style={{ lineHeight: 1.7 }}>
+                {d.director_bridge.desc}
               </p>
               <Link
                 href={getRoute(locale, 'ourCeo')}
                 className="btn btn-primary btn-director"
               >
-                {data?.mission?.btn || (isEs ? 'CONOCE A NUESTRO DIRECTOR GENERAL' : 'MEET OUR MANAGING PARTNER')}
+                {d.director_bridge.btn}
               </Link>
             </div>
           </div>
         </div>
       </section>
-      {/* CIERRE INSTITUCIONAL */}
+
+      {/* 8. DESPLIEGUE INSTITUCIONAL (DERIVACIÓN HACIA SERVICIOS, INTERNACIONAL Y ALIANZAS) */}
+      <section className="section-padding-asym">
+        <div className="container">
+          <div className="axial-header axial-centered text-center mb-3-5rem">
+            <span className="section-tag">{d.dispatch.tag}</span>
+            <h2 className="serif section-title mt-1rem">{d.dispatch.title}</h2>
+          </div>
+
+          <div className="grid-3 mb-1rem">
+            <Link
+              href={getRoute(locale, "services")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">{d.dispatch.card_1_tag}</span>
+              <h3 className="serif">{d.dispatch.card_1_title}</h3>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
+                {d.dispatch.card_1_desc}
+              </p>
+              <span className="card-link mt-auto">
+                {d.dispatch.card_1_link}
+              </span>
+            </Link>
+
+            <Link
+              href={getRoute(locale, "services.consular")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">{d.dispatch.card_2_tag}</span>
+              <h3 className="serif">{d.dispatch.card_2_title}</h3>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
+                {d.dispatch.card_2_desc}
+              </p>
+              <span className="card-link mt-auto">
+                {d.dispatch.card_2_link}
+              </span>
+            </Link>
+
+            <Link
+              href={getRoute(locale, "services.international_cooperation")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">{d.dispatch.card_3_tag}</span>
+              <h3 className="serif">{d.dispatch.card_3_title}</h3>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
+                {d.dispatch.card_3_desc}
+              </p>
+              <span className="card-link mt-auto">
+                {d.dispatch.card_3_link}
+              </span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 9. CIERRE INSTITUCIONAL Y CTA */}
       <section className="bg-soft section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
           <div
@@ -250,22 +366,18 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             }}
           >
             <span className="section-tag">
-              {isEs ? 'MAC CONSULTORES JURÍDICOS & ASOCIADOS' : 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'}
+              {d.closing.tag}
             </span>
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
-              {isEs
-                ? '“Una práctica jurídica construida sobre principios firmes, rigor técnico y una visión institucional orientada a la confianza.”'
-                : '“A legal practice built on firm principles, technical rigor, and an institutional vision grounded in trust.”'}
+              {d.closing.title}
             </h3>
 
             <p
               className="max-w-800 mx-auto mb-2rem text-muted"
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
-              {isEs
-                ? 'Conozca la identidad, los principios y la trayectoria que sustentan el trabajo de Mac Consultores Jurídicos & Asociados.'
-                : 'Learn about the identity, principles, and professional trajectory that support the work of Mac Consultores Jurídicos & Asociados.'}
+              {d.closing.desc}
             </p>
 
             <div
@@ -277,11 +389,11 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               }}
             >
               <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
-                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
+                {d.closing.btn_primary}
               </Link>
 
-              <Link href={`/${locale}`} className="btn btn-secondary">
-                {isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME'}
+              <Link href={getRoute(locale, 'services')} className="btn btn-secondary">
+                {d.closing.btn_secondary}
               </Link>
             </div>
           </div>
