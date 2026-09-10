@@ -46,13 +46,13 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
           <p className="hero-subtitle" style={{ maxWidth: '750px', opacity: 0.95 }}>
             {dict?.desc}
           </p>
-          <div className="hero-btns" style={{ marginTop: '2rem' }}>
+          <div className="hero-btns" style={{ marginTop: '1.5rem' }}>
             <Link href={getRoute(locale, "contact")} className="btn btn-primary">
               {dict?.btn}
             </Link>
             {dict?.btn_hint && (
               <p
-                className="hero-btn-hint mt-1rem text-sm"
+                className="hero-btn-hint text-sm"
                 style={{ opacity: 0.8, fontSize: '0.85rem' }}
               >
                 {dict.btn_hint}

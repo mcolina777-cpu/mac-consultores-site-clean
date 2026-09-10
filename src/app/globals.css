@@ -348,6 +348,11 @@ nav .nav-links a {
     align-items: flex-start;
   }
 
+  .hero .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .hero-content {
     max-width: 100%;
     margin: 0 auto;
@@ -363,6 +368,10 @@ nav .nav-links a {
   .hero-content p {
     font-size: 1rem;
     line-height: 1.5;
+  }
+
+  .hero .btn-primary {
+    margin-top: 0;
   }
 
   .hero-btn-hint {
