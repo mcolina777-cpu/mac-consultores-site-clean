@@ -43,7 +43,7 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
         <div className="hero-content">
           <span className="section-tag" style={{ color: '#d4af37' }}>{dict?.tag}</span>
           <h1 className="mb-1-5rem serif">{dict?.h1}</h1>
-          <p className="hero-subtitle" style={{ fontSize: '1.15rem', lineHeight: 1.6, maxWidth: '750px', opacity: 0.95 }}>
+          <p className="hero-subtitle" style={{ maxWidth: '750px', opacity: 0.95 }}>
             {dict?.desc}
           </p>
           <div className="hero-btns" style={{ marginTop: '2rem' }}>
