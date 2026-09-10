@@ -219,7 +219,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
           <div className="axial-header axial-centered text-center mb-3-5rem">
             <span className="section-tag">{d.principles.tag}</span>
             <h2 className="serif section-title mt-1rem">{d.principles.title}</h2>
-            <p className="max-w-800 mx-auto mt-1-5rem serif" style={{ fontSize: '1.2rem', lineHeight: 1.6, color: 'var(--color-primary)' }}>
+            <p className="max-w-800 mx-auto mt-1-5rem serif" style={{ fontSize: '1.2rem', lineHeight: 1.6, color: 'var(--text-main)' }}>
               {d.principles.mission_quote}
             </p>
           </div>
