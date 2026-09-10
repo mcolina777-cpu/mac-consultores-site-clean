@@ -75,8 +75,11 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.7 }}>
                 {d.history.p1}
               </p>
-              <p className="text-left max-w-100 mb-2rem" style={{ lineHeight: 1.7 }}>
+              <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.7 }}>
                 {d.history.p2}
+              </p>
+              <p className="text-left max-w-100 mb-2rem" style={{ lineHeight: 1.7 }}>
+                {d.history.p3}
               </p>
             </div>
             
