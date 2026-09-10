@@ -68,6 +68,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
           <h1 className="mb-1-5rem">{dict?.tramites_consulares?.h1}</h1>
           <p className="hero-subtitle mb-2rem">{dict?.tramites_consulares?.subtitle}</p>
           <div
+            className="btn-group"
             style={{
               display: 'flex',
               gap: '1rem',
@@ -228,6 +229,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
             </p>
 
             <div
+              className="btn-group"
               style={{
                 display: 'flex',
                 gap: '1rem',
@@ -238,7 +240,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
               <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
                 {dict?.tramites_consulares?.cierre?.btn_primary || (isEs ? 'EVALUAR ASUNTO CON LA FIRMA' : 'EVALUATE MATTER WITH THE FIRM')}
               </Link>
-              <Link href={getRoute(locale, 'home')} className="btn btn-secondary">
+              <Link href={getRoute(locale, 'home')} className="btn btn-secondary btn-compact">
                 {dict?.tramites_consulares?.cierre?.btn_secondary || (isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME')}
               </Link>
             </div>

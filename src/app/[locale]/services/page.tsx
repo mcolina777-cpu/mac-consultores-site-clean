@@ -306,6 +306,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
             </p>
 
             <div
+              className="btn-group"
               style={{
                 display: 'flex',
                 gap: '1rem',
@@ -320,7 +321,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
                 {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
               </Link>
 
-              <Link href={getRoute(locale, "home")} className="btn btn-secondary">
+              <Link href={getRoute(locale, "home")} className="btn btn-secondary btn-compact">
                 {isEs ? '← VOLVER AL INICIO' : '← BACK TO HOME'}
               </Link>
             </div>

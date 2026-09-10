@@ -615,13 +615,11 @@ section {
 /* Base de botones */
 .btn {
   display: inline-block;
-  padding: 14px 32px;
-  font-size: 0.88rem;
+  padding: 15px 35px;
+  font-size: 0.9rem;
   font-weight: 600;
-  line-height: 1.2;
-  box-sizing: border-box;
   text-transform: uppercase;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.5px;
   cursor: pointer;
   border: none;
   border-radius: 50px;
@@ -723,22 +721,60 @@ button,
   appearance: none;
 }
 
-/* Escala responsive unificada de botones */
-@media (max-width: 1024px) {
-  .btn {
-    padding: 13px 28px;
-    font-size: 0.85rem;
-    letter-spacing: 1px;
-    line-height: 1.2;
-  }
+/* ===========================
+   SOLUCIÓN CONTEXTUAL DE BOTONES
+   =========================== */
+
+/* Botonera contextual (.btn-group) */
+.btn-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Variante compacta para botones de retorno / navegación */
+.btn-compact,
+.card.bg-soft.text-center .btn-secondary {
+  padding: 11px 24px;
+  font-size: 0.82rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
 }
 
 @media (max-width: 768px) {
-  .btn {
-    padding: 12px 20px;
-    font-size: 0.82rem;
-    letter-spacing: 0.8px;
+  .btn-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .btn-group .btn {
+    width: 100%;
+    max-width: 320px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 13px 20px;
+    font-size: 0.84rem;
+    letter-spacing: 0.9px;
     line-height: 1.25;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-compact,
+  .btn-group .btn-compact,
+  .card.bg-soft.text-center .btn-secondary {
+    width: auto;
+    max-width: 260px;
+    padding: 10px 18px;
+    font-size: 0.78rem;
+    letter-spacing: 0.8px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
