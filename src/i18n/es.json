@@ -156,14 +156,17 @@
       "phase_1_title": "Evaluación preliminar y diagnóstico de viabilidad",
       "phase_1_subtitle": "Análisis fáctico, normativo y control preventivo.",
       "phase_1_desc": "Todo asunto inicia con un examen riguroso de los hechos y la documentación aportada. Evaluamos la legitimidad procesal, la concurrencia de prescripciones o caducidades, la tipicidad de las conductas investigadas y los riesgos legales involucrados. Si el asunto carece de viabilidad o de encaje técnico con nuestras áreas de práctica, lo comunicamos con absoluta honestidad previa a cualquier compromiso formal.",
+      "phase_1_link": "VER CRITERIO DE VIABILIDAD PROCESAL →",
       "phase_2_tag": "FASE 02",
       "phase_2_title": "Construcción de la estrategia y articulación probatoria",
       "phase_2_subtitle": "Diseño de la teoría del caso y anticipación procesal.",
       "phase_2_desc": "Determinada la viabilidad del encargo, estructuramos una teoría del caso coherente, sustentada en doctrina jurídica aplicable y precedentes vinculantes de los tribunales superiores. Diseñamos el plan probatorio idóneo, anticipamos las contingencias del proceso y definimos la hoja de ruta procesal, estableciendo con precisión los alcances de la actuación y la preservación de garantías.",
+      "phase_2_link": "CONOCER EL DISEÑO DE LA TEORÍA DEL CASO →",
       "phase_3_tag": "FASE 03",
-      "phase_3_title": "Actuación y seguimiento procesal riguroso",
-      "phase_3_subtitle": "Defensa en estrados, recursos e interlocución continua.",
-      "phase_3_desc": "Ejercemos la representación técnica con estricta sujeción al ordenamiento procesal venezolano. Desde la intervención ante órganos auxiliares de justicia y tribunales de instancia hasta la formalización de recursos de amparo o casación ante el Tribunal Supremo de Justicia, mantenemos un control exhaustivo de plazos, una defensa activa de garantías constitucionales y una rendición de cuentas clara al mandante."
+      "phase_3_title": "Conducción estratégica y escenarios de litigio",
+      "phase_3_subtitle": "Anticipación procesal, medidas urgentes y tutela de garantías.",
+      "phase_3_desc": "Frente a controversias de alta sensibilidad, articulamos respuestas técnicas inmediatas ante investigaciones corporativas, medidas cautelares e incidencias procesales complejas. Formulamos escenarios anticipatorios para preservar la iniciativa procesal, asegurar la evidencia crítica y defender las garantías constitucionales con estricto rigor forense.",
+      "phase_3_link": "Ver escenarios y estrategia forense →"
     },
     "principles": {
       "tag": "DEONTOLOGÍA & VALORES",

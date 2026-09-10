@@ -153,38 +153,59 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
           </div>
 
           <div className="grid-3">
-            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+            <Link
+              href={getRoute(locale, "estrategiaSeleccionDeCasos")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
               <span className="section-tag">{d.method.phase_1_tag}</span>
               <h3 className="serif mb-0-5rem">{d.method.phase_1_title}</h3>
               <p className="text-muted mb-1rem" style={{ fontSize: '0.85rem', fontStyle: 'italic' }}>
                 {d.method.phase_1_subtitle}
               </p>
-              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
                 {d.method.phase_1_desc}
               </p>
-            </div>
+              <span className="card-link mt-auto">
+                {d.method.phase_1_link}
+              </span>
+            </Link>
 
-            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+            <Link
+              href={getRoute(locale, "estrategiaTeoriaDelCaso")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
               <span className="section-tag">{d.method.phase_2_tag}</span>
               <h3 className="serif mb-0-5rem">{d.method.phase_2_title}</h3>
               <p className="text-muted mb-1rem" style={{ fontSize: '0.85rem', fontStyle: 'italic' }}>
                 {d.method.phase_2_subtitle}
               </p>
-              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
                 {d.method.phase_2_desc}
               </p>
-            </div>
+              <span className="card-link mt-auto">
+                {d.method.phase_2_link}
+              </span>
+            </Link>
 
-            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+            <Link
+              href={getRoute(locale, "estrategiaEscenariosRepresentativos")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
               <span className="section-tag">{d.method.phase_3_tag}</span>
               <h3 className="serif mb-0-5rem">{d.method.phase_3_title}</h3>
               <p className="text-muted mb-1rem" style={{ fontSize: '0.85rem', fontStyle: 'italic' }}>
                 {d.method.phase_3_subtitle}
               </p>
-              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
+              <p className="card-editorial-text" style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem' }}>
                 {d.method.phase_3_desc}
               </p>
-            </div>
+              <span className="card-link mt-auto">
+                {d.method.phase_3_link}
+              </span>
+            </Link>
           </div>
         </div>
       </section>
