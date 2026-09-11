@@ -1081,23 +1081,31 @@
   },
   "noticias": {
     "title": "Noticias & Actualidad | Mac Consultores Jurídicos & Asociados",
-    "breadcrumb": "Actualidad / Información",
-    "h1": "Noticias & Actualidad Jurídica",
+    "breadcrumb": "Actualidad jurídica",
+    "h1": "Actualidad regulatoria",
     "read_more": "LEER MÁS →",
+    "closing_quote": "Los cambios normativos deben revisarse según la operación y el caso concreto.",
+    "closing_desc": "Esta sección reúne información de carácter general sobre asuntos jurídicos de interés. No sustituye el análisis de los hechos, los riesgos y las obligaciones aplicables a cada situación.",
     "news_1": {
-      "tag": "Legislación",
-      "title": "Nuevas Reformas en Materia Penal",
-      "desc": "El Ejecutivo Nacional anunció modificaciones sustanciales al Código Orgánico Procesal Penal que impactan directamente en los procedimientos de investigación y las medidas cautelares aplicables."
+      "tag": "Actualidad tributaria",
+      "title": "RIF sin fecha de vencimiento: actualización de datos y gestión electrónica",
+      "desc": "La Providencia SNAT/2026/00080 elimina la fecha de vencimiento del comprobante de RIF y refuerza la gestión electrónica de los trámites ante el SENIAT. La vigencia del registro depende de que la información del contribuyente se mantenga correcta y actualizada.",
+      "cta": "CONSULTAR FUENTE →",
+      "aria_label": "Consultar fuente sobre RIF sin fecha de vencimiento en PwC"
     },
     "news_2": {
-      "tag": "Institucional",
-      "title": "Nuevo Convenio Internacional",
-      "desc": "Mac Consultores firma acuerdo de colaboración estratégica con firma asociada en Madrid para la atención de casos transfronterizos de alta complejidad."
+      "tag": "Cumplimiento digital",
+      "title": "Publicidad digital e identificación fiscal: el RIF en comunicaciones comerciales",
+      "desc": "La Providencia SNAT/2026/00080 menciona expresamente los anuncios difundidos por medios de comunicación masiva y digital. Su aplicación en redes sociales, comercio electrónico y modelos de marketplace requiere revisar quién anuncia, vende y factura en cada operación.",
+      "cta": "LEER ANÁLISIS →",
+      "aria_label": "Leer análisis sobre RIF en publicidad digital en Xtrategik"
     },
     "news_3": {
-      "tag": "Jurisprudencia",
-      "title": "Sentencia Vinculante TSJ",
-      "desc": "La Sala Constitucional establece nuevos criterios sobre la aplicación del principio de presunción de inocencia en procesos por delitos económicos y financieros."
+      "tag": "Facturación electrónica",
+      "title": "Derogatoria del régimen de homologación de sistemas de facturación",
+      "desc": "La Providencia SNAT/2026/00084 derogó el régimen de condiciones y requisitos aplicable a proveedores de sistemas informáticos utilizados para emitir facturas y otros documentos fiscales. La derogatoria no establece de inmediato un régimen sustituto, por lo que conviene seguir las próximas publicaciones del SENIAT.",
+      "cta": "CONSULTAR FUENTE →",
+      "aria_label": "Consultar fuente sobre la derogatoria del régimen de homologación en PwC"
     }
   },
   "articulo_crimen": {

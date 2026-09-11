@@ -1081,23 +1081,31 @@
   },
   "noticias": {
     "title": "News & Current Affairs | Mac Consultores Jurídicos & Asociados",
-    "breadcrumb": "Current Affairs / Information",
-    "h1": "News & Legal Current Affairs",
+    "breadcrumb": "Legal updates",
+    "h1": "Regulatory updates",
     "read_more": "READ MORE →",
+    "closing_quote": "Regulatory developments should be assessed in light of each operation and specific matter.",
+    "closing_desc": "This section provides general information on legal developments of interest. It does not replace an assessment of the facts, risks, and obligations applicable to a particular situation.",
     "news_1": {
-      "tag": "Legislation",
-      "title": "New Reforms in Criminal Matters",
-      "desc": "The National Executive announced substantial modifications to the Organic Criminal Procedural Code that directly impact investigative procedures and applicable precautionary measures."
+      "tag": "Tax update",
+      "title": "RIF validity without an expiry date: data updates and electronic administration",
+      "desc": "Administrative Ruling SNAT/2026/00080 removes the expiry date from the RIF certificate and reinforces electronic administration of procedures before SENIAT. The registration remains valid provided that the taxpayer’s information is accurate and up to date.",
+      "cta": "VIEW SOURCE →",
+      "aria_label": "View PwC source on RIF validity without an expiry date"
     },
     "news_2": {
-      "tag": "Institutional",
-      "title": "New International Agreement",
-      "desc": "Mac Consultores signs strategic collaboration agreement with associated firm in Madrid to handle highly complex cross-border cases."
+      "tag": "Digital compliance",
+      "title": "Digital advertising and tax identification: RIF in commercial communications",
+      "desc": "Administrative Ruling SNAT/2026/00080 expressly addresses advertisements distributed through mass and digital media. Its application to social media, e-commerce, and marketplace models requires reviewing who advertises, sells, and invoices in each transaction.",
+      "cta": "READ ANALYSIS →",
+      "aria_label": "Read Xtrategik analysis on RIF in digital advertising"
     },
     "news_3": {
-      "tag": "Jurisprudence",
-      "title": "TSJ Binding Ruling",
-      "desc": "The Constitutional Chamber establishes new criteria on the application of the presumption of innocence principle in proceedings for economic and financial crimes."
+      "tag": "Electronic invoicing",
+      "title": "Repeal of the approval regime for invoicing-system providers",
+      "desc": "Administrative Ruling SNAT/2026/00084 repealed the conditions and requirements applicable to providers of information systems used to issue invoices and other tax documents. No replacement regime was established immediately, so further SENIAT publications should be monitored.",
+      "cta": "VIEW SOURCE →",
+      "aria_label": "View PwC source on the repeal of the invoicing-system approval regime"
     }
   },
   "articulo_crimen": {

@@ -74,78 +74,102 @@ export default async function Noticias({ params }: Props) {
           <div className="grid-3">
             <article style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
               <a
-                href="https://accesoalajusticia.org/modificaciones-codigo-organico-procesal-penal-copp-venezolano-historia-7-tiempos/"
+                href="https://www.pwc.com/ve/es/assets/documentos/stl/NAC-SENIAT-Resoluciones-20260814-2026.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="card"
                 aria-label={
-                  isEs
-                    ? 'Leer análisis sobre Nuevas Reformas en Materia Penal en Acceso a la Justicia'
-                    : 'Read analysis on New Reforms in Criminal Matters on Acceso a la Justicia'
+                  dict?.noticias?.news_1?.aria_label ||
+                  (isEs
+                    ? 'Consultar fuente sobre RIF sin fecha de vencimiento en PwC'
+                    : 'View PwC source on RIF validity without an expiry date')
                 }
                 style={{ textDecoration: 'none', color: 'inherit' }}
               >
                 <picture>
                   <source srcSet="/assets/img-webp/OFICINA_1.webp" type="image/webp" />
-                  <img src="/assets/img/OFICINA_1.jpg" alt="Reforma Penal" className="news-img" width="2752" height="1536" loading="lazy" />
+                  <img
+                    src="/assets/img/OFICINA_1.jpg"
+                    alt={dict?.noticias?.news_1?.title || (isEs ? 'RIF sin fecha de vencimiento' : 'RIF validity without an expiry date')}
+                    className="news-img"
+                    width="2752"
+                    height="1536"
+                    loading="lazy"
+                  />
                 </picture>
                 <span className="section-tag">{dict?.noticias?.news_1?.tag}</span>
                 <h3>{dict?.noticias?.news_1?.title}</h3>
                 <p>{dict?.noticias?.news_1?.desc}</p>
                 <span className="news-link">
-                  {dict?.noticias?.read_more}
+                  {dict?.noticias?.news_1?.cta || (isEs ? 'CONSULTAR FUENTE →' : 'VIEW SOURCE →')}
                 </span>
               </a>
             </article>
 
             <article style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
               <a
-                href="https://theimpactlawyers.com/es/articulos/la-colaboracion-de-las-firmas-legales-una-practica-extendida-en-la-abogacia"
+                href="https://xtrategik.com/rif-publicidad-digital-venezuela-ecommerce-marketplaces/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="card"
                 aria-label={
-                  isEs
-                    ? 'Leer artículo sobre Nuevo Convenio Internacional en The Impact Lawyers'
-                    : 'Read article on New International Agreement on The Impact Lawyers'
+                  dict?.noticias?.news_2?.aria_label ||
+                  (isEs
+                    ? 'Leer análisis sobre RIF en publicidad digital en Xtrategik'
+                    : 'Read Xtrategik analysis on RIF in digital advertising')
                 }
                 style={{ textDecoration: 'none', color: 'inherit' }}
               >
                 <picture>
                   <source srcSet="/assets/img-webp/OFICINA_2.webp" type="image/webp" />
-                  <img src="/assets/img/OFICINA_2.jpg" alt="Convenio Internacional" className="news-img" width="2752" height="1536" loading="lazy" />
+                  <img
+                    src="/assets/img/OFICINA_2.jpg"
+                    alt={dict?.noticias?.news_2?.title || (isEs ? 'Publicidad digital e identificación fiscal' : 'Digital advertising and tax identification')}
+                    className="news-img"
+                    width="2752"
+                    height="1536"
+                    loading="lazy"
+                  />
                 </picture>
                 <span className="section-tag">{dict?.noticias?.news_2?.tag}</span>
                 <h3>{dict?.noticias?.news_2?.title}</h3>
                 <p>{dict?.noticias?.news_2?.desc}</p>
                 <span className="news-link">
-                  {dict?.noticias?.read_more}
+                  {dict?.noticias?.news_2?.cta || (isEs ? 'LEER ANÁLISIS →' : 'READ ANALYSIS →')}
                 </span>
               </a>
             </article>
 
             <article style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
               <a
-                href="https://vlex.es/vid/derecho-presuncion-inocencia-391378250"
+                href="https://www.pwc.com/ve/es/assets/documentos/stl/NAC-SENIAT-Resoluciones-20260814-2026.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="card"
                 aria-label={
-                  isEs
-                    ? 'Consultar jurisprudencia sobre Sentencia Vinculante TSJ en vLex'
-                    : 'Consult case law on TSJ Binding Ruling on vLex'
+                  dict?.noticias?.news_3?.aria_label ||
+                  (isEs
+                    ? 'Consultar fuente sobre la derogatoria del régimen de homologación en PwC'
+                    : 'View PwC source on the repeal of the invoicing-system approval regime')
                 }
                 style={{ textDecoration: 'none', color: 'inherit' }}
               >
                 <picture>
                   <source srcSet="/assets/img-webp/OFICINA_3.webp" type="image/webp" />
-                  <img src="/assets/img/OFICINA_3.jpg" alt="Sentencia TSJ" className="news-img" width="2752" height="1536" loading="lazy" />
+                  <img
+                    src="/assets/img/OFICINA_3.jpg"
+                    alt={dict?.noticias?.news_3?.title || (isEs ? 'Derogatoria del régimen de homologación de sistemas de facturación' : 'Repeal of the approval regime for invoicing systems')}
+                    className="news-img"
+                    width="2752"
+                    height="1536"
+                    loading="lazy"
+                  />
                 </picture>
                 <span className="section-tag">{dict?.noticias?.news_3?.tag}</span>
                 <h3>{dict?.noticias?.news_3?.title}</h3>
                 <p>{dict?.noticias?.news_3?.desc}</p>
                 <span className="news-link">
-                  {dict?.noticias?.read_more}
+                  {dict?.noticias?.news_3?.cta || (isEs ? 'CONSULTAR FUENTE →' : 'VIEW SOURCE →')}
                 </span>
               </a>
             </article>
@@ -175,18 +199,20 @@ export default async function Noticias({ params }: Props) {
               className="serif mt-1rem mb-1rem"
               style={{ fontSize: '1.4rem' }}
             >
-              {isEs
-                ? '“El conocimiento oportuno de las reformas y criterios vinculantes define la solidez de una estrategia.”'
-                : '“Timely insight into legal reforms and binding precedents defines the strength of any legal strategy.”'}
+              {dict?.noticias?.closing_quote ||
+                (isEs
+                  ? 'Los cambios normativos deben revisarse según la operación y el caso concreto.'
+                  : 'Regulatory developments should be assessed in light of each operation and specific matter.')}
             </h3>
 
             <p
               className="max-w-800 mx-auto mb-2rem text-muted"
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
-              {isEs
-                ? 'Nuestra práctica forense analiza de manera permanente las modificaciones legislativas y tendencias jurisprudenciales para anticipar contingencias procesales.'
-                : 'Our legal practice continuously assesses statutory developments and jurisprudential trends to anticipate procedural contingencies.'}
+              {dict?.noticias?.closing_desc ||
+                (isEs
+                  ? 'Esta sección reúne información de carácter general sobre asuntos jurídicos de interés. No sustituye el análisis de los hechos, los riesgos y las obligaciones aplicables a cada situación.'
+                  : 'This section provides general information on legal developments of interest. It does not replace an assessment of the facts, risks, and obligations applicable to a particular situation.')}
             </p>
 
             <div
