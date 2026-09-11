@@ -72,42 +72,81 @@ export default async function Noticias({ params }: Props) {
       <section>
         <div className="container">
           <div className="grid-3">
-            <article className="card">
-              <picture>
-                <source srcSet="/assets/img-webp/OFICINA_1.webp" type="image/webp" />
-                <img src="/assets/img/OFICINA_1.jpg" alt="Reforma Penal" className="news-img" width="2752" height="1536" loading="lazy" />
-              </picture>
-              <span className="section-tag">{dict?.noticias?.news_1?.tag}</span>
-              <h3>{dict?.noticias?.news_1?.title}</h3>
-              <p>{dict?.noticias?.news_1?.desc}</p>
-              <a href="https://accesoalajusticia.org/modificaciones-codigo-organico-procesal-penal-copp-venezolano-historia-7-tiempos/" target="_blank" rel="noopener noreferrer" className="news-link">
-                {dict?.noticias?.read_more}
+            <article style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+              <a
+                href="https://accesoalajusticia.org/modificaciones-codigo-organico-procesal-penal-copp-venezolano-historia-7-tiempos/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card"
+                aria-label={
+                  isEs
+                    ? 'Leer análisis sobre Nuevas Reformas en Materia Penal en Acceso a la Justicia'
+                    : 'Read analysis on New Reforms in Criminal Matters on Acceso a la Justicia'
+                }
+                style={{ textDecoration: 'none', color: 'inherit' }}
+              >
+                <picture>
+                  <source srcSet="/assets/img-webp/OFICINA_1.webp" type="image/webp" />
+                  <img src="/assets/img/OFICINA_1.jpg" alt="Reforma Penal" className="news-img" width="2752" height="1536" loading="lazy" />
+                </picture>
+                <span className="section-tag">{dict?.noticias?.news_1?.tag}</span>
+                <h3>{dict?.noticias?.news_1?.title}</h3>
+                <p>{dict?.noticias?.news_1?.desc}</p>
+                <span className="news-link">
+                  {dict?.noticias?.read_more}
+                </span>
               </a>
             </article>
 
-            <article className="card">
-              <picture>
-                <source srcSet="/assets/img-webp/OFICINA_2.webp" type="image/webp" />
-                <img src="/assets/img/OFICINA_2.jpg" alt="Convenio Internacional" className="news-img" width="2752" height="1536" loading="lazy" />
-              </picture>
-              <span className="section-tag">{dict?.noticias?.news_2?.tag}</span>
-              <h3>{dict?.noticias?.news_2?.title}</h3>
-              <p>{dict?.noticias?.news_2?.desc}</p>
-              <a href="https://theimpactlawyers.com/es/articulos/la-colaboracion-de-las-firmas-legales-una-practica-extendida-en-la-abogacia" target="_blank" rel="noopener noreferrer" className="news-link">
-                {dict?.noticias?.read_more}
+            <article style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+              <a
+                href="https://theimpactlawyers.com/es/articulos/la-colaboracion-de-las-firmas-legales-una-practica-extendida-en-la-abogacia"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card"
+                aria-label={
+                  isEs
+                    ? 'Leer artículo sobre Nuevo Convenio Internacional en The Impact Lawyers'
+                    : 'Read article on New International Agreement on The Impact Lawyers'
+                }
+                style={{ textDecoration: 'none', color: 'inherit' }}
+              >
+                <picture>
+                  <source srcSet="/assets/img-webp/OFICINA_2.webp" type="image/webp" />
+                  <img src="/assets/img/OFICINA_2.jpg" alt="Convenio Internacional" className="news-img" width="2752" height="1536" loading="lazy" />
+                </picture>
+                <span className="section-tag">{dict?.noticias?.news_2?.tag}</span>
+                <h3>{dict?.noticias?.news_2?.title}</h3>
+                <p>{dict?.noticias?.news_2?.desc}</p>
+                <span className="news-link">
+                  {dict?.noticias?.read_more}
+                </span>
               </a>
             </article>
 
-            <article className="card">
-              <picture>
-                <source srcSet="/assets/img-webp/OFICINA_3.webp" type="image/webp" />
-                <img src="/assets/img/OFICINA_3.jpg" alt="Sentencia TSJ" className="news-img" width="2752" height="1536" loading="lazy" />
-              </picture>
-              <span className="section-tag">{dict?.noticias?.news_3?.tag}</span>
-              <h3>{dict?.noticias?.news_3?.title}</h3>
-              <p>{dict?.noticias?.news_3?.desc}</p>
-              <a href="https://vlex.es/vid/derecho-presuncion-inocencia-391378250" target="_blank" rel="noopener noreferrer" className="news-link">
-                {dict?.noticias?.read_more}
+            <article style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+              <a
+                href="https://vlex.es/vid/derecho-presuncion-inocencia-391378250"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card"
+                aria-label={
+                  isEs
+                    ? 'Consultar jurisprudencia sobre Sentencia Vinculante TSJ en vLex'
+                    : 'Consult case law on TSJ Binding Ruling on vLex'
+                }
+                style={{ textDecoration: 'none', color: 'inherit' }}
+              >
+                <picture>
+                  <source srcSet="/assets/img-webp/OFICINA_3.webp" type="image/webp" />
+                  <img src="/assets/img/OFICINA_3.jpg" alt="Sentencia TSJ" className="news-img" width="2752" height="1536" loading="lazy" />
+                </picture>
+                <span className="section-tag">{dict?.noticias?.news_3?.tag}</span>
+                <h3>{dict?.noticias?.news_3?.title}</h3>
+                <p>{dict?.noticias?.news_3?.desc}</p>
+                <span className="news-link">
+                  {dict?.noticias?.read_more}
+                </span>
               </a>
             </article>
           </div>
