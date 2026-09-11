@@ -233,10 +233,10 @@
     },
     "bio": {
       "tag": "PROFESSIONAL PROFILE",
-      "title": "Strategic Direction in Criminal Defense and Constitutional Controversies",
-      "p1": "Dr. Marco A. Colina G. is a trial attorney and university professor with over two decades of continuous litigation practice in the Venezuelan criminal and constitutional courts. As founder and Managing Director of MAC Consultores Jurídicos & Asociados, his practice focuses on the technical direction of complex substantive disputes, corporate defense in economic crime investigations, and appellate remedies.",
-      "p2": "His legal practice is anchored in deep doctrinal rigor, supported by postgraduate credentials in Constitutional Law and Criminal and Criminological Sciences. For years, he has served as a university lecturer in substantive and procedural law, bridging legal doctrine with the operational realities of trial advocacy.",
-      "p3": "He possesses extensive trial and appellate experience drafting and substantiating extraordinary cassation appeals before the Criminal Chamber of the Supreme Tribunal of Justice, as well as constitutional amparo actions before the Constitutional Chamber, focusing on fundamental rights preservation, evidentiary review, and procedural due process."
+      "title": "Criminal Litigation and Constitutional Protection",
+      "p1": "Dr. Marco A. Colina G. is a trial attorney and university lecturer with more than two decades of legal practice in criminal and constitutional matters in Venezuela. As founder and Managing Director of MAC Consultores Jurídicos & Asociados, he oversees criminal, constitutional, and corporate matters that require careful legal analysis and diligent preparation.",
+      "p2": "He completed postgraduate studies in Constitutional Law and in Criminal Law and Criminology. His university teaching experience in substantive and procedural law complements his litigation practice and informs his analysis of each matter.",
+      "p3": "His practice includes cassation appeals before the Criminal Chamber of the Supreme Tribunal of Justice and constitutional amparo actions before the Constitutional Chamber. In these matters, he focuses his work on protecting due process, securing effective judicial protection, and defending fundamental constitutional guarantees."
     },
     "pillars": {
       "tag": "TECHNICAL RIGOR",
@@ -245,38 +245,38 @@
         "number": "01",
         "tag": "+20 YEARS",
         "title": "Years of Litigation Practice",
-        "desc": "Over two decades of continuous professional practice support a forensic approach defined by technical, strategic, and procedural direction in high-complexity litigation. Courtroom advocacy spans trial and appellate courts, with careful management of procedural deadlines and rigorous analysis of the evidentiary record.",
-        "link": "View litigation career →"
+        "desc": "More than two decades of legal practice support a focus on criminal and constitutional litigation. This experience covers proceedings before trial courts and appellate courts, with careful attention to procedural deadlines, case filings, and the core facts of each matter.",
+        "link": "View professional background →"
       },
       "card_2": {
         "number": "02",
         "tag": "POSTGRADUATE",
-        "title": "Academic Credentials & Teaching",
-        "desc": "Rigorous doctrinal foundations provide an essential basis for analyzing complex substantive and procedural disputes. Holding postgraduate credentials in Constitutional Law and Criminal and Criminological Sciences, together with sustained university teaching experience, our legal analysis integrates applicable doctrinal and case-law criteria into the design of each strategy.",
-        "link": "View academic background →"
+        "title": "Academic Background and Teaching",
+        "desc": "Postgraduate study in Constitutional Law and Criminal Law and Criminology, combined with university teaching experience, underpins a disciplined legal analysis closely tied to practical litigation.",
+        "link": "View academic credentials →"
       },
       "card_3": {
         "number": "03",
         "tag": "TSJ / SUPREME COURT",
         "title": "Cassation & Constitutional Protection",
-        "desc": "Specialized technical advocacy focused on drafting, filing, and substantiating extraordinary cassation appeals before the Supreme Tribunal of Justice and constitutional protection remedies. Legal representation centers on the careful analysis of procedural breaches, judicial errors of law, and potential infringements of due process and fundamental constitutional guarantees.",
-        "link": "View appellate practice →"
+        "desc": "His practice includes drafting and litigating cassation appeals before the Supreme Tribunal of Justice and constitutional amparo actions. Each case is examined according to its facts, the rulings challenged, the relevant legal framework, and any compromised constitutional guarantees.",
+        "link": "View cassation and constitutional protection →"
       }
     },
     "technical_direction": {
       "tag": "TECHNICAL OVERSIGHT",
-      "title": "Direct Oversight and Case Theory Audit",
-      "desc": "Every matter accepted by the firm is directed under the personal supervision of Dr. Marco A. Colina G., with attention to technical depth and disciplined procedural oversight."
+      "title": "Direct Supervision of Every Matter",
+      "desc": "Matters accepted by the firm are handled under the direct supervision of Dr. Marco A. Colina G., with thorough legal analysis, careful procedural preparation, and consistent oversight at every stage."
     },
     "ethics": {
       "tag": "EXECUTIVE ETHICS",
       "quote": "“We do not promise outcomes. Our commitment is to act with technical rigor, method, and professional integrity.”",
-      "desc": "At MAC Consultores, we approach the representation of our clients' rights and interests as a responsibility of the highest order. The inherent complexities of the judicial framework preclude baseless outcome assurances. Our standard is defined by subjecting every matter to a preliminary doctrinal and evidentiary feasibility assessment, articulating a robust technical strategy, and advocating before the courts with procedural integrity, diligence, and strict fidelity to due process."
+      "desc": "The firm does not promise specific outcomes. Before taking on an engagement, it evaluates the facts, the risks, and the available legal avenues. Based on that assessment, it establishes a strategic plan and acts with professional honesty, procedural fairness, and respect for due process."
     },
     "closing": {
       "tag": "EXECUTIVE LEADERSHIP · STRATEGIC EVALUATION",
-      "title": "Experienced Legal Leadership for High-Stakes Matters",
-      "desc": "Every matter accepted by the firm is directed under the personal supervision of Dr. Marco A. Colina G., with attention to technical depth and disciplined procedural oversight.",
+      "title": "Initial Evaluation of Your Matter",
+      "desc": "Every inquiry is reviewed under the direction of Dr. Marco A. Colina G., taking into account the underlying facts, potential risks, and available legal options.",
       "btn_primary": "REQUEST A MATTER EVALUATION",
       "btn_secondary": "EXPLORE THE FIRM AND ITS METHOD"
     }

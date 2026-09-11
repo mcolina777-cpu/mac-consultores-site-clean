@@ -233,10 +233,10 @@
     },
     "bio": {
       "tag": "PERFIL PROFESIONAL",
-      "title": "Dirección estratégica en litigio penal y controversias constitucionales",
-      "p1": "El Dr. Marco A. Colina G. es abogado litigante y docente universitario con más de dos décadas de ejercicio profesional ininterrumpido en el foro penal y constitucional venezolano. Como fundador y Director General de MAC Consultores Jurídicos & Asociados, su práctica se concentra en la conducción técnica de controversias sustantivas de alta complejidad, la defensa corporativa en procesos penales económicos y la formalización de recursos extraordinarios.",
-      "p2": "Su ejercicio profesional se sustenta en una rigurosa formación dogmática complementada con estudios superiores de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas. Durante años, ha ejercido la docencia universitaria en cátedras sustantivas y procesales, articulando el análisis doctrinal con la realidad del litigio en estrados.",
-      "p3": "Cuenta con una trayectoria especializada en la formalización de recursos extraordinarios de casación ante la Sala de Casación Penal del Tribunal Supremo de Justicia y en la interposición de acciones de amparo constitucional ante la Sala Constitucional, enfocando su labor en la tutela judicial efectiva, la observancia del debido proceso y la denuncia fundada de quebrantamientos de garantías fundamentales."
+      "title": "Litigio penal y tutela constitucional",
+      "p1": "El Dr. Marco A. Colina G. es abogado litigante y docente universitario, con más de dos décadas de ejercicio profesional en materia penal y constitucional en Venezuela. Como fundador y Director General de MAC Consultores Jurídicos & Asociados, dirige asuntos penales, constitucionales y corporativos que requieren una preparación jurídica y procesal cuidadosa.",
+      "p2": "Cuenta con estudios de cuarto nivel en Derecho Constitucional y en Ciencias Penales y Criminológicas. Su experiencia docente en materias sustantivas y procesales complementa su práctica en litigio y el análisis de cada caso.",
+      "p3": "Su práctica incluye recursos de casación ante la Sala de Casación Penal del Tribunal Supremo de Justicia y acciones de amparo constitucional ante la Sala Constitucional. En estos asuntos, centra su trabajo en la protección del debido proceso, la tutela judicial efectiva y la defensa de las garantías fundamentales."
     },
     "pillars": {
       "tag": "SOLVENCIA TÉCNICA",
@@ -245,38 +245,38 @@
         "number": "01",
         "tag": "+20 AÑOS",
         "title": "Años de Ejercicio Forense",
-        "desc": "Más de dos décadas de ejercicio profesional ininterrumpido respaldan una práctica forense caracterizada por la dirección técnica, estratégica y procesal en litigios de alta complejidad. La intervención en estrados abarca desde tribunales de instancia hasta cortes superiores, con especial atención al control estricto de los términos procesales y al análisis riguroso de los medios probatorios.",
-        "link": "Conocer trayectoria forense →"
+        "desc": "Más de dos décadas de ejercicio profesional respaldan una práctica centrada en litigios penales y constitucionales. La experiencia comprende actuaciones ante tribunales de instancia y cortes superiores, con atención a los plazos, las actuaciones procesales y los elementos relevantes de cada caso.",
+        "link": "Conocer trayectoria profesional →"
       },
       "card_2": {
         "number": "02",
         "tag": "IV NIVEL",
-        "title": "Nivel Académico & Docencia",
-        "desc": "La sólida formación dogmática constituye el sustento indispensable para el análisis de controversias sustantivas y procesales complejas. Con estudios superiores de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas, junto a una sostenida trayectoria docente universitaria, el análisis jurídico integra criterios doctrinales y jurisprudenciales aplicables al diseño de cada estrategia.",
+        "title": "Formación académica y docencia",
+        "desc": "Sus estudios de cuarto nivel en Derecho Constitucional y Ciencias Penales y Criminológicas, junto con su experiencia docente universitaria, respaldan un análisis jurídico preciso y conectado con la práctica de litigio.",
         "link": "Conocer formación académica →"
       },
       "card_3": {
         "number": "03",
         "tag": "TSJ",
         "title": "Casación y Tutela Constitucional",
-        "desc": "Especialización técnica orientada a la interposición, formalización y sustanciación de recursos extraordinarios de casación ante el Tribunal Supremo de Justicia y acciones de amparo constitucional. La labor jurídica se concentra en el análisis fundado de quebrantamientos de formas sustanciales, vicios de juzgamiento e infracciones al debido proceso y a las garantías fundamentales.",
-        "link": "Conocer litigio superior →"
+        "desc": "La práctica comprende la preparación de recursos de casación ante el Tribunal Supremo de Justicia y acciones de amparo constitucional. Cada actuación se estudia según los hechos del caso, las decisiones impugnadas, las normas aplicables y las garantías que puedan estar comprometidas.",
+        "link": "Conocer casación y tutela constitucional →"
       }
     },
     "technical_direction": {
       "tag": "DIRECCIÓN TÉCNICA",
-      "title": "Supervisión directa y auditoría de la teoría del caso",
-      "desc": "Cada asunto admitido por la firma se conduce bajo la supervisión directa del Dr. Marco A. Colina G., con atención a la solvencia técnica y al control procesal."
+      "title": "Dirección directa de cada asunto",
+      "desc": "Los asuntos que asume la firma se trabajan bajo la supervisión directa del Dr. Marco A. Colina G., con análisis jurídico, preparación procesal y seguimiento de cada etapa."
     },
     "ethics": {
       "tag": "DEONTOLOGÍA DIRECTIVA",
       "quote": "“No formulamos promesas de resultados. Nuestro compromiso es actuar con rigor técnico, método y lealtad profesional.”",
-      "desc": "En MAC Consultores concebimos la defensa de los derechos e intereses de nuestros clientes como un ejercicio de máxima responsabilidad. La complejidad del ordenamiento jurídico y la naturaleza de las controversias procesales hacen inadmisibles las garantías de resultado infundadas. El estándar de nuestro despacho radica en someter cada asunto a un control previo de viabilidad dogmática y probatoria, definiendo una estrategia técnica sólida y defendiéndola en estrados con lealtad procesal, honestidad profesional y estricto apego al debido proceso."
+      "desc": "La firma no promete resultados. Antes de asumir un asunto, evalúa los hechos, los riesgos y las vías jurídicas disponibles. A partir de esa revisión, define una estrategia de trabajo y actúa con honestidad profesional, lealtad procesal y respeto por el debido proceso."
     },
     "closing": {
       "tag": "DIRECCIÓN GENERAL · EVALUACIÓN ESTRATÉGICA",
-      "title": "Dirección jurídica experimentada para asuntos de alta exigencia",
-      "desc": "Cada asunto admitido por la firma se conduce bajo la supervisión directa del Dr. Marco A. Colina G., con atención a la solvencia técnica y al control procesal.",
+      "title": "Evaluación inicial de su asunto",
+      "desc": "Cada consulta es revisada bajo la dirección del Dr. Marco A. Colina G., considerando los hechos, los riesgos y las opciones jurídicas disponibles.",
       "btn_primary": "SOLICITAR EVALUACIÓN DE ASUNTO",
       "btn_secondary": "EXPLORAR LA FIRMA Y SU MÉTODO"
     }
