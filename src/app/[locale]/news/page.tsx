@@ -65,10 +65,29 @@ export default async function Noticias({ params }: Props) {
       <header className="page-header">
         <div className="container">
           <span className="breadcrumb">{dict?.noticias?.breadcrumb}</span>
-          <h1>{dict?.noticias?.h1}</h1>
+
+          <h1 className="serif">{dict?.noticias?.h1}</h1>
+
+          <h2
+            className="serif text-center mt-1rem mb-1-5rem"
+            style={{
+              fontSize: 'clamp(1.5rem, 2.8vw, 2rem)',
+              fontWeight: 500,
+              color: 'var(--text-main)',
+              letterSpacing: '-0.01em',
+              textAlign: 'center'
+            }}
+          >
+            {dict?.noticias?.h2}
+          </h2>
+
           <p
-            className="hero-subtitle max-w-800 mx-auto mt-1rem text-muted"
-            style={{ lineHeight: 1.7, fontSize: '1.05rem' }}
+            className="hero-subtitle max-w-800 mx-auto text-muted text-center"
+            style={{
+              lineHeight: 1.7,
+              fontSize: '1.05rem',
+              textAlign: 'center'
+            }}
           >
             {dict?.noticias?.intro}
           </p>

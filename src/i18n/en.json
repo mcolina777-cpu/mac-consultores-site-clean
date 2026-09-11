@@ -1081,8 +1081,9 @@
   },
   "noticias": {
     "title": "News & Current Affairs | Mac Consultores Jurídicos & Asociados",
-    "breadcrumb": "Legal updates",
-    "h1": "Regulatory updates",
+    "breadcrumb": "HOME / UPDATES",
+    "h1": "Legal updates",
+    "h2": "Regulatory updates",
     "intro": "This section brings together regulatory developments that may affect the operations, compliance, and decision-making of companies and executives connected to Venezuela. Each entry identifies the source consulted and provides a general overview; its implications should be assessed in light of the facts and obligations of each matter.",
     "read_more": "READ MORE →",
     "closing_quote": "Regulatory developments should be assessed in light of each operation and specific matter.",

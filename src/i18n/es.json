@@ -1081,8 +1081,9 @@
   },
   "noticias": {
     "title": "Noticias & Actualidad | Mac Consultores Jurídicos & Asociados",
-    "breadcrumb": "Actualidad jurídica",
-    "h1": "Actualidad regulatoria",
+    "breadcrumb": "INICIO / ACTUALIDAD",
+    "h1": "Actualidad jurídica",
+    "h2": "Actualidad regulatoria",
     "intro": "Esta sección reúne novedades regulatorias que pueden incidir en la operación, el cumplimiento y la toma de decisiones de empresas y directivos vinculados con Venezuela. Cada publicación identifica la fuente consultada y presenta una síntesis general; su alcance debe evaluarse según los hechos y obligaciones de cada caso.",
     "read_more": "LEER MÁS →",
     "closing_quote": "Los cambios normativos deben revisarse según la operación y el caso concreto.",
