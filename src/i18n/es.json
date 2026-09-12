@@ -44,7 +44,7 @@
       "hint_relation": "Las comunicaciones remitidas mediante este formulario no constituyen, por sí mismas, una relación abogado–cliente, no implican aceptación del asunto y no generan obligación de representación por parte de la firma.",
       "btn": "ENVIAR SOLICITUD DE ADMISIÓN",
       "success": "Su solicitud de admisión ha sido registrada. La firma valorará la información aportada y, de corresponder, se contactará con usted para coordinar una consulta profesional privada o comunicar el resultado de la evaluación de su solicitud dentro del Programa Pro Bono.",
-      "admission_hint": "Este formulario constituye el canal de admisión legal de la firma. Con base en la información suministrada se determinará la pertinencia del asunto y, cuando corresponda, se coordinará una consulta profesional privada o se evaluará una solicitud dentro del Programa Pro Bono.\n\nLas solicitudes pro bono están sujetas a evaluación individual, disponibilidad operativa, compatibilidad con las áreas de práctica de la firma y verificación previa de conflictos de interés.",
+      "admission_hint": "Este formulario constituye el canal de admisión legal de la firma. Con base en la información suministrada se determinará la pertinencia del asunto y, cuando corresponda, se coordinará una consulta profesional privada o se evaluará una solicitud dentro del Programa Pro Bono.",
       "title": "Formulario de Admisión Legal",
       "reason_opt6": "Otros",
       "reason_probono": "Solicitud de Evaluación Pro Bono"

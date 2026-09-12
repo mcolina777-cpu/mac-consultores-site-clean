@@ -44,7 +44,7 @@
       "hint_relation": "Communications sent through this form do not, by themselves, constitute an attorney-client relationship, do not imply acceptance of the matter, and do not create an obligation of representation by the firm.",
       "btn": "SUBMIT REQUEST FOR ADMISSION",
       "success": "Your admission request has been registered. The firm will assess the information provided and, where appropriate, contact you to coordinate a private professional consultation or communicate the outcome of your application within the Pro Bono Program.",
-      "admission_hint": "This form constitutes the firm’s legal admission channel. Based on the information provided, the relevance of the matter will be assessed and, where appropriate, a private professional consultation will be coordinated or an application within the Pro Bono Program will be evaluated.\n\nPro bono applications are subject to individual evaluation, operational availability, compatibility with the firm’s practice areas, and prior conflict-of-interest review.",
+      "admission_hint": "This form constitutes the firm’s legal admission channel. Based on the information provided, the relevance of the matter will be assessed and, where appropriate, a private professional consultation will be coordinated or an application within the Pro Bono Program will be evaluated.",
       "title": "Legal Admission Form",
       "reason_opt6": "Others",
       "reason_probono": "Pro Bono Evaluation Request"

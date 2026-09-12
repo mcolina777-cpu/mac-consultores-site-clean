@@ -375,15 +375,10 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                         ? 'Las consultas profesionales privadas están sujetas a honorarios, facturables por hora o según el alcance del encargo. La eventual admisión de una solicitud dentro del Programa Pro Bono se rige por su Reglamento y está limitada a orientación jurídica inicial de carácter técnico y documental.'
                         : 'Private professional consultations are subject to fees, billable hourly or according to the scope of the engagement. The eventual admission of an application within the Pro Bono Program is governed by its Regulations and is limited to initial technical and documentary legal guidance.'}
                     </p>
-                    <p className="mb-0-75rem text-muted">
-                      {isEs
-                        ? 'El Programa Pro Bono no incluye litigación, comparecencias ante tribunales o el Ministerio Público, asistencia a audiencias, representación judicial, patrocinio ni seguimiento procesal. Si una solicitud vinculada con una denuncia penal fuese admitida, cualquier orientación o apoyo documental estará limitado al alcance que determine la firma y, en su caso, a un máximo de dos (2) folios.'
-                        : 'The Pro Bono Program does not include litigation, appearances before courts or prosecutors, attendance at hearings, judicial representation, legal sponsorship, or procedural monitoring. If an application related to a criminal complaint is admitted, any orientation or documentary support will be limited to the scope determined by the firm and, where applicable, to a maximum of two (2) pages.'}
-                    </p>
                     <p className="mb-0 text-muted">
                       {isEs
-                        ? 'Para actuaciones de representación privada —incluidas denuncias o querellas, trámites consulares y comparecencias en nombre del cliente— será indispensable un poder de representación previamente analizado y redactado de forma personalizada.'
-                        : 'For private representation matters—including complaints, lawsuits, consular procedures, and appearances on the client\'s behalf—a power of attorney previously analyzed and drafted in a personalized manner will be indispensable.'}
+                        ? 'Las solicitudes Pro Bono no incluyen litigación, audiencias, comparecencias, representación judicial, patrocinio ni seguimiento procesal. En asuntos vinculados con una denuncia penal, cualquier orientación o apoyo documental estará sujeto al alcance definido por la firma y, cuando corresponda, a un máximo de dos (2) folios. Las actuaciones de representación privada requieren un poder de representación previamente analizado y redactado para el caso concreto.'
+                        : 'Pro Bono applications do not include litigation, hearings, appearances, judicial representation, legal sponsorship, or procedural monitoring. For matters involving a criminal complaint, any guidance or documentary support will be subject to the scope defined by the firm and, where applicable, to a maximum of two (2) pages. Private representation matters require a power of attorney previously reviewed and drafted for the specific matter.'}
                     </p>
                   </div>
 
