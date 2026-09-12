@@ -142,8 +142,8 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
           >
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? 'Colaboración jurídica local para asuntos vinculados con Venezuela.'
-                : 'Local legal collaboration for matters connected with Venezuela.'}
+                ? 'Coordinación jurídica local para encargos internacionales.'
+                : 'Local legal coordination for international engagements.'}
             </h3>
 
             <p
