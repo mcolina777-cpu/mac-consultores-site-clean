@@ -163,7 +163,7 @@ export default async function ReglamentoProBono({ params }: { params: Promise<{ 
                 MAC CONSULTORES JURÍDICOS & ASOCIADOS
               </p>
               <Link 
-                href={getRoute(locale, "probonoPenal")}
+                href={getRoute(locale, "contact")}
                 className="btn btn-primary"
               >
                 {data?.back_btn}

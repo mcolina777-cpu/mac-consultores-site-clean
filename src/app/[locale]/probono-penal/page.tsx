@@ -108,8 +108,8 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
               style={{ fontSize: '1.4rem' }}
             >
               {isEs
-                ? 'La responsabilidad jurídica también exige atender casos que requieren una defensa técnica comprometida.'
-                : 'Legal responsibility also requires addressing matters that call for committed technical defense.'}
+                ? 'La responsabilidad jurídica también exige ofrecer una primera orientación técnica cuando un caso lo requiere.'
+                : 'Professional responsibility also requires providing initial technical guidance when a matter calls for it.'}
             </h3>
 
             <p
@@ -117,9 +117,39 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
               {isEs
-                ? 'Mac Consultores Jurídicos & Asociados evalúa solicitudes pro bono de manera individual, conforme a la naturaleza del caso, su relevancia jurídica y las condiciones particulares de la persona solicitante.'
-                : 'Mac Consultores Jurídicos & Asociados evaluates pro bono requests individually, considering the nature of the matter, its legal relevance, and the particular circumstances of the applicant.'}
+                ? 'Mac Consultores Jurídicos & Asociados evalúa cada solicitud pro bono de forma individual, considerando la naturaleza y viabilidad jurídica del asunto, la disponibilidad operativa y la inexistencia de conflictos de interés. Cuando una solicitud sea admitida, la intervención se limitará estrictamente al alcance comunicado por la firma.'
+                : 'Mac Consultores Jurídicos & Asociados evaluates each pro bono application individually, considering the nature and legal viability of the matter, operational availability, and the absence of conflicts of interest. If admitted, assistance is strictly limited to the scope expressly communicated by the firm.'}
             </p>
+
+            {/* Aviso visible antes de iniciar la solicitud */}
+            <div
+              className="text-left mx-auto mb-2rem"
+              style={{
+                maxWidth: '680px',
+                padding: '1.25rem 1.5rem',
+                backgroundColor: '#ffffff',
+                borderRadius: '6px',
+                border: '1px solid var(--border-color, #e5e7eb)',
+                borderLeft: '4px solid var(--color-primary, #1e3a8a)',
+              }}
+            >
+              <h4
+                className="serif font-bold text-primary mb-0-5rem"
+                style={{ fontSize: '1.1rem' }}
+              >
+                {isEs ? 'Antes de iniciar una solicitud' : 'Before starting an application'}
+              </h4>
+              <p className="text-sm text-muted mb-0-75rem" style={{ lineHeight: 1.6 }}>
+                {isEs
+                  ? 'El Programa Pro Bono ofrece orientación jurídica inicial de carácter técnico y documental. No incluye litigación, audiencias, comparecencias ante tribunales o el Ministerio Público, representación judicial, patrocinio ni seguimiento procesal.'
+                  : 'The Pro Bono Program provides preliminary technical and documentary legal guidance. It does not include litigation, hearings, appearances before courts or prosecutors, judicial representation, legal sponsorship, or procedural monitoring.'}
+              </p>
+              <p className="text-sm text-muted mb-0" style={{ lineHeight: 1.6 }}>
+                {isEs
+                  ? 'Cada solicitud está sujeta a evaluación individual, disponibilidad operativa y verificación de conflictos de interés. El envío de información no implica admisión del caso ni crea una relación abogado-cliente.'
+                  : 'Each application is subject to individual evaluation, operational availability, and conflict-of-interest review. Submitting information does not imply case admission or create an attorney-client relationship.'}
+              </p>
+            </div>
 
             <div
               style={{
@@ -131,8 +161,8 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
             >
               <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
                 {isEs
-                  ? 'SOLICITAR EVALUACIÓN PRO BONO'
-                  : 'REQUEST PRO BONO EVALUATION'}
+                  ? 'INICIAR SOLICITUD PRO BONO'
+                  : 'START A PRO BONO APPLICATION'}
               </Link>
 
               <Link href={`/${locale}`} className="btn btn-secondary">

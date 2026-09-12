@@ -226,7 +226,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                 </h3>
                 
                 {dict?.contacto?.form?.admission_hint && (
-                  <p
+                  <div
                     className="admission-hint text-sm mb-1-5rem"
                     style={{
                       padding: '1rem',
@@ -234,14 +234,11 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                       borderRadius: '4px',
                       borderLeft: '3px solid var(--color-primary)',
                       lineHeight: '1.5',
+                      whiteSpace: 'pre-line',
                     }}
-                    dangerouslySetInnerHTML={{
-                      __html: dict.contacto.form.admission_hint.replace(
-                        /\*\*(.*?)\*\*/g,
-                        '<strong>$1</strong>'
-                      ),
-                    }}
-                  ></p>
+                  >
+                    {dict.contacto.form.admission_hint}
+                  </div>
                 )}
 
                 <div
@@ -261,8 +258,8 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                   </strong>
                   <br />
                   {locale === 'es'
-                    ? 'Seleccione “Solicitud de Evaluación Pro Bono” en el campo Motivo de Consulta.'
-                    : 'Select “Pro Bono Evaluation Request” in the Consultation Reason field.'}
+                    ? 'Seleccione “Solicitud de Evaluación Pro Bono” en el campo “Motivo principal de su consulta”.'
+                    : 'Select “Pro Bono Evaluation Request” in the “Main reason for inquiry” field.'}
                 </div>
                 
                 <form
@@ -348,25 +345,78 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                       placeholder={dict?.contacto?.form?.placeholder_desc}
                       required
                     ></textarea>
-                    <small className="form-hint form-hint-text">
-                      {dict?.contacto?.form?.hint_admin}
-                    </small>
                   </div>
 
-                  {dict?.contacto?.form?.hint_fees && (
-                    <div
-                      className="fees-hint text-sm mb-1-5rem"
-                      style={{
-                        padding: '1rem',
-                        backgroundColor: 'rgba(0,0,0,0.03)',
-                        borderRadius: '4px',
-                        borderLeft: '3px solid var(--color-primary)',
-                        lineHeight: '1.5',
-                      }}
+                  {/* Alcance de la solicitud */}
+                  <div
+                    className="scope-disclaimer-box text-sm mb-1-5rem"
+                    style={{
+                      padding: '1.25rem',
+                      backgroundColor: 'rgba(0,0,0,0.02)',
+                      borderRadius: '6px',
+                      border: '1px solid var(--border-color, #e5e7eb)',
+                      borderLeft: '4px solid var(--color-primary)',
+                      lineHeight: '1.6',
+                    }}
+                  >
+                    <h4
+                      className="serif font-bold text-primary mb-0-75rem"
+                      style={{ fontSize: '1.05rem' }}
                     >
-                      {dict.contacto.form.hint_fees}
-                    </div>
-                  )}
+                      {isEs ? 'Alcance de la solicitud' : 'Scope of the request'}
+                    </h4>
+                    <p className="mb-0-75rem text-muted">
+                      {isEs
+                        ? 'Este canal no está habilitado para emitir criterios legales ni indicar qué debe hacer en su caso concreto. Su finalidad es exclusivamente administrativa: recopilar información básica para valorar la pertinencia del asunto y, según corresponda, coordinar una consulta profesional privada o evaluar una solicitud Pro Bono.'
+                        : 'This channel is not authorized to issue legal criteria or indicate what you should do in your specific case. Its purpose is exclusively administrative: to collect basic information to evaluate the relevance of the matter and, as appropriate, coordinate a private professional consultation or evaluate a Pro Bono application.'}
+                    </p>
+                    <p className="mb-0-75rem text-muted">
+                      {isEs
+                        ? 'Las consultas profesionales privadas están sujetas a honorarios, facturables por hora o según el alcance del encargo. La eventual admisión de una solicitud dentro del Programa Pro Bono se rige por su Reglamento y está limitada a orientación jurídica inicial de carácter técnico y documental.'
+                        : 'Private professional consultations are subject to fees, billable hourly or according to the scope of the engagement. The eventual admission of an application within the Pro Bono Program is governed by its Regulations and is limited to initial technical and documentary legal guidance.'}
+                    </p>
+                    <p className="mb-0-75rem text-muted">
+                      {isEs
+                        ? 'El Programa Pro Bono no incluye litigación, comparecencias ante tribunales o el Ministerio Público, asistencia a audiencias, representación judicial, patrocinio ni seguimiento procesal. Si una solicitud vinculada con una denuncia penal fuese admitida, cualquier orientación o apoyo documental estará limitado al alcance que determine la firma y, en su caso, a un máximo de dos (2) folios.'
+                        : 'The Pro Bono Program does not include litigation, appearances before courts or prosecutors, attendance at hearings, judicial representation, legal sponsorship, or procedural monitoring. If an application related to a criminal complaint is admitted, any orientation or documentary support will be limited to the scope determined by the firm and, where applicable, to a maximum of two (2) pages.'}
+                    </p>
+                    <p className="mb-0 text-muted">
+                      {isEs
+                        ? 'Para actuaciones de representación privada —incluidas denuncias o querellas, trámites consulares y comparecencias en nombre del cliente— será indispensable un poder de representación previamente analizado y redactado de forma personalizada.'
+                        : 'For private representation matters—including complaints, lawsuits, consular procedures, and appearances on the client\'s behalf—a power of attorney previously analyzed and drafted in a personalized manner will be indispensable.'}
+                    </p>
+                  </div>
+
+                  {/* Casillas obligatorias de admisión legal */}
+                  <div className="form-group mb-1rem" style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                    <input
+                      type="checkbox"
+                      id="checkbox_veracidad"
+                      name="declaracion_veracidad"
+                      required
+                      style={{ marginTop: '0.25rem', cursor: 'pointer' }}
+                    />
+                    <label htmlFor="checkbox_veracidad" className="text-sm" style={{ cursor: 'pointer', lineHeight: 1.4 }}>
+                      {isEs
+                        ? 'Declaro que la información proporcionada es completa y veraz.'
+                        : 'I declare that the information provided is complete and truthful.'}
+                    </label>
+                  </div>
+
+                  <div className="form-group mb-1-5rem" style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                    <input
+                      type="checkbox"
+                      id="checkbox_no_relacion"
+                      name="declaracion_no_relacion"
+                      required
+                      style={{ marginTop: '0.25rem', cursor: 'pointer' }}
+                    />
+                    <label htmlFor="checkbox_no_relacion" className="text-sm" style={{ cursor: 'pointer', lineHeight: 1.4 }}>
+                      {isEs
+                        ? 'Entiendo que el envío de esta solicitud no crea una relación abogado–cliente, no implica admisión del asunto y no genera obligación de representación por parte de la firma.'
+                        : 'I understand that submitting this request does not create an attorney-client relationship, does not imply acceptance of the matter, and does not create an obligation of representation by the firm.'}
+                    </label>
+                  </div>
 
                   <button
                     type="submit"

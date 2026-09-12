@@ -32,7 +32,7 @@
       "reason_opt3": "Second opinion on an ongoing criminal proceeding of economic or corporate content (without replacing your attorney)",
       "reason_opt4": "Consular procedures and document management in Venezuela for clients abroad",
       "reason_opt5": "Asset and corporate transactions (real estate purchases/sales, company incorporation or mergers, etc.)",
-      "hint_practice": "The firm centers its practice on corporate criminal law and matters of an economic, asset, and consular nature.",
+      "hint_practice": "The firm centers its practice on corporate criminal law and matters of an economic, asset, and consular nature. Pro Bono evaluation requests will only be considered when compatible with the nature, specialization, and operational capacity of the firm.",
       "label_penal": "Type of facts (only if your inquiry is criminal)",
       "penal_default": "Not applicable / Non-criminal",
       "penal_opt1": "Acts of an economic or corporate nature (fraud, corruption, embezzlement, corporate crimes)",
@@ -41,10 +41,10 @@
       "placeholder_desc": "Describe briefly and objectively the reason for your inquiry (maximum 500 characters).",
       "hint_admin": "This channel is not authorized to issue legal criteria or indicate what you should do in your specific case. Its purpose is exclusively administrative: to collect basic information to evaluate the relevance of a professional consultation subject to fees.",
       "hint_fees": "Every professional consultation is subject to fees, which may be billed hourly or according to the scope of the engagement. For any representation actions (e.g., filing complaints or lawsuits, managing consular procedures, or appearances on your behalf), it is essential to grant a power of attorney previously analyzed and drafted in a personalized manner for your case.",
-      "hint_relation": "Communications sent through this form do not, by themselves, constitute an attorney-client relationship, nor do they imply acceptance of the matter by the firm.",
+      "hint_relation": "Communications sent through this form do not, by themselves, constitute an attorney-client relationship, do not imply acceptance of the matter, and do not create an obligation of representation by the firm.",
       "btn": "SUBMIT REQUEST FOR ADMISSION",
-      "success": "Your request for admission has been registered. The firm will assess the information provided and, if applicable, contact you to coordinate a professional consultation subject to fees.",
-      "admission_hint": "This form constitutes the firm's **legal admission process**. Based on the information provided, the relevance of the case will be determined and, if applicable, the corresponding **private consultation** will be coordinated.",
+      "success": "Your admission request has been registered. The firm will assess the information provided and, where appropriate, contact you to coordinate a private professional consultation or communicate the outcome of your application within the Pro Bono Program.",
+      "admission_hint": "This form constitutes the firm’s legal admission channel. Based on the information provided, the relevance of the matter will be assessed and, where appropriate, a private professional consultation will be coordinated or an application within the Pro Bono Program will be evaluated.\n\nPro bono applications are subject to individual evaluation, operational availability, compatibility with the firm’s practice areas, and prior conflict-of-interest review.",
       "title": "Legal Admission Form",
       "reason_opt6": "Others",
       "reason_probono": "Pro Bono Evaluation Request"
@@ -1241,10 +1241,10 @@
   },
   "brand": "Mac Consultores Jurídicos & Asociados",
   "pro_bono_penal": {
-    "seo_title": "Criminal Defense Pro Bono Program | Mac Consultores Jurídicos & Asociados",
+    "seo_title": "Pro Bono Criminal Legal Guidance Program | Mac Consultores Jurídicos & Asociados",
     "seo_desc": "Social responsibility initiative focused on technical legal orientation and access to justice.",
     "tag": "Social Responsibility",
-    "h1": "Criminal Defense Pro Bono Program",
+    "h1": "Pro Bono Criminal Legal Guidance Program",
     "subtitle": "Responsible access to technical legal guidance.",
     "intro": "Institutional commitment of Mac Consultores Jurídicos & Asociados to justice and professional responsibility.",
     "p1": "The firm's Pro Bono Program is an initiative aimed at providing preliminary technical legal guidance to individuals who require assistance in understanding the legal dimensions of a specific situation. We understand pro bono work as a deontological duty, not as a free commercial service.",
@@ -1268,8 +1268,8 @@
     "form_btn": "SUBMIT EVALUATION REQUEST"
   },
   "pro_bono": {
-    "home_note": "Como parte de nuestra responsabilidad social, contamos con un programa de asesoría pro bono penal gratuita y con restricciones específicas.",
-    "home_link": "Conocer el programa pro bono penal →"
+    "home_note": "As part of our social responsibility, we maintain a pro bono criminal legal guidance program with specific scope limitations.",
+    "home_link": "Learn about the pro bono criminal legal guidance program →"
   },
   "economic_criminal_risk": {
     "breadcrumb": "Resources / Economic Criminal Risk",
@@ -2003,6 +2003,6 @@
       }
     ],
     "closing_quote": "One or two cases per month. A concrete intervention. A professional commitment.",
-    "back_btn": "GO TO APPLICATION FORM"
+    "back_btn": "START A PRO BONO APPLICATION"
   }
 }

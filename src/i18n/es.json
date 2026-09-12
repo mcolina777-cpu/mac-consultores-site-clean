@@ -32,7 +32,7 @@
       "reason_opt3": "Segunda opinión sobre un proceso penal de contenido económico o corporativo en curso (sin sustituir a su abogado)",
       "reason_opt4": "Trámites consulares y gestión de documentos en Venezuela para clientes en el extranjero",
       "reason_opt5": "Operaciones patrimoniales y corporativas (compra–venta de inmuebles, constitución o fusión de compañías, etc.)",
-      "hint_practice": "La firma centra su práctica en derecho penal corporativo y en asuntos de naturaleza económica, patrimonial y consular.",
+      "hint_practice": "La firma centra su práctica en derecho penal corporativo y en asuntos de naturaleza económica, patrimonial y consular. Las solicitudes de evaluación Pro Bono se considerarán únicamente cuando sean compatibles con la naturaleza, especialización y capacidad operativa de la firma.",
       "label_penal": "Tipo de hechos (solo si su consulta es penal)",
       "penal_default": "No aplica / No es penal",
       "penal_opt1": "Hechos de naturaleza económica o corporativa (fraude, corrupción, administración desleal, delitos societarios)",
@@ -41,10 +41,10 @@
       "placeholder_desc": "Describa de forma breve y objetiva el motivo de su consulta (máximo 500 caracteres).",
       "hint_admin": "Este canal no está habilitado para emitir criterios legales ni indicar qué debe hacer en su caso concreto. Su finalidad es exclusivamente administrativa: recopilar información básica para valorar la pertinencia de una consulta profesional sujeta a honorarios.",
       "hint_fees": "Toda consulta profesional está sujeta a honorarios, que podrán ser facturados por hora o según el alcance del encargo. Para cualquier actuación de representación (por ejemplo, interposición de denuncias o querellas, gestión de trámites consulares o comparecencias en su nombre), es imprescindible el otorgamiento de un poder de representación previamente analizado y redactado de forma personalizada para su caso.",
-      "hint_relation": "Las comunicaciones remitidas a través de este formulario no constituyen, por sí mismas, relación abogado–cliente ni implican aceptación del asunto por parte de la firma.",
+      "hint_relation": "Las comunicaciones remitidas mediante este formulario no constituyen, por sí mismas, una relación abogado–cliente, no implican aceptación del asunto y no generan obligación de representación por parte de la firma.",
       "btn": "ENVIAR SOLICITUD DE ADMISIÓN",
-      "success": "Su solicitud de admisión ha sido registrada. La firma valorará la información aportada y, de corresponder, se contactará con usted para coordinar una consulta profesional sujeta a honorarios.",
-      "admission_hint": "Este formulario constituye el **proceso de admisión legal** de la firma. Con base en la información suministrada se determinará la pertinencia del caso y, en caso de ser procedente, se coordinará la **consulta privada** correspondiente.",
+      "success": "Su solicitud de admisión ha sido registrada. La firma valorará la información aportada y, de corresponder, se contactará con usted para coordinar una consulta profesional privada o comunicar el resultado de la evaluación de su solicitud dentro del Programa Pro Bono.",
+      "admission_hint": "Este formulario constituye el canal de admisión legal de la firma. Con base en la información suministrada se determinará la pertinencia del asunto y, cuando corresponda, se coordinará una consulta profesional privada o se evaluará una solicitud dentro del Programa Pro Bono.\n\nLas solicitudes pro bono están sujetas a evaluación individual, disponibilidad operativa, compatibilidad con las áreas de práctica de la firma y verificación previa de conflictos de interés.",
       "title": "Formulario de Admisión Legal",
       "reason_opt6": "Otros",
       "reason_probono": "Solicitud de Evaluación Pro Bono"
@@ -2003,6 +2003,6 @@
       }
     ],
     "closing_quote": "Uno o dos casos al mes. Una intervención concreta. Un compromiso profesional.",
-    "back_btn": "IR AL FORMULARIO DE SOLICITUD"
+    "back_btn": "INICIAR SOLICITUD PRO BONO"
   }
 }
