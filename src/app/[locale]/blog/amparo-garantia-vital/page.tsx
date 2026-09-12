@@ -11,12 +11,12 @@ export async function generateMetadata({ params }: Props) {
   const isEs = locale === 'es';
 
   const title = isEs 
-    ? 'El Amparo Constitucional como Garantía Vital | Mac Consultores Jurídicos'
-    : 'Constitutional Injunction as a Fundamental Guarantee | Mac Consultores Jurídicos';
+    ? 'El amparo constitucional y la protección de derechos | Mac Consultores Jurídicos'
+    : 'Constitutional amparo and the protection of rights | Mac Consultores Jurídicos';
   
   const description = isEs
-    ? 'Análisis dogmático y procesal sobre la acción de amparo constitucional como mecanismo de tutela judicial urgente y preferente frente a la vulneración de derechos fundamentales.'
-    : 'Doctrinal and procedural analysis on constitutional injunctions as an urgent and preferential judicial remedy against fundamental rights infringements.';
+    ? 'Alcance, requisitos de procedencia y límites de la acción de amparo constitucional en casos concretos.'
+    : 'Scope, admissibility requirements, and limits of constitutional amparo in specific matters.';
 
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/blog/amparo-garantia-vital`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/blog/amparo-garantia-vital`;
@@ -67,17 +67,17 @@ export default async function BlogAmparo({ params }: Props) {
       <header className="page-header header-soft-bg">
         <div className="container">
           <span className="section-tag">
-            {isEs ? 'DOCTRINA / TUTELA CONSTITUCIONAL' : 'DOCTRINE / CONSTITUTIONAL LAW'}
+            {isEs ? 'CRITERIO JURÍDICO / DERECHO CONSTITUCIONAL' : 'LEGAL INSIGHT / CONSTITUTIONAL LAW'}
           </span>
           <h1 className="mb-1-5rem serif">
             {isEs 
-              ? 'El Amparo Constitucional como Garantía Vital' 
-              : 'Constitutional Injunction as a Fundamental Guarantee'}
+              ? 'El amparo constitucional y la protección de derechos'
+              : 'Constitutional amparo and the protection of rights'}
           </h1>
           <p className="hero-subtitle">
             {isEs
-              ? 'Naturaleza procesal, urgencia tutelar y presupuestos de admisibilidad de la acción de amparo frente a vías de hecho y actos arbitrarios.'
-              : 'Procedural nature, urgent judicial relief, and admissibility standards governing constitutional injunctions against arbitrary state or private actions.'}
+              ? 'Alcance, requisitos de procedencia y análisis de la vía de amparo en casos concretos.'
+              : 'Scope, admissibility requirements, and analysis of constitutional amparo in specific matters.'}
           </p>
         </div>
       </header>
@@ -89,71 +89,71 @@ export default async function BlogAmparo({ params }: Props) {
           {/* BLOQUE 1: INTRODUCCIÓN Y NATURALEZA DEL AMPARO */}
           <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
-              {isEs ? '1. La Tutela Constitucional Urgente como Límite al Poder' : '1. Urgent Constitutional Relief as a Check on Power'}
+              {isEs ? '1. Función del amparo constitucional' : '1. The function of constitutional amparo'}
             </h2>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'La acción de amparo constitucional constituye la cúspide adjetiva del Estado de Derecho. Concebida como una garantía procesal de rango supremo, su propósito esencial no es dilucidar litigios ordinarios ni revisar el fondo de controversias patrimoniales, sino restablecer con inmediatez y eficacia situaciones jurídicas infringidas por actos, hechos u omisiones de autoridades públicas o particulares que vulneren de forma directa derechos fundamentales.'
-                : 'The constitutional injunction represents the pinnacle of due process under the rule of law. Conceived as a supreme procedural remedy, its primary objective is not resolving ordinary civil disputes nor reviewing contractual merits, but promptly and effectively restoring legal standing impaired by arbitrary actions, material conduct, or omissions from public authorities or private entities.'}
+                ? 'La acción de amparo constitucional es un mecanismo de protección de derechos y garantías constitucionales frente a amenazas o vulneraciones atribuibles a autoridades o, en determinados supuestos, a particulares. Su finalidad es procurar el restablecimiento de la situación jurídica afectada cuando esa vía resulte procedente.'
+                : 'Constitutional amparo is a mechanism for the protection of constitutional rights and guarantees against threats or violations attributable to public authorities and, in certain circumstances, private parties. Its purpose is to seek the restoration of the affected legal situation when this remedy is appropriate.'}
             </p>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'Por su naturaleza sumarísima y preferente, el amparo trasciende las formas sacramentales del procedimiento común para priorizar la vigencia material de la Constitución y la dignidad de la persona.'
-                : 'Given its summary and preferential nature, constitutional injunctions transcend conventional procedural formalities to prioritize the substantive enforcement of constitutional supremacy and individual liberty.'}
+                ? 'No sustituye los procesos ordinarios ni funciona como una instancia general para revisar cualquier decisión. Su análisis exige considerar el derecho invocado, los hechos del caso, la lesión alegada y la existencia de otros medios judiciales idóneos.'
+                : 'It does not replace ordinary proceedings or serve as a general means to review every decision. Its assessment requires consideration of the right invoked, the facts of the matter, the alleged violation, and the availability of other suitable judicial remedies.'}
             </p>
           </div>
 
           {/* BLOQUE 2: PRESUPUESTOS DE ADMISIBILIDAD Y TÉCNICA FORENSE */}
           <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
-              {isEs ? '2. Rigor Técnico y Presupuestos Procesales de Admisibilidad' : '2. Technical Diligence and Procedural Admissibility'}
+              {isEs ? '2. Requisitos y límites de procedencia' : '2. Admissibility requirements and limits'}
             </h2>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'El ejercicio forense del amparo exige un celo dogmático extraordinario. La jurisprudencia constitucional ha delimitado causales estrictas de inadmisibilidad destinadas a evitar la desnaturalización de esta vía extraordinaria. No toda disconformidad judicial o irregularidad administrativa califica como materia de amparo; se requiere demostrar un agravio constitucional directo, lesivo e irreparable mediante las vías ordinarias de impugnación.'
-                : 'Forensic practice in constitutional litigation demands rigorous technical precision. Constitutional jurisprudence enforces strict admissibility bars designed to prevent the misuse of this extraordinary remedy. Not every procedural irregularity warrants constitutional review; counsel must demonstrate a direct, harmful, and irreversible constitutional injury that ordinary appeals cannot remedy.'}
+                ? 'La admisibilidad de una acción de amparo depende de sus circunstancias particulares. Es necesario identificar una amenaza o vulneración constitucional relevante y examinar si existen vías ordinarias o recursos que puedan ofrecer una protección adecuada.'
+                : 'The admissibility of a constitutional amparo action depends on the circumstances of each matter. It is necessary to identify a relevant constitutional threat or violation and to assess whether ordinary proceedings or remedies may provide adequate protection.'}
             </p>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'Una demanda de amparo estructurada con solvencia técnica debe acreditar con precisión la actualidad de la lesión, la inexistencia de consentimiento tácito y la acreditación irrefutable de la violación a la garantía invocada.'
-                : 'A properly drafted petition must rigorously establish the immediacy of the constitutional breach, the absence of implied consent, and indisputable evidence proving the fundamental right infringement.'}
+                ? 'La solicitud debe exponer de forma clara los hechos, el derecho o garantía constitucional invocado y la razón por la cual el amparo puede ser la vía aplicable. También deben evaluarse aspectos como la oportunidad de la acción, la posible existencia de consentimiento y la competencia del tribunal.'
+                : 'The application should clearly set out the facts, the constitutional right or guarantee invoked, and the reasons why amparo may be the appropriate remedy. Matters such as timing, possible consent, and the jurisdiction of the court must also be assessed.'}
             </p>
           </div>
 
           {/* BLOQUE 3: ÁMBITOS DE APLICACIÓN Y TUTELA EFECTIVA (LISTA ESTRUCTURADA) */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">
-              {isEs ? '3. Escenarios Críticos de Tutela Constitucional' : '3. Critical Scenarios for Constitutional Relief'}
+              {isEs ? '3. Supuestos que requieren análisis específico' : '3. Matters requiring specific analysis'}
             </h2>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'En el ejercicio forense contemporáneo, la protección preferente del amparo constitucional adquiere protagonismo decisivo en los siguientes escenarios procesales:'
-                : 'In contemporary legal practice, preferential constitutional protection plays a decisive role across the following forensic contexts:'}
+                ? 'La procedencia del amparo debe estudiarse según la naturaleza del acto cuestionado y el medio de protección disponible. Algunos ámbitos que requieren una revisión particular son los siguientes:'
+                : 'The availability of constitutional amparo must be assessed according to the nature of the challenged act and the remedies available. The following areas require particular review:'}
             </p>
             <ul className="service-list mb-2rem">
               <li>
-                <strong>{isEs ? 'Amparo contra Decisiones Judiciales:' : 'Injunction against Judicial Decisions:'}</strong>{' '}
+                <strong>{isEs ? 'Decisiones judiciales:' : 'Judicial decisions:'}</strong>{' '}
                 {isEs 
-                  ? 'Procedencia excepcional ante fallos que incurren en usurpación de funciones, indefensión manifiesta o violación flagrante del debido proceso.'
-                  : 'Exceptional recourse against rulings incurring jurisdictional overreach, manifest lack of defense, or severe due process violations.'}
+                  ? 'El análisis debe considerar la competencia, los recursos disponibles y la posible afectación de derechos constitucionales.'
+                  : 'The analysis should consider jurisdiction, available remedies, and any potential impact on constitutional rights.'}
               </li>
               <li>
-                <strong>{isEs ? 'Vías de Hecho Administrativas:' : 'Administrative Arbitrary Actions:'}</strong>{' '}
+                <strong>{isEs ? 'Actuaciones administrativas:' : 'Administrative actions:'}</strong>{' '}
                 {isEs
-                  ? 'Intervención cautelar urgente frente a clausuras, intervenciones o medidas sancionatorias ejecutadas al margen del procedimiento legal previo.'
-                  : 'Urgent injunctions combating operational shutdowns, corporate seizures, or administrative sanctions executed without prior due process.'}
+                  ? 'Deben evaluarse el acto, el procedimiento aplicado y las vías administrativas o judiciales que puedan resultar idóneas.'
+                  : 'The challenged act, the procedure followed, and the administrative or judicial remedies that may be suitable should be assessed.'}
               </li>
               <li>
-                <strong>{isEs ? 'Medidas Cautelares Constitucionales:' : 'Constitutional Precautionary Measures:'}</strong>{' '}
+                <strong>{isEs ? 'Medidas cautelares:' : 'Precautionary measures:'}</strong>{' '}
                 {isEs
-                  ? 'Solicitud de órdenes de suspensión de efectos para neutralizar de inmediato el daño irreparable mientras se sustancia el fondo del amparo.'
-                  : 'Petitioning stay orders to immediately neutralize irreparable harm while the constitutional merits are substantively litigated.'}
+                  ? 'En determinados casos puede solicitarse una medida orientada a preservar la situación mientras se decide la pretensión, según los requisitos aplicables.'
+                  : 'In certain matters, a measure may be requested to preserve the situation while the claim is decided, subject to the applicable requirements.'}
               </li>
               <li>
-                <strong>{isEs ? 'Protección de Derechos Económicos y Propiedad:' : 'Economic Rights and Property Safeguards:'}</strong>{' '}
+                <strong>{isEs ? 'Derechos económicos y patrimoniales:' : 'Economic and property rights:'}</strong>{' '}
                 {isEs
-                  ? 'Defensa técnica urgente ante actos que vulneran la libre empresa, la seguridad jurídica patrimonial y la no confiscatoriedad.'
-                  : 'Urgent advocacy safeguarding private enterprise, corporate property rights, and protection against arbitrary asset deprivation.'}
+                  ? 'La protección de estos derechos exige examinar los hechos, el marco legal aplicable y la vía procesal correspondiente.'
+                  : 'The protection of these rights requires an assessment of the facts, the applicable legal framework, and the relevant procedural route.'}
               </li>
             </ul>
           </div>
@@ -163,13 +163,13 @@ export default async function BlogAmparo({ params }: Props) {
             <span className="section-tag">{isEs ? 'LITIGACIÓN EN DERECHO CONSTITUCIONAL' : 'CONSTITUTIONAL LITIGATION PRACTICE'}</span>
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs 
-                ? '“El amparo constitucional no es una instancia más; es el escudo técnico frente a la arbitrariedad procesal.”' 
-                : '“Constitutional injunction is not an additional appeal; it is the technical shield against procedural arbitrariness.”'}
+                ? '“La protección constitucional exige identificar el derecho afectado y la vía procesal aplicable.”'
+                : '“Constitutional protection requires identifying the affected right and the appropriate procedural route.”'}
             </h3>
             <p className="max-w-800 mx-auto mb-2rem text-muted" style={{ lineHeight: 1.6, fontSize: '0.95rem' }}>
               {isEs
-                ? 'En Mac Consultores Jurídicos & Asociados ejercemos la tutela constitucional con rigurosa solvencia dogmática, interponiendo acciones de amparo ante tribunales superiores y la Sala Constitucional del Tribunal Supremo de Justicia.'
-                : 'At Mac Consultores Jurídicos & Asociados, we conduct constitutional litigation with rigorous technical solvency, filing injunctions before appellate courts and the Constitutional Chamber of the Supreme Tribunal of Justice.'}
+                ? 'MAC Consultores Jurídicos & Asociados analiza asuntos de Derecho constitucional, evalúa la procedencia de las acciones disponibles y acompaña la preparación de estrategias procesales de acuerdo con los hechos y el marco jurídico aplicable.'
+                : 'MAC Consultores Jurídicos & Asociados analyzes constitutional-law matters, assesses the availability of legal actions, and supports the preparation of procedural strategies based on the facts and the applicable legal framework.'}
             </p>
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <Link href={getRoute(locale, 'contact')} className="btn btn-primary">

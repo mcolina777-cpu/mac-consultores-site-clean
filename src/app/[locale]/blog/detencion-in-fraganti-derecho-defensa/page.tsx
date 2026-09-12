@@ -11,12 +11,12 @@ export async function generateMetadata({ params }: Props) {
   const isEs = locale === 'es';
 
   const title = isEs 
-    ? 'Detención in Fraganti y Derecho a la Defensa | Mac Consultores Jurídicos'
-    : 'In Flagrante Arrest and Right to Defense | Mac Consultores Jurídicos';
+    ? 'Detención en flagrancia y derecho a la defensa | Mac Consultores Jurídicos'
+    : 'Arrest in flagrante delicto and the right to defense | Mac Consultores Jurídicos';
   
   const description = isEs
-    ? 'Análisis dogmático y procesal sobre las garantías constitucionales del imputado en situaciones de flagrancia y la necesidad de una defensa penal técnica temprana.'
-    : 'Doctrinal and procedural analysis regarding constitutional guarantees of the accused during in flagrante arrests and the necessity of early technical criminal defense.';
+    ? 'Garantías aplicables, control judicial y defensa desde las primeras actuaciones en casos de detención en flagrancia.'
+    : 'Applicable safeguards, judicial review, and defense from the earliest stages in arrest-in-flagrante-delicto matters.';
 
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/blog/detencion-in-fraganti-derecho-defensa`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/blog/detencion-in-fraganti-derecho-defensa`;
@@ -67,17 +67,17 @@ export default async function DetencionInFragantiArticle({ params }: Props) {
       <header className="page-header header-soft-bg">
         <div className="container">
           <span className="section-tag">
-            {isEs ? 'DOCTRINA / DERECHO PROCESAL PENAL' : 'DOCTRINE / CRIMINAL PROCEDURAL LAW'}
+            {isEs ? 'CRITERIO JURÍDICO / DERECHO PROCESAL PENAL' : 'LEGAL INSIGHT / CRIMINAL PROCEDURAL LAW'}
           </span>
           <h1 className="mb-1-5rem serif">
             {isEs 
-              ? 'Detención in Fraganti y Derecho a la Defensa' 
-              : 'In Flagrante Arrest and the Right to Defense'}
+              ? 'Detención en flagrancia y derecho a la defensa'
+              : 'Arrest in flagrante delicto and the right to defense'}
           </h1>
           <p className="hero-subtitle">
             {isEs
-              ? 'La flagrancia como situación procesal excepcional no suspende la vigencia de las garantías constitucionales ni convalida la arbitrariedad en la persecución penal.'
-              : 'In flagrante situations as an exceptional procedural condition do not suspend constitutional guarantees nor validate arbitrary state intervention.'}
+              ? 'Garantías aplicables, control judicial y defensa desde las primeras actuaciones.'
+              : 'Applicable safeguards, judicial review, and defense from the earliest stages.'}
           </p>
         </div>
       </header>
@@ -89,87 +89,87 @@ export default async function DetencionInFragantiArticle({ params }: Props) {
           {/* BLOQUE 1: INTRODUCCIÓN Y NATURALEZA DE LA FLAGRANCIA */}
           <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
-              {isEs ? '1. La Flagrancia frente al Orden Constitucional' : '1. In Flagrante Arrest under Constitutional Scrutiny'}
+              {isEs ? '1. Flagrancia y garantías constitucionales' : '1. Flagrancy and constitutional safeguards'}
             </h2>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'La detención de una persona en situación de flagrancia constituye una de las actuaciones más sensibles dentro del proceso penal. La inmediatez de la intervención policial puede resultar jurídicamente necesaria frente a un hecho delictivo que está ocurriendo o acaba de ocurrir; sin embargo, esa circunstancia no convierte al aprehendido en un sujeto desprovisto de derechos ni faculta a los órganos de seguridad para prescindir de las garantías inherentes al debido proceso.'
-                : 'The arrest of an individual in flagrante delicto constitutes one of the most sensitive interventions within criminal procedure. While immediate police intervention may be legally warranted when an alleged crime is actively occurring or has just transpired, such circumstance does not strip the detained person of fundamental rights nor authorize law enforcement to bypass procedural due process safeguards.'}
+                ? 'La aprehensión en flagrancia puede producirse cuando existen las circunstancias previstas por la legislación aplicable respecto de un hecho presuntamente delictivo. Esa situación no elimina las garantías constitucionales de la persona aprehendida ni la necesidad de examinar las actuaciones realizadas por las autoridades.'
+                : 'An arrest in flagrante delicto may take place where the circumstances set out in the applicable law are present in connection with an alleged criminal act. That situation does not remove the detained person’s constitutional safeguards or the need to examine the actions taken by the authorities.'}
             </p>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'La flagrancia responde a una proximidad temporal y fáctica estricta entre la persona y el hecho punible investigado. No obstante, rapidez procesal no equivale a discrecionalidad arbitraria: toda actuación policial y fiscal debe permanecer subordinada al control judicial y al principio de legalidad probatoria.'
-                : 'In flagrante status requires strict temporal and factual proximity between the individual and the investigated offense. However, procedural speed is never equivalent to arbitrary discretion: every police and prosecutorial action remains strictly subordinated to judicial control and evidentiary legality.'}
+                ? 'La apreciación de la flagrancia requiere considerar los hechos, la proximidad temporal, los elementos disponibles y las condiciones en que se produjo la aprehensión. La intervención policial y fiscal permanece sujeta al control judicial y a las reglas aplicables al procedimiento penal.'
+                : 'The assessment of flagrancy requires consideration of the facts, temporal proximity, the available elements, and the circumstances of the arrest. Police and prosecutorial action remains subject to judicial review and to the rules applicable to criminal proceedings.'}
             </p>
           </div>
 
           {/* BLOQUE 2: PRESUNCIÓN DE INOCENCIA Y DEFENSA TEMPRANA */}
           <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
-              {isEs ? '2. Presunción de Inocencia y Asistencia Técnica Oportuna' : '2. Presumption of Innocence and Early Technical Counsel'}
+              {isEs ? '2. Presunción de inocencia y defensa oportuna' : '2. Presumption of innocence and timely defense'}
             </h2>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'Uno de los equívocos más graves en la práctica forense consiste en equiparar la aprehensión física con una declaración anticipada de responsabilidad penal. La privación preventiva de libertad es una medida cautelar de coerción personal, no una condena. La persona aprehendida conserva intacta su presunción de inocencia, su derecho a conocer con precisión los hechos atribuidos y la prerrogativa innegociable a no autoincriminarse ni ser coaccionada a declarar.'
-                : 'One of the most dangerous misconceptions in criminal practice is conflating physical arrest with an early declaration of criminal liability. Preventive detention is merely a coercive precautionary measure, not a conviction. The detainee retains full presumption of innocence, the right to clearly understand attributed facts, and the non-negotiable right against self-incrimination.'}
+                ? 'La aprehensión no equivale a una declaración de responsabilidad penal. La persona investigada conserva la presunción de inocencia, el derecho a conocer los hechos que se le atribuyen y las garantías vinculadas con el debido proceso.'
+                : 'An arrest is not a finding of criminal responsibility. The person under investigation retains the presumption of innocence, the right to be informed of the alleged facts, and the safeguards associated with due process.'}
             </p>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'El derecho a la defensa no nace en la sala de juicio ni con la presentación del acto conclusivo: se activa desde el primer minuto de la intervención estatal. La presencia temprana del abogado defensor equilibra la asimetría entre el poder punitivo y el justiciable, permitiendo auditar la legalidad del acta policial y prevenir la consolidación de irregularidades procesales irreversibles.'
-                : 'The right to defense does not begin at trial: it activates from the very first moment of state custody. Early presence of defense counsel restores procedural balance between prosecutorial power and the citizen, allowing immediate auditing of police reports and preventing irreversible procedural flaws.'}
+                ? 'La asistencia de defensa debe considerarse desde las primeras actuaciones. Su intervención permite revisar la información disponible, las condiciones de la aprehensión y el respeto de las garantías aplicables, sin anticipar la valoración definitiva del caso.'
+                : 'Access to defense should be considered from the earliest stages. Its involvement allows for a review of the information available, the circumstances of the arrest, and compliance with the applicable safeguards, without anticipating the final assessment of the matter.'}
             </p>
           </div>
 
           {/* BLOQUE 3: AUDITORÍA JUDICIAL Y CONTROL PROBATORIO (LISTA ESTRUCTURADA) */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">
-              {isEs ? '3. Ejes Críticos del Control Judicial de la Aprehensión' : '3. Critical Axes of Judicial Oversight'}
+              {isEs ? '3. Aspectos para revisar durante el control judicial' : '3. Matters to review during judicial oversight'}
             </h2>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'La audiencia de calificación de flagrancia no puede entenderse como un mero trámite formal. Constituye el escenario procesal determinante donde la defensa técnica debe someter a escrutinio riguroso los siguientes presupuestos:'
-                : 'The preliminary detention review hearing cannot be approached as a routine formality. It constitutes the decisive procedural forum where defense counsel must rigorously scrutinize the following elements:'}
+                ? 'La presentación ante el tribunal permite revisar aspectos relevantes de la aprehensión y del procedimiento inicial. Entre ellos se encuentran los siguientes:'
+                : 'Presentation before the court allows relevant aspects of the arrest and initial procedure to be reviewed. These may include:'}
             </p>
             <ul className="service-list mb-2rem">
               <li>
-                <strong>{isEs ? 'Licitud de la Aprehensión:' : 'Legality of Custody:'}</strong>{' '}
+                <strong>{isEs ? 'Circunstancias de la aprehensión:' : 'Circumstances of the arrest:'}</strong>{' '}
                 {isEs 
-                  ? 'Verificación de la concurrencia real y objetiva de los supuestos normativos de flagrancia, distinguiendo la inmediatez fáctica de meras sospechas policiales.'
-                  : 'Verification of actual statutory criteria for flagrancy, strictly distinguishing factual immediacy from unfounded police suspicion.'}
+                  ? 'Revisión de los hechos reportados, los elementos disponibles y la relación de estos con el supuesto de flagrancia alegado.'
+                  : 'Reviewing the facts reported, the available elements, and their connection to the alleged flagrancy.'}
               </li>
               <li>
-                <strong>{isEs ? 'Cadena de Custodia Probatoria:' : 'Chain of Custody:'}</strong>{' '}
+                <strong>{isEs ? 'Actuaciones iniciales y evidencia:' : 'Initial actions and evidence:'}</strong>{' '}
                 {isEs
-                  ? 'Fiscalización de las condiciones de recolección, fijación, embalaje y traslado de evidencias materiales o registros digitales incautados durante el procedimiento.'
-                  : 'Auditing the handling, preservation, sealing, and transfer of physical or digital evidence seized during the operation.'}
+                  ? 'Examen de la recolección, registro, preservación y traslado de elementos materiales o digitales, según corresponda.'
+                  : 'Examining the collection, recording, preservation, and transfer of physical or digital material, as applicable.'}
               </li>
               <li>
-                <strong>{isEs ? 'Integridad de los Derechos Fundamentales:' : 'Fundamental Rights Integrity:'}</strong>{' '}
+                <strong>{isEs ? 'Garantías de la persona aprehendida:' : 'Safeguards of the detained person:'}</strong>{' '}
                 {isEs
-                  ? 'Constatación formal del respeto a la integridad física del detenido, comunicación inmediata con sus familiares y acceso irrestricto a su defensa de confianza.'
-                  : 'Verification of personal integrity standards, immediate family notification, and unhindered access to chosen legal counsel.'}
+                  ? 'Verificación de información sobre los hechos atribuidos, acceso a la defensa y comunicación con las personas autorizadas conforme al marco aplicable.'
+                  : 'Verifying information about the alleged facts, access to defense, and communication with authorized persons under the applicable framework.'}
               </li>
               <li>
-                <strong>{isEs ? 'Debido Control de Términos:' : 'Strict Term Compliance:'}</strong>{' '}
+                <strong>{isEs ? 'Presentación y control judicial:' : 'Presentation and judicial review:'}</strong>{' '}
                 {isEs
-                  ? 'Examen del cumplimiento estricto de los lapsos constitucionales de presentación ante el tribunal de control competente.'
-                  : 'Strict enforcement of mandatory constitutional deadlines governing judicial presentation before magistrate courts.'}
+                  ? 'Revisión de los plazos y actuaciones aplicables desde la aprehensión hasta la presentación ante la autoridad judicial competente.'
+                  : 'Reviewing the applicable time limits and actions from the arrest through presentation before the competent judicial authority.'}
               </li>
             </ul>
           </div>
 
           {/* BLOQUE 4: CONCLUSIÓN DOCTRINAL Y CTA INSTITUCIONAL */}
           <div className="card bg-soft p-3rem text-center" style={{ border: '1px solid var(--border-color, #e5e7eb)', borderRadius: '8px' }}>
-            <span className="section-tag">{isEs ? 'CRITERIO FORENSE DE LA FIRMA' : 'FORENSIC FIRM CRITERION'}</span>
+            <span className="section-tag">{isEs ? 'CRITERIO JURÍDICO DE LA FIRMA' : 'THE FIRM’S LEGAL INSIGHT'}</span>
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs 
-                ? '“La defensa penal eficaz exige análisis temprano, control de legalidad y estrategia procesal rigurosa.”' 
-                : '“Effective criminal defense requires early analysis, strict legality control, and structured strategy.”'}
+                ? '“El análisis temprano de las actuaciones permite identificar las cuestiones procesales relevantes.”'
+                : '“Early review of procedural actions helps identify relevant legal issues.”'}
             </h3>
             <p className="max-w-800 mx-auto mb-2rem text-muted" style={{ lineHeight: 1.6, fontSize: '0.95rem' }}>
               {isEs
-                ? 'En Mac Consultores Jurídicos & Asociados asumimos la representación penal y constitucional con el más alto rigor dogmático, interviniendo de manera inmediata para la salvaguarda efectiva de las garantías procesales de nuestros patrocinados.'
-                : 'At Mac Consultores Jurídicos & Asociados, we conduct criminal and constitutional defense under the highest dogmatic standards, providing prompt representation to safeguard our clients’ procedural rights.'}
+                ? 'MAC Consultores Jurídicos & Asociados analiza asuntos de Derecho penal y constitucional, y acompaña la preparación de estrategias de defensa de acuerdo con los hechos, las garantías aplicables y el marco jurídico correspondiente.'
+                : 'MAC Consultores Jurídicos & Asociados analyzes criminal and constitutional-law matters and supports the preparation of defense strategies based on the facts, applicable safeguards, and relevant legal framework.'}
             </p>
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <Link href={getRoute(locale, 'contact')} className="btn btn-primary">

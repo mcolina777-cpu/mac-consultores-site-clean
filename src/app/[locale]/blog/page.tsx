@@ -65,11 +65,11 @@ export default async function BlogIndex({ params }: Props) {
       <header className="page-header header-soft-bg">
         <div className="container">
           <span className="section-tag">{isEs ? 'INICIO / CRITERIO FORENSE' : 'HOME / LEGAL INSIGHTS'}</span>
-          <h1 className="mb-1-5rem serif">{isEs ? 'Doctrina, Análisis y Criterio Jurídico' : 'Doctrine, Analysis and Legal Insights'}</h1>
+          <h1 className="mb-1-5rem serif">{isEs ? 'Doctrina, análisis y criterio jurídico' : 'Doctrine, analysis and legal insight'}</h1>
           <p className="hero-subtitle">
             {isEs 
-              ? 'Reflexiones doctrinales, análisis jurisprudenciales y criterios técnico-jurídicos sobre desafíos forenses de alta complejidad.' 
-              : 'Doctrinal reflections, jurisprudential analysis, and high-complexity forensic legal insights.'}
+              ? 'Notas sobre Derecho penal económico, Derecho constitucional y proceso penal. Cada publicación aborda un problema jurídico específico y ofrece criterios de análisis para su estudio y discusión profesional.'
+              : 'Notes on economic criminal law, constitutional law, and criminal procedure. Each publication addresses a specific legal issue and offers analytical criteria for professional study and discussion.'}
           </p>
         </div>
       </header>
@@ -85,14 +85,14 @@ export default async function BlogIndex({ params }: Props) {
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
               <span className="section-tag">{isEs ? 'DERECHO PENAL ECONÓMICO' : 'ECONOMIC CRIMINAL LAW'}</span>
-              <h3 className="serif">{isEs ? 'Criminalidad Económica y Compliance Penal' : 'Economic Crime and Corporate Compliance'}</h3>
+              <h3 className="serif">{isEs ? 'Criminalidad económica y compliance penal' : 'Economic crime and corporate compliance'}</h3>
               <p 
                 className="card-editorial-text"
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
               >
                 {isEs
-                  ? 'El ejercicio de la actividad corporativa contemporánea impone una rigurosa evaluación de riesgos frente a las exigencias del Derecho penal económico. La adecuada estructuración de programas de cumplimiento normativo y la delimitación de deberes fiduciarios permiten mitigar contingencias penales de alta complejidad, garantizando una defensa técnica especializada sustentada en el control previo de imputación y la preservación del patrimonio societario.'
-                  : 'Modern corporate operations require rigorous legal assessment regarding the growing complexities of economic criminal law. Implementing sound compliance frameworks and clearly defining executive fiduciary duties effectively mitigates high-stakes criminal liabilities, establishing a robust defense strategy grounded in procedural oversight, doctrinal scrutiny, and the comprehensive protection of corporate governance and asset integrity.'}
+                  ? 'Las decisiones y operaciones empresariales pueden generar riesgos penales en materias financieras, tributarias, cambiarias, ambientales o de contratación. Esta nota examina la responsabilidad individual de directivos y la función del compliance penal en la prevención y respuesta ante contingencias.'
+                  : 'Business decisions and operations may give rise to criminal-law risks in financial, tax, foreign-exchange, environmental, or contracting matters. This note examines individual executive responsibility and the role of criminal compliance in prevention and response to potential issues.'}
               </p>
               <span className="card-link mt-auto">
                 {isEs ? 'Leer más →' : 'Read more →'}
@@ -105,15 +105,15 @@ export default async function BlogIndex({ params }: Props) {
               className="card hover-lift"
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
-              <span className="section-tag">{isEs ? 'TUTELA CONSTITUCIONAL' : 'CONSTITUTIONAL LAW'}</span>
-              <h3 className="serif">{isEs ? 'El Amparo Constitucional como Garantía Vital' : 'Constitutional Injunction as a Fundamental Guarantee'}</h3>
+              <span className="section-tag">{isEs ? 'DERECHO CONSTITUCIONAL' : 'CONSTITUTIONAL LAW'}</span>
+              <h3 className="serif">{isEs ? 'El amparo constitucional y la protección de derechos' : 'Constitutional amparo and the protection of rights'}</h3>
               <p 
                 className="card-editorial-text"
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
               >
                 {isEs
-                  ? 'La acción de tutela constitucional representa el instrumento forense por excelencia para restablecer de manera inmediata situaciones jurídicas infringidas por actos de autoridad o particulares. Su interposición exige una técnica jurídica depurada orientada a acreditar la violación directa a garantías fundamentales, evitando dilaciones indebidas y asegurando el restablecimiento pleno de la tutela judicial efectiva en estrados constitucionales.'
-                  : 'The constitutional protection remedy serves as an essential forensic mechanism designed to instantly restore legal standing impaired by arbitrary actions from public authorities or private entities. Filing this action demands precise legal argumentation to demonstrate direct constitutional violations, preventing procedural delays while securing immediate judicial relief and due process enforcement across all constitutional courts.'}
+                  ? 'El amparo constitucional es una vía de protección de derechos cuya procedencia depende de los hechos, del derecho invocado y de la existencia de otros medios judiciales idóneos. Esta nota revisa su alcance, requisitos y límites.'
+                  : 'Constitutional amparo is a rights-protection mechanism whose availability depends on the facts, the right invoked, and the existence of other suitable judicial remedies. This note reviews its scope, requirements, and limits.'}
               </p>
               <span className="card-link mt-auto">
                 {isEs ? 'Leer más →' : 'Read more →'}
@@ -126,15 +126,15 @@ export default async function BlogIndex({ params }: Props) {
               className="card hover-lift"
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
-              <span className="section-tag">{isEs ? 'TÉCNICA FORENSE' : 'FORENSIC PRACTICE'}</span>
-              <h3 className="serif">{isEs ? 'El Régimen de Poderes en el CPC y el COPP' : 'Representation and Power of Attorney in CPC & COPP'}</h3>
+              <span className="section-tag">{isEs ? 'TÉCNICA PROCESAL' : 'PROCEDURAL PRACTICE'}</span>
+              <h3 className="serif">{isEs ? 'Poderes y representación en los procesos civil y penal' : 'Powers of attorney and representation in civil and criminal proceedings'}</h3>
               <p 
                 className="card-editorial-text"
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
               >
                 {isEs
-                  ? 'La correcta acreditación de la cualidad procesal constituye un presupuesto insoslayable para la validez de cualquier actuación judicial. El examen riguroso de las facultades de representación en las jurisdicciones civil y penal exige analizar con celo técnico los requisitos de otorgamiento, sustitución y delimitación del mandato, previniendo excepciones procesales que puedan comprometer la eficacia de la defensa en juicio.'
-                  : 'Proper verification of legal standing represents an indispensable procedural prerequisite for judicial validity across all court proceedings. A thorough technical analysis of power of attorney requirements within civil and criminal procedural codes ensures proper delegation, formal substitution, and scope definition, effectively preventing procedural exceptions and safeguarding the integrity of courtroom advocacy.'}
+                  ? 'La representación judicial exige revisar el alcance del mandato, las facultades conferidas y los requisitos aplicables a cada actuación. Esta nota compara aspectos relevantes de la representación en los procesos civil y penal.'
+                  : 'Legal representation requires reviewing the scope of authority, the powers granted, and the requirements applicable to each procedural action. This note compares relevant aspects of representation in civil and criminal proceedings.'}
               </p>
               <span className="card-link mt-auto">
                 {isEs ? 'Leer más →' : 'Read more →'}
@@ -148,14 +148,14 @@ export default async function BlogIndex({ params }: Props) {
               style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
             >
               <span className="section-tag">{isEs ? 'DERECHO PROCESAL PENAL' : 'CRIMINAL PROCEDURAL LAW'}</span>
-              <h3 className="serif">{isEs ? 'Detención in Fraganti y Derecho a la Defensa' : 'In Flagrante Arrest and the Right to Defense'}</h3>
+              <h3 className="serif">{isEs ? 'Detención en flagrancia y derecho a la defensa' : 'Arrest in flagrante delicto and the right to defense'}</h3>
               <p 
                 className="card-editorial-text"
                 style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
               >
                 {isEs
-                  ? 'La inmediatez de la aprehensión policial en situaciones de flagrancia no suspende las garantías constitucionales del imputado ni convalida actuaciones arbitrarias. El ejercicio oportuno de la defensa técnica desde los actos iniciales resulta determinante para examinar la licitud de la detención, verificar la cadena de custodia probatoria y asegurar el respeto estricto a la presunción de inocencia ante el control judicial.'
-                  : 'The procedural immediacy of an in flagrante arrest does not suspend constitutional guarantees nor validate arbitrary state intervention. Early technical defense intervention from initial police custody is vital to challenge arrest legality, scrutinize evidentiary chain of custody, and enforce strict adherence to the presumption of innocence during judicial oversight before trial courts.'}
+                  ? 'La aprehensión en flagrancia no equivale a una declaración de responsabilidad penal. Esta nota examina las garantías aplicables, la defensa desde las primeras actuaciones y los aspectos que pueden revisarse durante el control judicial.'
+                  : 'An arrest in flagrante delicto is not a finding of criminal responsibility. This note examines applicable safeguards, access to defense from the earliest stages, and matters that may be reviewed during judicial oversight.'}
               </p>
               <span className="card-link mt-auto">
                 {isEs ? 'Leer más →' : 'Read more →'}
@@ -188,8 +188,8 @@ export default async function BlogIndex({ params }: Props) {
               style={{ fontSize: '1.4rem' }}
             >
               {isEs
-                ? '“El análisis dogmático riguroso y la doctrina procesal sustentan una defensa técnica efectiva.”'
-                : '“Rigorous doctrinal analysis and procedural insight provide the foundation for effective technical defense.”'}
+                ? '“El análisis jurídico comienza por comprender los hechos y la norma aplicable.”'
+                : '“Legal analysis begins with an understanding of the facts and the applicable law.”'}
             </h3>
 
             <p
@@ -197,8 +197,8 @@ export default async function BlogIndex({ params }: Props) {
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
               {isEs
-                ? 'Consulte con nuestro equipo forense para evaluar la viabilidad dogmática y procesal de su caso bajo los más altos estándares del Derecho penal y constitucional.'
-                : 'Consult our legal team to assess the doctrinal and procedural viability of your case under the highest standards of criminal and constitutional law.'}
+                ? 'Las publicaciones de esta sección tienen fines informativos y académicos. No sustituyen el estudio de los hechos, los riesgos y las vías jurídicas disponibles en cada asunto.'
+                : 'The publications in this section are provided for informational and academic purposes. They do not replace an assessment of the facts, risks, and legal options available in a particular matter.'}
             </p>
 
             <div

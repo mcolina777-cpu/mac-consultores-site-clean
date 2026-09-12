@@ -11,12 +11,12 @@ export async function generateMetadata({ params }: Props) {
   const isEs = locale === 'es';
 
   const title = isEs 
-    ? 'Criminalidad Económica y Compliance Penal | Mac Consultores Jurídicos'
-    : 'Economic Crime and Corporate Compliance | Mac Consultores Jurídicos';
+    ? 'Criminalidad económica y compliance penal | Mac Consultores Jurídicos'
+    : 'Economic crime and corporate compliance | Mac Consultores Jurídicos';
   
   const description = isEs
-    ? 'Análisis dogmático y procesal sobre los riesgos penales en la gestión empresarial moderna, la responsabilidad directiva y los programas de prevención delictiva.'
-    : 'Doctrinal and procedural analysis regarding criminal liability risks in corporate management, executive accountability, and criminal compliance programs.';
+    ? 'Riesgos penales en la actividad empresarial, responsabilidad individual de directivos y compliance penal para la prevención y respuesta ante contingencias.'
+    : 'Criminal-law risks in business operations, individual executive responsibility, and criminal compliance for prevention and response to potential issues.';
 
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/blog/criminalidad-economica`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/blog/criminalidad-economica`;
@@ -67,17 +67,17 @@ export default async function BlogCriminalidadEconomica({ params }: Props) {
       <header className="page-header header-soft-bg">
         <div className="container">
           <span className="section-tag">
-            {isEs ? 'DOCTRINA / DERECHO PENAL ECONÓMICO' : 'DOCTRINE / ECONOMIC CRIMINAL LAW'}
+            {isEs ? 'CRITERIO JURÍDICO / DERECHO PENAL ECONÓMICO' : 'LEGAL INSIGHT / ECONOMIC CRIMINAL LAW'}
           </span>
           <h1 className="mb-1-5rem serif">
             {isEs 
-              ? 'Criminalidad Económica y Compliance Penal' 
-              : 'Economic Crime and Corporate Compliance'}
+              ? 'Criminalidad económica y compliance penal'
+              : 'Economic crime and corporate compliance'}
           </h1>
           <p className="hero-subtitle">
             {isEs
-              ? 'Riesgos penales en la gestión corporativa moderna, delimitación de la responsabilidad directiva y modelos de prevención delictiva.'
-              : 'Criminal liability risks in modern corporate governance, defining executive accountability, and structured compliance frameworks.'}
+              ? 'Riesgos penales en la actividad empresarial, responsabilidad de directivos y medidas de prevención.'
+              : 'Criminal-law risks in business operations, executive responsibility, and preventive measures.'}
           </p>
         </div>
       </header>
@@ -89,71 +89,71 @@ export default async function BlogCriminalidadEconomica({ params }: Props) {
           {/* BLOQUE 1: INTRODUCCIÓN Y EXPANSIÓN DEL DERECHO PENAL SOCIETARIO */}
           <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
-              {isEs ? '1. La Expansión del Derecho Penal en la Actividad Empresarial' : '1. Expansion of Criminal Law within Corporate Governance'}
+              {isEs ? '1. Riesgo penal en la actividad empresarial' : '1. Criminal-law risk in business operations'}
             </h2>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'La dinámica de los negocios contemporáneos enfrenta un entorno regulatorio crecientemente punitivo. La tradicional frontera entre el ilícito civil o mercantil y la infracción penal se ha difuminado progresivamente, trasladando hacia la esfera penal conductas vinculadas a la gestión tributaria, financiera, cambiaria, ambiental y de contratación mercantil. Esta tendencia impone una revisión profunda sobre cómo se concibe la responsabilidad jurídica en el seno de las organizaciones.'
-                : 'Contemporary business dynamics face an increasingly punitive regulatory environment. The traditional boundary between civil or commercial misconduct and criminal liability has progressively blurred, shifting tax, financial, currency, environmental, and contractual governance matters into the criminal sphere. This trend demands a profound reassessment of legal risk management within corporate structures.'}
+                ? 'Las decisiones y operaciones de una empresa pueden generar riesgos penales en materias tributarias, financieras, cambiarias, ambientales o de contratación. Identificar esos riesgos permite revisar cómo se toman las decisiones, qué controles existen y quién interviene en cada proceso.'
+                : 'Business decisions and operations may give rise to criminal-law risks in tax, financial, foreign-exchange, environmental, or contracting matters. Identifying those risks makes it possible to review how decisions are made, what controls are in place, and who is involved in each process.'}
             </p>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'En este escenario, el Derecho penal económico no actúa únicamente frente a fraudes evidentes o insolvencias dolosas, sino que proyecta sus tipos delictivos sobre decisiones de administración, atribución de facultades directivas y deberes de supervisión fiduciaria.'
-                : 'In this context, economic criminal law operates beyond overt fraud or fraudulent bankruptcy, actively extending its statutory reach over executive administration, delegated managerial powers, and fiduciary supervisory duties.'}
+                ? 'El Derecho penal económico no se limita a supuestos de fraude o insolvencia dolosa. También puede examinar decisiones de administración, distribución de funciones, facultades de representación y deberes de supervisión dentro de la organización.'
+                : 'Economic criminal law is not limited to fraud or fraudulent insolvency. It may also examine management decisions, the allocation of functions, authority to act on behalf of the company, and supervisory duties within an organization.'}
             </p>
           </div>
 
           {/* BLOQUE 2: IMPUTACIÓN Y RESPONSABILIDAD DE ÓRGANOS DIRECTIVOS */}
           <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
-              {isEs ? '2. Criterios de Imputación y Responsabilidad del Órgano Directivo' : '2. Imputation Standards and Executive Liability'}
+              {isEs ? '2. Responsabilidad individual de directivos y administradores' : '2. Individual responsibility of directors and executives'}
             </h2>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'Uno de los desafíos técnicos más complejos en los litigios penales societarios radica en la imputación personal dentro de estructuras corporativas descentralizadas. La persecución penal suele formularse bajo presunciones genéricas que pretenden atribuir responsabilidad a directores y administradores por el mero hecho de ostentar el cargo, desconociendo el principio fundamental de culpabilidad individual y la división funcional del trabajo.'
-                : 'One of the most complex forensic challenges in corporate criminal litigation lies in individual liability attribution across decentralized organizational structures. Prosecutorial theories often rely on generic presumptions, attempting to hold directors accountable purely based on their corporate title, disregarding individual guilt principles and functional delegation.'}
+                ? 'En estructuras corporativas con funciones distribuidas, la atribución de responsabilidad penal debe analizarse de manera individual. El cargo que ocupa una persona no basta, por sí solo, para establecer su participación o responsabilidad en un hecho investigado.'
+                : 'In corporate structures with distributed functions, potential criminal responsibility must be assessed individually. A person’s title alone does not establish participation in, or responsibility for, the conduct under investigation.'}
             </p>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'Una defensa técnica de alta jerarquía exige auditar con precisión los ámbitos de competencia funcional, las delegaciones estatutarias válidas y la inexistencia de dolo directo en la adopción de acuerdos colegiados, desmontando imputaciones indiscriminadas desde la fase preliminar de investigación.'
-                : 'High-level defense advocacy requires rigorously auditing functional scopes of duty, valid statutory delegations, and the absence of intentional wrongdoing in collective board decisions, dismantling indiscriminate prosecutorial theories from the earliest investigative stages.'}
+                ? 'La revisión del caso debe considerar las funciones asignadas, las delegaciones vigentes, las decisiones adoptadas y los elementos que permitan establecer o descartar una actuación intencional. Este análisis es relevante desde las primeras actuaciones de una investigación.'
+                : 'The assessment should consider assigned functions, current delegations, decisions made, and the available evidence of intentional conduct. This review is relevant from the earliest stages of an investigation.'}
             </p>
           </div>
 
           {/* BLOQUE 3: PROGRAMAS DE CUMPLIMIENTO (COMPLIANCE) COMO EXIMENTE */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">
-              {isEs ? '3. Pilares del Compliance Penal y Prevención Forense' : '3. Core Pillars of Criminal Compliance and Prevention'}
+              {isEs ? '3. Compliance penal y prevención' : '3. Criminal compliance and prevention'}
             </h2>
             <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
               {isEs
-                ? 'La implementación de programas efectivos de cumplimiento penal (*Criminal Compliance*) no constituye un mero catálogo ético ni un protocolo documental inerte; es un instrumento de blindaje dogmático que permite acreditar el debido control organizacional y la diligencia debida de los administradores frente a los siguientes ejes rectores:'
-                : 'Implementing effective Criminal Compliance frameworks is not a cosmetic ethical handbook or static documentation; it constitutes an indispensable technical defense mechanism establishing organizational due diligence across the following critical axes:'}
+                ? 'Un programa de cumplimiento penal ayuda a identificar riesgos, asignar responsabilidades y establecer controles adecuados a la operación de cada empresa. No sustituye la evaluación de un caso concreto, pero puede aportar elementos relevantes para la prevención y la respuesta ante una contingencia.'
+                : 'A criminal compliance program can help identify risks, allocate responsibilities, and establish controls suited to a company’s operations. It does not replace an assessment of a specific matter, but it can provide relevant support for prevention and for responding to a potential issue.'}
             </p>
             <ul className="service-list mb-2rem">
               <li>
-                <strong>{isEs ? 'Mapa Integral de Riesgos Penales:' : 'Comprehensive Criminal Risk Mapping:'}</strong>{' '}
+                <strong>{isEs ? 'Mapa de riesgos penales:' : 'Criminal risk mapping:'}</strong>{' '}
                 {isEs 
-                  ? 'Identificación pormenorizada de los procesos operativos y transaccionales susceptibles de generar contingencias penales corporativas.'
-                  : 'Detailed identification of operational and transactional procedures susceptible to corporate criminal liabilities.'}
+                  ? 'Identificación de procesos y operaciones que requieren controles específicos.'
+                  : 'Identifying processes and operations that require specific controls.'}
               </li>
               <li>
-                <strong>{isEs ? 'Delimitación Estatutaria de Deberes:' : 'Statutory Delegation of Duties:'}</strong>{' '}
+                <strong>{isEs ? 'Asignación de funciones:' : 'Allocation of functions:'}</strong>{' '}
                 {isEs
-                  ? 'Estructuración clara de poderes de decisión, líneas de reporte y facultades de disposición patrimonial debidamente protocolizadas.'
-                  : 'Clear structuring of decision-making authority, reporting hierarchies, and formally registered powers of attorney.'}
+                  ? 'Definición de responsabilidades, niveles de decisión y líneas de reporte.'
+                  : 'Defining responsibilities, decision-making levels, and reporting lines.'}
               </li>
               <li>
-                <strong>{isEs ? 'Protocolos de Auditoría y Control Interno:' : 'Auditing and Internal Control Protocols:'}</strong>{' '}
+                <strong>{isEs ? 'Controles internos:' : 'Internal controls:'}</strong>{' '}
                 {isEs
-                  ? 'Mecanismos de fiscalización periódica sobre operaciones financieras, régimen cambiario y contratación pública y privada.'
-                  : 'Periodic oversight mechanisms monitoring financial operations, regulatory filings, and public or private contracting.'}
+                  ? 'Revisión de operaciones financieras, obligaciones regulatorias y procesos de contratación.'
+                  : 'Reviewing financial operations, regulatory obligations, and contracting processes.'}
               </li>
               <li>
-                <strong>{isEs ? 'Gestión Temprana de Contingencias Forenses:' : 'Early Forensic Crisis Response:'}</strong>{' '}
+                <strong>{isEs ? 'Respuesta temprana:' : 'Early response:'}</strong>{' '}
                 {isEs
-                  ? 'Activación de protocolos de respuesta inmediata ante requerimientos fiscales, inspecciones de órganos reguladores o medidas cautelares.'
-                  : 'Immediate protocol activation when facing prosecutorial requests, regulatory inspections, or precautionary asset freezes.'}
+                  ? 'Organización de la actuación de la empresa ante requerimientos, inspecciones o medidas cautelares.'
+                  : 'Organizing the company’s response to requests, inspections, or precautionary measures.'}
               </li>
             </ul>
           </div>
@@ -163,13 +163,13 @@ export default async function BlogCriminalidadEconomica({ params }: Props) {
             <span className="section-tag">{isEs ? 'CONSULTORÍA EN DERECHO PENAL ECONÓMICO' : 'ECONOMIC CRIMINAL LAW PRACTICE'}</span>
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs 
-                ? '“La mejor estrategia frente al riesgo penal corporativo radica en la prevención técnica y la intervención procesal temprana.”' 
-                : '“The soundest corporate defense lies in proactive risk prevention and early procedural intervention.”'}
+                ? '“La prevención y la reacción temprana ayudan a gestionar el riesgo penal corporativo.”'
+                : '“Prevention and early response can help manage corporate criminal-law risk.”'}
             </h3>
             <p className="max-w-800 mx-auto mb-2rem text-muted" style={{ lineHeight: 1.6, fontSize: '0.95rem' }}>
               {isEs
-                ? 'En Mac Consultores Jurídicos & Asociados asesoramos a directores, accionistas y empresas en el diseño de esquemas de prevención delictiva y en la defensa penal técnica ante investigaciones complejas.'
-                : 'At Mac Consultores Jurídicos & Asociados, we advise executive boards, shareholders, and corporations on risk prevention design and technical defense during complex investigations.'}
+                ? 'MAC Consultores Jurídicos & Asociados asesora a empresas, accionistas y directivos en la identificación de riesgos, el diseño de medidas de prevención y la preparación de respuestas ante investigaciones o actuaciones de autoridades.'
+                : 'MAC Consultores Jurídicos & Asociados advises companies, shareholders, and executives on risk identification, preventive measures, and the preparation of responses to investigations or actions by authorities.'}
             </p>
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
