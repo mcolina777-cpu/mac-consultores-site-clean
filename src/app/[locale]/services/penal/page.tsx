@@ -12,12 +12,12 @@ export async function generateMetadata({ params }: Props) {
   const isEs = locale === 'es';
 
   const title = isEs
-    ? 'Penal Económico y Corporativo | Mac Consultores Jurídicos'
-    : 'Economic & Corporate Criminal Law | Mac Consultores Jurídicos';
+    ? 'Derecho penal y procesal penal | Mac Consultores Jurídicos'
+    : 'Criminal law and criminal procedure | Mac Consultores Jurídicos';
 
   const description = isEs
-    ? 'Defensa penal corporativa, litigación estratégica, recursos y evaluación de riesgos penales económicos para empresas, directivos y accionistas en Venezuela.'
-    : 'Corporate criminal defense, strategic litigation, appeals, and economic criminal-risk assessment for companies, executives, and shareholders in Venezuela.';
+    ? 'Asesoría y defensa en investigaciones, procedimientos y litigios penales para personas, directivos y empresas en Venezuela.'
+    : 'Advice and defense in criminal investigations, proceedings, and litigation for individuals, executives, and companies in Venezuela.';
 
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/penal`;
   const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/penal';
@@ -176,13 +176,13 @@ export default async function ServicesPenal({ params }: Props) {
             }}
           >
             <span className="section-tag">
-              {isEs ? 'DEFENSA PENAL CORPORATIVA' : 'CORPORATE CRIMINAL DEFENSE'}
+              {isEs ? 'DERECHO PENAL CORPORATIVO' : 'CORPORATE CRIMINAL LAW'}
             </span>
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“La defensa penal corporativa exige anticipación, rigor probatorio y dirección estratégica desde el primer momento.”'
-                : '“Corporate criminal defense demands anticipation, evidentiary rigor, and strategic direction from the very first stage.”'}
+                ? 'Cada asunto penal requiere una revisión temprana de los hechos y del marco procesal aplicable.'
+                : 'Each criminal matter requires an early review of the facts and the applicable procedural framework.'}
             </h3>
 
             <p
@@ -190,8 +190,8 @@ export default async function ServicesPenal({ params }: Props) {
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
               {isEs
-                ? 'Mac Consultores Jurídicos & Asociados acompaña a empresas, directivos y accionistas ante investigaciones y procesos penales que requieren una respuesta jurídica especializada.'
-                : 'Mac Consultores Jurídicos & Asociados advises companies, executives, and shareholders in criminal investigations and proceedings requiring specialized legal representation.'}
+                ? 'MAC Consultores Jurídicos & Asociados asesora a empresas, directivos, accionistas y personas naturales en investigaciones y procesos penales, de acuerdo con las circunstancias y necesidades de cada asunto.'
+                : 'MAC Consultores Jurídicos & Asociados advises companies, executives, shareholders, and individuals in criminal investigations and proceedings, based on the circumstances and needs of each matter.'}
             </p>
 
             <div

@@ -336,56 +336,56 @@
   },
   "services": {
     "card_1": {
-      "title": "Criminal and Procedural Criminal Law",
-      "desc": "We assume comprehensive technical criminal defense across complex legal proceedings, economic criminality, and corporate offenses. We design rigorous forensic strategies grounded in strict procedural guarantee enforcement, safeguarding personal liberty, due process, and fundamental client rights before investigative bodies and competent judicial tribunals through unyielding evidentiary analysis and robust appellate advocacy across every procedural stage.",
+      "title": "Criminal law and criminal procedure",
+      "desc": "Advice and defense in criminal investigations, proceedings, and litigation. The firm reviews the facts, available information, applicable safeguards, and actions that may be required at each stage.",
       "link": "VIEW DETAILS →"
     },
     "card_2": {
-      "title": "Constitutional Law",
-      "desc": "We exercise the direct defense of fundamental rights through constitutional amparo actions, habeas corpus, habeas data, and judicial interpretation remedies. We safeguard constitutional supremacy and procedural due process across complex controversies, structuring strict legal arguments to restore infringed legal guarantees and secure effective judicial protection before the Supreme Tribunal Constitutional Chamber and supervisory courts.",
+      "title": "Constitutional law",
+      "desc": "Analysis of matters involving constitutional rights and safeguards, due process, and available forms of protection. The firm assesses the suitability of available actions based on the facts and the applicable legal framework.",
       "link": "VIEW DETAILS →"
     },
     "card_3": {
-      "title": "Cybercrimes and Digital Evidence",
-      "desc": "We provide specialized legal counsel addressing technological incidents, electronic fraud, system breaches, and cybercrimes. We evaluate digital evidence with strict procedural and computer forensic rigor, coordinating immediate legal responses, evidence audits, and criminal litigation strategies designed to safeguard information assets, corporate data privacy, and protect against institutional and personal reputational or financial exposures.",
+      "title": "Cybercrime and digital evidence",
+      "desc": "Advice on technological incidents, electronic fraud, unauthorized system access, and digital evidence. The work includes reviewing technical information, legal risks, and applicable response measures.",
       "link": "VIEW DETAILS →"
     },
     "card_4": {
-      "title": "Preventive Legal Consulting",
-      "desc": "We design strategic legal frameworks and corporate criminal compliance programs aimed at identifying and mitigating operational and legal risks before disputes arise. We advise corporate boards, businesses, and individuals on critical decision-making, governance policies, and preventive contractual structuring to avoid regulatory sanctions, judicial contingencies, and criminal liability exposure for companies and their directors.",
+      "title": "Preventive legal consulting",
+      "desc": "Assessment of legal risks, compliance structures, and internal processes for companies and executives. The firm advises on decisions, documentation, controls, and preventive measures.",
       "link": "VIEW DETAILS →"
     },
     "penal": {
-      "breadcrumb": "Services / Criminal and Procedural Criminal Law",
-      "h1": "Criminal and Procedural Criminal Law",
-      "subtitle": "Comprehensive technical defense in high-complexity proceedings, economic criminality, and financial crimes.",
-      "intro_p_1": "We assume comprehensive technical defense in high-complexity proceedings, economic criminality, and financial crimes. We focus on the control of procedural guarantees and the design of robust litigation strategies, aimed at preserving the rights and interests of the client throughout all stages of the criminal proceeding.",
-      "intro_p_2": "Criminal and procedural criminal defense requires understanding the facts, identifying criminal-law risks, evaluating evidentiary elements, and establishing a strategy that protects the client’s rights and interests at every stage of the criminal process.",
+      "breadcrumb": "Services / Criminal law and criminal procedure",
+      "h1": "Criminal law and criminal procedure",
+      "subtitle": "Advice and defense in criminal investigations, proceedings, and litigation.",
+      "intro_p_1": "The firm advises and represents individuals, executives, and companies in criminal-law and criminal-procedure matters. The assessment begins with the facts, available information, applicable safeguards, and the actions that may be required.",
+      "intro_p_2": "Each matter requires a review of criminal-law risks, the available elements, and the stage of the proceedings. Based on that review, the available options and the strategy that may be appropriate are assessed.",
       "areas": {
-        "tag": "Areas of intervention",
+        "tag": "AREAS OF INTERVENTION",
         "title": "Criminal practice areas",
-        "intro": "Our intervention is structured across four complementary areas, whose specific relevance depends on the facts, the stage of the investigation, and the applicable legal framework.",
+        "intro": "The engagement may involve different areas, depending on the facts, the stage of the investigation, and the applicable legal framework.",
         "defense": {
-          "title": "Defense against criminal charges",
-          "desc": "We intervene from the earliest investigative acts through the later stages of the process, paying particular attention to due process, the right to defense, the presumption of innocence, effective judicial protection, and other applicable constitutional and procedural guarantees."
+          "title": "Defense in criminal investigations and charges",
+          "desc": "Advice and representation in investigative actions and criminal proceedings. The work includes reviewing the facts, the actions taken, the applicable safeguards, and the procedural options available."
         },
         "appeals": {
-          "title": "Cassation and Appeal Remedies",
-          "desc": "We assess the availability of appeal mechanisms, analyzing the acts carried out by investigative and judicial bodies, the evaluation of evidence, and the reasoning of decisions, in order to exercise the appropriate remedies to preserve the client’s rights."
+          "title": "Appeals and cassation",
+          "desc": "Assessment of decisions, actions, and reasoning that may be subject to challenge. The availability of each remedy is reviewed according to the challenged act, the procedural stage, and the applicable rules."
         },
         "corporate": {
-          "title": "Corporate Criminal Liability",
-          "desc": "We pay special attention to matters related to economic and business criminality, property and financial crimes, money laundering, and criminal liability linked to corporate activity."
+          "title": "Economic and corporate crime",
+          "desc": "Advice on matters connected with business activity, property or financial offenses, and criminal liability associated with corporate decisions or operations."
         },
         "laundering": {
-          "title": "Money Laundering",
-          "desc": "We act in the defense against investigations and accusations arising from operations that may compromise the criminal liability of individuals, entrepreneurs, administrators, or corporate structures, evaluating possible liability scenarios and available legal-procedural alternatives."
+          "title": "Money laundering",
+          "desc": "Analysis and representation in investigations or proceedings involving operations that may give rise to criminal-law risks for individuals, executives, or corporate structures."
         }
       },
       "value": {
-        "title": "Comprehensive criminal-law strategy",
-        "p_1": "Criminal and procedural criminal defense must be developed as a single, coherent strategy. The legal assessment of the facts cannot be separated from the way in which they are investigated, proven, and submitted for judicial consideration.",
-        "p_2": "Each matter is subject to individualized analysis aimed at identifying legally relevant facts, determining possible liability scenarios, evaluating available evidence, identifying risks and procedural violations, and designing a coherent and legally grounded defense strategy."
+        "title": "Criminal-law analysis and strategy",
+        "p_1": "An assessment of a criminal matter requires consideration of both the facts and the way in which the available elements are obtained, documented, and presented during the proceedings.",
+        "p_2": "The firm reviews legally relevant facts, potential liability scenarios, available information, and procedural actions that may be appropriate in the circumstances."
       },
       "notice": "This content is provided for general informational purposes and does not replace a legal assessment of a specific case. The defense strategy and procedural actions must be defined according to the facts, the jurisdiction, and the relevant procedural stage.",
       "cta": {
@@ -395,48 +395,48 @@
       }
     },
     "constitucional": {
-      "breadcrumb": "Services / Constitutional Law",
-      "h1": "Constitutional Law",
-      "subtitle": "Legal protection of fundamental rights, constitutional guarantees and effective judicial protection.",
-      "intro_p_1": "The protection of fundamental rights requires a timely legal response when an act by a public authority or private party threatens, restricts or infringes guarantees recognised by the Constitution and international human rights instruments.",
-      "intro_p_2": "At Mac Consultores Jurídicos & Asociados, we provide legal advice and representation in constitutional matters, focused on the effective protection of fundamental rights, the defence of constitutional guarantees and the legal review of actions that may affect our clients’ liberty, integrity, due process, effective judicial protection or legal certainty.",
+      "breadcrumb": "Services / Constitutional law",
+      "h1": "Constitutional law",
+      "subtitle": "Analysis of constitutional rights, safeguards, and legal remedies applicable to specific matters.",
+      "intro_p_1": "The firm advises on matters involving constitutional rights and safeguards where an act, omission, or decision may affect legally significant interests of individuals, companies, or organizations.",
+      "intro_p_2": "The assessment considers the facts, the right involved, the available background information, and the legal avenues that may be applicable. Representation and procedural actions are defined according to the circumstances of each matter.",
       "areas": {
-        "tag": "Areas of practice",
-        "title": "Constitutional protection and fundamental guarantees",
-        "intro": "Every constitutional dispute requires identifying the right or guarantee involved, determining the act, omission or conduct causing the impact, and assessing the appropriate legal mechanism to seek protection.",
+        "tag": "AREAS OF INTERVENTION",
+        "title": "Constitutional rights, safeguards, and legal remedies",
+        "intro": "Each matter requires identifying the right or safeguard involved, the challenged action, and the legal mechanisms that may be relevant.",
         "rights": {
-          "title": "Protection of fundamental rights",
-          "desc": "We analyse matters involving illegitimate restrictions of fundamental rights, arbitrary actions, due-process violations, impairment of effective judicial protection and breaches of constitutional guarantees. Legal strategy is structured according to the particular circumstances of each matter and the nature of the affected right."
+          "title": "Constitutional rights and safeguards",
+          "desc": "Analysis of matters that may affect fundamental rights, due process, access to justice, legal certainty, or other constitutional safeguards, according to the circumstances of the case."
         },
         "amparo": {
-          "title": "Constitutional amparo action",
-          "desc": "We advise on the assessment and preparation of actions intended to obtain protection against infringements or threats to constitutional rights and guarantees. The analysis includes identifying the affected right, the conduct giving rise to the infringement, standing and the legal requirements relevant to determining the availability of constitutional protection."
+          "title": "Constitutional amparo",
+          "desc": "Assessment of the availability of constitutional amparo actions in response to threats or violations of constitutional rights and safeguards. The analysis considers the right invoked, the facts, standing, and the availability of other judicial remedies."
         },
         "habeas": {
-          "title": "Habeas corpus and habeas data",
-          "desc": "We advise on constitutional mechanisms related to personal liberty and information protection. In habeas corpus matters, our work is focused on protecting personal liberty and security against deprivations or restrictions contrary to the legal system. In habeas data matters, we analyse issues involving access to, knowledge of, updating, rectification or protection of personal information."
+          "title": "Personal liberty and personal information",
+          "desc": "Advice on matters involving personal liberty and security, as well as access to, updating, rectification, or protection of personal information. Each mechanism is assessed according to its purpose and the applicable requirements."
         },
         "due_process": {
-          "title": "Due process and effective judicial protection",
-          "desc": "We analyse potential violations involving the right to defence, the natural judge, presumption of innocence, reasoned decisions, the right to appeal, access to justice and other due-process guarantees. Effective judicial protection requires that access to courts allow for a legally reasoned response within proceedings that respect constitutional guarantees."
+          "title": "Due process and access to justice",
+          "desc": "Review of actions that may affect the right to defense, the right to a lawful judge, reasoned decisions, the right to appeal, or access to the courts."
         },
         "review": {
-          "title": "Constitutionality and conventionality review",
-          "desc": "We conduct legal analyses concerning the compatibility of acts, decisions or rules with the Constitution and with obligations arising from international human rights instruments, taking into account the principles and guarantees recognised by the constitutional framework and the Inter-American human rights protection system."
+          "title": "Constitutional analysis and human rights",
+          "desc": "Analysis of the relationship between actions, decisions, or rules and the constitutional framework, as well as human-rights standards that may be relevant to the matter."
         },
         "consulting": {
           "title": "Constitutional advice and interpretation",
-          "desc": "We provide specialised advice when an individual, company or organisation needs to determine the constitutional scope of a rule, administrative action, judicial decision or specific legal situation. The service includes analysis of the applicable constitutional provisions, their relationship with the broader legal system and the available protection or action mechanisms."
+          "desc": "Advice on the constitutional scope of rules, administrative actions, judicial decisions, or specific legal situations, and on the legal options that may be available."
         },
         "strategy": {
-          "title": "Constitutional strategy",
-          "desc": "Our work combines constitutional analysis, assessment of guarantees, review of available background information and the design of a legal strategy aimed at seeking effective protection of fundamental rights, taking account of the particular circumstances of each matter."
+          "title": "Constitutional procedural strategy",
+          "desc": "Preparation of constitutional strategies and procedural actions based on the facts, available background information, rights involved, and the applicable legal framework."
         }
       },
       "value": {
-        "title": "Specialised legal response",
-        "p_1": "Every constitutional dispute requires a precise determination of the right involved, the conduct causing the impact and the appropriate legal mechanism to seek its protection.",
-        "p_2": "Our objective is to provide a specialised legal response to constitutional infringements, strengthening the protection of our clients’ rights, guarantees and legal certainty."
+        "title": "Constitutional-law analysis",
+        "p_1": "A constitutional matter requires identifying the right involved, the action that may affect it, and the legal mechanisms that may apply in the circumstances.",
+        "p_2": "MAC Consultores Jurídicos & Asociados assesses the applicable legal framework and supports the preparation of procedural actions and strategies according to the circumstances of each matter."
       },
       "notice": "The assessment of each matter depends on its particular circumstances, the available background information and the applicable legal mechanisms.",
       "cta": {
@@ -452,59 +452,59 @@
     "btn": "START ADMISSION PROCESS"
   },
   "tramites_consulares": {
-    "title": "Venezuelans Abroad | Mac Consultores Jurídicos & Asociados",
-    "breadcrumb": "LOCAL COUNSEL · CROSS-BORDER PRACTICE",
-    "h1": "Local Counsel and Legal Representation in Venezuela",
-    "subtitle": "Rigorous legal judgment, procedural leadership, and local legal support for corporations, international law firms, and clients with interests in the country.",
-    "intro_p": "In a complex jurisdictional landscape, strategic decisions require specialized legal judgment, local institutional insight, and strict professional discretion. At Mac Consultores Jurídicos & Asociados, we act as Local Counsel for foreign law firms and assist multinational corporations, investors, and non-resident clients requiring skilled technical defense, court representation, and cross-border coordination in Venezuela, delivering rigorous analysis and procedural guidance without requiring unnecessary travel.",
-    "cta_primary": "ASSESS YOUR MATTER WITH LOCAL COUNSEL",
-    "cta_secondary": "EXPLORE PRACTICE AREAS",
+    "title": "Legal Services for Clients Abroad | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "CLIENTS ABROAD / LOCAL LEGAL SERVICES IN VENEZUELA",
+    "h1": "Legal services for clients abroad",
+    "subtitle": "Local legal advice and coordination for individuals, companies, and investors with matters connected to Venezuela.",
+    "intro_p": "Individuals, companies, and investors outside Venezuela may require local legal support to address documentation, powers of attorney, contracts, property matters, or proceedings before authorities and courts. MAC Consultores Jurídicos & Asociados advises and coordinates legal matters connected to Venezuela based on the facts, available documentation, the scope of engagement, and applicable legal rules.",
+    "cta_primary": "EVALUATE MATTER WITH THE FIRM",
+    "cta_secondary": "VIEW SERVICES",
     "bloque_1": {
-      "tag": "CORPORATE PRACTICE",
-      "title": "Local Counsel & Cross-Border Practice",
-      "subtitle": "Specialized legal support in Venezuela for global enterprises and law firms.",
-      "intro": "We coordinate with corporate boards, in-house counsel, and international law firms to deliver formal legal opinions, structure cross-border transactions, and manage litigation before Venezuelan judicial and regulatory authorities.",
+      "tag": "LEGAL MATTERS CONNECTED TO VENEZUELA",
+      "title": "Local representation and coordination",
+      "subtitle": "Legal support for clients outside the country with corporate, contractual, or procedural matters in Venezuela.",
+      "intro": "The firm assists in preparing and coordinating legal actions that may require local representation or document review in Venezuela.",
       "card_1": {
         "tag": "01",
-        "title": "Local Counsel for Foreign Law Firms",
-        "desc": "We act as local co-counsel and strategic correspondents in Venezuela for international law firms and corporate legal departments. We issue independent legal opinions, assess regulatory exposures, and articulate court defense in direct coordination with foreign lead counsel.",
+        "title": "Legal representation in Venezuela",
+        "desc": "Advice and representation in matters that may require appearances before Venezuelan authorities, courts, or other institutions, depending on the nature of the case.",
         "link": "VIEW DETAILS →"
       },
       "card_2": {
         "tag": "02",
-        "title": "Cross-Border Contracts & Compliance",
-        "desc": "We structure, audit, and negotiate cross-border commercial contracts executed in Venezuela. We evaluate governing law, appropriate jurisdiction, and dispute resolution clauses, mitigating legal and financial exposure against unexpected regulatory shifts and local operational contingencies.",
+        "title": "Contracts and cross-border matters",
+        "desc": "Review and preparation of documents, agreements, and contractual relationships connected to Venezuela, considering applicable rules and the parties' interests.",
         "link": "VIEW DETAILS →"
       },
       "card_3": {
         "tag": "03",
-        "title": "Court Litigation & Judicial Defense in Venezuela",
-        "desc": "We provide technical advocacy and procedural direction across civil, commercial, and corporate disputes before Venezuelan trial and appellate courts. We conduct litigation with evidentiary rigor, remote case tracking, and transparent reporting under strict confidentiality standards.",
+        "title": "Property and corporate matters",
+        "desc": "Analysis of matters related to assets, investments, entities, or legal relationships requiring local coordination in Venezuela.",
         "link": "VIEW DETAILS →"
       }
     },
     "bloque_2": {
-      "tag": "PRIVATE CLIENT & ASSETS",
-      "title": "Notarial Instruments & Asset Representation",
-      "subtitle": "Technical precision in legal mandates and asset governance for non-residents.",
-      "intro": "We assist private clients and family offices in the legal structuring and disposition of assets in Venezuela, drafting strict powers of attorney and facilitating the formal validity and effectiveness of instruments executed before foreign notaries and consular offices.",
+      "tag": "DOCUMENTATION AND POWERS OF ATTORNEY",
+      "title": "Documents and representation from abroad",
+      "subtitle": "Review of powers of attorney, documents, and formalities applicable to their use in Venezuela.",
+      "intro": "Preparing documents executed outside the country may require reviewing their content, formalities, language, and authentication mechanisms before presentation to Venezuelan authorities.",
       "card_1": {
         "tag": "04",
-        "title": "Strategic Powers of Attorney & Mandates",
-        "desc": "We structure and review powers of attorney with meticulous delimitation of judicial, administrative, and asset-disposition powers. We seek formal regularity and help prevent registry defects in instruments granted before foreign notaries or consular missions abroad.",
+        "title": "Powers of attorney and mandates",
+        "desc": "Review and preparation of powers of attorney for judicial, administrative, corporate, or property matters, tailored to the authorities required in each matter.",
         "link": "VIEW DETAILS →"
       },
       "card_2": {
         "tag": "05",
-        "title": "Cross-Border Document Authentication",
-        "desc": "We coordinate evidentiary review, legalization, and Hague Apostille processing for corporate and private documents intended to take legal effect in Venezuela or abroad, helping support their admissibility in judicial and administrative proceedings.",
+        "title": "Documents executed abroad",
+        "desc": "Review of documents, legalizations, apostilles, and translations when required for use before authorities or institutions in Venezuela.",
         "link": "VIEW DETAILS →"
       }
     },
     "cierre": {
       "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
-      "quote": "“Cross-border legal coordination demands technical rigor, local legal insight, and a precise understanding of Venezuela’s institutional framework.”",
-      "desc": "We evaluate corporate, procedural, and asset matters connected to Venezuela to determine their legal viability and structure a tailored domestic strategy.",
+      "quote": "Legal coordination from abroad begins with reviewing the facts, documents, and applicable framework.",
+      "desc": "MAC Consultores Jurídicos & Asociados advises individuals, companies, and investors with matters connected to Venezuela that require legal analysis, documentation, coordination, or representation.",
       "btn_primary": "EVALUATE MATTER WITH THE FIRM",
       "btn_secondary": "← BACK TO HOME"
     },
@@ -561,34 +561,34 @@
     }
   },
   "colaboracion_internacional": {
-    "breadcrumb": "B2B International Alliances",
-    "h1": "Local Counsel for Venezuela",
-    "title": "A dedicated local legal platform for international law firms and corporate legal departments.",
+    "breadcrumb": "INTERNATIONAL LEGAL ALLIANCES",
+    "h1": "International legal cooperation and local counsel in Venezuela",
+    "title": "Local legal support for international law firms and legal departments with matters connected with Venezuela.",
     "intro": {
-      "tag": "COOPERATE WITHOUT COMPETING",
-      "title": "Strategic local partners for global law firms.",
-      "p1": "In a cross-border legal environment, global law firms require a reliable local partner capable of navigating Venezuelan law with institutional insight and effective on-the-ground execution.",
-      "p2": "We act as your local legal support structure: your firm retains strategic client leadership while we deliver specialized Venezuelan legal counsel under rigorous confidentiality and clearly defined scopes."
+      "tag": "B2B COLLABORATION",
+      "title": "Local support for cross-border matters",
+      "p1": "International law firms and legal departments may require analysis, coordination, or local assistance in matters connected with Venezuela. The firm provides knowledge of the Venezuelan legal framework and support according to the scope defined for each engagement.",
+      "p2": "Collaboration is organized with attention to confidentiality, allocation of functions, and coordination with the principal legal team. The scope of work is defined according to the needs of the matter and the instructions received."
     },
     "proposal": {
       "tag": "COLLABORATION FRAMEWORK",
-      "title": "Local Legal Counsel for Cross-Border Matters",
+      "title": "Local legal support for cross-border matters",
       "card_1": {
         "tag": "01",
-        "title": "Local Counsel for Venezuela",
-        "desc": "We serve as strategic local counsel for international law firms and corporations with interests in Venezuela. We deliver rigorous regulatory analysis, specialized legal research, and litigation support, ensuring technical solvency and precise scope delimitation without altering client relationships.",
+        "title": "Local counsel in Venezuela",
+        "desc": "Local legal support for international law firms requiring analysis, coordination, or assistance in matters governed by Venezuelan law.",
         "link": "VIEW DETAILS →"
       },
       "card_2": {
         "tag": "02",
-        "title": "Areas of Legal Cooperation",
-        "desc": "We provide tailored legal capabilities for complex cross-border matters: issuing expert legal opinions, due diligence audits, corporate criminal risk assessments, and strategic documentary coordination. We support international legal teams with in-depth jurisprudential analysis across the Venezuelan jurisdiction.",
+        "title": "Areas of legal cooperation",
+        "desc": "Collaboration in regulatory analysis, document review, legal opinions, research on applicable criteria, and support in matters connected with Venezuela.",
         "link": "VIEW DETAILS →"
       },
       "card_3": {
         "tag": "03",
-        "title": "B2B Partnership Model",
-        "desc": "We structure a professional partnership framework grounded in confidentiality, non-interference, and technical independence. Your firm retains international client direction, while we provide the strategic on-the-ground support required to execute complex operations with strict regulatory rigor and legal certainty.",
+        "title": "B2B collaboration model",
+        "desc": "Collaboration is organized through a defined scope of work, coordination channels, and confidentiality arrangements suited to the engagement.",
         "link": "VIEW DETAILS →"
       }
     },
@@ -701,50 +701,54 @@
   },
   "empresas_extranjeras": {
     "seo": {
-      "title": "Legal Services for Foreign Companies in Venezuela | Mac Consultores Jurídicos",
-      "description": "Direct legal advisory, corporate risk assessments, formal legal opinions, and domestic representation in Venezuela for foreign corporations, legal departments, and international investors.",
-      "og_title": "Legal Services for Foreign Companies in Venezuela | Mac Consultores Jurídicos",
-      "og_description": "Direct legal advisory, corporate risk assessments, formal legal opinions, and domestic representation in Venezuela for foreign corporations, legal departments, and international investors."
+      "title": "Legal services for foreign companies in Venezuela | Mac Consultores Jurídicos",
+      "description": "Local legal advice on corporate, regulatory, documentary, and procedural matters for foreign companies with interests in Venezuela.",
+      "og_title": "Legal services for foreign companies in Venezuela | Mac Consultores Jurídicos",
+      "og_description": "Local legal advice on corporate, regulatory, documentary, and procedural matters for foreign companies with interests in Venezuela."
     },
-    "breadcrumb": "INTERNATIONAL PRACTICE / CORPORATE SERVICES IN VENEZUELA",
-    "h1": "Legal Services for Foreign Companies in Venezuela",
-    "subtitle": "Local legal capacity to assess corporate criminal risks, validate cross-border documentation, issue formal legal opinions, and represent foreign companies in Venezuela.",
+    "breadcrumb": "INTERNATIONAL PRACTICE / SERVICES FOR COMPANIES IN VENEZUELA",
+    "h1": "Legal services for foreign companies in Venezuela",
+    "subtitle": "Local legal advice for foreign companies with operations, investments, or legal interests in Venezuela.",
     "section_1": {
-      "title": "1. Local Legal Capacity for Global Transactions",
-      "p1": "The growing complexity of cross-border transactions demands concurrent knowledge across multiple jurisdictions. When an international corporation or overseas client holds assets, investments, contracts, representatives, or legal liabilities connected with Venezuela, local counsel intervention is essential to execute matters governed by Venezuelan law.",
-      "p2": "Our practice provides the essential domestic technical capacity to analyze, audit, and execute legal proceedings in Venezuelan territory, coordinating directly with corporate directors, internal legal departments, or designated counsel of the parent company."
+      "title": "1. Local advice for operations connected with Venezuela",
+      "p1": "Foreign companies with assets, investments, contracts, representatives, or operations connected with Venezuela may require an assessment of the local legal framework. The firm advises on identifying relevant issues and reviewing the options available in each matter.",
+      "p2": "The work may include coordination with executives, in-house legal departments, and operational teams, according to the scope defined for each engagement."
     },
     "section_2": {
-      "title": "2. Legal Certainty and Operational Execution in Venezuela",
-      "p1": "We structure each engagement under strict standards of confidentiality, technical rigor, and precise professional scope. This enables foreign corporations and investors to rely on solid legal footing in the country, mitigating operational liabilities and ensuring strategic decisions fully align with the Venezuelan legal framework.",
-      "p2": "We assist in corporate criminal risk audits, regulatory inquiries, formal legal opinions, corporate due diligence, and cross-border document authentication destined to produce legal effects in Venezuela or overseas."
+      "title": "2. Legal review and local coordination",
+      "p1": "Each engagement is carried out with attention to the scope of the request, available information, and applicable rules. The firm supports the review of risks, documents, decisions, and actions that may require analysis under Venezuelan law.",
+      "p2": "The advice may include corporate-risk analysis, regulatory matters, document review, legal due diligence, legal opinions, and preparation of actions connected with business operations or interests in Venezuela."
     },
     "section_3": {
-      "title": "3. Cross-Border Practice Scenarios",
-      "intro": "Our forensic practice and corporate advisory address specific requirements across the following practice areas:",
+      "title": "3. Areas of support for foreign companies",
+      "intro": "Depending on the matter and the company’s needs, the advice may include the following areas:",
       "items": [
         {
-          "label": "Corporate Criminal Risk & Compliance:",
-          "desc": "Technical risk assessment regarding criminal liabilities of local subsidiaries, partners, or executives in Venezuela."
+          "title": "Corporate risk and compliance",
+          "label": "Corporate risk and compliance",
+          "desc": "Review of legal risks connected with operations, internal controls, and corporate responsibilities."
         },
         {
-          "label": "Cross-Border Documentation & Powers:",
-          "desc": "Authentication, consular legalization, Hague apostilles, and procedural validation of foreign powers of attorney."
+          "title": "Documentation and representation",
+          "label": "Documentation and representation",
+          "desc": "Review of documents, powers of attorney, and formalities applicable to their use before Venezuelan authorities."
         },
         {
-          "label": "Procedural Advocacy & Domestic Coordination:",
-          "desc": "Direct representation before courts, appellate jurisdictions, and regulatory bodies defending international interests."
+          "title": "Regulatory and procedural matters",
+          "label": "Regulatory and procedural matters",
+          "desc": "Support in preparing actions before administrative or judicial authorities, where appropriate."
         },
         {
-          "label": "Doctrinal Reports & Formal Legal Opinions:",
-          "desc": "Issuance of authoritative legal opinions for international arbitrations or foreign courts interpreting Venezuelan law."
+          "title": "Venezuelan-law opinions",
+          "label": "Venezuelan-law opinions",
+          "desc": "Preparation of legal analyses and opinions on rules, operations, or matters connected with Venezuela."
         }
       ]
     },
     "cta": {
-      "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
-      "title": "Technical support and professional advocacy for your operations in Venezuela.",
-      "desc": "We assist corporate directors, general counsel, and multinational groups requiring technical certainty and reliable procedural execution in Venezuela.",
+      "tag": "CORPORATE SERVICES IN VENEZUELA",
+      "title": "Cross-border operations require an understanding of the legal framework applicable in each jurisdiction.",
+      "desc": "MAC Consultores Jurídicos & Asociados advises foreign companies, their executives, and in-house legal teams on corporate, regulatory, documentary, and procedural matters connected with Venezuela.",
       "btn_contact": "SUBMIT CORPORATE INQUIRY",
       "btn_back": "← BACK TO SERVICES"
     }
@@ -778,10 +782,10 @@
       "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
     },
     "tramites_consulares": {
-      "title": "Venezuelans Abroad | Mac Consultores Jurídicos & Asociados",
-      "description": null,
-      "og_title": "Venezuelans Abroad | Mac Consultores Jurídicos & Asociados",
-      "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
+      "title": "Legal services for clients abroad | Mac Consultores Jurídicos",
+      "description": "Local legal advice and coordination for clients abroad with documents, powers of attorney, property, and matters related to Venezuela.",
+      "og_title": "Legal services for clients abroad | Mac Consultores Jurídicos",
+      "og_description": "Local legal advice and coordination for clients abroad with documents, powers of attorney, property, and matters related to Venezuela."
     },
     "index": {
       "title": "Mac Legal Consultants & Associates | Legal Excellence",
@@ -820,10 +824,10 @@
       "og_description": "Criminal Law, Constitutional Law, Extraditions, and preventive Corporate Compliance."
     },
     "colaboracion_internacional": {
-      "title": "International Collaboration | Mac Consultores Jurídicos & Asociados",
-      "description": null,
-      "og_title": "International Collaboration | Mac Consultores Jurídicos & Asociados",
-      "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
+      "title": "International legal cooperation and local counsel in Venezuela | Mac Consultores Jurídicos",
+      "description": "Local legal support for international law firms and legal departments with matters connected with Venezuela.",
+      "og_title": "International legal cooperation and local counsel in Venezuela | Mac Consultores Jurídicos",
+      "og_description": "Local legal support for international law firms and legal departments with matters connected with Venezuela."
     },
     "nuestro_ceo": {
       "title": "Our CEO | Mac Consultores Jurídicos & Asociados",
@@ -1509,44 +1513,44 @@
     }
   },
   "delitos_informaticos": {
-    "breadcrumb": "Services / Cybercrimes and Digital Evidence",
-    "h1": "Cybercrimes and Digital Evidence",
-    "subtitle": "Legal advice and defence in matters of cybercrimes, electronic fraud and the use of digital evidence.",
-    "intro_p_1": "Digital transformation has generated new forms of criminality and, at the same time, has made electronic information an increasingly relevant element for investigation and defence in judicial proceedings.",
-    "intro_p_2": "At Mac Consultores Jurídicos & Asociados, we provide legal advice and defence in situations related to cybercrimes, electronic fraud, impacts on systems and data, privacy and the use of digital evidence, integrating legal analysis of the conduct with the assessment of the technological elements involved.",
+    "breadcrumb": "Services / Cybercrime and digital evidence",
+    "h1": "Cybercrime and digital evidence",
+    "subtitle": "Legal advice on technological incidents, electronic fraud, and the use of digital evidence.",
+    "intro_p_1": "Digital transformation has expanded the ways in which incidents, disputes, and investigations with potential criminal-law relevance may arise. It has also increased the importance of electronic information in legal proceedings.",
+    "intro_p_2": "MAC Consultores Jurídicos & Asociados advises individuals and organizations on matters involving cybercrime, electronic fraud, systems, data, privacy, and digital evidence. The legal assessment considers both the facts and the available technological elements.",
     "areas": {
-      "tag": "Areas of intervention",
-      "title": "Cybercrimes and digital evidence",
-      "intro": "Our intervention is structured across five complementary areas, whose specific relevance depends on the facts, the stage of the investigation and the applicable legal framework.",
+      "tag": "AREAS OF INTERVENTION",
+      "title": "Cybercrime and digital evidence",
+      "intro": "The engagement may involve different areas, depending on the facts, available information, and the applicable legal framework.",
       "cybercrimes": {
-        "title": "Cybercrimes",
-        "desc": "We advise and exercise defence in investigations related to conduct allegedly committed through computer systems, electronic devices, communication networks or digital platforms. The analysis includes determining the possible criminal relevance of the facts, identifying the attributed conduct and evaluating the circumstances in which they occurred."
+        "title": "Cybercrime",
+        "desc": "Advice and defense in investigations involving conduct allegedly carried out through systems, devices, networks, or digital platforms. The analysis reviews the alleged facts, their potential criminal-law relevance, and the circumstances of the matter."
       },
       "fraud": {
-        "title": "Electronic fraud and digital contingencies",
-        "desc": "Operations carried out through digital platforms may generate situations of special complexity when there are unauthorised transfers, identity theft, manipulation of information, improper use of credentials or fraudulent mechanisms. We legally analyse the development of the operation, the communications made, the available records and other relevant elements to determine possible liabilities and the appropriate legal actions."
+        "title": "Electronic fraud and digital incidents",
+        "desc": "Analysis of matters that may involve unauthorized transfers, identity impersonation, misuse of credentials, manipulation of information, or other digital operations. The assessment considers communications, records, and other available elements."
       },
       "evidence": {
         "title": "Digital evidence",
-        "desc": "Digital evidence may be decisive in establishing the existence of a fact, reconstructing a sequence of events or supporting a particular hypothesis within an investigation. We legally analyse elements such as electronic communications, emails, messaging and digital conversations, electronic files and documents, transaction records, information contained on devices, data associated with digital activities and electronic logs and traces."
+        "desc": "Legal review of electronic communications, emails, files, transaction records, device data, and other digital elements that may be relevant in an investigation or proceeding."
       },
       "integrity": {
-        "title": "Integrity and assessment of evidence",
-        "desc": "In matters of digital evidence, it is fundamental to examine the conditions under which an element was obtained, preserved and presented. Legal strategy may require questioning the authenticity, integrity, origin, method of obtaining or incorporation of certain digital elements, particularly when there are circumstances that may affect their probative value or the legitimacy of their use within a proceeding."
+        "title": "Integrity and use of evidence",
+        "desc": "Analysis of the conditions under which digital elements were obtained, preserved, and incorporated into the proceedings. The review may consider authenticity, origin, integrity, method of collection, and probative value."
       },
       "privacy": {
-        "title": "Privacy and data protection",
-        "desc": "The use of personal and business information in digital environments raises important legal issues related to privacy and data protection. We advise on situations where there may be unauthorised access, use, disclosure, processing or circulation of information, evaluating the legal consequences that may arise from the facts and the measures available to protect affected rights."
+        "title": "Privacy and personal information",
+        "desc": "Advice on matters involving access to, use, disclosure, or processing of personal or business information in digital environments. The assessment considers the facts, legal consequences, and available options."
       },
       "strategy": {
-        "title": "Defence and legal strategy",
-        "desc": "A technology-related dispute requires simultaneously understanding the digital fact and its legal relevance. Therefore, our intervention begins with an analysis of the circumstances of the case, identifies the relevant digital elements and determines their impact within the corresponding legal strategy. The action may include initial assessment of the contingency, identification of possible liabilities, legal analysis of digital evidence, assessment of the legality of its obtaining and incorporation, advice on investigations, design of defence strategy and protection of rights related to privacy and information."
+        "title": "Legal strategy in technology-related matters",
+        "desc": "Preparation of legal strategies based on the facts, available digital elements, potential risks, and actions that may be relevant in investigations, proceedings, or disputes."
       }
     },
     "value": {
-      "title": "A legal response to digital criminality",
-      "p_1": "Technological incidents can produce criminal, financial and reputational consequences that require a specialised response. Proper identification of the facts and preservation of relevant elements are essential to determine available legal actions.",
-      "p_2": "At Mac Consultores Jurídicos & Asociados, we address these contingencies from an integral legal perspective, ensuring that technological complexity does not become a barrier to the adequate protection of our clients' rights and interests."
+      "title": "Legal analysis of technological incidents",
+      "p_1": "Technological incidents may raise criminal, property, contractual, or reputational issues. Identifying the facts and reviewing the information available helps define the legal options that may apply.",
+      "p_2": "The firm combines legal analysis with review of relevant technological elements and, where appropriate, coordinates work with independent technical specialists."
     },
     "notice": "This content is provided for general informational purposes and does not replace a legal assessment of a specific case. The defence strategy and procedural actions must be defined according to the facts, the jurisdiction and the relevant procedural stage.",
     "cta": {
@@ -1556,48 +1560,48 @@
     }
   },
   "consultoria_preventiva": {
-    "breadcrumb": "Services / Preventive Legal Consulting",
-    "h1": "Preventive Legal Consulting",
-    "subtitle": "Identification, assessment and management of legal risks before they become conflicts or liabilities.",
-    "intro_p_1": "Legal prevention makes it possible to identify risks before they become conflicts, sanctions, liabilities or judicial proceedings. A business or professional decision may produce legal consequences that, when not assessed in a timely manner, can generate considerably higher economic, operational and reputational costs.",
-    "intro_p_2": "At Mac Consultores Jurídicos & Asociados, we offer preventive legal consulting focused on identifying, assessing and managing legal risks, accompanying companies, entrepreneurs, administrators and individuals in decision-making that may have relevant legal consequences.",
+    "breadcrumb": "Services / Preventive legal consulting",
+    "h1": "Preventive legal consulting",
+    "subtitle": "Identification, assessment, and management of legal risks in decisions and operations.",
+    "intro_p_1": "Preventive review helps identify legal issues before decisions are made, operations are carried out, or contractual relationships are formalized. This assessment can help clarify the obligations, restrictions, and risks associated with each matter.",
+    "intro_p_2": "MAC Consultores Jurídicos & Asociados advises companies, executives, and individuals on identifying and assessing legal risks, as well as reviewing measures, documents, and internal processes.",
     "areas": {
-      "tag": "Areas of intervention",
+      "tag": "AREAS OF INTERVENTION",
       "title": "Preventive management of legal risk",
-      "intro": "Our intervention is structured across six complementary areas, whose specific relevance depends on the nature of the organisation, its operations and the applicable legal framework.",
+      "intro": "The engagement may involve different areas, depending on the organization, its operations, and the applicable legal framework.",
       "risk_management": {
         "title": "Legal risk management",
-        "desc": "Preventive management begins with identifying situations that may generate legal exposure. We analyse operations, decisions, contractual relationships, organisational structures and internal procedures in order to determine existing legal risks, their possible impact and available alternatives to reduce them."
+        "desc": "Analysis of operations, decisions, contractual relationships, organizational structures, and internal procedures to identify legal risks, their potential impact, and the available options for managing them."
       },
       "compliance": {
-        "title": "Compliance and regulatory compliance",
-        "desc": "Regulatory compliance constitutes an essential component of legal prevention, especially within organisations that carry out activities subject to legal and regulatory obligations. We advise on identifying applicable obligations, reviewing procedures and evaluating internal mechanisms designed to promote compliance with the corresponding regulations."
+        "title": "Compliance and regulatory requirements",
+        "desc": "Identification of applicable obligations, review of procedures, and assessment of internal mechanisms that may contribute to meeting relevant legal and regulatory requirements."
       },
       "penal_risk": {
-        "title": "Prevention of criminal risk",
-        "desc": "An organisation may become exposed to criminal contingencies as a consequence of certain decisions, operations or individual actions developed within its structure. Preventive consulting makes it possible to identify possible liability scenarios and legally assess mechanisms designed to reduce such exposure."
+        "title": "Corporate criminal-law risk",
+        "desc": "Assessment of decisions, operations, or conduct that may give rise to criminal-law exposure for an organization, its executives, or persons involved in its activities."
       },
       "contractual": {
-        "title": "Contractual structuring and review",
-        "desc": "Contracts constitute one of the main instruments for distributing rights, obligations and risks between parties. We provide advice on the review, analysis and legal structuring of contractual relationships, seeking to identify clauses, obligations or scenarios that may generate subsequent contingencies."
+        "title": "Contract review and structuring",
+        "desc": "Review of contracts, clauses, obligations, and risk-allocation mechanisms in commercial, corporate, or professional relationships."
       },
       "governance": {
         "title": "Corporate governance",
-        "desc": "A properly defined organisational structure contributes to delimiting functions, responsibilities and decision-making processes. We advise on legal issues related to corporate governance, particularly in defining and reviewing responsibilities, decision-making mechanisms and internal structures that allow reducing uncertainties and improving the organisation's legal management."
+        "desc": "Advice on functions, responsibilities, decision-making processes, and internal structures that may require review from a legal perspective."
       },
       "operations": {
         "title": "Legal assessment of operations",
-        "desc": "Before executing a relevant operation, it is advisable to determine its possible legal implications. We conduct preventive analyses aimed at identifying obligations, restrictions, risks and contingencies associated with certain decisions or operations, providing the client with legal elements to evaluate available alternatives."
+        "desc": "Preventive analysis of obligations, restrictions, risks, and potential issues connected with relevant operations or decisions before they are implemented."
       },
       "methodology": {
         "title": "Preventive methodology",
-        "desc": "Our consulting is structured around four fundamental stages: identification (determination of facts, operations or structures that may generate legal exposure), assessment (analysis of the nature, scope and potential impact of identified risks), prevention (determination of legal measures designed to reduce or control exposure) and accompaniment (advice during implementation and monitoring of adopted decisions)."
+        "desc": "The engagement may include identifying relevant facts, assessing risks, reviewing available measures, and supporting the implementation of decisions."
       }
     },
     "value": {
-      "title": "Anticipating conflict",
-      "p_1": "Preventive legal consulting turns Law into a tool for management and decision-making, not only a mechanism for responding to conflict.",
-      "p_2": "At Mac Consultores Jurídicos & Asociados, we accompany our clients in the early identification of risks and in the construction of legal structures designed to provide greater security in their decisions, operations and professional or business relationships."
+      "title": "Prevention and decision-making",
+      "p_1": "Preventive legal consulting incorporates legal analysis into management and decision-making before a situation requires a contentious or administrative response.",
+      "p_2": "The firm supports the review of risks, documentation, structures, and decisions so companies and individuals have relevant legal information when assessing their options."
     },
     "notice": "This content is provided for general informational purposes and does not replace a legal assessment of a specific case. The preventive strategy and procedural actions must be defined according to the facts, the jurisdiction and the relevant stage.",
     "cta": {

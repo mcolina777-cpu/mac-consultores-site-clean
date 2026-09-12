@@ -12,12 +12,12 @@ export async function generateMetadata({ params }: Props) {
   const isEs = locale === 'es';
 
   const title = isEs
-    ? 'Amparo y Tutela Constitucional | Mac Consultores Jurídicos'
-    : 'Constitutional Injunctions & Rights Protection | Mac Consultores Jurídicos';
+    ? 'Derecho constitucional | Mac Consultores Jurídicos'
+    : 'Constitutional law | Mac Consultores Jurídicos';
 
   const description = isEs
-    ? 'Acciones de amparo, tutela judicial efectiva y defensa de garantías constitucionales, debido proceso y derechos fundamentales en Venezuela.'
-    : 'Constitutional injunctions, effective judicial protection, and defense of due process, fundamental guarantees, and constitutional rights in Venezuela.';
+    ? 'Asesoría y representación en asuntos de derechos constitucionales, garantías procesales y vías de protección aplicables en Venezuela.'
+    : 'Advice and representation in matters involving constitutional rights, procedural safeguards, and available legal remedies in Venezuela.';
 
   const url = isEs
     ? 'https://mac-consultores-site-clean.vercel.app/es/services/constitucional'
@@ -199,13 +199,13 @@ export default async function ServicesConstitucional({ params }: Props) {
             }}
           >
             <span className="section-tag">
-              {isEs ? 'TUTELA CONSTITUCIONAL Y GARANTÍAS' : 'CONSTITUTIONAL PROTECTION & GUARANTEES'}
+              {isEs ? 'DERECHO CONSTITUCIONAL' : 'CONSTITUTIONAL LAW'}
             </span>
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“La tutela constitucional eficaz exige una intervención técnica inmediata, precisa y orientada a restablecer el orden jurídico vulnerado.”'
-                : '“Effective constitutional protection requires immediate, precise technical intervention focused on restoring the violated legal order.”'}
+                ? 'La protección de los derechos exige identificar los hechos y la vía jurídica aplicable.'
+                : 'The protection of rights requires identifying the facts and the applicable legal avenue.'}
             </h3>
 
             <p
@@ -213,8 +213,8 @@ export default async function ServicesConstitucional({ params }: Props) {
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
               {isEs
-                ? 'Mac Consultores Jurídicos & Asociados representa intereses individuales y corporativos ante actuaciones que comprometan derechos fundamentales, garantías procesales o seguridad jurídica.'
-                : 'Mac Consultores Jurídicos & Asociados represents individual and corporate interests in matters that compromise fundamental rights, procedural guarantees, or legal certainty.'}
+                ? 'MAC Consultores Jurídicos & Asociados asesora a personas y empresas en asuntos que involucran derechos constitucionales, garantías procesales y decisiones que puedan requerir análisis especializado.'
+                : 'MAC Consultores Jurídicos & Asociados advises individuals and companies on matters involving constitutional rights, procedural safeguards, and decisions that may require specialized analysis.'}
             </p>
 
             <div

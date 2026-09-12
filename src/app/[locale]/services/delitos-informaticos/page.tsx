@@ -8,12 +8,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const isEs = locale === 'es';
 
   const title = isEs
-    ? 'Delitos Informáticos y Evidencia Digital | Mac Consultores'
-    : 'Cybercrimes and Digital Evidence | Mac Consultores';
+    ? 'Delitos informáticos y evidencia digital | Mac Consultores Jurídicos'
+    : 'Cybercrime and digital evidence | Mac Consultores Jurídicos';
 
   const description = isEs
-    ? 'Defensa penal técnica y asesoría especializada en incidentes tecnológicos, fraudes electrónicos, evidencia digital y auditorías forenses en Venezuela.'
-    : 'Specialized legal defense and technical counsel in cyber incidents, electronic fraud, digital evidence, and computer forensics in Venezuela.';
+    ? 'Asesoría jurídica en incidentes tecnológicos, fraude electrónico, evidencia digital y análisis de riesgos legales en Venezuela.'
+    : 'Legal advice on technological incidents, electronic fraud, digital evidence, and legal-risk analysis in Venezuela.';
 
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/delitos-informaticos`;
   const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/delitos-informaticos';
@@ -186,13 +186,13 @@ export default async function ServicesDelitosInformaticos({ params }: { params: 
             }}
           >
             <span className="section-tag">
-              {isEs ? 'DELITOS INFORMÁTICOS Y EVIDENCIA DIGITAL' : 'CYBERCRIMES & DIGITAL EVIDENCE'}
+              {isEs ? 'DELITOS INFORMÁTICOS Y EVIDENCIA DIGITAL' : 'CYBERCRIME AND DIGITAL EVIDENCE'}
             </span>
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“Una respuesta jurídica efectiva ante incidentes tecnológicos exige rigor probatorio, comprensión técnica y estrategia procesal desde el primer momento.”'
-                : '“An effective legal response to technological incidents requires evidentiary rigor, technical understanding, and procedural strategy from the outset.”'}
+                ? 'Los asuntos tecnológicos requieren comprender los hechos, la información disponible y el marco jurídico aplicable.'
+                : 'Technology-related matters require an understanding of the facts, available information, and the applicable legal framework.'}
             </h3>
 
             <p
@@ -200,8 +200,8 @@ export default async function ServicesDelitosInformaticos({ params }: { params: 
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
               {isEs
-                ? 'Mac Consultores Jurídicos & Asociados acompaña a personas y organizaciones ante investigaciones, fraudes electrónicos, incidentes digitales y riesgos vinculados con evidencia tecnológica.'
-                : 'Mac Consultores Jurídicos & Asociados advises individuals and organizations in investigations, electronic fraud, digital incidents, and risks involving technological evidence.'}
+                ? 'MAC Consultores Jurídicos & Asociados asesora a personas y organizaciones en investigaciones, fraudes electrónicos, incidentes digitales y asuntos que involucran evidencia tecnológica.'
+                : 'MAC Consultores Jurídicos & Asociados advises individuals and organizations on investigations, electronic fraud, digital incidents, and matters involving technological evidence.'}
             </p>
 
             <div

@@ -9,12 +9,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const dict = await getDictionary(locale);
 
   const title = dict?.seo?.tramites_consulares?.title || (isEs
-    ? 'Gestión Consular y Clientes Internacionales | Mac Consultores Jurídicos'
-    : 'Consular Services & International Clients | Mac Consultores Jurídicos');
+    ? 'Gestión jurídica para clientes en el exterior | Mac Consultores Jurídicos'
+    : 'Legal services for clients abroad | Mac Consultores Jurídicos');
 
   const description = dict?.seo?.tramites_consulares?.description || (isEs
-    ? 'Gestión jurídica, legalizaciones, poderes y representación para venezolanos en el exterior y clientes internacionales.'
-    : 'Cross-border legal representation, consular powers of attorney, and legalizations for clients abroad.');
+    ? 'Asesoría y coordinación jurídica local para clientes en el exterior con documentos, poderes, patrimonio y asuntos vinculados con Venezuela.'
+    : 'Local legal advice and coordination for clients abroad with documents, powers of attorney, property, and matters related to Venezuela.');
 
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/consular`;
   const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/consular';
@@ -80,7 +80,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
             <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
               {dict?.tramites_consulares?.cta_primary}
             </Link>
-            <Link href={`${getRoute(locale, 'home')}#areas-practica`} className="btn btn-outline">
+            <Link href={getRoute(locale, 'services')} className="btn btn-outline">
               {dict?.tramites_consulares?.cta_secondary}
             </Link>
           </div>

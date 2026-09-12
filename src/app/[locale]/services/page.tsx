@@ -205,13 +205,13 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
               <h3 className="serif">
                 {dict?.empresas_extranjeras?.h1 ||
                   (isEs
-                    ? 'Servicios Jurídicos para Empresas Extranjeras en Venezuela'
-                    : 'Legal Services for Foreign Companies in Venezuela')}
+                    ? 'Servicios jurídicos para empresas extranjeras en Venezuela'
+                    : 'Legal services for foreign companies in Venezuela')}
               </h3>
               <p className="card-editorial-text">
                 {isEs
-                  ? 'Capacidad jurídica local para evaluar riesgos corporativos, validar documentación transfronteriza y atender asuntos jurídicos de empresas extranjeras con intereses en Venezuela. Coordinamos con órganos directivos y despachos internacionales en la emisión de opiniones legales, auditorías y gestión de contingencias en el país.'
-                  : 'Local legal capacity to assess corporate risks, validate cross-border documentation, and address legal matters for foreign companies with interests in Venezuela. We coordinate with executive boards and international counsel to provide formal legal opinions, regulatory audits, and preventive guidance on legal contingencies across the country.'}
+                  ? 'Asesoría local para empresas extranjeras con operaciones, inversiones o intereses jurídicos en Venezuela. La firma apoya la revisión de documentación, riesgos corporativos, asuntos regulatorios y coordinación con equipos internos.'
+                  : 'Local legal advice for foreign companies with operations, investments, or legal interests in Venezuela. The firm supports document review, corporate-risk assessment, regulatory matters, and coordination with internal teams.'}
               </p>
               <span className="card-link">
                 {dict?.services?.card_1?.link || (isEs ? 'VER DETALLES →' : 'VIEW DETAILS →')}
@@ -227,21 +227,20 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
               <span className="section-tag">06</span>
               <h3 className="serif">
                 {isEs
-                  ? 'Colaboración Internacional & Local Counsel'
-                  : 'International Cooperation & Local Counsel'}
+                  ? 'Colaboración jurídica internacional y local counsel'
+                  : 'International legal cooperation and local counsel'}
               </h3>
               <p className="card-editorial-text">
-                {dict?.colaboracion_internacional?.proposal?.card_1?.desc ||
-                  (isEs
-                    ? 'Actuamos como consultores locales estratégicos para firmas internacionales y corporaciones con intereses en Venezuela. Proporcionamos análisis normativo riguroso, doctrina especializada y soporte en litigios complejos, garantizando solvencia técnica y delimitación precisa del alcance sin alterar la relación con el cliente.'
-                    : 'We serve as strategic local counsel for international law firms and multinational corporations with interests in Venezuela. We deliver rigorous statutory analysis, specialized legal doctrine, and support in complex litigation, ensuring technical excellence and clear scope definition without disrupting the attorney-client relationship.')}
+                {isEs
+                  ? 'Apoyo jurídico local para firmas y departamentos legales internacionales que requieren análisis o gestión de asuntos en Venezuela. La colaboración se define según el encargo, el alcance de la intervención y la coordinación con el equipo principal.'
+                  : 'Local legal support for international law firms and legal departments that require analysis or assistance with matters in Venezuela. The engagement is defined according to the instruction, scope of work, and coordination with the principal team.'}
               </p>
               <span className="card-link">
                 {dict?.services?.card_1?.link || (isEs ? 'VER DETALLES →' : 'VIEW DETAILS →')}
               </span>
             </Link>
 
-            {/* TARJETA 07: GESTIÓN CONSULAR */}
+            {/* TARJETA 07: GESTIÓN JURÍDICA PARA CLIENTES EN EL EXTERIOR */}
             <Link
               href={getRoute(locale, "services.consular")}
               className="card"
@@ -254,13 +253,13 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
               <span className="section-tag">07</span>
               <h3 className="serif">
                 {isEs
-                  ? 'Gestión Consular y Clientes en el Exterior'
-                  : 'Consular Services & Clients Abroad'}
+                  ? 'Gestión jurídica para clientes en el exterior'
+                  : 'Legal services for clients abroad'}
               </h3>
               <p className="card-editorial-text" style={{ minHeight: 'auto' }}>
                 {isEs
-                  ? 'Brindamos asesoría, representación y gestión jurídica local a venezolanos en el exterior, empresas e inversionistas con intereses patrimoniales o corporativos en Venezuela. Coordinamos poderes notariales, legalizaciones, litigios patrimoniales y contratación transfronteriza sin requerir traslado físico al país.'
-                  : 'We deliver specialized legal advisory, representation, and local management to Venezuelans abroad, international companies, and global investors with estate or corporate interests in Venezuela. We coordinate powers of attorney, document legalizations, estate litigation, and cross-border agreements without physical travel.'}
+                  ? 'Asesoría y gestión jurídica local para venezolanos, empresas e inversionistas que se encuentran fuera del país. La firma coordina documentación, poderes, asuntos patrimoniales y actuaciones que pueden requerir representación en Venezuela.'
+                  : 'Local legal advice and coordination for Venezuelans, companies, and investors located outside the country. The firm assists with documentation, powers of attorney, property-related matters, and actions that may require representation in Venezuela.'}
               </p>
               <span className="card-link">
                 {dict?.services?.card_1?.link || (isEs ? 'VER DETALLES →' : 'VIEW DETAILS →')}

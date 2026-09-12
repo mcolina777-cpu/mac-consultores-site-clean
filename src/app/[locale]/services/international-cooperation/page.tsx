@@ -9,12 +9,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const dict = await getDictionary(locale);
   
   const title = dict?.seo?.colaboracion_internacional?.title || (isEs
-    ? 'Colaboración Internacional & Local Counsel | Mac Consultores Jurídicos'
-    : 'International Legal Cooperation & Local Counsel | Mac Consultores Jurídicos');
+    ? 'Colaboración jurídica internacional y local counsel en Venezuela | Mac Consultores Jurídicos'
+    : 'International legal cooperation and local counsel in Venezuela | Mac Consultores Jurídicos');
 
   const description = dict?.seo?.colaboracion_internacional?.description || (isEs
-    ? 'Soporte jurídico local en Venezuela para firmas internacionales y corporaciones transfronterizas bajo modelo B2B.'
-    : 'Local Venezuelan legal support for international law firms and cross-border corporations under a B2B model.');
+    ? 'Apoyo jurídico local para firmas y departamentos legales internacionales con asuntos vinculados con Venezuela.'
+    : 'Local legal support for international law firms and legal departments with matters connected with Venezuela.');
 
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/international-cooperation`;
   const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/international-cooperation';
@@ -142,8 +142,8 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
           >
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? 'Alianzas estratégicas para una expansión jurídica segura en Venezuela.'
-                : 'Strategic partnerships for secure legal expansion in Venezuela.'}
+                ? 'Colaboración jurídica local para asuntos vinculados con Venezuela.'
+                : 'Local legal collaboration for matters connected with Venezuela.'}
             </h3>
 
             <p
@@ -151,8 +151,8 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
               {isEs
-                ? 'Acompañamos a firmas, empresas y organizaciones internacionales en la estructuración de relaciones de cooperación, corresponsalía y representación jurídica con alcance en Venezuela.'
-                : 'We assist firms, companies, and international organizations in structuring cooperation, correspondent, and legal representation relationships with reach in Venezuela.'}
+                ? 'MAC Consultores Jurídicos & Asociados apoya a firmas y departamentos legales internacionales en encargos que requieren análisis, coordinación o asistencia jurídica local en Venezuela.'
+                : 'MAC Consultores Jurídicos & Asociados supports international law firms and legal departments in matters requiring legal analysis, coordination, or local assistance in Venezuela.'}
             </p>
 
             <div

@@ -336,56 +336,56 @@
   },
   "services": {
     "card_1": {
-      "title": "Derecho Penal y Procesal Penal",
-      "desc": "Asumimos la defensa técnica penal integral en litigios y procedimientos de alta complejidad, criminalidad económica y delitos corporativos. Diseñamos estrategias forenses rigurosas fundamentadas en el estricto control de garantías procesales, protegiendo la libertad personal, el debido proceso y los derechos del justiciable ante los órganos de investigación y tribunales competentes mediante una sólida fundamentación probatoria y recursiva.",
+      "title": "Derecho penal y procesal penal",
+      "desc": "Asesoría y defensa en investigaciones, procedimientos y litigios penales. La firma analiza los hechos, la información disponible, las garantías aplicables y las actuaciones necesarias en cada etapa del proceso.",
       "link": "VER DETALLES →"
     },
     "card_2": {
-      "title": "Derecho Constitucional",
-      "desc": "Ejercemos la tutela y defensa técnica de derechos fundamentales mediante la interposición de acciones de amparo constitucional, hábeas corpus, hábeas data y recursos de interpretación jurídica. Respaldamos la supremacía constitucional y el debido proceso en controversias complejas, estructurando argumentos de estricto derecho para restablecer situaciones jurídicas infringidas y garantizar la tutela judicial efectiva ante la Sala Constitucional.",
+      "title": "Derecho constitucional",
+      "desc": "Análisis de asuntos relacionados con derechos y garantías constitucionales, debido proceso y vías de protección disponibles. La firma evalúa la procedencia de las acciones aplicables según los hechos y el marco jurídico correspondiente.",
       "link": "VER DETALLES →"
     },
     "card_3": {
-      "title": "Delitos Informáticos y Evidencia Digital",
-      "desc": "Especialización jurídica integral en el abordaje estratégico de incidentes tecnológicos, fraudes electrónicos, vulneración de sistemas y delitos informáticos tipificados. Evaluamos la evidencia digital con rigor probatorio y pericial informático, articulando respuestas procesales inmediatas, auditorías forenses y estrategias de litigio penal destinadas a salvaguardar los activos de información, la privacidad corporativa y la responsabilidad patrimonial del cliente.",
+      "title": "Delitos informáticos y evidencia digital",
+      "desc": "Asesoría en incidentes tecnológicos, fraude electrónico, acceso indebido a sistemas y manejo de evidencia digital. El trabajo comprende la revisión de información técnica, riesgos legales y medidas de respuesta aplicables.",
       "link": "VER DETALLES →"
     },
     "card_4": {
-      "title": "Consultoría Jurídica Preventiva",
-      "desc": "Diseñamos estructuras jurídicas estratégicas y programas de cumplimiento normativo penal corporativo orientados a prevenir y mitigar riesgos legales operativos e institucionales. Asesoramos integralmente a juntas directivas, empresas y particulares en la toma de decisiones críticas, gobernanza interna y blindaje contractual preventivo para evitar contingencias judiciales, sanciones regulatorias y responsabilidades penales de las personas jurídicas y sus administradores.",
+      "title": "Consultoría jurídica preventiva",
+      "desc": "Evaluación de riesgos jurídicos, estructuras de cumplimiento y procesos internos para empresas y directivos. La firma asesora en la revisión de decisiones, documentación, controles y medidas preventivas.",
       "link": "VER DETALLES →"
     },
     "penal": {
-      "breadcrumb": "Servicios / Derecho Penal y Procesal Penal",
-      "h1": "Derecho Penal y Procesal Penal",
-      "subtitle": "Defensa técnica integral en procedimientos de alta complejidad, criminalidad económica y delitos financieros.",
-      "intro_p_1": "Asumimos la defensa técnica integral en procedimientos de alta complejidad, criminalidad económica y delitos financieros. Nos enfocamos en el control de garantías procesales y el diseño de estrategias de litigio sólidas, orientadas a preservar los derechos e intereses del cliente durante todas las etapas de la actuación penal.",
-      "intro_p_2": "La defensa penal y procesal penal exige comprender los hechos, identificar los riesgos jurídico-penales, evaluar los elementos probatorios y establecer una estrategia que proteja los derechos e intereses del cliente durante todas las etapas de la actuación penal.",
+      "breadcrumb": "Servicios / Derecho penal y procesal penal",
+      "h1": "Derecho penal y procesal penal",
+      "subtitle": "Asesoría y defensa en investigaciones, procedimientos y litigios penales.",
+      "intro_p_1": "La firma asesora y representa a personas, directivos y empresas en asuntos de Derecho penal y proceso penal. El análisis parte de los hechos, la información disponible, las garantías aplicables y las actuaciones que puedan resultar necesarias.",
+      "intro_p_2": "Cada asunto requiere examinar los riesgos jurídico-penales, los elementos disponibles y la etapa del procedimiento. A partir de esa revisión, se evalúan las opciones de actuación y la estrategia que puede resultar pertinente.",
       "areas": {
-        "tag": "Ámbitos de intervención",
+        "tag": "ÁMBITOS DE INTERVENCIÓN",
         "title": "Áreas de práctica penal",
-        "intro": "Nuestra intervención se estructura en cuatro ámbitos complementarios, cuya relevancia concreta depende de los hechos, la etapa de investigación y el marco jurídico aplicable.",
+        "intro": "La intervención puede involucrar distintos ámbitos, según los hechos, la etapa de investigación y el marco jurídico aplicable.",
         "defense": {
-          "title": "Defensa frente a acusaciones penales",
-          "desc": "Intervenimos desde las primeras actuaciones de investigación hasta las fases posteriores del proceso, atendiendo especialmente al respeto del debido proceso, el derecho a la defensa, la presunción de inocencia, la tutela judicial efectiva y las demás garantías constitucionales y procesales aplicables."
+          "title": "Defensa frente a investigaciones y acusaciones penales",
+          "desc": "Asesoría y representación en actuaciones de investigación y procesos penales. El trabajo incluye la revisión de los hechos, las actuaciones practicadas, las garantías aplicables y las opciones procesales disponibles."
         },
         "appeals": {
-          "title": "Recursos de Casación y Apelación",
-          "desc": "Evaluamos la procedencia de los mecanismos de impugnación disponibles, analizando las actuaciones realizadas por los órganos de investigación y jurisdiccionales, la valoración de los elementos probatorios y la fundamentación de las decisiones, a fin de ejercer los recursos pertinentes para preservar los derechos del cliente."
+          "title": "Recursos de apelación y casación",
+          "desc": "Evaluación de las decisiones, actuaciones y fundamentos que puedan ser objeto de impugnación. La procedencia de cada recurso se analiza según el acto cuestionado, la etapa procesal y las normas aplicables."
         },
         "corporate": {
-          "title": "Criminalidad Corporativa",
-          "desc": "Prestamos especial atención a asuntos relacionados con criminalidad económica y empresarial, delitos patrimoniales y financieros, legitimación de capitales y responsabilidad penal vinculada con la actividad corporativa."
+          "title": "Criminalidad económica y corporativa",
+          "desc": "Asesoría en asuntos vinculados con actividad empresarial, delitos patrimoniales o financieros y responsabilidad penal asociada con decisiones u operaciones corporativas."
         },
         "laundering": {
-          "title": "Legitimación de Capitales",
-          "desc": "Actuamos en la defensa frente a investigaciones y acusaciones por operaciones que puedan comprometer la responsabilidad penal de personas, empresarios, administradores o estructuras corporativas, evaluando los posibles escenarios de responsabilidad y las alternativas jurídico-procesales disponibles."
+          "title": "Legitimación de capitales",
+          "desc": "Análisis y representación en investigaciones o procesos relacionados con operaciones que puedan generar riesgos penales para personas, administradores o estructuras corporativas."
         }
       },
       "value": {
-        "title": "Estrategia jurídico-penal integral",
-        "p_1": "La defensa penal y procesal penal debe desarrollarse como una estrategia única. La valoración jurídica de los hechos no puede desvincularse de la forma en que estos son investigados, acreditados y sometidos a consideración judicial.",
-        "p_2": "Cada asunto es objeto de un análisis individualizado destinado a identificar los hechos jurídicamente relevantes, determinar los posibles escenarios de responsabilidad, evaluar los elementos probatorios disponibles, identificar riesgos y vulneraciones procesales, y diseñar una estrategia de defensa coherente y jurídicamente fundamentada."
+        "title": "Análisis y estrategia en materia penal",
+        "p_1": "El análisis de un asunto penal requiere considerar tanto los hechos como la forma en que se obtienen, documentan y presentan los elementos disponibles dentro del procedimiento.",
+        "p_2": "La firma revisa los hechos jurídicamente relevantes, los posibles escenarios de responsabilidad, la información disponible y las actuaciones procesales que puedan resultar pertinentes según el caso."
       },
       "notice": "Este contenido tiene fines informativos generales y no sustituye la evaluación jurídica de un caso concreto. La estrategia de defensa y las actuaciones procedimentales deben definirse según los hechos, la jurisdicción y la etapa procesal correspondiente.",
       "cta": {
@@ -395,48 +395,48 @@
       }
     },
     "constitucional": {
-      "breadcrumb": "Servicios / Derecho Constitucional",
-      "h1": "Derecho Constitucional",
-      "subtitle": "Protección jurídica de los derechos fundamentales, las garantías constitucionales y la tutela judicial efectiva.",
-      "intro_p_1": "La protección de los derechos fundamentales exige una respuesta jurídica oportuna cuando una actuación de una autoridad pública o de un particular amenaza, restringe o vulnera las garantías reconocidas por la Constitución y los instrumentos internacionales de derechos humanos.",
-      "intro_p_2": "En Mac Consultores Jurídicos & Asociados prestamos asesoramiento y representación jurídica en materia constitucional, orientados a la protección efectiva de los derechos fundamentales, la defensa de las garantías constitucionales y el control jurídico de actuaciones que puedan afectar la libertad, la integridad, el debido proceso, la tutela judicial efectiva o la seguridad jurídica de nuestros clientes.",
+      "breadcrumb": "Servicios / Derecho constitucional",
+      "h1": "Derecho constitucional",
+      "subtitle": "Análisis de derechos, garantías y vías constitucionales aplicables en casos concretos.",
+      "intro_p_1": "La firma asesora en asuntos relacionados con derechos y garantías constitucionales cuando una actuación, omisión o decisión puede afectar intereses jurídicamente relevantes de personas, empresas u organizaciones.",
+      "intro_p_2": "El análisis considera los hechos, el derecho comprometido, los antecedentes disponibles y las vías jurídicas que puedan resultar aplicables. La representación y las actuaciones se definen según las circunstancias de cada asunto.",
       "areas": {
-        "tag": "Áreas de intervención",
-        "title": "Protección constitucional y garantías fundamentales",
-        "intro": "Cada controversia constitucional exige identificar el derecho o garantía comprometida, determinar el acto, omisión o actuación que produce la afectación y evaluar el mecanismo jurídico idóneo para procurar su protección.",
+        "tag": "ÁREAS DE INTERVENCIÓN",
+        "title": "Derechos, garantías y vías constitucionales",
+        "intro": "Cada asunto requiere identificar el derecho o garantía involucrado, la actuación cuestionada y los mecanismos jurídicos que puedan resultar pertinentes.",
         "rights": {
-          "title": "Tutela de los derechos fundamentales",
-          "desc": "Analizamos situaciones que involucren restricciones ilegítimas de derechos fundamentales, actuaciones arbitrarias, vulneraciones del debido proceso, afectaciones a la tutela judicial efectiva y transgresiones de garantías constitucionales. La estrategia jurídica se estructura conforme a las circunstancias particulares del caso y a la naturaleza del derecho afectado."
+          "title": "Derechos y garantías constitucionales",
+          "desc": "Análisis de situaciones que puedan afectar derechos fundamentales, debido proceso, acceso a la justicia, seguridad jurídica u otras garantías constitucionales, según las circunstancias del caso."
         },
         "amparo": {
-          "title": "Acción de Amparo Constitucional",
-          "desc": "Asesoramos en la evaluación y preparación de acciones destinadas a obtener tutela frente a vulneraciones o amenazas de derechos y garantías constitucionales. El análisis comprende la identificación del derecho afectado, la conducta que origina la vulneración, la legitimación correspondiente y los presupuestos jurídicos necesarios para determinar la procedencia de la tutela constitucional."
+          "title": "Amparo constitucional",
+          "desc": "Evaluación de la procedencia de acciones de amparo frente a amenazas o vulneraciones de derechos y garantías constitucionales. El análisis considera el derecho invocado, los hechos, la legitimación y la existencia de otras vías judiciales disponibles."
         },
         "habeas": {
-          "title": "Hábeas Corpus y Hábeas Data",
-          "desc": "Prestamos asesoramiento en mecanismos constitucionales vinculados con la libertad personal y la protección de la información. En materia de hábeas corpus, la intervención se orienta a la protección de la libertad y seguridad personal frente a privaciones o restricciones contrarias al ordenamiento jurídico. En materia de hábeas data, analizamos situaciones relacionadas con el acceso, conocimiento, actualización, rectificación o protección de información personal."
+          "title": "Libertad personal e información personal",
+          "desc": "Asesoría en asuntos relacionados con libertad y seguridad personal, así como con acceso, actualización, rectificación o protección de información personal. Cada mecanismo se evalúa según su objeto y los requisitos aplicables."
         },
         "due_process": {
-          "title": "Debido proceso y tutela judicial efectiva",
-          "desc": "Analizamos posibles vulneraciones relacionadas con el derecho a la defensa, juez natural, presunción de inocencia, motivación de las decisiones, derecho a recurrir, acceso a la justicia y demás garantías integrantes del debido proceso. La tutela judicial efectiva exige que el acceso a los órganos jurisdiccionales permite obtener una respuesta jurídicamente fundada dentro de un procedimiento respetuoso de las garantías constitucionales."
+          "title": "Debido proceso y acceso a la justicia",
+          "desc": "Revisión de actuaciones que puedan afectar el derecho a la defensa, el juez natural, la motivación de las decisiones, el derecho a recurrir o el acceso a los órganos jurisdiccionales."
         },
         "review": {
-          "title": "Control de constitucionalidad y convencionalidad",
-          "desc": "Desarrollamos análisis jurídicos relacionados con la compatibilidad de actuaciones, decisiones o normas con la Constitución y con las obligaciones derivadas de los instrumentos internacionales de derechos humanos, considerando los principios y garantías reconocidos por el ordenamiento constitucional y el sistema interamericano de protección de los derechos humanos."
+          "title": "Análisis de constitucionalidad y derechos humanos",
+          "desc": "Análisis de la relación entre actuaciones, decisiones o normas y el marco constitucional, así como de los estándares de derechos humanos que puedan resultar relevantes para el caso."
         },
         "consulting": {
           "title": "Consultoría e interpretación constitucional",
-          "desc": "Prestamos asesoramiento especializado cuando una persona, empresa u organización necesita determinar el alcance constitucional de una norma, actuación administrativa, decisión judicial o situación jurídica concreta. El servicio comprende el análisis de las disposiciones constitucionales aplicables, su relación con el resto del ordenamiento jurídico y los posibles mecanismos de protección o actuación disponibles."
+          "desc": "Asesoría sobre el alcance constitucional de normas, actuaciones administrativas, decisiones judiciales o situaciones jurídicas concretas, y sobre las opciones de actuación que puedan estar disponibles."
         },
         "strategy": {
-          "title": "Estrategia constitucional",
-          "desc": "Nuestra intervención combina análisis constitucional, evaluación de garantías, estudio de antecedentes y diseño de una estrategia jurídica dirigida a procurar una tutela efectiva de los derechos fundamentales, con atención a las circunstancias concretas de cada caso."
+          "title": "Estrategia procesal constitucional",
+          "desc": "Preparación de estrategias y actuaciones en materia constitucional a partir de los hechos, los antecedentes disponibles, los derechos involucrados y el marco jurídico aplicable."
         }
       },
       "value": {
-        "title": "Una respuesta jurídica especializada",
-        "p_1": "Cada controversia constitucional requiere determinar con precisión qué derecho está comprometido, cuál es la conducta que produce la afectación y cuál es el mecanismo jurídico adecuado para obtener su protección.",
-        "p_2": "El objetivo es brindar una respuesta jurídica especializada frente a vulneraciones constitucionales, fortaleciendo la protección de los derechos, las garantías y la seguridad jurídica de nuestros clientes."
+        "title": "Análisis jurídico en materia constitucional",
+        "p_1": "Un asunto constitucional exige identificar el derecho involucrado, la actuación que puede afectarlo y los mecanismos jurídicos que correspondan según el caso.",
+        "p_2": "MAC Consultores Jurídicos & Asociados evalúa el marco jurídico aplicable y acompaña la preparación de actuaciones y estrategias procesales de acuerdo con las circunstancias de cada asunto."
       },
       "notice": "La evaluación de cada asunto depende de sus circunstancias particulares, de los antecedentes disponibles y de los mecanismos jurídicos aplicables.",
       "cta": {
@@ -452,59 +452,59 @@
     "btn": "INICIAR PROCESO DE ADMISIÓN"
   },
   "tramites_consulares": {
-    "title": "Venezolanos en el Exterior | Mac Consultores Jurídicos & Asociados",
-    "breadcrumb": "LOCAL COUNSEL · PRÁCTICA TRANSFRONTERIZA",
-    "h1": "Local Counsel y Representación Jurídica en Venezuela",
-    "subtitle": "Criterio jurídico riguroso, dirección procesal y acompañamiento local para corporaciones, despachos internacionales y clientes con intereses en el país.",
-    "intro_p": "En un entorno jurisdiccional complejo, las decisiones estratégicas requieren criterio técnico especializado, comprensión del medio local y estricta reserva profesional. En Mac Consultores Jurídicos & Asociados actuamos como Local Counsel para firmas de abogados extranjeras y asistimos a corporaciones, inversionistas y clientes no residentes que requieren representación letrada, defensa procesal y coordinación jurídica en Venezuela, aportando análisis riguroso y seguimiento letrado sin requerir traslados innecesarios.",
-    "cta_primary": "EVALUAR ASUNTO CON LOCAL COUNSEL",
-    "cta_secondary": "CONOCER ÁREAS DE PRÁCTICA",
+    "title": "Gestión jurídica para clientes en el exterior | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "CLIENTES EN EL EXTERIOR / GESTIÓN JURÍDICA EN VENEZUELA",
+    "h1": "Gestión jurídica para clientes en el exterior",
+    "subtitle": "Asesoría y coordinación jurídica local para personas, empresas e inversionistas con asuntos vinculados con Venezuela.",
+    "intro_p": "Las personas, empresas e inversionistas que se encuentran fuera de Venezuela pueden requerir apoyo jurídico local para atender documentos, poderes, contratos, asuntos patrimoniales o actuaciones ante autoridades y tribunales. MAC Consultores Jurídicos & Asociados asesora y coordina actuaciones vinculadas con Venezuela según los hechos, la documentación disponible, el alcance del encargo y las normas aplicables.",
+    "cta_primary": "EVALUAR ASUNTO CON LA FIRMA",
+    "cta_secondary": "CONOCER SERVICIOS",
     "bloque_1": {
-      "tag": "PRÁCTICA CORPORATIVA",
-      "title": "Local Counsel y Asuntos Transfronterizos",
-      "subtitle": "Soporte letrado en Venezuela para corporaciones y despachos globales.",
-      "intro": "Coordinamos con órganos directivos, asesorías jurídicas internas y firmas internacionales en la emisión de dictámenes, estructuración de acuerdos transfronterizos y conducción de litigios ante la jurisdicción venezolana.",
+      "tag": "ASUNTOS JURÍDICOS CON CONEXIÓN EN VENEZUELA",
+      "title": "Representación y coordinación local",
+      "subtitle": "Apoyo jurídico para clientes fuera del país con asuntos corporativos, contractuales o procesales en Venezuela.",
+      "intro": "La firma acompaña la preparación y coordinación de actuaciones jurídicas que pueden requerir representación local o revisión de documentación en Venezuela.",
       "card_1": {
         "tag": "01",
-        "title": "Local Counsel para Firmas Extranjeras",
-        "desc": "Actuamos como corresponsales jurídicos y asesores locales en Venezuela para firmas internacionales y departamentos legales. Emitimos opiniones jurídicas independientes, evaluamos contingencias regulatorias y articulamos la defensa técnica en coordinación directa con el equipo letrado matriz.",
+        "title": "Representación jurídica en Venezuela",
+        "desc": "Asesoría y representación en asuntos que puedan requerir actuaciones ante autoridades, tribunales u otras instituciones venezolanas, según la naturaleza del caso.",
         "link": "VER DETALLES →"
       },
       "card_2": {
         "tag": "02",
-        "title": "Contratación Transfronteriza y Cumplimiento",
-        "desc": "Estructuramos, auditamos y negociamos contratos mercantiles internacionales con ejecución en Venezuela. Evaluamos ley aplicable, jurisdicción idónea y cláusulas arbitrales, mitigando la exposición patrimonial frente a cambios normativos o riesgos operativos locales.",
+        "title": "Contratos y asuntos transfronterizos",
+        "desc": "Revisión y preparación de documentos, acuerdos y relaciones contractuales con conexión en Venezuela, considerando las normas aplicables y los intereses de las partes.",
         "link": "VER DETALLES →"
       },
       "card_3": {
         "tag": "03",
-        "title": "Representación Judicial y Litigios en Venezuela",
-        "desc": "Ejercemos la defensa técnica y dirección procesal en controversias civiles, mercantiles y societarias ante tribunales venezolanos. Conducimos cada litigio con rigor probatorio, monitoreo a distancia e informes periódicos con absoluta confidencialidad.",
+        "title": "Asuntos patrimoniales y corporativos",
+        "desc": "Análisis de asuntos relacionados con bienes, inversiones, sociedades o relaciones jurídicas que requieran coordinación local en Venezuela.",
         "link": "VER DETALLES →"
       }
     },
     "bloque_2": {
-      "tag": "PRÁCTICA PATRIMONIAL",
-      "title": "Instrumentación Notarial y Asuntos Patrimoniales",
-      "subtitle": "Rigor técnico en mandatos y actos jurídicos para clientes no residentes.",
-      "intro": "Asistimos a personas naturales y grupos familiares en la estructuración jurídica y disposición de activos en Venezuela, redactando apoderamientos rigurosos y facilitando la adecuada eficacia de instrumentos otorgados en el exterior.",
+      "tag": "DOCUMENTACIÓN Y PODERES",
+      "title": "Documentos y representación desde el exterior",
+      "subtitle": "Revisión de poderes, documentos y formalidades aplicables a su uso en Venezuela.",
+      "intro": "La preparación de documentos otorgados fuera del país puede requerir revisar su contenido, formalidades, idioma y mecanismos de autenticación antes de su presentación ante autoridades venezolanas.",
       "card_1": {
         "tag": "04",
-        "title": "Poderes y Mandatos Estratégicos",
-        "desc": "Diseñamos y auditamos mandatos y poderes notariales con delimitación precisa de facultades judiciales, administrativas y de disposición. Procuramos la regularidad formal y prevenimos nulidades registrales en instrumentos otorgados ante notarías o sedes consulares en el extranjero.",
+        "title": "Poderes y mandatos",
+        "desc": "Revisión y preparación de poderes para actuaciones judiciales, administrativas, corporativas o patrimoniales, de acuerdo con las facultades requeridas en cada asunto.",
         "link": "VER DETALLES →"
       },
       "card_2": {
         "tag": "05",
-        "title": "Eficacia Documental y Homologación",
-        "desc": "Coordinamos la revisión probatoria, legalización y trámite de apostilla de La Haya para documentos corporativos y patrimoniales destinados a surtir efectos en Venezuela o el exterior, orientados a respaldar su admisibilidad judicial y eficacia jurídica y administrativa.",
+        "title": "Documentos otorgados en el exterior",
+        "desc": "Revisión de documentos, legalizaciones, apostillas y traducciones cuando puedan ser necesarias para su uso ante autoridades o instituciones en Venezuela.",
         "link": "VER DETALLES →"
       }
     },
     "cierre": {
       "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
-      "quote": "“La coordinación jurídica transfronteriza exige rigor técnico, criterio local y comprensión precisa del marco institucional venezolano.”",
-      "desc": "Evaluamos asuntos corporativos, procesales y patrimoniales con nexo en Venezuela para determinar su viabilidad técnica y proponer una estrategia de actuación local adaptada a sus requerimientos.",
+      "quote": "La coordinación jurídica desde el exterior comienza con la revisión de los hechos, los documentos y el marco aplicable.",
+      "desc": "MAC Consultores Jurídicos & Asociados asesora a personas, empresas e inversionistas con asuntos vinculados con Venezuela que requieren análisis, documentación, coordinación o representación jurídica local.",
       "btn_primary": "EVALUAR ASUNTO CON LA FIRMA",
       "btn_secondary": "← VOLVER AL INICIO"
     },
@@ -561,34 +561,34 @@
     }
   },
   "colaboracion_internacional": {
-    "breadcrumb": "Alianzas Internacionales B2B",
-    "h1": "Local Counsel for Venezuela",
-    "title": "Una plataforma jurídica local para firmas de abogados y departamentos corporativos globales.",
+    "breadcrumb": "ALIANZAS JURÍDICAS INTERNACIONALES",
+    "h1": "Colaboración jurídica internacional y local counsel en Venezuela",
+    "title": "Apoyo jurídico local para firmas y departamentos legales internacionales con asuntos vinculados con Venezuela.",
     "intro": {
-      "tag": "COOPERAR SIN COMPETIR",
-      "title": "Aliados locales estratégicos para firmas internacionales.",
-      "p1": "En un entorno jurídico transfronterizo, las firmas globales necesitan un aliado local capaz de articular el ordenamiento venezolano con capacidad efectiva de ejecución institucional y práctica.",
-      "p2": "Actuamos como estructura jurídica local de apoyo: su firma conserva la dirección estratégica con su cliente final mientras nosotros aportamos el componente jurídico especializado en Venezuela bajo estricta confidencialidad y delimitación de alcance."
+      "tag": "COLABORACIÓN B2B",
+      "title": "Apoyo local para asuntos transfronterizos",
+      "p1": "Las firmas de abogados y los departamentos legales internacionales pueden requerir análisis, coordinación o asistencia local en asuntos vinculados con Venezuela. La firma aporta conocimiento del marco jurídico venezolano y apoyo según el alcance definido para cada encargo.",
+      "p2": "La colaboración se organiza con atención a la confidencialidad, la distribución de funciones y la coordinación con el equipo jurídico principal. El alcance de la intervención se define de acuerdo con las necesidades del asunto y las instrucciones recibidas."
     },
     "proposal": {
       "tag": "MODELO DE COLABORACIÓN",
-      "title": "Soporte Jurídico Local para Asuntos Transfronterizos",
+      "title": "Apoyo jurídico local para asuntos transfronterizos",
       "card_1": {
         "tag": "01",
-        "title": "Local Counsel for Venezuela",
-        "desc": "Actuamos como consultores locales estratégicos para firmas internacionales y corporaciones con intereses en Venezuela. Proporcionamos análisis normativo riguroso, doctrina especializada y soporte en litigios complejos, garantizando solvencia técnica y delimitación precisa del alcance sin alterar la relación con el cliente.",
+        "title": "Local counsel en Venezuela",
+        "desc": "Apoyo jurídico local para firmas internacionales que requieren análisis, coordinación o asistencia en asuntos sometidos al Derecho venezolano.",
         "link": "VER DETALLES →"
       },
       "card_2": {
         "tag": "02",
-        "title": "Áreas de Cooperación Jurídica",
-        "desc": "Ofrecemos capacidad jurídica adaptada a asuntos transfronterizos complejos: emisión de opiniones legales, debida diligencia, gestión de riesgo penal corporativo y coordinación documental estratégica. Respaldamos a departamentos legales internacionales con investigación jurisprudencial rigurosa y acompañamiento procesal experto en la jurisdicción venezolana.",
+        "title": "Áreas de cooperación jurídica",
+        "desc": "Colaboración en análisis normativo, revisión documental, opiniones jurídicas, investigación de criterios aplicables y apoyo en actuaciones vinculadas con Venezuela.",
         "link": "VER DETALLES →"
       },
       "card_3": {
         "tag": "03",
-        "title": "Modelo de Alianza B2B",
-        "desc": "Estructuramos un marco de cooperación fundado en confidencialidad, no interferencia e independencia técnica. Su firma conserva la dirección letrada internacional del cliente, mientras aportamos el respaldo estratégico local necesario para ejecutar operaciones complejas con total rigor normativo y máxima seguridad jurídica.",
+        "title": "Modelo de alianza B2B",
+        "desc": "La colaboración se organiza mediante un alcance definido, canales de coordinación y criterios de confidencialidad acordes con las necesidades del encargo.",
         "link": "VER DETALLES →"
       }
     },
@@ -701,50 +701,54 @@
   },
   "empresas_extranjeras": {
     "seo": {
-      "title": "Servicios Jurídicos para Empresas Extranjeras en Venezuela | Mac Consultores Jurídicos",
-      "description": "Asesoría jurídica directa, evaluación de riesgos, opiniones doctrinales y representación local en Venezuela para corporaciones extranjeras, departamentos legales e inversionistas.",
-      "og_title": "Servicios Jurídicos para Empresas Extranjeras en Venezuela | Mac Consultores Jurídicos",
-      "og_description": "Asesoría jurídica directa, evaluación de riesgos, opiniones doctrinales y representación local en Venezuela para corporaciones extranjeras, departamentos legales e inversionistas."
+      "title": "Servicios jurídicos para empresas extranjeras en Venezuela | Mac Consultores Jurídicos",
+      "description": "Asesoría local en asuntos corporativos, regulatorios, documentales y procesales para empresas extranjeras con intereses en Venezuela.",
+      "og_title": "Servicios jurídicos para empresas extranjeras en Venezuela | Mac Consultores Jurídicos",
+      "og_description": "Asesoría local en asuntos corporativos, regulatorios, documentales y procesales para empresas extranjeras con intereses en Venezuela."
     },
-    "breadcrumb": "PRÁCTICA INTERNACIONAL / SERVICIOS CORPORATIVOS EN VENEZUELA",
-    "h1": "Servicios Jurídicos para Empresas Extranjeras en Venezuela",
-    "subtitle": "Capacidad jurídica local para evaluar riesgos penales corporativos, validar documentación transfronteriza, emitir opiniones legales y representar a empresas extranjeras en Venezuela.",
+    "breadcrumb": "PRÁCTICA INTERNACIONAL / SERVICIOS PARA EMPRESAS EN VENEZUELA",
+    "h1": "Servicios jurídicos para empresas extranjeras en Venezuela",
+    "subtitle": "Asesoría local para empresas extranjeras con operaciones, inversiones o intereses jurídicos en Venezuela.",
     "section_1": {
-      "title": "1. Capacidad Jurídica Local para Operaciones Globales",
-      "p1": "La creciente complejidad de los negocios transfronterizos exige un conocimiento simultáneo de múltiples jurisdicciones. Cuando una corporación extranjera o cliente internacional mantiene activos, inversiones, contratos, representantes o contingencias vinculadas con Venezuela, la intervención de un asesor jurídico local resulta determinante para comprender y ejecutar correctamente los aspectos sometidos al ordenamiento jurídico nacional.",
-      "p2": "Nuestra intervención aporta la capacidad técnica local indispensable para analizar, auditar y ejecutar actuaciones jurídicas en territorio venezolano, coordinando de manera directa con directores generales, departamentos legales internos o apoderados corporativos de la empresa matriz."
+      "title": "1. Asesoría local para operaciones vinculadas con Venezuela",
+      "p1": "Las empresas extranjeras con activos, inversiones, contratos, representantes u operaciones vinculadas con Venezuela pueden requerir una evaluación del marco jurídico local. La firma asesora en la identificación de cuestiones relevantes y en la revisión de las opciones disponibles según el asunto.",
+      "p2": "El trabajo puede incluir coordinación con directivos, departamentos legales internos y equipos de operación de la empresa, de acuerdo con el alcance definido para cada encargo."
     },
     "section_2": {
-      "title": "2. Seguridad Jurídica y Eficacia Operativa en Venezuela",
-      "p1": "Estructuramos cada actuación bajo estándares estrictos de confidencialidad, rigor técnico y delimitación precisa del encargo profesional. Esto permite a corporaciones extranjeras e inversionistas contar con respaldo jurídico sólido en el país, mitigando contingencias operativas y garantizando que sus decisiones estratégicas se ajusten plenamente al ordenamiento venezolano.",
-      "p2": "Intervenimos en auditorías de riesgo penal económico, investigaciones regulatorias, opiniones legales especializadas (legal opinions), due diligence corporativo y validación de instrumentos transfronterizos destinados a producir plenos efectos en Venezuela o en el extranjero."
+      "title": "2. Revisión jurídica y coordinación local",
+      "p1": "Cada encargo se desarrolla con atención al alcance de la consulta, la información disponible y las normas aplicables. La firma apoya la revisión de riesgos, documentos, decisiones y actuaciones que puedan requerir análisis desde el Derecho venezolano.",
+      "p2": "La asesoría puede comprender análisis de riesgos corporativos, asuntos regulatorios, revisión documental, due diligence jurídico, opiniones legales y preparación de actuaciones relacionadas con operaciones o intereses empresariales en Venezuela."
     },
     "section_3": {
-      "title": "3. Escenarios de Intervención para Asuntos Transfronterizos",
-      "intro": "Nuestra práctica forense y de asesoría corporativa responde a requerimientos específicos en los siguientes ejes de actuación:",
+      "title": "3. Ámbitos de apoyo para empresas extranjeras",
+      "intro": "Según el asunto y las necesidades de la empresa, la asesoría puede incluir los siguientes ámbitos:",
       "items": [
         {
-          "label": "Riesgo Penal Corporativo y Compliance:",
-          "desc": "Evaluación dogmática sobre contingencias penales de subsidiarias, socios o directivos en territorio venezolano."
+          "title": "Riesgo corporativo y compliance",
+          "label": "Riesgo corporativo y compliance",
+          "desc": "Revisión de riesgos jurídicos vinculados con operaciones, controles internos y responsabilidades corporativas."
         },
         {
-          "label": "Documentación y Mandatos Internacionales:",
-          "desc": "Protocolización, legalización consular, apostillas y adecuación formal de poderes foráneos para su plena validez procesal."
+          "title": "Documentación y representación",
+          "label": "Documentación y representación",
+          "desc": "Revisión de documentos, poderes y formalidades aplicables a su uso ante autoridades venezolanas."
         },
         {
-          "label": "Asistencia Procesal y Coordinación Local:",
-          "desc": "Representación ante tribunales, cortes superiores y entes regulatorios en defensa de intereses internacionales."
+          "title": "Asuntos regulatorios y procesales",
+          "label": "Asuntos regulatorios y procesales",
+          "desc": "Apoyo en la preparación de actuaciones ante autoridades administrativas o judiciales, cuando corresponda."
         },
         {
-          "label": "Informes Doctrinales y Opiniones Legales:",
-          "desc": "Emisión de criterios jurídicos fundamentados para arbitrajes internacionales o tribunales extranjeros sobre Derecho venezolano."
+          "title": "Opiniones sobre Derecho venezolano",
+          "label": "Opiniones sobre Derecho venezolano",
+          "desc": "Elaboración de análisis y opiniones jurídicas sobre normas, operaciones o asuntos con conexión en Venezuela."
         }
       ]
     },
     "cta": {
-      "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
-      "title": "Respaldo técnico y representación profesional para sus operaciones en Venezuela.",
-      "desc": "Asesoramos a directores generales, departamentos legales internos y grupos transfronterizos que requieren certeza técnica y gestión procesal en el entorno jurídico venezolano.",
+      "tag": "SERVICIOS CORPORATIVOS EN VENEZUELA",
+      "title": "Las operaciones transfronterizas requieren comprender el marco jurídico aplicable en cada jurisdicción.",
+      "desc": "MAC Consultores Jurídicos & Asociados asesora a empresas extranjeras, sus directivos y equipos legales internos en asuntos corporativos, regulatorios, documentales y procesales vinculados con Venezuela.",
       "btn_contact": "CONSULTAR REQUERIMIENTO CORPORATIVO",
       "btn_back": "← VOLVER A SERVICIOS"
     }
@@ -778,10 +782,10 @@
       "og_description": "Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad."
     },
     "tramites_consulares": {
-      "title": "Venezolanos en el Exterior | Mac Consultores Jurídicos & Asociados",
-      "description": null,
-      "og_title": "Venezolanos en el Exterior | Mac Consultores Jurídicos & Asociados",
-      "og_description": "Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad."
+      "title": "Gestión jurídica para clientes en el exterior | Mac Consultores Jurídicos",
+      "description": "Asesoría y coordinación jurídica local para clientes en el exterior con documentos, poderes, patrimonio y asuntos vinculados con Venezuela.",
+      "og_title": "Gestión jurídica para clientes en el exterior | Mac Consultores Jurídicos",
+      "og_description": "Asesoría y coordinación jurídica local para clientes en el exterior con documentos, poderes, patrimonio y asuntos vinculados con Venezuela."
     },
     "index": {
       "title": "Mac Consultores Jurídicos & Asociados | Excelencia Legal",
@@ -820,10 +824,10 @@
       "og_description": "Derecho Penal, Constitucional, Extradiciones y Compliance Corporativo preventivo."
     },
     "colaboracion_internacional": {
-      "title": "Colaboración Internacional | Mac Consultores Jurídicos & Asociados",
-      "description": null,
-      "og_title": "Colaboración Internacional | Mac Consultores Jurídicos & Asociados",
-      "og_description": "Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad."
+      "title": "Colaboración jurídica internacional y local counsel en Venezuela | Mac Consultores Jurídicos",
+      "description": "Apoyo jurídico local para firmas y departamentos legales internacionales con asuntos vinculados con Venezuela.",
+      "og_title": "Colaboración jurídica internacional y local counsel en Venezuela | Mac Consultores Jurídicos",
+      "og_description": "Apoyo jurídico local para firmas y departamentos legales internacionales con asuntos vinculados con Venezuela."
     },
     "nuestro_ceo": {
       "title": "Nuestro CEO | Mac Consultores Jurídicos & Asociados",
@@ -1509,44 +1513,44 @@
     }
   },
   "delitos_informaticos": {
-    "breadcrumb": "Servicios / Delitos Informáticos y Evidencia Digital",
-    "h1": "Delitos Informáticos y Evidencia Digital",
-    "subtitle": "Asesoramiento y defensa jurídica frente a delitos informáticos, fraude electrónico y utilización de evidencia digital.",
-    "intro_p_1": "La transformación digital ha generado nuevas formas de criminalidad y, al mismo tiempo, ha convertido la información electrónica en un elemento cada vez más relevante para la investigación y defensa en procedimientos judiciales.",
-    "intro_p_2": "En Mac Consultores Jurídicos & Asociados prestamos asesoramiento y defensa jurídica frente a situaciones relacionadas con delitos informáticos, fraude electrónico, afectaciones a sistemas y datos, privacidad y utilización de evidencia digital, integrando el análisis jurídico de la conducta con la valoración de los elementos tecnológicos involucrados.",
+    "breadcrumb": "Servicios / Delitos informáticos y evidencia digital",
+    "h1": "Delitos informáticos y evidencia digital",
+    "subtitle": "Asesoría jurídica en incidentes tecnológicos, fraude electrónico y uso de evidencia digital.",
+    "intro_p_1": "La transformación digital ha ampliado las formas en que pueden producirse incidentes, conflictos e investigaciones con relevancia penal. También ha incrementado la importancia de la información electrónica dentro de los procedimientos judiciales.",
+    "intro_p_2": "MAC Consultores Jurídicos & Asociados asesora a personas y organizaciones en asuntos relacionados con delitos informáticos, fraude electrónico, sistemas, datos, privacidad y evidencia digital. El análisis jurídico considera tanto los hechos como los elementos tecnológicos disponibles.",
     "areas": {
-      "tag": "Áreas de intervención",
+      "tag": "ÁREAS DE INTERVENCIÓN",
       "title": "Delitos informáticos y evidencia digital",
-      "intro": "Nuestra intervención se estructura en cinco ámbitos complementarios, cuya relevancia concreta depende de los hechos, la etapa de investigación y el marco jurídico aplicable.",
+      "intro": "La intervención puede involucrar distintos ámbitos, según los hechos, la información disponible y el marco jurídico aplicable.",
       "cybercrimes": {
         "title": "Delitos informáticos",
-        "desc": "Asesoramos y ejercemos la defensa en investigaciones relacionadas con conductas presuntamente cometidas mediante sistemas informáticos, dispositivos electrónicos, redes de comunicación o plataformas digitales. El análisis comprende la determinación de la posible relevancia penal de los hechos, la identificación de las conductas atribuidas y la evaluación de las circunstancias en las que se produjeron."
+        "desc": "Asesoría y defensa en investigaciones relacionadas con conductas presuntamente cometidas mediante sistemas, dispositivos, redes o plataformas digitales. El análisis examina los hechos atribuidos, su posible relevancia penal y las circunstancias del caso."
       },
       "fraud": {
-        "title": "Fraude electrónico y contingencias digitales",
-        "desc": "Las operaciones realizadas a través de plataformas digitales pueden generar situaciones de especial complejidad cuando existen transferencias no autorizadas, suplantación de identidad, manipulación de información, utilización indebida de credenciales o mecanismos fraudulentos. Analizamos jurídicamente el desarrollo de la operación, las comunicaciones realizadas, los registros disponibles y demás elementos relevantes para determinar las posibles responsabilidades y las actuaciones jurídicas procedentes."
+        "title": "Fraude electrónico e incidentes digitales",
+        "desc": "Análisis de situaciones que pueden involucrar transferencias no autorizadas, suplantación de identidad, uso indebido de credenciales, manipulación de información u otras operaciones digitales. La evaluación considera comunicaciones, registros y demás elementos disponibles."
       },
       "evidence": {
         "title": "Evidencia digital",
-        "desc": "La evidencia digital puede resultar determinante para establecer la existencia de un hecho, reconstruir una secuencia de acontecimientos o sustentar una determinada hipótesis dentro de una investigación. Analizamos jurídicamente elementos tales como comunicaciones electrónicas, correos electrónicos, mensajería y conversaciones digitales, archivos y documentos electrónicos, registros de operaciones, información contenida en dispositivos, datos asociados a actividades digitales y registros y trazas electrónicas."
+        "desc": "Revisión jurídica de comunicaciones electrónicas, correos, archivos, registros de operaciones, datos de dispositivos y otros elementos digitales que puedan resultar relevantes dentro de una investigación o procedimiento."
       },
       "integrity": {
-        "title": "Integridad y valoración de la evidencia",
-        "desc": "En materia de evidencia digital resulta fundamental examinar las condiciones en las que un elemento fue obtenido, preservado y presentado. La estrategia jurídica puede requerir cuestionar la autenticidad, integridad, origen, forma de obtención o incorporación de determinados elementos digitales, particularmente cuando existan circunstancias que puedan afectar su valor probatorio o la legitimidad de su utilización dentro de un procedimiento."
+        "title": "Integridad y uso de la evidencia",
+        "desc": "Análisis de las condiciones en que los elementos digitales fueron obtenidos, preservados e incorporados al procedimiento. La revisión puede considerar autenticidad, origen, integridad, forma de obtención y valor probatorio."
       },
       "privacy": {
-        "title": "Privacidad y protección de datos",
-        "desc": "La utilización de información personal y empresarial en entornos digitales plantea importantes cuestiones jurídicas relacionadas con la privacidad y la protección de datos. Asesoramos frente a situaciones en las que pueda existir acceso, utilización, divulgación, tratamiento o circulación indebida de información, evaluando las consecuencias jurídicas que puedan derivarse de los hechos y las medidas disponibles para proteger los derechos afectados."
+        "title": "Privacidad e información personal",
+        "desc": "Asesoría en situaciones relacionadas con acceso, uso, divulgación o tratamiento de información personal o empresarial en entornos digitales. El análisis considera los hechos, las consecuencias jurídicas y las opciones de actuación disponibles."
       },
       "strategy": {
-        "title": "Defensa y estrategia jurídica",
-        "desc": "Una controversia relacionada con tecnología requiere comprender simultáneamente el hecho digital y su relevancia jurídica. Por ello, nuestra intervención parte del análisis de las circunstancias del caso, identifica los elementos digitales relevantes y determina su incidencia dentro de la estrategia jurídica correspondiente. La actuación puede comprender evaluación inicial de la contingencia, identificación de posibles responsabilidades, análisis jurídico de evidencia digital, evaluación de la legalidad de su obtención e incorporación, asesoramiento frente a investigaciones, diseño de estrategia de defensa y protección de derechos relacionados con privacidad e información."
+        "title": "Estrategia jurídica en asuntos tecnológicos",
+        "desc": "Preparación de estrategias jurídicas a partir de los hechos, los elementos digitales disponibles, los posibles riesgos y las actuaciones que puedan resultar pertinentes en investigaciones, procesos o controversias."
       }
     },
     "value": {
-      "title": "Una respuesta jurídica frente a la criminalidad digital",
-      "p_1": "Los incidentes tecnológicos pueden producir consecuencias penales, patrimoniales y reputacionales que requieren una respuesta especializada. La adecuada identificación de los hechos y la preservación de los elementos relevantes resultan esenciales para determinar las acciones jurídicas disponibles.",
-      "p_2": "En Mac Consultores Jurídicos & Asociados abordamos estas contingencias desde una perspectiva jurídica integral, procurando que la complejidad tecnológica no se convierta en una barrera para la adecuada protección de los derechos e intereses de nuestros clientes."
+      "title": "Análisis jurídico de incidentes tecnológicos",
+      "p_1": "Los incidentes tecnológicos pueden plantear cuestiones penales, patrimoniales, contractuales o reputacionales. La identificación de los hechos y la revisión de la información disponible ayudan a definir las opciones jurídicas que pueden resultar aplicables.",
+      "p_2": "La firma integra el análisis jurídico con la revisión de los elementos tecnológicos relevantes y, cuando corresponde, coordina el trabajo con especialistas técnicos independientes."
     },
     "notice": "Este contenido tiene fines informativos generales y no sustituye la evaluación jurídica de un caso concreto. La estrategia de defensa y las actuaciones procedimentales deben definirse según los hechos, la jurisdicción y la etapa procesal correspondiente.",
     "cta": {
@@ -1556,48 +1560,48 @@
     }
   },
   "consultoria_preventiva": {
-    "breadcrumb": "Servicios / Consultoría Jurídica Preventiva",
-    "h1": "Consultoría Jurídica Preventiva",
-    "subtitle": "Identificación, evaluación y gestión de riesgos legales antes de que se conviertan en conflictos o responsabilidades.",
-    "intro_p_1": "La prevención jurídica permite identificar riesgos antes de que se conviertan en conflictos, sanciones, responsabilidades o procedimientos judiciales. Una decisión empresarial o profesional puede producir consecuencias jurídicas que, cuando no son evaluadas oportunamente, pueden generar costos económicos, operativos y reputacionales considerablemente mayores.",
-    "intro_p_2": "En Mac Consultores Jurídicos & Asociados ofrecemos consultoría jurídica preventiva orientada a identificar, evaluar y gestionar riesgos legales, acompañando a empresas, empresarios, administradores y particulares en la toma de decisiones que puedan tener consecuencias jurídicas relevantes.",
+    "breadcrumb": "Servicios / Consultoría jurídica preventiva",
+    "h1": "Consultoría jurídica preventiva",
+    "subtitle": "Identificación, evaluación y gestión de riesgos jurídicos en decisiones y operaciones.",
+    "intro_p_1": "La revisión preventiva permite identificar cuestiones jurídicas antes de adoptar decisiones, ejecutar operaciones o formalizar relaciones contractuales. Esa evaluación puede ayudar a comprender obligaciones, restricciones y riesgos asociados a cada asunto.",
+    "intro_p_2": "MAC Consultores Jurídicos & Asociados asesora a empresas, directivos y particulares en la identificación y evaluación de riesgos jurídicos, así como en la revisión de medidas, documentos y procesos internos.",
     "areas": {
-      "tag": "Áreas de intervención",
+      "tag": "ÁREAS DE INTERVENCIÓN",
       "title": "Gestión preventiva del riesgo jurídico",
-      "intro": "Nuestra intervención se estructura en seis ámbitos complementarios, cuya relevancia concreta depende de la naturaleza de la organización, sus operaciones y el marco jurídico aplicable.",
+      "intro": "La consultoría puede involucrar distintos ámbitos, según la organización, sus operaciones y el marco jurídico aplicable.",
       "risk_management": {
         "title": "Gestión del riesgo jurídico",
-        "desc": "La gestión preventiva comienza con la identificación de las situaciones que pueden generar exposición legal. Analizamos operaciones, decisiones, relaciones contractuales, estructuras organizativas y procedimientos internos con el propósito de determinar los riesgos jurídicos existentes, su posible impacto y las alternativas disponibles para reducirlos."
+        "desc": "Análisis de operaciones, decisiones, relaciones contractuales, estructuras organizativas y procedimientos internos para identificar riesgos jurídicos, su posible impacto y las opciones disponibles para gestionarlos."
       },
       "compliance": {
         "title": "Compliance y cumplimiento normativo",
-        "desc": "El cumplimiento normativo constituye un componente esencial de la prevención jurídica, especialmente dentro de organizaciones que desarrollan actividades sujetas a obligaciones legales y regulatorias. Asesoramos en la identificación de obligaciones aplicables, revisión de procedimientos y evaluación de mecanismos internos destinados a favorecer el cumplimiento de la normativa correspondiente."
+        "desc": "Identificación de obligaciones aplicables, revisión de procedimientos y evaluación de mecanismos internos que puedan contribuir al cumplimiento de los requerimientos legales y regulatorios correspondientes."
       },
       "penal_risk": {
-        "title": "Prevención del riesgo penal",
-        "desc": "Una organización puede quedar expuesta a contingencias penales como consecuencia de determinadas decisiones, operaciones o actuaciones individuales desarrolladas dentro de su estructura. La consultoría preventiva permite identificar posibles escenarios de responsabilidad y evaluar jurídicamente los mecanismos destinados a reducir dicha exposición."
+        "title": "Riesgo penal corporativo",
+        "desc": "Evaluación de decisiones, operaciones o actuaciones que puedan generar exposición penal para una organización, sus administradores o las personas que intervienen en su actividad."
       },
       "contractual": {
-        "title": "Estructuración y revisión contractual",
-        "desc": "Los contratos constituyen uno de los principales instrumentos para distribuir derechos, obligaciones y riesgos entre las partes. Prestamos asesoramiento en la revisión, análisis y estructuración jurídica de relaciones contractuales, procurando identificar cláusulas, obligaciones o escenarios que puedan generar contingencias posteriores."
+        "title": "Revisión y estructuración contractual",
+        "desc": "Revisión de contratos, cláusulas, obligaciones y mecanismos de distribución de riesgos en relaciones comerciales, corporativas o profesionales."
       },
       "governance": {
         "title": "Gobernanza corporativa",
-        "desc": "Una estructura organizativa adecuadamente definida contribuye a delimitar funciones, responsabilidades y procesos de toma de decisiones. Asesoramos en cuestiones jurídicas relacionadas con la gobernanza corporativa, particularmente en la definición y revisión de responsabilidades, mecanismos de decisión y estructuras internas que permitan reducir incertidumbres y mejorar la gestión jurídica de la organización."
+        "desc": "Asesoría sobre funciones, responsabilidades, procesos de decisión y estructuras internas que puedan requerir revisión desde una perspectiva jurídica."
       },
       "operations": {
         "title": "Evaluación jurídica de operaciones",
-        "desc": "Antes de ejecutar una operación relevante, resulta conveniente determinar sus posibles implicaciones jurídicas. Realizamos análisis preventivos destinados a identificar obligaciones, restricciones, riesgos y contingencias asociados con determinadas decisiones u operaciones, proporcionando al cliente elementos jurídicos para valorar las alternativas disponibles."
+        "desc": "Análisis preventivo de obligaciones, restricciones, riesgos y contingencias vinculados con operaciones o decisiones relevantes antes de su ejecución."
       },
       "methodology": {
         "title": "Metodología preventiva",
-        "desc": "Nuestra consultoría se estructura sobre cuatro etapas fundamentales: identificación (determinación de los hechos, operaciones o estructuras que pueden generar exposición jurídica), evaluación (análisis de la naturaleza, alcance e impacto potencial de los riesgos identificados), prevención (determinación de medidas jurídicas destinadas a reducir o controlar la exposición) y acompañamiento (asesoramiento durante la implementación y seguimiento de las decisiones adoptadas)."
+        "desc": "La consultoría puede incluir la identificación de hechos relevantes, la evaluación de riesgos, la revisión de medidas disponibles y el acompañamiento en la implementación de decisiones."
       }
     },
     "value": {
-      "title": "Anticiparse al conflicto",
-      "p_1": "La consultoría jurídica preventiva convierte al Derecho en una herramienta de gestión y toma de decisiones, no únicamente en un mecanismo de respuesta frente al conflicto.",
-      "p_2": "En Mac Consultores Jurídicos & Asociados acompañamos a nuestros clientes en la identificación temprana de riesgos y en la construcción de estructuras jurídicas orientadas a proporcionar mayor seguridad en sus decisiones, operaciones y relaciones profesionales o empresariales."
+      "title": "Prevención y toma de decisiones",
+      "p_1": "La consultoría jurídica preventiva incorpora el análisis legal a la gestión y a la toma de decisiones, antes de que una situación requiera una respuesta contenciosa o administrativa.",
+      "p_2": "La firma apoya la revisión de riesgos, documentación, estructuras y decisiones para que empresas y particulares cuenten con información jurídica relevante al evaluar sus opciones."
     },
     "notice": "Este contenido tiene fines informativos generales y no sustituye la evaluación jurídica de un caso concreto. La estrategia preventiva y las actuaciones procedimentales deben definirse según los hechos, la jurisdicción y la etapa correspondiente.",
     "cta": {

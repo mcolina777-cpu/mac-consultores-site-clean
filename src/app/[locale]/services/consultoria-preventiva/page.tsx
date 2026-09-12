@@ -8,12 +8,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const isEs = locale === 'es';
 
   const title = isEs
-    ? 'Consultoría Jurídica Preventiva | Mac Consultores'
-    : 'Preventive Legal Consulting | Mac Consultores';
+    ? 'Consultoría jurídica preventiva | Mac Consultores Jurídicos'
+    : 'Preventive legal consulting | Mac Consultores Jurídicos';
 
   const description = isEs
-    ? 'Diseño de programas de cumplimiento normativo, gobernanza corporativa, auditoría de riesgos penales y blindaje contractual preventivo en Venezuela.'
-    : 'Corporate compliance design, corporate governance, criminal risk audits, and preventive contractual safeguards in Venezuela.';
+    ? 'Evaluación de riesgos jurídicos, compliance, gobernanza corporativa y revisión contractual para empresas y directivos en Venezuela.'
+    : 'Legal-risk assessment, compliance, corporate governance, and contract review for companies and executives in Venezuela.';
 
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/consultoria-preventiva`;
   const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/services/consultoria-preventiva';
@@ -202,8 +202,8 @@ export default async function ServicesConsultoriaPreventiva({ params }: { params
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“La prevención jurídica eficaz comienza antes de que una contingencia se transforme en un conflicto.”'
-                : '“Effective legal prevention begins before a contingency becomes a conflict.”'}
+                ? 'La prevención jurídica comienza con la revisión de los hechos, los riesgos y las decisiones disponibles.'
+                : 'Legal prevention begins with reviewing the facts, risks, and available decisions.'}
             </h3>
 
             <p
@@ -211,8 +211,8 @@ export default async function ServicesConsultoriaPreventiva({ params }: { params
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
             >
               {isEs
-                ? 'Mac Consultores Jurídicos & Asociados acompaña a empresas, directivos y particulares en la identificación de riesgos, toma de decisiones y estructuración de medidas jurídicas preventivas.'
-                : 'Mac Consultores Jurídicos & Asociados advises companies, executives, and individuals in risk identification, decision-making, and the structuring of preventive legal measures.'}
+                ? 'MAC Consultores Jurídicos & Asociados asesora a empresas, directivos y particulares en la evaluación de riesgos, la revisión de decisiones y la preparación de medidas jurídicas preventivas.'
+                : 'MAC Consultores Jurídicos & Asociados advises companies, executives, and individuals on risk assessment, decision review, and the preparation of preventive legal measures.'}
             </p>
 
             <div

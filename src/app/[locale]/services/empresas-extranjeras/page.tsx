@@ -14,12 +14,12 @@ export async function generateMetadata({ params }: Props) {
   const data = dict?.empresas_extranjeras?.seo;
 
   const title = data?.title || (isEs 
-    ? 'Servicios Jurídicos para Empresas Extranjeras en Venezuela | Mac Consultores Jurídicos'
-    : 'Legal Services for Foreign Companies in Venezuela | Mac Consultores Jurídicos');
+    ? 'Servicios jurídicos para empresas extranjeras en Venezuela | Mac Consultores Jurídicos'
+    : 'Legal services for foreign companies in Venezuela | Mac Consultores Jurídicos');
   
   const description = data?.description || (isEs
-    ? 'Asesoría jurídica directa, evaluación de riesgos, opiniones doctrinales y representación local en Venezuela para corporaciones extranjeras, departamentos legales e inversionistas.'
-    : 'Direct legal advisory, corporate risk assessments, formal legal opinions, and domestic representation in Venezuela for foreign corporations, legal departments, and international investors.');
+    ? 'Asesoría local en asuntos corporativos, regulatorios, documentales y procesales para empresas extranjeras con intereses en Venezuela.'
+    : 'Local legal advice on corporate, regulatory, documentary, and procedural matters for foreign companies with interests in Venezuela.');
 
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services/empresas-extranjeras`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/services/empresas-extranjeras`;
@@ -121,9 +121,9 @@ export default async function EmpresasExtranjerasService({ params }: Props) {
               {data?.section_3?.intro}
             </p>
             <ul className="service-list mb-2rem">
-              {data?.section_3?.items?.map((item: { label: string; desc: string }, index: number) => (
+              {data?.section_3?.items?.map((item: { label?: string; title?: string; desc: string }, index: number) => (
                 <li key={index}>
-                  <strong>{item.label}</strong>{' '}
+                  <strong>{item.title || item.label}</strong>{' '}
                   {item.desc}
                 </li>
               ))}
