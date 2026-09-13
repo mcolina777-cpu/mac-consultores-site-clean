@@ -162,7 +162,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
         </div>
       </section>
 
-      {/* BLOQUE 2: ASUNTOS PATRIMONIALES Y DOCUMENTACIÓN JURÍDICA (2 TARJETAS) */}
+      {/* BLOQUE 2: ASUNTOS PATRIMONIALES Y DOCUMENTACIÓN JURÍDICA (3 TARJETAS) */}
       <section className="section-padding-asym">
         <div className="container">
           <div className="section-header text-left mb-3rem">
@@ -175,7 +175,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
               {dict?.tramites_consulares?.bloque_2?.intro}
             </p>
           </div>
-          <div className="grid-2">
+          <div className="grid-3">
             {/* T4: Poderes y Mandatos Estratégicos */}
             <Link href={getRoute(locale, "consular.poderes_y_mandatos")} className="card">
               <span className="section-tag">{dict?.tramites_consulares?.bloque_2?.card_1?.tag || "04"}</span>
@@ -197,6 +197,18 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
               </p>
               <span className="card-link">
                 {dict?.tramites_consulares?.bloque_2?.card_2?.link || (isEs ? "VER DETALLES →" : "VIEW DETAILS →")}
+              </span>
+            </Link>
+
+            {/* T6: Materia Energética y Regulatoria */}
+            <Link href={getRoute(locale, "consular.materia_energetica")} className="card">
+              <span className="section-tag">{dict?.tramites_consulares?.bloque_2?.card_3?.tag || "06"}</span>
+              <h3>{dict?.tramites_consulares?.bloque_2?.card_3?.title}</h3>
+              <p className="card-editorial-text">
+                {dict?.tramites_consulares?.bloque_2?.card_3?.desc}
+              </p>
+              <span className="card-link">
+                {dict?.tramites_consulares?.bloque_2?.card_3?.link || (isEs ? "VER DETALLES →" : "VIEW DETAILS →")}
               </span>
             </Link>
           </div>
