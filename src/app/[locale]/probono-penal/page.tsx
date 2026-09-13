@@ -142,7 +142,7 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
               <p className="text-sm text-muted mb-0-75rem" style={{ lineHeight: 1.6 }}>
                 {isEs
                   ? 'El Programa Pro Bono ofrece orientación jurídica inicial de carácter técnico y documental. No incluye litigación, audiencias, comparecencias ante tribunales o el Ministerio Público, representación judicial, patrocinio ni seguimiento procesal.'
-                  : 'The Pro Bono Program provides preliminary technical and documentary legal guidance. It does not include litigation, hearings, appearances before courts or prosecutors, judicial representation, legal sponsorship, or procedural monitoring.'}
+                  : 'The Pro Bono Program provides preliminary technical and documentary legal guidance. It does not include litigation, hearings, appearances before courts or prosecutors, legal representation, courtroom advocacy, or procedural monitoring.'}
               </p>
               <p className="text-sm text-muted mb-0" style={{ lineHeight: 1.6 }}>
                 {isEs

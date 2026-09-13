@@ -378,7 +378,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                     <p className="mb-0 text-muted">
                       {isEs
                         ? 'Las solicitudes Pro Bono no incluyen litigación, audiencias, comparecencias, representación judicial, patrocinio ni seguimiento procesal. En asuntos vinculados con una denuncia penal, cualquier orientación o apoyo documental estará sujeto al alcance definido por la firma y, cuando corresponda, a un máximo de dos (2) folios. Las actuaciones de representación privada requieren un poder de representación previamente analizado y redactado para el caso concreto.'
-                        : 'Pro Bono applications do not include litigation, hearings, appearances, judicial representation, legal sponsorship, or procedural monitoring. For matters involving a criminal complaint, any guidance or documentary support will be subject to the scope defined by the firm and, where applicable, to a maximum of two (2) pages. Private representation matters require a power of attorney previously reviewed and drafted for the specific matter.'}
+                        : 'Pro Bono applications do not include litigation, hearings, appearances, legal representation, courtroom advocacy, or procedural monitoring. For matters involving a criminal complaint, any guidance or documentary support will be subject to the scope defined by the firm and, where applicable, to a maximum of two (2) pages. Private representation matters require a power of attorney previously reviewed and drafted for the specific matter.'}
                     </p>
                   </div>
 

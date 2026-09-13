@@ -40,7 +40,7 @@
       "label_desc": "Brief description of inquiry",
       "placeholder_desc": "Describe briefly and objectively the reason for your inquiry (maximum 500 characters).",
       "hint_admin": "This channel is not authorized to issue legal criteria or indicate what you should do in your specific case. Its purpose is exclusively administrative: to collect basic information to evaluate the relevance of a professional consultation subject to fees.",
-      "hint_fees": "Every professional consultation is subject to fees, which may be billed hourly or according to the scope of the engagement. For any representation actions (e.g., filing complaints or lawsuits, managing consular procedures, or appearances on your behalf), it is essential to grant a power of attorney previously analyzed and drafted in a personalized manner for your case.",
+      "hint_fees": "Every professional consultation is subject to fees, which may be billed hourly or according to the scope of the engagement. For any representation actions (e.g., filing criminal reports or formal criminal complaints, managing consular procedures, or appearances on your behalf), it is essential to grant a power of attorney previously analyzed and drafted in a personalized manner for your case.",
       "hint_relation": "Communications sent through this form do not, by themselves, constitute an attorney-client relationship, do not imply acceptance of the matter, and do not create an obligation of representation by the firm.",
       "btn": "SUBMIT REQUEST FOR ADMISSION",
       "success": "Your admission request has been registered. The firm will assess the information provided and, where appropriate, contact you to coordinate a private professional consultation or communicate the outcome of your application within the Pro Bono Program.",
@@ -788,21 +788,21 @@
       "og_description": "Local legal advice and coordination for clients abroad with documents, powers of attorney, property, and matters related to Venezuela."
     },
     "index": {
-      "title": "Mac Legal Consultants & Associates | Legal Excellence",
+      "title": "Mac Consultores Jurídicos & Asociados | Legal Excellence",
       "description": "Boutique law firm in Caracas specialized in highly complex criminal litigation, constitutional law, and preventive corporate compliance at a national and international level.",
-      "og_title": "Mac Legal Consultants & Associates | Legal Excellence",
+      "og_title": "Mac Consultores Jurídicos & Asociados | Legal Excellence",
       "og_description": "Boutique law firm in Caracas specialized in highly complex criminal litigation, constitutional law, and corporate compliance."
     },
     "quienes_somos": {
-      "title": "The Firm | Mac Legal Consultants",
-      "description": "Learn about the history, values, and the team of professionals behind Mac Legal Consultants & Associates. Dedicated to the impeccable practice of Law in Venezuela.",
-      "og_title": "The Firm | Mac Legal Consultants",
-      "og_description": "Learn about the history, values, and team behind Mac Legal Consultants & Associates."
+      "title": "The Firm | Mac Consultores Jurídicos & Asociados",
+      "description": "Learn about the history, values, and the team of professionals behind Mac Consultores Jurídicos & Asociados. Dedicated to the impeccable practice of Law in Venezuela.",
+      "og_title": "The Firm | Mac Consultores Jurídicos & Asociados",
+      "og_description": "Learn about the history, values, and team behind Mac Consultores Jurídicos & Asociados."
     },
     "noticias": {
-      "title": "News & Legal Updates | Mac Consultants",
+      "title": "News & Legal Updates | Mac Consultores",
       "description": "Stay informed with the latest legal bulletins, landmark rulings, criminal reforms, and expert opinions from our firm.",
-      "og_title": "Legal Updates and News | Mac Consultants",
+      "og_title": "Legal Updates and News | Mac Consultores",
       "og_description": "Latest news, landmark rulings, and legal analysis from our experts in Venezuelan and international law."
     },
     "blog_regimen_poderes_cpc_copp": {
@@ -818,9 +818,9 @@
       "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
     },
     "servicios": {
-      "title": "Practice Areas and Services | Mac Consultants",
+      "title": "Practice Areas and Services | Mac Consultores",
       "description": "Legal services in corporate criminal law, constitutional protection, preventive compliance, cybercrimes, and international legal practice in Venezuela.",
-      "og_title": "Specialized Legal Services | Mac Consultants",
+      "og_title": "Specialized Legal Services | Mac Consultores",
       "og_description": "Corporate criminal law, constitutional protection, preventive compliance, and international legal practice in Venezuela."
     },
     "colaboracion_internacional": {
@@ -1890,7 +1890,7 @@
     "limits_p1": "Mac Consultores Jurídicos & Asociados will handle one (1) to two (2) pro bono matters per month. Program existence does not grant automatic admission rights; each case is evaluated individually.",
     "no_litigation_title": "WE DO NOT LITIGATE UNDER THE PRO BONO PROGRAM",
     "no_litigation_desc": "The program strictly excludes litigation, court appearances, continuous procedural representation, and hearings before prosecutors or courts. Scope is strictly documentary and orientational.",
-    "denuncias_limit": "Special limit for formal criminal complaints: Advisory drafts are subject to a strict maximum length of TWO (2) PAGES.",
+    "denuncias_limit": "Special limit for formal criminal complaints: Documentary guidance is subject to a strict maximum length of TWO (2) PAGES.",
     "articles_main_title": "Program Regulations & Bylaws",
     "articles": [
       {
@@ -1940,7 +1940,7 @@
       },
       {
         "num": "ARTICLE 10",
-        "title": "COMPLAINT DRAFTS",
+        "title": "DOCUMENTARY GUIDANCE ON CRIMINAL COMPLAINTS",
         "content": "Guidance on formal criminal complaints is limited to a maximum of TWO (2) PAGES. The firm does not undertake endless revisions or appeals."
       },
       {
