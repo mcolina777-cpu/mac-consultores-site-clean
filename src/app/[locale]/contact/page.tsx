@@ -277,6 +277,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                     name="_subject"
                     value="Nueva solicitud de admisión web"
                   />
+                  <input type="hidden" name="_template" value="table" />
                   <input
                     type="text"
                     name="_honey"
