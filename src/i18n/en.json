@@ -375,7 +375,12 @@
         },
         "corporate": {
           "title": "Economic and corporate crime",
-          "desc": "Advice on matters connected with business activity, property or financial offenses, and criminal liability associated with corporate decisions or operations."
+          "desc": "Advice on matters connected with business activity, property or financial offenses, and criminal liability associated with corporate decisions or operations.",
+          "guide": {
+            "tag": "Complementary technical reading",
+            "desc": "Legal criteria for organizing, preserving, and evaluating documentary and digital evidence for corporate criminal defense.",
+            "link": "VIEW CORPORATE DEFENSE DOCUMENTATION CHECKLIST →"
+          }
         },
         "laundering": {
           "title": "Money laundering",

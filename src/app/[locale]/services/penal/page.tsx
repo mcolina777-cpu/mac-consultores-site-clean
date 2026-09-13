@@ -128,6 +128,40 @@ export default async function ServicesPenal({ params }: Props) {
               <p className="text-left max-w-100" style={paragraphStyle}>
                 {data?.areas?.corporate?.desc}
               </p>
+              <div
+                style={{
+                  marginTop: '1.25rem',
+                  paddingLeft: '1.25rem',
+                  borderLeft: '2px solid var(--accent, #990000)',
+                }}
+              >
+                <span
+                  className="section-tag"
+                  style={{
+                    marginBottom: '0.5rem',
+                    fontSize: '0.75rem',
+                  }}
+                >
+                  {data?.areas?.corporate?.guide?.tag || (isEs ? 'Lectura técnica complementaria' : 'Complementary technical reading')}
+                </span>
+                <p
+                  className="text-left max-w-100"
+                  style={{
+                    lineHeight: 1.6,
+                    fontSize: '0.95rem',
+                    color: 'var(--text-muted, #4b5563)',
+                    marginBottom: '0.75rem',
+                  }}
+                >
+                  {data?.areas?.corporate?.guide?.desc}
+                </p>
+                <Link
+                  href={getRoute(locale, 'resources.defense_documentation')}
+                  className="card-link"
+                >
+                  {data?.areas?.corporate?.guide?.link || (isEs ? 'CONSULTAR CHECKLIST DOCUMENTAL CORPORATIVO →' : 'VIEW CORPORATE DEFENSE DOCUMENTATION CHECKLIST →')}
+                </Link>
+              </div>
             </article>
 
             <article className="mb-3rem">

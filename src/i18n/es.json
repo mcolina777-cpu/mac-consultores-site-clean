@@ -375,7 +375,12 @@
         },
         "corporate": {
           "title": "Criminalidad económica y corporativa",
-          "desc": "Asesoría en asuntos vinculados con actividad empresarial, delitos patrimoniales o financieros y responsabilidad penal asociada con decisiones u operaciones corporativas."
+          "desc": "Asesoría en asuntos vinculados con actividad empresarial, delitos patrimoniales o financieros y responsabilidad penal asociada con decisiones u operaciones corporativas.",
+          "guide": {
+            "tag": "Lectura técnica complementaria",
+            "desc": "Criterios jurídicos para organizar, preservar y valorar evidencia documental y digital ante una investigación penal empresarial.",
+            "link": "CONSULTAR CHECKLIST DOCUMENTAL CORPORATIVO →"
+          }
         },
         "laundering": {
           "title": "Legitimación de capitales",
