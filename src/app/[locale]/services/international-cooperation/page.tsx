@@ -80,6 +80,40 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
               <h2 className="serif section-title mb-1-5rem">{data?.intro?.title}</h2>
               <p className="text-left max-w-100 mb-1rem">{data?.intro?.p1}</p>
               <p className="text-left max-w-100 mb-2rem">{data?.intro?.p2}</p>
+              <div
+                style={{
+                  marginTop: '1.25rem',
+                  paddingLeft: '1.25rem',
+                  borderLeft: '2px solid var(--accent, #990000)',
+                }}
+              >
+                <span
+                  className="section-tag"
+                  style={{
+                    marginBottom: '0.5rem',
+                    fontSize: '0.75rem',
+                  }}
+                >
+                  {data?.intro?.guide?.tag || (isEs ? 'Lectura técnica complementaria' : 'Complementary technical reading')}
+                </span>
+                <p
+                  className="text-left max-w-100"
+                  style={{
+                    lineHeight: 1.6,
+                    fontSize: '0.95rem',
+                    color: 'var(--text-muted, #4b5563)',
+                    marginBottom: '0.75rem',
+                  }}
+                >
+                  {data?.intro?.guide?.desc}
+                </p>
+                <Link
+                  href={getRoute(locale, 'resources.international_legal_services')}
+                  className="card-link"
+                >
+                  {data?.intro?.guide?.link || (isEs ? 'CONSULTAR GUÍA DE CONTRATACIÓN INTERNACIONAL →' : 'VIEW INTERNATIONAL ENGAGEMENTS GUIDE →')}
+                </Link>
+              </div>
             </div>
             <div className="img-reveal">
               <picture>

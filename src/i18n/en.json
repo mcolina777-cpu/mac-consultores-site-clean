@@ -574,7 +574,12 @@
       "tag": "B2B COLLABORATION",
       "title": "A local legal extension of your team",
       "p1": "International law firms and legal departments may require analysis, coordination, or local assistance in matters connected with Venezuela. The firm provides knowledge of the Venezuelan legal framework and support according to the scope defined for each engagement.",
-      "p2": "Collaboration is organized with attention to confidentiality, allocation of functions, and coordination with the principal legal team. The scope of work is defined according to the needs of the matter and the instructions received."
+      "p2": "Collaboration is organized with attention to confidentiality, allocation of functions, and coordination with the principal legal team. The scope of work is defined according to the needs of the matter and the instructions received.",
+      "guide": {
+        "tag": "Complementary technical reading",
+        "desc": "Legal criteria for structuring cross-border engagements with clear scope, sound coordination, and sensitive information protection.",
+        "link": "VIEW INTERNATIONAL ENGAGEMENTS GUIDE →"
+      }
     },
     "proposal": {
       "tag": "COLLABORATION FRAMEWORK",

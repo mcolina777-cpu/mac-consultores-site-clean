@@ -574,7 +574,12 @@
       "tag": "COLABORACIÓN B2B",
       "title": "Una extensión jurídica local para su equipo",
       "p1": "Las firmas de abogados y los departamentos legales internacionales pueden requerir análisis, coordinación o asistencia local en asuntos vinculados con Venezuela. La firma aporta conocimiento del marco jurídico venezolano y apoyo según el alcance definido para cada encargo.",
-      "p2": "La colaboración se organiza con atención a la confidencialidad, la distribución de funciones y la coordinación con el equipo jurídico principal. El alcance de la intervención se define de acuerdo con las necesidades del asunto y las instrucciones recibidas."
+      "p2": "La colaboración se organiza con atención a la confidencialidad, la distribución de funciones y la coordinación con el equipo jurídico principal. El alcance de la intervención se define de acuerdo con las necesidades del asunto y las instrucciones recibidas.",
+      "guide": {
+        "tag": "Lectura técnica complementaria",
+        "desc": "Criterios jurídicos para estructurar encargos transfronterizos con alcance definido, coordinación adecuada y protección de información.",
+        "link": "CONSULTAR GUÍA DE CONTRATACIÓN INTERNACIONAL →"
+      }
     },
     "proposal": {
       "tag": "MODELO DE COLABORACIÓN",
