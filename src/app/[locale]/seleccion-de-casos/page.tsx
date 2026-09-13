@@ -19,9 +19,11 @@ export async function generateMetadata({ params }: Props) {
     ? 'Metodología rigurosa de admisión de casos y evaluación de viabilidad dogmática, fáctica y probatoria en litigios complejos en Venezuela.'
     : 'Rigorous case intake methodology and doctrinal, factual, and evidentiary feasibility evaluation for complex litigation in Venezuela.';
 
-  const url = `https://mac-consultores-site-clean.vercel.app/${locale}/seleccion-de-casos`;
-  const esUrl = `https://mac-consultores-site-clean.vercel.app/es/seleccion-de-casos`;
-  const enUrl = `https://mac-consultores-site-clean.vercel.app/en/seleccion-de-casos`;
+  const url = isEs
+    ? 'https://mac-consultores-site-clean.vercel.app/es/seleccion-de-casos'
+    : 'https://mac-consultores-site-clean.vercel.app/en/case-selection';
+  const esUrl = 'https://mac-consultores-site-clean.vercel.app/es/seleccion-de-casos';
+  const enUrl = 'https://mac-consultores-site-clean.vercel.app/en/case-selection';
 
   return {
     title,

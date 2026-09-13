@@ -6,15 +6,42 @@ import { getRoute } from '@/lib/routes';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  const isEs = locale === 'es';
+  const title = dict?.pro_bono_penal?.seo_title;
+  const description = dict?.pro_bono_penal?.seo_desc;
+  const canonical = `https://mac-consultores-site-clean.vercel.app/${locale}/probono-penal`;
+
   return {
-    title: dict?.pro_bono_penal?.seo_title,
-    description: dict?.pro_bono_penal?.seo_desc,
+    title,
+    description,
     alternates: {
-      // AJUSTE SEO TEMPORAL:
-      // Durante la etapa de desarrollo, los canonicals utilizan
-      // el dominio de Vercel. El dominio permanente se configurará
-      // únicamente al finalizar y publicar el website.
-      canonical: `https://mac-consultores-site-clean.vercel.app/${locale}/probono-penal`,
+      canonical,
+      languages: {
+        es: 'https://mac-consultores-site-clean.vercel.app/es/probono-penal',
+        en: 'https://mac-consultores-site-clean.vercel.app/en/probono-penal',
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: '/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/img/logo-mac-og.jpg'],
     },
   };
 }

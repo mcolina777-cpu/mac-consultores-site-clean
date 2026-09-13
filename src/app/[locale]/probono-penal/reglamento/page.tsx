@@ -12,16 +12,39 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const description = isEs
     ? 'Condiciones de funcionamiento, admisión, evaluación y alcance del Programa Pro Bono de Mac Consultores Jurídicos & Asociados.'
     : 'Operating conditions, admission, evaluation, and scope of the Pro Bono Program at Mac Consultores Jurídicos & Asociados.';
+  const canonical = `https://mac-consultores-site-clean.vercel.app/${locale}/probono-penal/reglamento`;
 
   return {
     title,
     description,
     alternates: {
-      // AJUSTE SEO TEMPORAL:
-      // Durante la etapa de desarrollo, los canonicals utilizan
-      // el dominio de Vercel. El dominio permanente se configurará
-      // únicamente al finalizar y publicar el website.
-      canonical: `https://mac-consultores-site-clean.vercel.app/${locale}/probono-penal/reglamento`,
+      canonical,
+      languages: {
+        es: 'https://mac-consultores-site-clean.vercel.app/es/probono-penal/reglamento',
+        en: 'https://mac-consultores-site-clean.vercel.app/en/probono-penal/reglamento',
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: '/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/img/logo-mac-og.jpg'],
     },
   };
 }
