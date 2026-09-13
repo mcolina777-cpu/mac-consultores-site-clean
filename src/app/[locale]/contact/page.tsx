@@ -277,13 +277,22 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                     name="_subject"
                     value="Nueva solicitud de admisión web"
                   />
+                  <input
+                    type="text"
+                    name="_honey"
+                    tabIndex={-1}
+                    autoComplete="off"
+                    aria-hidden="true"
+                    style={{ display: 'none' }}
+                  />
 
                   <div className="grid-2 form-grid-mobile mb-1rem gap-20px">
                     <div className="form-group">
-                      <label className="form-label">
+                      <label htmlFor="contact_nombre" className="form-label">
                         {dict?.contacto?.form?.label_name}
                       </label>
                       <input
+                        id="contact_nombre"
                         className="form-input"
                         type="text"
                         name="nombre"
@@ -292,10 +301,11 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                       />
                     </div>
                     <div className="form-group">
-                      <label className="form-label">
+                      <label htmlFor="contact_email" className="form-label">
                         {dict?.contacto?.form?.label_email}
                       </label>
                       <input
+                        id="contact_email"
                         className="form-input"
                         type="email"
                         name="email"
@@ -306,10 +316,11 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                   </div>
 
                   <div className="form-group mb-1rem">
-                    <label className="form-label">
+                    <label htmlFor="contact_profesion" className="form-label">
                       {dict?.contacto?.form?.label_role}
                     </label>
                     <input
+                      id="contact_profesion"
                       className="form-input"
                       type="text"
                       name="profesion"
@@ -319,10 +330,11 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                   </div>
 
                   <div className="form-group mb-1rem">
-                    <label className="form-label">
+                    <label htmlFor="contact_pais" className="form-label">
                       {locale === 'es' ? 'País' : 'Country'}
                     </label>
                     <input
+                      id="contact_pais"
                       className="form-input"
                       type="text"
                       name="pais"
@@ -334,10 +346,11 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                   <ContactFormSelectors dict={dict} locale={locale} />
 
                   <div className="form-group mb-1-5rem">
-                    <label className="form-label">
+                    <label htmlFor="contact_descripcion" className="form-label">
                       {dict?.contacto?.form?.label_desc}
                     </label>
                     <textarea
+                      id="contact_descripcion"
                       className="form-textarea"
                       name="descripcion"
                       rows={4}

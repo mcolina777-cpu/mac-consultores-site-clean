@@ -64,10 +64,11 @@ export default function ContactFormSelectors({
           Los valores enviados por los selectores de Contacto corresponden
           al locale activo y no permanecen fijados en español. */}
       <div className="form-group mb-1-5rem">
-        <label className="form-label">
+        <label htmlFor="contact_motivo" className="form-label">
           {dict?.contacto?.form?.label_reason}
         </label>
         <select
+          id="contact_motivo"
           className="form-input font-inherit"
           name="motivo"
           required
@@ -144,10 +145,11 @@ export default function ContactFormSelectors({
 
       {isPenal ? (
         <div className="form-group mb-1-5rem">
-          <label className="form-label">
+          <label htmlFor="contact_naturaleza_penal" className="form-label">
             {dict?.contacto?.form?.label_penal}
           </label>
           <select
+            id="contact_naturaleza_penal"
             className="form-input font-inherit"
             name="naturaleza-penal"
             value={naturalezaPenal}
