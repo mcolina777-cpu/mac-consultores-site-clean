@@ -8,8 +8,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const isEs = locale === 'es';
   const title = isEs ? 'Áreas de Práctica y Servicios | Mac Consultores' : 'Practice Areas and Services | Mac Consultores';
   const description = isEs
-    ? 'Nuestros servicios legales incluyen: Derecho Penal, Constitucional, Compliance Corporativo, Extradiciones, y consultoría para particulares y corporaciones.'
-    : 'Our legal services include: Criminal Law, Constitutional Law, Corporate Compliance, Extraditions, and consulting for individuals and corporations.';
+    ? 'Servicios jurídicos en derecho penal corporativo, protección constitucional, consultoría preventiva, delitos informáticos y práctica internacional en Venezuela.'
+    : 'Legal services in corporate criminal law, constitutional protection, preventive compliance, cybercrimes, and international legal practice in Venezuela.';
 
   const url = `https://mac-consultores-site-clean.vercel.app/${locale}/services`;
   const esUrl = `https://mac-consultores-site-clean.vercel.app/es/services`;
