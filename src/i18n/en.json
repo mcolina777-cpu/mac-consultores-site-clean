@@ -1281,8 +1281,8 @@
     "breadcrumb": "Resources / Economic Criminal Risk",
     "h1": "5-Step Guide to Protect Your Company in Economic Criminal Investigations",
     "subtitle": "A practical and methodological tool to anticipate, document, and respond to corporate criminal risk scenarios.",
-    "intro_p_1": "Economic criminal investigations represent one of the most complex challenges for corporate governance, as they can simultaneously compromise corporate assets, business continuity, market reputation, and the direct personal liability of directors, officers, auditors, legal representatives, and employees.",
-    "intro_p_2": "An improvised, disorganized response or one lacking procedural rigor can exponentially worsen the legal contingency. Conversely, legally planned action makes it possible to neutralize vulnerabilities, preserve evidentiary traceability, ensure documentary legality, and consolidate a sound technical defense strategy from the earliest actions taken by the authority.",
+    "intro_p_1": "Economic criminal investigations may pose significant risks to business continuity, corporate information, reputation, and the legal standing of the individuals involved. The appropriate response depends on the facts, the applicable regulatory framework, the intervening authority, and the procedural stage.",
+    "intro_p_2": "This guide outlines general criteria for organization, information preservation, and initial assessment. It does not replace individualized legal counsel, nor does it prescribe specific actions for any concrete case. Organized and legally planned action can help identify risks, preserve relevant information, and structure an initial response with specialized counsel.",
     "protocol": {
       "tag": "Corporate Response and Governance Protocol",
       "title": "Five Methodological Response Phases",
@@ -1319,8 +1319,8 @@
         "subheading": "Safeguard and retention mechanism",
         "items": [
           "Physical and digital integrity: Prevent intentional or accidental loss, alteration, or destruction of records.",
-          "File immutability: Suspend automatic overwrite policies for corporate servers and backups.",
-          "Email and messaging preservation: Secure email inboxes, corporate messaging logs, and key communications.",
+          "File immutability: Suspend automatic overwrite policies for corporate servers and corporate backups.",
+          "Email and messaging preservation: Secure email inboxes, corporate messaging records, and key communications.",
           "Accounting and financial records: Freeze and back up bank statements, official accounting books, financial statements, and tax records in the ERP.",
           "Devices and cloud repositories: Preserve access to laptops and online platforms connected to the matter."
         ],
@@ -1328,8 +1328,8 @@
         "recommendation": {
           "title": "Technical Recommendation / Critical Control Point",
           "items": [
-            "Deleting or altering data during a criminal investigation may constitute independent obstruction-of-justice offenses.",
-            "Obtain forensic images of servers and hard drives in accordance with digital-forensics standards."
+            "Deleting, altering, or concealing information may lead to significant legal consequences, depending on the facts and applicable regulations.",
+            "Where appropriate, assess with legal counsel and digital forensics specialists the preservation of copies of relevant servers, devices, and repositories."
           ]
         }
       },
@@ -1342,14 +1342,14 @@
           "Documented timeline: Establish exact dates for each milestone, meeting, approval, monetary transfer, and execution of documents.",
           "Documentary traceability: Link every asserted fact to its corresponding auditable physical or digital evidentiary support.",
           "Structured internal interviews: Gather accounts from operational actors under confidentiality and with corporate legal assistance.",
-          "Gap analysis: Detect inconsistencies, information gaps, or contradictions between statements and records before they are identified by the opposing party or the prosecutor."
+          "Inconsistency identification (gap analysis): Detect information gaps or contradictions between statements and records before they are identified by the opposing party or the authority."
         ],
-        "closing": "A robust, verified factual narrative supported by evidence enables management to anticipate allegations, rebut prosecutorial theories, and raise well-grounded procedural objections.",
+        "closing": "Maintaining an orderly, verified factual narrative supported by evidence can facilitate the evaluation of available information, the identification of inconsistencies, and the preparation of a legal response aligned with the applicable procedural stage.",
         "recommendation": {
           "title": "Technical Recommendation / Critical Control Point",
           "items": [
-            "Create a “Facts vs. Evidence Matrix” to serve as a navigation map for litigation counsel.",
-            "Ensure that internal accounts do not conflict with declared accounting or tax data."
+            "Structure a chronological matrix of facts and supporting documentation to facilitate legal analysis.",
+            "Ensure that available information is documented consistently under legal coordination, avoiding discrepancies with declared accounting or tax records."
           ]
         }
       },
@@ -1361,30 +1361,30 @@
         "items": [
           "Contingency Management Committee: Composed exclusively of senior management, the compliance officer, and external criminal counsel.",
           "Single authorized spokesperson: Personnel without authorization must not respond to verbal or informal requests from authorities or the media.",
-          "Attorney-client privilege and confidentiality: Mark all analyses, preliminary reports, and opinions as protected by professional secrecy and attorney-client privilege.",
+          "Confidentiality and professional secrecy: Ensure that legal analyses and communications are managed in accordance with applicable rules of professional secrecy, confidentiality, and information protection.",
           "Instructions for operational personnel: Train reception staff, security personnel, and IT teams on how to respond to judicial notices or unannounced inspections."
         ],
         "closing": "",
         "recommendation": {
           "title": "Technical Recommendation / Critical Control Point",
           "items": [
-            "No employee should deliver original documents without preparing a formal record of delivery and receipt.",
-            "Establish a secure internal channel to prevent leaks that could harm the company’s reputation or compromise legal confidentiality."
+            "All document production must be channeled, documented, and evaluated in accordance with the formal request received and applicable legal advice.",
+            "Establish a secure internal channel to prevent leaks that could harm corporate reputation or compromise legal confidentiality."
           ]
         }
       },
       "step_5": {
         "tag": "Step 5",
         "title": "Engage specialized criminal counsel and define the procedural strategy",
-        "intro": "Economic criminal law requires highly specialized evidentiary and procedural analysis, combining corporate law, finance, and criminal litigation expertise. Early intervention by specialists can materially affect the outcome of the matter.",
+        "intro": "Early intervention by professionals experienced in criminal law and corporate matters allows for evaluating the situation, preserving relevant information, and considering available legal options according to the facts and procedural stage.",
         "subheading": "Strategic pillars of the technical defense",
         "items": [
-          "Demonstrating due diligence: Show that corporate conduct adhered to standards of good-faith business practice and regulatory compliance.",
-          "Active participation during the investigation: Request access to the case file, promote relevant investigative measures, and exercise formal oversight of the criminal investigation.",
-          "Precautionary measures and asset protection: Design immediate defenses against possible bank-account freezes, attachments, or prohibitions on disposal.",
-          "Remediation and institutional adjustment plan: Promptly implement internal corrective measures if operational failures or individual employee misconduct are identified."
+          "Assessment of policies and controls: Document, where appropriate, existing internal measures, processes, and compliance controls.",
+          "Actions during the investigation: Evaluate, with specialized counsel, the appropriate defense actions and legal mechanisms available.",
+          "Precautionary measures and asset preservation: Timely assess legal risks and mechanisms applicable in the event of measures affecting assets or operations.",
+          "Internal review and adjustments: Evaluate institutional corrective measures when operational or control weaknesses are identified."
         ],
-        "closing": "A comprehensive strategy seeks not only dismissal or termination of the criminal case, but also the full preservation of economic viability, corporate reputation, and the legal security of directors.",
+        "closing": "A coordinated response must be aimed at protecting rights, organizing relevant information, and conducting the defense within the applicable procedural rules.",
         "recommendation": {
           "title": "Technical Recommendation / Critical Control Point",
           "items": [
@@ -1409,7 +1409,7 @@
         },
         "row_2": {
           "phase": "2. Document preservation",
-          "actions": "Activate a legal hold, freeze databases, secure emails, and obtain forensic images.",
+          "actions": "Evaluate document preservation measures, communication safeguards, and retention of relevant information.",
           "responsible": "IT / Compliance Officer"
         },
         "row_3": {
@@ -1419,12 +1419,12 @@
         },
         "row_4": {
           "phase": "4. Centralization and spokesperson",
-          "actions": "Channel requests through the crisis committee and protect communications under professional secrecy.",
+          "actions": "Channel requests through the crisis committee and manage communications in accordance with applicable rules of confidentiality and professional secrecy.",
           "responsible": "Crisis Committee / Legal Spokesperson"
         },
         "row_5": {
           "phase": "5. Specialized criminal defense",
-          "actions": "Present exculpatory evidence, manage precautionary measures, and demonstrate compliance.",
+          "actions": "Evaluate defense actions, procedural risks, and documentation of compliance measures, as appropriate.",
           "responsible": "External Criminal Counsel / General Management"
         }
       }
