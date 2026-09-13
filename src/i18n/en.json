@@ -1585,7 +1585,12 @@
       },
       "penal_risk": {
         "title": "Corporate criminal-law risk",
-        "desc": "Assessment of decisions, operations, or conduct that may give rise to criminal-law exposure for an organization, its executives, or persons involved in its activities."
+        "desc": "Assessment of decisions, operations, or conduct that may give rise to criminal-law exposure for an organization, its executives, or persons involved in its activities.",
+        "guide": {
+          "tag": "Complementary technical reading",
+          "desc": "A five-phase practical guide to anticipate risks, preserve evidence, and structure an initial response to economic criminal investigations.",
+          "link": "VIEW CORPORATE CRIMINAL RISK GUIDE →"
+        }
       },
       "contractual": {
         "title": "Contract review and structuring",

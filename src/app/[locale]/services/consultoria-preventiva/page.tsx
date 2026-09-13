@@ -127,6 +127,40 @@ export default async function ServicesConsultoriaPreventiva({ params }: { params
               <p className="text-left max-w-100" style={paragraphStyle}>
                 {data?.areas?.penal_risk?.desc}
               </p>
+              <div
+                style={{
+                  marginTop: '1.25rem',
+                  paddingLeft: '1.25rem',
+                  borderLeft: '2px solid var(--accent, #990000)',
+                }}
+              >
+                <span
+                  className="section-tag"
+                  style={{
+                    marginBottom: '0.5rem',
+                    fontSize: '0.75rem',
+                  }}
+                >
+                  {data?.areas?.penal_risk?.guide?.tag || (isEs ? 'Lectura técnica complementaria' : 'Complementary technical reading')}
+                </span>
+                <p
+                  className="text-left max-w-100"
+                  style={{
+                    lineHeight: 1.6,
+                    fontSize: '0.95rem',
+                    color: 'var(--text-muted, #4b5563)',
+                    marginBottom: '0.75rem',
+                  }}
+                >
+                  {data?.areas?.penal_risk?.guide?.desc}
+                </p>
+                <Link
+                  href={getRoute(locale, 'resources.economic_criminal_risk')}
+                  className="card-link"
+                >
+                  {data?.areas?.penal_risk?.guide?.link || (isEs ? 'CONSULTAR GUÍA DE RIESGO PENAL CORPORATIVO →' : 'VIEW CORPORATE CRIMINAL RISK GUIDE →')}
+                </Link>
+              </div>
             </article>
 
             <article className="mb-3rem">

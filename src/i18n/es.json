@@ -1585,7 +1585,12 @@
       },
       "penal_risk": {
         "title": "Riesgo penal corporativo",
-        "desc": "Evaluación de decisiones, operaciones o actuaciones que puedan generar exposición penal para una organización, sus administradores o las personas que intervienen en su actividad."
+        "desc": "Evaluación de decisiones, operaciones o actuaciones que puedan generar exposición penal para una organización, sus administradores o las personas que intervienen en su actividad.",
+        "guide": {
+          "tag": "Lectura técnica complementaria",
+          "desc": "Guía práctica en cinco fases para anticipar riesgos, preservar evidencia y estructurar una respuesta inicial ante investigaciones penales económicas.",
+          "link": "CONSULTAR GUÍA DE RIESGO PENAL CORPORATIVO →"
+        }
       },
       "contractual": {
         "title": "Revisión y estructuración contractual",
