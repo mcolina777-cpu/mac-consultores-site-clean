@@ -1303,25 +1303,25 @@
           "Fase procedimental: Si se trata de una fiscalización previa, solicitud de información voluntaria, requerimiento coactivo o fase de investigación penal preparatoria formal.",
           "Sujetos involucrados: Individualización de directivos, empleados, personas jurídicas vinculadas o terceros proveedores potencialmente expuestos."
         ],
-        "closing": "No toda irregularidad formal, contingencia tributaria o disputa comercial califica como delito. La subsunción o calificación jurídica del hecho debe realizarse con estricto rigor técnico-penal antes de adoptar medidas que puedan autoincriminar a la organización o alterar la postura de defensa.",
+        "closing": "No toda irregularidad formal, contingencia tributaria o disputa comercial califica como delito. La posible calificación jurídica de los hechos requiere un análisis especializado conforme a las circunstancias concretas y la normativa aplicable.",
         "recommendation": {
           "title": "Recomendación técnica / Punto crítico de control",
           "items": [
-            "Evite emitir declaraciones preliminares ante autoridades o medios sin previa asesoría penal especializada.",
-            "Realice un diagnóstico de tipicidad penal, por ejemplo: legitimación de capitales, fraude o delitos fiscales, frente a meras infracciones administrativas."
+            "Antes de emitir declaraciones ante autoridades o medios, procure obtener asesoría jurídica especializada.",
+            "Evalúe, con asesoría especializada, la posible calificación jurídica de los hechos y la diferencia entre eventuales responsabilidades penales, administrativas o de otra naturaleza."
           ]
         }
       },
       "step_2": {
         "tag": "Paso 2",
         "title": "Preserve inmediatamente la documentación y evidencia digital",
-        "intro": "En materia penal económica, la prueba documental y electrónica constituye el núcleo para esclarecer los hechos y desvirtuar responsabilidades. Es imperativo asegurar una cadena de custodia sólida desde el primer instante.",
+        "intro": "En asuntos de posible relevancia penal económica, la información documental y electrónica puede ser relevante para comprender los hechos y evaluar las responsabilidades aplicables. Según el caso, puede ser necesario valorar medidas de preservación y trazabilidad de la información desde las primeras actuaciones.",
         "subheading": "Mecanismo de salvaguarda y retención",
         "items": [
           "Integridad física y digital: Prevenir la pérdida, alteración o destrucción intencional o accidental de expedientes.",
           "Inmutabilidad de archivos: Suspender políticas de sobreescritura automática de servidores y copias de seguridad corporativas.",
           "Custodia de correos y mensajería: Asegurar buzones electrónicos, registros de mensajería corporativa y comunicaciones clave.",
-          "Registros contables y financieros: Congelar y respaldar estados de cuenta, libros contables oficiales, balances y comprobantes fiscales (ERP).",
+          "Registros contables y financieros: Evaluar medidas de preservación y respaldo de estados de cuenta, libros contables, balances y comprobantes fiscales relevantes.",
           "Dispositivos y repositorios en la nube: Preservar accesos, computadores portátiles y plataformas en línea vinculadas a la gestión."
         ],
         "closing": "Conviene identificar, clasificar y salvaguardar contratos, facturas, soportes de pago, actas de asamblea y de junta directiva, informes de auditoría, autorizaciones y cualquier otro expediente relacionado con la operación objeto de examen.",
@@ -1336,13 +1336,13 @@
       "step_3": {
         "tag": "Paso 3",
         "title": "Establezca una línea de hechos y cronología verificable",
-        "intro": "La reconstrucción fáctica precisa es la columna vertebral de una defensa penal efectiva. No basta con recopilar documentos aislados; es indispensable ordenar temporal y causalmente cada actuación societaria.",
+        "intro": "La reconstrucción ordenada de los hechos puede ser relevante para comprender la situación y organizar la información disponible. La documentación debe evaluarse de acuerdo con sus características, su relación con los hechos y el contexto jurídico aplicable.",
         "subheading": "Metodología de reconstrucción fáctica",
         "items": [
           "Eje temporal documentado: Fijar fechas exactas de cada hito, reunión, aprobación, transferencia dineraria y suscripción de instrumentos.",
           "Trazabilidad documental: Vincular cada hecho afirmado con su respectivo soporte probatorio físico o digital auditable.",
-          "Entrevistas internas estructuradas: Recabar testimonios de los actores operativos bajo confidencialidad y asistencia legal corporativa.",
-          "Identificación de brechas (análisis de brechas): Detectar inconsistencias, vacíos de información o contradicciones entre testimonios y registros antes de que sean señalados por la contraparte o la fiscalía."
+          "Entrevistas internas estructuradas: Documentar información aportada por personas con conocimiento de los hechos, bajo coordinación jurídica y conforme a las reglas aplicables de confidencialidad.",
+          "Análisis de brechas: Identificar inconsistencias, vacíos de información o diferencias entre los registros disponibles para facilitar su evaluación jurídica y documental."
         ],
         "closing": "Contar con un relato fáctico ordenado, verificado y respaldado probatoriamente puede facilitar la evaluación de la información disponible, la identificación de inconsistencias y la preparación de una respuesta jurídica conforme a la situación procesal aplicable.",
         "recommendation": {
@@ -1356,13 +1356,13 @@
       "step_4": {
         "tag": "Paso 4",
         "title": "Centralice las comunicaciones y designe un equipo de respuesta",
-        "intro": "Durante una investigación penal, la dispersión de información y las declaraciones descoordinadas constituyen un factor de alto riesgo. Toda interacción institucional debe canalizarse a través de un comité de crisis debidamente investido.",
+        "intro": "Ante requerimientos o actuaciones que puedan tener relevancia penal, conviene definir canales claros para gestionar la información y las interacciones institucionales, conforme a las circunstancias y la asesoría jurídica aplicable.",
         "subheading": "Protocolo de comunicación y vocería",
         "items": [
           "Comité de Gestión de Contingencias: Integrado exclusivamente por la alta dirección, el oficial de cumplimiento y la asesoría penal externa.",
-          "Vocería única y autorizada: Prohibición expresa de que personal no autorizado atienda requerimientos verbales o informales de autoridades o medios.",
+          "Interlocución designada: Definir interlocutores autorizados y pautas internas para atender requerimientos o consultas de autoridades, medios u otros terceros.",
           "Confidencialidad y secreto profesional: procure que los análisis y comunicaciones jurídicas se gestionen conforme a las reglas aplicables de secreto profesional, confidencialidad y protección de información.",
-          "Instrucciones al personal operativo: Capacitar a recepcionistas, seguridad y TI sobre cómo proceder ante notificaciones judiciales o visitas inspectivas intempestivas."
+          "Instrucciones al personal operativo: Establecer pautas internas para recepcionistas, seguridad y equipos de tecnología ante notificaciones, requerimientos o visitas de autoridades."
         ],
         "closing": "",
         "recommendation": {
@@ -1388,7 +1388,7 @@
         "recommendation": {
           "title": "Recomendación técnica / Punto crítico de control",
           "items": [
-            "La intervención temprana de especialistas permite alinear la preservación probatoria, la estrategia procesal y la continuidad operativa desde las primeras actuaciones de la autoridad.",
+            "La intervención temprana de especialistas puede facilitar la coordinación entre la preservación de información, la evaluación procesal y la continuidad operativa.",
             "La adopción de correctivos internos debe evaluarse dentro de una estrategia jurídica coordinada y documentada."
           ]
         }

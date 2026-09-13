@@ -1303,25 +1303,25 @@
           "Procedural stage: Determine whether the matter involves a preliminary audit, voluntary information request, compulsory request, or a formal preparatory criminal investigation.",
           "Involved parties: Identify directors, employees, affiliated legal entities, or third-party suppliers potentially exposed."
         ],
-        "closing": "Not every formal irregularity, tax contingency, or commercial dispute constitutes a crime. Legal classification of the facts must be performed with strict criminal-law rigor before adopting measures that could self-incriminate the organization or compromise its defense position.",
+        "closing": "Not every formal irregularity, tax contingency, or commercial dispute constitutes an offense. The potential legal classification of the facts requires specialized analysis tailored to the specific circumstances and applicable regulations.",
         "recommendation": {
           "title": "Technical Recommendation / Critical Control Point",
           "items": [
-            "Avoid issuing preliminary statements to authorities or the media without prior advice from specialized criminal counsel.",
-            "Conduct a criminal-law assessment of potential offenses, such as money laundering, fraud, or tax crimes, as distinct from mere administrative infractions."
+            "Before issuing statements to authorities or the media, seek specialized legal counsel.",
+            "Evaluate, with specialized counsel, the potential legal classification of the facts and the distinction between potential criminal, administrative, or other legal liabilities."
           ]
         }
       },
       "step_2": {
         "tag": "Step 2",
         "title": "Immediately preserve documentation and digital evidence",
-        "intro": "In economic criminal matters, documentary and electronic evidence is central to clarifying the facts and rebutting liability. It is imperative to secure a sound chain of custody from the outset.",
+        "intro": "In matters of potential economic criminal relevance, documentary and electronic information can be significant in understanding the facts and assessing applicable liabilities. Depending on the case, it may be necessary to consider measures for information preservation and traceability from the earliest stages.",
         "subheading": "Safeguard and retention mechanism",
         "items": [
           "Physical and digital integrity: Prevent intentional or accidental loss, alteration, or destruction of records.",
           "File immutability: Suspend automatic overwrite policies for corporate servers and corporate backups.",
           "Email and messaging preservation: Secure email inboxes, corporate messaging records, and key communications.",
-          "Accounting and financial records: Freeze and back up bank statements, official accounting books, financial statements, and tax records in the ERP.",
+          "Accounting and financial records: Evaluate measures to preserve and back up relevant bank statements, accounting ledgers, financial statements, and tax documentation.",
           "Devices and cloud repositories: Preserve access to laptops and online platforms connected to the matter."
         ],
         "closing": "It is advisable to identify, classify, and safeguard agreements, invoices, payment records, shareholders’ meeting and board minutes, audit reports, authorizations, and any other file related to the operation under review.",
@@ -1336,13 +1336,13 @@
       "step_3": {
         "tag": "Step 3",
         "title": "Establish a verifiable factual timeline",
-        "intro": "Accurate factual reconstruction is the backbone of an effective criminal defense. Collecting isolated documents is not enough; each corporate action must be ordered chronologically and causally.",
+        "intro": "An orderly reconstruction of facts can be important to understand the situation and organize available information. Documentation should be evaluated according to its characteristics, its connection to the events, and the applicable legal context.",
         "subheading": "Factual reconstruction methodology",
         "items": [
           "Documented timeline: Establish exact dates for each milestone, meeting, approval, monetary transfer, and execution of documents.",
           "Documentary traceability: Link every asserted fact to its corresponding auditable physical or digital evidentiary support.",
-          "Structured internal interviews: Gather accounts from operational actors under confidentiality and with corporate legal assistance.",
-          "Inconsistency identification (gap analysis): Detect information gaps or contradictions between statements and records before they are identified by the opposing party or the authority."
+          "Structured internal interviews: Document information provided by individuals with knowledge of the facts, under legal coordination and in accordance with applicable confidentiality rules.",
+          "Gap analysis: Identify inconsistencies, information gaps, or discrepancies among available records to facilitate legal and documentary evaluation."
         ],
         "closing": "Maintaining an orderly, verified factual narrative supported by evidence can facilitate the evaluation of available information, the identification of inconsistencies, and the preparation of a legal response aligned with the applicable procedural stage.",
         "recommendation": {
@@ -1356,13 +1356,13 @@
       "step_4": {
         "tag": "Step 4",
         "title": "Centralize communications and appoint a response team",
-        "intro": "During a criminal investigation, fragmented information and uncoordinated statements create significant risk. All institutional interaction should be channeled through a duly authorized crisis committee.",
+        "intro": "When facing inquiries or proceedings that may have criminal-law relevance, it is advisable to establish clear channels for managing information and institutional interactions, tailored to the circumstances and applicable legal advice.",
         "subheading": "Communication and spokesperson protocol",
         "items": [
           "Contingency Management Committee: Composed exclusively of senior management, the compliance officer, and external criminal counsel.",
-          "Single authorized spokesperson: Personnel without authorization must not respond to verbal or informal requests from authorities or the media.",
+          "Designated communication: Establish authorized spokespersons and internal guidelines for responding to inquiries or requests from authorities, the media, or other third parties.",
           "Confidentiality and professional secrecy: Ensure that legal analyses and communications are managed in accordance with applicable rules of professional secrecy, confidentiality, and information protection.",
-          "Instructions for operational personnel: Train reception staff, security personnel, and IT teams on how to respond to judicial notices or unannounced inspections."
+          "Instructions for operational personnel: Establish internal protocols for reception, security, and technology teams regarding official notices, requests, or on-site inspections."
         ],
         "closing": "",
         "recommendation": {
@@ -1388,7 +1388,7 @@
         "recommendation": {
           "title": "Technical Recommendation / Critical Control Point",
           "items": [
-            "Early intervention by specialists helps align evidence preservation, procedural strategy, and business continuity from the authority’s earliest actions.",
+            "Early intervention by specialists can facilitate coordination between information preservation, procedural assessment, and operational continuity.",
             "The adoption of internal corrective measures should be assessed within a coordinated and documented legal strategy."
           ]
         }
