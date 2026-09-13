@@ -109,8 +109,8 @@ export default async function RepresentacionJudicialPage({ params }: { params: P
               style={{ lineHeight: 1.6, fontSize: '0.95rem', textAlign: 'center' }}
             >
               {isEs
-                ? 'Nuestro equipo litigante asume la dirección y patrocinio de sus causas, garantizando la correcta defensa de sus derechos e intereses patrimoniales en todas las instancias jurisdiccionales del país.'
-                : 'Our litigation team assumes the direction and sponsorship of your cases, ensuring the proper defense of your rights and patrimonial interests in all jurisdictional instances of the country.'}
+                ? 'Nuestro equipo litigante asume la dirección y representación procesal de cada asunto admitido, con dedicación técnica y rigor estratégico en la salvaguarda de sus derechos e intereses patrimoniales ante las instancias jurisdiccionales del país.'
+                : 'Our litigation team provides legal direction and procedural representation for each admitted matter, applying technical diligence and strategic rigor to safeguard your rights and asset interests before the courts of Venezuela.'}
             </p>
 
             <div
