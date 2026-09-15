@@ -2,6 +2,13 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getRoute } from "@/lib/routes";
+import { Lora } from 'next/font/google';
+
+const lora = Lora({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  display: 'swap',
+});
 
 export default function Hero({ dict, locale }: { dict: any, locale: string }) {
   return (
@@ -41,9 +48,9 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
 
       <div className="container" style={{ position: 'relative', zIndex: 3, width: '100%' }}>
         <div className="hero-content">
-          <span className="section-tag" style={{ color: '#d4af37' }}>{dict?.tag}</span>
+          <span className={`section-tag ${lora.className}`} style={{ color: '#d4af37', fontFamily: lora.style.fontFamily }}>{dict?.tag}</span>
           <h1 className="mb-1-5rem serif">{dict?.h1}</h1>
-          <p className="hero-subtitle" style={{ maxWidth: '750px', opacity: 0.95 }}>
+          <p className={`hero-subtitle ${lora.className}`} style={{ maxWidth: '750px', opacity: 0.95, fontFamily: lora.style.fontFamily }}>
             {dict?.desc}
           </p>
           <div className="hero-btns" style={{ marginTop: '1.5rem' }}>
@@ -63,8 +70,8 @@ export default function Hero({ dict, locale }: { dict: any, locale: string }) {
             </div>
             {dict?.btn_hint && (
               <p
-                className="hero-btn-hint text-sm"
-                style={{ opacity: 0.8, fontSize: '0.85rem' }}
+                className={`hero-btn-hint text-sm ${lora.className}`}
+                style={{ opacity: 0.8, fontSize: '0.85rem', fontFamily: lora.style.fontFamily }}
               >
                 {dict.btn_hint}
               </p>
