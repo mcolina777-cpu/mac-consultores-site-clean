@@ -2105,7 +2105,8 @@
         {
           "tag": "02",
           "title": "Alertas urgentes",
-          "text": "Comunicaciones puntuales ante desarrollos de especial relevancia jurídica, regulatoria, institucional o transfronteriza."
+          "text": "Comunicaciones puntuales ante desarrollos de especial relevancia jurídica, regulatoria, institucional o transfronteriza.",
+          "link_text": "CONOCER LAS ALERTAS →"
         },
         {
           "tag": "03",
@@ -2318,6 +2319,137 @@
         "tag": "CONSULTA CONFIDENCIAL",
         "title": "Incorpore inteligencia jurídica a sus decisiones en Venezuela",
         "text": "Solicite una muestra del informe mensual o coordine una conversación técnica con nuestros socios para evaluar las modalidades de suscripción corporativa.",
+        "primary_cta": "Solicitar información",
+        "secondary_cta": "Volver a Mac Legal Intelligence"
+      }
+    },
+    "flash_alerts": {
+      "seo": {
+        "title": "Alertas urgentes | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados",
+        "description": "Alertas jurídicas puntuales para organizaciones que necesitan conocer desarrollos relevantes vinculados con Venezuela antes de la siguiente edición mensual."
+      },
+      "breadcrumb": {
+        "current": "Alertas urgentes"
+      },
+      "hero": {
+        "tag": "MAC LEGAL INTELLIGENCE",
+        "h1": "Alertas urgentes",
+        "subtitle": "Flash Alerts para asuntos de especial relevancia",
+        "intro": "Comunicaciones jurídicas puntuales para organizaciones que requieren conocer desarrollos relevantes vinculados con Venezuela antes de la siguiente edición del Informe mensual.",
+        "primary_cta": "Solicitar información",
+        "secondary_cta": "Conocer el criterio de alerta"
+      },
+      "value_proposition": {
+        "title": "Cuando un desarrollo no debe esperar al próximo informe",
+        "paragraph_1": "Algunos acontecimientos legislativos, regulatorios, judiciales, institucionales o transfronterizos pueden requerir atención antes de la siguiente entrega mensual. En esos casos, Mac Legal Intelligence puede emitir una Flash Alert conforme al alcance acordado con la organización.",
+        "paragraph_2": "La alerta no busca multiplicar comunicaciones ni reproducir titulares. Su finalidad es identificar de forma concisa un hecho relevante, explicar por qué podría importar y señalar las áreas que pueden requerir revisión o seguimiento."
+      },
+      "alert_criteria": {
+        "title": "Criterio de emisión",
+        "intro": "Una Flash Alert puede considerarse cuando un desarrollo presenta una o varias de las siguientes características:",
+        "items": [
+          "Puede afectar de forma material una operación, contrato, pago, tercero, licencia, permiso o proceso relevante.",
+          "Introduce un cambio normativo, regulatorio, institucional o judicial que requiere atención antes de la siguiente edición mensual.",
+          "Genera una señal de riesgo relacionada con compliance, exposición penal corporativa, documentación, controles internos o debida diligencia.",
+          "Puede incidir en operaciones transfronterizas, intermediarios, contrapartes, flujos de pago o relaciones comerciales vinculadas con Venezuela.",
+          "Requiere que la organización valore si debe conservar documentación, revisar una política, consultar a la firma o escalar internamente un asunto."
+        ],
+        "note": "La decisión de emitir una alerta se adopta mediante valoración jurídica y según el perfil de exposición definido con el cliente."
+      },
+      "alert_contents": {
+        "title": "Una estructura breve y orientada a la acción",
+        "items": [
+          "Qué ocurrió: Identificación concisa de la norma, decisión, medida, criterio o acontecimiento relevante.",
+          "Por qué importa: Explicación práctica de su posible relevancia jurídica y empresarial.",
+          "A quién puede afectar: Organizaciones, sectores, contratos, operaciones o perfiles expuestos.",
+          "Impacto potencial: Áreas que podrían requerir revisión, documentación, seguimiento o decisión interna.",
+          "Consideraciones iniciales: Medidas preventivas o temas que pueden requerir evaluación adicional.",
+          "Fuente de referencia: Identificación de la fuente primaria o institucional pertinente."
+        ],
+        "note": "Las Flash Alerts tienen carácter general y preventivo. No sustituyen un análisis jurídico de hechos, documentos, contrapartes u operaciones específicas."
+      },
+      "illustrative_areas": {
+        "title": "Ámbitos que pueden requerir una alerta",
+        "items": [
+          "Cambios normativos, regulatorios o administrativos con posible impacto en actividades empresariales.",
+          "Decisiones judiciales o criterios institucionales que modifiquen el escenario jurídico de una operación.",
+          "Novedades que puedan incidir en contratos, permisos, pagos, intermediarios, proveedores o relaciones con terceros.",
+          "Señales relevantes para compliance, debida diligencia, prevención de riesgos penales corporativos o documentación interna.",
+          "Desarrollos vinculados con operaciones internacionales, sanciones, licencias o contrapartes conectadas con Venezuela.",
+          "Acontecimientos institucionales que puedan tener consecuencias prácticas para sectores o actividades determinadas."
+        ],
+        "note": "La inclusión de un asunto dependerá de su relevancia, del alcance contratado y del perfil de riesgo de la organización."
+      },
+      "monthly_brief_relationship": {
+        "title": "Un complemento del Informe mensual",
+        "paragraph_1": "Las Flash Alerts no sustituyen el Venezuela Legal & Regulatory Risk Brief. El Informe mensual permite consolidar y contextualizar los desarrollos relevantes del período; las alertas pueden utilizarse para comunicar separadamente un asunto que, por su posible impacto o urgencia, conviene identificar antes de la siguiente edición.",
+        "paragraph_2": "Posteriormente, el asunto alertado puede incorporarse al análisis más amplio del Informe mensual, junto con otros desarrollos y consideraciones relevantes."
+      },
+      "confidential_handling": {
+        "title": "Comunicación definida para cada organización",
+        "paragraph_1": "Los destinatarios autorizados, los canales de entrega y los criterios específicos de comunicación se definen conforme al alcance acordado con cada organización. La firma procura que las alertas lleguen a los equipos que deben conocerlas, preservando la confidencialidad y evitando comunicaciones innecesarias.",
+        "paragraph_2": "Cuando una alerta revele la necesidad de revisar una operación, contrato, contraparte o situación concreta, Mac Consultores Jurídicos & Asociados podrá asistir al cliente mediante asesoría jurídica individualizada."
+      },
+      "contactBox": {
+        "tag": "CONSULTA CONFIDENCIAL",
+        "title": "Conozca las modalidades de Flash Alerts",
+        "description": "Solicite una conversación privada para evaluar si las Alertas urgentes pueden complementar el seguimiento jurídico y regulatorio de su organización.",
+        "emailPrefix": "También puede escribirnos directamente a",
+        "email": "infomacconsul@gmail.com",
+        "form": {
+          "subject": "Solicitud Flash Alerts — Mac Consultores Jurídicos & Asociados",
+          "fullName": "Nombre completo",
+          "organization": "Empresa u organización",
+          "country": "País",
+          "email": "Correo corporativo",
+          "website": "Sitio web (opcional)",
+          "interest": "Modalidad de interés",
+          "selectPlaceholder": "Seleccione una opción",
+          "options": {
+            "corresponsalia": "Alertas urgentes complementarias al Brief",
+            "representacion": "Seguimiento prioritario regulatorio e institucional",
+            "consultoria": "Evaluación de criterios y canales de emisión",
+            "alianza": "Configuración a la medida para la organización",
+            "otro": "Otro asunto o presentación privada"
+          },
+          "message": "Mensaje o detalles de su consulta",
+          "submit": "Solicitar información",
+          "privacy": "Su información será tratada con estricta confidencialidad."
+        }
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "items": [
+          {
+            "question": "¿Las Flash Alerts se emiten para toda novedad jurídica?",
+            "answer": "No. Se reservan para desarrollos que, conforme al alcance contratado y la valoración jurídica de la firma, pueden requerir atención antes de la siguiente edición mensual."
+          },
+          {
+            "question": "¿Las Alertas urgentes reemplazan el Informe mensual?",
+            "answer": "No. Las alertas complementan el Informe mensual. El Brief ofrece una visión consolidada y contextual del período; las Flash Alerts permiten comunicar separadamente asuntos que puedan merecer atención anticipada."
+          },
+          {
+            "question": "¿Mac garantiza un plazo específico para emitir una alerta?",
+            "answer": "La frecuencia, los canales de comunicación y los criterios de emisión se definen de acuerdo con el alcance contratado. La firma no publica plazos generales de respuesta para situaciones que requieran análisis jurídico."
+          },
+          {
+            "question": "¿La alerta determina si una operación puede ejecutarse?",
+            "answer": "No de manera general. Una Flash Alert puede identificar un asunto y sugerir áreas de revisión, pero la evaluación de una operación, contrato, contraparte o licencia concreta requiere análisis jurídico individualizado."
+          },
+          {
+            "question": "¿Puede configurarse el servicio según la exposición de la empresa?",
+            "answer": "Sí. Los temas monitoreados, destinatarios autorizados y criterios de comunicación pueden ajustarse al sector, operación, perfil de riesgo y necesidades de la organización."
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Aviso legal",
+        "text": "Las Flash Alerts de Mac Legal Intelligence tienen carácter técnico, informativo y preventivo. No constituyen una opinión jurídica definitiva ni sustituyen la asesoría individualizada necesaria para evaluar operaciones, contratos, contrapartes, hechos o decisiones concretas."
+      },
+      "closing_card": {
+        "tag": "MAC LEGAL INTELLIGENCE",
+        "title": "Atención informada ante asuntos relevantes",
+        "text": "Conozca cómo las Flash Alerts pueden complementar el Informe mensual mediante seguimiento jurídico orientado a decisiones oportunas.",
         "primary_cta": "Solicitar información",
         "secondary_cta": "Volver a Mac Legal Intelligence"
       }

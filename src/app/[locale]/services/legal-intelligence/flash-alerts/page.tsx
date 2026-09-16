@@ -12,20 +12,20 @@ export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const isEs = locale === 'es';
   const dict = await getDictionary(locale);
-  const data = dict?.legal_intelligence?.seo;
+  const data = dict?.legal_intelligence?.flash_alerts?.seo;
 
-  const title = data?.title || (isEs 
-    ? 'Mac Legal Intelligence | Venezuela Legal & Regulatory Risk Brief | Mac Consultores Jurídicos & Asociados'
-    : 'Mac Legal Intelligence | Venezuela Legal & Regulatory Risk Brief | Mac Consultores Jurídicos & Asociados');
-  
+  const title = data?.title || (isEs
+    ? 'Alertas urgentes | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados'
+    : 'Flash Alerts | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados');
+
   const description = data?.description || (isEs
-    ? 'Inteligencia jurídica mensual, análisis regulatorio y orientación preventiva para organizaciones con exposición a Venezuela.'
-    : 'Monthly legal intelligence, regulatory analysis and preventive guidance for organizations with Venezuela-related exposure.');
+    ? 'Alertas jurídicas puntuales para organizaciones que necesitan conocer desarrollos relevantes vinculados con Venezuela antes de la siguiente edición mensual.'
+    : 'Targeted legal alerts for organizations that need to be informed of relevant Venezuela-connected developments before the next Monthly Brief.');
 
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
-  const url = `${BASE_URL}/${locale}/services/legal-intelligence`;
-  const esUrl = `${BASE_URL}/es/services/legal-intelligence`;
-  const enUrl = `${BASE_URL}/en/services/legal-intelligence`;
+  const url = `${BASE_URL}/${locale}/services/legal-intelligence/flash-alerts`;
+  const esUrl = `${BASE_URL}/es/services/legal-intelligence/flash-alerts`;
+  const enUrl = `${BASE_URL}/en/services/legal-intelligence/flash-alerts`;
 
   return {
     title,
@@ -62,19 +62,20 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default async function LegalIntelligencePage({ params }: Props) {
+export default async function FlashAlertsPage({ params }: Props) {
   const { locale } = await params;
   const isEs = locale === 'es';
   const dict = await getDictionary(locale);
-  const data = dict?.legal_intelligence;
+  const data = dict?.legal_intelligence?.flash_alerts;
 
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
-  const redirectUrl = `${BASE_URL}/${locale}/services/legal-intelligence?sent=success#contacto`;
+  const redirectUrl = `${BASE_URL}/${locale}/services/legal-intelligence/flash-alerts?sent=success#contacto`;
 
   const breadcrumbHome = dict?.nav?.inicio || (isEs ? 'Inicio' : 'Home');
   const breadcrumbServices = dict?.nav?.servicios || (isEs ? 'Servicios' : 'Services');
-  const breadcrumbCurrent = data?.breadcrumb?.current || 'Mac Legal Intelligence';
-  const breadcrumbText = `${breadcrumbHome.toUpperCase()} / ${breadcrumbServices.toUpperCase()} / ${breadcrumbCurrent.toUpperCase()}`;
+  const breadcrumbParent = dict?.legal_intelligence?.breadcrumb?.current || 'Mac Legal Intelligence';
+  const breadcrumbCurrent = data?.breadcrumb?.current || (isEs ? 'Alertas urgentes' : 'Flash Alerts');
+  const breadcrumbText = `${breadcrumbHome.toUpperCase()} / ${breadcrumbServices.toUpperCase()} / ${breadcrumbParent.toUpperCase()} / ${breadcrumbCurrent.toUpperCase()}`;
 
   return (
     <main className="page-article">
@@ -100,7 +101,7 @@ export default async function LegalIntelligencePage({ params }: Props) {
             <a href="#contacto" className="btn btn-primary">
               {data?.hero?.primary_cta}
             </a>
-            <a href="#alcance" className="btn btn-outline">
+            <a href="#criterio-alerta" className="btn btn-outline">
               {data?.hero?.secondary_cta}
             </a>
           </div>
@@ -110,7 +111,7 @@ export default async function LegalIntelligencePage({ params }: Props) {
       {/* CONTENEDOR PRINCIPAL */}
       <section className="section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
-          
+
           {/* BLOQUE 1: PROPUESTA DE VALOR */}
           <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
@@ -124,36 +125,24 @@ export default async function LegalIntelligencePage({ params }: Props) {
             </p>
           </div>
 
-          {/* BLOQUE 2: DESTINATARIOS */}
-          <div className="content-section mb-3rem">
+          {/* BLOQUE 2: CRITERIO DE EMISIÓN */}
+          <div id="criterio-alerta" className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
-              {data?.clients?.title}
+              {data?.alert_criteria?.title}
             </h2>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
-              {data?.clients?.intro}
-            </p>
-            <ul className="service-list mb-2rem">
-              {data?.clients?.items?.map((item: string, index: number) => (
-                <li key={index} style={{ lineHeight: 1.6 }}>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* BLOQUE 3: QUÉ INCLUYE EL INFORME MENSUAL */}
-          <div id="alcance" className="content-section mb-3rem">
-            <h2 className="serif section-title mb-1-5rem">
-              {data?.content?.title}
-            </h2>
+            {data?.alert_criteria?.intro && (
+              <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+                {data.alert_criteria.intro}
+              </p>
+            )}
             <ul className="service-list mb-1-5rem">
-              {data?.content?.items?.map((item: string, index: number) => (
+              {data?.alert_criteria?.items?.map((item: string, index: number) => (
                 <li key={index} style={{ lineHeight: 1.6 }}>
                   {item}
                 </li>
               ))}
             </ul>
-            {data?.content?.note && (
+            {data?.alert_criteria?.note && (
               <p
                 className="text-left text-sm max-w-100"
                 style={{
@@ -164,135 +153,106 @@ export default async function LegalIntelligencePage({ params }: Props) {
                   borderLeft: '2px solid var(--accent, #990000)',
                 }}
               >
-                {data.content.note}
+                {data.alert_criteria.note}
               </p>
             )}
           </div>
 
-          {/* BLOQUE 4: METODOLOGÍA */}
+          {/* BLOQUE 3: ESTRUCTURA DE LAS ALERTAS */}
           <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
-              {data?.methodology?.title}
+              {data?.alert_contents?.title}
             </h2>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
-              {data?.methodology?.paragraph_1}
-            </p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
-              {data?.methodology?.paragraph_2}
-            </p>
-          </div>
-
-          {/* BLOQUE 5: MODALIDADES DE SEGUIMIENTO */}
-          <div className="content-section mb-3rem">
-            <h2 className="serif section-title mb-1-5rem">
-              {data?.modalities?.title}
-            </h2>
-            <div className="grid-2 gap-1-5rem">
-              {data?.modalities?.items?.map((item: { tag: string; title: string; text: string; link_text?: string }, index: number) => {
-                if (index === 0) {
+            <ul className="service-list mb-1-5rem">
+              {data?.alert_contents?.items?.map((item: string, index: number) => {
+                const colonIdx = item.indexOf(':');
+                if (colonIdx !== -1) {
+                  const label = item.slice(0, colonIdx);
+                  const rest = item.slice(colonIdx + 1);
                   return (
-                    <Link
-                      key={index}
-                      href={getRoute(locale, "services.legal_intelligence.monthly_brief")}
-                      className="card hover-lift"
-                      style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        backgroundColor: '#ffffff',
-                        border: '1px solid var(--border-color, #e5e7eb)',
-                        borderRadius: '6px',
-                        padding: '1.75rem',
-                        textDecoration: 'none',
-                        color: 'inherit',
-                      }}
-                    >
-                      <span className="section-tag">{item.tag}</span>
-                      <h3 className="serif mb-0-75rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #002845)' }}>
-                        {item.title}
-                      </h3>
-                      <p className="card-editorial-text" style={{ margin: '0 0 1.5rem 0', lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
-                        {item.text}
-                      </p>
-                      <span className="card-link mt-auto">
-                        {item.link_text || (isEs ? 'CONOCER DETALLES DEL BRIEF →' : 'VIEW MONTHLY BRIEF DETAILS →')}
-                      </span>
-                    </Link>
-                  );
-                }
-                if (index === 1) {
-                  return (
-                    <Link
-                      key={index}
-                      href={getRoute(locale, "services.legal_intelligence.flash_alerts")}
-                      className="card hover-lift"
-                      style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        backgroundColor: '#ffffff',
-                        border: '1px solid var(--border-color, #e5e7eb)',
-                        borderRadius: '6px',
-                        padding: '1.75rem',
-                        textDecoration: 'none',
-                        color: 'inherit',
-                      }}
-                    >
-                      <span className="section-tag">{item.tag}</span>
-                      <h3 className="serif mb-0-75rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #002845)' }}>
-                        {item.title}
-                      </h3>
-                      <p className="card-editorial-text" style={{ margin: '0 0 1.5rem 0', lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
-                        {item.text}
-                      </p>
-                      <span className="card-link mt-auto">
-                        {item.link_text || (isEs ? 'CONOCER LAS ALERTAS →' : 'EXPLORE FLASH ALERTS →')}
-                      </span>
-                    </Link>
+                    <li key={index} style={{ lineHeight: 1.6 }}>
+                      <strong>{label}:</strong>{rest}
+                    </li>
                   );
                 }
                 return (
-                  <div
-                    key={index}
-                    className="card"
-                    style={{
-                      backgroundColor: '#ffffff',
-                      border: '1px solid var(--border-color, #e5e7eb)',
-                      borderRadius: '6px',
-                      padding: '1.75rem',
-                    }}
-                  >
-                    <span className="section-tag">{item.tag}</span>
-                    <h3 className="serif mb-0-75rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #002845)' }}>
-                      {item.title}
-                    </h3>
-                    <p className="card-editorial-text" style={{ margin: 0, lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
-                      {item.text}
-                    </p>
-                  </div>
+                  <li key={index} style={{ lineHeight: 1.6 }}>
+                    {item}
+                  </li>
                 );
               })}
-            </div>
-          </div>
-
-          {/* BLOQUE 6: SANCIONES Y OPERACIONES TRANSFRONTERIZAS */}
-          <div className="content-section mb-3rem">
-            <div
-              style={{
-                padding: '1.75rem',
-                backgroundColor: 'rgba(0, 40, 69, 0.03)',
-                borderRadius: '6px',
-                borderLeft: '4px solid var(--primary, #002845)',
-              }}
-            >
-              <h2 className="serif section-title mb-1rem" style={{ fontSize: '1.35rem' }}>
-                {data?.sanctions?.title}
-              </h2>
-              <p className="text-left max-w-100" style={{ lineHeight: 1.75, fontSize: '1rem', color: 'var(--text-main, #1f2937)', margin: 0 }}>
-                {data?.sanctions?.text}
+            </ul>
+            {data?.alert_contents?.note && (
+              <p
+                className="text-left text-sm max-w-100"
+                style={{
+                  lineHeight: 1.6,
+                  fontStyle: 'italic',
+                  color: 'var(--text-muted, #4b5563)',
+                  paddingLeft: '1rem',
+                  borderLeft: '2px solid var(--accent, #990000)',
+                }}
+              >
+                {data.alert_contents.note}
               </p>
-            </div>
+            )}
           </div>
 
-          {/* BLOQUE 7: CTA / FORMULARIO B2B */}
+          {/* BLOQUE 4: ÁMBITOS QUE PUEDEN REQUERIR UNA ALERTA */}
+          <div className="content-section mb-3rem">
+            <h2 className="serif section-title mb-1-5rem">
+              {data?.illustrative_areas?.title}
+            </h2>
+            <ul className="service-list mb-1-5rem">
+              {data?.illustrative_areas?.items?.map((item: string, index: number) => (
+                <li key={index} style={{ lineHeight: 1.6 }}>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            {data?.illustrative_areas?.note && (
+              <p
+                className="text-left text-sm max-w-100"
+                style={{
+                  lineHeight: 1.6,
+                  fontStyle: 'italic',
+                  color: 'var(--text-muted, #4b5563)',
+                  paddingLeft: '1rem',
+                  borderLeft: '2px solid var(--accent, #990000)',
+                }}
+              >
+                {data.illustrative_areas.note}
+              </p>
+            )}
+          </div>
+
+          {/* BLOQUE 5: RELACIÓN CON EL INFORME MENSUAL */}
+          <div className="content-section mb-3rem">
+            <h2 className="serif section-title mb-1-5rem">
+              {data?.monthly_brief_relationship?.title}
+            </h2>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+              {data?.monthly_brief_relationship?.paragraph_1}
+            </p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+              {data?.monthly_brief_relationship?.paragraph_2}
+            </p>
+          </div>
+
+          {/* BLOQUE 6: COMUNICACIÓN DEFINIDA PARA CADA ORGANIZACIÓN */}
+          <div className="content-section mb-3rem">
+            <h2 className="serif section-title mb-1-5rem">
+              {data?.confidential_handling?.title}
+            </h2>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+              {data?.confidential_handling?.paragraph_1}
+            </p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+              {data?.confidential_handling?.paragraph_2}
+            </p>
+          </div>
+
+          {/* BLOQUE 7: FORMULARIO B2B DE CONTACTO */}
           <div className="content-section mb-4rem">
             <B2BContactBox
               data={data?.contactBox}
@@ -391,7 +351,7 @@ export default async function LegalIntelligencePage({ params }: Props) {
               <a href="#contacto" className="btn btn-primary">
                 {data?.closing_card?.primary_cta}
               </a>
-              <Link href={getRoute(locale, "services")} className="btn btn-outline">
+              <Link href={getRoute(locale, "services.legal_intelligence")} className="btn btn-outline">
                 {data?.closing_card?.secondary_cta}
               </Link>
             </div>

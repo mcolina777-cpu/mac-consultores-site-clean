@@ -29,6 +29,7 @@ export type RouteKey =
   | "services.empresas_extranjeras"
   | "services.legal_intelligence"
   | "services.legal_intelligence.monthly_brief"
+  | "services.legal_intelligence.flash_alerts"
   | "estrategiaTeoriaDelCaso"
   | "estrategiaSeleccionDeCasos"
   | "estrategiaEscenariosRepresentativos"
@@ -74,6 +75,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.empresas_extranjeras": "/es/services/empresas-extranjeras",
     "services.legal_intelligence": "/es/services/legal-intelligence",
     "services.legal_intelligence.monthly_brief": "/es/services/legal-intelligence/monthly-brief",
+    "services.legal_intelligence.flash_alerts": "/es/services/legal-intelligence/flash-alerts",
     estrategiaTeoriaDelCaso: "/es/estrategia-teoria-del-caso",
     estrategiaSeleccionDeCasos: "/es/seleccion-de-casos",
     estrategiaEscenariosRepresentativos: "/es/estrategia-escenarios-representativos",
@@ -118,6 +120,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.empresas_extranjeras": "/en/services/empresas-extranjeras",
     "services.legal_intelligence": "/en/services/legal-intelligence",
     "services.legal_intelligence.monthly_brief": "/en/services/legal-intelligence/monthly-brief",
+    "services.legal_intelligence.flash_alerts": "/en/services/legal-intelligence/flash-alerts",
     estrategiaTeoriaDelCaso: "/en/estrategia-teoria-del-caso",
     estrategiaSeleccionDeCasos: "/en/case-selection",
     estrategiaEscenariosRepresentativos: "/en/estrategia-escenarios-representativos",
