@@ -290,16 +290,50 @@ export default async function LegalIntelligencePage({ params }: Props) {
             </div>
           </div>
 
-          {/* RETORNO INSTITUCIONAL */}
-          <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '2rem', flexWrap: 'wrap' }}>
-            <Link href={getRoute(locale, "services")} className="btn btn-outline">
-              {isEs ? '← VOLVER A SERVICIOS' : '← BACK TO SERVICES'}
-            </Link>
-            <Link href={getRoute(locale, "home")} className="btn btn-secondary">
-              {isEs ? 'IR AL INICIO' : 'GO TO HOME'}
-            </Link>
-          </div>
+        </div>
+      </section>
 
+      {/* CIERRE INSTITUCIONAL */}
+      <section className="bg-soft section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div
+            className="card bg-soft p-3rem text-center"
+            style={{
+              border: '1px solid var(--border-color, #e5e7eb)',
+              borderRadius: '8px',
+            }}
+          >
+            <span className="section-tag">
+              {data?.closing_card?.tag}
+            </span>
+
+            <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
+              {data?.closing_card?.title}
+            </h3>
+
+            <p
+              className="max-w-800 mx-auto mb-2rem text-muted"
+              style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
+            >
+              {data?.closing_card?.text}
+            </p>
+
+            <div
+              style={{
+                display: 'flex',
+                gap: '1rem',
+                justifyContent: 'center',
+                flexWrap: 'wrap',
+              }}
+            >
+              <a href="#contacto" className="btn btn-primary">
+                {data?.closing_card?.primary_cta}
+              </a>
+              <Link href={getRoute(locale, "services")} className="btn btn-outline">
+                {data?.closing_card?.secondary_cta}
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
     </main>

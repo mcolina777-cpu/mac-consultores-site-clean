@@ -2182,6 +2182,13 @@
       "title": "Mac Legal Intelligence",
       "description": "Legal and regulatory monitoring for companies and investors with Venezuela-related exposure, combining risk analysis, compliance insight and actionable preventive guidance.",
       "link": "VIEW DETAILS →"
+    },
+    "closing_card": {
+      "tag": "CONFIDENTIAL INQUIRY",
+      "title": "Legal insight for better-prepared decisions",
+      "text": "Learn how Mac Legal Intelligence can provide monitoring, context and preventive guidance for your organization’s Venezuela-related legal exposure.",
+      "primary_cta": "Request information",
+      "secondary_cta": "Back to Services"
     }
   }
 }
