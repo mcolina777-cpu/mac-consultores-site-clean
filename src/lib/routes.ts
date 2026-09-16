@@ -27,6 +27,7 @@ export type RouteKey =
   | "services.international_cooperation.modelo_b2b"
   | "services.local_counsel"
   | "services.empresas_extranjeras"
+  | "services.legal_intelligence"
   | "estrategiaTeoriaDelCaso"
   | "estrategiaSeleccionDeCasos"
   | "estrategiaEscenariosRepresentativos"
@@ -70,6 +71,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.international_cooperation.modelo_b2b": "/es/services/international-cooperation/modelo-b2b",
     "services.local_counsel": "/es/services/international-cooperation/local-counsel",
     "services.empresas_extranjeras": "/es/services/empresas-extranjeras",
+    "services.legal_intelligence": "/es/services/legal-intelligence",
     estrategiaTeoriaDelCaso: "/es/estrategia-teoria-del-caso",
     estrategiaSeleccionDeCasos: "/es/seleccion-de-casos",
     estrategiaEscenariosRepresentativos: "/es/estrategia-escenarios-representativos",
@@ -112,6 +114,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.international_cooperation.modelo_b2b": "/en/services/international-cooperation/modelo-b2b",
     "services.local_counsel": "/en/services/international-cooperation/local-counsel",
     "services.empresas_extranjeras": "/en/services/empresas-extranjeras",
+    "services.legal_intelligence": "/en/services/legal-intelligence",
     estrategiaTeoriaDelCaso: "/en/estrategia-teoria-del-caso",
     estrategiaSeleccionDeCasos: "/en/case-selection",
     estrategiaEscenariosRepresentativos: "/en/estrategia-escenarios-representativos",

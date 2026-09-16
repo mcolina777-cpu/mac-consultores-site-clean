@@ -119,7 +119,8 @@
     "local_time": "Local time",
     "legal_notice": "Legal Notice",
     "privacy": "Privacy Policy",
-    "link_pro_bono": "Pro Bono Program"
+    "link_pro_bono": "Pro Bono Program",
+    "legal_intelligence": "Mac Legal Intelligence"
   },
   "quienes_somos": {
     "title": "The Firm | MAC Consultores Jurídicos & Asociados",
@@ -449,6 +450,11 @@
         "desc": "Contact us to assess your situation and receive specialised legal guidance.",
         "link": "Contact the firm"
       }
+    },
+    "card_8": {
+      "title": "Mac Legal Intelligence",
+      "desc": "Legal and regulatory monitoring for companies and investors with Venezuela-related exposure, combining risk analysis, compliance insight and actionable preventive guidance.",
+      "link": "VIEW DETAILS →"
     }
   },
   "cta": {
@@ -977,6 +983,12 @@
       "quote": "“A firm built on technical rigor, professional loyalty, and legal strategy for high-complexity matters.”",
       "desc": "Learn about our institutional approach and submit your matter for preliminary evaluation under strict confidentiality.",
       "btn": "REQUEST A MATTER EVALUATION"
+    },
+    "legal_intelligence": {
+      "tag": "MAC LEGAL INTELLIGENCE",
+      "title": "Legal insight to anticipate business risk in Venezuela",
+      "text": "Regulatory monitoring, legal-risk analysis and preventive guidance for companies, investors and international law firms making informed decisions in a changing Venezuelan legal environment.",
+      "cta": "Explore Mac Legal Intelligence"
     }
   },
   "landing_estrategia_teoria_caso": {
@@ -2025,5 +2037,151 @@
     ],
     "closing_quote": "One or two cases per month. A concrete intervention. A professional commitment.",
     "back_btn": "START A PRO BONO APPLICATION"
+  },
+  "legal_intelligence": {
+    "seo": {
+      "title": "Mac Legal Intelligence | Venezuela Legal & Regulatory Risk Brief | Mac Consultores Jurídicos & Asociados",
+      "description": "Monthly legal intelligence, regulatory analysis and preventive guidance for organizations with Venezuela-related exposure.",
+      "og_title": "Mac Legal Intelligence | Venezuela Legal & Regulatory Risk Brief",
+      "og_description": "Monthly legal intelligence, regulatory analysis and preventive guidance for organizations with Venezuela-related exposure."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Services",
+      "current": "Mac Legal Intelligence"
+    },
+    "hero": {
+      "tag": "LEGAL INTELLIGENCE & COMPLIANCE",
+      "h1": "Mac Legal Intelligence",
+      "subtitle": "Venezuela Legal & Regulatory Risk Brief",
+      "intro": "Monthly legal intelligence, regulatory analysis and preventive guidance for companies, investors and international law firms making informed decisions in a changing Venezuelan environment.",
+      "primary_cta": "Request information",
+      "secondary_cta": "Explore the scope"
+    },
+    "value_proposition": {
+      "title": "More than legal updates: context for business decisions",
+      "paragraph_1": "Organizations with Venezuela-related exposure may face legislative, regulatory, institutional and cross-border developments affecting contracts, payments, third-party relationships, internal compliance and business planning. Receiving a regulation, court decision or news item does not always reveal its practical operational implications.",
+      "paragraph_2": "Mac Legal Intelligence converts relevant legal developments into structured, bilingual and decision-oriented analysis. Each delivery explains what changed, why it matters, who may be affected and which measures may merit consideration."
+    },
+    "clients": {
+      "title": "Designed for organizations with Venezuela-related exposure",
+      "intro": "The service is designed for, among others:",
+      "items": [
+        "International companies with Venezuelan operations, subsidiaries, suppliers, customers or projects.",
+        "Investors, funds and organizations assessing opportunities or risk in Venezuela.",
+        "International law firms requiring local insight or Venezuela local-counsel support.",
+        "In-house legal teams, compliance officers and risk-management professionals.",
+        "Companies with Venezuela-related payments, contracts, transportation, insurance arrangements or intermediaries."
+      ]
+    },
+    "content": {
+      "title": "What the monthly brief includes",
+      "items": [
+        "Legislative, regulatory and administrative developments relevant to business activities.",
+        "Selected judicial decisions and legal trends with potential corporate, contractual, administrative, tax, employment or criminal-law implications.",
+        "Corporate criminal-risk considerations and preventive measures.",
+        "Compliance, due diligence and third-party red flags.",
+        "Institutional or administrative developments that may affect business decisions.",
+        "Risks concerning contracts, payments, intermediaries and cross-border operations.",
+        "Relevant developments and risks associated with international sanctions and Venezuela-connected operations.",
+        "An executive assessment of potential impact and areas that may require review."
+      ],
+      "note": "The specific content may be tailored to the agreed scope, industry profile and legal-risk exposure of each client."
+    },
+    "methodology": {
+      "title": "A verifiable, action-oriented legal methodology",
+      "paragraph_1": "Each brief is prepared through monitoring of primary sources and relevant institutional materials, professional legal analysis and executive-level synthesis. The firm distinguishes verified facts, legal scope, potential risks and preventive recommendations.",
+      "paragraph_2": "The purpose is not to reproduce publicly available information, but to help clients identify matters that may require review, additional documentation, specialized advice or timely internal action."
+    },
+    "modalities": {
+      "title": "Delivery models",
+      "items": [
+        {
+          "tag": "01",
+          "title": "Monthly brief",
+          "text": "A bilingual monthly report analyzing legal, regulatory, institutional and compliance developments relevant to the client’s risk profile."
+        },
+        {
+          "tag": "02",
+          "title": "Flash alerts",
+          "text": "Targeted communications regarding developments of particular legal, regulatory, institutional or cross-border relevance."
+        },
+        {
+          "tag": "03",
+          "title": "Executive debrief",
+          "text": "An optional, private periodic session to discuss trends, address general questions and prioritize matters."
+        },
+        {
+          "tag": "04",
+          "title": "Sector-focused coverage",
+          "text": "Tailored coverage for agreed industries, operations or risk areas."
+        }
+      ]
+    },
+    "sanctions": {
+      "title": "Sanctions risk and cross-border operations",
+      "text": "Mac Legal Intelligence may identify developments and risks relevant to Venezuela-connected operations, including matters involving sanctions, licensing, payments, intermediaries and counterparties. However, determining compliance with foreign measures —including sanctions or licensing requirements applicable to a specific transaction— requires an individualized analysis of the relevant facts, parties, documentation and jurisdictions and, where appropriate, coordination with specialized counsel in the relevant jurisdiction."
+    },
+    "contactBox": {
+      "tag": "CONFIDENTIAL INQUIRY",
+      "title": "Discuss your organization’s Venezuela-related legal exposure",
+      "description": "Request a private introduction to Mac Legal Intelligence, inquire about corporate subscription options or arrange an exploratory meeting with the firm.",
+      "emailPrefix": "You may also reach us at",
+      "email": "infomacconsul@gmail.com",
+      "form": {
+        "subject": "Mac Legal Intelligence Inquiry — Mac Consultores Jurídicos & Asociados",
+        "fullName": "Full name",
+        "organization": "Company or organization",
+        "country": "Country",
+        "email": "Corporate email",
+        "website": "Website (optional)",
+        "interest": "Area of interest",
+        "selectPlaceholder": "Select an option",
+        "options": {
+          "corresponsalia": "Monthly Brief Subscription",
+          "representacion": "Flash Alerts & Monitoring",
+          "consultoria": "Executive Debrief Session",
+          "alianza": "Tailored Sector-Focused Coverage",
+          "otro": "Other inquiry or private presentation"
+        },
+        "message": "Message or inquiry",
+        "submit": "Request information",
+        "privacy": "Your information will be treated with strict confidentiality."
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Does the monthly brief replace tailored legal advice?",
+          "answer": "No. Mac Legal Intelligence provides technical, general information designed to support risk identification and prioritization. Specific transactions, contracts, disputes and business decisions require tailored legal review."
+        },
+        {
+          "question": "Can the content be tailored to a specific industry or activity?",
+          "answer": "Yes. The scope may be configured according to the relevant industry, operational structure, counterparty profile, compliance priorities and risk exposure."
+        },
+        {
+          "question": "How frequently is the brief delivered?",
+          "answer": "The Brief is delivered monthly. Targeted alerts may also be agreed for matters of particular relevance."
+        },
+        {
+          "question": "How are confidentiality and additional questions handled?",
+          "answer": "The professional relationship and scope are defined in the applicable engagement documentation. Questions requiring analysis of specific facts, documents or transactions are handled as tailored legal advice."
+        },
+        {
+          "question": "Does the service determine whether a transaction complies with international sanctions?",
+          "answer": "Not on a general basis. The service may identify relevant developments and risks; however, assessing a specific transaction requires individualized analysis and, where appropriate, coordination with specialized counsel in the applicable jurisdiction."
+        }
+      ]
+    },
+    "disclaimer": {
+      "title": "Legal notice",
+      "text": "Mac Legal Intelligence reports are technical, informational and general in nature. They do not constitute a definitive legal opinion and do not replace tailored legal advice required to assess specific transactions, contracts, counterparties, facts or decisions."
+    },
+    "service_card": {
+      "title": "Mac Legal Intelligence",
+      "description": "Legal and regulatory monitoring for companies and investors with Venezuela-related exposure, combining risk analysis, compliance insight and actionable preventive guidance.",
+      "link": "VIEW DETAILS →"
+    }
   }
 }

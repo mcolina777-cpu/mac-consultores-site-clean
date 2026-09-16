@@ -15,6 +15,7 @@ type FooterDict = {
     constitucional?: string;
     consular?: string;
     colaboracion?: string;
+    legal_intelligence?: string;
     location?: string;
     officeAddress?: string;
     timezoneCity?: string;
@@ -58,6 +59,7 @@ export default function Footer({
   const constitucionalLabel = f.constitucional;
   const consularLabel = f.consular;
   const colaboracionLabel = f.colaboracion;
+  const legalIntelligenceLabel = f.legal_intelligence || "Mac Legal Intelligence";
 
   const brandLabel = dict?.brand;
 
@@ -131,6 +133,11 @@ export default function Footer({
               <li>
                 <Link href={getRoute(locale, "services.international_cooperation")}>
                   {colaboracionLabel}
+                </Link>
+              </li>
+              <li>
+                <Link href={getRoute(locale, "services.legal_intelligence")}>
+                  {legalIntelligenceLabel}
                 </Link>
               </li>
               <li>

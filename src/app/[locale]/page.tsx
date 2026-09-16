@@ -114,6 +114,42 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
 
+      {/* MAC LEGAL INTELLIGENCE (BLOQUE EDITORIAL DESTACADO) */}
+      <section className="section-padding-asym" style={{ borderBottom: '1px solid var(--border-color, #e5e7eb)' }}>
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div
+            className="card text-center"
+            style={{
+              backgroundColor: '#ffffff',
+              border: '1px solid var(--border-color, #e5e7eb)',
+              borderRadius: '8px',
+              padding: '3rem 2.5rem',
+            }}
+          >
+            <span className="section-tag">
+              {dict?.home?.legal_intelligence?.tag || 'MAC LEGAL INTELLIGENCE'}
+            </span>
+            <h2 className="serif section-title mt-1rem mb-1-5rem" style={{ fontSize: '1.75rem' }}>
+              {dict?.home?.legal_intelligence?.title}
+            </h2>
+            <p
+              className="max-w-800 mx-auto mb-2rem text-muted"
+              style={{ lineHeight: 1.7, fontSize: '1.05rem', color: 'var(--text-muted, #4b5563)' }}
+            >
+              {dict?.home?.legal_intelligence?.text}
+            </p>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <Link
+                href={getRoute(locale, "services.legal_intelligence")}
+                className="btn btn-primary"
+              >
+                {dict?.home?.legal_intelligence?.cta}
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CUATRO PILARES EDITORIALES (DISTRIBUIDOR CENTRAL) */}
       <section className="section-padding-asym">
         <div className="container">

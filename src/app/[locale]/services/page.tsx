@@ -244,11 +244,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
             <Link
               href={getRoute(locale, "services.consular")}
               className="card"
-              style={{
-                textDecoration: 'none',
-                color: 'inherit',
-                gridColumn: '1 / -1',
-              }}
+              style={{ textDecoration: 'none', color: 'inherit' }}
             >
               <span className="section-tag">07</span>
               <h3 className="serif">
@@ -256,13 +252,31 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
                   ? 'Gestión jurídica para clientes en el exterior'
                   : 'Legal services for clients abroad'}
               </h3>
-              <p className="card-editorial-text" style={{ minHeight: 'auto' }}>
+              <p className="card-editorial-text">
                 {isEs
                   ? 'Asesoría y gestión jurídica local para venezolanos, empresas e inversionistas que se encuentran fuera del país. La firma coordina documentación, poderes, asuntos patrimoniales y actuaciones que pueden requerir representación en Venezuela.'
                   : 'Local legal advice and coordination for Venezuelans, companies, and investors located outside the country. The firm assists with documentation, powers of attorney, property-related matters, and actions that may require representation in Venezuela.'}
               </p>
               <span className="card-link">
                 {dict?.services?.card_1?.link || (isEs ? 'VER DETALLES →' : 'VIEW DETAILS →')}
+              </span>
+            </Link>
+
+            {/* TARJETA 08: MAC LEGAL INTELLIGENCE */}
+            <Link
+              href={getRoute(locale, "services.legal_intelligence")}
+              className="card"
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              <span className="section-tag">08</span>
+              <h3 className="serif">
+                {dict?.services?.card_8?.title || dict?.legal_intelligence?.service_card?.title || 'Mac Legal Intelligence'}
+              </h3>
+              <p className="card-editorial-text">
+                {dict?.services?.card_8?.desc || dict?.legal_intelligence?.service_card?.description}
+              </p>
+              <span className="card-link">
+                {dict?.services?.card_8?.link || dict?.services?.card_1?.link || (isEs ? 'VER DETALLES →' : 'VIEW DETAILS →')}
               </span>
             </Link>
           </div>

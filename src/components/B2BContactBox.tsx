@@ -31,13 +31,17 @@ interface ContactBoxData {
 interface B2BContactBoxProps {
   data: ContactBoxData;
   locale: string;
+  redirectUrl?: string;
+  id?: string;
 }
 
-export default function B2BContactBox({ data, locale }: B2BContactBoxProps) {
+export default function B2BContactBox({ data, locale, redirectUrl, id }: B2BContactBoxProps) {
   if (!data) return null;
 
+  const defaultRedirectUrl = `https://mac-consultores-site-clean.vercel.app/${locale}/services/international-cooperation?sent=success#alianzas-contacto`;
+
   return (
-    <section id="alianzas-contacto" className="b2b-contact-box">
+    <section id={id || "alianzas-contacto"} className="b2b-contact-box">
       <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
         <div className="form-card">
           <span className="section-tag">{data.tag}</span>
@@ -75,7 +79,7 @@ export default function B2BContactBox({ data, locale }: B2BContactBoxProps) {
             <input
               type="hidden"
               name="_next"
-              value={`https://mac-consultores-site-clean.vercel.app/${locale}/services/international-cooperation?sent=success#alianzas-contacto`}
+              value={redirectUrl || defaultRedirectUrl}
             />
 
             <div className="form-group mb-1rem">
