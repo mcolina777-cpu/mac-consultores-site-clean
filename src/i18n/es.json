@@ -2099,7 +2099,8 @@
         {
           "tag": "01",
           "title": "Informe mensual",
-          "text": "Brief bilingüe con análisis de novedades jurídicas, regulatorias, institucionales y de compliance relevantes para el perfil de exposición del cliente."
+          "text": "Brief bilingüe con análisis de novedades jurídicas, regulatorias, institucionales y de compliance relevantes para el perfil de exposición del cliente.",
+          "link_text": "CONOCER DETALLES DEL BRIEF →"
         },
         {
           "tag": "02",
@@ -2189,6 +2190,137 @@
       "text": "Conozca cómo Mac Legal Intelligence puede aportar seguimiento, contexto y orientación preventiva para la exposición jurídica de su organización en Venezuela.",
       "primary_cta": "Solicitar información",
       "secondary_cta": "Volver a Servicios"
+    },
+    "monthly_brief": {
+      "seo": {
+        "title": "Informe Mensual de Riesgo Jurídico y Regulatorio en Venezuela | Mac Legal Intelligence",
+        "description": "Informe mensual bilingüe con análisis de novedades legislativas, regulatorias, jurisprudencia y consideraciones de compliance y sanciones para empresas con exposición a Venezuela."
+      },
+      "breadcrumb": {
+        "current": "Informe mensual"
+      },
+      "hero": {
+        "tag": "MAC LEGAL INTELLIGENCE — INFORME MENSUAL",
+        "h1": "Venezuela Legal & Regulatory Risk Brief",
+        "subtitle": "Informe mensual bilingüe de seguimiento, análisis de impacto y prevención jurídica",
+        "intro": "Un producto estructurado para directores jurídicos, oficiales de cumplimiento, inversionistas y firmas internacionales que necesitan comprender con rigor técnico y anticipación los cambios normativos, regulatorios e institucionales en Venezuela.",
+        "primary_cta": "Solicitar suscripción",
+        "secondary_cta": "Ver alcance y módulos"
+      },
+      "value_proposition": {
+        "title": "Propósito y enfoque del informe mensual",
+        "paragraph_1": "El Venezuela Legal & Regulatory Risk Brief no es un simple compendio de normas ni un boletín de prensa. Se trata de un documento técnico de inteligencia jurídica que filtra la dispersión normativa y judicial venezolana para concentrarse en aquello que realmente genera impacto operativo, contractual o de responsabilidad para las organizaciones.",
+        "paragraph_2": "Cada entrega mensual se estructura en módulos específicos que desglosan qué ocurrió, cuál es el fundamento legal, qué sectores se ven alcanzados, qué señales de alerta deben activarse y qué medidas preventivas conviene adoptar oportunamente."
+      },
+      "modules": {
+        "title": "Módulos de cobertura sustantiva",
+        "intro": "Cada edición mensual comprende los siguientes núcleos de análisis e inteligencia preventiva:",
+        "items": [
+          {
+            "tag": "MÓDULO 01",
+            "title": "Panorama legislativo y regulatorio",
+            "text": "Seguimiento de leyes, decretos, resoluciones, providencias y otros actos relevantes emitidos durante el período, con atención a su alcance y vigencia."
+          },
+          {
+            "tag": "MÓDULO 02",
+            "title": "Criterios judiciales y precedentes relevantes",
+            "text": "Selección de decisiones y criterios judiciales relevantes, incluidos pronunciamientos del Tribunal Supremo de Justicia y otros tribunales, cuando puedan tener incidencia empresarial, contractual, administrativa, tributaria, laboral o penal."
+          },
+          {
+            "tag": "MÓDULO 03",
+            "title": "Prevención penal corporativa y compliance",
+            "text": "Consideraciones preventivas sobre riesgos penales vinculados con actividades corporativas, administradores y directivos, así como debida diligencia de contrapartes y señales de alerta de compliance."
+          },
+          {
+            "tag": "MÓDULO 04",
+            "title": "Contratos, pagos y operaciones transfronterizas",
+            "text": "Análisis de riesgos relacionados con contratos, pagos, ejecución, logística, intermediarios y operaciones transfronterizas conectadas con Venezuela."
+          },
+          {
+            "tag": "MÓDULO 05",
+            "title": "Contexto institucional y señales de alerta",
+            "text": "Seguimiento de acontecimientos institucionales, facultades de supervisión y cambios relevantes en criterios o actuaciones administrativas que puedan requerir atención empresarial."
+          },
+          {
+            "tag": "MÓDULO 06",
+            "title": "Evaluación ejecutiva y checklist de acción",
+            "text": "Síntesis ejecutiva de los asuntos priorizados, su posible impacto y las áreas que podrían requerir revisión, documentación adicional, seguimiento o asesoría especializada."
+          }
+        ]
+      },
+      "delivery": {
+        "title": "Metodología, calendario y tiempos de entrega",
+        "paragraph_1": "El informe se entrega mensualmente en formato digital bilingüe, conforme al alcance acordado con cada organización.",
+        "paragraph_2": "Cada edición reúne y prioriza desarrollos jurídicos, regulatorios, institucionales y transfronterizos relevantes para el período objeto de seguimiento.",
+        "note": "La periodicidad, los destinatarios autorizados y las condiciones de entrega se definen en la documentación profesional aplicable."
+      },
+      "sanctions": {
+        "title": "Marco de sanciones internacionales y operaciones con Venezuela",
+        "text": "El Venezuela Legal & Regulatory Risk Brief aborda los cambios generales en los marcos de sanciones y medidas restrictivas internacionales que inciden en el comercio y la inversión vinculados con Venezuela. No obstante, el informe no constituye una autorización, clearance ni dictamen sobre operaciones o licencias individuales. Las transacciones específicas requieren evaluación particular de hechos, partes, flujos financieros y normativa extranjera aplicable (OFAC, UE, etc.), en articulación con consejeros jurídicos especializados en la jurisdicción correspondiente."
+      },
+      "contactBox": {
+        "tag": "SUSCRIPCIÓN CORPORATIVA",
+        "title": "Solicite una muestra o proponga su suscripción al Brief",
+        "description": "Consulte las opciones de suscripción mensual corporativa, solicite un ejemplar de muestra o coordine una conversación técnica para evaluar las áreas de cobertura de interés para su equipo.",
+        "emailPrefix": "También puede escribirnos directamente a",
+        "email": "infomacconsul@gmail.com",
+        "form": {
+          "subject": "Solicitud Suscripción Monthly Brief — Mac Consultores Jurídicos & Asociados",
+          "fullName": "Nombre completo",
+          "organization": "Empresa u organización",
+          "country": "País",
+          "email": "Correo corporativo",
+          "website": "Sitio web (opcional)",
+          "interest": "Modalidad de interés",
+          "selectPlaceholder": "Seleccione una opción",
+          "options": {
+            "corresponsalia": "Suscripción mensual al Brief (ES/EN)",
+            "representacion": "Suscripción combinada con Alertas Urgentes",
+            "consultoria": "Suscripción con Sesión Ejecutiva mensual",
+            "alianza": "Solicitud de muestra o presentación privada",
+            "otro": "Otro requerimiento específico"
+          },
+          "message": "Mensaje o detalles de su consulta",
+          "submit": "Solicitar información",
+          "privacy": "Su información será tratada con estricta confidencialidad."
+        }
+      },
+      "faq": {
+        "title": "Preguntas frecuentes sobre el Informe Mensual",
+        "items": [
+          {
+            "question": "¿En qué idiomas se entrega el Venezuela Legal & Regulatory Risk Brief?",
+            "answer": "Cada Brief se prepara como informe bilingüe en español e inglés, para facilitar la revisión por equipos locales e internacionales, conforme al alcance contratado."
+          },
+          {
+            "question": "¿Cuándo se recibe la primera entrega tras formalizar la suscripción?",
+            "answer": "La fecha de inicio y el calendario de entrega se definen al formalizar la relación profesional, de acuerdo con el alcance del servicio y las necesidades de la organización."
+          },
+          {
+            "question": "¿Puede distribuirse el informe a varios miembros de la misma empresa?",
+            "answer": "Los destinatarios autorizados y las condiciones de distribución se determinan en la documentación profesional aplicable, considerando las necesidades de la organización y la confidencialidad del servicio."
+          },
+          {
+            "question": "¿Qué diferencia existe entre el Informe mensual y las Alertas urgentes?",
+            "answer": "El Informe mensual consolida, prioriza y contextualiza los desarrollos relevantes del período. Las Alertas urgentes pueden acordarse para comunicar asuntos de especial relevancia antes de la siguiente edición."
+          },
+          {
+            "question": "¿El informe sustituye una opinión jurídica vinculante sobre transacciones particulares?",
+            "answer": "No. El Brief es un instrumento de inteligencia jurídica y monitoreo preventivo. Las operaciones, contratos, reestructuraciones y controversias concretas requieren análisis jurídico individualizado."
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Aviso legal",
+        "text": "El Venezuela Legal & Regulatory Risk Brief tiene carácter técnico, informativo y general. No constituye una opinión jurídica definitiva ni sustituye la asesoría individualizada necesaria para evaluar operaciones, contratos, contrapartes, hechos o decisiones concretas."
+      },
+      "closing_card": {
+        "tag": "CONSULTA CONFIDENCIAL",
+        "title": "Incorpore inteligencia jurídica a sus decisiones en Venezuela",
+        "text": "Solicite una muestra del informe mensual o coordine una conversación técnica con nuestros socios para evaluar las modalidades de suscripción corporativa.",
+        "primary_cta": "Solicitar información",
+        "secondary_cta": "Volver a Mac Legal Intelligence"
+      }
     }
   }
 }

@@ -28,6 +28,7 @@ export type RouteKey =
   | "services.local_counsel"
   | "services.empresas_extranjeras"
   | "services.legal_intelligence"
+  | "services.legal_intelligence.monthly_brief"
   | "estrategiaTeoriaDelCaso"
   | "estrategiaSeleccionDeCasos"
   | "estrategiaEscenariosRepresentativos"
@@ -72,6 +73,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.local_counsel": "/es/services/international-cooperation/local-counsel",
     "services.empresas_extranjeras": "/es/services/empresas-extranjeras",
     "services.legal_intelligence": "/es/services/legal-intelligence",
+    "services.legal_intelligence.monthly_brief": "/es/services/legal-intelligence/monthly-brief",
     estrategiaTeoriaDelCaso: "/es/estrategia-teoria-del-caso",
     estrategiaSeleccionDeCasos: "/es/seleccion-de-casos",
     estrategiaEscenariosRepresentativos: "/es/estrategia-escenarios-representativos",
@@ -115,6 +117,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.local_counsel": "/en/services/international-cooperation/local-counsel",
     "services.empresas_extranjeras": "/en/services/empresas-extranjeras",
     "services.legal_intelligence": "/en/services/legal-intelligence",
+    "services.legal_intelligence.monthly_brief": "/en/services/legal-intelligence/monthly-brief",
     estrategiaTeoriaDelCaso: "/en/estrategia-teoria-del-caso",
     estrategiaSeleccionDeCasos: "/en/case-selection",
     estrategiaEscenariosRepresentativos: "/en/estrategia-escenarios-representativos",

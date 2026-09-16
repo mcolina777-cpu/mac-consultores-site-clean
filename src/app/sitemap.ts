@@ -23,6 +23,7 @@ const routes: RouteDefinition[] = [
   '/services/consultoria-preventiva',
   '/services/empresas-extranjeras',
   '/services/legal-intelligence',
+  '/services/legal-intelligence/monthly-brief',
   '/services/international-cooperation',
   '/services/international-cooperation/local-counsel',
   '/services/international-cooperation/areas-cooperacion',

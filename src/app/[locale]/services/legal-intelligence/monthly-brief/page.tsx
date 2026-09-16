@@ -12,20 +12,20 @@ export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const isEs = locale === 'es';
   const dict = await getDictionary(locale);
-  const data = dict?.legal_intelligence?.seo;
+  const data = dict?.legal_intelligence?.monthly_brief?.seo;
 
-  const title = data?.title || (isEs 
-    ? 'Mac Legal Intelligence | Venezuela Legal & Regulatory Risk Brief | Mac Consultores Jurídicos & Asociados'
-    : 'Mac Legal Intelligence | Venezuela Legal & Regulatory Risk Brief | Mac Consultores Jurídicos & Asociados');
-  
+  const title = data?.title || (isEs
+    ? 'Informe Mensual de Riesgo Jurídico y Regulatorio en Venezuela | Mac Legal Intelligence'
+    : 'Venezuela Monthly Legal & Regulatory Risk Brief | Mac Legal Intelligence');
+
   const description = data?.description || (isEs
-    ? 'Inteligencia jurídica mensual, análisis regulatorio y orientación preventiva para organizaciones con exposición a Venezuela.'
-    : 'Monthly legal intelligence, regulatory analysis and preventive guidance for organizations with Venezuela-related exposure.');
+    ? 'Informe mensual bilingüe con análisis de novedades legislativas, regulatorias, jurisprudencia y consideraciones de compliance y sanciones para empresas con exposición a Venezuela.'
+    : 'Bilingual monthly report analyzing legislative and regulatory developments, case law, compliance considerations, and sanctions risk for companies exposed to Venezuela.');
 
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
-  const url = `${BASE_URL}/${locale}/services/legal-intelligence`;
-  const esUrl = `${BASE_URL}/es/services/legal-intelligence`;
-  const enUrl = `${BASE_URL}/en/services/legal-intelligence`;
+  const url = `${BASE_URL}/${locale}/services/legal-intelligence/monthly-brief`;
+  const esUrl = `${BASE_URL}/es/services/legal-intelligence/monthly-brief`;
+  const enUrl = `${BASE_URL}/en/services/legal-intelligence/monthly-brief`;
 
   return {
     title,
@@ -62,19 +62,20 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default async function LegalIntelligencePage({ params }: Props) {
+export default async function MonthlyBriefPage({ params }: Props) {
   const { locale } = await params;
   const isEs = locale === 'es';
   const dict = await getDictionary(locale);
-  const data = dict?.legal_intelligence;
+  const data = dict?.legal_intelligence?.monthly_brief;
 
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
-  const redirectUrl = `${BASE_URL}/${locale}/services/legal-intelligence?sent=success#contacto`;
+  const redirectUrl = `${BASE_URL}/${locale}/services/legal-intelligence/monthly-brief?sent=success#contacto`;
 
   const breadcrumbHome = dict?.nav?.inicio || (isEs ? 'Inicio' : 'Home');
   const breadcrumbServices = dict?.nav?.servicios || (isEs ? 'Servicios' : 'Services');
-  const breadcrumbCurrent = data?.breadcrumb?.current || 'Mac Legal Intelligence';
-  const breadcrumbText = `${breadcrumbHome.toUpperCase()} / ${breadcrumbServices.toUpperCase()} / ${breadcrumbCurrent.toUpperCase()}`;
+  const breadcrumbParent = dict?.legal_intelligence?.breadcrumb?.current || 'Mac Legal Intelligence';
+  const breadcrumbCurrent = data?.breadcrumb?.current || (isEs ? 'Informe mensual' : 'Monthly Brief');
+  const breadcrumbText = `${breadcrumbHome.toUpperCase()} / ${breadcrumbServices.toUpperCase()} / ${breadcrumbParent.toUpperCase()} / ${breadcrumbCurrent.toUpperCase()}`;
 
   return (
     <main className="page-article">
@@ -100,7 +101,7 @@ export default async function LegalIntelligencePage({ params }: Props) {
             <a href="#contacto" className="btn btn-primary">
               {data?.hero?.primary_cta}
             </a>
-            <a href="#alcance" className="btn btn-outline">
+            <a href="#modulos" className="btn btn-outline">
               {data?.hero?.secondary_cta}
             </a>
           </div>
@@ -110,8 +111,8 @@ export default async function LegalIntelligencePage({ params }: Props) {
       {/* CONTENEDOR PRINCIPAL */}
       <section className="section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
-          
-          {/* BLOQUE 1: PROPUESTA DE VALOR */}
+
+          {/* BLOQUE 1: PROPUESTA DE VALOR / ENFOQUE */}
           <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
               {data?.value_proposition?.title}
@@ -124,36 +125,52 @@ export default async function LegalIntelligencePage({ params }: Props) {
             </p>
           </div>
 
-          {/* BLOQUE 2: DESTINATARIOS */}
-          <div className="content-section mb-3rem">
+          {/* BLOQUE 2: MÓDULOS DE COBERTURA */}
+          <div id="modulos" className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
-              {data?.clients?.title}
+              {data?.modules?.title}
             </h2>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
-              {data?.clients?.intro}
-            </p>
-            <ul className="service-list mb-2rem">
-              {data?.clients?.items?.map((item: string, index: number) => (
-                <li key={index} style={{ lineHeight: 1.6 }}>
-                  {item}
-                </li>
+            {data?.modules?.intro && (
+              <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+                {data.modules.intro}
+              </p>
+            )}
+            <div className="grid-2 gap-1-5rem">
+              {data?.modules?.items?.map((item: { tag: string; title: string; text: string }, index: number) => (
+                <div
+                  key={index}
+                  className="card"
+                  style={{
+                    backgroundColor: '#ffffff',
+                    border: '1px solid var(--border-color, #e5e7eb)',
+                    borderRadius: '6px',
+                    padding: '1.75rem',
+                  }}
+                >
+                  <span className="section-tag">{item.tag}</span>
+                  <h3 className="serif mb-0-75rem" style={{ fontSize: '1.15rem', color: 'var(--primary, #002845)' }}>
+                    {item.title}
+                  </h3>
+                  <p className="card-editorial-text" style={{ margin: 0, lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
+                    {item.text}
+                  </p>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
 
-          {/* BLOQUE 3: QUÉ INCLUYE EL INFORME MENSUAL */}
-          <div id="alcance" className="content-section mb-3rem">
+          {/* BLOQUE 3: METODOLOGÍA Y CALENDARIO */}
+          <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
-              {data?.content?.title}
+              {data?.delivery?.title}
             </h2>
-            <ul className="service-list mb-1-5rem">
-              {data?.content?.items?.map((item: string, index: number) => (
-                <li key={index} style={{ lineHeight: 1.6 }}>
-                  {item}
-                </li>
-              ))}
-            </ul>
-            {data?.content?.note && (
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+              {data?.delivery?.paragraph_1}
+            </p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+              {data?.delivery?.paragraph_2}
+            </p>
+            {data?.delivery?.note && (
               <p
                 className="text-left text-sm max-w-100"
                 style={{
@@ -164,86 +181,12 @@ export default async function LegalIntelligencePage({ params }: Props) {
                   borderLeft: '2px solid var(--accent, #990000)',
                 }}
               >
-                {data.content.note}
+                {data.delivery.note}
               </p>
             )}
           </div>
 
-          {/* BLOQUE 4: METODOLOGÍA */}
-          <div className="content-section mb-3rem">
-            <h2 className="serif section-title mb-1-5rem">
-              {data?.methodology?.title}
-            </h2>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
-              {data?.methodology?.paragraph_1}
-            </p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
-              {data?.methodology?.paragraph_2}
-            </p>
-          </div>
-
-          {/* BLOQUE 5: MODALIDADES DE SEGUIMIENTO */}
-          <div className="content-section mb-3rem">
-            <h2 className="serif section-title mb-1-5rem">
-              {data?.modalities?.title}
-            </h2>
-            <div className="grid-2 gap-1-5rem">
-              {data?.modalities?.items?.map((item: { tag: string; title: string; text: string; link_text?: string }, index: number) => {
-                if (index === 0) {
-                  return (
-                    <Link
-                      key={index}
-                      href={getRoute(locale, "services.legal_intelligence.monthly_brief")}
-                      className="card hover-lift"
-                      style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        backgroundColor: '#ffffff',
-                        border: '1px solid var(--border-color, #e5e7eb)',
-                        borderRadius: '6px',
-                        padding: '1.75rem',
-                        textDecoration: 'none',
-                        color: 'inherit',
-                      }}
-                    >
-                      <span className="section-tag">{item.tag}</span>
-                      <h3 className="serif mb-0-75rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #002845)' }}>
-                        {item.title}
-                      </h3>
-                      <p className="card-editorial-text" style={{ margin: '0 0 1.5rem 0', lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
-                        {item.text}
-                      </p>
-                      <span className="card-link mt-auto">
-                        {item.link_text || (isEs ? 'CONOCER DETALLES DEL BRIEF →' : 'VIEW MONTHLY BRIEF DETAILS →')}
-                      </span>
-                    </Link>
-                  );
-                }
-                return (
-                  <div
-                    key={index}
-                    className="card"
-                    style={{
-                      backgroundColor: '#ffffff',
-                      border: '1px solid var(--border-color, #e5e7eb)',
-                      borderRadius: '6px',
-                      padding: '1.75rem',
-                    }}
-                  >
-                    <span className="section-tag">{item.tag}</span>
-                    <h3 className="serif mb-0-75rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #002845)' }}>
-                      {item.title}
-                    </h3>
-                    <p className="card-editorial-text" style={{ margin: 0, lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
-                      {item.text}
-                    </p>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-
-          {/* BLOQUE 6: SANCIONES Y OPERACIONES TRANSFRONTERIZAS */}
+          {/* BLOQUE 4: SANCIONES Y OPERACIONES CON VENEZUELA */}
           <div className="content-section mb-3rem">
             <div
               style={{
@@ -262,7 +205,7 @@ export default async function LegalIntelligencePage({ params }: Props) {
             </div>
           </div>
 
-          {/* BLOQUE 7: CTA / FORMULARIO B2B */}
+          {/* BLOQUE 5: FORMULARIO B2B DE SUSCRIPCIÓN */}
           <div className="content-section mb-4rem">
             <B2BContactBox
               data={data?.contactBox}
@@ -272,7 +215,7 @@ export default async function LegalIntelligencePage({ params }: Props) {
             />
           </div>
 
-          {/* BLOQUE 8: PREGUNTAS FRECUENTES (FAQ) */}
+          {/* BLOQUE 6: PREGUNTAS FRECUENTES (FAQ) */}
           <div className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
               {data?.faq?.title}
@@ -300,7 +243,7 @@ export default async function LegalIntelligencePage({ params }: Props) {
             </div>
           </div>
 
-          {/* BLOQUE 9: AVISO LEGAL / DISCLAIMER */}
+          {/* BLOQUE 7: AVISO LEGAL / DISCLAIMER */}
           <div className="content-section mb-3rem">
             <div
               className="scope-disclaimer-box text-sm"
@@ -361,7 +304,7 @@ export default async function LegalIntelligencePage({ params }: Props) {
               <a href="#contacto" className="btn btn-primary">
                 {data?.closing_card?.primary_cta}
               </a>
-              <Link href={getRoute(locale, "services")} className="btn btn-outline">
+              <Link href={getRoute(locale, "services.legal_intelligence")} className="btn btn-outline">
                 {data?.closing_card?.secondary_cta}
               </Link>
             </div>

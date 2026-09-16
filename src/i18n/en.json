@@ -2099,7 +2099,8 @@
         {
           "tag": "01",
           "title": "Monthly brief",
-          "text": "A bilingual monthly report analyzing legal, regulatory, institutional and compliance developments relevant to the client’s risk profile."
+          "text": "A bilingual monthly report analyzing legal, regulatory, institutional and compliance developments relevant to the client’s risk profile.",
+          "link_text": "VIEW MONTHLY BRIEF DETAILS →"
         },
         {
           "tag": "02",
@@ -2189,6 +2190,137 @@
       "text": "Learn how Mac Legal Intelligence can provide monitoring, context and preventive guidance for your organization’s Venezuela-related legal exposure.",
       "primary_cta": "Request information",
       "secondary_cta": "Back to Services"
+    },
+    "monthly_brief": {
+      "seo": {
+        "title": "Venezuela Monthly Legal & Regulatory Risk Brief | Mac Legal Intelligence",
+        "description": "Bilingual monthly report analyzing legislative and regulatory developments, case law, compliance considerations, and sanctions risk for companies exposed to Venezuela."
+      },
+      "breadcrumb": {
+        "current": "Monthly Brief"
+      },
+      "hero": {
+        "tag": "MAC LEGAL INTELLIGENCE — MONTHLY BRIEF",
+        "h1": "Venezuela Legal & Regulatory Risk Brief",
+        "subtitle": "Bilingual monthly monitoring, impact analysis and preventive legal insight",
+        "intro": "A structured intelligence brief for general counsel, compliance officers, investors and international firms that require rigorous, advance insight into Venezuelan regulatory, legislative and institutional shifts.",
+        "primary_cta": "Request subscription",
+        "secondary_cta": "View scope & modules"
+      },
+      "value_proposition": {
+        "title": "Purpose and structure of the monthly brief",
+        "paragraph_1": "The Venezuela Legal & Regulatory Risk Brief is neither an undifferentiated compilation of gazettes nor a press newsletter. It is a technical legal intelligence report that filters the dispersion of Venezuelan regulatory and judicial materials to focus on what creates genuine operational, contractual, or liability impacts for businesses.",
+        "paragraph_2": "Each monthly brief is organized into modular sections detailing what occurred, its legal foundation, affected business sectors, applicable red flags, and recommended preventive action items for management."
+      },
+      "modules": {
+        "title": "Substantive coverage modules",
+        "intro": "Each monthly issue comprises the following substantive analytical and preventive modules:",
+        "items": [
+          {
+            "tag": "MODULE 01",
+            "title": "Legislative & regulatory developments",
+            "text": "Monitoring of legislation, executive decrees, resolutions, administrative measures and other relevant acts issued during the reporting period, with attention to their scope and entry into force."
+          },
+          {
+            "tag": "MODULE 02",
+            "title": "Key judicial rulings & precedents",
+            "text": "Selection of relevant judicial decisions and legal developments, including rulings of the Supreme Tribunal of Justice and other courts, where they may have corporate, contractual, administrative, tax, employment or criminal-law implications."
+          },
+          {
+            "tag": "MODULE 03",
+            "title": "Corporate criminal risk & compliance",
+            "text": "Preventive considerations concerning criminal-risk exposure related to corporate activities, directors and officers, together with third-party due diligence and compliance red flags."
+          },
+          {
+            "tag": "MODULE 04",
+            "title": "Contracts, payments & cross-border operations",
+            "text": "Analysis of risks involving contracts, payments, performance, logistics, intermediaries and Venezuela-connected cross-border operations."
+          },
+          {
+            "tag": "MODULE 05",
+            "title": "Institutional context & red flags",
+            "text": "Monitoring of institutional developments, supervisory powers and relevant changes in administrative criteria or actions that may require business attention."
+          },
+          {
+            "tag": "MODULE 06",
+            "title": "Executive assessment & action checklist",
+            "text": "Executive synthesis of prioritized matters, their potential impact and areas that may require review, additional documentation, follow-up or specialized advice."
+          }
+        ]
+      },
+      "delivery": {
+        "title": "Methodology, schedule & delivery timelines",
+        "paragraph_1": "The Brief is delivered monthly in a bilingual digital format, according to the scope agreed with each organization.",
+        "paragraph_2": "Each edition consolidates and prioritizes legal, regulatory, institutional and cross-border developments relevant to the reporting period.",
+        "note": "Delivery frequency, authorized recipients and delivery arrangements are defined in the applicable engagement documentation."
+      },
+      "sanctions": {
+        "title": "International sanctions framework & Venezuela-linked transactions",
+        "text": "The Venezuela Legal & Regulatory Risk Brief monitors general changes in international sanctions frameworks and restrictive measures impacting trade and investment with Venezuela. However, the report does not constitute a legal clearance, safe harbor, or formal opinion on specific transactions or licenses. Individual transactions require tailored factual and legal review under applicable foreign regimes (OFAC, EU, etc.), in coordination with specialized counsel in the relevant jurisdiction."
+      },
+      "contactBox": {
+        "tag": "CORPORATE SUBSCRIPTION",
+        "title": "Request a sample brief or discuss subscription options",
+        "description": "Inquire about corporate subscription packages, request an evaluation sample, or arrange a briefing call to align coverage areas with your team’s priorities.",
+        "emailPrefix": "You may also contact us directly at",
+        "email": "infomacconsul@gmail.com",
+        "form": {
+          "subject": "Monthly Brief Subscription Inquiry — Mac Consultores Jurídicos & Asociados",
+          "fullName": "Full name",
+          "organization": "Company or organization",
+          "country": "Country",
+          "email": "Corporate email",
+          "website": "Website (optional)",
+          "interest": "Subscription preference",
+          "selectPlaceholder": "Select an option",
+          "options": {
+            "corresponsalia": "Standard Monthly Brief Subscription (ES/EN)",
+            "representacion": "Subscription combined with Flash Alerts",
+            "consultoria": "Subscription with Monthly Executive Debrief",
+            "alianza": "Sample brief or private presentation request",
+            "otro": "Other customized requirement"
+          },
+          "message": "Message or inquiry details",
+          "submit": "Request information",
+          "privacy": "Your information will be treated with strict confidentiality."
+        }
+      },
+      "faq": {
+        "title": "Frequently asked questions about the Monthly Brief",
+        "items": [
+          {
+            "question": "In what languages is the Venezuela Legal & Regulatory Risk Brief delivered?",
+            "answer": "Each Brief is prepared as a bilingual report in Spanish and English to facilitate review by local and international teams, according to the agreed scope."
+          },
+          {
+            "question": "When is the first Brief received upon subscription?",
+            "answer": "The commencement date and delivery schedule are defined when the engagement is formalized, according to the service scope and the organization’s needs."
+          },
+          {
+            "question": "Can the Brief be distributed to multiple team members across the organization?",
+            "answer": "Authorized recipients and distribution arrangements are determined in the applicable engagement documentation, taking into account the organization’s needs and the confidentiality of the service."
+          },
+          {
+            "question": "What is the difference between the Monthly Brief and Flash Alerts?",
+            "answer": "The Monthly Brief consolidates, prioritizes and contextualizes relevant developments during the reporting period. Flash Alerts may be agreed to communicate matters of particular relevance before the next edition."
+          },
+          {
+            "question": "Does the Brief substitute for a binding legal opinion on specific transactions?",
+            "answer": "No. The Brief is a legal-intelligence and preventive-monitoring service. Specific transactions, contracts, restructurings and disputes require tailored legal analysis."
+          }
+        ]
+      },
+      "disclaimer": {
+        "title": "Legal notice",
+        "text": "The Venezuela Legal & Regulatory Risk Brief is technical, informational and general in nature. It does not constitute a definitive legal opinion and does not replace tailored legal advice required to assess specific transactions, contracts, counterparties, facts or decisions."
+      },
+      "closing_card": {
+        "tag": "CONFIDENTIAL INQUIRY",
+        "title": "Integrate legal intelligence into your Venezuela strategy",
+        "text": "Request an evaluation sample of the monthly brief or arrange a briefing call with our partners to discuss corporate subscription options.",
+        "primary_cta": "Request information",
+        "secondary_cta": "Back to Mac Legal Intelligence"
+      }
     }
   }
 }
