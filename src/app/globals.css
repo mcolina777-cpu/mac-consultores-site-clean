@@ -2918,3 +2918,67 @@ body.nav-open {
   }
 }
 
+/* =========================================================
+   INSTITUTIONAL CLOSING CARD (LEGAL VARIANT)
+   ========================================================= */
+
+.institutional-closing-card--legal {
+  box-shadow: none !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.institutional-closing-card--legal::before {
+  display: none !important;
+}
+
+.institutional-closing-card--legal:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.institutional-closing-card--legal .closing-card-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.institutional-closing-card--legal .btn {
+  min-height: 48px;
+}
+
+.institutional-closing-card--legal .btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 768px) {
+  .institutional-closing-card--legal {
+    padding: 2rem 1.25rem !important;
+  }
+
+  .institutional-closing-card--legal .closing-card-actions {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .institutional-closing-card--legal .btn {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .institutional-closing-card--legal,
+  .institutional-closing-card--legal * {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+

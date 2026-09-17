@@ -1,5 +1,7 @@
 import React from "react";
 import { getDictionary } from "@/i18n/getDictionary";
+import { getRoute } from "@/lib/routes";
+import InstitutionalClosingCard from "@/components/InstitutionalClosingCard";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -54,12 +56,13 @@ export default async function AvisoLegal({ params }: { params: Promise<{ locale:
   const dict = await getDictionary(locale);
 
   const breadcrumbBase =
-    dict?.legal_pages?.notice_breadcrumb ;
+    dict?.legal_pages?.notice_breadcrumb || (locale === "en" ? "Corporate Information" : "Información Corporativa");
 
   const pageTitle =
-    locale === "en"
-      ? dict?.legal_pages?.notice_h1
-      : "Aviso Legal";
+    dict?.legal_pages?.notice_h1 || (locale === "en" ? "Legal Notice" : "Aviso Legal");
+
+  const notice = dict?.legal_pages?.notice;
+  const closingCard = notice?.closing_card;
 
   return (
     <main className="page-legal">
@@ -75,65 +78,38 @@ export default async function AvisoLegal({ params }: { params: Promise<{ locale:
       <section className="legal-content py-60px">
         <div className="container">
           <div className="layout-narrow">
-            {locale === "en" ? (
-              <>
-                <h2>{dict?.legal_pages?.notice?.subtitle}</h2>
-                <h3 className="mt-2rem">
-                  {dict?.legal_pages?.notice?.sec1_title}
-                </h3>
-                <p>{dict?.legal_pages?.notice?.sec1_desc}</p>
+            <h2>{notice?.subtitle}</h2>
 
-                <h3 className="mt-2rem">
-                  {dict?.legal_pages?.notice?.sec2_title}
-                </h3>
-                <p>{dict?.legal_pages?.notice?.sec2_desc}</p>
+            <h3 className="mt-2rem">{notice?.sec1_title}</h3>
+            <p>{notice?.sec1_desc}</p>
 
-                <h3 className="mt-2rem">
-                  {dict?.legal_pages?.notice?.sec3_title}
-                </h3>
-                <p>{dict?.legal_pages?.notice?.sec3_desc}</p>
+            <h3 className="mt-2rem">{notice?.sec2_title}</h3>
+            <p>{notice?.sec2_desc}</p>
 
-                <h3 className="mt-2rem">
-                  {dict?.legal_pages?.notice?.sec4_title}
-                </h3>
-                <p>{dict?.legal_pages?.notice?.sec4_desc}</p>
-              </>
-            ) : (
-              <>
-                <h2>1. Condiciones de Uso del Sitio</h2>
-                <p>
-                  El acceso y uso de este sitio web atribuye la condición de usuario, aceptando, desde
-                  dicho acceso y/o uso, las presentes condiciones de uso. El contenido de este sitio web
-                  tiene carácter general e informativo.
-                </p>
+            <h3 className="mt-2rem">{notice?.sec3_title}</h3>
+            <p>{notice?.sec3_desc}</p>
 
-                <h2 className="mt-2rem">2. Ausencia de Asesoría Individual</h2>
-                <p>
-                  La información contenida en este sitio web no constituye asesoramiento legal,
-                  profesional o de cualquier otra índole. La recepción de información a través de este
-                  sitio web no crea una relación abogado-cliente. Recomendamos que busque el consejo
-                  legal adecuado antes de tomar decisiones sobre cualquier asunto legal.
-                </p>
-
-                <h2 className="mt-2rem">3. Responsabilidad Limitada</h2>
-                <p>
-                  Mac Consultores Jurídicos &amp; Asociados no se hace responsable de las decisiones
-                  tomadas a partir de la información suministrada en el sitio web, ni de los daños y
-                  perjuicios producidos en el usuario o terceros con motivo de actuaciones que tengan
-                  como único fundamento la información obtenida en el sitio web.
-                </p>
-
-                <h2 className="mt-2rem">4. Aceptación de Términos</h2>
-                <p>
-                  Al utilizar nuestros servicios y nuestro sitio web, usted acepta los términos descritos
-                  en este Aviso Legal. Para cualquier duda, por favor, póngase en contacto a través de
-                  nuestros canales oficiales.
-                </p>
-              </>
-            )}
+            <h3 className="mt-2rem">{notice?.sec4_title}</h3>
+            <p>{notice?.sec4_desc}</p>
           </div>
         </div>
       </section>
+
+      {closingCard && (
+        <InstitutionalClosingCard
+          tag={closingCard.tag}
+          title={closingCard.title}
+          description={closingCard.description}
+          primaryActionLabel={closingCard.primary_action}
+          primaryActionHref={getRoute(locale, "contact")}
+          secondaryActionLabel={closingCard.secondary_action}
+          secondaryActionHref={getRoute(locale, "home")}
+          variant="legal"
+          locale={locale}
+          titleId="legal-notice-closing-title"
+        />
+      )}
     </main>
   );
 }
+

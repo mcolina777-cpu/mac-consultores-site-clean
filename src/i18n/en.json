@@ -73,7 +73,14 @@
       "sec3_title": "3. Intellectual and Industrial Property",
       "sec3_desc": "All intellectual and industrial property rights over the content of this website, its graphic design, logos, texts, and images are the exclusive property of MAC CONSULTORES JURÍDICOS & ASOCIADOS. Their reproduction, distribution, or modification without express authorization is strictly prohibited.",
       "sec4_title": "4. Limitation of Liability",
-      "sec4_desc": "The firm is not responsible for decisions made based on the information provided on this site or for any potential damages arising from its use. References to regulations or laws may not be updated at the time of your inquiry."
+      "sec4_desc": "The firm is not responsible for decisions made based on the information provided on this site or for any potential damages arising from its use. References to regulations or laws may not be updated at the time of your inquiry.",
+      "closing_card": {
+        "tag": "CORPORATE GOVERNANCE & LEGAL COMPLIANCE",
+        "title": "Institutional Notice & Website Ownership",
+        "description": "For questions regarding the terms of use of this website, intellectual property inquiries, or institutional communications, please contact our compliance desk.",
+        "primary_action": "INSTITUTIONAL INQUIRIES",
+        "secondary_action": "← BACK TO HOME"
+      }
     },
     "privacy_title": "Privacy Policy | Mac Consultores Jurídicos & Asociados",
     "privacy_h1": "Privacy Policy",
@@ -87,7 +94,14 @@
       "sec3_title": "3. Confidentiality",
       "sec3_desc": "Our firm is governed by strict compliance with professional secrecy. All information provided, even before establishing an attorney-client relationship, will be treated with the utmost confidentiality and under appropriate security protocols to prevent unauthorized access.",
       "sec4_title": "4. User Rights",
-      "sec4_desc": "You have the right to request at any time the access, rectification, update, or deletion of your personal data from our databases by sending a communication to the official email address: <a href=\"mailto:infomacconsul@gmail.com\">infomacconsul@gmail.com</a>."
+      "sec4_desc": "You have the right to request at any time the access, rectification, update, or deletion of your personal data from our databases by sending a communication to the official email address: <a href=\"mailto:infomacconsul@gmail.com\">infomacconsul@gmail.com</a>.",
+      "closing_card": {
+        "tag": "DATA PROTECTION DESK",
+        "title": "Exercise Your Data Protection Rights",
+        "description": "You may request access to, rectification, update, or deletion of your personal information through our dedicated privacy desk.",
+        "primary_action": "EMAIL PRIVACY DESK",
+        "secondary_action": "VIEW LEGAL NOTICE →"
+      }
     }
   },
   "nav": {

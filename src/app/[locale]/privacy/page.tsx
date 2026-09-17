@@ -1,5 +1,7 @@
 import React from "react";
 import { getDictionary } from "@/i18n/getDictionary";
+import { getRoute } from "@/lib/routes";
+import InstitutionalClosingCard from "@/components/InstitutionalClosingCard";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -54,12 +56,13 @@ export default async function Privacidad({ params }: { params: Promise<{ locale:
   const dict = await getDictionary(locale);
 
   const breadcrumbBase =
-    dict?.legal_pages?.privacy_breadcrumb ;
+    dict?.legal_pages?.privacy_breadcrumb || (locale === "en" ? "Corporate Information" : "Información Corporativa");
 
   const pageTitle =
-    locale === "en"
-      ? dict?.legal_pages?.privacy_h1
-      : "Política de Privacidad";
+    dict?.legal_pages?.privacy_h1 || (locale === "en" ? "Privacy Policy" : "Política de Privacidad");
+
+  const privacy = dict?.legal_pages?.privacy;
+  const closingCard = privacy?.closing_card;
 
   return (
     <main className="page-legal">
@@ -75,72 +78,42 @@ export default async function Privacidad({ params }: { params: Promise<{ locale:
       <section className="legal-content py-60px">
         <div className="container">
           <div className="layout-narrow">
-            {locale === "en" ? (
-              <>
-                <h2>{dict?.legal_pages?.privacy?.subtitle}</h2>
-                <h3 className="mt-2rem">
-                  {dict?.legal_pages?.privacy?.sec1_title}
-                </h3>
-                <p>{dict?.legal_pages?.privacy?.sec1_desc}</p>
+            <h2>{privacy?.subtitle}</h2>
 
-                <h3 className="mt-2rem">
-                  {dict?.legal_pages?.privacy?.sec2_title}
-                </h3>
-                <p>{dict?.legal_pages?.privacy?.sec2_desc}</p>
+            <h3 className="mt-2rem">{privacy?.sec1_title}</h3>
+            <p>{privacy?.sec1_desc}</p>
 
-                <h3 className="mt-2rem">
-                  {dict?.legal_pages?.privacy?.sec3_title}
-                </h3>
-                <p>{dict?.legal_pages?.privacy?.sec3_desc}</p>
+            <h3 className="mt-2rem">{privacy?.sec2_title}</h3>
+            <p>{privacy?.sec2_desc}</p>
 
-                <h3 className="mt-2rem">
-                  {dict?.legal_pages?.privacy?.sec4_title}
-                </h3>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: dict?.legal_pages?.privacy?.sec4_desc,
-                  }}
-                />
-              </>
-            ) : (
-              <>
-                <h2>1. Tratamiento de Datos Personales</h2>
-                <p>
-                  Mac Consultores Jurídicos &amp; Asociados está comprometido con la protección de la
-                  privacidad y los datos personales de nuestros clientes y usuarios. Toda la información
-                  personal recabada a través de formularios o correos electrónicos es tratada con
-                  estricta confidencialidad.
-                </p>
+            <h3 className="mt-2rem">{privacy?.sec3_title}</h3>
+            <p>{privacy?.sec3_desc}</p>
 
-                <h2 className="mt-2rem">2. Finalidad</h2>
-                <p>
-                  Los datos suministrados serán utilizados exclusivamente para gestionar sus consultas,
-                  agendar reuniones, proveer los servicios jurídicos solicitados y remitir información de
-                  interés relacionada con nuestras áreas de práctica.
-                </p>
-
-                <h2 className="mt-2rem">3. Bases Legales y Seguridad</h2>
-                <p>
-                  El tratamiento de datos se fundamenta en el consentimiento expreso del usuario y en la
-                  ejecución de la relación precontractual o contractual. Hemos implementado medidas de
-                  seguridad técnicas y organizativas para evitar la pérdida, mal uso, alteración, acceso
-                  no autorizado y robo de los datos personales facilitados.
-                </p>
-
-                <h2 className="mt-2rem">4. Derechos del Usuario y Contacto</h2>
-                <p>
-                  Usted puede ejercer sus derechos de acceso, rectificación, cancelación u oposición
-                  dirigiéndose a nosotros a través del correo electrónico{" "}
-                  <a className="text-accent" href="mailto:infomacconsul@gmail.com">
-                    infomacconsul@gmail.com
-                  </a>
-                  , indicando el derecho que desea ejercer.
-                </p>
-              </>
-            )}
+            <h3 className="mt-2rem">{privacy?.sec4_title}</h3>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: privacy?.sec4_desc || "",
+              }}
+            />
           </div>
         </div>
       </section>
+
+      {closingCard && (
+        <InstitutionalClosingCard
+          tag={closingCard.tag}
+          title={closingCard.title}
+          description={closingCard.description}
+          primaryActionLabel={closingCard.primary_action}
+          primaryActionHref="mailto:infomacconsul@gmail.com?subject=Privacy%20and%20Data%20Protection%20Inquiry"
+          secondaryActionLabel={closingCard.secondary_action}
+          secondaryActionHref={getRoute(locale, "legalNotice")}
+          variant="legal"
+          locale={locale}
+          titleId="privacy-closing-title"
+        />
+      )}
     </main>
   );
 }
+
