@@ -103,9 +103,10 @@
     "contacto": "Contact"
   },
   "footer": {
-    "desc": "Specialized boutique law firm focused on criminal law strategy, risk prevention, and legal representation in Venezuela.",
-    "nav_title": "Navigation",
-    "services_title": "Services",
+    "desc": "Boutique law firm specializing in strategic corporate criminal defense, constitutional protection, and complex international mandates in Venezuela.",
+    "rif": "RIF: J-40244634-9",
+    "nav_title": "The Firm",
+    "services_title": "Practice Areas",
     "offices_title": "Headquarters & Contact",
     "penal": "Criminal Law",
     "constitucional": "Constitutional Defense",
@@ -114,7 +115,8 @@
     "officeAddress": "Torre Financiera, Caracas",
     "timezoneCity": "Caracas, Venezuela",
     "location": "Torre Financiera, Caracas",
-    "cta": "LEGAL INTAKE & CONSULTATIONS",
+    "cta": "ADMISSIONS & INQUIRIES",
+    "deontological_notice": "The legal information provided on this website is institutional in nature and does not constitute binding legal advice or create an attorney-client relationship.",
     "copyright": "Mac Consultores Jurídicos & Asociados. All rights reserved.",
     "local_time": "Local time",
     "legal_notice": "Legal Notice",

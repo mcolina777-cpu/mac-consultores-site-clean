@@ -103,9 +103,10 @@
     "contacto": "Contacto"
   },
   "footer": {
-    "desc": "Firma boutique especializada en estrategia penal, prevención de riesgos y representación jurídica en Venezuela.",
-    "nav_title": "Navegación",
-    "services_title": "Servicios",
+    "desc": "Práctica jurídica boutique especializada en litigio penal estratégico corporativo, tutela constitucional y mandatos internacionales complejos en Venezuela.",
+    "rif": "RIF: J-40244634-9",
+    "nav_title": "Institución",
+    "services_title": "Áreas de Práctica",
     "offices_title": "Sede y Contacto",
     "penal": "Derecho Penal",
     "constitucional": "Defensa Constitucional",
@@ -115,6 +116,7 @@
     "timezoneCity": "Caracas, Venezuela",
     "location": "Torre Financiera, Caracas",
     "cta": "ADMISIÓN Y CONSULTAS",
+    "deontological_notice": "La información jurídica contenida en este portal es de carácter institucional y no constituye asesoría vinculante ni configura una relación abogado-cliente.",
     "copyright": "Mac Consultores Jurídicos & Asociados. Todos los derechos reservados.",
     "local_time": "Hora local",
     "legal_notice": "Aviso Legal",

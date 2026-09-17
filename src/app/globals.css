@@ -779,7 +779,8 @@ button,
 }
 
 /* =========================================================
-   FOOTER – Cierre azul/dorado que combina con todo
+   FOOTER – Arquitectura Institucional Apple Premium
+   (Se preserva íntegramente el degradado azul institucional)
    ========================================================= */
 
 footer,
@@ -791,184 +792,321 @@ footer,
     rgba(0, 115, 180, 0.65) 100%
   );
   color: #ffffff;
-  font-family: var(--font-cormorant), "Cormorant Garamond", serif;
-  padding: 100px 0 40px;
+  padding: 80px 0 36px;
   margin-top: auto;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* Grid principal del footer */
+/* Grid principal del footer (4 columnas en escritorio) */
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1.5fr;
-  gap: 40px;
-  margin-bottom: 40px;
+  grid-template-columns: 1.8fr 1fr 1.15fr 1.25fr;
+  gap: 48px;
+  margin-bottom: 36px;
   align-items: start;
 }
 
 .footer-col {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }
 
-/* Branding y textos principales */
+/* Capa 1: Identidad Institucional & Marca */
 
-.footer-logo {
-  font-size: 1.8rem;
-  line-height: 1.3;
-  letter-spacing: 2px;
-  margin-bottom: 0.1rem;
+.footer-brand-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }
 
-.footer-col h4,
-.footer-title {
-  color: var(--text-white);
-  font-size: 1.1rem;
+.footer-brand-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 0.85rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-brand-crest {
+  width: 42px;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+  opacity: 0.95;
+}
+
+.footer-brand-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.footer-brand-name {
+  font-family: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  font-size: 1.35rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-bottom: 1rem;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-  text-align: left;
-}
-
-.footer-desc {
-  font-size: 1.15rem;
-  line-height: 1.35;
-  margin-top: 0.1rem;
-  margin-bottom: 0.4rem;
-  color: rgba(255, 255, 255, 0.85);
-  text-align: left;
-}
-
-/* Listas de enlaces (Navigation, Services, Offices) */
-
-.footer-col ul {
-  list-style: none;
-  padding: 0;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #ffffff;
   margin: 0;
 }
 
-.footer-col ul li {
-  margin-bottom: 0.5rem;
-  font-size: 1.15rem;
-  line-height: 1.4; /* valor único y estable para todos los ítems */
-  text-align: left;
+.footer-brand-rif {
+  font-family: var(--font-inter), Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.60);
+  margin: 0;
 }
 
-/* Lista principal del footer para Navigation y Services */
+.footer-brand-desc {
+  font-family: var(--font-inter), Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.84rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.78);
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+  text-align: left;
+  max-width: 380px;
+}
+
+/* Capa 2: Títulos de columnas y listas de navegación */
+
+.footer-title {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 0.75rem; /* 12px */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 1.15rem;
+  line-height: 1.2;
+  text-align: left;
+}
 
 .footer-links {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footer-links li {
-  margin-bottom: 0.5rem;
+  margin: 0;
+  text-align: left;
 }
 
 .footer-links a {
-  color: inherit;
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  color: rgba(255, 255, 255, 0.80);
   text-decoration: none;
-  font-size: 1.15rem;
-  line-height: 1.4; /* mismo line-height que li para evitar saltos raros */
-  transition: color 0.3s ease;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.4;
+  transition: color 200ms cubic-bezier(0.16, 1, 0.3, 1), transform 200ms cubic-bezier(0.16, 1, 0.3, 1);
   display: inline-block;
 }
 
-/* Enlaces y acentos */
-
-.footer-col ul a:hover,
-.footer-links a:hover,
-.footer-legal a:hover {
-  color: var(--accent);
+.footer-links a:hover {
+  color: #ffffff;
+  transform: translateX(2px);
 }
 
-.footer-col ul a.accent-link {
-  color: var(--accent);
-  font-weight: 700;
-  letter-spacing: 1px;
+.footer-links a:focus-visible {
+  outline: 2px solid rgba(212, 175, 55, 0.60);
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 
-/* Sellos y detalles visuales */
+/* Columna Despacho & Contacto */
 
-.footer-seal-img {
-  max-width: 100px;
-  height: auto;
+.footer-contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-contact-item {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.80);
+  text-align: left;
+}
+
+.footer-contact-val {
   display: block;
 }
 
-/* Línea inferior y parte legal */
+.footer-contact-link {
+  color: rgba(255, 255, 255, 0.80);
+  text-decoration: none;
+  transition: color 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-block;
+}
+
+.footer-contact-link:hover {
+  color: #ffffff;
+}
+
+.footer-contact-link:focus-visible {
+  outline: 2px solid rgba(212, 175, 55, 0.60);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* CTA "ADMISIÓN Y CONSULTAS" – Estilo Apple Pill */
+
+.footer-cta-wrap {
+  margin-top: 1.25rem;
+}
+
+.footer-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: 0.72rem; /* ~11.5px */
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(212, 175, 55, 0.40);
+  border-radius: 9999px;
+  padding: 11px 22px;
+  text-decoration: none;
+  transition: all 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  min-height: 44px;
+}
+
+.footer-cta-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(212, 175, 55, 0.75);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.footer-cta-btn:focus-visible {
+  outline: 2px solid rgba(212, 175, 55, 0.70);
+  outline-offset: 3px;
+}
+
+/* Capa 3: Aviso Deontológico */
+
+.footer-deontological {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 22px 0 20px;
+  margin-top: 12px;
+}
+
+.footer-deontological p {
+  font-family: var(--font-inter), Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem; /* 11.5px */
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.55);
+  margin: 0;
+  text-align: left;
+  max-width: 860px;
+}
+
+/* Capa 4: Barra Legal Inferior */
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 22px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.footer-copyright {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.footer-bottom p,
-.footer-bottom a,
-.footer-location {
-  margin: 0;
-  text-align: left;
-  font-size: 1.1rem;
-  line-height: 1.3;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.footer-legal {
-  display: flex;
   gap: 20px;
 }
 
-.footer-legal a {
-  color: inherit;
-  font-size: 1.1rem;
+.footer-bottom-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+}
+
+.footer-copyright-text {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: 0.75rem; /* 12px */
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  text-align: left;
+}
+
+.footer-metadata {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: 0.72rem; /* 11.5px */
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+  text-align: left;
+}
+
+.footer-meta-sep {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.footer-localtime-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.footer-legal-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-legal-links a {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.75rem; /* 12px */
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  white-space: nowrap;
+}
+
+.footer-legal-links a:hover {
+  color: #ffffff;
+}
+
+.footer-legal-links a:focus-visible {
+  outline: 2px solid rgba(212, 175, 55, 0.60);
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 
 /* FOOTER – Tablets y pantallas intermedias */
 @media (min-width: 769px) and (max-width: 1024px) {
   .footer {
-    padding: 70px 0 36px;
+    padding: 64px 0 32px;
   }
 
   .footer-grid {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "info nav"
-      "services offices";
-    gap: 36px 40px;
-    margin-bottom: 36px;
-  }
-
-  .footer-col.footer-info {
-    grid-area: info;
-  }
-
-  .footer-col:nth-of-type(2) {
-    grid-area: nav;
-  }
-
-  .footer-col:nth-of-type(3) {
-    grid-area: services;
-  }
-
-  .footer-col:nth-of-type(4) {
-    grid-area: offices;
+    gap: 40px 32px;
+    margin-bottom: 32px;
   }
 
   .footer-bottom {
@@ -981,52 +1119,108 @@ footer,
 /* FOOTER – Móvil */
 @media (max-width: 768px) {
   .footer {
-    padding: 60px 20px 30px;
+    padding: 48px 20px 32px;
   }
 
   .footer-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas:
-      "info"
-      "nav"
-      "services"
-      "offices";
-    gap: 32px;
+    gap: 36px;
+    margin-bottom: 28px;
   }
 
-  .footer-col.footer-info {
-    grid-area: info;
+  .footer-col {
+    align-items: flex-start;
+    text-align: left;
   }
 
-  .footer-col:nth-of-type(2) {
-    grid-area: nav;
+  .footer-brand-col {
+    align-items: flex-start;
+    text-align: left;
   }
 
-  .footer-col:nth-of-type(3) {
-    grid-area: services;
+  .footer-title {
+    margin-bottom: 0.85rem;
+    text-align: left;
   }
 
-  .footer-col:nth-of-type(4) {
-    grid-area: offices;
+  .footer-links {
+    gap: 0;
+  }
+
+  .footer-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 8px 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  .footer-contact-list {
+    gap: 8px;
+  }
+
+  .footer-contact-item a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 6px 0;
+  }
+
+  .footer-cta-btn {
+    width: auto;
+    max-width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 11px 24px;
+    margin-top: 0.85rem;
+    text-align: center;
+  }
+
+  .footer-deontological {
+    padding: 18px 0 16px;
+  }
+
+  .footer-deontological p {
+    text-align: left;
   }
 
   .footer-bottom {
     flex-direction: column;
-    align-items: center;
-    gap: 14px;
-    text-align: center;
+    align-items: flex-start;
+    gap: 16px;
+    padding-top: 18px;
+    text-align: left;
   }
 
-  .footer-bottom p,
-  .footer-bottom a,
-  .footer-location {
-    text-align: center;
+  .footer-bottom-info {
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
   }
 
-  .footer-legal {
-    justify-content: center;
+  .footer-copyright-text {
+    text-align: left;
+  }
+
+  .footer-metadata {
+    text-align: left;
+  }
+
+  .footer-legal-links {
     flex-wrap: wrap;
+    gap: 16px;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .footer-legal-links a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 0;
   }
 }
 
@@ -1908,126 +2102,7 @@ footer,
         width: 100%;
     }
 
-    /* 7. FOOTER – Versión móvil en dos columnas */
-    .footer {
-        padding-top: 40px;
-        padding-bottom: 32px;
-    }
 
-    .footer-grid {
-        display: grid;
-        grid-template-columns: 1.2fr 1fr;
-        grid-template-rows: auto auto auto;
-        grid-template-areas:
-            "info info"
-            "nav services"
-            "offices offices";
-        gap: 24px;
-    }
-
-    .footer-col.footer-info {
-        grid-area: info;
-    }
-
-    .footer-col:nth-of-type(2) {
-        grid-area: nav;
-    }
-
-    .footer-col:nth-of-type(3) {
-        grid-area: services;
-    }
-
-    .footer-col:nth-of-type(4) {
-        grid-area: offices;
-    }
-
-    .footer-col {
-        align-items: center;
-    }
-
-    .footer-logo {
-        font-size: 1.5rem;
-        line-height: 1.3;
-        text-align: center;
-        margin-bottom: 0.5rem;
-    }
-
-    .footer-desc {
-        font-size: 1.05rem;
-        line-height: 1.5;
-        text-align: center;
-    }
-
-    .footer-title {
-        text-align: center;
-        font-size: 1.05rem;
-        margin-bottom: 0.4rem;
-    }
-
-    .footer-col ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .footer-col .footer-links {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    .footer-col ul li {
-        font-size: 0.98rem;
-        line-height: 1.4;
-        text-align: center;
-    }
-
-    .footer-col ul a {
-        display: inline-block;
-        padding: 0.3rem 0;
-    }
-
-    .footer-cta {
-        display: inline-block;
-        margin-top: 0.4rem;
-        font-size: 1rem;
-    }
-
-    .footer-seal-img {
-        margin-top: 0.8rem;
-        max-width: 70px;
-        height: auto;
-    }
-
-    .footer-bottom {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 14px;
-        padding-top: 22px;
-        border-top: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-    .footer-bottom p,
-    .footer-bottom a,
-    .footer-location {
-        font-size: 0.95rem;
-        line-height: 1.5;
-        text-align: center;
-    }
-
-    .footer-legal {
-        display: flex;
-        flex-direction: row;
-        gap: 12px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .footer-legal a {
-        font-size: 0.95rem;
-        padding: 0.25rem 0;
-    }
 
     /* Encabezado de "Estrategias Representativas" más compacto en móvil */
     .section-strategies .axial-header.axial-centered {
