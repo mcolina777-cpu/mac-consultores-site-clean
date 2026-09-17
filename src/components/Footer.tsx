@@ -128,7 +128,7 @@ export default function Footer({
 
           {/* Columna 2: Navegación de la Firma */}
           <div
-            className="footer-col"
+            className="footer-col footer-nav-col"
             role="navigation"
             aria-label={navTitle}
           >
@@ -154,7 +154,7 @@ export default function Footer({
 
           {/* Columna 3: Áreas de Práctica / Servicios */}
           <div
-            className="footer-col"
+            className="footer-col footer-services-col"
             role="navigation"
             aria-label={servicesTitle}
           >
@@ -213,7 +213,7 @@ export default function Footer({
                 </a>
               </li>
             </ul>
-            <div className="footer-cta-wrap">
+            <div className="footer-cta-wrap footer-cta-desktop">
               <Link
                 href={getRoute(locale, "contact")}
                 className="footer-cta-btn"
@@ -224,6 +224,18 @@ export default function Footer({
               </Link>
             </div>
           </div>
+        </div>
+
+        {/* Remate CTA móvil independiente (visible únicamente en móvil <= 767px) */}
+        <div className="footer-mobile-cta-wrap">
+          <Link
+            href={getRoute(locale, "contact")}
+            className="footer-cta-btn"
+            role="button"
+            aria-label={ctaLabel}
+          >
+            <span>{ctaLabel}</span>
+          </Link>
         </div>
 
         {/* Capa 3: Aviso Deontológico Institucional */}
