@@ -1138,7 +1138,7 @@ footer,
 
   .footer-grid > .footer-col:nth-child(3),
   .footer-grid > .footer-col:nth-child(4) {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
     padding-top: 32px;
   }
 
@@ -1176,7 +1176,7 @@ footer,
 
   /* Separación editorial hairline a los bloques 2, 3 y 4 (Institución, Áreas de práctica, Sede y contacto) */
   .footer-grid > .footer-col:nth-child(n+2) {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
     padding-top: 30px;
   }
 
