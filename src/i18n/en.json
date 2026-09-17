@@ -453,7 +453,7 @@
     },
     "card_8": {
       "title": "Mac Legal Intelligence",
-      "desc": "Legal and regulatory monitoring for companies and investors with Venezuela-related exposure, focused on identifying regulatory risks and providing preventive context for decision-making.",
+      "desc": "Legal and regulatory monitoring for companies and investors with activities, operations, or business interests in Venezuela, focused on identifying regulatory risks and providing preventive context for decision-making.",
       "link": "VIEW DETAILS →"
     }
   },
@@ -986,8 +986,8 @@
     },
     "legal_intelligence": {
       "tag": "MAC LEGAL INTELLIGENCE",
-      "title": "Legal intelligence defined by your organization’s exposure",
-      "text": "Legal monitoring and analysis configured for organizations seeking to understand developments relevant to their Venezuela-connected operations and decisions.",
+      "title": "Legal intelligence defined by your organization’s operations and interests",
+      "text": "Legal monitoring and analysis configured for organizations seeking to understand regulatory and legal developments relevant to their activities, investments, and operations in Venezuela.",
       "cta": "Request a Preliminary Corporate Scoping Review"
     }
   },
@@ -2041,9 +2041,9 @@
   "legal_intelligence": {
     "seo": {
       "title": "Mac Legal Intelligence | Regulatory Monitoring & Legal Risk in Venezuela | Mac Consultores Jurídicos & Asociados",
-      "description": "Tailored legal monitoring, regulatory analysis and preventive guidance for organizations with Venezuela-related exposure.",
+      "description": "Tailored legal monitoring, regulatory analysis and preventive guidance for organizations with activities, operations, and interests in Venezuela.",
       "og_title": "Mac Legal Intelligence | Regulatory Monitoring & Strategic Analysis",
-      "og_description": "Tailored legal monitoring, regulatory analysis and preventive guidance for organizations with Venezuela-related exposure."
+      "og_description": "Tailored legal monitoring, regulatory analysis and preventive guidance for organizations with activities, operations, and interests in Venezuela."
     },
     "breadcrumb": {
       "home": "Home",
@@ -2060,23 +2060,23 @@
     },
     "value_proposition": {
       "title": "More than legal updates: context for business decisions",
-      "paragraph_1": "Organizations with Venezuela-related exposure may face legislative, regulatory, institutional and cross-border developments affecting contracts, payments, third-party relationships, internal compliance and business planning. Receiving a regulation, court decision or news item does not always reveal its practical operational implications.",
+      "paragraph_1": "Organizations with interests, operations or commercial relationships in Venezuela must follow legislative, regulatory, institutional and cross-border developments that may affect contracts, payments and business planning. A rule, court decision or news report alone does not always make clear which decisions may need review.",
       "paragraph_2": "Mac Legal Intelligence converts relevant legal developments into structured, bilingual and decision-oriented analysis. Each delivery explains what changed, why it matters, who may be affected and which measures may merit consideration."
     },
     "tailored_service": {
-      "title": "A service defined by your legal exposure",
+      "title": "A service defined by your organization’s operations and legal environment",
       "paragraph_1": "Mac Legal Intelligence is not a generic legal publication, newsletter or mass-distribution service. Each engagement is configured around the organization’s corporate circumstances, activities, areas of interest, operations, legal relationships and information needs.",
       "paragraph_2": "The scope is defined individually to focus monitoring and analysis on legal, regulatory and institutional developments that may be relevant to the organization’s decision-making."
     },
     "clients": {
-      "title": "Designed for organizations with Venezuela-related exposure",
+      "title": "Designed for organizations with activities, investments, or interests in Venezuela",
       "intro": "The service is designed for, among others:",
       "items": [
-        "International companies with Venezuelan operations, subsidiaries, suppliers, customers or projects.",
+        "International companies with operations, subsidiaries, suppliers, customers or projects in Venezuela.",
         "Investors, funds and organizations assessing opportunities or risk in Venezuela.",
         "International law firms requiring local insight or Venezuela local-counsel support.",
         "In-house legal teams, compliance officers and risk-management professionals.",
-        "Companies with Venezuela-related payments, contracts, transportation, insurance arrangements or intermediaries."
+        "Companies with commercial contracts, payment flows, logistics, insurance arrangements or intermediaries in transactions involving Venezuela."
       ]
     },
     "content": {
@@ -2104,7 +2104,7 @@
         {
           "tag": "01",
           "title": "Monthly brief",
-          "text": "A bilingual monthly report analyzing legal, regulatory, and institutional developments relevant to the organization’s exposure profile.",
+          "text": "A bilingual monthly report analyzing legal, regulatory, and institutional developments relevant to the organization’s activities and target sectors.",
           "link_text": "VIEW MONTHLY BRIEF DETAILS →"
         },
         {
@@ -2116,7 +2116,7 @@
         {
           "tag": "03",
           "title": "Executive debrief",
-          "text": "An optional, private periodic session to discuss trends, address general questions and prioritize matters."
+          "text": "An optional, private periodic session to discuss trends, address general questions and prioritize matters.",
         },
         {
           "tag": "04",
@@ -2127,7 +2127,7 @@
     },
     "sanctions": {
       "title": "Sanctions risk and cross-border operations",
-      "text": "Mac Legal Intelligence may identify developments and risks relevant to Venezuela-connected operations, including matters involving sanctions, licensing, payments, intermediaries and counterparties. However, determining compliance with foreign measures —including sanctions or licensing requirements applicable to a specific transaction— requires an individualized analysis of the relevant facts, parties, documentation and jurisdictions and, where appropriate, coordination with specialized counsel in the relevant jurisdiction."
+      "text": "Mac Legal Intelligence may identify relevant regulatory developments and risks for commercial, financial, or investment operations involving Venezuela, including matters involving sanctions, licensing, payments, intermediaries and counterparties. However, determining compliance with foreign measures —including sanctions or licensing requirements applicable to a specific transaction— requires an individualized analysis of the relevant facts, parties, documentation and jurisdictions and, where appropriate, coordination with specialized counsel in the relevant jurisdiction."
     },
     "delimited_scope": {
       "title": "Defined professional scope",
@@ -2176,7 +2176,7 @@
         },
         {
           "question": "Can the content be tailored to a specific industry or activity?",
-          "answer": "Yes. The scope may be configured according to the relevant industry, operational structure, counterparty profile and risk exposure."
+          "answer": "Yes. The scope may be configured according to the relevant industry, operational structure, counterparty profile and the organization's risk profile."
         },
         {
           "question": "How frequently is the brief delivered?",
@@ -2198,7 +2198,7 @@
     },
     "service_card": {
       "title": "Mac Legal Intelligence",
-      "description": "Legal and regulatory monitoring for companies and investors with Venezuela-related exposure, focused on identifying regulatory risks and providing preventive context for decision-making.",
+      "description": "Legal and regulatory monitoring for companies and investors with activities, operations, or business interests in Venezuela, focused on identifying regulatory risks and providing preventive context for decision-making.",
       "link": "VIEW DETAILS →"
     },
     "closing_card": {
@@ -2211,7 +2211,7 @@
     "monthly_brief": {
       "seo": {
         "title": "Venezuela Legal & Regulatory Risk Brief | Mac Legal Intelligence",
-        "description": "Bilingual monthly report analyzing legislative, regulatory, and judicial developments, as well as sanctions frameworks for organizations exposed to Venezuela."
+        "description": "Bilingual monthly report analyzing legislative, regulatory, and judicial developments, as well as sanctions frameworks for organizations with operations, investments, or interests in Venezuela."
       },
       "breadcrumb": {
         "current": "Monthly Brief"
@@ -2273,12 +2273,12 @@
       },
       "sanctions": {
         "title": "International sanctions framework & Venezuela-linked transactions",
-        "text": "The report monitors general changes in international sanctions frameworks and restrictive measures impacting trade and investment with Venezuela. However, the report does not constitute a legal clearance, safe harbor, or formal opinion on specific transactions or licenses. Individual transactions require tailored factual and legal review under applicable foreign regimes (OFAC, EU, etc.), in coordination with specialized counsel in the relevant jurisdiction."
+        "text": "The report monitors general changes in international sanctions frameworks and restrictive measures impacting trade and investment involving Venezuela. However, the report does not constitute a legal clearance, safe harbor, or formal opinion on specific transactions or licenses. Individual transactions require tailored factual and legal review under applicable foreign regimes (OFAC, EU, etc.), in coordination with specialized counsel in the relevant jurisdiction."
       },
       "preliminary_assessment": {
         "tag": "PROFESSIONAL SCOPE",
         "title": "A delivery model defined through corporate assessment",
-        "paragraph_1": "The Monthly Brief is configured through the Preliminary Corporate Scoping Review. This stage helps define monitoring priorities, the organization’s exposure profile, authorized recipients and the professional terms applicable to each engagement.",
+        "paragraph_1": "The Monthly Brief is configured through the Preliminary Corporate Scoping Review. This stage helps define priority monitoring matters, sectors of activity, relevant operations in Venezuela, authorized recipients and the professional terms applicable to each engagement.",
         "paragraph_2": "The Preliminary Corporate Scoping Review is an independent professional stage provided under separate fees. The Brief is not offered as a generic publication or a standardized subscription."
       },
       "contactBox": {
@@ -2349,7 +2349,7 @@
     "flash_alerts": {
       "seo": {
         "title": "Flash Alerts | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados",
-        "description": "Targeted legal alerts for organizations that need to be informed of relevant Venezuela-connected developments before the next Monthly Brief."
+        "description": "Targeted legal alerts for organizations with operations or interests in Venezuela that need to be informed of relevant regulatory developments before the next Monthly Brief."
       },
       "breadcrumb": {
         "current": "Flash Alerts"
@@ -2358,7 +2358,7 @@
         "tag": "MAC LEGAL INTELLIGENCE",
         "h1": "Flash Alerts",
         "subtitle": "Timely legal insight for matters of particular relevance",
-        "intro": "Targeted legal communications for organizations that need to be informed of relevant Venezuela-connected developments before the next Monthly Brief.",
+        "intro": "Targeted legal alerts for organizations with operations or interests in Venezuela that need to be informed of relevant regulatory developments before the next Monthly Brief.",
         "primary_cta": "Request preliminary assessment",
         "secondary_cta": "Review the alert criteria"
       },
@@ -2372,12 +2372,12 @@
         "intro": "A Flash Alert may be considered where a development presents one or more of the following characteristics:",
         "items": [
           "It may materially affect a relevant operation, contract, payment, third party, license, permit or process.",
-          "Introduces a regulatory or institutional shift with direct impact on corporate exposure or statutory oversight duties.",
+          "Introduces a regulatory or institutional shift with direct impact on the company’s operations or contracts, or on its statutory oversight duties.",
           "Modifies administrative or judicial criteria that warrant timely attention before the next monthly edition.",
-          "It may affect cross-border operations, intermediaries, counterparties, payment flows or commercial relationships connected with Venezuela.",
+          "It may affect cross-border operations, intermediaries, counterparties, payment flows or commercial relationships in Venezuela or involving Venezuelan counterparties.",
           "It may require the organization to consider preserving documentation, reviewing a policy, consulting the firm or escalating a matter internally."
         ],
-        "note": "The decision to issue an alert is based on legal assessment and the risk profile defined with the client."
+        "note": "The decision to issue an alert is based on legal assessment and the operational parameters and risk profile defined with the organization."
       },
       "alert_contents": {
         "title": "A concise, action-oriented structure",
@@ -2416,7 +2416,7 @@
       "preliminary_assessment": {
         "tag": "PROFESSIONAL SCOPE",
         "title": "Alert criteria defined for each organization",
-        "paragraph_1": "Flash Alerts are structured through the Preliminary Corporate Scoping Review. This stage helps define priority monitoring matters, the organization’s exposure profile, authorized recipients and applicable communication criteria.",
+        "paragraph_1": "Flash Alerts are structured through the Preliminary Corporate Scoping Review. This stage helps define priority monitoring areas, the organization’s operations and interests in Venezuela, authorized recipients and applicable communication criteria.",
         "paragraph_2": "The Preliminary Corporate Scoping Review is an independent professional stage provided under separate fees. Flash Alerts are not a generic news channel or an automated communications system."
       },
       "contactBox": {
@@ -2466,8 +2466,8 @@
             "answer": "Not on a general basis. A Flash Alert may identify a matter and suggest areas for review, but assessment of a specific transaction, contract, counterparty or licensing matter requires tailored legal analysis."
           },
           {
-            "question": "Can the service be configured to the company’s exposure?",
-            "answer": "Yes. Monitored topics, authorized recipients and communication criteria are adapted to the organization’s industry, operations, risk profile and needs following the Preliminary Corporate Scoping Review."
+            "question": "Can the service be configured to the company’s activities and operations in Venezuela?",
+            "answer": "Yes. Monitored matters, authorized recipients, and issuance criteria are configured according to the organization’s business activities, contracts, and operations in Venezuela following the Preliminary Corporate Scoping Review."
           }
         ]
       },

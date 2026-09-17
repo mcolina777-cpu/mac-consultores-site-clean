@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: Props) {
     : 'Flash Alerts | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados');
 
   const description = data?.description || (isEs
-    ? 'Alertas jurídicas puntuales para organizaciones que necesitan conocer desarrollos relevantes vinculados con Venezuela antes de la siguiente edición mensual.'
-    : 'Targeted legal alerts for organizations that need to be informed of relevant Venezuela-connected developments before the next Monthly Brief.');
+    ? 'Alertas jurídicas puntuales para organizaciones con operaciones o intereses en Venezuela que requieren conocer oportunamente desarrollos normativos relevantes antes de la siguiente edición mensual.'
+    : 'Targeted legal alerts for organizations with operations or interests in Venezuela that need to be informed of relevant regulatory developments before the next Monthly Brief.');
 
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
   const url = `${BASE_URL}/${locale}/services/legal-intelligence/flash-alerts`;

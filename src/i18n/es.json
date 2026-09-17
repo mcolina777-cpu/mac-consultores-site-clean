@@ -453,7 +453,7 @@
     },
     "card_8": {
       "title": "Mac Legal Intelligence",
-      "desc": "Monitoreo jurídico y regulatorio para empresas e inversionistas con exposición a Venezuela, orientado a la identificación de riesgos normativos y contexto preventivo para la toma de decisiones.",
+      "desc": "Monitoreo jurídico y regulatorio para empresas e inversionistas con actividades, operaciones o intereses en Venezuela, orientado a la identificación de riesgos normativos y contexto preventivo para la toma de decisiones.",
       "link": "VER DETALLES →"
     }
   },
@@ -986,9 +986,9 @@
     },
     "legal_intelligence": {
       "tag": "MAC LEGAL INTELLIGENCE",
-      "title": "Inteligencia jurídica definida por la exposición de su organización",
-      "text": "Monitoreo y análisis jurídico configurados para organizaciones que requieren comprender los desarrollos relevantes para sus operaciones y decisiones vinculadas con Venezuela.",
-      "cta": "Solicitar evaluación corporativa preliminar"
+      "title": "Inteligencia jurídica definida por las operaciones e intereses de su organización",
+      "text": "Monitoreo y análisis jurídico configurados para organizaciones que requieren comprender los desarrollos normativos y regulatorios relevantes para sus actividades, inversiones y operaciones en Venezuela.",
+      "cta": "Solicitar Evaluación Preliminar de Alcance Corporativo"
     }
   },
   "landing_estrategia_teoria_caso": {
@@ -2041,9 +2041,9 @@
   "legal_intelligence": {
     "seo": {
       "title": "Mac Legal Intelligence | Monitoreo Normativo y Riesgo Regulatorio en Venezuela | Mac Consultores Jurídicos & Asociados",
-      "description": "Monitoreo jurídico a medida, análisis regulatorio y orientación preventiva para organizaciones con exposición a Venezuela.",
+      "description": "Monitoreo jurídico a medida, análisis regulatorio y orientación preventiva para organizaciones con actividades, operaciones e intereses en Venezuela.",
       "og_title": "Mac Legal Intelligence | Monitoreo Normativo y Análisis Estratégico",
-      "og_description": "Monitoreo jurídico a medida, análisis regulatorio y orientación preventiva para organizaciones con exposición a Venezuela."
+      "og_description": "Monitoreo jurídico a medida, análisis regulatorio y orientación preventiva para organizaciones con actividades, operaciones e intereses en Venezuela."
     },
     "breadcrumb": {
       "home": "Inicio",
@@ -2060,23 +2060,23 @@
     },
     "value_proposition": {
       "title": "Más que información jurídica: contexto para decidir",
-      "paragraph_1": "Las organizaciones con exposición a Venezuela enfrentan desarrollos legislativos, regulatorios, institucionales y transfronterizos que pueden incidir en contratos, pagos, relaciones con terceros, cumplimiento interno y planificación de negocios. Recibir una norma, una sentencia o una noticia no siempre permite identificar su impacto operativo real.",
+      "paragraph_1": "Las organizaciones con intereses, operaciones o relaciones comerciales en Venezuela deben seguir cambios legislativos, regulatorios, institucionales y transfronterizos que pueden afectar contratos, pagos y la planificación de sus negocios. Una norma, una sentencia o una noticia, por sí solas, no siempre permiten comprender qué decisiones conviene revisar.",
       "paragraph_2": "Mac Legal Intelligence transforma información jurídica relevante en análisis estructurado, bilingüe y orientado a decisiones. Cada entrega explica qué cambió, por qué importa, a quién puede afectar y qué medidas conviene considerar."
     },
     "tailored_service": {
-      "title": "Un servicio definido por su exposición jurídica",
+      "title": "Un servicio definido por las operaciones y el entorno jurídico de su organización",
       "paragraph_1": "Mac Legal Intelligence no es una publicación jurídica genérica, un newsletter ni un servicio de distribución masiva. Cada encargo se configura a partir de la realidad corporativa de la organización, sus actividades, sectores de interés, operaciones, relaciones jurídicas y necesidades de información.",
       "paragraph_2": "El alcance se define de manera individual para concentrar el monitoreo y el análisis en los desarrollos jurídicos, regulatorios e institucionales que puedan resultar relevantes para la toma de decisiones de la organización."
     },
     "clients": {
-      "title": "Diseñado para organizaciones con exposición a Venezuela",
+      "title": "Diseñado para organizaciones con actividades, inversiones o intereses en Venezuela",
       "intro": "El servicio está dirigido, entre otros, a:",
       "items": [
-        "Empresas internacionales con operaciones, subsidiarias, proveedores, clientes o proyectos vinculados con Venezuela.",
+        "Empresas internacionales con operaciones, subsidiarias, proveedores, clientes o proyectos en Venezuela.",
         "Inversionistas, fondos y organizaciones que evalúan oportunidades o riesgos en el país.",
         "Firmas de abogados extranjeras que requieren perspectiva local o apoyo como local counsel.",
         "Departamentos jurídicos internos, responsables de compliance y equipos de gestión de riesgos.",
-        "Empresas con pagos, contratos, transporte, seguros o intermediarios vinculados con Venezuela."
+        "Empresas con flujos de pago, contratos comerciales, logística, seguros o intermediarios en operaciones con Venezuela."
       ]
     },
     "content": {
@@ -2104,7 +2104,7 @@
         {
           "tag": "01",
           "title": "Informe mensual",
-          "text": "Brief bilingüe con análisis de novedades jurídicas, regulatorias e institucionales relevantes para el perfil de exposición de la organización.",
+          "text": "Brief bilingüe con análisis de novedades jurídicas, regulatorias e institucionales relevantes para las actividades y sectores de interés de la organización.",
           "link_text": "CONOCER DETALLES DEL BRIEF →"
         },
         {
@@ -2127,7 +2127,7 @@
     },
     "sanctions": {
       "title": "Riesgos de sanciones y operaciones transfronterizas",
-      "text": "Mac Legal Intelligence puede identificar desarrollos y riesgos relevantes para operaciones vinculadas con Venezuela, incluyendo asuntos relacionados con sanciones, licencias, pagos, intermediarios y contrapartes. Sin embargo, determinar el cumplimiento de medidas extranjeras —incluidas sanciones o requisitos de licencia aplicables a una operación específica— exige un análisis individualizado de los hechos, participantes, documentos y jurisdicciones involucradas y, cuando corresponda, coordinación con asesores especializados en la jurisdicción pertinente."
+      "text": "Mac Legal Intelligence puede identificar desarrollos y riesgos normativos relevantes para operaciones comerciales, financieras o de inversión relacionadas con Venezuela, incluyendo asuntos relacionados con sanciones, licencias, pagos, intermediarios y contrapartes. Sin embargo, determinar el cumplimiento de medidas extranjeras —incluidas sanciones o requisitos de licencia aplicables a una operación específica— exige un análisis individualizado de los hechos, participantes, documentos y jurisdicciones involucradas y, cuando corresponda, coordinación con asesores especializados en la jurisdicción pertinente."
     },
     "delimited_scope": {
       "title": "Alcance profesional delimitado",
@@ -2198,7 +2198,7 @@
     },
     "service_card": {
       "title": "Mac Legal Intelligence",
-      "description": "Monitoreo jurídico y regulatorio para empresas e inversionistas con exposición a Venezuela, orientado a la identificación de riesgos normativos y contexto preventivo para la toma de decisiones.",
+      "description": "Monitoreo jurídico y regulatorio para empresas e inversionistas con actividades, operaciones o intereses en Venezuela, orientado a la identificación de riesgos normativos y contexto preventivo para la toma de decisiones.",
       "link": "VER DETALLES →"
     },
     "closing_card": {
@@ -2211,7 +2211,7 @@
     "monthly_brief": {
       "seo": {
         "title": "Brief de Riesgo Jurídico y Regulatorio — Venezuela | Mac Legal Intelligence",
-        "description": "Informe mensual bilingüe con análisis de novedades legislativas, regulatorias, jurisprudenciales y régimen de sanciones para organizaciones con exposición a Venezuela."
+        "description": "Informe mensual bilingüe con análisis de novedades legislativas, regulatorias, jurisprudenciales y régimen de sanciones para organizaciones con operaciones, inversiones o intereses en Venezuela."
       },
       "breadcrumb": {
         "current": "Informe mensual"
@@ -2273,12 +2273,12 @@
       },
       "sanctions": {
         "title": "Marco de sanciones internacionales y operaciones con Venezuela",
-        "text": "El informe aborda los cambios generales en los marcos de sanciones y medidas restrictivas internacionales que inciden en el comercio y la inversión vinculados con Venezuela. No obstante, el informe no constituye una autorización, clearance ni dictamen sobre operaciones o licencias individuales. Las transacciones específicas requieren evaluación particular de hechos, partes, flujos financieros y normativa extranjera aplicable (OFAC, UE, etc.), en articulación con consejeros jurídicos especializados en la jurisdicción correspondiente."
+        "text": "El informe aborda los cambios generales en los marcos de sanciones y medidas restrictivas internacionales que inciden en el comercio y la inversión relacionados con Venezuela. No obstante, el informe no constituye una autorización, clearance ni dictamen sobre operaciones o licencias individuales. Las transacciones específicas requieren evaluación particular de hechos, partes, flujos financieros y normativa extranjera aplicable (OFAC, UE, etc.), en articulación con consejeros jurídicos especializados en la jurisdicción correspondiente."
       },
       "preliminary_assessment": {
         "tag": "ALCANCE PROFESIONAL",
         "title": "Una modalidad definida tras evaluación corporativa",
-        "paragraph_1": "El Informe mensual se configura a partir de la Evaluación Preliminar de Alcance Corporativo. Esta etapa permite definir las materias de seguimiento, el perfil de exposición, los destinatarios autorizados y las condiciones profesionales aplicables a cada organización.",
+        "paragraph_1": "El Informe mensual se configura a partir de la Evaluación Preliminar de Alcance Corporativo. Esta etapa permite definir las materias prioritarias de seguimiento, los sectores de actividad, las operaciones relevantes en Venezuela, los destinatarios autorizados y las condiciones profesionales aplicables a cada organización.",
         "paragraph_2": "La Evaluación Preliminar es una etapa profesional independiente, sujeta a honorarios propios. El Brief no se ofrece como una publicación genérica ni como una suscripción estandarizada."
       },
       "contactBox": {
@@ -2297,7 +2297,7 @@
           "interest": "Modalidad de interés para la evaluación",
           "selectPlaceholder": "Seleccione una opción",
           "options": {
-            "corresponsalia": "Evaluación para suscripción al Brief (ES/EN)",
+            "corresponsalia": "Evaluación para el Informe mensual (Brief ES/EN)",
             "representacion": "Evaluación para combinación con Alertas Urgentes",
             "consultoria": "Evaluación con Sesión Ejecutiva mensual",
             "alianza": "Evaluación para presentación institucional privada",
@@ -2349,7 +2349,7 @@
     "flash_alerts": {
       "seo": {
         "title": "Alertas urgentes | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados",
-        "description": "Alertas jurídicas puntuales para organizaciones que necesitan conocer desarrollos relevantes vinculados con Venezuela antes de la siguiente edición mensual."
+        "description": "Alertas jurídicas puntuales para organizaciones con operaciones o intereses en Venezuela que requieren conocer oportunamente desarrollos normativos relevantes antes de la siguiente edición mensual."
       },
       "breadcrumb": {
         "current": "Alertas urgentes"
@@ -2358,7 +2358,7 @@
         "tag": "MAC LEGAL INTELLIGENCE",
         "h1": "Alertas urgentes",
         "subtitle": "Flash Alerts para asuntos de especial relevancia",
-        "intro": "Comunicaciones jurídicas puntuales para organizaciones que requieren conocer desarrollos relevantes vinculados con Venezuela antes de la siguiente edición del Informe mensual.",
+        "intro": "Alertas jurídicas puntuales para organizaciones con operaciones o intereses en Venezuela que requieren conocer oportunamente desarrollos normativos relevantes antes de la siguiente edición mensual.",
         "primary_cta": "Solicitar evaluación preliminar",
         "secondary_cta": "Conocer el criterio de alerta"
       },
@@ -2372,12 +2372,12 @@
         "intro": "Una Flash Alert puede considerarse cuando un desarrollo presenta una o varias de las siguientes características:",
         "items": [
           "Puede afectar de forma material una operación, contrato, pago, tercero, licencia, permiso o proceso relevante.",
-          "Introduce un cambio normativo o institucional con impacto directo en la exposición de la empresa o en sus deberes legales de supervisión.",
+          "Introduce un cambio normativo o institucional con impacto directo en las operaciones o contratos de la empresa, o en sus deberes legales de supervisión.",
           "Modifica criterios administrativos o judiciales que exijan atención oportuna antes de la siguiente edición mensual.",
-          "Puede incidir en operaciones transfronterizas, intermediarios, contrapartes, flujos de pago o relaciones comerciales vinculadas con Venezuela.",
+          "Puede incidir en operaciones transfronterizas, intermediarios, contrapartes, flujos de pago o relaciones comerciales en Venezuela o con contrapartes venezolanas.",
           "Requiere que la organización valore si debe conservar documentación, revisar una política, consultar a la firma o escalar internamente un asunto."
         ],
-        "note": "La decisión de emitir una alerta se adopta mediante valoración jurídica y según el perfil de exposición definido con el cliente."
+        "note": "La decisión de emitir una alerta se adopta mediante valoración jurídica y según los parámetros operativos y de riesgo definidos con la organización."
       },
       "alert_contents": {
         "title": "Una estructura breve y orientada a la acción",
@@ -2416,7 +2416,7 @@
       "preliminary_assessment": {
         "tag": "ALCANCE PROFESIONAL",
         "title": "Criterios de alerta definidos para cada organización",
-        "paragraph_1": "Las Flash Alerts se estructuran a partir de la Evaluación Preliminar de Alcance Corporativo. Esta etapa permite definir los asuntos prioritarios de seguimiento, el perfil de exposición de la organización, los destinatarios autorizados y los criterios de comunicación aplicables.",
+        "paragraph_1": "Las Flash Alerts se estructuran a partir de la Evaluación Preliminar de Alcance Corporativo. Esta etapa permite definir las áreas prioritarias de seguimiento, las operaciones e intereses de la organización en Venezuela, los destinatarios autorizados y los criterios de comunicación aplicables.",
         "paragraph_2": "La Evaluación Preliminar es una etapa profesional independiente, sujeta a honorarios propios. Las Alertas urgentes no constituyen un canal genérico de noticias ni un sistema automático de comunicaciones."
       },
       "contactBox": {
@@ -2466,8 +2466,8 @@
             "answer": "No de manera general. Una Flash Alert puede identificar un asunto y sugerir áreas de revisión, pero la evaluación de una operación, contrato, contraparte o licencia concreta requiere análisis jurídico individualizado."
           },
           {
-            "question": "¿Puede configurarse el servicio según la exposición de la empresa?",
-            "answer": "Sí. Los temas monitoreados, destinatarios autorizados y criterios de comunicación se adaptan a la industria, operaciones, perfil de riesgo y necesidades de la organización tras la Evaluación Preliminar de Alcance Corporativo."
+            "question": "¿Puede configurarse el servicio según las actividades y operaciones de la empresa en Venezuela?",
+            "answer": "Sí. Las materias monitoreadas, destinatarios autorizados y criterios de emisión se configuran de acuerdo con la actividad económica, contratos y operaciones de la organización en Venezuela tras la Evaluación Preliminar de Alcance Corporativo."
           }
         ]
       },

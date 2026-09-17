@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: Props) {
     : 'Mac Legal Intelligence | Regulatory Monitoring & Legal Risk in Venezuela | Mac Consultores Jurídicos & Asociados');
   
   const description = data?.description || (isEs
-    ? 'Monitoreo jurídico a medida, análisis regulatorio y orientación preventiva para organizaciones con exposición a Venezuela.'
-    : 'Tailored legal monitoring, regulatory analysis and preventive guidance for organizations with Venezuela-related exposure.');
+    ? 'Monitoreo jurídico a medida, análisis regulatorio y orientación preventiva para organizaciones con actividades, operaciones e intereses en Venezuela.'
+    : 'Tailored legal monitoring, regulatory analysis and preventive guidance for organizations with activities, operations, and interests in Venezuela.');
 
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
   const url = `${BASE_URL}/${locale}/services/legal-intelligence`;

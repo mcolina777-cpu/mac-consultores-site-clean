@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: Props) {
     : 'Venezuela Legal & Regulatory Risk Brief | Mac Legal Intelligence');
 
   const description = data?.description || (isEs
-    ? 'Monitoreo normativo mensual y análisis preventivo de riesgo legal y regulatorio para organizaciones con exposición operativa o transfronteriza vinculada con Venezuela.'
-    : 'Monthly regulatory monitoring and preventive legal and regulatory risk analysis for organizations with operational or cross-border exposure involving Venezuela.');
+    ? 'Monitoreo normativo mensual y análisis preventivo de riesgo legal y regulatorio para organizaciones con actividades, operaciones transfronterizas o intereses en Venezuela.'
+    : 'Monthly regulatory monitoring and preventive legal and regulatory risk analysis for organizations with commercial activities, cross-border operations, or interests in Venezuela.');
 
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
   const url = `${BASE_URL}/${locale}/services/legal-intelligence/monthly-brief`;
