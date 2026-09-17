@@ -1115,16 +1115,31 @@ footer,
   border-radius: 2px;
 }
 
-/* FOOTER – Tablets y pantallas intermedias */
-@media (min-width: 769px) and (max-width: 1024px) {
+/* FOOTER – Tablets y pantallas intermedias (768px a 1200px) */
+@media (min-width: 768px) and (max-width: 1200px) {
   .footer {
     padding: 64px 0 32px;
   }
 
   .footer-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 40px 32px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 48px;
+    column-gap: 36px;
     margin-bottom: 32px;
+  }
+
+  /* Separación editorial muy discreta entre Fila 1 y Fila 2 (Áreas de práctica y Sede y contacto) */
+  .footer-grid > .footer-col:nth-child(1),
+  .footer-grid > .footer-col:nth-child(2) {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .footer-grid > .footer-col:nth-child(3),
+  .footer-grid > .footer-col:nth-child(4) {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 32px;
   }
 
   .footer-bottom {
@@ -1134,21 +1149,35 @@ footer,
   }
 }
 
-/* FOOTER – Móvil */
-@media (max-width: 768px) {
+/* FOOTER – Móvil (hasta 767px) */
+@media (max-width: 767px) {
   .footer {
-    padding: 48px 20px 32px;
+    padding: 48px 0 32px;
   }
 
   .footer-grid {
-    grid-template-columns: 1fr;
-    gap: 36px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 28px;
+    column-gap: 0;
     margin-bottom: 28px;
   }
 
   .footer-col {
     align-items: flex-start;
     text-align: left;
+  }
+
+  /* Primer bloque (Identidad): sin divisor superior */
+  .footer-grid > .footer-col:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  /* Separación editorial hairline a los bloques 2, 3 y 4 (Institución, Áreas de práctica, Sede y contacto) */
+  .footer-grid > .footer-col:nth-child(n+2) {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 30px;
   }
 
   .footer-brand-col {
