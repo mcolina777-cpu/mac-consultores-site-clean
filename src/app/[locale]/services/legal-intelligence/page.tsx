@@ -15,12 +15,12 @@ export async function generateMetadata({ params }: Props) {
   const data = dict?.legal_intelligence?.seo;
 
   const title = data?.title || (isEs 
-    ? 'Mac Legal Intelligence | Venezuela Legal & Regulatory Risk Brief | Mac Consultores Jurídicos & Asociados'
-    : 'Mac Legal Intelligence | Venezuela Legal & Regulatory Risk Brief | Mac Consultores Jurídicos & Asociados');
+    ? 'Mac Legal Intelligence | Monitoreo Normativo y Riesgo Regulatorio en Venezuela | Mac Consultores Jurídicos & Asociados'
+    : 'Mac Legal Intelligence | Regulatory Monitoring & Legal Risk in Venezuela | Mac Consultores Jurídicos & Asociados');
   
   const description = data?.description || (isEs
-    ? 'Inteligencia jurídica mensual, análisis regulatorio y orientación preventiva para organizaciones con exposición a Venezuela.'
-    : 'Monthly legal intelligence, regulatory analysis and preventive guidance for organizations with Venezuela-related exposure.');
+    ? 'Monitoreo jurídico a medida, análisis regulatorio y orientación preventiva para organizaciones con exposición a Venezuela.'
+    : 'Tailored legal monitoring, regulatory analysis and preventive guidance for organizations with Venezuela-related exposure.');
 
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
   const url = `${BASE_URL}/${locale}/services/legal-intelligence`;
@@ -123,6 +123,21 @@ export default async function LegalIntelligencePage({ params }: Props) {
               {data?.value_proposition?.paragraph_2}
             </p>
           </div>
+
+          {/* BLOQUE: SERVICIO A MEDIDA */}
+          {data?.tailored_service && (
+            <div className="content-section mb-3rem">
+              <h2 className="serif section-title mb-1-5rem">
+                {data.tailored_service.title}
+              </h2>
+              <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+                {data.tailored_service.paragraph_1}
+              </p>
+              <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+                {data.tailored_service.paragraph_2}
+              </p>
+            </div>
+          )}
 
           {/* BLOQUE 2: DESTINATARIOS */}
           <div className="content-section mb-3rem">
@@ -292,13 +307,79 @@ export default async function LegalIntelligencePage({ params }: Props) {
             </div>
           </div>
 
-          {/* BLOQUE 7: CTA / FORMULARIO B2B */}
-          <div className="content-section mb-4rem">
+          {/* BLOQUE: DELIMITACIÓN DE ALCANCE Y SERVICIOS AUTÓNOMOS */}
+          {data?.delimited_scope && (
+            <div className="content-section mb-3rem">
+              <div
+                style={{
+                  padding: '1.75rem',
+                  backgroundColor: 'rgba(0, 40, 69, 0.03)',
+                  borderRadius: '6px',
+                  borderLeft: '4px solid var(--accent, #990000)',
+                }}
+              >
+                <h2 className="serif section-title mb-1rem" style={{ fontSize: '1.35rem', color: 'var(--primary, #002845)' }}>
+                  {data.delimited_scope.title}
+                </h2>
+                <p className="text-left max-w-100 mb-1rem" style={{ lineHeight: 1.75, fontSize: '1rem', color: 'var(--text-main, #1f2937)' }}>
+                  {data.delimited_scope.paragraph_1}
+                </p>
+                {data.delimited_scope.paragraph_2 && (
+                  <p className="text-left max-w-100" style={{ lineHeight: 1.75, fontSize: '1rem', color: 'var(--text-main, #1f2937)', margin: 0 }}>
+                    {data.delimited_scope.paragraph_2}
+                  </p>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* BLOQUE 7: EVALUACIÓN PRELIMINAR + FORMULARIO B2B */}
+          <div id="contacto" className="content-section mb-4rem">
+            {data?.preliminary_assessment && (
+              <div
+                className="card mb-2rem"
+                style={{
+                  backgroundColor: '#ffffff',
+                  border: '1px solid var(--border-color, #e5e7eb)',
+                  borderLeft: '4px solid var(--primary, #002845)',
+                  borderRadius: '6px',
+                  padding: '2rem',
+                }}
+              >
+                {data.preliminary_assessment.tag && (
+                  <span
+                    className="section-tag"
+                    style={{
+                      color: 'var(--accent, #990000)',
+                      fontWeight: 600,
+                      fontSize: '0.8rem',
+                      letterSpacing: '0.05em',
+                      textTransform: 'uppercase',
+                      display: 'block',
+                      marginBottom: '0.5rem',
+                    }}
+                  >
+                    {data.preliminary_assessment.tag}
+                  </span>
+                )}
+                <h3 className="serif mb-1rem" style={{ fontSize: '1.35rem', color: 'var(--primary, #002845)' }}>
+                  {data.preliminary_assessment.title}
+                </h3>
+                <p className="mb-1rem" style={{ lineHeight: 1.75, fontSize: '1rem', color: 'var(--text-main, #1f2937)' }}>
+                  {data.preliminary_assessment.paragraph_1}
+                </p>
+                {data.preliminary_assessment.paragraph_2 && (
+                  <p style={{ lineHeight: 1.75, fontSize: '1rem', color: 'var(--text-main, #1f2937)', margin: 0 }}>
+                    {data.preliminary_assessment.paragraph_2}
+                  </p>
+                )}
+              </div>
+            )}
             <B2BContactBox
               data={data?.contactBox}
               locale={locale}
               redirectUrl={redirectUrl}
-              id="contacto"
+              id="solicitud-evaluacion"
             />
           </div>
 

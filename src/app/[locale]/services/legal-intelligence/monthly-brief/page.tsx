@@ -15,12 +15,12 @@ export async function generateMetadata({ params }: Props) {
   const data = dict?.legal_intelligence?.monthly_brief?.seo;
 
   const title = data?.title || (isEs
-    ? 'Informe Mensual de Riesgo Jurídico y Regulatorio en Venezuela | Mac Legal Intelligence'
-    : 'Venezuela Monthly Legal & Regulatory Risk Brief | Mac Legal Intelligence');
+    ? 'Brief de Riesgo Jurídico y Regulatorio — Venezuela | Mac Legal Intelligence'
+    : 'Venezuela Legal & Regulatory Risk Brief | Mac Legal Intelligence');
 
   const description = data?.description || (isEs
-    ? 'Informe mensual bilingüe con análisis de novedades legislativas, regulatorias, jurisprudencia y consideraciones de compliance y sanciones para empresas con exposición a Venezuela.'
-    : 'Bilingual monthly report analyzing legislative and regulatory developments, case law, compliance considerations, and sanctions risk for companies exposed to Venezuela.');
+    ? 'Monitoreo normativo mensual y análisis preventivo de riesgo legal y regulatorio para organizaciones con exposición operativa o transfronteriza vinculada con Venezuela.'
+    : 'Monthly regulatory monitoring and preventive legal and regulatory risk analysis for organizations with operational or cross-border exposure involving Venezuela.');
 
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
   const url = `${BASE_URL}/${locale}/services/legal-intelligence/monthly-brief`;
@@ -205,13 +205,53 @@ export default async function MonthlyBriefPage({ params }: Props) {
             </div>
           </div>
 
-          {/* BLOQUE 5: FORMULARIO B2B DE SUSCRIPCIÓN */}
-          <div className="content-section mb-4rem">
+          {/* BLOQUE 5: EVALUACIÓN PRELIMINAR + FORMULARIO B2B */}
+          <div id="contacto" className="content-section mb-4rem">
+            {data?.preliminary_assessment && (
+              <div
+                className="card mb-2rem"
+                style={{
+                  backgroundColor: '#ffffff',
+                  border: '1px solid var(--border-color, #e5e7eb)',
+                  borderLeft: '4px solid var(--primary, #002845)',
+                  borderRadius: '6px',
+                  padding: '2rem',
+                }}
+              >
+                {data.preliminary_assessment.tag && (
+                  <span
+                    className="section-tag"
+                    style={{
+                      color: 'var(--accent, #990000)',
+                      fontWeight: 600,
+                      fontSize: '0.8rem',
+                      letterSpacing: '0.05em',
+                      textTransform: 'uppercase',
+                      display: 'block',
+                      marginBottom: '0.5rem',
+                    }}
+                  >
+                    {data.preliminary_assessment.tag}
+                  </span>
+                )}
+                <h3 className="serif mb-1rem" style={{ fontSize: '1.35rem', color: 'var(--primary, #002845)' }}>
+                  {data.preliminary_assessment.title}
+                </h3>
+                <p className="mb-1rem" style={{ lineHeight: 1.75, fontSize: '1rem', color: 'var(--text-main, #1f2937)' }}>
+                  {data.preliminary_assessment.paragraph_1}
+                </p>
+                {data.preliminary_assessment.paragraph_2 && (
+                  <p style={{ lineHeight: 1.75, fontSize: '1rem', color: 'var(--text-main, #1f2937)', margin: 0 }}>
+                    {data.preliminary_assessment.paragraph_2}
+                  </p>
+                )}
+              </div>
+            )}
             <B2BContactBox
               data={data?.contactBox}
               locale={locale}
               redirectUrl={redirectUrl}
-              id="contacto"
+              id="solicitud-evaluacion-brief"
             />
           </div>
 
@@ -271,6 +311,14 @@ export default async function MonthlyBriefPage({ params }: Props) {
       {/* CIERRE INSTITUCIONAL */}
       <section className="bg-soft section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          {data?.compliance_disclaimer && (
+            <p
+              className="text-center text-sm max-w-800 mx-auto mb-2rem"
+              style={{ fontStyle: 'italic', color: 'var(--text-muted, #4b5563)', lineHeight: 1.6 }}
+            >
+              {data.compliance_disclaimer}
+            </p>
+          )}
           <div
             className="card bg-soft p-3rem text-center"
             style={{

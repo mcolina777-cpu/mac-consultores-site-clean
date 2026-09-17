@@ -453,7 +453,7 @@
     },
     "card_8": {
       "title": "Mac Legal Intelligence",
-      "desc": "Monitoreo jurídico y regulatorio para empresas e inversionistas con exposición a Venezuela, con análisis de riesgos, cumplimiento normativo y medidas preventivas accionables.",
+      "desc": "Monitoreo jurídico y regulatorio para empresas e inversionistas con exposición a Venezuela, orientado a la identificación de riesgos normativos y contexto preventivo para la toma de decisiones.",
       "link": "VER DETALLES →"
     }
   },
@@ -986,9 +986,9 @@
     },
     "legal_intelligence": {
       "tag": "MAC LEGAL INTELLIGENCE",
-      "title": "Información jurídica para anticipar riesgos empresariales en Venezuela",
-      "text": "Monitoreo normativo, análisis regulatorio y orientación preventiva para empresas, inversionistas y firmas internacionales que requieren decisiones informadas frente a un entorno jurídico cambiante.",
-      "cta": "Conocer Mac Legal Intelligence"
+      "title": "Inteligencia jurídica definida por la exposición de su organización",
+      "text": "Monitoreo y análisis jurídico configurados para organizaciones que requieren comprender los desarrollos relevantes para sus operaciones y decisiones vinculadas con Venezuela.",
+      "cta": "Solicitar evaluación corporativa preliminar"
     }
   },
   "landing_estrategia_teoria_caso": {
@@ -2040,10 +2040,10 @@
   },
   "legal_intelligence": {
     "seo": {
-      "title": "Mac Legal Intelligence | Venezuela Legal & Regulatory Risk Brief | Mac Consultores Jurídicos & Asociados",
-      "description": "Inteligencia jurídica mensual, análisis regulatorio y orientación preventiva para organizaciones con exposición a Venezuela.",
-      "og_title": "Mac Legal Intelligence | Venezuela Legal & Regulatory Risk Brief",
-      "og_description": "Inteligencia jurídica mensual, análisis regulatorio y orientación preventiva para organizaciones con exposición a Venezuela."
+      "title": "Mac Legal Intelligence | Monitoreo Normativo y Riesgo Regulatorio en Venezuela | Mac Consultores Jurídicos & Asociados",
+      "description": "Monitoreo jurídico a medida, análisis regulatorio y orientación preventiva para organizaciones con exposición a Venezuela.",
+      "og_title": "Mac Legal Intelligence | Monitoreo Normativo y Análisis Estratégico",
+      "og_description": "Monitoreo jurídico a medida, análisis regulatorio y orientación preventiva para organizaciones con exposición a Venezuela."
     },
     "breadcrumb": {
       "home": "Inicio",
@@ -2051,17 +2051,22 @@
       "current": "Mac Legal Intelligence"
     },
     "hero": {
-      "tag": "LEGAL INTELLIGENCE & COMPLIANCE",
+      "tag": "MONITOREO NORMATIVO Y ANÁLISIS ESTRATÉGICO",
       "h1": "Mac Legal Intelligence",
-      "subtitle": "Venezuela Legal & Regulatory Risk Brief",
-      "intro": "Información jurídica mensual, análisis regulatorio y orientación preventiva para empresas, inversionistas y firmas internacionales que requieren decisiones informadas frente a un entorno venezolano cambiante.",
-      "primary_cta": "Solicitar información",
+      "subtitle": "Inteligencia jurídica configurada para organizaciones con exposición a Venezuela",
+      "intro": "Mac Legal Intelligence es un servicio jurídico de monitoreo, contexto y análisis preventivo diseñado a partir del perfil, actividad, operaciones y exposición concreta de cada organización vinculada con Venezuela.",
+      "primary_cta": "Solicitar evaluación preliminar",
       "secondary_cta": "Conocer el alcance"
     },
     "value_proposition": {
       "title": "Más que información jurídica: contexto para decidir",
       "paragraph_1": "Las organizaciones con exposición a Venezuela enfrentan desarrollos legislativos, regulatorios, institucionales y transfronterizos que pueden incidir en contratos, pagos, relaciones con terceros, cumplimiento interno y planificación de negocios. Recibir una norma, una sentencia o una noticia no siempre permite identificar su impacto operativo real.",
       "paragraph_2": "Mac Legal Intelligence transforma información jurídica relevante en análisis estructurado, bilingüe y orientado a decisiones. Cada entrega explica qué cambió, por qué importa, a quién puede afectar y qué medidas conviene considerar."
+    },
+    "tailored_service": {
+      "title": "Un servicio definido por su exposición jurídica",
+      "paragraph_1": "Mac Legal Intelligence no es una publicación jurídica genérica, un newsletter ni un servicio de distribución masiva. Cada encargo se configura a partir de la realidad corporativa de la organización, sus actividades, sectores de interés, operaciones, relaciones jurídicas y necesidades de información.",
+      "paragraph_2": "El alcance se define de manera individual para concentrar el monitoreo y el análisis en los desarrollos jurídicos, regulatorios e institucionales que puedan resultar relevantes para la toma de decisiones de la organización."
     },
     "clients": {
       "title": "Diseñado para organizaciones con exposición a Venezuela",
@@ -2080,7 +2085,7 @@
         "Novedades legislativas, regulatorias y administrativas relevantes para actividades empresariales.",
         "Jurisprudencia y criterios judiciales seleccionados por su posible impacto corporativo, contractual, administrativo, tributario, laboral o penal.",
         "Consideraciones preventivas de riesgo penal corporativo.",
-        "Compliance, debida diligencia y señales de alerta en relaciones con terceros.",
+        "Identificación de novedades normativas con impacto en deberes de control y contratación con terceros.",
         "Cambios institucionales o administrativos que puedan afectar decisiones empresariales.",
         "Riesgos relacionados con contratos, pagos, intermediarios y operaciones transfronterizas.",
         "Novedades y riesgos relevantes asociados a sanciones internacionales y operaciones vinculadas con Venezuela.",
@@ -2099,7 +2104,7 @@
         {
           "tag": "01",
           "title": "Informe mensual",
-          "text": "Brief bilingüe con análisis de novedades jurídicas, regulatorias, institucionales y de compliance relevantes para el perfil de exposición del cliente.",
+          "text": "Brief bilingüe con análisis de novedades jurídicas, regulatorias e institucionales relevantes para el perfil de exposición de la organización.",
           "link_text": "CONOCER DETALLES DEL BRIEF →"
         },
         {
@@ -2124,30 +2129,41 @@
       "title": "Riesgos de sanciones y operaciones transfronterizas",
       "text": "Mac Legal Intelligence puede identificar desarrollos y riesgos relevantes para operaciones vinculadas con Venezuela, incluyendo asuntos relacionados con sanciones, licencias, pagos, intermediarios y contrapartes. Sin embargo, determinar el cumplimiento de medidas extranjeras —incluidas sanciones o requisitos de licencia aplicables a una operación específica— exige un análisis individualizado de los hechos, participantes, documentos y jurisdicciones involucradas y, cuando corresponda, coordinación con asesores especializados en la jurisdicción pertinente."
     },
+    "delimited_scope": {
+      "title": "Alcance profesional delimitado",
+      "paragraph_1": "Mac Legal Intelligence constituye una herramienta de monitoreo normativo, contexto y análisis preventivo. No sustituye la asesoría jurídica individualizada ni comprende servicios de Compliance, debida diligencia de terceros o diseño de controles internos.",
+      "paragraph_2": "Tales servicios se prestan como encargos profesionales autónomos, previa propuesta específica y formalización correspondiente."
+    },
+    "preliminary_assessment": {
+      "tag": "PROCESO DE INCORPORACIÓN INSTITUCIONAL",
+      "title": "Evaluación Preliminar de Alcance Corporativo",
+      "paragraph_1": "Toda relación profesional vinculada con Mac Legal Intelligence se inicia con una Evaluación Preliminar de Alcance Corporativo, sujeta a honorarios profesionales independientes. Esta etapa permite comprender el perfil de la organización, su exposición operativa o regulatoria vinculada con Venezuela, las áreas prioritarias de seguimiento y los destinatarios autorizados del servicio.",
+      "paragraph_2": "Con base en esta evaluación, la firma determina la modalidad, el alcance y las condiciones profesionales más adecuadas. Asimismo, puede identificar la conveniencia de una propuesta independiente de Compliance o de asesoría jurídica individualizada."
+    },
     "contactBox": {
-      "tag": "CONSULTA CONFIDENCIAL",
-      "title": "Conversemos sobre la exposición jurídica de su organización",
-      "description": "Solicite una presentación privada de Mac Legal Intelligence, consulte las modalidades de suscripción corporativa o coordine una reunión exploratoria con la firma.",
+      "tag": "PROCESO DE INCORPORACIÓN INSTITUCIONAL",
+      "title": "Solicitud de Evaluación Preliminar de Alcance Corporativo",
+      "description": "Comparta información inicial sobre su organización para que la firma pueda evaluar la conveniencia y el alcance de una relación profesional.",
       "emailPrefix": "También puede escribirnos a",
       "email": "infomacconsul@gmail.com",
       "form": {
-        "subject": "Solicitud Mac Legal Intelligence — Mac Consultores Jurídicos & Asociados",
+        "subject": "Solicitud de Evaluación Preliminar de Alcance Corporativo — Mac Legal Intelligence",
         "fullName": "Nombre completo",
         "organization": "Empresa u organización",
         "country": "País",
         "email": "Correo corporativo",
         "website": "Sitio web (opcional)",
-        "interest": "Modalidad de interés",
+        "interest": "Modalidad de interés para la evaluación",
         "selectPlaceholder": "Seleccione una opción",
         "options": {
-          "corresponsalia": "Suscripción mensual al Brief",
-          "representacion": "Alertas urgentes y seguimiento",
-          "consultoria": "Sesión ejecutiva de consulta",
-          "alianza": "Cobertura sectorial a la medida",
-          "otro": "Otro asunto o presentación privada"
+          "corresponsalia": "Evaluación para Informe mensual (Brief)",
+          "representacion": "Evaluación para Alertas urgentes",
+          "consultoria": "Evaluación para Sesión ejecutiva periódica",
+          "alianza": "Evaluación para Cobertura sectorial a la medida",
+          "otro": "Evaluación preliminar general u otro requerimiento"
         },
-        "message": "Mensaje o consulta",
-        "submit": "Solicitar información",
+        "message": "Mensaje o información inicial de la organización",
+        "submit": "Solicitar evaluación preliminar",
         "privacy": "Su información será tratada con estricta confidencialidad."
       }
     },
@@ -2160,11 +2176,11 @@
         },
         {
           "question": "¿Puede adaptarse el contenido a un sector o actividad específica?",
-          "answer": "Sí. El alcance puede configurarse según el sector, la estructura de la operación, las contrapartes, las prioridades de cumplimiento y el perfil de riesgo del cliente."
+          "answer": "Sí. El alcance puede configurarse según el sector, la estructura de la operación, las contrapartes y el perfil de riesgo del cliente."
         },
         {
           "question": "¿Con qué frecuencia se entrega el informe?",
-          "answer": "El Brief se entrega mensualmente. Asimismo, pueden acordarse alertas urgentes para asuntos de especial relevancia."
+          "answer": "El Brief se entrega mensualmente tras definir las condiciones del encargo. Asimismo, pueden acordarse alertas urgentes para asuntos de especial relevancia."
         },
         {
           "question": "¿Cómo se manejan la confidencialidad y las consultas adicionales?",
@@ -2178,40 +2194,40 @@
     },
     "disclaimer": {
       "title": "Aviso legal",
-      "text": "Los informes de Mac Legal Intelligence tienen carácter técnico, informativo y general. No constituyen una opinión jurídica definitiva ni sustituyen la asesoría individualizada necesaria para evaluar operaciones, contratos, contrapartes, hechos o decisiones concretas."
+      "text": "Los informes de Mac Legal Intelligence tienen carácter técnico, informativo y general. No constituyen una opinión jurídica definitiva, no sustituyen la asesoría individualizada necesaria para evaluar operaciones, contratos, contrapartes, hechos o decisiones concretas, ni comprenden servicios de Compliance, debida diligencia de terceros o diseño de controles internos."
     },
     "service_card": {
       "title": "Mac Legal Intelligence",
-      "description": "Monitoreo jurídico y regulatorio para empresas e inversionistas con exposición a Venezuela, con análisis de riesgos, cumplimiento normativo y medidas preventivas accionables.",
+      "description": "Monitoreo jurídico y regulatorio para empresas e inversionistas con exposición a Venezuela, orientado a la identificación de riesgos normativos y contexto preventivo para la toma de decisiones.",
       "link": "VER DETALLES →"
     },
     "closing_card": {
-      "tag": "CONSULTA CONFIDENCIAL",
+      "tag": "PROCESO DE INCORPORACIÓN INSTITUCIONAL",
       "title": "Información jurídica para decisiones más preparadas",
-      "text": "Conozca cómo Mac Legal Intelligence puede aportar seguimiento, contexto y orientación preventiva para la exposición jurídica de su organización en Venezuela.",
-      "primary_cta": "Solicitar información",
+      "text": "Conozca cómo la Evaluación Preliminar de Alcance Corporativo permite calibrar el seguimiento normativo más adecuado para su organización en Venezuela.",
+      "primary_cta": "Solicitar evaluación preliminar",
       "secondary_cta": "Volver a Servicios"
     },
     "monthly_brief": {
       "seo": {
-        "title": "Informe Mensual de Riesgo Jurídico y Regulatorio en Venezuela | Mac Legal Intelligence",
-        "description": "Informe mensual bilingüe con análisis de novedades legislativas, regulatorias, jurisprudencia y consideraciones de compliance y sanciones para empresas con exposición a Venezuela."
+        "title": "Brief de Riesgo Jurídico y Regulatorio — Venezuela | Mac Legal Intelligence",
+        "description": "Informe mensual bilingüe con análisis de novedades legislativas, regulatorias, jurisprudenciales y régimen de sanciones para organizaciones con exposición a Venezuela."
       },
       "breadcrumb": {
         "current": "Informe mensual"
       },
       "hero": {
         "tag": "MAC LEGAL INTELLIGENCE — INFORME MENSUAL",
-        "h1": "Venezuela Legal & Regulatory Risk Brief",
-        "subtitle": "Informe mensual bilingüe de seguimiento, análisis de impacto y prevención jurídica",
+        "h1": "Brief de Riesgo Jurídico y Regulatorio — Venezuela",
+        "subtitle": "Una modalidad de Mac Legal Intelligence",
         "intro": "Un producto estructurado para directores jurídicos, oficiales de cumplimiento, inversionistas y firmas internacionales que necesitan comprender con rigor técnico y anticipación los cambios normativos, regulatorios e institucionales en Venezuela.",
-        "primary_cta": "Solicitar suscripción",
+        "primary_cta": "Solicitar evaluación preliminar",
         "secondary_cta": "Ver alcance y módulos"
       },
       "value_proposition": {
         "title": "Propósito y enfoque del informe mensual",
-        "paragraph_1": "El Venezuela Legal & Regulatory Risk Brief no es un simple compendio de normas ni un boletín de prensa. Se trata de un documento técnico de inteligencia jurídica que filtra la dispersión normativa y judicial venezolana para concentrarse en aquello que realmente genera impacto operativo, contractual o de responsabilidad para las organizaciones.",
-        "paragraph_2": "Cada entrega mensual se estructura en módulos específicos que desglosan qué ocurrió, cuál es el fundamento legal, qué sectores se ven alcanzados, qué señales de alerta deben activarse y qué medidas preventivas conviene adoptar oportunamente."
+        "paragraph_1": "El Brief de Riesgo Jurídico y Regulatorio — Venezuela no es un simple compendio de normas ni un boletín de prensa. Se trata de un documento técnico de inteligencia jurídica que filtra la dispersión normativa y judicial venezolana para concentrarse en aquello que realmente genera impacto operativo, contractual o de responsabilidad para las organizaciones.",
+        "paragraph_2": "Cada entrega mensual se estructura en módulos específicos que desglosan qué ocurrió, cuál es el fundamento legal, qué sectores se ven alcanzados, qué factores de contingencia conviene observar y qué criterios preventivos facilitan una oportuna revisión interna."
       },
       "modules": {
         "title": "Módulos de cobertura sustantiva",
@@ -2229,8 +2245,8 @@
           },
           {
             "tag": "MÓDULO 03",
-            "title": "Prevención penal corporativa y compliance",
-            "text": "Consideraciones preventivas sobre riesgos penales vinculados con actividades corporativas, administradores y directivos, así como debida diligencia de contrapartes y señales de alerta de compliance."
+            "title": "Prevención de riesgos penales corporativos",
+            "text": "Análisis de criterios normativos y jurisprudenciales sobre responsabilidad de administradores y directivos, identificando factores legales que pueden incidir en relaciones contractuales y motivar una revisión jurídica individualizada."
           },
           {
             "tag": "MÓDULO 04",
@@ -2239,7 +2255,7 @@
           },
           {
             "tag": "MÓDULO 05",
-            "title": "Contexto institucional y señales de alerta",
+            "title": "Contexto institucional y criterios de supervisión",
             "text": "Seguimiento de acontecimientos institucionales, facultades de supervisión y cambios relevantes en criterios o actuaciones administrativas que puedan requerir atención empresarial."
           },
           {
@@ -2253,36 +2269,42 @@
         "title": "Metodología, calendario y tiempos de entrega",
         "paragraph_1": "El informe se entrega mensualmente en formato digital bilingüe, conforme al alcance acordado con cada organización.",
         "paragraph_2": "Cada edición reúne y prioriza desarrollos jurídicos, regulatorios, institucionales y transfronterizos relevantes para el período objeto de seguimiento.",
-        "note": "La periodicidad, los destinatarios autorizados y las condiciones de entrega se definen en la documentación profesional aplicable."
+        "note": "La periodicidad, los destinatarios autorizados y las condiciones de entrega se definen en la documentación profesional aplicable tras la evaluación preliminar."
       },
       "sanctions": {
         "title": "Marco de sanciones internacionales y operaciones con Venezuela",
-        "text": "El Venezuela Legal & Regulatory Risk Brief aborda los cambios generales en los marcos de sanciones y medidas restrictivas internacionales que inciden en el comercio y la inversión vinculados con Venezuela. No obstante, el informe no constituye una autorización, clearance ni dictamen sobre operaciones o licencias individuales. Las transacciones específicas requieren evaluación particular de hechos, partes, flujos financieros y normativa extranjera aplicable (OFAC, UE, etc.), en articulación con consejeros jurídicos especializados en la jurisdicción correspondiente."
+        "text": "El informe aborda los cambios generales en los marcos de sanciones y medidas restrictivas internacionales que inciden en el comercio y la inversión vinculados con Venezuela. No obstante, el informe no constituye una autorización, clearance ni dictamen sobre operaciones o licencias individuales. Las transacciones específicas requieren evaluación particular de hechos, partes, flujos financieros y normativa extranjera aplicable (OFAC, UE, etc.), en articulación con consejeros jurídicos especializados en la jurisdicción correspondiente."
+      },
+      "preliminary_assessment": {
+        "tag": "ALCANCE PROFESIONAL",
+        "title": "Una modalidad definida tras evaluación corporativa",
+        "paragraph_1": "El Informe mensual se configura a partir de la Evaluación Preliminar de Alcance Corporativo. Esta etapa permite definir las materias de seguimiento, el perfil de exposición, los destinatarios autorizados y las condiciones profesionales aplicables a cada organización.",
+        "paragraph_2": "La Evaluación Preliminar es una etapa profesional independiente, sujeta a honorarios propios. El Brief no se ofrece como una publicación genérica ni como una suscripción estandarizada."
       },
       "contactBox": {
-        "tag": "SUSCRIPCIÓN CORPORATIVA",
-        "title": "Solicite una muestra o proponga su suscripción al Brief",
-        "description": "Consulte las opciones de suscripción mensual corporativa, solicite un ejemplar de muestra o coordine una conversación técnica para evaluar las áreas de cobertura de interés para su equipo.",
+        "tag": "PROCESO DE INCORPORACIÓN INSTITUCIONAL",
+        "title": "Solicitar una evaluación corporativa preliminar",
+        "description": "Comparta información inicial sobre su organización para que la firma pueda evaluar la conveniencia y el alcance de esta modalidad.",
         "emailPrefix": "También puede escribirnos directamente a",
         "email": "infomacconsul@gmail.com",
         "form": {
-          "subject": "Solicitud Suscripción Monthly Brief — Mac Consultores Jurídicos & Asociados",
+          "subject": "Solicitud Evaluación Preliminar — Monthly Brief — Mac Consultores",
           "fullName": "Nombre completo",
           "organization": "Empresa u organización",
           "country": "País",
           "email": "Correo corporativo",
           "website": "Sitio web (opcional)",
-          "interest": "Modalidad de interés",
+          "interest": "Modalidad de interés para la evaluación",
           "selectPlaceholder": "Seleccione una opción",
           "options": {
-            "corresponsalia": "Suscripción mensual al Brief (ES/EN)",
-            "representacion": "Suscripción combinada con Alertas Urgentes",
-            "consultoria": "Suscripción con Sesión Ejecutiva mensual",
-            "alianza": "Solicitud de muestra o presentación privada",
-            "otro": "Otro requerimiento específico"
+            "corresponsalia": "Evaluación para suscripción al Brief (ES/EN)",
+            "representacion": "Evaluación para combinación con Alertas Urgentes",
+            "consultoria": "Evaluación con Sesión Ejecutiva mensual",
+            "alianza": "Evaluación para presentación institucional privada",
+            "otro": "Otro requerimiento específico de evaluación"
           },
-          "message": "Mensaje o detalles de su consulta",
-          "submit": "Solicitar información",
+          "message": "Mensaje o detalles iniciales de su consulta",
+          "submit": "Solicitar evaluación preliminar",
           "privacy": "Su información será tratada con estricta confidencialidad."
         }
       },
@@ -2290,16 +2312,16 @@
         "title": "Preguntas frecuentes sobre el Informe Mensual",
         "items": [
           {
-            "question": "¿En qué idiomas se entrega el Venezuela Legal & Regulatory Risk Brief?",
-            "answer": "Cada Brief se prepara como informe bilingüe en español e inglés, para facilitar la revisión por equipos locales e internacionales, conforme al alcance contratado."
+            "question": "¿En qué idiomas se entrega el Brief de Riesgo Jurídico y Regulatorio?",
+            "answer": "Cada Brief se prepara como informe bilingüe en español e inglés, para facilitar la revisión por equipos locales e internacionales, conforme al alcance acordado."
           },
           {
-            "question": "¿Cuándo se recibe la primera entrega tras formalizar la suscripción?",
-            "answer": "La fecha de inicio y el calendario de entrega se definen al formalizar la relación profesional, de acuerdo con el alcance del servicio y las necesidades de la organización."
+            "question": "¿Cuándo se recibe la primera entrega tras formalizar el servicio?",
+            "answer": "La fecha de inicio y el calendario de entrega se definen al concluir la Evaluación Preliminar de Alcance Corporativo y formalizar la relación profesional, de acuerdo con las necesidades de la organización."
           },
           {
             "question": "¿Puede distribuirse el informe a varios miembros de la misma empresa?",
-            "answer": "Los destinatarios autorizados y las condiciones de distribución se determinan en la documentación profesional aplicable, considerando las necesidades de la organización y la confidencialidad del servicio."
+            "answer": "Los destinatarios autorizados y las condiciones de distribución se determinan en la documentación profesional aplicable, considerando las necesidades de la organización y la estricta confidencialidad del servicio."
           },
           {
             "question": "¿Qué diferencia existe entre el Informe mensual y las Alertas urgentes?",
@@ -2307,19 +2329,20 @@
           },
           {
             "question": "¿El informe sustituye una opinión jurídica vinculante sobre transacciones particulares?",
-            "answer": "No. El Brief es un instrumento de inteligencia jurídica y monitoreo preventivo. Las operaciones, contratos, reestructuraciones y controversias concretas requieren análisis jurídico individualizado."
+            "answer": "No. El Brief es un instrumento de inteligencia jurídica y monitoreo preventivo. Las operaciones, contratos, reestructuraciones y controversias concretas requieren análisis jurídico individualizado, y los programas de compliance exigen un encargo profesional independiente."
           }
         ]
       },
+      "compliance_disclaimer": "El Informe mensual no incluye servicios de Compliance, debida diligencia de terceros ni diseño de controles internos. Tales servicios requieren una propuesta y un encargo profesional independiente.",
       "disclaimer": {
         "title": "Aviso legal",
-        "text": "El Venezuela Legal & Regulatory Risk Brief tiene carácter técnico, informativo y general. No constituye una opinión jurídica definitiva ni sustituye la asesoría individualizada necesaria para evaluar operaciones, contratos, contrapartes, hechos o decisiones concretas."
+        "text": "El Brief de Riesgo Jurídico y Regulatorio — Venezuela tiene carácter técnico, informativo y general. No constituye una opinión jurídica definitiva ni sustituye la asesoría individualizada necesaria para evaluar operaciones, contratos, contrapartes, hechos o decisiones concretas, ni comprende servicios de Compliance o debida diligencia de terceros."
       },
       "closing_card": {
-        "tag": "CONSULTA CONFIDENCIAL",
+        "tag": "PROCESO DE INCORPORACIÓN INSTITUCIONAL",
         "title": "Incorpore inteligencia jurídica a sus decisiones en Venezuela",
-        "text": "Solicite una muestra del informe mensual o coordine una conversación técnica con nuestros socios para evaluar las modalidades de suscripción corporativa.",
-        "primary_cta": "Solicitar información",
+        "text": "Inicie el proceso mediante una Evaluación Preliminar de Alcance Corporativo para coordinar las áreas de cobertura y el seguimiento más adecuado para su organización.",
+        "primary_cta": "Solicitar evaluación preliminar",
         "secondary_cta": "Volver a Mac Legal Intelligence"
       }
     },
@@ -2336,7 +2359,7 @@
         "h1": "Alertas urgentes",
         "subtitle": "Flash Alerts para asuntos de especial relevancia",
         "intro": "Comunicaciones jurídicas puntuales para organizaciones que requieren conocer desarrollos relevantes vinculados con Venezuela antes de la siguiente edición del Informe mensual.",
-        "primary_cta": "Solicitar información",
+        "primary_cta": "Solicitar evaluación preliminar",
         "secondary_cta": "Conocer el criterio de alerta"
       },
       "value_proposition": {
@@ -2349,8 +2372,8 @@
         "intro": "Una Flash Alert puede considerarse cuando un desarrollo presenta una o varias de las siguientes características:",
         "items": [
           "Puede afectar de forma material una operación, contrato, pago, tercero, licencia, permiso o proceso relevante.",
-          "Introduce un cambio normativo, regulatorio, institucional o judicial que requiere atención antes de la siguiente edición mensual.",
-          "Genera una señal de riesgo relacionada con compliance, exposición penal corporativa, documentación, controles internos o debida diligencia.",
+          "Introduce un cambio normativo o institucional con impacto directo en la exposición de la empresa o en sus deberes legales de supervisión.",
+          "Modifica criterios administrativos o judiciales que exijan atención oportuna antes de la siguiente edición mensual.",
           "Puede incidir en operaciones transfronterizas, intermediarios, contrapartes, flujos de pago o relaciones comerciales vinculadas con Venezuela.",
           "Requiere que la organización valore si debe conservar documentación, revisar una política, consultar a la firma o escalar internamente un asunto."
         ],
@@ -2374,7 +2397,7 @@
           "Cambios normativos, regulatorios o administrativos con posible impacto en actividades empresariales.",
           "Decisiones judiciales o criterios institucionales que modifiquen el escenario jurídico de una operación.",
           "Novedades que puedan incidir en contratos, permisos, pagos, intermediarios, proveedores o relaciones con terceros.",
-          "Señales relevantes para compliance, debida diligencia, prevención de riesgos penales corporativos o documentación interna.",
+          "Criterios normativos relevantes para la mitigación preventiva de contingencias corporativas y la preservación de soportes jurídicos.",
           "Desarrollos vinculados con operaciones internacionales, sanciones, licencias o contrapartes conectadas con Venezuela.",
           "Acontecimientos institucionales que puedan tener consecuencias prácticas para sectores o actividades determinadas."
         ],
@@ -2382,7 +2405,7 @@
       },
       "monthly_brief_relationship": {
         "title": "Un complemento del Informe mensual",
-        "paragraph_1": "Las Flash Alerts no sustituyen el Venezuela Legal & Regulatory Risk Brief. El Informe mensual permite consolidar y contextualizar los desarrollos relevantes del período; las alertas pueden utilizarse para comunicar separadamente un asunto que, por su posible impacto o urgencia, conviene identificar antes de la siguiente edición.",
+        "paragraph_1": "Las Flash Alerts no sustituyen el Brief de Riesgo Jurídico y Regulatorio. El Informe mensual permite consolidar y contextualizar los desarrollos relevantes del período; las alertas pueden utilizarse para comunicar separadamente un asunto que, por su posible impacto o urgencia, conviene identificar antes de la siguiente edición.",
         "paragraph_2": "Posteriormente, el asunto alertado puede incorporarse al análisis más amplio del Informe mensual, junto con otros desarrollos y consideraciones relevantes."
       },
       "confidential_handling": {
@@ -2390,30 +2413,36 @@
         "paragraph_1": "Los destinatarios autorizados, los canales de entrega y los criterios específicos de comunicación se definen conforme al alcance acordado con cada organización. La firma procura que las alertas lleguen a los equipos que deben conocerlas, preservando la confidencialidad y evitando comunicaciones innecesarias.",
         "paragraph_2": "Cuando una alerta revele la necesidad de revisar una operación, contrato, contraparte o situación concreta, Mac Consultores Jurídicos & Asociados podrá asistir al cliente mediante asesoría jurídica individualizada."
       },
+      "preliminary_assessment": {
+        "tag": "ALCANCE PROFESIONAL",
+        "title": "Criterios de alerta definidos para cada organización",
+        "paragraph_1": "Las Flash Alerts se estructuran a partir de la Evaluación Preliminar de Alcance Corporativo. Esta etapa permite definir los asuntos prioritarios de seguimiento, el perfil de exposición de la organización, los destinatarios autorizados y los criterios de comunicación aplicables.",
+        "paragraph_2": "La Evaluación Preliminar es una etapa profesional independiente, sujeta a honorarios propios. Las Alertas urgentes no constituyen un canal genérico de noticias ni un sistema automático de comunicaciones."
+      },
       "contactBox": {
-        "tag": "CONSULTA CONFIDENCIAL",
-        "title": "Conozca las modalidades de Flash Alerts",
-        "description": "Solicite una conversación privada para evaluar si las Alertas urgentes pueden complementar el seguimiento jurídico y regulatorio de su organización.",
+        "tag": "PROCESO DE INCORPORACIÓN INSTITUCIONAL",
+        "title": "Solicitar una evaluación corporativa preliminar",
+        "description": "Comparta información inicial sobre su organización para que la firma pueda evaluar la conveniencia y el alcance de esta modalidad.",
         "emailPrefix": "También puede escribirnos directamente a",
         "email": "infomacconsul@gmail.com",
         "form": {
-          "subject": "Solicitud Flash Alerts — Mac Consultores Jurídicos & Asociados",
+          "subject": "Solicitud Evaluación Preliminar — Flash Alerts — Mac Consultores",
           "fullName": "Nombre completo",
           "organization": "Empresa u organización",
           "country": "País",
           "email": "Correo corporativo",
           "website": "Sitio web (opcional)",
-          "interest": "Modalidad de interés",
+          "interest": "Modalidad de interés para la evaluación",
           "selectPlaceholder": "Seleccione una opción",
           "options": {
-            "corresponsalia": "Alertas urgentes complementarias al Brief",
-            "representacion": "Seguimiento prioritario regulatorio e institucional",
+            "corresponsalia": "Evaluación para Alertas urgentes complementarias al Brief",
+            "representacion": "Evaluación para seguimiento prioritario regulatorio",
             "consultoria": "Evaluación de criterios y canales de emisión",
-            "alianza": "Configuración a la medida para la organización",
-            "otro": "Otro asunto o presentación privada"
+            "alianza": "Evaluación a la medida para la organización",
+            "otro": "Evaluación general u otro requerimiento"
           },
-          "message": "Mensaje o detalles de su consulta",
-          "submit": "Solicitar información",
+          "message": "Mensaje o detalles iniciales de su consulta",
+          "submit": "Solicitar evaluación preliminar",
           "privacy": "Su información será tratada con estricta confidencialidad."
         }
       },
@@ -2430,7 +2459,7 @@
           },
           {
             "question": "¿Mac garantiza un plazo específico para emitir una alerta?",
-            "answer": "La frecuencia, los canales de comunicación y los criterios de emisión se definen de acuerdo con el alcance contratado. La firma no publica plazos generales de respuesta para situaciones que requieran análisis jurídico."
+            "answer": "La frecuencia, los canales de comunicación y los criterios de emisión se definen de acuerdo con el alcance contratado tras la evaluación preliminar. La firma no publica plazos generales de respuesta para situaciones que requieran análisis jurídico."
           },
           {
             "question": "¿La alerta determina si una operación puede ejecutarse?",
@@ -2438,19 +2467,20 @@
           },
           {
             "question": "¿Puede configurarse el servicio según la exposición de la empresa?",
-            "answer": "Sí. Los temas monitoreados, destinatarios autorizados y criterios de comunicación pueden ajustarse al sector, operación, perfil de riesgo y necesidades de la organización."
+            "answer": "Sí. Los temas monitoreados, destinatarios autorizados y criterios de comunicación se adaptan a la industria, operaciones, perfil de riesgo y necesidades de la organización tras la Evaluación Preliminar de Alcance Corporativo."
           }
         ]
       },
+      "compliance_disclaimer": "Las Flash Alerts no incluyen servicios de Compliance, debida diligencia de terceros ni diseño de controles internos. Tales servicios requieren una propuesta y un encargo profesional independiente.",
       "disclaimer": {
         "title": "Aviso legal",
-        "text": "Las Flash Alerts de Mac Legal Intelligence tienen carácter técnico, informativo y preventivo. No constituyen una opinión jurídica definitiva ni sustituyen la asesoría individualizada necesaria para evaluar operaciones, contratos, contrapartes, hechos o decisiones concretas."
+        "text": "Las Flash Alerts de Mac Legal Intelligence tienen carácter técnico, informativo y preventivo. No constituyen una opinión jurídica definitiva ni sustituyen la asesoría individualizada necesaria para evaluar operaciones, contratos, contrapartes, hechos o decisiones concretas, ni comprenden servicios de Compliance o debida diligencia de terceros."
       },
       "closing_card": {
-        "tag": "MAC LEGAL INTELLIGENCE",
+        "tag": "PROCESO DE INCORPORACIÓN INSTITUCIONAL",
         "title": "Atención informada ante asuntos relevantes",
-        "text": "Conozca cómo las Flash Alerts pueden complementar el Informe mensual mediante seguimiento jurídico orientado a decisiones oportunas.",
-        "primary_cta": "Solicitar información",
+        "text": "Inicie el proceso mediante una Evaluación Preliminar de Alcance Corporativo para definir si las Alertas urgentes son la modalidad adecuada para su organización.",
+        "primary_cta": "Solicitar evaluación preliminar",
         "secondary_cta": "Volver a Mac Legal Intelligence"
       }
     }
