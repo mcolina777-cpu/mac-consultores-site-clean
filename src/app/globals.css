@@ -980,10 +980,6 @@ footer,
   margin-top: 1.25rem;
 }
 
-.footer-mobile-cta-wrap {
-  display: none;
-}
-
 .footer-cta-btn {
   display: inline-flex;
   align-items: center;
@@ -1271,34 +1267,11 @@ footer,
     word-break: break-word;
   }
 
-  /* Ocultar CTA dentro de la columna de contacto en móvil */
   .footer-contact-col .footer-cta-wrap {
-    display: none;
-  }
-
-  /* 4. CTA de Admisión como Remate Independiente */
-  .footer-mobile-cta-wrap {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 28px;
+    margin-top: 1rem;
   }
 
-  .footer-mobile-cta-wrap .footer-cta-btn {
-    width: auto;
-    max-width: 100%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 44px;
-    padding: 10px 24px;
-    white-space: nowrap;
-    text-align: center;
-  }
-
-  /* 5. Aviso Deontológico y Barra Legal */
   .footer-deontological {
     padding: 20px 0 16px;
     margin-top: 0;
@@ -1351,20 +1324,6 @@ footer,
     display: inline-flex;
     align-items: center;
     padding: 4px 0;
-  }
-}
-
-/* 6. Fallback exclusivo para pantallas ultracompactas (hasta 359px) */
-@media (max-width: 359px) {
-  .footer-grid {
-    grid-template-columns: minmax(0, 1fr);
-    row-gap: 24px;
-    column-gap: 0;
-  }
-
-  .footer-grid > .footer-services-col {
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
-    padding-top: 20px;
   }
 }
 

@@ -213,7 +213,7 @@ export default function Footer({
                 </a>
               </li>
             </ul>
-            <div className="footer-cta-wrap footer-cta-desktop">
+            <div className="footer-cta-wrap">
               <Link
                 href={getRoute(locale, "contact")}
                 className="footer-cta-btn"
@@ -224,18 +224,6 @@ export default function Footer({
               </Link>
             </div>
           </div>
-        </div>
-
-        {/* Remate CTA móvil independiente (visible únicamente en móvil <= 767px) */}
-        <div className="footer-mobile-cta-wrap">
-          <Link
-            href={getRoute(locale, "contact")}
-            className="footer-cta-btn"
-            role="button"
-            aria-label={ctaLabel}
-          >
-            <span>{ctaLabel}</span>
-          </Link>
         </div>
 
         {/* Capa 3: Aviso Deontológico Institucional */}
