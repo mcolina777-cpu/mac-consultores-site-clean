@@ -264,28 +264,49 @@ export default async function LegalIntelligencePage({ params }: Props) {
                     </Link>
                   );
                 }
-                return (
-                  <div
-                    key={index}
-                    className="card"
-                    style={{
-                      backgroundColor: '#ffffff',
-                      border: '1px solid var(--border-color, #e5e7eb)',
-                      borderRadius: '6px',
-                      padding: '1.75rem',
-                    }}
-                  >
-                    <span className="section-tag">{item.tag}</span>
-                    <h3 className="serif mb-0-75rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #002845)' }}>
-                      {item.title}
-                    </h3>
-                    <p className="card-editorial-text" style={{ margin: 0, lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
-                      {item.text}
-                    </p>
-                  </div>
-                );
+                return null;
               })}
             </div>
+
+            {/* COMPONENTE CONFIGURABLE: SESIÓN EJECUTIVA DE CONTEXTO */}
+            {data?.executive_debrief && (
+              <div
+                className="card mt-2rem"
+                style={{
+                  backgroundColor: '#ffffff',
+                  border: '1px solid var(--border-color, #e5e7eb)',
+                  borderLeft: '4px solid var(--primary, #002845)',
+                  borderRadius: '6px',
+                  padding: '1.75rem',
+                }}
+              >
+                {data.executive_debrief.tag && (
+                  <span
+                    className="section-tag"
+                    style={{
+                      color: 'var(--accent, #990000)',
+                      fontWeight: 600,
+                      fontSize: '0.8rem',
+                      letterSpacing: '0.05em',
+                      textTransform: 'uppercase',
+                      display: 'block',
+                      marginBottom: '0.5rem',
+                    }}
+                  >
+                    {data.executive_debrief.tag}
+                  </span>
+                )}
+                <h3 className="serif mb-0-75rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #002845)' }}>
+                  {data.executive_debrief.title}
+                </h3>
+                <p className="card-editorial-text" style={{ margin: '0 0 1.25rem 0', lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)' }}>
+                  {data.executive_debrief.text}
+                </p>
+                <a href="#contacto" className="card-link" style={{ textDecoration: 'none' }}>
+                  {data.executive_debrief.cta} →
+                </a>
+              </div>
+            )}
           </div>
 
           {/* BLOQUE 6: SANCIONES Y OPERACIONES TRANSFRONTERIZAS */}

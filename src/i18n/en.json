@@ -2119,27 +2119,23 @@
       "items": [
         {
           "tag": "01",
-          "title": "Monthly brief",
-          "text": "A bilingual monthly report analyzing legal, regulatory, and institutional developments relevant to the organization’s activities and target sectors.",
+          "title": "Monthly Strategic Brief",
+          "text": "A periodic bilingual report analyzing legal, regulatory, and institutional developments calibrated to the organization’s active sectors and critical operations.",
           "link_text": "VIEW MONTHLY BRIEF DETAILS →"
         },
         {
           "tag": "02",
-          "title": "Flash alerts",
-          "text": "Targeted communications regarding developments of particular legal, regulatory, institutional or cross-border relevance.",
+          "title": "Strategic Flash Alerts",
+          "text": "Targeted, selective communications issued in response to unexpected legal, regulatory, institutional, or cross-border developments that may affect the organization’s operations or decisions.",
           "link_text": "EXPLORE FLASH ALERTS →"
-        },
-        {
-          "tag": "03",
-          "title": "Executive debrief",
-          "text": "An optional, private periodic session to discuss trends, address general questions and prioritize matters."
-        },
-        {
-          "tag": "04",
-          "title": "Sector-focused coverage",
-          "text": "Tailored coverage for agreed industries, operations or risk areas."
         }
       ]
+    },
+    "executive_debrief": {
+      "tag": "CONFIGURABLE ENGAGEMENT COMPONENT",
+      "title": "Executive Debrief",
+      "text": "An optional, private session to contextualize trends, consider strategic implications and calibrate institutional priorities based on the intelligence reports. It does not include tailored legal advice or general legal consultations.",
+      "cta": "Request preliminary assessment"
     },
     "sanctions": {
       "title": "Sanctions risk and cross-border operations",
@@ -2153,7 +2149,7 @@
     "preliminary_assessment": {
       "tag": "INSTITUTIONAL ONBOARDING PROCESS",
       "title": "Preliminary Corporate Scoping Review",
-      "paragraph_1": "Every Mac Legal Intelligence engagement begins with a Preliminary Corporate Scoping Review, provided under separate professional fees. This stage enables the firm to understand the organization’s profile, its activities, operations, commercial relationships and relevant regulatory matters in Venezuela, priority monitoring areas and authorized recipients.",
+      "paragraph_1": "Every Mac Legal Intelligence engagement begins with a Preliminary Corporate Scoping Review, provided under separate professional fees. This stage enables the firm to understand the organization’s profile, its activities, operations, commercial relationships and relevant regulatory matters in Venezuela, priority monitoring areas and authorized recipients. The review enables the firm to define the industries, activities, operations, contracts, counterparties and regulatory matters that will guide the monitoring and analysis of each engagement.",
       "paragraph_2": "Based on this review, the firm determines the most appropriate service model, scope and engagement terms. It may also identify the need for a separate Compliance proposal or tailored legal advice."
     },
     "contactBox": {
@@ -2172,11 +2168,11 @@
         "interest": "Preferred focus for preliminary scoping",
         "selectPlaceholder": "Select an option",
         "options": {
-          "corresponsalia": "Assessment for Monthly Brief (ES/EN)",
-          "representacion": "Assessment for Flash Alerts",
-          "consultoria": "Assessment for Periodic Executive Debrief",
-          "alianza": "Assessment for Tailored Sector-Focused Coverage",
-          "otro": "General Preliminary Assessment or other inquiry"
+          "corresponsalia": "Assessment for Monthly Strategic Brief",
+          "representacion": "Assessment for Strategic Flash Alerts",
+          "consultoria": "Assessment for an Executive Debrief",
+          "alianza": "General Mac Legal Intelligence assessment",
+          "otro": "Other institutional inquiry"
         },
         "message": "Message or initial organization details",
         "submit": "Request preliminary assessment",

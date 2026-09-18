@@ -2119,27 +2119,23 @@
       "items": [
         {
           "tag": "01",
-          "title": "Informe mensual",
-          "text": "Brief bilingüe con análisis de novedades jurídicas, regulatorias e institucionales relevantes para las actividades y sectores de interés de la organización.",
+          "title": "Brief Mensual Estratégico",
+          "text": "Análisis periódico y bilingüe de novedades jurídicas, regulatorias e institucionales calibrado según los sectores de actividad y operaciones críticas de la organización.",
           "link_text": "CONOCER DETALLES DEL BRIEF →"
         },
         {
           "tag": "02",
-          "title": "Alertas urgentes",
-          "text": "Comunicaciones puntuales ante desarrollos de especial relevancia jurídica, regulatoria, institucional o transfronteriza.",
+          "title": "Alertas Extraordinarias",
+          "text": "Comunicaciones puntuales y selectivas ante desarrollos sobrevenidos de especial relevancia jurídica, regulatoria, institucional o transfronteriza que puedan afectar las operaciones o decisiones de la organización.",
           "link_text": "CONOCER LAS ALERTAS →"
-        },
-        {
-          "tag": "03",
-          "title": "Sesión ejecutiva",
-          "text": "Espacio privado, opcional y de carácter periódico para comentar tendencias, atender preguntas generales y priorizar asuntos."
-        },
-        {
-          "tag": "04",
-          "title": "Cobertura sectorial",
-          "text": "Enfoque ajustado a sectores, operaciones o áreas de riesgo definidas previamente con el cliente."
         }
       ]
+    },
+    "executive_debrief": {
+      "tag": "COMPONENTE CONFIGURABLE DEL ENCARGO",
+      "title": "Sesión Ejecutiva de Contexto",
+      "text": "Espacio privado y complementario para contextualizar tendencias, examinar implicaciones estratégicas y calibrar prioridades institucionales a partir de los reportes de inteligencia. No incluye asesoría jurídica individualizada ni la evacuación de consultas legales generales.",
+      "cta": "Solicitar evaluación preliminar"
     },
     "sanctions": {
       "title": "Riesgos de sanciones y operaciones transfronterizas",
@@ -2153,7 +2149,7 @@
     "preliminary_assessment": {
       "tag": "PROCESO DE INCORPORACIÓN INSTITUCIONAL",
       "title": "Evaluación Preliminar de Alcance Corporativo",
-      "paragraph_1": "Toda relación profesional vinculada con Mac Legal Intelligence se inicia con una Evaluación Preliminar de Alcance Corporativo, sujeta a honorarios profesionales independientes. Esta etapa permite comprender el perfil de la organización, sus actividades, operaciones, relaciones comerciales y asuntos regulatorios relevantes en Venezuela, las áreas prioritarias de seguimiento y los destinatarios autorizados del servicio.",
+      "paragraph_1": "Toda relación profesional vinculada con Mac Legal Intelligence se inicia con una Evaluación Preliminar de Alcance Corporativo, sujeta a honorarios profesionales independientes. Esta etapa permite comprender el perfil de la organización, sus actividades, operaciones, relaciones comerciales y asuntos regulatorios relevantes en Venezuela, las áreas prioritarias de seguimiento y los destinatarios autorizados del servicio. La evaluación permite definir los sectores, actividades, operaciones, contratos, contrapartes y asuntos regulatorios que orientarán el monitoreo y análisis de cada encargo.",
       "paragraph_2": "Con base en esta evaluación, la firma determina la modalidad, el alcance y las condiciones profesionales más adecuadas. Asimismo, puede identificar la conveniencia de una propuesta independiente de Compliance o de asesoría jurídica individualizada."
     },
     "contactBox": {
@@ -2172,11 +2168,11 @@
         "interest": "Modalidad de interés para la evaluación",
         "selectPlaceholder": "Seleccione una opción",
         "options": {
-          "corresponsalia": "Evaluación para Informe mensual (Brief)",
-          "representacion": "Evaluación para Alertas urgentes",
-          "consultoria": "Evaluación para Sesión ejecutiva periódica",
-          "alianza": "Evaluación para Cobertura sectorial a la medida",
-          "otro": "Evaluación preliminar general u otro requerimiento"
+          "corresponsalia": "Evaluación para Brief Mensual Estratégico",
+          "representacion": "Evaluación para Alertas Extraordinarias",
+          "consultoria": "Evaluación para Sesión Ejecutiva de Contexto",
+          "alianza": "Evaluación general de Mac Legal Intelligence",
+          "otro": "Otra consulta institucional"
         },
         "message": "Mensaje o información inicial de la organización",
         "submit": "Solicitar evaluación preliminar",
