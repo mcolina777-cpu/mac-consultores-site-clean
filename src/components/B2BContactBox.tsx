@@ -186,7 +186,7 @@ export default function B2BContactBox({ data, locale, redirectUrl, id }: B2BCont
               />
             </div>
 
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-primary b2b-submit-btn">
               {data.form.submit}
             </button>
           </form>

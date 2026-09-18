@@ -403,6 +403,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                       id="checkbox_veracidad"
                       name="declaracion_veracidad"
                       required
+                      className="contact-checkbox"
                       style={{ marginTop: '0.25rem', cursor: 'pointer' }}
                     />
                     <label htmlFor="checkbox_veracidad" className="text-sm" style={{ cursor: 'pointer', lineHeight: 1.4 }}>
@@ -418,6 +419,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                       id="checkbox_no_relacion"
                       name="declaracion_no_relacion"
                       required
+                      className="contact-checkbox"
                       style={{ marginTop: '0.25rem', cursor: 'pointer' }}
                     />
                     <label htmlFor="checkbox_no_relacion" className="text-sm" style={{ cursor: 'pointer', lineHeight: 1.4 }}>

@@ -469,8 +469,8 @@ section {
 
 /* CORRECCIÓN RESPONSIVE:
    En tabletas, .grid-3 utiliza dos columnas
-   para evitar la compresión del contenido. */
-@media (min-width: 769px) and (max-width: 1023px) {
+   para evitar la compresión del contenido (hasta 1024px inclusive). */
+@media (min-width: 769px) and (max-width: 1024px) {
   .grid-3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -734,7 +734,7 @@ button,
   flex-wrap: wrap;
 }
 
-/* Variante compacta para botones de retorno / navegación */
+/* Variante compacta para botones de retorno / navegación en escritorio */
 .btn-compact,
 .card.bg-soft.text-center .btn-secondary {
   padding: 11px 24px;
@@ -744,37 +744,77 @@ button,
 }
 
 @media (max-width: 768px) {
-  .btn-group {
+  /* Contenedores de botones agrupados: apilados verticalmente y centrados */
+  .btn-group,
+  .hero-btns > div,
+  .card.bg-soft.text-center .closing-card-actions,
+  .card.bg-soft.text-center div[style*="display: flex"],
+  .card.bg-soft.text-center > div:has(> .btn) {
     flex-direction: column;
     align-items: center;
-    gap: 0.75rem;
+    gap: 12px;
     width: 100%;
   }
 
-  .btn-group .btn {
-    width: 100%;
-    max-width: 320px;
-    box-sizing: border-box;
-    text-align: center;
-    padding: 13px 20px;
+  /* Estandarización de botones en móvil: área táctil ergonómica y proporciones sobrias */
+  .btn {
+    min-height: 46px;
+    padding: 12px 20px;
     font-size: 0.84rem;
     letter-spacing: 0.9px;
     line-height: 1.25;
+    box-sizing: border-box;
+    text-align: center;
     display: inline-flex;
     align-items: center;
     justify-content: center;
   }
 
+  .btn-group .btn,
+  .hero-btns .btn,
+  .card.bg-soft.text-center .btn {
+    width: 100%;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Unificación de botones secundarios en móvil para evitar asimetrías de escala */
   .btn-compact,
   .btn-group .btn-compact,
   .card.bg-soft.text-center .btn-secondary {
-    width: auto;
-    max-width: 260px;
-    padding: 10px 18px;
-    font-size: 0.78rem;
-    letter-spacing: 0.8px;
+    width: 100%;
+    max-width: 320px;
+    min-height: 46px;
+    padding: 12px 20px;
+    font-size: 0.84rem;
+    letter-spacing: 0.9px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  /* Botón de envío B2B en móvil */
+  .b2b-submit-btn,
+  .b2b-contact-box form .btn {
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Teléfonos compactos (360–390 px): respiro tipográfico para evitar desbordes */
+  .btn,
+  .btn-group .btn,
+  .hero-btns .btn,
+  .card.bg-soft.text-center .btn {
+    font-size: 0.82rem;
+    letter-spacing: 0.8px;
+    padding: 11px 16px;
+    max-width: 100%;
   }
 }
 
@@ -1118,7 +1158,7 @@ footer,
 /* FOOTER – Tablets y pantallas intermedias (768px a 1200px) */
 @media (min-width: 768px) and (max-width: 1200px) {
   .footer {
-    padding: 64px 0 32px;
+    padding: 64px 0 calc(48px + env(safe-area-inset-bottom, 0px));
   }
 
   .footer-grid {
@@ -1152,7 +1192,7 @@ footer,
 /* FOOTER – Móvil (hasta 767px) */
 @media (max-width: 767px) {
   .footer {
-    padding: 48px 0 32px;
+    padding: 48px 0 calc(48px + env(safe-area-inset-bottom, 0px));
   }
 
   .footer-grid {
@@ -1912,6 +1952,159 @@ footer,
 }
 
 /* =========================================================================
+   SISTEMA RESPONSIVE DE NAVEGACIÓN (MÓVIL Y TABLET: HASTA 1024px)
+   ========================================================================= */
+@media (max-width: 1024px) {
+    nav .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        flex-wrap: nowrap;
+    }
+
+    /* Versión móvil del logo */
+    nav .logo {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 68%;
+        height: auto;
+        display: block;
+        margin-bottom: 0;
+        position: relative;
+        z-index: 3;
+    }
+
+    nav .logo img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Botón MENÚ / CERRAR activo en móvil y tablet (hasta 1024px) */
+    .mobile-menu-text-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        color: var(--primary);
+        border: 1px solid var(--primary);
+        padding: 10px 16px;
+        min-height: 44px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
+        z-index: 2;
+    }
+
+    nav {
+        position: relative;
+        z-index: 10;
+    }
+
+    /* Menú desplegable móvil/tablet: oculto por defecto */
+    nav .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--bg-white);
+        flex-direction: column;
+        margin-left: 0;
+        padding: 8px 0;
+        gap: 0;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        z-index: 1;
+        border-top: 1px solid rgba(0, 56, 101, 0.08);
+        max-height: calc(100vh - 90px);
+        overflow-y: auto;
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+
+    nav .nav-links.active {
+        display: flex;
+    }
+
+    nav .nav-links li {
+        width: 100%;
+        margin: 0;
+        display: block;
+        text-align: center;
+        white-space: normal;
+    }
+
+    /* Enlaces interactivos con área táctil ergonómica (mín. 44px) y espaciado de 4px */
+    nav .nav-links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 12px 16px;
+        margin: 2px 0;
+        font-size: 0.88rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: var(--primary);
+        text-decoration: none;
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Contraste accesible WCAG: fondo dorado (#D4AF37) con texto azul oscuro (#001f38) */
+    nav .nav-links a:active,
+    nav .nav-links a:focus {
+        background-color: var(--accent);
+        color: var(--primary-dark, #001f38);
+    }
+
+    /* Hover decorativo limitado a dispositivos con cursor real (evita sticky hover en Safari iOS) */
+    @media (hover: hover) and (pointer: fine) {
+        nav .nav-links a:hover {
+            background-color: var(--accent);
+            color: var(--primary-dark, #001f38);
+        }
+    }
+
+    nav .nav-links a:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+    }
+
+    /* Selector de idioma ES / EN con área táctil cómoda (~44x44px) */
+    .lang-selector {
+        width: 100%;
+        justify-content: center;
+        background: var(--bg-soft);
+        border: 1px solid #E1E1E1;
+        border-top: none;
+        padding: 12px;
+        margin-left: 0;
+        margin-top: 4px;
+        gap: 8px;
+    }
+
+    .lang-btn {
+        min-width: 44px;
+        min-height: 44px;
+        padding: 10px 14px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lang-separator {
+        margin: 0 4px;
+        font-size: 0.85rem;
+    }
+}
+
+/* =========================================================================
    SISTEMA UNIFICADO DE RESPONSIVE (MÓVIL / TABLET)
    ========================================================================= */
 @media (max-width: 768px) {
@@ -2005,116 +2198,7 @@ footer,
         object-fit: contain;
     } */
 
-    /* 2. HEADER / NAVBAR */
-    /* Header móvil: mismo esquema, pero evitando que el logo se pierda */
-    nav .container {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px 20px;
-        flex-wrap: nowrap; /* queda en una sola fila */
-    }
-
-    /* Versión móvil del logo: se sobreescribe la versión desktop */
-    nav .logo {
-        flex: 0 0 auto;       /* mantiene flex auto para móvil */
-        width: 100%;          /* ancho físico para que las cqw se resuelvan */
-        max-width: 68%;       /* límite para que no ocupe todo el header */
-        height: auto;
-        display: block;
-        margin-bottom: 0;
-        position: relative;
-        z-index: 3;           /* por encima del fondo y del menú desplegable */
-    }
-
-    nav .logo img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    /* Botón de menú móvil se mantiene, pero sin tapar el logo */
-    .mobile-menu-text-btn {
-        display: block;
-        background-color: transparent;
-        color: var(--primary);
-        border: 1px solid var(--primary);
-        padding: 6px 12px;
-        font-size: 0.85rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-        border-radius: 4px;
-        cursor: pointer;
-        font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
-        z-index: 2;
-    }
-
-    nav {
-        position: relative;
-        z-index: 10;
-    }
-
-    /* Menú desplegable móvil: debajo del logo, no encima */
-    nav .nav-links {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: var(--bg-white);
-        flex-direction: column;
-        margin-left: 0;
-        padding: 0;
-        gap: 0;
-        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-        z-index: 1;
-        border-top: 1px solid rgba(0, 56, 101, 0.08);
-        /* FIX: Altura máxima y scroll vertical */
-        max-height: calc(100vh - 90px);
-        overflow-y: auto;
-        /* FIX: Eliminar herencia del flex-end */
-        align-items: stretch;
-        justify-content: flex-start;
-    }
-
-    nav .nav-links.active {
-        display: flex;
-    }
-
-    /* FIX: Mayor especificidad añadiendo 'nav ' para derrotar herencia */
-    nav .nav-links li {
-        width: 100%;
-        margin: 0;
-        display: block;
-        text-align: center;
-        /* FIX: Evitar overflow horizontal */
-        white-space: normal;
-    }
-
-
-    nav .nav-links a:hover,
-    nav .nav-links a:active,
-    nav .nav-links a:focus {
-        background-color: var(--accent);
-        color: #ffffff;
-    }
-
-    nav .nav-links a:focus-visible {
-        outline: 2px solid var(--accent);
-        outline-offset: 2px;
-    }
-
-    .lang-selector {
-        width: 100%;
-        justify-content: center;
-        background: var(--bg-soft);
-        border: 1px solid #E1E1E1;
-        border-top: none;
-        padding: 15px;
-        margin-left: 0;
-        margin-top: 0;
-    }
+    /* 2. HEADER / NAVBAR: gestionado en bloque unificado hasta 1024px (ver bloque específico) */
 
     /* 3. HERO Y TIPOGRAFÍA GENERAL */
 
@@ -2561,7 +2645,7 @@ footer,
 .mac-whatsapp-float {
   position: fixed;
   right: 20px;
-  bottom: 20px;
+  bottom: calc(20px + env(safe-area-inset-bottom, 0px));
   width: 56px;
   height: 56px;
   border-radius: 999px;
@@ -2605,7 +2689,7 @@ footer,
 @media (max-width: 480px) {
   .mac-whatsapp-float {
     right: 16px;
-    bottom: 16px;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
     width: 52px;
     height: 52px;
     box-shadow: 0 14px 32px rgba(0, 0, 0, 0.35);
@@ -2659,26 +2743,39 @@ body.nav-open {
   overflow: hidden;
 }
 
-/* Auditoría Técnica: Mejoras en Responsive y CLS */
-@media (max-width: 768px) {
-  /* 1. Touch Targets (WCAG 44x44px min) */
-  .mobile-menu-text-btn {
-    padding: 12px 16px;
-    min-height: 44px;
-  }
+/* Auditoría Técnica: Áreas Táctiles en Móvil y Tablet (hasta 1024px) */
+.contact-checkbox {
+  cursor: pointer;
+  accent-color: var(--primary);
+}
 
-  .lang-btn {
-    padding: 12px 8px;
+@media (max-width: 1024px) {
+  /* 1. Touch Targets Footer (WCAG 44x44px min en móvil y tablet) */
+  .footer-col ul a,
+  .footer-links a,
+  .footer-legal-links a,
+  .footer-contact-item a {
+    padding: 8px 0;
     min-height: 44px;
     display: inline-flex;
     align-items: center;
   }
 
-  .footer-col ul a,
-  .footer-links a,
-  .footer-legal a {
-    padding: 12px 0;
-    display: block;
+  /* 2. Casillas de verificación (Checkboxes) accesibles en móvil y tablet */
+  .contact-checkbox {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    min-height: 22px;
+    margin-top: 2px;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  .form-group:has(.contact-checkbox) {
+    min-height: 44px;
+    align-items: flex-start;
+    padding: 4px 0;
   }
 }
 
