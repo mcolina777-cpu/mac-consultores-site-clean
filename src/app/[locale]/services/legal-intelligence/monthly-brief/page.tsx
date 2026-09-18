@@ -15,12 +15,12 @@ export async function generateMetadata({ params }: Props) {
   const data = dict?.legal_intelligence?.monthly_brief?.seo;
 
   const title = data?.title || (isEs
-    ? 'Brief de Riesgo Jurídico y Regulatorio — Venezuela | Mac Legal Intelligence'
-    : 'Venezuela Legal & Regulatory Risk Brief | Mac Legal Intelligence');
+    ? 'Brief Mensual Estratégico — Venezuela | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados'
+    : 'Monthly Strategic Brief — Venezuela | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados');
 
   const description = data?.description || (isEs
-    ? 'Monitoreo normativo mensual y análisis preventivo de riesgo legal y regulatorio para organizaciones con actividades, operaciones transfronterizas o intereses en Venezuela.'
-    : 'Monthly regulatory monitoring and preventive legal and regulatory risk analysis for organizations with commercial activities, cross-border operations, or interests in Venezuela.');
+    ? 'Monitoreo normativo mensual y análisis preventivo de contexto jurídico y regulatorio para organizaciones con actividades, operaciones o intereses en Venezuela.'
+    : 'Monthly regulatory monitoring and preventive legal analysis for organizations with commercial activities, operations, or interests in Venezuela.');
 
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
   const url = `${BASE_URL}/${locale}/services/legal-intelligence/monthly-brief`;
@@ -74,7 +74,7 @@ export default async function MonthlyBriefPage({ params }: Props) {
   const breadcrumbHome = dict?.nav?.inicio || (isEs ? 'Inicio' : 'Home');
   const breadcrumbServices = dict?.nav?.servicios || (isEs ? 'Servicios' : 'Services');
   const breadcrumbParent = dict?.legal_intelligence?.breadcrumb?.current || 'Mac Legal Intelligence';
-  const breadcrumbCurrent = data?.breadcrumb?.current || (isEs ? 'Informe mensual' : 'Monthly Brief');
+  const breadcrumbCurrent = data?.breadcrumb?.current || (isEs ? 'Brief Mensual Estratégico' : 'Monthly Strategic Brief');
   const breadcrumbText = `${breadcrumbHome.toUpperCase()} / ${breadcrumbServices.toUpperCase()} / ${breadcrumbParent.toUpperCase()} / ${breadcrumbCurrent.toUpperCase()}`;
 
   return (
@@ -186,6 +186,48 @@ export default async function MonthlyBriefPage({ params }: Props) {
             )}
           </div>
 
+          {/* COMPONENTE CONFIGURABLE: SESIÓN EJECUTIVA DE CONTEXTO */}
+          {data?.executive_debrief && (
+            <div className="content-section mb-3rem">
+              <div
+                className="card"
+                style={{
+                  backgroundColor: '#ffffff',
+                  border: '1px solid var(--border-color, #e5e7eb)',
+                  borderLeft: '4px solid var(--accent, #990000)',
+                  borderRadius: '6px',
+                  padding: '2rem',
+                }}
+              >
+                {data.executive_debrief.tag && (
+                  <span
+                    className="section-tag"
+                    style={{
+                      color: 'var(--accent, #990000)',
+                      fontWeight: 600,
+                      fontSize: '0.8rem',
+                      letterSpacing: '0.05em',
+                      textTransform: 'uppercase',
+                      display: 'block',
+                      marginBottom: '0.5rem',
+                    }}
+                  >
+                    {data.executive_debrief.tag}
+                  </span>
+                )}
+                <h3 className="serif mb-1rem" style={{ fontSize: '1.25rem', color: 'var(--primary, #002845)' }}>
+                  {data.executive_debrief.title}
+                </h3>
+                <p className="mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1rem', color: 'var(--text-main, #1f2937)' }}>
+                  {data.executive_debrief.text}
+                </p>
+                <a href="#contacto" className="btn btn-outline" style={{ fontSize: '0.85rem' }}>
+                  {data.executive_debrief.cta} →
+                </a>
+              </div>
+            </div>
+          )}
+
           {/* BLOQUE 4: SANCIONES Y OPERACIONES CON VENEZUELA */}
           <div className="content-section mb-3rem">
             <div
@@ -204,6 +246,45 @@ export default async function MonthlyBriefPage({ params }: Props) {
               </p>
             </div>
           </div>
+
+          {/* BLOQUE: ALCANCE PROFESIONAL DELIMITADO */}
+          {data?.delimited_scope && (
+            <div className="content-section mb-3rem">
+              <div
+                className="card"
+                style={{
+                  backgroundColor: '#ffffff',
+                  border: '1px solid var(--border-color, #e5e7eb)',
+                  borderLeft: '4px solid var(--accent, #990000)',
+                  borderRadius: '6px',
+                  padding: '1.75rem',
+                }}
+              >
+                {data.delimited_scope.tag && (
+                  <span
+                    className="section-tag"
+                    style={{
+                      color: 'var(--accent, #990000)',
+                      fontWeight: 600,
+                      fontSize: '0.8rem',
+                      letterSpacing: '0.05em',
+                      textTransform: 'uppercase',
+                      display: 'block',
+                      marginBottom: '0.5rem',
+                    }}
+                  >
+                    {data.delimited_scope.tag}
+                  </span>
+                )}
+                <h3 className="serif mb-0-75rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #002845)' }}>
+                  {data.delimited_scope.title}
+                </h3>
+                <p style={{ lineHeight: 1.75, fontSize: '1rem', color: 'var(--text-main, #1f2937)', margin: 0 }}>
+                  {data.delimited_scope.text}
+                </p>
+              </div>
+            </div>
+          )}
 
           {/* BLOQUE 5: EVALUACIÓN PRELIMINAR + FORMULARIO B2B */}
           <div id="contacto" className="content-section mb-4rem">

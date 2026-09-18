@@ -100,7 +100,7 @@ export default async function LegalIntelligencePage({ params }: Props) {
             <a href="#contacto" className="btn btn-primary">
               {data?.hero?.primary_cta}
             </a>
-            <a href="#alcance" className="btn btn-outline">
+            <a href="#modalidades" className="btn btn-outline">
               {data?.hero?.secondary_cta}
             </a>
           </div>
@@ -156,49 +156,8 @@ export default async function LegalIntelligencePage({ params }: Props) {
             </ul>
           </div>
 
-          {/* BLOQUE 3: QUÉ INCLUYE EL INFORME MENSUAL */}
-          <div id="alcance" className="content-section mb-3rem">
-            <h2 className="serif section-title mb-1-5rem">
-              {data?.content?.title}
-            </h2>
-            <ul className="service-list mb-1-5rem">
-              {data?.content?.items?.map((item: string, index: number) => (
-                <li key={index} style={{ lineHeight: 1.6 }}>
-                  {item}
-                </li>
-              ))}
-            </ul>
-            {data?.content?.note && (
-              <p
-                className="text-left text-sm max-w-100"
-                style={{
-                  lineHeight: 1.6,
-                  fontStyle: 'italic',
-                  color: 'var(--text-muted, #4b5563)',
-                  paddingLeft: '1rem',
-                  borderLeft: '2px solid var(--accent, #990000)',
-                }}
-              >
-                {data.content.note}
-              </p>
-            )}
-          </div>
-
-          {/* BLOQUE 4: METODOLOGÍA */}
-          <div className="content-section mb-3rem">
-            <h2 className="serif section-title mb-1-5rem">
-              {data?.methodology?.title}
-            </h2>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
-              {data?.methodology?.paragraph_1}
-            </p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
-              {data?.methodology?.paragraph_2}
-            </p>
-          </div>
-
-          {/* BLOQUE 5: MODALIDADES DE SEGUIMIENTO */}
-          <div className="content-section mb-3rem">
+          {/* MODALIDADES DE SEGUIMIENTO */}
+          <div id="modalidades" className="content-section mb-3rem">
             <h2 className="serif section-title mb-1-5rem">
               {data?.modalities?.title}
             </h2>
@@ -267,11 +226,13 @@ export default async function LegalIntelligencePage({ params }: Props) {
                 return null;
               })}
             </div>
+          </div>
 
-            {/* COMPONENTE CONFIGURABLE: SESIÓN EJECUTIVA DE CONTEXTO */}
-            {data?.executive_debrief && (
+          {/* COMPONENTE CONFIGURABLE: SESIÓN EJECUTIVA DE CONTEXTO */}
+          {data?.executive_debrief && (
+            <div className="content-section mb-3rem">
               <div
-                className="card mt-2rem"
+                className="card"
                 style={{
                   backgroundColor: '#ffffff',
                   border: '1px solid var(--border-color, #e5e7eb)',
@@ -306,7 +267,53 @@ export default async function LegalIntelligencePage({ params }: Props) {
                   {data.executive_debrief.cta} →
                 </a>
               </div>
+            </div>
+          )}
+
+          {/* MATERIAS Y ALCANCE SUSTANTIVO */}
+          <div id="materias" className="content-section mb-3rem">
+            <h2 className="serif section-title mb-1-5rem">
+              {data?.content?.title}
+            </h2>
+            {data?.content?.intro && (
+              <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+                {data.content.intro}
+              </p>
             )}
+            <ul className="service-list mb-1-5rem">
+              {data?.content?.items?.map((item: string, index: number) => (
+                <li key={index} style={{ lineHeight: 1.6 }}>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            {data?.content?.note && (
+              <p
+                className="text-left text-sm max-w-100"
+                style={{
+                  lineHeight: 1.6,
+                  fontStyle: 'italic',
+                  color: 'var(--text-muted, #4b5563)',
+                  paddingLeft: '1rem',
+                  borderLeft: '2px solid var(--accent, #990000)',
+                }}
+              >
+                {data.content.note}
+              </p>
+            )}
+          </div>
+
+          {/* METODOLOGÍA */}
+          <div className="content-section mb-3rem">
+            <h2 className="serif section-title mb-1-5rem">
+              {data?.methodology?.title}
+            </h2>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+              {data?.methodology?.paragraph_1}
+            </p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+              {data?.methodology?.paragraph_2}
+            </p>
           </div>
 
           {/* BLOQUE 6: SANCIONES Y OPERACIONES TRANSFRONTERIZAS */}

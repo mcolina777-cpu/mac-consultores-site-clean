@@ -15,12 +15,12 @@ export async function generateMetadata({ params }: Props) {
   const data = dict?.legal_intelligence?.flash_alerts?.seo;
 
   const title = data?.title || (isEs
-    ? 'Alertas urgentes | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados'
-    : 'Flash Alerts | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados');
+    ? 'Alertas Extraordinarias | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados'
+    : 'Strategic Flash Alerts | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados');
 
   const description = data?.description || (isEs
-    ? 'Alertas jurídicas puntuales para organizaciones con operaciones o intereses en Venezuela que requieren conocer oportunamente desarrollos normativos relevantes antes de la siguiente edición mensual.'
-    : 'Targeted legal alerts for organizations with operations or interests in Venezuela that need to be informed of relevant regulatory developments before the next Monthly Brief.');
+    ? 'Alertas jurídicas puntuales para organizaciones con operaciones, contratos o intereses en Venezuela que requieren conocer oportunamente desarrollos normativos sobrevenidos antes de la siguiente entrega mensual.'
+    : 'Targeted legal alerts for organizations with operations, contracts, or interests in Venezuela that need to be informed of relevant regulatory developments before the next Monthly Strategic Brief.');
 
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://mac-consultores-site-clean.vercel.app';
   const url = `${BASE_URL}/${locale}/services/legal-intelligence/flash-alerts`;
@@ -74,7 +74,7 @@ export default async function FlashAlertsPage({ params }: Props) {
   const breadcrumbHome = dict?.nav?.inicio || (isEs ? 'Inicio' : 'Home');
   const breadcrumbServices = dict?.nav?.servicios || (isEs ? 'Servicios' : 'Services');
   const breadcrumbParent = dict?.legal_intelligence?.breadcrumb?.current || 'Mac Legal Intelligence';
-  const breadcrumbCurrent = data?.breadcrumb?.current || (isEs ? 'Alertas urgentes' : 'Flash Alerts');
+  const breadcrumbCurrent = data?.breadcrumb?.current || (isEs ? 'Alertas Extraordinarias' : 'Strategic Flash Alerts');
   const breadcrumbText = `${breadcrumbHome.toUpperCase()} / ${breadcrumbServices.toUpperCase()} / ${breadcrumbParent.toUpperCase()} / ${breadcrumbCurrent.toUpperCase()}`;
 
   return (
@@ -251,6 +251,45 @@ export default async function FlashAlertsPage({ params }: Props) {
               {data?.confidential_handling?.paragraph_2}
             </p>
           </div>
+
+          {/* BLOQUE: ALCANCE PROFESIONAL DELIMITADO */}
+          {data?.delimited_scope && (
+            <div className="content-section mb-3rem">
+              <div
+                className="card"
+                style={{
+                  backgroundColor: '#ffffff',
+                  border: '1px solid var(--border-color, #e5e7eb)',
+                  borderLeft: '4px solid var(--accent, #990000)',
+                  borderRadius: '6px',
+                  padding: '1.75rem',
+                }}
+              >
+                {data.delimited_scope.tag && (
+                  <span
+                    className="section-tag"
+                    style={{
+                      color: 'var(--accent, #990000)',
+                      fontWeight: 600,
+                      fontSize: '0.8rem',
+                      letterSpacing: '0.05em',
+                      textTransform: 'uppercase',
+                      display: 'block',
+                      marginBottom: '0.5rem',
+                    }}
+                  >
+                    {data.delimited_scope.tag}
+                  </span>
+                )}
+                <h3 className="serif mb-0-75rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #002845)' }}>
+                  {data.delimited_scope.title}
+                </h3>
+                <p style={{ lineHeight: 1.75, fontSize: '1rem', color: 'var(--text-main, #1f2937)', margin: 0 }}>
+                  {data.delimited_scope.text}
+                </p>
+              </div>
+            </div>
+          )}
 
           {/* BLOQUE 7: EVALUACIÓN PRELIMINAR + FORMULARIO B2B */}
           <div id="contacto" className="content-section mb-4rem">

@@ -1004,7 +1004,7 @@
       "tag": "MAC LEGAL INTELLIGENCE",
       "title": "Legal intelligence defined by your organization’s operations and interests",
       "text": "Legal monitoring and analysis configured for organizations seeking to understand regulatory and legal developments relevant to their activities, investments, and operations in Venezuela.",
-      "cta": "Request a Preliminary Corporate Scoping Review"
+      "cta": "Explore Mac Legal Intelligence"
     }
   },
   "landing_estrategia_teoria_caso": {
@@ -2072,7 +2072,7 @@
       "subtitle": "Legal intelligence configured for organizations with interests in Venezuela",
       "intro": "Mac Legal Intelligence is a legal monitoring, context and preventive-analysis service designed around the activities, operations and information needs of each organization with interests in Venezuela.",
       "primary_cta": "Request preliminary assessment",
-      "secondary_cta": "Explore the scope"
+      "secondary_cta": "Explore delivery models"
     },
     "value_proposition": {
       "title": "More than legal updates: context for business decisions",
@@ -2096,18 +2096,19 @@
       ]
     },
     "content": {
-      "title": "What the monthly brief includes",
+      "title": "Substantive scope and monitoring areas",
+      "intro": "The following areas guide the monitoring and preventive analysis of Mac Legal Intelligence across both the Monthly Strategic Brief and Strategic Flash Alerts. The selection of topics, priority, and depth is calibrated to the activities, operations, and information needs defined in the Preliminary Corporate Scoping Review:",
       "items": [
-        "Legislative, regulatory and administrative developments relevant to business activities.",
-        "Selected judicial decisions and legal trends with potential corporate, contractual, administrative, tax, employment or criminal-law implications.",
-        "Corporate criminal-risk considerations and preventive measures.",
+        "Legislative, regulatory, and administrative developments relevant to business activity.",
+        "Selected judicial decisions and legal trends with potential corporate, contractual, administrative, tax, labor, or criminal liability implications.",
+        "Corporate criminal liability risk considerations and preventive measures.",
         "Identification of regulatory developments impacting supervisory duties and third-party contracting.",
-        "Institutional or administrative developments that may affect business decisions.",
-        "Risks concerning contracts, payments, intermediaries and cross-border operations.",
-        "Relevant developments and risks associated with international sanctions and Venezuela-connected operations.",
-        "An executive assessment of potential impact and areas that may require review."
+        "Institutional or administrative developments that may affect business planning and corporate decisions.",
+        "Legal considerations concerning contracts, payments, intermediaries, and cross-border transactions.",
+        "Developments and regulatory criteria associated with international sanctions regimes and international trade operations.",
+        "Executive assessment of legal developments and identification of areas that may merit organizational review."
       ],
-      "note": "The specific content may be tailored to the agreed scope, industry profile and legal-risk exposure of each client."
+      "note": "The specific substantive scope is determined based on the sectors, contracts, and operations formally agreed with each organization."
     },
     "methodology": {
       "title": "A verifiable, action-oriented legal methodology",
@@ -2143,7 +2144,7 @@
     },
     "delimited_scope": {
       "title": "Defined professional scope",
-      "paragraph_1": "Mac Legal Intelligence provides regulatory monitoring, context and preventive legal analysis. It does not replace tailored legal advice and does not include independent Compliance services, third-party due diligence or internal-control structuring.",
+      "paragraph_1": "Mac Legal Intelligence provides regulatory monitoring, institutional context, and preventive legal analysis. It does not replace tailored legal advice and does not include independent Compliance services, third-party due diligence, or internal-control structuring.",
       "paragraph_2": "Such services are provided as separate professional engagements under a specific proposal and formal retention."
     },
     "preliminary_assessment": {
@@ -2170,9 +2171,9 @@
         "options": {
           "corresponsalia": "Assessment for Monthly Strategic Brief",
           "representacion": "Assessment for Strategic Flash Alerts",
-          "consultoria": "Assessment for an Executive Debrief",
-          "alianza": "General Mac Legal Intelligence assessment",
-          "otro": "Other institutional inquiry"
+          "consultoria": "Comprehensive assessment: Monthly Strategic Brief and Strategic Flash Alerts",
+          "alianza": "Monthly Strategic Brief with Executive Debrief",
+          "otro": "Other corporate inquiry or requirement"
         },
         "message": "Message or initial organization details",
         "submit": "Request preliminary assessment",
@@ -2183,16 +2184,16 @@
       "title": "Frequently asked questions",
       "items": [
         {
-          "question": "Does the monthly brief replace tailored legal advice?",
-          "answer": "No. Mac Legal Intelligence provides technical, general information designed to support risk identification and prioritization. Specific transactions, contracts, disputes and business decisions require tailored legal review."
+          "question": "Does Mac Legal Intelligence replace tailored legal advice?",
+          "answer": "No. Mac Legal Intelligence provides technical, general information designed to support risk identification and prioritization. Specific transactions, contracts, disputes, and business decisions require tailored legal advice."
         },
         {
           "question": "Can the content be tailored to a specific industry or activity?",
-          "answer": "Yes. The scope may be configured according to the relevant industry, operational structure, counterparty profile and the organization's risk profile."
+          "answer": "Yes. The scope may be configured according to the relevant industry, operational structure, counterparty profile and the organization's activities in Venezuela."
         },
         {
           "question": "How frequently is the brief delivered?",
-          "answer": "The Brief is delivered monthly following the establishment of engagement terms. Targeted alerts may also be agreed for matters of particular relevance."
+          "answer": "The Monthly Strategic Brief is delivered monthly following the establishment of engagement terms. Strategic Flash Alerts may also be agreed for matters of particular relevance."
         },
         {
           "question": "How are confidentiality and additional questions handled?",
@@ -2222,58 +2223,58 @@
     },
     "monthly_brief": {
       "seo": {
-        "title": "Venezuela Legal & Regulatory Risk Brief | Mac Legal Intelligence",
+        "title": "Monthly Strategic Brief — Venezuela | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados",
         "description": "Bilingual monthly report analyzing legislative, regulatory, and judicial developments, as well as sanctions frameworks for organizations with operations, investments, or interests in Venezuela."
       },
       "breadcrumb": {
-        "current": "Monthly Brief"
+        "current": "Monthly Strategic Brief"
       },
       "hero": {
         "tag": "MAC LEGAL INTELLIGENCE — MONTHLY BRIEF",
-        "h1": "Venezuela Legal & Regulatory Risk Brief",
-        "subtitle": "A Mac Legal Intelligence delivery model",
-        "intro": "A structured intelligence brief for general counsel, compliance officers, investors and international firms that require rigorous, advance insight into Venezuelan regulatory, legislative and institutional shifts.",
+        "h1": "Monthly Strategic Brief — Venezuela",
+        "subtitle": "Monthly regulatory monitoring and preventive analysis for corporate decision-making",
+        "intro": "A technical legal intelligence report designed for general counsel, compliance officers, directors, investors, and international firms requiring rigorous insight and advance understanding of Venezuelan regulatory, legislative, and institutional developments.",
         "primary_cta": "Request preliminary assessment",
         "secondary_cta": "View scope & modules"
       },
       "value_proposition": {
-        "title": "Purpose and structure of the monthly brief",
-        "paragraph_1": "The Venezuela Legal & Regulatory Risk Brief is neither an undifferentiated compilation of gazettes nor a press newsletter. It is a technical legal intelligence report that filters the dispersion of Venezuelan regulatory and judicial materials to focus on what creates genuine operational, contractual, or liability impacts for businesses.",
+        "title": "Purpose and structure of the Monthly Strategic Brief",
+        "paragraph_1": "The Monthly Strategic Brief — Venezuela is neither an undifferentiated compilation of gazettes nor a press newsletter. It is a technical legal intelligence report that filters the dispersion of Venezuelan regulatory and judicial materials to focus on what creates genuine operational, contractual, or liability impacts for businesses.",
         "paragraph_2": "Each monthly brief is organized into modular sections detailing what occurred, its legal foundation, affected business sectors, contingency factors to observe, and preventive criteria to facilitate timely internal review."
       },
       "modules": {
-        "title": "Substantive coverage modules",
-        "intro": "Each monthly issue comprises the following substantive analytical and preventive modules:",
+        "title": "Illustrative monitoring modules",
+        "intro": "Each monthly delivery may include the following illustrative substantive modules, configured according to the organization’s profile and agreed corporate scope:",
         "items": [
           {
             "tag": "MODULE 01",
             "title": "Legislative & regulatory developments",
-            "text": "Monitoring of legislation, executive decrees, resolutions, administrative measures and other relevant acts issued during the reporting period, with attention to their scope and entry into force."
+            "text": "Monitoring of legislation, executive decrees, resolutions, administrative measures, and other relevant acts issued during the reporting period, with attention to their scope and entry into force."
           },
           {
             "tag": "MODULE 02",
             "title": "Key judicial rulings & precedents",
-            "text": "Selection of relevant judicial decisions and legal developments, including rulings of the Supreme Tribunal of Justice and other courts, where they may have corporate, contractual, administrative, tax, employment or criminal-law implications."
+            "text": "Selection of relevant judicial decisions and legal developments, including rulings of the Supreme Tribunal of Justice and other courts, where they may have corporate, contractual, administrative, tax, labor, or criminal liability implications."
           },
           {
             "tag": "MODULE 03",
-            "title": "Corporate criminal-risk prevention",
+            "title": "Corporate criminal liability risk prevention",
             "text": "Analysis of statutory and judicial standards on officer and director liability, identifying legal factors that may affect contractual arrangements and warrant tailored legal review."
           },
           {
             "tag": "MODULE 04",
             "title": "Contracts, payments & cross-border operations",
-            "text": "Analysis of risks involving contracts, payments, performance, logistics, intermediaries and Venezuela-connected cross-border operations."
+            "text": "Analysis of risks involving contracts, payments, performance, logistics, intermediaries, and cross-border operations in Venezuela or involving Venezuelan counterparties."
           },
           {
             "tag": "MODULE 05",
             "title": "Institutional context & regulatory oversight",
-            "text": "Monitoring of institutional developments, supervisory powers and relevant changes in administrative criteria or actions that may require business attention."
+            "text": "Monitoring of institutional developments, supervisory powers, and relevant changes in administrative criteria or enforcement actions that may require business attention."
           },
           {
             "tag": "MODULE 06",
-            "title": "Executive assessment & action checklist",
-            "text": "Executive synthesis of prioritized matters, their potential impact and areas that may require review, additional documentation, follow-up or specialized advice."
+            "title": "Executive assessment & review priorities",
+            "text": "Executive synthesis of prioritized matters, their potential impact, and areas that may require review, additional documentation, follow-up, or specialized advice."
           }
         ]
       },
@@ -2283,14 +2284,25 @@
         "paragraph_2": "Each edition consolidates and prioritizes legal, regulatory, institutional and cross-border developments relevant to the reporting period.",
         "note": "Delivery frequency, authorized recipients and delivery arrangements are defined in the applicable engagement documentation following the preliminary review."
       },
+      "executive_debrief": {
+        "tag": "CONFIGURABLE ENGAGEMENT COMPONENT",
+        "title": "Executive Debrief",
+        "text": "An optional, private session to contextualize trends, consider strategic implications and calibrate institutional priorities based on the intelligence reports. It does not include tailored legal advice or general legal consultations.",
+        "cta": "Request preliminary assessment"
+      },
       "sanctions": {
-        "title": "International sanctions framework & Venezuela-linked transactions",
+        "title": "International sanctions framework & cross-border operations",
         "text": "The report monitors general changes in international sanctions frameworks and restrictive measures impacting trade and investment involving Venezuela. However, the report does not constitute a legal clearance, safe harbor, or formal opinion on specific transactions or licenses. Individual transactions require tailored factual and legal review under applicable foreign regimes (OFAC, EU, etc.), in coordination with specialized counsel in the relevant jurisdiction."
       },
+      "delimited_scope": {
+        "tag": "DEFINED PROFESSIONAL SCOPE",
+        "title": "Autonomous professional services",
+        "text": "The Monthly Strategic Brief does not include Compliance services, third-party due diligence, internal-control structuring, or tailored legal advice. Such services require a specific proposal and an independent professional engagement."
+      },
       "preliminary_assessment": {
-        "tag": "PROFESSIONAL SCOPE",
-        "title": "A delivery model defined through corporate assessment",
-        "paragraph_1": "The Monthly Brief is configured through the Preliminary Corporate Scoping Review. This stage helps define priority monitoring matters, sectors of activity, relevant operations in Venezuela, authorized recipients and the professional terms applicable to each engagement.",
+        "tag": "INSTITUTIONAL ONBOARDING PROCESS",
+        "title": "Preliminary Corporate Scoping Review",
+        "paragraph_1": "The Monthly Strategic Brief is configured through the Preliminary Corporate Scoping Review. This stage helps define priority monitoring matters, sectors of activity, relevant operations in Venezuela, authorized recipients and the professional terms applicable to each engagement.",
         "paragraph_2": "The Preliminary Corporate Scoping Review is an independent professional stage provided under separate fees. The Brief is not offered as a generic publication or a standardized subscription."
       },
       "contactBox": {
@@ -2309,11 +2321,11 @@
           "interest": "Preferred focus for preliminary scoping",
           "selectPlaceholder": "Select an option",
           "options": {
-            "corresponsalia": "Assessment for Monthly Brief (ES/EN)",
-            "representacion": "Assessment combined with Flash Alerts",
-            "consultoria": "Assessment with Monthly Executive Debrief",
-            "alianza": "Assessment for private institutional presentation",
-            "otro": "Other customized scoping requirement"
+            "corresponsalia": "Assessment for Monthly Strategic Brief",
+            "representacion": "Assessment for Strategic Flash Alerts",
+            "consultoria": "Comprehensive assessment: Monthly Strategic Brief and Strategic Flash Alerts",
+            "alianza": "Monthly Strategic Brief with Executive Debrief",
+            "otro": "Other corporate inquiry or requirement"
           },
           "message": "Message or inquiry details",
           "submit": "Request preliminary assessment",
@@ -2324,7 +2336,7 @@
         "title": "Frequently asked questions about the Monthly Brief",
         "items": [
           {
-            "question": "In what languages is the Venezuela Legal & Regulatory Risk Brief delivered?",
+            "question": "In what languages is the Monthly Strategic Brief delivered?",
             "answer": "Each Brief is prepared as a bilingual report in Spanish and English to facilitate review by local and international teams, according to the agreed scope."
           },
           {
@@ -2336,8 +2348,8 @@
             "answer": "Authorized recipients and distribution arrangements are determined in the applicable engagement documentation, taking into account the organization’s needs and the confidentiality of the service."
           },
           {
-            "question": "What is the difference between the Monthly Brief and Flash Alerts?",
-            "answer": "The Monthly Brief consolidates, prioritizes and contextualizes relevant developments during the reporting period. Flash Alerts may be agreed to communicate matters of particular relevance before the next edition."
+            "question": "What is the difference between the Monthly Strategic Brief and Strategic Flash Alerts?",
+            "answer": "The Monthly Strategic Brief consolidates, prioritizes, and contextualizes relevant developments during the reporting period. Strategic Flash Alerts may be agreed to communicate matters of particular relevance before the next edition."
           },
           {
             "question": "Does the Brief substitute for a binding legal opinion on specific transactions?",
@@ -2345,10 +2357,10 @@
           }
         ]
       },
-      "compliance_disclaimer": "The Monthly Brief does not include Compliance services, third-party due diligence or internal-control structuring. Such services require a separate proposal and professional engagement.",
+      "compliance_disclaimer": "The Monthly Strategic Brief does not include Compliance services, third-party due diligence, or internal-control structuring. Such services require a separate proposal and professional engagement.",
       "disclaimer": {
         "title": "Legal notice",
-        "text": "The Venezuela Legal & Regulatory Risk Brief is technical, informational and general in nature. It does not constitute a definitive legal opinion and does not replace tailored legal advice required to assess specific transactions, contracts, counterparties, facts or decisions, nor does it include Compliance services or third-party due diligence."
+        "text": "The Monthly Strategic Brief — Venezuela is technical, informational and general in nature. It does not constitute a definitive legal opinion and does not replace tailored legal advice required to assess specific transactions, contracts, counterparties, facts or decisions, nor do they include Compliance services, third-party due diligence, or internal-control structuring."
       },
       "closing_card": {
         "tag": "INSTITUTIONAL ONBOARDING PROCESS",
@@ -2360,28 +2372,28 @@
     },
     "flash_alerts": {
       "seo": {
-        "title": "Flash Alerts | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados",
-        "description": "Targeted legal alerts for organizations with operations or interests in Venezuela that need to be informed of relevant regulatory developments before the next Monthly Brief."
+        "title": "Strategic Flash Alerts | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados",
+        "description": "Targeted legal alerts for organizations with operations, contracts, or interests in Venezuela that need to be informed of relevant regulatory developments before the next Monthly Strategic Brief."
       },
       "breadcrumb": {
-        "current": "Flash Alerts"
+        "current": "Strategic Flash Alerts"
       },
       "hero": {
-        "tag": "MAC LEGAL INTELLIGENCE",
-        "h1": "Flash Alerts",
-        "subtitle": "Timely legal insight for matters of particular relevance",
-        "intro": "Targeted legal alerts for organizations with operations or interests in Venezuela that need to be informed of relevant regulatory developments before the next Monthly Brief.",
+        "tag": "MAC LEGAL INTELLIGENCE — STRATEGIC FLASH ALERTS",
+        "h1": "Strategic Flash Alerts",
+        "subtitle": "Selective communications for unexpected developments of strategic legal relevance",
+        "intro": "Selective, targeted legal communications for organizations with operations, contracts, or interests in Venezuela that need to be informed of unexpected regulatory, legislative, or institutional developments before the next Monthly Strategic Brief.",
         "primary_cta": "Request preliminary assessment",
-        "secondary_cta": "Review the alert criteria"
+        "secondary_cta": "Review alert criteria"
       },
       "value_proposition": {
         "title": "When a development should not wait for the next Brief",
-        "paragraph_1": "Certain legislative, regulatory, judicial, institutional or cross-border developments may merit attention before the next monthly delivery. In those circumstances, Mac Legal Intelligence may issue a Flash Alert according to the scope agreed with the organization.",
-        "paragraph_2": "A Flash Alert is not intended to multiply communications or reproduce headlines. Its purpose is to identify a relevant development concisely, explain why it may matter and indicate the areas that may require review or follow-up."
+        "paragraph_1": "Certain legislative, regulatory, judicial, institutional or cross-border developments may merit attention before the next monthly delivery. In those circumstances, Mac Legal Intelligence may issue a Strategic Flash Alert according to the scope agreed with the organization.",
+        "paragraph_2": "A Strategic Flash Alert is not intended to multiply communications or reproduce news reports. Its purpose is to identify a relevant development concisely, explain why it may matter and indicate the areas that may require review or follow-up."
       },
       "alert_criteria": {
         "title": "Alert criteria",
-        "intro": "A Flash Alert may be considered where a development presents one or more of the following characteristics:",
+        "intro": "A Strategic Flash Alert may be considered where a development presents one or more of the following characteristics:",
         "items": [
           "It may materially affect a relevant operation, contract, payment, third party, license, permit or process.",
           "Introduces a regulatory or institutional shift with direct impact on the company’s operations or contracts, or on its statutory oversight duties.",
@@ -2389,19 +2401,19 @@
           "It may affect cross-border operations, intermediaries, counterparties, payment flows or commercial relationships in Venezuela or involving Venezuelan counterparties.",
           "It may require the organization to consider preserving documentation, reviewing a policy, consulting the firm or escalating a matter internally."
         ],
-        "note": "The decision to issue an alert is based on legal assessment and the operational parameters and risk profile defined with the organization."
+        "note": "The decision to issue an alert is based on legal assessment and the operational parameters defined with the organization."
       },
       "alert_contents": {
         "title": "A concise, action-oriented structure",
         "items": [
           "What happened: Concise identification of the relevant regulation, decision, measure, criterion or development.",
           "Why it matters: Practical explanation of its potential legal and business relevance.",
-          "Who may be affected: Organizations, sectors, contracts, operations or risk profiles that may be exposed.",
+          "Who may be affected: Organizations, sectors, contracts, operations, or corporate decisions directly relevant to Venezuela.",
           "Potential impact: Areas that may require review, documentation, follow-up or internal decision-making.",
           "Initial considerations: Preventive measures or topics that may merit additional assessment.",
           "Reference source: Identification of the relevant primary or institutional source."
         ],
-        "note": "Flash Alerts are general and preventive in nature. They do not replace legal analysis of specific facts, documents, counterparties or transactions."
+        "note": "Strategic Flash Alerts are general and preventive in nature. They do not replace tailored legal advice regarding specific facts, documents, counterparties, or transactions."
       },
       "illustrative_areas": {
         "title": "Matters that may warrant an alert",
@@ -2410,26 +2422,31 @@
           "Judicial decisions or institutional criteria that may affect the legal environment of an operation.",
           "Developments affecting contracts, permits, payments, intermediaries, suppliers or third-party relationships.",
           "Regulatory criteria relevant to the preventive mitigation of corporate contingencies and legal record preservation.",
-          "Developments related to international operations, sanctions, licensing or Venezuela-connected counterparties.",
+          "Developments related to international operations, sanctions, licensing or counterparties with active operations in Venezuela.",
           "Institutional developments that may have practical consequences for particular sectors or activities."
         ],
-        "note": "Inclusion of a matter depends on its relevance, the agreed scope and the organization’s risk profile."
+        "note": "Inclusion of a matter depends on its relevance, the agreed scope and the organization’s operations in Venezuela."
       },
       "monthly_brief_relationship": {
-        "title": "A complement to the Monthly Brief",
-        "paragraph_1": "Flash Alerts do not replace the Venezuela Legal & Regulatory Risk Brief. The Monthly Brief consolidates and contextualizes relevant developments during the reporting period; Flash Alerts may be used to communicate separately a matter that, due to its potential impact or urgency, may merit identification before the next edition.",
-        "paragraph_2": "The alerted matter may subsequently be incorporated into the broader Monthly Brief analysis alongside other relevant developments and considerations."
+        "title": "A complement to the Monthly Strategic Brief",
+        "paragraph_1": "Strategic Flash Alerts do not replace the Monthly Strategic Brief — Venezuela. The Monthly Brief consolidates and contextualizes relevant developments during the reporting period; Strategic Flash Alerts may be used to communicate separately a matter that, due to its potential impact or timing, merits identification before the next edition.",
+        "paragraph_2": "The alerted matter may subsequently be incorporated into the broader Monthly Strategic Brief analysis alongside other relevant developments and considerations."
       },
       "confidential_handling": {
         "title": "Communication defined for each organization",
         "paragraph_1": "Authorized recipients, delivery channels and specific communication criteria are defined according to the scope agreed with each organization. The firm seeks to ensure that alerts reach the teams that need to be informed, while preserving confidentiality and avoiding unnecessary communications.",
         "paragraph_2": "Where an alert identifies the need to review a specific operation, contract, counterparty or circumstance, Mac Consultores Jurídicos & Asociados may assist the client through tailored legal advice."
       },
+      "delimited_scope": {
+        "tag": "DEFINED PROFESSIONAL SCOPE",
+        "title": "Autonomous professional services",
+        "text": "Strategic Flash Alerts do not include Compliance services, third-party due diligence, internal-control structuring, or tailored legal advice. Such services require a specific proposal and an independent professional engagement."
+      },
       "preliminary_assessment": {
-        "tag": "PROFESSIONAL SCOPE",
-        "title": "Alert criteria defined for each organization",
-        "paragraph_1": "Flash Alerts are structured through the Preliminary Corporate Scoping Review. This stage helps define priority monitoring areas, the organization’s operations and interests in Venezuela, authorized recipients and applicable communication criteria.",
-        "paragraph_2": "The Preliminary Corporate Scoping Review is an independent professional stage provided under separate fees. Flash Alerts are not a generic news channel or an automated communications system."
+        "tag": "INSTITUTIONAL ONBOARDING PROCESS",
+        "title": "Preliminary Corporate Scoping Review",
+        "paragraph_1": "Strategic Flash Alerts are structured through the Preliminary Corporate Scoping Review. This stage helps define priority monitoring areas, the organization’s operations and interests in Venezuela, authorized recipients and applicable communication criteria.",
+        "paragraph_2": "The Preliminary Corporate Scoping Review is an independent professional stage provided under separate fees. Strategic Flash Alerts are not a generic news channel or an automated communications system."
       },
       "contactBox": {
         "tag": "INSTITUTIONAL ONBOARDING PROCESS",
@@ -2447,11 +2464,11 @@
           "interest": "Preferred focus for preliminary scoping",
           "selectPlaceholder": "Select an option",
           "options": {
-            "corresponsalia": "Assessment for Flash Alerts complementary to the Brief",
-            "representacion": "Assessment for priority regulatory monitoring",
-            "consultoria": "Assessment of alert criteria and delivery channels",
-            "alianza": "Tailored assessment for the organization",
-            "otro": "General preliminary assessment or other inquiry"
+            "corresponsalia": "Assessment for Monthly Strategic Brief",
+            "representacion": "Assessment for Strategic Flash Alerts",
+            "consultoria": "Comprehensive assessment: Monthly Strategic Brief and Strategic Flash Alerts",
+            "alianza": "Monthly Strategic Brief with Executive Debrief",
+            "otro": "Other corporate inquiry or requirement"
           },
           "message": "Message or inquiry details",
           "submit": "Request preliminary assessment",
@@ -2462,20 +2479,20 @@
         "title": "Frequently asked questions",
         "items": [
           {
-            "question": "Are Flash Alerts issued for every legal development?",
-            "answer": "No. They are reserved for developments that, based on the agreed scope and the firm’s legal assessment, may merit attention before the next Monthly Brief."
+            "question": "Are Strategic Flash Alerts issued for every legal development?",
+            "answer": "No. They are reserved for developments that, based on the agreed scope and the firm’s legal assessment, may merit attention before the next Monthly Strategic Brief."
           },
           {
-            "question": "Do Flash Alerts replace the Monthly Brief?",
-            "answer": "No. Flash Alerts complement the Monthly Brief. The Brief provides a consolidated and contextual view of the reporting period; Flash Alerts allow matters that may merit earlier attention to be communicated separately."
+            "question": "Do Strategic Flash Alerts replace the Monthly Strategic Brief?",
+            "answer": "No. Strategic Flash Alerts complement the Monthly Strategic Brief. The Brief provides a consolidated and contextual view of the reporting period; Strategic Flash Alerts allow matters that may merit earlier attention to be communicated separately."
           },
           {
-            "question": "Does Mac guarantee a specific time frame for issuing an alert?",
+            "question": "Does Mac guarantee a specific time frame for issuing a Strategic Flash Alert?",
             "answer": "Frequency, communication channels and alert criteria are defined according to the agreed scope following the preliminary review. The firm does not publish general response time commitments for matters requiring legal assessment."
           },
           {
             "question": "Does an alert determine whether a transaction may proceed?",
-            "answer": "Not on a general basis. A Flash Alert may identify a matter and suggest areas for review, but assessment of a specific transaction, contract, counterparty or licensing matter requires tailored legal analysis."
+            "answer": "Not on a general basis. A Strategic Flash Alert may identify a matter and suggest areas for review, but assessment of a specific transaction, contract, counterparty or licensing matter requires tailored legal analysis."
           },
           {
             "question": "Can the service be configured to the company’s activities and operations in Venezuela?",
@@ -2483,15 +2500,15 @@
           }
         ]
       },
-      "compliance_disclaimer": "Flash Alerts do not include Compliance services, third-party due diligence or internal-control structuring. Such services require a separate proposal and professional engagement.",
+      "compliance_disclaimer": "Strategic Flash Alerts do not include Compliance services, third-party due diligence, or internal-control structuring. Such services require a separate proposal and professional engagement.",
       "disclaimer": {
         "title": "Legal notice",
-        "text": "Mac Legal Intelligence Flash Alerts are technical, informational and preventive in nature. They do not constitute a definitive legal opinion and do not replace tailored legal advice required to assess specific transactions, contracts, counterparties, facts or decisions, nor do they include Compliance services or third-party due diligence."
+        "text": "Mac Legal Intelligence Strategic Flash Alerts are technical, informational and preventive in nature. They do not constitute a definitive legal opinion and do not replace tailored legal advice required to assess specific transactions, contracts, counterparties, facts or decisions, nor do they include Compliance services, third-party due diligence, or internal-control structuring."
       },
       "closing_card": {
         "tag": "INSTITUTIONAL ONBOARDING PROCESS",
         "title": "Informed attention to relevant developments",
-        "text": "Begin with a Preliminary Corporate Scoping Review to determine whether Flash Alerts are the appropriate delivery model for your organization.",
+        "text": "Begin with a Preliminary Corporate Scoping Review to determine whether Strategic Flash Alerts are the appropriate delivery model for your organization.",
         "primary_cta": "Request preliminary assessment",
         "secondary_cta": "Back to Mac Legal Intelligence"
       }
