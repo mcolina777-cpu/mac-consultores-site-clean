@@ -3,6 +3,7 @@
 import React, { useRef, useState } from 'react';
 import Link from 'next/link';
 import { Source_Serif_4 } from 'next/font/google';
+import { getRoute } from '@/lib/routes';
 
 const sourceSerif = Source_Serif_4({
   subsets: ['latin'],
@@ -23,8 +24,8 @@ interface HeroProps {
 }
 
 export default function Hero({ dict, locale = 'es' }: HeroProps) {
-  const contactHref = `/${locale}/contacto`;
-  const servicesHref = `/${locale}/servicios`;
+  const contactHref = getRoute(locale, 'contact');
+  const servicesHref = getRoute(locale, 'services');
   
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isMuted, setIsMuted] = useState(true);
@@ -50,7 +51,7 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
         backgroundColor: '#001424',
       }}
     >
-      {/* Capa 1: Video Cinematográfico Limpio (Sin tarjeta final) */}
+      {/* Capa 1: Video Cinematográfico Limpio */}
       <div
         className="hero-background"
         style={{
@@ -81,7 +82,7 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
         </video>
       </div>
 
-      {/* Capa 2: Overlay Luminoso y Cristalino (Opacidad reducida al 35%) */}
+      {/* Capa 2: Overlay Luminoso Cristalino */}
       <div
         className="hero-overlay"
         style={{
@@ -145,7 +146,11 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
             )}
 
             {dict?.btn_sec && (
-              <Link href={servicesHref} className="btn btn-outline">
+              <Link
+                href={servicesHref}
+                className="btn btn-outline"
+                style={{ color: '#ffffff', borderColor: 'rgba(255, 255, 255, 0.6)' }}
+              >
                 {dict.btn_sec}
               </Link>
             )}
@@ -167,7 +172,7 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
         </div>
       </div>
 
-      {/* Control de Audio Estilo Apple */}
+      {/* Control de Sonido Apple */}
       <button
         onClick={toggleSound}
         type="button"
