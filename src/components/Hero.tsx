@@ -47,11 +47,10 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
         alignItems: 'center',
         justifyContent: 'center',
         overflow: 'hidden',
-        backgroundColor: '#002845',
-        backgroundImage: 'linear-gradient(135deg, rgba(0, 40, 69, 0.96) 0%, rgba(0, 20, 36, 0.92) 100%)',
+        backgroundColor: '#001424',
       }}
     >
-      {/* Capa 1: Video de Fondo */}
+      {/* Capa 1: Video Cinematográfico Limpio (Sin tarjeta final) */}
       <div
         className="hero-background"
         style={{
@@ -82,13 +81,13 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
         </video>
       </div>
 
-      {/* Capa 2: Overlay de Contraste */}
+      {/* Capa 2: Overlay Luminoso y Cristalino (Opacidad reducida al 35%) */}
       <div
         className="hero-overlay"
         style={{
           position: 'absolute',
           inset: 0,
-          backgroundColor: 'rgba(0, 28, 50, 0.65)',
+          background: 'linear-gradient(180deg, rgba(0, 20, 36, 0.25) 0%, rgba(0, 20, 36, 0.45) 100%)',
           zIndex: 2,
         }}
       />
@@ -107,6 +106,7 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
                 textTransform: 'uppercase',
                 fontSize: '0.85rem',
                 fontWeight: 600,
+                textShadow: '0 2px 4px rgba(0,0,0,0.5)',
               }}
             >
               {dict.tag}
@@ -114,7 +114,10 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
           )}
 
           {dict?.h1 && (
-            <h1 className={`mb-1-5rem serif ${sourceSerif.className}`}>
+            <h1
+              className={`mb-1-5rem serif ${sourceSerif.className}`}
+              style={{ textShadow: '0 2px 8px rgba(0,0,0,0.6)' }}
+            >
               {dict.h1}
             </h1>
           )}
@@ -127,6 +130,7 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
                 opacity: 0.95,
                 lineHeight: 1.7,
                 marginBottom: '2rem',
+                textShadow: '0 1px 4px rgba(0,0,0,0.5)',
               }}
             >
               {dict.desc}
@@ -152,8 +156,9 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
               className="hero-btn-hint text-sm"
               style={{
                 marginTop: '1rem',
-                opacity: 0.8,
+                opacity: 0.85,
                 fontSize: '0.85rem',
+                textShadow: '0 1px 3px rgba(0,0,0,0.5)',
               }}
             >
               {dict.btn_hint}
@@ -162,7 +167,7 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
         </div>
       </div>
 
-      {/* Control de Sonido Apple */}
+      {/* Control de Audio Estilo Apple */}
       <button
         onClick={toggleSound}
         type="button"
