@@ -2221,6 +2221,178 @@
       "primary_cta": "Solicitar evaluación preliminar",
       "secondary_cta": "Volver a Servicios"
     },
+    "assessment_modal": {
+      "trigger_button": "Iniciar Solicitud de Evaluación Preliminar",
+      "trigger_tag": "MAC LEGAL INTELLIGENCE",
+      "trigger_title": "Solicitud de Evaluación Preliminar de Alcance Corporativo",
+      "trigger_desc": "Vía formal y estructurada para organizaciones con asuntos corporativos, regulatorios, contractuales o transfronterizos relacionados con Venezuela.",
+      "header_tag": "MAC LEGAL INTELLIGENCE",
+      "modal_title": "Solicitud de Evaluación Preliminar de Alcance Corporativo",
+      "modal_subtitle": "Inteligencia jurídica configurada para organizaciones con exposición a Venezuela.",
+      "intro_p1": "Este formulario está dirigido a organizaciones, inversionistas, directivos, departamentos jurídicos y asesores internacionales que requieran una evaluación preliminar de un asunto con incidencia corporativa, regulatoria, contractual, sancionatoria, procesal o transfronteriza vinculada con Venezuela.",
+      "intro_p2": "La información suministrada permitirá a Mac Consultores Jurídicos & Asociados valorar, de forma inicial, si el asunto puede ser atendido mediante una Evaluación Preliminar de Alcance Corporativo.",
+      "intro_p3": "La presentación de esta solicitud no constituye asesoría jurídica, no implica la aceptación del asunto y no crea, por sí sola, una relación abogado-cliente.",
+      "progress": {
+        "step_1": "Paso 1 de 4 — Solicitante y organización",
+        "step_2": "Paso 2 de 4 — Contexto y exposición",
+        "step_3": "Paso 3 de 4 — Alcance, información y urgencia",
+        "step_4": "Paso 4 de 4 — Declaraciones y envío"
+      },
+      "step_1": {
+        "title": "Solicitante y organización",
+        "intro": "Identifique a la persona que presenta la solicitud y, cuando corresponda, a la organización vinculada con el asunto. Esta información permite realizar una revisión preliminar de admisibilidad y de posibles conflictos de intereses.",
+        "full_name_label": "Nombre y apellido",
+        "email_label": "Correo electrónico profesional",
+        "phone_label": "Teléfono de contacto (opcional)",
+        "phone_help": "Incluya el código de país.",
+        "country_label": "País desde el cual presenta la solicitud",
+        "acting_as_label": "¿Presenta esta solicitud en nombre propio o de una organización?",
+        "acting_as_individual": "En nombre propio",
+        "acting_as_organization": "En nombre de una organización",
+        "organization_label": "Organización, empresa o institución",
+        "role_label": "Cargo, función o relación con la organización",
+        "role_help": "Ej.: director, gerente, asesor jurídico, representante, socio o consultor.",
+        "sector_label": "Sector o actividad principal (opcional)",
+        "sector_help": "Ej.: energía, financiero, tecnología, comercio, manufactura, infraestructura u otro.",
+        "authorized_declaration": "Declaro que estoy autorizado para presentar esta solicitud en representación de la organización indicada."
+      },
+      "step_2": {
+        "title": "Contexto y exposición",
+        "intro": "Describa de manera objetiva y cronológica el asunto que requiere evaluación. No es necesario utilizar lenguaje jurídico técnico. En esta etapa, no incluya documentos, anexos ni información reservada que requiera un canal seguro de intercambio.",
+        "exposure_nature_label": "Naturaleza principal de la exposición o necesidad",
+        "exposure_nature_placeholder": "Seleccione una opción",
+        "exposure_options": [
+          "Operaciones corporativas, inversión o presencia empresarial en Venezuela.",
+          "Riesgo regulatorio, administrativo o sancionatorio.",
+          "Contratos, relaciones comerciales, activos o estructura societaria.",
+          "Actuaciones, requerimientos o interacción con autoridades venezolanas.",
+          "Controversia, riesgo prelitigioso o procedimiento en curso.",
+          "Riesgo penal corporativo o exposición de directivos.",
+          "Operación transfronteriza, inversión extranjera o jurisdicciones concurrentes.",
+          "Necesidad de información jurídica o regulatoria para una decisión corporativa.",
+          "Otra situación corporativa o institucional que requiera evaluación preliminar."
+        ],
+        "factual_context_label": "Contexto fáctico y antecedentes relevantes",
+        "factual_context_help": "Describa los hechos relevantes de forma objetiva y cronológica.",
+        "venezuela_relationship_label": "Operaciones, activos, relaciones o intereses vinculados con Venezuela",
+        "venezuela_relationship_help": "Indique la relación concreta del asunto con Venezuela.",
+        "relevant_parties_label": "Contrapartes, autoridades, organismos o entidades relevantes (opcional)",
+        "relevant_parties_help": "Ej.: socios, contratistas, clientes, SENIAT, SUDEBAN, ministerios, tribunales u otra autoridad.",
+        "relevant_contracts_label": "Contratos, instrumentos o relaciones jurídicas relevantes (opcional)",
+        "relevant_contracts_help": "Mencione el tipo de relación o instrumento existente; no adjunte documentos en esta etapa.",
+        "proceedings_label": "Antecedentes, actuaciones o procedimientos conocidos (opcional)",
+        "proceedings_help": "Indique notificaciones, requerimientos, actuaciones administrativas, controversias, procesos o medidas previas, si existen."
+      },
+      "step_3": {
+        "title": "Alcance, información y urgencia",
+        "intro": "Indique qué decisión, contingencia o necesidad requiere evaluar, así como la información disponible y la existencia de plazos relevantes. Esta etapa permite valorar preliminarmente el alcance posible de una intervención profesional.",
+        "decision_issue_label": "Decisión, riesgo o cuestión que requiere evaluación",
+        "decision_issue_help": "Explique qué necesita comprender, valorar o decidir.",
+        "practical_purpose_label": "Finalidad práctica de la evaluación",
+        "practical_purpose_placeholder": "Seleccione una opción",
+        "purpose_options": [
+          "Evaluar una contingencia jurídica o regulatoria.",
+          "Sustentar una decisión corporativa, de inversión o de dirección.",
+          "Comprender obligaciones, restricciones o riesgos aplicables.",
+          "Preparar una respuesta ante una actuación, requerimiento o autoridad.",
+          "Prevenir o encauzar una controversia.",
+          "Valorar una situación con componente transfronterizo.",
+          "Otra finalidad estratégica o institucional."
+        ],
+        "available_docs_label": "Documentación o información disponible (opcional)",
+        "doc_options": [
+          "Contratos, acuerdos o instrumentos mercantiles.",
+          "Correspondencia comercial, corporativa o institucional.",
+          "Notificaciones, requerimientos o comunicaciones oficiales.",
+          "Actos administrativos, permisos, licencias o resoluciones.",
+          "Documentos societarios, estatutos, poderes o registros.",
+          "Escritos, decisiones judiciales o actuaciones procesales.",
+          "Informes técnicos, auditorías, análisis o dictámenes existentes.",
+          "Información financiera, contable o de pagos.",
+          "Otros documentos o antecedentes relevantes.",
+          "No dispongo de documentación por el momento."
+        ],
+        "pending_info_label": "Información, documentos o antecedentes pendientes (opcional)",
+        "pending_info_help": "Señale lo que considera necesario obtener o verificar.",
+        "main_jurisdiction_label": "Jurisdicción principal",
+        "jurisdiction_options": {
+          "venezuela": "Venezuela",
+          "other": "Otra jurisdicción",
+          "both": "Venezuela y otra jurisdicción"
+        },
+        "additional_jurisdictions_label": "Países o jurisdicciones adicionales",
+        "timeline_label": "Período, fechas o hitos relevantes (opcional)",
+        "timeline_help": "Ej.: fecha de contrato, actuación, notificación, inversión, decisión o inicio de la relación.",
+        "has_deadline_label": "¿Existe un plazo, vencimiento o evento próximo?",
+        "deadline_options": {
+          "no": "No",
+          "yes": "Sí",
+          "unsure": "No estoy seguro"
+        },
+        "deadline_date_label": "Fecha del plazo o evento",
+        "unknown_exact_date_label": "No conozco la fecha exacta",
+        "deadline_desc_label": "Descripción del plazo, evento y posible consecuencia",
+        "deadline_unsure_label": "Explique brevemente por qué considera que podría existir un plazo o actuación relevante (opcional)",
+        "urgency_level_label": "Nivel de urgencia percibido",
+        "urgency_options": {
+          "normal": "Normal",
+          "priority": "Prioritaria",
+          "urgent": "Urgente",
+          "critical": "Crítica"
+        },
+        "reservation_notice": "Reserva y documentación: por razones de confidencialidad y seguridad, no cargue ni transcriba mediante este formulario expedientes completos, contratos, comunicaciones protegidas, secretos comerciales, información financiera sensible, datos personales sensibles ni documentos reservados. Si la firma considera pertinente revisar documentación, indicará un canal y un procedimiento seguro para su remisión.",
+        "urgency_disclaimer": "La indicación de un plazo o nivel de urgencia no implica aceptación del asunto, disponibilidad inmediata ni compromiso de atención dentro de un término determinado."
+      },
+      "step_4": {
+        "title": "Declaraciones y envío",
+        "intro": "Revise la información suministrada antes de enviar su solicitud. La firma realizará una valoración preliminar de admisibilidad, disponibilidad, alcance y potenciales conflictos de intereses.",
+        "summary_title": "Resumen de su solicitud",
+        "edit_button": "Editar",
+        "declarations_title": "Declaraciones obligatorias",
+        "declaration_1": "Declaro que la información suministrada es preliminar y que, según mi leal saber y entender, es correcta.",
+        "declaration_2": "Comprendo que el envío de esta solicitud no constituye asesoría jurídica, no implica la aceptación del asunto y no crea, por sí solo, una relación abogado-cliente con Mac Consultores Jurídicos & Asociados.",
+        "declaration_3": "Comprendo que la firma podrá realizar una revisión preliminar de admisibilidad, disponibilidad y potenciales conflictos de intereses antes de decidir si puede atender el asunto.",
+        "declaration_4": "Confirmo que no he incorporado mediante este formulario expedientes completos, información reservada, secretos comerciales, datos personales sensibles ni documentación que requiera un canal seguro de intercambio.",
+        "declaration_5": "Autorizo a Mac Consultores Jurídicos & Asociados a contactarme exclusivamente en relación con esta solicitud preliminar.",
+        "economic_clause": "La presentación de esta solicitud inicial no tiene costo. Si el asunto es susceptible de atención, la firma comunicará previamente el alcance de la evaluación, las condiciones aplicables y los honorarios profesionales correspondientes antes de iniciar cualquier encargo.",
+        "submit_button": "Enviar solicitud para revisión preliminar",
+        "processing_button": "Preparando confirmación…"
+      },
+      "navigation": {
+        "back": "Anterior",
+        "next": "Continuar",
+        "close": "Cerrar"
+      },
+      "validation": {
+        "required": "Este campo es obligatorio.",
+        "invalid_email": "Ingrese una dirección de correo profesional válida.",
+        "organization_required": "Indique la organización o empresa.",
+        "role_required": "Indique su cargo o función.",
+        "authorization_required": "Debe declarar que cuenta con autorización para actuar.",
+        "deadline_desc_required": "Describa el plazo y sus posibles consecuencias.",
+        "deadline_date_required": "Indique la fecha aproximada o marque que no conoce la fecha exacta.",
+        "additional_jurisdiction_required": "Indique los países o jurisdicciones adicionales.",
+        "declarations_required": "Debe aceptar todas las declaraciones para continuar."
+      },
+      "confirmation": {
+        "title": "Hemos recibido su solicitud de revisión preliminar.",
+        "text_1": "La información suministrada será revisada inicialmente para determinar si el asunto se encuentra dentro de nuestras áreas de práctica y capacidad de atención.",
+        "text_2": "Si su solicitud es susceptible de atención, Mac Consultores Jurídicos & Asociados se comunicará con usted para informarle los siguientes pasos, el alcance de una eventual evaluación, las condiciones aplicables y los honorarios profesionales correspondientes.",
+        "text_3": "La recepción de esta solicitud no constituye asesoría jurídica, no genera una relación abogado-cliente y no implica la aceptación del asunto por parte de la firma.",
+        "reference_label": "Referencia de demostración:",
+        "close_btn": "Cerrar",
+        "reset_btn": "Iniciar una nueva solicitud"
+      },
+      "service_unavailable": {
+        "title": "Servicio temporalmente en configuración",
+        "description": "El canal automatizado para el envío de solicitudes de evaluación preliminar se encuentra en fase de configuración técnica y verificación de seguridad.",
+        "notice": "Sus datos se han conservado íntegramente en este formulario. Puede intentar el envío nuevamente o cerrar esta ventana para continuar más adelante.",
+        "retry_btn": "Intentar nuevamente",
+        "edit_btn": "Revisar respuestas",
+        "close_btn": "Cerrar",
+        "connection_error": "No fue posible establecer comunicación con el servidor. Por favor, verifique su conexión e intente nuevamente."
+      }
+    },
     "monthly_brief": {
       "seo": {
         "title": "Brief Mensual Estratégico — Venezuela | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados",

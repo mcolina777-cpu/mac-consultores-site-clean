@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { getRoute } from '@/lib/routes';
 import { getDictionary } from '@/i18n/getDictionary';
 import B2BContactBox from '@/components/B2BContactBox';
+import PreliminaryAssessmentModal from '@/components/PreliminaryAssessmentModal';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -403,6 +404,10 @@ export default async function LegalIntelligencePage({ params }: Props) {
                 )}
               </div>
             )}
+            <PreliminaryAssessmentModal
+              dict={data?.assessment_modal}
+              locale={locale}
+            />
             <B2BContactBox
               data={data?.contactBox}
               locale={locale}

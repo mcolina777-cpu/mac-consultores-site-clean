@@ -2221,6 +2221,178 @@
       "primary_cta": "Request preliminary assessment",
       "secondary_cta": "Back to Services"
     },
+    "assessment_modal": {
+      "trigger_button": "Begin Preliminary Assessment Request",
+      "trigger_tag": "MAC LEGAL INTELLIGENCE",
+      "trigger_title": "Preliminary Corporate Scope Assessment Request",
+      "trigger_desc": "Structured and formal intake process for organizations with corporate, regulatory, contractual or cross-border matters involving Venezuela.",
+      "header_tag": "MAC LEGAL INTELLIGENCE",
+      "modal_title": "Preliminary Corporate Scope Assessment Request",
+      "modal_subtitle": "Tailored legal intelligence for organizations with exposure to Venezuela.",
+      "intro_p1": "This form is intended for organizations, investors, executive directors, legal departments and international counsel requiring a preliminary assessment of a corporate, regulatory, contractual, sanctions-related, procedural or cross-border matter involving Venezuela.",
+      "intro_p2": "The information provided will enable Mac Consultores Jurídicos & Asociados to assess, on an initial basis, whether the matter may be addressed through a Preliminary Corporate Scope Assessment.",
+      "intro_p3": "Submitting this request does not constitute legal advice, does not constitute acceptance of the matter, and does not in itself create an attorney-client relationship.",
+      "progress": {
+        "step_1": "Step 1 of 4 — Applicant and organization",
+        "step_2": "Step 2 of 4 — Context and exposure",
+        "step_3": "Step 3 of 4 — Scope, information and urgency",
+        "step_4": "Step 4 of 4 — Declarations and submission"
+      },
+      "step_1": {
+        "title": "Applicant and organization",
+        "intro": "Identify the individual submitting this request and, where applicable, the organization connected to the matter. This information allows for a preliminary admissibility and conflict-of-interest check.",
+        "full_name_label": "Full name",
+        "email_label": "Professional email address",
+        "phone_label": "Contact phone (optional)",
+        "phone_help": "Include country code.",
+        "country_label": "Country from which request is submitted",
+        "acting_as_label": "Are you submitting this request individually or on behalf of an organization?",
+        "acting_as_individual": "Individually",
+        "acting_as_organization": "On behalf of an organization",
+        "organization_label": "Organization, enterprise or institution",
+        "role_label": "Title, position or relationship with the organization",
+        "role_help": "E.g., Director, Officer, General Counsel, Representative, Partner or Consultant.",
+        "sector_label": "Industry or primary activity (optional)",
+        "sector_help": "E.g., Energy, Financial, Technology, Trade, Manufacturing, Infrastructure or other.",
+        "authorized_declaration": "I declare that I am authorized to submit this request on behalf of the designated organization."
+      },
+      "step_2": {
+        "title": "Context and exposure",
+        "intro": "Describe the matter requiring assessment in an objective and chronological manner. Technical legal phrasing is not required. At this stage, do not include documents, exhibits or confidential information requiring a secure transfer channel.",
+        "exposure_nature_label": "Primary nature of the exposure or inquiry",
+        "exposure_nature_placeholder": "Select an option",
+        "exposure_options": [
+          "Corporate operations, investment or business presence in Venezuela.",
+          "Regulatory, administrative or sanctions-related legal risk.",
+          "Contracts, commercial relations, corporate assets or structure.",
+          "Proceedings, regulatory inquiries or interaction with Venezuelan authorities.",
+          "Disputes, pre-litigation exposure or ongoing proceedings.",
+          "Corporate criminal risk or executive liability exposure.",
+          "Cross-border operations, foreign direct investment or concurrent jurisdictions.",
+          "Legal or regulatory intelligence requirement for corporate decision-making.",
+          "Other corporate or institutional situation requiring preliminary evaluation."
+        ],
+        "factual_context_label": "Factual context and relevant background",
+        "factual_context_help": "Describe relevant facts in an objective, chronological sequence.",
+        "venezuela_relationship_label": "Operations, assets, relationships or interests connected to Venezuela",
+        "venezuela_relationship_help": "Specify the concrete connection between the matter and Venezuela.",
+        "relevant_parties_label": "Counterparties, authorities, agencies or relevant entities (optional)",
+        "relevant_parties_help": "E.g., Partners, contractors, clients, SENIAT, SUDEBAN, ministries, courts or other regulatory bodies.",
+        "relevant_contracts_label": "Contracts, instruments or relevant legal relationships (optional)",
+        "relevant_contracts_help": "Identify the type of instrument or relationship; do not attach documents at this stage.",
+        "proceedings_label": "Prior or ongoing proceedings, notices or official inquiries (optional)",
+        "proceedings_help": "Indicate notifications, official requests, administrative proceedings, litigation or prior measures, if any."
+      },
+      "step_3": {
+        "title": "Scope, information and urgency",
+        "intro": "Specify the decision, contingency or need requiring evaluation, as well as available documentation and any relevant deadlines. This allows the firm to assess the potential scope of a professional engagement.",
+        "decision_issue_label": "Decision, risk or question requiring assessment",
+        "decision_issue_help": "Explain what requires clarification, evaluation or strategic decision.",
+        "practical_purpose_label": "Practical objective of the assessment",
+        "practical_purpose_placeholder": "Select an option",
+        "purpose_options": [
+          "Evaluate a legal or regulatory contingency.",
+          "Support a corporate, investment or executive decision.",
+          "Understand applicable legal obligations, restrictions or risks.",
+          "Prepare a formal response to an inquiry, proceeding or authority.",
+          "Prevent or manage an active controversy.",
+          "Assess a situation with cross-border implications.",
+          "Other strategic or institutional purpose."
+        ],
+        "available_docs_label": "Available documentation or information (optional)",
+        "doc_options": [
+          "Commercial contracts, agreements or instruments.",
+          "Corporate, commercial or institutional correspondence.",
+          "Official notices, regulatory requests or administrative summons.",
+          "Administrative orders, permits, licenses or resolutions.",
+          "Corporate documents, bylaws, powers of attorney or registries.",
+          "Court filings, judicial rulings or procedural records.",
+          "Technical reports, internal audits, reviews or existing opinions.",
+          "Financial, accounting or payment transaction records.",
+          "Other relevant documents or background materials.",
+          "No documentation available at this time."
+        ],
+        "pending_info_label": "Pending information, documents or verification (optional)",
+        "pending_info_help": "Indicate what remains to be gathered or independently verified.",
+        "main_jurisdiction_label": "Primary jurisdiction",
+        "jurisdiction_options": {
+          "venezuela": "Venezuela",
+          "other": "Other jurisdiction",
+          "both": "Venezuela and other jurisdiction"
+        },
+        "additional_jurisdictions_label": "Additional countries or jurisdictions",
+        "timeline_label": "Relevant timeframe, dates or milestones (optional)",
+        "timeline_help": "E.g., Contract execution, notification date, investment milestone or inception of relationship.",
+        "has_deadline_label": "Is there an upcoming deadline, expiration date or imminent event?",
+        "deadline_options": {
+          "no": "No",
+          "yes": "Yes",
+          "unsure": "Not certain"
+        },
+        "deadline_date_label": "Date of deadline or milestone",
+        "unknown_exact_date_label": "Exact date is not known",
+        "deadline_desc_label": "Description of deadline, event and potential consequences",
+        "deadline_unsure_label": "Briefly explain why you consider a deadline or regulatory action may exist (optional)",
+        "urgency_level_label": "Perceived level of urgency",
+        "urgency_options": {
+          "normal": "Normal",
+          "priority": "Priority",
+          "urgent": "Urgent",
+          "critical": "Critical"
+        },
+        "reservation_notice": "Confidentiality and documentation note: For data security and confidentiality reasons, do not upload or paste full legal files, contracts, protected correspondence, trade secrets, sensitive financial data, special category personal data, or privileged records through this form. If the firm considers document review appropriate, a secure transfer protocol will be provided.",
+        "urgency_disclaimer": "Indicating a deadline or urgency level does not constitute acceptance of the matter, immediate availability, or an obligation to act within a specific timeframe."
+      },
+      "step_4": {
+        "title": "Declarations and submission",
+        "intro": "Review the information provided before submitting your request. The firm will conduct a preliminary assessment of admissibility, availability, scope and potential conflicts of interest.",
+        "summary_title": "Summary of your request",
+        "edit_button": "Edit",
+        "declarations_title": "Mandatory declarations",
+        "declaration_1": "I declare that the information provided is preliminary and, to the best of my knowledge and belief, true and correct.",
+        "declaration_2": "I understand that submitting this request does not constitute legal advice, does not constitute acceptance of the matter, and does not in itself create an attorney-client relationship with Mac Consultores Jurídicos & Asociados.",
+        "declaration_3": "I understand that the firm may conduct a preliminary check for admissibility, availability and potential conflicts of interest before determining whether it can undertake the matter.",
+        "declaration_4": "I confirm that I have not submitted complete case files, privileged records, trade secrets, sensitive personal data or documentation requiring a secure transmission protocol through this form.",
+        "declaration_5": "I authorize Mac Consultores Jurídicos & Asociados to contact me solely in connection with this preliminary request.",
+        "economic_clause": "Submitting this initial request is free of charge. If the matter is eligible for consideration, the firm will outline the scope of the assessment, applicable terms, and professional fees in advance of any formal engagement.",
+        "submit_button": "Submit request for preliminary review",
+        "processing_button": "Preparing confirmation…"
+      },
+      "navigation": {
+        "back": "Previous",
+        "next": "Continue",
+        "close": "Close"
+      },
+      "validation": {
+        "required": "This field is required.",
+        "invalid_email": "Please enter a valid professional email address.",
+        "organization_required": "Please state the organization or enterprise.",
+        "role_required": "Please state your position or role.",
+        "authorization_required": "You must confirm that you are authorized to submit this request.",
+        "deadline_desc_required": "Please describe the deadline and potential consequences.",
+        "deadline_date_required": "Please indicate the date or check that the exact date is not known.",
+        "additional_jurisdiction_required": "Please specify the additional countries or jurisdictions.",
+        "declarations_required": "You must accept all declarations to proceed."
+      },
+      "confirmation": {
+        "title": "We have received your preliminary review request.",
+        "text_1": "The information provided will undergo initial review to determine whether the matter falls within our practice areas and current capacity.",
+        "text_2": "If your request is eligible for consideration, Mac Consultores Jurídicos & Asociados will contact you to outline subsequent steps, the scope of a potential assessment, applicable terms, and professional fees.",
+        "text_3": "Receipt of this request does not constitute legal advice, does not create an attorney-client relationship, and does not constitute acceptance of the matter by the firm.",
+        "reference_label": "Demonstration reference:",
+        "close_btn": "Close",
+        "reset_btn": "Start a new request"
+      },
+      "service_unavailable": {
+        "title": "Service temporarily under configuration",
+        "description": "The automated channel for preliminary assessment requests is currently undergoing technical setup and security verification.",
+        "notice": "Your responses have been fully preserved in this form. You may try submitting again or close this window to continue later.",
+        "retry_btn": "Try again",
+        "edit_btn": "Review responses",
+        "close_btn": "Close",
+        "connection_error": "Unable to establish communication with the server. Please check your connection and try again."
+      }
+    },
     "monthly_brief": {
       "seo": {
         "title": "Monthly Strategic Brief — Venezuela | Mac Legal Intelligence | Mac Consultores Jurídicos & Asociados",
