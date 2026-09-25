@@ -2154,9 +2154,9 @@
       "paragraph_2": "Based on this review, the firm determines the most appropriate service model, scope and engagement terms. It may also identify the need for a separate Compliance proposal or tailored legal advice."
     },
     "contactBox": {
-      "tag": "INSTITUTIONAL ONBOARDING PROCESS",
-      "title": "Request for a Preliminary Corporate Scoping Review",
-      "description": "Share initial information about your organization so that the firm may assess the suitability and scope of a potential professional engagement.",
+      "tag": "INSTITUTIONAL CONTACT",
+      "title": "Initial corporate inquiry",
+      "description": "For institutional coordination, initial corporate inquiries or requests for information about Mac Legal Intelligence. If your organization requires a structured assessment of the potential scope of an engagement, you may begin the Preliminary Corporate Scope Assessment above.",
       "emailPrefix": "You may also reach us at",
       "email": "infomacconsul@gmail.com",
       "form": {
@@ -2176,7 +2176,7 @@
           "otro": "Other corporate inquiry or requirement"
         },
         "message": "Message or initial organization details",
-        "submit": "Request preliminary assessment",
+        "submit": "Send institutional inquiry",
         "privacy": "Your information will be treated with strict confidentiality."
       }
     },
@@ -2222,9 +2222,9 @@
       "secondary_cta": "Back to Services"
     },
     "assessment_modal": {
-      "trigger_button": "Begin Preliminary Assessment Request",
-      "trigger_tag": "MAC LEGAL INTELLIGENCE",
-      "trigger_title": "Preliminary Corporate Scope Assessment Request",
+      "trigger_button": "Start preliminary assessment",
+      "trigger_tag": "PRELIMINARY ASSESSMENT PROCESS",
+      "trigger_title": "Preliminary Corporate Scope Assessment",
       "trigger_desc": "Structured and formal intake process for organizations with corporate, regulatory, contractual or cross-border matters involving Venezuela.",
       "header_tag": "MAC LEGAL INTELLIGENCE",
       "modal_title": "Preliminary Corporate Scope Assessment Request",

@@ -2154,9 +2154,9 @@
       "paragraph_2": "Con base en esta evaluación, la firma determina la modalidad, el alcance y las condiciones profesionales más adecuadas. Asimismo, puede identificar la conveniencia de una propuesta independiente de Compliance o de asesoría jurídica individualizada."
     },
     "contactBox": {
-      "tag": "PROCESO DE INCORPORACIÓN INSTITUCIONAL",
-      "title": "Solicitud de Evaluación Preliminar de Alcance Corporativo",
-      "description": "Comparta información inicial sobre su organización para que la firma pueda evaluar la conveniencia y el alcance de una relación profesional.",
+      "tag": "CONTACTO INSTITUCIONAL",
+      "title": "Consulta corporativa inicial",
+      "description": "Para coordinación institucional, consultas corporativas iniciales o solicitudes de información sobre Mac Legal Intelligence. Si su organización requiere una evaluación estructurada del posible alcance de un encargo, puede iniciar la Evaluación Preliminar de Alcance Corporativo indicada arriba.",
       "emailPrefix": "También puede escribirnos a",
       "email": "infomacconsul@gmail.com",
       "form": {
@@ -2176,7 +2176,7 @@
           "otro": "Otra consulta o requerimiento corporativo"
         },
         "message": "Mensaje o información inicial de la organización",
-        "submit": "Solicitar evaluación preliminar",
+        "submit": "Enviar consulta institucional",
         "privacy": "Su información será tratada con estricta confidencialidad."
       }
     },
@@ -2222,9 +2222,9 @@
       "secondary_cta": "Volver a Servicios"
     },
     "assessment_modal": {
-      "trigger_button": "Iniciar Solicitud de Evaluación Preliminar",
-      "trigger_tag": "MAC LEGAL INTELLIGENCE",
-      "trigger_title": "Solicitud de Evaluación Preliminar de Alcance Corporativo",
+      "trigger_button": "Iniciar evaluación preliminar",
+      "trigger_tag": "PROCESO DE EVALUACIÓN PRELIMINAR",
+      "trigger_title": "Evaluación Preliminar de Alcance Corporativo",
       "trigger_desc": "Vía formal y estructurada para organizaciones con asuntos corporativos, regulatorios, contractuales o transfronterizos relacionados con Venezuela.",
       "header_tag": "MAC LEGAL INTELLIGENCE",
       "modal_title": "Solicitud de Evaluación Preliminar de Alcance Corporativo",
