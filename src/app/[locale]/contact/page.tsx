@@ -370,6 +370,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                   </div>
 
                   <ContactFormSelectors
+                    key={initialMotivo || 'default'}
                     dict={dict}
                     locale={locale}
                     initialMotivo={initialMotivo}
