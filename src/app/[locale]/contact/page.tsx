@@ -146,9 +146,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                   </a>
                   
                   <a
-                    href="https://calendar.app.google/LosA7ECZzDXKUrc38"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="#formulario-contacto"
                     className="channel-card"
                   >
                     <span className="channel-icon">💻</span>
