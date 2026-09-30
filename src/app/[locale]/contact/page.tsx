@@ -251,27 +251,6 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                   </div>
                 )}
 
-                <div
-                  className="probono-contact-hint text-sm mb-1-5rem"
-                  style={{
-                    padding: '1rem',
-                    backgroundColor: 'rgba(0,0,0,0.03)',
-                    borderRadius: '4px',
-                    borderLeft: '3px solid var(--color-primary)',
-                    lineHeight: '1.5',
-                  }}
-                >
-                  <strong>
-                    {locale === 'es'
-                      ? '¿Solicita una evaluación Pro Bono?'
-                      : 'Are you requesting a pro bono evaluation?'}
-                  </strong>
-                  <br />
-                  {locale === 'es'
-                    ? 'Seleccione “Solicitud de Evaluación Pro Bono” en el campo “Motivo principal de su consulta”.'
-                    : 'Select “Pro Bono Evaluation Request” in the “Main reason for inquiry” field.'}
-                </div>
-                
                 <form
                   action="https://formsubmit.co/infomacconsul@gmail.com"
                   method="POST"
