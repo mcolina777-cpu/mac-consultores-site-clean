@@ -79,6 +79,8 @@ export default function Navbar({ dict, locale }: { dict: any, locale: string }) 
   const pathname = usePathname();
   const [extraUrlPath, setExtraUrlPath] = useState('');
 
+  const closeMenu = () => setIsMobileMenuOpen(false);
+
   useEffect(() => {
     setIsMobileMenuOpen(false);
   }, [pathname]);
@@ -141,12 +143,12 @@ export default function Navbar({ dict, locale }: { dict: any, locale: string }) 
         </button>
 
         <ul id="mobile-menu" className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
-          <li><Link href={getRoute(locale, "home")}>{dict?.inicio}</Link></li>
-          <li><Link href={getRoute(locale, "about")}>{dict?.firma}</Link></li>
-          <li><Link href={getRoute(locale, "services")}>{dict?.servicios}</Link></li>
-          <li><Link href={getRoute(locale, "services.consular")}>{dict?.internacional}</Link></li>
-          <li><Link href={getRoute(locale, "services.international_cooperation")}>{dict?.alianzas}</Link></li>
-          <li><Link href={getRoute(locale, "contact")}>{dict?.contacto}</Link></li>
+          <li><Link href={getRoute(locale, "home")} onClick={closeMenu}>{dict?.inicio}</Link></li>
+          <li><Link href={getRoute(locale, "about")} onClick={closeMenu}>{dict?.firma}</Link></li>
+          <li><Link href={getRoute(locale, "services")} onClick={closeMenu}>{dict?.servicios}</Link></li>
+          <li><Link href={getRoute(locale, "services.consular")} onClick={closeMenu}>{dict?.internacional}</Link></li>
+          <li><Link href={getRoute(locale, "services.international_cooperation")} onClick={closeMenu}>{dict?.alianzas}</Link></li>
+          <li><Link href={getRoute(locale, "contact")} onClick={closeMenu}>{dict?.contacto}</Link></li>
           
           <li className="lang-selector flex-center-y">
             <Link 
