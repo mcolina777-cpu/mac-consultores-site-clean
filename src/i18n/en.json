@@ -713,7 +713,7 @@
       "tag": "INSTITUTIONAL PARTNERSHIPS",
       "title": "Let us build a strategic partnership",
       "description": "If your firm requires reliable legal support in Venezuela or wishes to explore a professional collaboration, our team is available to learn about your needs.",
-      "emailPrefix": "You may also write to us at",
+      "emailPrefix": "You may also write to us at:",
       "email": "infomacconsul@gmail.com",
       "form": {
         "subject": "Strategic partnership inquiry — Mac Consultores Jurídicos & Asociados",
@@ -2157,7 +2157,7 @@
       "tag": "INSTITUTIONAL CONTACT",
       "title": "Initial corporate inquiry",
       "description": "For institutional coordination, initial corporate inquiries or requests for information about Mac Legal Intelligence. If your organization requires a structured assessment of the potential scope of an engagement, you may begin the Preliminary Corporate Scope Assessment above.",
-      "emailPrefix": "You may also reach us at",
+      "emailPrefix": "You may also reach us at:",
       "email": "infomacconsul@gmail.com",
       "form": {
         "subject": "Preliminary Corporate Scoping Review Request — Mac Legal Intelligence",
@@ -2481,7 +2481,7 @@
         "tag": "INSTITUTIONAL ONBOARDING PROCESS",
         "title": "Request a Preliminary Corporate Scoping Review",
         "description": "Share initial information about your organization so that the firm may assess the suitability and scope of this delivery model.",
-        "emailPrefix": "You may also contact us directly at",
+        "emailPrefix": "You may also contact us directly at:",
         "email": "infomacconsul@gmail.com",
         "form": {
           "subject": "Preliminary Scoping Request — Monthly Brief — Mac Consultores",
@@ -2624,7 +2624,7 @@
         "tag": "INSTITUTIONAL ONBOARDING PROCESS",
         "title": "Request a Preliminary Corporate Scoping Review",
         "description": "Share initial information about your organization so that the firm may assess the suitability and scope of this delivery model.",
-        "emailPrefix": "You may also contact us directly at",
+        "emailPrefix": "You may also contact us directly at:",
         "email": "infomacconsul@gmail.com",
         "form": {
           "subject": "Preliminary Scoping Request — Flash Alerts — Mac Consultores",

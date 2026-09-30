@@ -61,8 +61,8 @@ export default function B2BContactBox({ data, locale, redirectUrl, id }: B2BCont
           >
             <span className="channel-icon" aria-hidden="true">✉️</span>
             <div className="channel-text">
-              <span className="channel-label">{data.emailPrefix}</span>
-              <span className="channel-value">{data.email}</span>
+              <div className="channel-label">{data.emailPrefix}</div>
+              <div className="channel-value">{data.email}</div>
             </div>
           </a>
 
