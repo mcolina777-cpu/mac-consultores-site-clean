@@ -25,6 +25,11 @@ interface ContactFormSelectorsProps {
         penal_default?: string;
         penal_opt1?: string;
         penal_opt2?: string;
+        label_urgency?: string;
+        urgency_default?: string;
+        urgency_opt1?: string;
+        urgency_opt2?: string;
+        urgency_opt3?: string;
       };
     };
   };
@@ -47,6 +52,7 @@ export default function ContactFormSelectors({
   const defaultPenalValue = locale === "es" ? "No aplica" : "Not applicable";
   const [selectedMotivo, setSelectedMotivo] = useState("");
   const [naturalezaPenal, setNaturalezaPenal] = useState(defaultPenalValue);
+  const [selectedUrgency, setSelectedUrgency] = useState("");
 
   const isPenal = PENAL_MOTIVOS.has(selectedMotivo);
 
@@ -181,6 +187,33 @@ export default function ContactFormSelectors({
       ) : (
         <input type="hidden" name="naturaleza-penal" value={defaultPenalValue} />
       )}
+
+      <div className="form-group mb-1-5rem">
+        <label htmlFor="contact_urgency" className="form-label">
+          {dict?.contacto?.form?.label_urgency}
+        </label>
+        <select
+          id="contact_urgency"
+          className="form-input font-inherit"
+          name="urgency"
+          required
+          value={selectedUrgency}
+          onChange={(e) => setSelectedUrgency(e.target.value)}
+        >
+          <option value="" disabled>
+            {dict?.contacto?.form?.urgency_default}
+          </option>
+          <option value="standard">
+            {dict?.contacto?.form?.urgency_opt1}
+          </option>
+          <option value="priority">
+            {dict?.contacto?.form?.urgency_opt2}
+          </option>
+          <option value="immediate">
+            {dict?.contacto?.form?.urgency_opt3}
+          </option>
+        </select>
+      </div>
     </>
   );
 }

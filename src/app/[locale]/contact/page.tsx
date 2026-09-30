@@ -314,6 +314,35 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                     </div>
                   </div>
 
+                  <div className="grid-2 form-grid-mobile mb-1rem gap-20px">
+                    <div className="form-group">
+                      <label htmlFor="contact_phone" className="form-label">
+                        {dict?.contacto?.form?.label_phone}
+                      </label>
+                      <input
+                        id="contact_phone"
+                        className="form-input"
+                        type="tel"
+                        name="phone"
+                        placeholder={dict?.contacto?.form?.placeholder_phone}
+                        required
+                      />
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="contact_pais" className="form-label">
+                        {dict?.contacto?.form?.label_country}
+                      </label>
+                      <input
+                        id="contact_pais"
+                        className="form-input"
+                        type="text"
+                        name="pais"
+                        placeholder={dict?.contacto?.form?.placeholder_country}
+                        required
+                      />
+                    </div>
+                  </div>
+
                   <div className="form-group mb-1rem">
                     <label htmlFor="contact_profesion" className="form-label">
                       {dict?.contacto?.form?.label_role}
@@ -328,21 +357,33 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                     />
                   </div>
 
-                  <div className="form-group mb-1rem">
-                    <label htmlFor="contact_pais" className="form-label">
-                      {locale === 'es' ? 'País' : 'Country'}
+                  <ContactFormSelectors dict={dict} locale={locale} />
+
+                  <div className="form-group mb-1-5rem">
+                    <label htmlFor="contact_conflict_parties" className="form-label">
+                      {dict?.contacto?.form?.label_conflict}
                     </label>
                     <input
-                      id="contact_pais"
+                      id="contact_conflict_parties"
                       className="form-input"
                       type="text"
-                      name="pais"
-                      placeholder={locale === 'es' ? 'Indique su país' : 'Enter your country'}
+                      name="conflict_parties"
+                      maxLength={250}
+                      placeholder={dict?.contacto?.form?.placeholder_conflict}
                       required
                     />
+                    {dict?.contacto?.form?.hint_conflict && (
+                      <small className="form-hint form-hint-text">
+                        {dict.contacto.form.hint_conflict}
+                      </small>
+                    )}
                   </div>
 
-                  <ContactFormSelectors dict={dict} locale={locale} />
+                  {dict?.contacto?.form?.desc_notice && (
+                    <p className="form-hint form-hint-text mb-1rem">
+                      {dict.contacto.form.desc_notice}
+                    </p>
+                  )}
 
                   <div className="form-group mb-1-5rem">
                     <label htmlFor="contact_descripcion" className="form-label">
@@ -405,13 +446,11 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                       style={{ marginTop: '0.25rem', cursor: 'pointer' }}
                     />
                     <label htmlFor="checkbox_veracidad" className="text-sm" style={{ cursor: 'pointer', lineHeight: 1.4 }}>
-                      {isEs
-                        ? 'Declaro que la información proporcionada es completa y veraz.'
-                        : 'I declare that the information provided is complete and truthful.'}
+                      {dict?.contacto?.form?.decl_truth}
                     </label>
                   </div>
 
-                  <div className="form-group mb-1-5rem" style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                  <div className="form-group mb-1rem" style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
                     <input
                       type="checkbox"
                       id="checkbox_no_relacion"
@@ -421,9 +460,35 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                       style={{ marginTop: '0.25rem', cursor: 'pointer' }}
                     />
                     <label htmlFor="checkbox_no_relacion" className="text-sm" style={{ cursor: 'pointer', lineHeight: 1.4 }}>
-                      {isEs
-                        ? 'Entiendo que el envío de esta solicitud no crea una relación abogado–cliente, no implica admisión del asunto y no genera obligación de representación por parte de la firma.'
-                        : 'I understand that submitting this request does not create an attorney-client relationship, does not imply acceptance of the matter, and does not create an obligation of representation by the firm.'}
+                      {dict?.contacto?.form?.decl_no_relation}
+                    </label>
+                  </div>
+
+                  <div className="form-group mb-1rem" style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                    <input
+                      type="checkbox"
+                      id="checkbox_fees"
+                      name="declaration_fees"
+                      required
+                      className="contact-checkbox"
+                      style={{ marginTop: '0.25rem', cursor: 'pointer' }}
+                    />
+                    <label htmlFor="checkbox_fees" className="text-sm" style={{ cursor: 'pointer', lineHeight: 1.4 }}>
+                      {dict?.contacto?.form?.decl_fees}
+                    </label>
+                  </div>
+
+                  <div className="form-group mb-1-5rem" style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                    <input
+                      type="checkbox"
+                      id="checkbox_no_confidential"
+                      name="declaration_no_confidential"
+                      required
+                      className="contact-checkbox"
+                      style={{ marginTop: '0.25rem', cursor: 'pointer' }}
+                    />
+                    <label htmlFor="checkbox_no_confidential" className="text-sm" style={{ cursor: 'pointer', lineHeight: 1.4 }}>
+                      {dict?.contacto?.form?.decl_no_confidential}
                     </label>
                   </div>
 
