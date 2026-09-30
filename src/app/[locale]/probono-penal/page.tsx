@@ -186,7 +186,10 @@ export default async function ProBonoPenal({ params }: { params: Promise<{ local
                 flexWrap: 'wrap',
               }}
             >
-              <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
+              <Link
+                href={`${getRoute(locale, 'contact')}?materia=probono#formulario-contacto`}
+                className="btn btn-primary"
+              >
                 {isEs
                   ? 'INICIAR SOLICITUD PRO BONO'
                   : 'START A PRO BONO APPLICATION'}

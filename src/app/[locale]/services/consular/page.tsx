@@ -77,7 +77,10 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
               marginTop: '1.5rem',
             }}
           >
-            <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
+            <Link
+              href={`${getRoute(locale, 'contact')}?materia=consular#formulario-contacto`}
+              className="btn btn-primary"
+            >
               {dict?.tramites_consulares?.cta_primary}
             </Link>
             <Link href={getRoute(locale, 'services')} className="btn btn-outline">
@@ -249,7 +252,10 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
                 flexWrap: 'wrap',
               }}
             >
-              <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
+              <Link
+                href={`${getRoute(locale, 'contact')}?materia=consular#formulario-contacto`}
+                className="btn btn-primary"
+              >
                 {dict?.tramites_consulares?.cierre?.btn_primary || (isEs ? 'EVALUAR ASUNTO CON LA FIRMA' : 'EVALUATE MATTER WITH THE FIRM')}
               </Link>
               <Link href={getRoute(locale, 'home')} className="btn btn-secondary btn-compact">

@@ -61,6 +61,7 @@
       "placeholder_conflict": "e.g. Counterparties, entities, or 'Not identified / Not applicable'",
       "hint_conflict": "Provide only general names to allow a preliminary conflict-of-interest review. If no related parties are identified, enter: ‘Not identified / Not applicable’.",
       "desc_notice": "This preliminary intake is administrative and does not constitute legal advice. Do not submit documents or confidential information through this form.",
+      "probono_notice": "Your request will be assessed under the Pro Bono Program eligibility criteria. Submission does not imply acceptance of the matter or assignment of representation.",
       "decl_truth": "I declare that the information provided is complete and truthful.",
       "decl_no_relation": "I understand that submitting this request does not create an attorney-client relationship, does not imply acceptance of the matter, and does not create an obligation of representation by the firm.",
       "decl_fees": "I understand that every professional consultation, scope assessment, and any potential engagement by the firm is subject to fees, whose terms and scope will be communicated before engagement.",

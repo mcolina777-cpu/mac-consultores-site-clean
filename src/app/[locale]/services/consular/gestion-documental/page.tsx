@@ -119,7 +119,10 @@ export default async function GestionDocumentalPage({ params }: { params: Promis
                 flexWrap: 'wrap',
               }}
             >
-              <Link href={getRoute(locale, 'contact')} className="btn btn-primary">
+              <Link
+                href={`${getRoute(locale, 'contact')}?materia=consular#formulario-contacto`}
+                className="btn btn-primary"
+              >
                 {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
               </Link>
               <Link href={getRoute(locale, 'services.consular')} className="btn btn-secondary">

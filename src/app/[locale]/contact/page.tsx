@@ -60,6 +60,18 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
   const { locale } = await params;
   const resolvedSearchParams = searchParams ? await searchParams : {};
   const isSuccess = resolvedSearchParams?.sent === 'success';
+
+  // Allowlist estricta para el parámetro materia (probono | consular)
+  const rawMateria = resolvedSearchParams?.materia;
+  let initialMotivo: string | undefined = undefined;
+  if (typeof rawMateria === 'string') {
+    if (rawMateria === 'probono') {
+      initialMotivo = locale === 'es' ? 'Solicitud de Evaluación Pro Bono' : 'Pro Bono Evaluation Request';
+    } else if (rawMateria === 'consular') {
+      initialMotivo = locale === 'es' ? 'Trámites Consulares y Gestión Documental' : 'Consular Procedures and Document Management';
+    }
+  }
+
   const dict = await getDictionary(locale);
   const isEs = locale === 'es';
 
@@ -357,7 +369,11 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                     />
                   </div>
 
-                  <ContactFormSelectors dict={dict} locale={locale} />
+                  <ContactFormSelectors
+                    dict={dict}
+                    locale={locale}
+                    initialMotivo={initialMotivo}
+                  />
 
                   <div className="form-group mb-1-5rem">
                     <label htmlFor="contact_conflict_parties" className="form-label">

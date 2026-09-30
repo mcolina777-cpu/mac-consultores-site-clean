@@ -21,6 +21,7 @@ interface ContactFormSelectorsProps {
         reason_probono?: string;
         reason_opt6?: string;
         hint_practice?: string;
+        probono_notice?: string;
         label_penal?: string;
         penal_default?: string;
         penal_opt1?: string;
@@ -34,6 +35,7 @@ interface ContactFormSelectorsProps {
     };
   };
   locale: string;
+  initialMotivo?: string;
 }
 
 const PENAL_MOTIVOS = new Set([
@@ -48,13 +50,20 @@ const PENAL_MOTIVOS = new Set([
 export default function ContactFormSelectors({
   dict,
   locale,
+  initialMotivo,
 }: ContactFormSelectorsProps) {
   const defaultPenalValue = locale === "es" ? "No aplica" : "Not applicable";
-  const [selectedMotivo, setSelectedMotivo] = useState("");
+  const probonoValue =
+    locale === "es"
+      ? "Solicitud de Evaluación Pro Bono"
+      : "Pro Bono Evaluation Request";
+  const [selectedMotivo, setSelectedMotivo] = useState(initialMotivo || "");
   const [naturalezaPenal, setNaturalezaPenal] = useState(defaultPenalValue);
   const [selectedUrgency, setSelectedUrgency] = useState("");
 
   const isPenal = PENAL_MOTIVOS.has(selectedMotivo);
+  const isProBonoPreselected = initialMotivo === probonoValue;
+  const showProBonoNotice = isProBonoPreselected && selectedMotivo === probonoValue;
 
   const handleMotivoChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const value = e.target.value;
@@ -145,6 +154,11 @@ export default function ContactFormSelectors({
         {dict?.contacto?.form?.hint_practice && (
           <small className="form-hint form-hint-text">
             {dict.contacto.form.hint_practice}
+          </small>
+        )}
+        {showProBonoNotice && dict?.contacto?.form?.probono_notice && (
+          <small className="form-hint form-hint-text">
+            {dict.contacto.form.probono_notice}
           </small>
         )}
       </div>
