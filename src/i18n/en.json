@@ -51,11 +51,11 @@
     },
     "channels": {
       "title": "Alternative Channels",
-      "phone1": "📞 Direct Calls (Mobile 1):",
-      "phone2": "📞 Direct Calls (Mobile 2):",
-      "landline": "☎ Landline (Caracas):",
-      "virtual": "💻 Virtual Inquiries:",
-      "virtual_link": "Meeting via Google Meet",
+      "phone1": "Direct Calls (Mobile 1):",
+      "phone2": "Direct Calls (Mobile 2):",
+      "landline": "Landline (Caracas):",
+      "virtual": "Book a virtual consultation",
+      "virtual_link": "Google Meet (By appointment)",
       "follow": "Social Media",
       "follow_link": ""
     }

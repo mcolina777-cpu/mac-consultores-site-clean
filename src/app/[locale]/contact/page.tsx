@@ -146,15 +146,15 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                   </a>
                   
                   <a
-                    href="https://meet.google.com/npx-yhyh-cxy"
+                    href="https://calendar.app.google/LosA7ECZzDXKUrc38"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="channel-card"
                   >
                     <span className="channel-icon">💻</span>
                     <div className="channel-text">
-                      <span className="channel-label">{dict?.contacto?.channels?.virtual}</span>
-                      <span className="channel-value">Google Meet (Previa cita)</span>
+                      <span className="channel-label">{dict?.contacto?.channels?.virtual || (isEs ? "Reservar consulta virtual" : "Book a virtual consultation")}</span>
+                      <span className="channel-value">{dict?.contacto?.channels?.virtual_link || (isEs ? "Google Meet (Previa cita)" : "Google Meet (By appointment)")}</span>
                     </div>
                   </a>
                 </div>
@@ -202,7 +202,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
             </div>
 
             <div className="form-column">
-              <div className="form-card">
+              <div id="formulario-contacto" className="form-card">
                 {isSuccess && dict?.contacto?.form?.success && (
                   <div
                     className="form-success-message text-sm mb-1-5rem"

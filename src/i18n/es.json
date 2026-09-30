@@ -51,11 +51,11 @@
     },
     "channels": {
       "title": "Canales Alternativos",
-      "phone1": "📞 Llamadas Directas (Móvil 1):",
-      "phone2": "📞 Llamadas Directas (Móvil 2):",
-      "landline": "☎ Línea Fija (Caracas):",
-      "virtual": "💻 Consultas Virtuales:",
-      "virtual_link": "Reunión por Google Meet",
+      "phone1": "Llamadas Directas (Móvil 1):",
+      "phone2": "Llamadas Directas (Móvil 2):",
+      "landline": "Línea Fija (Caracas):",
+      "virtual": "Reservar consulta virtual",
+      "virtual_link": "Google Meet (Previa cita)",
       "follow": "Redes Sociales",
       "follow_link": ""
     }
