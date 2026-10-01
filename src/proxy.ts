@@ -14,7 +14,11 @@ export function proxy(request: NextRequest) {
     pathname.startsWith('/Logo') ||
     pathname === '/favicon.ico' ||
     pathname === '/site.webmanifest' ||
-    pathname.startsWith('/tarjeta')
+    pathname.startsWith('/tarjeta') ||
+    pathname === '/robots.txt' ||
+    pathname === '/sitemap.xml' ||
+    pathname === '/llms.txt' ||
+    pathname.startsWith('/fonts')
   ) {
     return;
   }
@@ -34,6 +38,6 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|llms.txt).*)',
   ],
 };

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import LogoSVG from '@/components/Logo';
 import '../globals.css';
 
@@ -214,7 +215,7 @@ export default function TarjetaPage() {
               text-align: left;
             }
 
-            .tarjeta-areas h3 {
+            .tarjeta-areas h2 {
               margin: 0 0 0.9rem;
               color: var(--text-muted);
               font-size: 0.76rem;
@@ -372,9 +373,9 @@ export default function TarjetaPage() {
             </a>
           </div>
 
-          <a href="/" className="tarjeta-site-link">
+          <Link href="/" className="tarjeta-site-link">
             Visitar MAC Consultores Jurídicos →
-          </a>
+          </Link>
 
           <section className="tarjeta-areas" aria-labelledby="areas-practica">
             <h2 id="areas-practica">Áreas de práctica</h2>

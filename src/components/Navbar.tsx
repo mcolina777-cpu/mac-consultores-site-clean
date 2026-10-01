@@ -74,16 +74,37 @@ export function resolveLocalizedUrl(targetLocale: string, currentPath: string): 
   return localizedBase + search + hash;
 }
 
-export default function Navbar({ dict, locale }: { dict: any, locale: string }) {
+export default function Navbar({ dict, locale }: { dict: Record<string, string>, locale: string }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
+  const [prevPathname, setPrevPathname] = useState(pathname);
   const [extraUrlPath, setExtraUrlPath] = useState('');
 
   const closeMenu = () => setIsMobileMenuOpen(false);
 
+  // Sincronizar cierre del menú si la ruta cambió (ej. navegación Atrás/Adelante) sin causar efecto en cascada
+  if (prevPathname !== pathname) {
+    setPrevPathname(pathname);
+    if (isMobileMenuOpen) {
+      setIsMobileMenuOpen(false);
+    }
+  }
+
+  // Cerrar menú con la tecla Escape cuando el menú móvil está abierto
   useEffect(() => {
-    setIsMobileMenuOpen(false);
-  }, [pathname]);
+    if (!isMobileMenuOpen) return;
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        closeMenu();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isMobileMenuOpen]);
 
   // Capturar query parameters y hash del cliente de forma reactiva
   useEffect(() => {
@@ -128,7 +149,7 @@ export default function Navbar({ dict, locale }: { dict: any, locale: string }) 
   return (
     <nav>
       <div className="container">
-        <Link href={getRoute(locale, "home")} className="logo no-underline">
+        <Link href={getRoute(locale, "home")} className="logo no-underline" onClick={closeMenu}>
           <LogoSVG />
         </Link>
         
@@ -154,6 +175,7 @@ export default function Navbar({ dict, locale }: { dict: any, locale: string }) 
             <Link 
               href={getLocalizedUrl('es')}
               className={`lang-btn ${locale === 'es' ? 'active' : ''}`}
+              onClick={closeMenu}
             >
               ES
             </Link>
@@ -161,6 +183,7 @@ export default function Navbar({ dict, locale }: { dict: any, locale: string }) 
             <Link 
               href={getLocalizedUrl('en')}
               className={`lang-btn ${locale === 'en' ? 'active' : ''}`}
+              onClick={closeMenu}
             >
               EN
             </Link>

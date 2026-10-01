@@ -107,10 +107,14 @@ export default function PreliminaryAssessmentModal({ dict, locale }: AssessmentM
   const overlayRef = useRef<HTMLDivElement | null>(null);
   const modalContainerRef = useRef<HTMLDivElement | null>(null);
   const closeBtnRef = useRef<HTMLButtonElement | null>(null);
-  const formOpenedAtRef = useRef<number>(Date.now());
+  const formOpenedAtRef = useRef<number>(0);
 
   const t = dict || {};
   const isEs = locale === 'es';
+
+  const handleCloseModal = () => {
+    setIsOpen(false);
+  };
 
   // Body scroll lock & focus management
   useEffect(() => {
@@ -162,10 +166,6 @@ export default function PreliminaryAssessmentModal({ dict, locale }: AssessmentM
       };
     }
   }, [isOpen]);
-
-  const handleCloseModal = () => {
-    setIsOpen(false);
-  };
 
   const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if (e.target === overlayRef.current) {

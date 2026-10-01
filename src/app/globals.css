@@ -10,6 +10,12 @@
   --primary-dark: #001f38;
   --accent: #D4AF37;
   --accent-light: #E5C369;
+  --accent-text: #8C6D1F;
+
+  /* Card surface aliases */
+  --color-bg-card: #FFFFFF;
+  --color-border: rgba(0, 56, 101, 0.08);
+  --color-primary: #003865;
 
   /* Backgrounds */
   --bg-white: #FFFFFF;
@@ -207,7 +213,7 @@ nav .nav-links a {
 }
 
 .lang-btn.active {
-    color: var(--accent);
+    color: var(--accent-text);
     border-bottom: 2px solid var(--accent); /* Resalta el idioma activo */
 }
 
@@ -395,7 +401,7 @@ nav .nav-links a {
 }
 
 .breadcrumb {
-    color: var(--accent);
+    color: var(--accent-text);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -414,7 +420,7 @@ section {
 }
 
 .section-tag {
-    color: var(--accent);
+    color: var(--accent-text);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -577,7 +583,7 @@ section {
 
 .news-link {
     margin-top: auto; 
-    color: var(--accent); 
+    color: var(--accent-text); 
     font-weight: 600; 
     font-size: 0.8rem; 
     letter-spacing: 1px;
@@ -586,7 +592,7 @@ section {
 .card-link {
     margin-top: auto;
     display: inline-block;
-    color: var(--accent);
+    color: var(--accent-text);
     font-weight: 600;
     font-size: 0.85rem;
     letter-spacing: 1px;
@@ -594,8 +600,14 @@ section {
     text-decoration: none;
 }
 
-.card-link:hover {
-    color: var(--accent-light);
+.card-link:hover,
+.card-link:focus-visible,
+.news-link:hover,
+.news-link:focus-visible {
+    color: var(--accent-text);
+    text-decoration: underline;
+    text-underline-offset: 0.22em;
+    text-decoration-thickness: 1px;
 }
 
 .card-excerpt {
@@ -1805,14 +1817,17 @@ footer,
 /* Daily insight mobile moved to unified block */
 
 .contact-list a {
-    color: var(--accent);
+    color: var(--accent-text);
     font-weight: 600;
     text-decoration: none;
 }
 
-.contact-list a:hover {
-    color: var(--accent-light);
+.contact-list a:hover,
+.contact-list a:focus-visible {
+    color: var(--accent-text);
     text-decoration: underline;
+    text-underline-offset: 0.22em;
+    text-decoration-thickness: 1px;
 }
 
 /* Language Selector Styles */
@@ -1843,7 +1858,7 @@ footer,
 }
 
 .lang-btn.active {
-    color: var(--accent);
+    color: var(--accent-text);
     font-weight: 700;
     border-bottom: 1.5px solid var(--accent);
 }
@@ -2529,7 +2544,7 @@ footer,
 
 .brand-handle {
     font-size: 0.8rem;
-    color: var(--accent);
+    color: var(--accent-text);
     font-weight: 500;
     font-family: var(--font-inter), 'Inter', sans-serif;
 }
@@ -2611,7 +2626,7 @@ footer,
 
 .text-primary { color: var(--primary); }
 .text-accent { color: var(--accent); }
-.text-accent-bold { color: var(--accent); font-weight: bold; }
+.text-accent-bold { color: var(--accent-text); font-weight: bold; }
 .text-muted { color: var(--text-muted); }
 
 .heading-xl { font-size: 3rem; }
@@ -2622,7 +2637,7 @@ footer,
   font-size: 1.5rem;
   font-style: italic;
   margin-top: 2rem;
-  border-left: 4px solid var(--primary-color);
+  border-left: 4px solid var(--primary);
   padding-left: 1rem;
 }
 
@@ -2631,7 +2646,14 @@ footer,
 .contact-info-list { display: flex; flex-direction: column; gap: 1.5rem; }
 .contact-subtitle-border { border-bottom: 1px solid rgba(0, 56, 101, 0.1); padding-bottom: 0.5rem; display: inline-block; }
 .sticky-card { position: sticky; top: 120px; }
-.card-action-link { margin-top: auto; color: var(--accent); font-weight: 600; font-size: 0.8rem; letter-spacing: 1px; }
+.card-action-link { margin-top: auto; color: var(--accent-text); font-weight: 600; font-size: 0.8rem; letter-spacing: 1px; }
+.card-action-link:hover,
+.card-action-link:focus-visible {
+  color: var(--accent-text);
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: 1px;
+}
 
 .form-label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
 .form-input { width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px; }
@@ -2734,7 +2756,7 @@ footer,
 /* Accesibilidad: Estilos de foco visibles para teclado */
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid var(--accent, #D4AF37);
+  outline: 2px solid var(--primary);
   outline-offset: 4px;
 }
 

@@ -19,6 +19,11 @@ const ARIA_LABELS = {
   en: "Contact WhatsApp",
 };
 
+const TITLES = {
+  es: "WhatsApp solo para coordinación inicial",
+  en: "WhatsApp for initial coordination only",
+};
+
 interface WhatsAppFloatButtonProps {
   locale?: string;
 }
@@ -40,6 +45,7 @@ export default function WhatsAppFloatButton({ locale: propLocale }: WhatsAppFloa
 
   const message = isEnglish ? WHATSAPP_MESSAGES.en : WHATSAPP_MESSAGES.es;
   const ariaLabel = isEnglish ? ARIA_LABELS.en : ARIA_LABELS.es;
+  const title = isEnglish ? TITLES.en : TITLES.es;
 
   const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(
     message
@@ -52,7 +58,7 @@ export default function WhatsAppFloatButton({ locale: propLocale }: WhatsAppFloa
       target="_blank"
       rel="noopener noreferrer"
       aria-label={ariaLabel}
-      title="WhatsApp solo para coordinación inicial"
+      title={title}
     >
       <span className="mac-whatsapp-icon">
         <svg
