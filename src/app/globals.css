@@ -2662,6 +2662,58 @@ footer,
 .form-hint-center { margin-top: 1rem; font-size: 0.8rem; text-align: center; color: #666; }
 .font-inherit { font-family: inherit; }
 
+/* Selectores desplegables exclusivos de Contacto (Normalización uniforme para Chrome, Comet y Safari) */
+.page-contacto .contact-select-wrapper {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.page-contacto .contact-select {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 2.75rem;
+  background-color: var(--bg-white, #ffffff);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* Indicador decorativo institucional exclusivo (Chevron hacia abajo) */
+.page-contacto .contact-select-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 1.1rem;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23003865' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.page-contacto .contact-select-wrapper:hover::after {
+  opacity: 1;
+}
+
+/* Estados de interacción y accesibilidad (foco visible y accesible) */
+.page-contacto .contact-select:focus {
+  outline: none;
+  border-color: var(--accent, #D4AF37);
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.25);
+}
+
+.page-contacto .contact-select:focus-visible {
+  outline: 2px solid var(--accent, #D4AF37);
+  outline-offset: 2px;
+}
+
 /* WhatsApp Float Button */
 .mac-whatsapp-float {
   position: fixed;

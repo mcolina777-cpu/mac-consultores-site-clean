@@ -118,14 +118,15 @@ export default function ContactFormSelectors({
         <label htmlFor="contact_motivo" className="form-label">
           {dict?.contacto?.form?.label_reason}
         </label>
-        <select
-          id="contact_motivo"
-          className="form-input font-inherit"
-          name="motivo"
-          required
-          value={selectedMotivo}
-          onChange={handleMotivoChange}
-        >
+        <div className="contact-select-wrapper">
+          <select
+            id="contact_motivo"
+            className="form-input font-inherit contact-select"
+            name="motivo"
+            required
+            value={selectedMotivo}
+            onChange={handleMotivoChange}
+          >
           <option value="" disabled>
             {dict?.contacto?.form?.reason_default}
           </option>
@@ -187,6 +188,7 @@ export default function ContactFormSelectors({
             {dict?.contacto?.form?.reason_opt6}
           </option>
         </select>
+        </div>
         {dict?.contacto?.form?.hint_practice && (
           <small className="form-hint form-hint-text">
             {dict.contacto.form.hint_practice}
@@ -209,35 +211,37 @@ export default function ContactFormSelectors({
           <label htmlFor="contact_naturaleza_penal" className="form-label">
             {dict?.contacto?.form?.label_penal}
           </label>
-          <select
-            id="contact_naturaleza_penal"
-            className="form-input font-inherit"
-            name="naturaleza-penal"
-            value={naturalezaPenal}
-            onChange={(e) => setNaturalezaPenal(e.target.value)}
-          >
-            <option value={defaultPenalValue}>
-              {dict?.contacto?.form?.penal_default}
-            </option>
-            <option
-              value={
-                locale === "es"
-                  ? "Delitos Económicos / Financieros"
-                  : "Economic / Financial Crimes"
-              }
+          <div className="contact-select-wrapper">
+            <select
+              id="contact_naturaleza_penal"
+              className="form-input font-inherit contact-select"
+              name="naturaleza-penal"
+              value={naturalezaPenal}
+              onChange={(e) => setNaturalezaPenal(e.target.value)}
             >
-              {dict?.contacto?.form?.penal_opt1}
-            </option>
-            <option
-              value={
-                locale === "es"
-                  ? "Legitimación de Capitales / Delitos Financieros"
-                  : "Money Laundering / Financial Crimes"
-              }
-            >
-              {dict?.contacto?.form?.penal_opt2}
-            </option>
-          </select>
+              <option value={defaultPenalValue}>
+                {dict?.contacto?.form?.penal_default}
+              </option>
+              <option
+                value={
+                  locale === "es"
+                    ? "Delitos Económicos / Financieros"
+                    : "Economic / Financial Crimes"
+                }
+              >
+                {dict?.contacto?.form?.penal_opt1}
+              </option>
+              <option
+                value={
+                  locale === "es"
+                    ? "Legitimación de Capitales / Delitos Financieros"
+                    : "Money Laundering / Financial Crimes"
+                }
+              >
+                {dict?.contacto?.form?.penal_opt2}
+              </option>
+            </select>
+          </div>
         </div>
       ) : (
         <input type="hidden" name="naturaleza-penal" value={defaultPenalValue} />
@@ -247,27 +251,29 @@ export default function ContactFormSelectors({
         <label htmlFor="contact_urgency" className="form-label">
           {dict?.contacto?.form?.label_urgency}
         </label>
-        <select
-          id="contact_urgency"
-          className="form-input font-inherit"
-          name="urgency"
-          required
-          value={selectedUrgency}
-          onChange={(e) => setSelectedUrgency(e.target.value)}
-        >
-          <option value="" disabled>
-            {dict?.contacto?.form?.urgency_default}
-          </option>
-          <option value="standard">
-            {dict?.contacto?.form?.urgency_opt1}
-          </option>
-          <option value="priority">
-            {dict?.contacto?.form?.urgency_opt2}
-          </option>
-          <option value="immediate">
-            {dict?.contacto?.form?.urgency_opt3}
-          </option>
-        </select>
+        <div className="contact-select-wrapper">
+          <select
+            id="contact_urgency"
+            className="form-input font-inherit contact-select"
+            name="urgency"
+            required
+            value={selectedUrgency}
+            onChange={(e) => setSelectedUrgency(e.target.value)}
+          >
+            <option value="" disabled>
+              {dict?.contacto?.form?.urgency_default}
+            </option>
+            <option value="standard">
+              {dict?.contacto?.form?.urgency_opt1}
+            </option>
+            <option value="priority">
+              {dict?.contacto?.form?.urgency_opt2}
+            </option>
+            <option value="immediate">
+              {dict?.contacto?.form?.urgency_opt3}
+            </option>
+          </select>
+        </div>
       </div>
     </>
   );
