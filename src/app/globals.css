@@ -2904,6 +2904,14 @@ body.nav-open {
   accent-color: var(--primary);
 }
 
+.contact-checkbox + label,
+.form-group:has(.contact-checkbox) label,
+.page-contacto .form-group:has(.contact-checkbox) label {
+  flex: 1 1 0%;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
 /* Corrección de filas de checkbox en pantallas de escritorio */
 @media (min-width: 1025px) {
   .form-group:has(.contact-checkbox) {
@@ -2942,14 +2950,18 @@ body.nav-open {
     align-items: center;
   }
 
-  .contact-checkbox {
-    width: 22px;
-    height: 22px;
-    min-width: 22px;
-    min-height: 22px;
-    margin-top: 2px;
-    flex-shrink: 0;
-    cursor: pointer;
+  .contact-checkbox,
+  .page-contacto .form-group input.contact-checkbox,
+  .page-contacto input[type="checkbox"].contact-checkbox {
+    width: 22px !important;
+    height: 22px !important;
+    min-width: 22px !important;
+    min-height: 22px !important;
+    max-width: 22px !important;
+    flex: 0 0 22px !important;
+    padding: 0 !important;
+    border: none !important;
+    box-sizing: border-box;
   }
 
   .form-group:has(.contact-checkbox) {
