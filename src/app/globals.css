@@ -2289,7 +2289,7 @@ footer,
     }
     
     .page-contacto .form-card {
-        padding: 25px 20px;
+        padding: 25px 20px calc(80px + env(safe-area-inset-bottom, 0px));
     }
     
     .page-contacto .form-group input,
@@ -2679,10 +2679,42 @@ footer,
   }
 
   .page-contacto .contact-info.sticky-card {
+    position: static;
+    top: auto;
+    align-self: auto;
+  }
+}
+
+/* Activación condicional de columna sticky exclusivamente en escritorios con altura suficiente (evita sticky trap) */
+@media (min-width: 1025px) and (min-height: 980px) {
+  .page-contacto .contact-info.sticky-card {
     position: -webkit-sticky;
     position: sticky;
     top: 120px;
     align-self: start;
+  }
+}
+
+/* Corrección 1: Formulario en una sola columna hasta 1024px inclusive para evitar quiebre de subcolumnas en tabletas */
+@media (max-width: 1024px) {
+  .page-contacto .form-grid-mobile {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Corrección 5: Optimización de holgura y padding en pantallas ultra compactas (320px a 360px) */
+@media (max-width: 360px) {
+  .page-contacto .container {
+    padding: 0 12px;
+  }
+
+  .page-contacto .form-card {
+    padding: 20px 14px calc(80px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .page-contacto .channel-card {
+    padding: 0.8rem 1rem;
+    gap: 0.75rem;
   }
 }
 
@@ -2734,16 +2766,34 @@ footer,
   opacity: 1;
 }
 
-/* Estados de interacción y accesibilidad (foco visible y accesible) */
+/* Corrección 2: Prevención de zoom automático en iOS Safari (fuente base 16px en todos los controles interactivos de Contacto) */
+.page-contacto .form-input,
+.page-contacto .contact-select,
+.page-contacto .form-textarea,
+.page-contacto .form-group input,
+.page-contacto .form-group select,
+.page-contacto .form-group textarea {
+  font-size: 16px;
+}
+
+/* Corrección 6: Estados de interacción y accesibilidad homologados (foco visible y accesible con contraste WCAG 2.1 AA) */
 .page-contacto .contact-select:focus {
   outline: none;
   border-color: var(--accent, #D4AF37);
   box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.25);
 }
 
-.page-contacto .contact-select:focus-visible {
+.page-contacto .form-group input:focus,
+.page-contacto .form-group textarea:focus {
+  border-color: var(--accent, #D4AF37);
+}
+
+.page-contacto .contact-select:focus-visible,
+.page-contacto .form-group input:focus-visible,
+.page-contacto .form-group textarea:focus-visible {
   outline: 2px solid var(--accent, #D4AF37);
   outline-offset: 2px;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.25);
 }
 
 /* WhatsApp Float Button */
