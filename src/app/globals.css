@@ -2335,6 +2335,12 @@ footer,
         grid-template-columns: 1fr;
         gap: 2rem !important; /* Se mantiene por si compite con el grid general */
     }
+
+    .page-contacto .contact-info.sticky-card {
+        position: static !important;
+        top: auto;
+        align-self: auto;
+    }
     
     .form-card {
         position: static !important;
