@@ -85,25 +85,6 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
       </header>
 
       <section>
-        <style>{`
-          @media (min-width: 769px) {
-            .page-contacto .contact-grid-start {
-              grid-template-columns: 380px 1fr;
-              gap: 2.5rem;
-              align-items: start;
-            }
-            .page-contacto .contact-info.sticky-card {
-              position: sticky;
-              top: 120px;
-              align-self: start;
-            }
-          }
-          @media (max-width: 768px) {
-            .page-contacto .contact-info.sticky-card {
-              position: static !important;
-            }
-          }
-        `}</style>
         <div className="container">
           <div className="grid-2 contact-grid-start">
             <div className="contact-info sticky-card">

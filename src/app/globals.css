@@ -2654,6 +2654,32 @@ footer,
   text-decoration-thickness: 1px;
 }
 
+@media (min-width: 769px) {
+  .page-contacto .container {
+    width: 100%;
+  }
+
+  .page-contacto .contact-grid-start {
+    width: 100%;
+    grid-template-columns: 380px minmax(0, 1fr);
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  .page-contacto .contact-info,
+  .page-contacto .form-column {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .page-contacto .contact-info.sticky-card {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 120px;
+    align-self: start;
+  }
+}
+
 .form-label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
 .form-input { width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px; }
 .form-textarea { width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; resize: vertical; }
