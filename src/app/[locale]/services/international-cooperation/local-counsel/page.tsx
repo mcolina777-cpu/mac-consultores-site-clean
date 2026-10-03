@@ -78,7 +78,6 @@ export default async function LocalCounselPage({ params }: { params: Promise<{ l
                   lineHeight: 1.75,
                   fontSize: '1.05rem',
                   color: 'var(--text-main, #1f2937)',
-                  textAlign: 'justify',
                 }}
               >
                 {data?.intro?.p1}
@@ -91,7 +90,6 @@ export default async function LocalCounselPage({ params }: { params: Promise<{ l
                   lineHeight: 1.75,
                   fontSize: '1.05rem',
                   color: 'var(--text-main, #1f2937)',
-                  textAlign: 'justify',
                 }}
               >
                 {data?.intro?.p2}
@@ -104,7 +102,6 @@ export default async function LocalCounselPage({ params }: { params: Promise<{ l
                   lineHeight: 1.75,
                   fontSize: '1.05rem',
                   color: 'var(--text-main, #1f2937)',
-                  textAlign: 'justify',
                 }}
               >
                 {data?.intro?.p3}
@@ -117,7 +114,6 @@ export default async function LocalCounselPage({ params }: { params: Promise<{ l
                   lineHeight: 1.75,
                   fontSize: '1.05rem',
                   color: 'var(--text-main, #1f2937)',
-                  textAlign: 'justify',
                 }}
               >
                 {data?.intro?.p4}
@@ -145,7 +141,6 @@ export default async function LocalCounselPage({ params }: { params: Promise<{ l
                   lineHeight: 1.75,
                   fontSize: '1.05rem',
                   color: 'var(--text-main, #1f2937)',
-                  textAlign: 'justify',
                 }}
               >
                 {data?.approach?.p1}
@@ -158,7 +153,6 @@ export default async function LocalCounselPage({ params }: { params: Promise<{ l
                   lineHeight: 1.75,
                   fontSize: '1.05rem',
                   color: 'var(--text-main, #1f2937)',
-                  textAlign: 'justify',
                 }}
               >
                 {data?.approach?.p2}
@@ -171,7 +165,6 @@ export default async function LocalCounselPage({ params }: { params: Promise<{ l
                   lineHeight: 1.75,
                   fontSize: '1.05rem',
                   color: 'var(--text-main, #1f2937)',
-                  textAlign: 'justify',
                 }}
               >
                 {data?.approach?.p3}

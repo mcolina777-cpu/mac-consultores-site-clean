@@ -54,9 +54,9 @@ export default async function ContratosInternacionalesPage({ params }: { params:
         >
           {/* Intro Section */}
           <div className="mb-3rem">
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.intro?.p1}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.intro?.p2}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.intro?.p3}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.intro?.p1}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.intro?.p2}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.intro?.p3}</p>
           </div>
 
           {/* When we intervene */}
@@ -72,11 +72,11 @@ export default async function ContratosInternacionalesPage({ params }: { params:
           {/* Our approach */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">{data?.approach?.title}</h2>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p1}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p2}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p3}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p4}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', textAlign: 'justify' }}>{data?.approach?.p5}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p1}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p2}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p3}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p4}</p>
+            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p5}</p>
           </div>
         </div>
       </section>
