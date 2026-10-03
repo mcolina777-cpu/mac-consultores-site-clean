@@ -460,7 +460,6 @@ export default function PreliminaryAssessmentModal({ dict, locale }: AssessmentM
               type="button"
               onClick={() => setIsOpen(true)}
               className="btn btn-primary"
-              style={{ whiteSpace: 'nowrap' }}
               aria-haspopup="dialog"
             >
               {t.trigger_button ||

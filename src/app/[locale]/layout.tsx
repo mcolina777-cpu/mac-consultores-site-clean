@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import "../globals.css";
 import Navbar from "@/components/Navbar";
@@ -17,6 +17,12 @@ const inter = Inter({
   weight: ["300", "400", "500", "600"],
   variable: "--font-inter",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://mac-consultores-site-clean.vercel.app'),

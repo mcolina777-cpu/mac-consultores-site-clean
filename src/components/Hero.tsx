@@ -61,7 +61,6 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
       className="hero"
       style={{
         position: 'relative',
-        minHeight: '85vh',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
