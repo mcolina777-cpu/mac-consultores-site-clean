@@ -2709,8 +2709,8 @@ footer,
   }
 }
 
-/* Activación condicional de columna sticky exclusivamente en escritorios con altura suficiente (evita sticky trap) */
-@media (min-width: 1025px) and (min-height: 980px) {
+/* Anclaje de la columna izquierda de Contacto en ventanas amplias con puntero principal preciso y capacidad de hover */
+@media (min-width: 1025px) and (hover: hover) and (pointer: fine) {
   .page-contacto .contact-info.sticky-card {
     position: -webkit-sticky;
     position: sticky;
