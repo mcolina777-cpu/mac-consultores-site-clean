@@ -178,19 +178,33 @@ export default async function ReglamentoProBono({ params }: { params: Promise<{ 
 
 
             {/* Cierre Institucional y Enlace de Retorno */}
-            <div className="text-center mt-4rem mb-2rem">
+            <div
+              className="card bg-soft p-3rem text-center mt-4rem mb-2rem"
+              style={{
+                border: '1px solid var(--border-color, #e5e7eb)',
+                borderRadius: '8px',
+              }}
+            >
               <p className="serif heading-md text-primary font-semibold mb-1rem">
                 {data?.closing_quote}
               </p>
               <p className="text-sm text-muted mb-2rem">
                 MAC CONSULTORES JURÍDICOS & ASOCIADOS
               </p>
-              <Link 
-                href={`${getRoute(locale, "contact")}?materia=probono#formulario-contacto`}
-                className="btn btn-primary"
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  flexWrap: 'wrap',
+                }}
               >
-                {data?.back_btn}
-              </Link>
+                <Link 
+                  href={`${getRoute(locale, "contact")}?materia=probono#formulario-contacto`}
+                  className="btn btn-primary"
+                >
+                  {data?.back_btn}
+                </Link>
+              </div>
             </div>
 
           </div>
