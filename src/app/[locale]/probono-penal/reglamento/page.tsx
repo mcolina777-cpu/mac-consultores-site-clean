@@ -51,6 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function ReglamentoProBono({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const isEs = locale === 'es';
   const dict = await getDictionary(locale);
   const data = dict?.reglamento_pro_bono;
 
@@ -175,38 +176,56 @@ export default async function ReglamentoProBono({ params }: { params: Promise<{ 
               </div>
             </div>
 
+          </div>
+        </div>
+      </section>
 
+      {/* Cierre Institucional y Enlace de Retorno */}
+      <section className="bg-soft section-padding-asym">
+        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
+          <div
+            className="card bg-soft p-3rem text-center"
+            style={{
+              border: '1px solid var(--border-color, #e5e7eb)',
+              borderRadius: '8px',
+            }}
+          >
+            <span className="section-tag">
+              {isEs ? 'COMPROMISO CON EL ACCESO A LA JUSTICIA' : 'COMMITMENT TO ACCESS TO JUSTICE'}
+            </span>
 
-            {/* Cierre Institucional y Enlace de Retorno */}
+            <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
+              {data?.closing_quote}
+            </h3>
+
+            <p
+              className="max-w-800 mx-auto mb-2rem text-muted"
+              style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
+            >
+              {isEs
+                ? 'La presentación de una solicitud no implica su admisión. Su evaluación se rige por los requisitos, el alcance y los límites establecidos en este Reglamento.'
+                : 'Submitting an application does not imply acceptance. Applications are assessed in accordance with the requirements, scope and limitations set out in these Regulations.'}
+            </p>
+
             <div
-              className="card bg-soft p-3rem text-center mt-4rem mb-2rem"
               style={{
-                border: '1px solid var(--border-color, #e5e7eb)',
-                borderRadius: '8px',
+                display: 'flex',
+                gap: '1rem',
+                justifyContent: 'center',
+                flexWrap: 'wrap',
               }}
             >
-              <p className="serif heading-md text-primary font-semibold mb-1rem">
-                {data?.closing_quote}
-              </p>
-              <p className="text-sm text-muted mb-2rem">
-                MAC CONSULTORES JURÍDICOS & ASOCIADOS
-              </p>
-              <div
-                style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  flexWrap: 'wrap',
-                }}
+              <Link
+                href={`${getRoute(locale, "contact")}?materia=probono#formulario-contacto`}
+                className="btn btn-primary"
               >
-                <Link 
-                  href={`${getRoute(locale, "contact")}?materia=probono#formulario-contacto`}
-                  className="btn btn-primary"
-                >
-                  {data?.back_btn}
-                </Link>
-              </div>
-            </div>
+                {data?.back_btn}
+              </Link>
 
+              <Link href={getRoute(locale, "probonoPenal")} className="btn btn-secondary">
+                {isEs ? '← VOLVER A PRO BONO' : '← BACK TO PRO BONO'}
+              </Link>
+            </div>
           </div>
         </div>
       </section>
