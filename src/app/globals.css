@@ -3182,6 +3182,27 @@ body.nav-open {
   }
 }
 
+/* Corrección localizada: tarjeta de correo de Mac Legal Intelligence */
+@media (max-width: 480px) {
+  #solicitud-evaluacion .channel-card {
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  #solicitud-evaluacion .channel-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  #solicitud-evaluacion .channel-value {
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}
+
 /* Estandarización tipográfica con molde rígido anti-parpadeo (Layout Shift) */
 .card p,
 .card-editorial-text {
