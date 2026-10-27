@@ -218,6 +218,23 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
         </div>
       </section>
 
+      {/* SECCIÓN EDITORIAL: REPRESENTACIÓN Y DOCUMENTACIÓN TRANSFRONTERIZA */}
+      <section className="section-padding-asym">
+        <div className="container">
+          <div className="layout-reading">
+            <span className="section-tag">
+              {dict?.tramites_consulares?.editorial?.tag}
+            </span>
+            <h2 className="serif heading-lg mb-1-5rem">
+              {dict?.tramites_consulares?.editorial?.title}
+            </h2>
+            {dict?.tramites_consulares?.editorial?.paragraphs?.map((p: string, idx: number) => (
+              <p key={idx}>{p}</p>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CIERRE INSTITUCIONAL */}
       <section className="bg-soft section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>

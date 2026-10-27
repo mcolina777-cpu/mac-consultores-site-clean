@@ -283,6 +283,23 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
         </div>
       </section>
 
+      {/* SECCIÓN EDITORIAL: ANÁLISIS SUSTANTIVO Y ESTRATEGIA PROCESAL */}
+      <section className="section-padding-asym">
+        <div className="container">
+          <div className="layout-reading">
+            <span className="section-tag">
+              {dict?.services?.editorial?.tag}
+            </span>
+            <h2 className="serif heading-lg mb-1-5rem">
+              {dict?.services?.editorial?.title}
+            </h2>
+            {dict?.services?.editorial?.paragraphs?.map((p: string, idx: number) => (
+              <p key={idx}>{p}</p>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="bg-soft section-padding-asym">
         <div
           className="container"

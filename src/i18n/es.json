@@ -490,6 +490,15 @@
       "title": "Mac Legal Intelligence",
       "desc": "Monitoreo jurídico y regulatorio para empresas e inversionistas con actividades, operaciones o intereses en Venezuela, orientado a la identificación de riesgos normativos y contexto preventivo para la toma de decisiones.",
       "link": "VER DETALLES →"
+    },
+    "editorial": {
+      "tag": "ANÁLISIS SUSTANTIVO Y ESTRATEGIA PROCESAL",
+      "title": "Calificación jurídica de los hechos, delimitación de riesgos y alternativas de actuación",
+      "paragraphs": [
+        "La evaluación de un asunto requiere delimitar los hechos jurídicamente relevantes, identificar el régimen normativo aplicable y examinar los elementos documentales y probatorios disponibles. La concurrencia de cuestiones penales, constitucionales, patrimoniales o regulatorias exige distinguir los presupuestos de cada ámbito, sin perder de vista sus posibles conexiones. La calificación jurídica constituye así un punto de partida para determinar qué controversias deben examinarse y cuáles son las alternativas de actuación que merecen consideración.",
+        "Las áreas de práctica reunidas en esta página permiten aproximarse a esas cuestiones desde perspectivas diferenciadas y complementarias. La prevención jurídica, la defensa técnica y la tutela de derechos responden a finalidades propias, cuya articulación requiere atender tanto al contenido sustantivo del problema como a su dimensión procesal. La pertinencia de una actuación debe valorarse en función de la pretensión, la posición jurídica de los interesados, los antecedentes y las condiciones del asunto concreto.",
+        "La delimitación de un eventual encargo profesional exige precisar su objeto, alcance y finalidad. También requiere distinguir entre la formulación de una consulta, la emisión de una opinión jurídica y la intervención en un procedimiento. Esta precisión permite organizar el análisis, identificar la información necesaria y establecer los límites de la actuación solicitada, sin anticipar conclusiones sobre su viabilidad ni sobre el resultado de una controversia."
+      ]
     }
   },
   "cta": {
@@ -610,6 +619,15 @@
       "label_message": "Mensaje / Requerimiento",
       "placeholder_message": "Describa brevemente el trámite o caso judicial en Venezuela",
       "btn": "ENVIAR SOLICITUD DE EVALUACIÓN"
+    },
+    "editorial": {
+      "tag": "REPRESENTACIÓN Y DOCUMENTACIÓN TRANSFRONTERIZA",
+      "title": "Delimitación del mandato y examen de documentos para actuaciones en Venezuela",
+      "paragraphs": [
+        "Los asuntos vinculados con Venezuela que deben atenderse desde el exterior plantean cuestiones de representación, documentación y coordinación jurídica. Su examen requiere identificar la naturaleza de la actuación pretendida, la autoridad o entidad ante la cual se desarrollaría y la posición jurídica del interesado. La distancia geográfica constituye una circunstancia de gestión, pero no sustituye el análisis de los presupuestos sustantivos y formales propios de cada asunto.",
+        "Cuando se contempla la intervención mediante representante, resulta necesario delimitar el objeto del mandato, la extensión de las facultades conferidas y su correspondencia con los actos que se pretenden realizar. En relación con documentos otorgados en el extranjero, interesa examinar su procedencia, contenido, finalidad y condiciones de utilización en Venezuela. La revisión debe diferenciar las cuestiones relativas a su autenticidad formal de aquellas concernientes a su contenido, eficacia y aptitud para sustentar la actuación solicitada.",
+        "La evaluación inicial también debe precisar los límites territoriales del encargo y distinguir las actuaciones situadas en el ámbito venezolano de las que puedan requerir asesoramiento en otra jurisdicción. La posibilidad de atender un asunto sin desplazamiento personal no debe presumirse: corresponde examinarla según el procedimiento y las circunstancias particulares. Una delimitación clara de estos elementos permite plantear la coordinación jurídica sin confundir representación local con habilitación profesional en el extranjero."
+      ]
     }
   },
   "colaboracion_internacional": {
@@ -754,6 +772,15 @@
         "submit": "Solicitar información",
         "privacy": "Su información será tratada con estricta confidencialidad."
       }
+    },
+    "editorial": {
+      "tag": "COOPERACIÓN LETRADA Y DELIMITACIÓN DEL ENCARGO",
+      "title": "Coordinación profesional, distribución de funciones y alcance de la intervención local",
+      "paragraphs": [
+        "La colaboración entre profesionales de distintas jurisdicciones requiere delimitar el objeto del encargo y la contribución jurídica que corresponde a cada participante. En los asuntos con elementos vinculados con Venezuela, interesa distinguir el análisis del derecho local, las actuaciones ante autoridades nacionales y su relación con la estrategia general del asunto. Esa delimitación permite identificar responsabilidades y evitar la superposición de funciones entre el despacho que solicita la colaboración y el profesional llamado a intervenir localmente.",
+        "La estructuración de un eventual encargo de corresponsalía exige precisar su alcance material, los interlocutores autorizados y los términos de coordinación. El tratamiento de la información, la confidencialidad y la identificación de posibles conflictos de interés son cuestiones que deben abordarse según las circunstancias de la relación profesional. También corresponde clarificar el papel de cada participante respecto del cliente y de las instrucciones que sustentan la intervención, sin presumir facultades ni compromisos ajenos al encargo.",
+        "La intervención como apoyo jurídico local debe entenderse dentro de los límites expresamente definidos para cada colaboración. Puede requerir un examen diferenciado de las cuestiones sustantivas, documentales o procesales comprendidas en la solicitud, sin que ello implique asumir la dirección integral del asunto. Este enfoque permite presentar la cooperación profesional como una relación delimitada por su objeto y responsabilidades, sin atribuirle la existencia de alianzas permanentes, redes internacionales o convenios no acreditados."
+      ]
     }
   },
   "empresas_extranjeras": {

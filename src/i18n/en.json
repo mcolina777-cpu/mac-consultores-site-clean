@@ -490,6 +490,15 @@
       "title": "Mac Legal Intelligence",
       "desc": "Legal and regulatory monitoring for companies and investors with activities, operations, or business interests in Venezuela, focused on identifying regulatory risks and providing preventive context for decision-making.",
       "link": "VIEW DETAILS →"
+    },
+    "editorial": {
+      "tag": "SUBSTANTIVE LEGAL ANALYSIS AND PROCEDURAL STRATEGY",
+      "title": "Legal characterisation of facts, risk assessment and available courses of action",
+      "paragraphs": [
+        "Assessing a legal matter requires identifying the legally relevant facts, determining the applicable legal framework and examining the available documents and evidence. Where criminal, constitutional, property-related or regulatory issues arise together, the requirements of each area must be distinguished without overlooking their possible connections. Legal characterisation therefore provides a starting point for determining which issues require examination and which courses of action warrant consideration.",
+        "The practice areas presented on this page approach these issues from distinct and complementary perspectives. Preventive legal advice, legal defence and the protection of rights serve different purposes. Coordinating them requires attention to both the substantive issues and their procedural dimensions. The appropriateness of a proposed step must be assessed in light of the claim or relief sought, the legal position of those concerned, the background and the circumstances of the particular matter.",
+        "Defining a prospective professional engagement requires clarity about its subject matter, scope and purpose. It also requires distinguishing between a consultation, a legal opinion and participation in proceedings. This distinction helps organise the analysis, identify the information required and establish the limits of the requested work, without prejudging its viability or the outcome of a dispute."
+      ]
     }
   },
   "cta": {
@@ -610,6 +619,15 @@
       "label_message": "Message / Request",
       "placeholder_message": "Briefly describe the transaction or legal case in Venezuela",
       "btn": "SUBMIT REQUEST FOR ASSESSMENT"
+    },
+    "editorial": {
+      "tag": "CROSS-BORDER REPRESENTATION AND DOCUMENTATION",
+      "title": "Defining the scope of authority and examining documents for legal matters in Venezuela",
+      "paragraphs": [
+        "Matters connected with Venezuela that must be handled from abroad raise questions of representation, documentation and legal coordination. Their assessment requires identifying the nature of the proposed action, the authority or entity before which it would take place and the legal position of the person concerned. Geographic distance is a practical consideration, but it does not replace examination of the substantive and formal requirements of each matter.",
+        "Where action through a representative is contemplated, it is necessary to define the purpose of the mandate, the extent of the authority granted and its correspondence with the intended acts. For documents executed abroad, their origin, content, purpose and conditions of use in Venezuela require examination. The review must distinguish questions of formal authenticity from those concerning the documents’ content, legal effect and suitability to support the requested action.",
+        "The initial assessment must also define the territorial scope of the engagement and distinguish matters within the Venezuelan legal sphere from those that may require advice in another jurisdiction. The possibility of handling a matter without personal travel should not be assumed: it must be examined in light of the procedure and particular circumstances. Clearly defining these elements supports legal coordination without confusing local representation with authorisation to practise abroad."
+      ]
     }
   },
   "colaboracion_internacional": {
@@ -754,6 +772,15 @@
         "submit": "Request information",
         "privacy": "Your information will be handled with strict confidentiality."
       }
+    },
+    "editorial": {
+      "tag": "LEGAL COLLABORATION AND SCOPE OF ENGAGEMENT",
+      "title": "Professional coordination, allocation of responsibilities and scope of local involvement",
+      "paragraphs": [
+        "Collaboration between legal professionals in different jurisdictions requires defining the subject matter of the engagement and each participant’s legal contribution. In matters connected with Venezuela, it is important to distinguish the analysis of local law, action before national authorities and their relationship to the overall strategy. This delineation helps identify responsibilities and avoid overlapping roles between the instructing firm and the professional engaged to act locally.",
+        "Structuring a prospective local counsel engagement requires clarity about its substantive scope, authorised points of contact and coordination arrangements. Information handling, confidentiality and the identification of potential conflicts of interest must be addressed according to the circumstances of the professional relationship. Each participant’s role in relation to the client and the instructions underlying the work must also be clarified, without assuming authority or commitments beyond the engagement.",
+        "Local legal support must remain within the limits expressly defined for each collaboration. It may require separate consideration of the substantive, documentary or procedural issues included in the request, without implying responsibility for the overall conduct of the matter. This approach presents professional cooperation as a relationship defined by its subject matter and responsibilities, without suggesting permanent alliances, international networks or agreements that have not been established."
+      ]
     }
   },
   "empresas_extranjeras": {

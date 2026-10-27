@@ -164,6 +164,23 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
         </div>
       </section>
 
+      {/* SECCIÓN EDITORIAL: COOPERACIÓN LETRADA Y DELIMITACIÓN DEL ENCARGO */}
+      <section className="section-padding-asym">
+        <div className="container">
+          <div className="layout-reading">
+            <span className="section-tag">
+              {data?.editorial?.tag}
+            </span>
+            <h2 className="serif heading-lg mb-1-5rem">
+              {data?.editorial?.title}
+            </h2>
+            {data?.editorial?.paragraphs?.map((p: string, idx: number) => (
+              <p key={idx}>{p}</p>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CIERRE INSTITUCIONAL */}
       <section className="bg-soft section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
