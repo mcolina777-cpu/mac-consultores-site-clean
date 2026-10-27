@@ -165,6 +165,37 @@ export default async function BlogIndex({ params }: Props) {
         </div>
       </section>
 
+      {/* SECCIÓN EDITORIAL: ANÁLISIS JURÍDICO Y PRÁCTICA FORENSE */}
+      <section className="section-padding-asym">
+        <div className="container">
+          <div className="layout-reading">
+            <span className="section-tag">
+              {isEs ? 'ANÁLISIS JURÍDICO Y PRÁCTICA FORENSE' : 'LEGAL ANALYSIS AND LITIGATION PRACTICE'}
+            </span>
+            <h2 className="serif heading-lg mb-1-5rem">
+              {isEs
+                ? 'La relación entre los hechos, la norma y la defensa de los derechos'
+                : 'The relationship between facts, law and the protection of rights'}
+            </h2>
+            <p>
+              {isEs
+                ? 'El estudio de un problema jurídico exige algo más que identificar una disposición legal. Requiere comprender los hechos, delimitar las cuestiones controvertidas y examinar los argumentos que pueden sostener distintas interpretaciones. En ese encuentro entre la norma y el caso concreto, el análisis jurídico adquiere su dimensión práctica: permite formular preguntas relevantes, reconocer dificultades y construir una posición razonada.'
+                : 'Examining a legal issue requires more than identifying a statutory provision. It involves understanding the facts, defining the issues in dispute and assessing the arguments that may support different interpretations. At the intersection of legal rules and the circumstances of a particular case, legal analysis takes on its practical role: helping to frame relevant questions, identify difficulties and develop a reasoned position.'}
+            </p>
+            <p>
+              {isEs
+                ? 'Este espacio propone una lectura que conecta el Derecho penal económico, el Derecho constitucional y el proceso penal con los problemas que surgen en la actuación profesional. Más allá de describir instituciones jurídicas, interesa examinar sus presupuestos, sus límites y las consecuencias de su aplicación. La atención a las garantías, a la prueba y a los requisitos procesales forma parte de esa perspectiva.'
+                : 'This section connects economic criminal law, constitutional law and criminal procedure with the issues that arise in legal practice. Beyond describing legal concepts, it examines their underlying requirements, their limits and the consequences of their application. Attention to legal safeguards, evidence and procedural requirements forms part of this perspective.'}
+            </p>
+            <p>
+              {isEs
+                ? 'Las publicaciones ofrecen un punto de partida para el estudio y la discusión, no respuestas automáticas para situaciones distintas. Su lectura invita a contrastar argumentos, revisar las fuentes citadas y distinguir entre una explicación general y las particularidades que pueden resultar decisivas en un asunto determinado.'
+                : 'These publications provide a starting point for study and discussion, rather than ready-made answers for different situations. They invite readers to compare arguments, review the cited sources and distinguish a general explanation from the particular circumstances that may prove decisive in an individual matter.'}
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* CIERRE INSTITUCIONAL */}
       <section className="bg-soft section-padding-asym">
         <div

@@ -202,6 +202,23 @@ export default async function Noticias({ params }: Props) {
         </div>
       </section>
 
+      {/* SECCIÓN EDITORIAL: CONTEXTO Y LECTURA REGULATORIA */}
+      <section className="section-padding-asym">
+        <div className="container">
+          <div className="layout-reading">
+            <span className="section-tag">
+              {dict?.noticias?.editorial_framework?.tag}
+            </span>
+            <h2 className="serif heading-lg mb-1-5rem">
+              {dict?.noticias?.editorial_framework?.title}
+            </h2>
+            {dict?.noticias?.editorial_framework?.paragraphs?.map((p: string, idx: number) => (
+              <p key={idx}>{p}</p>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CIERRE INSTITUCIONAL */}
       <section className="bg-soft section-padding-asym">
         <div
