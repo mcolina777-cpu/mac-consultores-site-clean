@@ -191,6 +191,10 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
               borderRadius: '8px',
             }}
           >
+            <span className="section-tag">
+              MAC CONSULTORES JURÍDICOS &amp; ASOCIADOS
+            </span>
+
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
                 ? 'Coordinación jurídica local para encargos internacionales.'
