@@ -255,6 +255,15 @@
       "desc": "Si su empresa, directiva o representación requiere asistencia técnica en controversias complejas en Venezuela, examinamos la viabilidad procesal de su caso con estricta reserva profesional.",
       "btn_primary": "SOLICITAR EVALUACIÓN DE ASUNTO",
       "btn_secondary": "VER ÁREAS DE PRÁCTICA →"
+    },
+    "editorial": {
+      "tag": "INDEPENDENCIA TÉCNICA Y RESPONSABILIDAD LETRADA",
+      "title": "La relación entre el encargo profesional, el juicio jurídico y la fundamentación de la defensa",
+      "paragraphs": [
+        "Los principios de independencia técnica, diligencia, transparencia y confidencialidad expuestos en esta página delimitan dimensiones complementarias del ejercicio profesional. La independencia concierne a la formación del juicio jurídico; la diligencia, al estudio y atención del asunto; la transparencia, a la comunicación de su alcance y dificultades; y la confidencialidad, al tratamiento de la información recibida. Su articulación permite explicar la relación entre la autonomía de criterio del abogado y la responsabilidad que asume frente a los intereses encomendados.",
+        "El encargo profesional determina el objeto de la intervención, pero no predetermina las conclusiones del análisis. La exposición del cliente aporta antecedentes y objetivos que deben distinguirse de su calificación jurídica y de las posibilidades de acreditación. La lealtad profesional se expresa en la defensa fundada de los intereses confiados, no en la confirmación de toda expectativa ni en la adopción de argumentos incompatibles con el examen de los hechos y del derecho. Comunicar una dificultad o advertir una limitación forma parte de esa relación de confianza.",
+        "La posición jurídica que finalmente se sostenga debe guardar correspondencia con los antecedentes examinados, las fuentes invocadas y el alcance del encargo. Su fundamentación requiere diferenciar las afirmaciones de hecho, el soporte probatorio y las razones jurídicas que sustentan la pretensión o la oposición. En esa correspondencia entre análisis, argumentación y actuación se concreta la perspectiva institucional de la firma: ejercer la defensa con independencia de criterio, claridad frente al cliente y respeto por las garantías y los cauces propios de cada procedimiento."
+      ]
     }
   },
   "ceo": {
@@ -1051,6 +1060,15 @@
       "title": "Inteligencia jurídica definida por las operaciones e intereses de su organización",
       "text": "Monitoreo y análisis jurídico configurados para organizaciones que requieren comprender los desarrollos normativos y regulatorios relevantes para sus actividades, inversiones y operaciones en Venezuela.",
       "cta": "Conocer Mac Legal Intelligence"
+    },
+    "editorial": {
+      "tag": "ANÁLISIS JURÍDICO Y ARTICULACIÓN DE LA DEFENSA",
+      "title": "De la delimitación del problema a la determinación de las alternativas jurídicas",
+      "paragraphs": [
+        "El análisis jurídico parte de la delimitación del supuesto de hecho y de la identificación de las cuestiones que requieren respuesta. No basta con establecer una secuencia de acontecimientos: es necesario distinguir los hechos alegados de los elementos disponibles para acreditarlos y precisar su relevancia respecto de las normas cuya aplicación se examina. Sobre esa base puede formularse una calificación jurídica inicial, sujeta a revisión cuando se incorporen nuevos antecedentes o se contrasten interpretaciones alternativas.",
+        "Esa calificación permite ordenar los distintos planos del asunto. La eventual relevancia penal de una conducta, la afectación de una garantía constitucional o la existencia de consecuencias patrimoniales plantean problemas relacionados, pero no equivalentes. Cada uno exige identificar sus propios presupuestos y distinguir entre la determinación del derecho o interés comprometido y los mecanismos previstos para su protección. La conexión entre materias requiere, por tanto, un análisis coordinado que preserve las diferencias entre sus respectivos objetos.",
+        "La determinación de las alternativas de actuación exige examinar, además, la posición jurídica del interesado, la finalidad perseguida y las condiciones sustantivas, procesales y probatorias de cada vía. La exposición de las áreas de práctica y los contenidos jurídicos de este sitio se sitúa dentro de esa secuencia: identificar el problema, comprender sus conexiones y reconocer las cuestiones que deben resolverse antes de definir una intervención profesional. La orientación general constituye un punto de partida, no una conclusión sobre la procedencia de una actuación concreta."
+      ]
     }
   },
   "landing_estrategia_teoria_caso": {

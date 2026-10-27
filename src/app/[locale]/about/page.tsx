@@ -379,6 +379,23 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
         </div>
       </section>
 
+      {/* SECCIÓN EDITORIAL: INDEPENDENCIA TÉCNICA Y RESPONSABILIDAD LETRADA */}
+      <section className="section-padding-asym">
+        <div className="container">
+          <div className="layout-reading">
+            <span className="section-tag">
+              {d?.editorial?.tag}
+            </span>
+            <h2 className="serif heading-lg mb-1-5rem">
+              {d?.editorial?.title}
+            </h2>
+            {d?.editorial?.paragraphs?.map((p: string, idx: number) => (
+              <p key={idx}>{p}</p>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* 9. CIERRE INSTITUCIONAL Y CTA */}
       <section className="bg-soft section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>

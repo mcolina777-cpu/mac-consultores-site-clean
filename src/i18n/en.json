@@ -255,6 +255,15 @@
       "desc": "If your organization, executive board, or international counsel requires specialized legal support in Venezuela, we evaluate your matter’s procedural feasibility under strict professional secrecy.",
       "btn_primary": "REQUEST A MATTER EVALUATION",
       "btn_secondary": "EXPLORE PRACTICE AREAS →"
+    },
+    "editorial": {
+      "tag": "INDEPENDENT LEGAL JUDGMENT AND PROFESSIONAL RESPONSIBILITY",
+      "title": "The relationship between the professional engagement, legal judgment and the reasoning underpinning a defence",
+      "paragraphs": [
+        "The principles of independent legal judgment, diligence, transparency and confidentiality presented on this page define complementary dimensions of professional practice. Independence concerns the formation of legal judgment; diligence, the examination and handling of the matter; transparency, communication of its scope and difficulties; and confidentiality, the handling of information received. Together, they explain the relationship between a lawyer’s autonomy of judgment and the responsibility assumed in protecting the interests entrusted to them.",
+        "The professional engagement defines the subject matter of the work, but does not predetermine the conclusions of the analysis. The client’s account provides background information and objectives that must be distinguished from their legal characterisation and the extent to which the relevant facts can be substantiated. Professional loyalty is expressed through the reasoned defence of entrusted interests, not through confirmation of every expectation or adoption of arguments inconsistent with examination of the facts and the law. Explaining a difficulty or identifying a limitation forms part of that relationship of trust.",
+        "The legal position ultimately advanced must be consistent with the background examined, the authorities and sources relied upon, and the scope of the engagement. Its reasoning requires a distinction between factual assertions, supporting evidence and the legal grounds for a claim or opposition. This correspondence between analysis, argument and action gives practical expression to the firm’s institutional perspective: conducting a defence with independent judgment, clarity in dealings with the client and respect for the safeguards and procedures applicable to each matter."
+      ]
     }
   },
   "ceo": {
@@ -1051,6 +1060,15 @@
       "title": "Legal intelligence defined by your organization’s operations and interests",
       "text": "Legal monitoring and analysis configured for organizations seeking to understand regulatory and legal developments relevant to their activities, investments, and operations in Venezuela.",
       "cta": "Explore Mac Legal Intelligence"
+    },
+    "editorial": {
+      "tag": "LEGAL ANALYSIS AND THE DEVELOPMENT OF A DEFENCE",
+      "title": "From defining the legal issue to identifying available courses of action",
+      "paragraphs": [
+        "Legal analysis begins by defining the factual circumstances and identifying the questions that require an answer. Establishing a sequence of events is not enough: the alleged facts must be distinguished from the material available to substantiate them, and their relevance to the legal provisions under consideration must be clarified. This provides the basis for an initial legal characterisation, subject to revision as further information becomes available or alternative interpretations are assessed.",
+        "That characterisation helps organise the different dimensions of the matter. The possible criminal implications of conduct, an infringement of a constitutional safeguard and the existence of consequences affecting property or financial interests raise related but distinct issues. Each requires identification of its own legal requirements and a distinction between determining the right or interest at stake and the mechanisms available for its protection. Connections between areas of law therefore require coordinated analysis that preserves their distinct subject matters.",
+        "Identifying available courses of action also requires examining the legal position of the person concerned, the objective pursued and the substantive, procedural and evidentiary requirements of each option. The practice areas and legal content presented on this website follow that sequence: identifying the problem, understanding its connections and recognising the questions that must be resolved before defining a professional engagement. General guidance provides a starting point, not a conclusion that a particular course of action is legally available or appropriate."
+      ]
     }
   },
   "landing_estrategia_teoria_caso": {

@@ -311,6 +311,23 @@ export default async function Home({ params }: Props) {
         </div>
       </section>
 
+      {/* SECCIÓN EDITORIAL: ANÁLISIS JURÍDICO Y ARTICULACIÓN DE LA DEFENSA */}
+      <section className="section-padding-asym">
+        <div className="container">
+          <div className="layout-reading">
+            <span className="section-tag">
+              {dict?.home?.editorial?.tag}
+            </span>
+            <h2 className="serif heading-lg mb-1-5rem">
+              {dict?.home?.editorial?.title}
+            </h2>
+            {dict?.home?.editorial?.paragraphs?.map((p: string, idx: number) => (
+              <p key={idx}>{p}</p>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CIERRE INSTITUCIONAL */}
       <section className="section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
