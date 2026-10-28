@@ -130,7 +130,7 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
           </div>
           
           {/* Grid de Tarjetas */}
-          <div className="grid-3" style={{ marginBottom: '6rem' }}>
+          <div className="grid-3">
             {/* TARJETA 1 (T1) */}
             <Link href={getRoute(locale, "services.local_counsel")} className="card block-link">
               <span className="section-tag">{data?.proposal?.card_1?.tag || "01"}</span>
