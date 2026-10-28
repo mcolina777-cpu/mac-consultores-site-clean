@@ -3682,5 +3682,32 @@ body.nav-open {
   }
 }
 
+/* Espaciado exclusivo de los siete complementos editoriales. */
+section.editorial-spacing.editorial-spacing {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+/* El espacio superior lo aporta la sección blanca precedente. */
+section.editorial-spacing.editorial-spacing--continuous {
+  padding-top: 0;
+}
+
+/* Eliminar solo el margen final de la lectura editorial. */
+section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  section.editorial-spacing.editorial-spacing {
+    padding-top: 24px;
+    padding-bottom: 20px;
+  }
+
+  section.editorial-spacing.editorial-spacing--continuous {
+    padding-top: 0;
+  }
+}
+
 
 

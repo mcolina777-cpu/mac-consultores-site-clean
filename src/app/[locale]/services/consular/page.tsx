@@ -219,7 +219,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
       </section>
 
       {/* SECCIÓN EDITORIAL: REPRESENTACIÓN Y DOCUMENTACIÓN TRANSFRONTERIZA */}
-      <section className="section-padding-asym">
+      <section className="section-padding-asym editorial-spacing editorial-spacing--continuous">
         <div className="container">
           <div className="layout-reading">
             <span className="section-tag">

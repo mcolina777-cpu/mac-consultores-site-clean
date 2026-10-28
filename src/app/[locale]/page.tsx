@@ -312,7 +312,7 @@ export default async function Home({ params }: Props) {
       </section>
 
       {/* SECCIÓN EDITORIAL: ANÁLISIS JURÍDICO Y ARTICULACIÓN DE LA DEFENSA */}
-      <section className="section-padding-asym">
+      <section className="section-padding-asym editorial-spacing">
         <div className="container">
           <div className="layout-reading">
             <span className="section-tag">

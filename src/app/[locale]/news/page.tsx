@@ -203,7 +203,7 @@ export default async function Noticias({ params }: Props) {
       </section>
 
       {/* SECCIÓN EDITORIAL: CONTEXTO Y LECTURA REGULATORIA */}
-      <section className="section-padding-asym">
+      <section className="section-padding-asym editorial-spacing editorial-spacing--continuous">
         <div className="container">
           <div className="layout-reading">
             <span className="section-tag">

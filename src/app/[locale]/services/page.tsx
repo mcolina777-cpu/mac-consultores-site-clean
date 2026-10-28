@@ -284,7 +284,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
       </section>
 
       {/* SECCIÓN EDITORIAL: ANÁLISIS SUSTANTIVO Y ESTRATEGIA PROCESAL */}
-      <section className="section-padding-asym">
+      <section className="section-padding-asym editorial-spacing editorial-spacing--continuous">
         <div className="container">
           <div className="layout-reading">
             <span className="section-tag">

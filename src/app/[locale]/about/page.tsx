@@ -380,7 +380,7 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
       </section>
 
       {/* SECCIÓN EDITORIAL: INDEPENDENCIA TÉCNICA Y RESPONSABILIDAD LETRADA */}
-      <section className="section-padding-asym">
+      <section className="section-padding-asym editorial-spacing editorial-spacing--continuous">
         <div className="container">
           <div className="layout-reading">
             <span className="section-tag">

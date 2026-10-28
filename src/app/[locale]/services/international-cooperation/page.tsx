@@ -165,7 +165,7 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
       </section>
 
       {/* SECCIÓN EDITORIAL: COOPERACIÓN LETRADA Y DELIMITACIÓN DEL ENCARGO */}
-      <section className="section-padding-asym">
+      <section className="section-padding-asym editorial-spacing editorial-spacing--continuous">
         <div className="container">
           <div className="layout-reading">
             <span className="section-tag">

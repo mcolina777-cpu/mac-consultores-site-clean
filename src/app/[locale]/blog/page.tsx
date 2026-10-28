@@ -166,7 +166,7 @@ export default async function BlogIndex({ params }: Props) {
       </section>
 
       {/* SECCIÓN EDITORIAL: ANÁLISIS JURÍDICO Y PRÁCTICA FORENSE */}
-      <section className="section-padding-asym">
+      <section className="section-padding-asym editorial-spacing">
         <div className="container">
           <div className="layout-reading">
             <span className="section-tag">
