@@ -89,7 +89,7 @@ export default async function Home({ params }: Props) {
                 style={{ aspectRatio: "9/16", width: "100%", overflow: "hidden", position: "relative" }}
               >
                 <Image 
-                  src="/assets/img/MAC CONSULTORES JURIDICOS & ASOCIADOS- Mac-Consultores - Lobby 1.jpeg" 
+                  src="/assets/img/MAC%20CONSULTORES%20JURIDICOS%20%26%20ASOCIADOS-%20Mac-Consultores%20-%20Lobby%201.jpeg"
                   alt={dict?.home?.alt_lobby || "Lobby principal de Mac Consultores Jurídicos & Asociados"}
                   width={1080} 
                   height={1920} 
@@ -158,26 +158,7 @@ export default async function Home({ params }: Props) {
             <h2 className="serif section-title mt-1rem">{dict.home.pillars.title}</h2>
           </div>
           <div className="grid-2 mb-3rem">
-            {/* PILAR 01: FIRMA */}
-            <Link 
-              href={getRoute(locale, "about")}
-              className="card hover-lift"
-              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
-            >
-              <span className="section-tag">{dict.home.pillars.firm.tag}</span>
-              <h3 className="serif">{dict.home.pillars.firm.title}</h3>
-              <p 
-                className="card-editorial-text"
-                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
-              >
-                {dict.home.pillars.firm.desc}
-              </p>
-              <span className="card-link mt-auto">
-                {dict.home.pillars.firm.link}
-              </span>
-            </Link>
-
-            {/* PILAR 02: SERVICIOS */}
+            {/* PILAR 01: SERVICIOS */}
             <Link 
               href={getRoute(locale, "services")}
               className="card hover-lift"
@@ -193,6 +174,25 @@ export default async function Home({ params }: Props) {
               </p>
               <span className="card-link mt-auto">
                 {dict.home.pillars.services.link}
+              </span>
+            </Link>
+
+            {/* PILAR 02: SECTOR PETROLERO */}
+            <Link 
+              href={getRoute(locale, "services.sector_petrolero")}
+              className="card hover-lift"
+              style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}
+            >
+              <span className="section-tag">{dict.home.pillars.oil_sector.tag}</span>
+              <h3 className="serif">{dict.home.pillars.oil_sector.title}</h3>
+              <p 
+                className="card-editorial-text"
+                style={{ lineHeight: 1.6, fontSize: '0.95rem', color: 'var(--text-muted, #4b5563)', marginBottom: '1.5rem', width: '100%' }}
+              >
+                {dict.home.pillars.oil_sector.desc}
+              </p>
+              <span className="card-link mt-auto">
+                {dict.home.pillars.oil_sector.link}
               </span>
             </Link>
 

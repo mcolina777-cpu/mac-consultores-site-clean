@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
 
 // CORRECCIÓN UX:
@@ -57,9 +57,9 @@ export default function ContactFormSelectors({
   const searchParams = useSearchParams();
   const searchMateria = searchParams?.get("materia");
 
-  // Allowlist estricta: probono | consular
+  // Allowlist estricta: probono | consular | petrolero
   const materia =
-    searchMateria === "probono" || searchMateria === "consular"
+    searchMateria === "probono" || searchMateria === "consular" || searchMateria === "petrolero"
       ? searchMateria
       : null;
 
@@ -72,12 +72,17 @@ export default function ContactFormSelectors({
     locale === "es"
       ? "Trámites Consulares y Gestión Documental"
       : "Consular Procedures and Document Management";
+  const petroleroValue =
+    locale === "es"
+      ? "Consultoría Penal Corporativa"
+      : "Corporate Criminal Consulting";
 
-  const getTargetMotivo = (m: string | null) => {
+  const getTargetMotivo = useCallback((m: string | null) => {
     if (m === "probono") return probonoValue;
     if (m === "consular") return consularValue;
+    if (m === "petrolero") return petroleroValue;
     return "";
-  };
+  }, [probonoValue, consularValue, petroleroValue]);
 
   const lastAppliedMateriaRef = useRef<string | null>(materia);
 
@@ -95,7 +100,7 @@ export default function ContactFormSelectors({
       lastAppliedMateriaRef.current = materia;
       setSelectedMotivo(getTargetMotivo(materia));
     }
-  }, [materia, probonoValue, consularValue]);
+  }, [materia, getTargetMotivo]);
 
   const isPenal = PENAL_MOTIVOS.has(selectedMotivo);
   const showProBonoNotice = materia === "probono" && selectedMotivo === probonoValue;

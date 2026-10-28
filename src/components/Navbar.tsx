@@ -39,7 +39,7 @@ export function resolveLocalizedUrl(targetLocale: string, currentPath: string): 
     ['/es/services/consular/practica-consular', '/en/services/consular/consular-practice'],
     ['/es/services/consular/gestion-documental', '/en/services/consular/document-management'],
     ['/es/services/consular/contratos-internacionales', '/en/services/consular/international-contracts'],
-    ['/es/services/consular/materia-energetica', '/en/services/consular/energy-law'],
+    ['/es/services/sector-petrolero', '/en/services/oil-sector'],
     ['/es/services/consular/representacion-judicial', '/en/services/consular/judicial-representation'],
     ['/es/services/consular/poderes-y-mandatos', '/en/services/consular/strategic-powers'],
   ];

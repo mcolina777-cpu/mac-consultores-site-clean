@@ -637,6 +637,11 @@
         "Where action through a representative is contemplated, it is necessary to define the purpose of the mandate, the extent of the authority granted and its correspondence with the intended acts. For documents executed abroad, their origin, content, purpose and conditions of use in Venezuela require examination. The review must distinguish questions of formal authenticity from those concerning the documents’ content, legal effect and suitability to support the requested action.",
         "The initial assessment must also define the territorial scope of the engagement and distinguish matters within the Venezuelan legal sphere from those that may require advice in another jurisdiction. The possibility of handling a matter without personal travel should not be assumed: it must be examined in light of the procedure and particular circumstances. Clearly defining these elements supports legal coordination without confusing local representation with authorisation to practise abroad."
       ]
+    },
+    "oil_sector_access": {
+      "tag": "SECTOR PRACTICE",
+      "desc": "Preventive assessment of legal contingencies and corporate criminal defense relating to oil operations in Venezuela, for operating companies, contractors, and executives.",
+      "link": "Explore oil sector advisory →"
     }
   },
   "colaboracion_internacional": {
@@ -1009,17 +1014,17 @@
     "pillars": {
       "tag": "PRACTICE ARCHITECTURE",
       "title": "Legal capabilities, jurisdictional reach, and practice model.",
-      "firm": {
-        "tag": "01 · INSTITUTIONAL IDENTITY",
-        "title": "Identity & Forensic Leadership",
-        "desc": "Firm foundation, forensic background of the managing partner, and ethical principles ensuring technical independence, confidentiality, and analytical rigor in sensitive matters.",
-        "link": "Explore the firm →"
-      },
       "services": {
-        "tag": "02 · FORENSIC CAPACITIES",
+        "tag": "01 · FORENSIC CAPACITIES",
         "title": "Criminal Defense & Strategic Litigation",
         "desc": "Technical defense in white-collar offenses, corporate risk control, constitutional injunctions, and extraordinary appeals before appellate chambers and the Supreme Tribunal of Justice.",
         "link": "View practice areas →"
+      },
+      "oil_sector": {
+        "tag": "02 · SECTOR PRACTICE",
+        "title": "Criminal Law Advisory for the Oil Sector",
+        "desc": "Preventive assessment of legal contingencies and corporate criminal defense for operating companies, contractors, and executives, addressing environmental criminal law and occupational safety and health in Venezuela.",
+        "link": "Explore oil sector advisory →"
       },
       "international": {
         "tag": "03 · CROSS-BORDER MATTERS",
@@ -1821,38 +1826,6 @@
         "p3": "Where multiple jurisdictions intersect, we rigorously examine the interface between international contractual architecture and Venezuelan statutory compliance.",
         "p4": "This strategic perspective is vital for corporations, foreign investors, professionals, and individuals conducting commercial operations in Venezuela from abroad.",
         "p5": "Early legal intervention identifies contingencies before they escalate into disputes, securing a clear and protected legal position during contract negotiation and execution."
-      }
-    },
-    "materia_energetica": {
-      "h1": "Energy Law & Practice",
-      "subtitle": "Contractual, corporate, and regulatory legal advisory.",
-      "intro": {
-        "p1": "The Venezuelan energy sector presents high legal complexity driven by the continuous interaction between sector-specific regulations, commercial contracting, corporate structures, investment frameworks, and administrative authority.",
-        "p2": "Transactions connected to this industry require a legal strategy that identifies not only the contractual commitments of the parties, but also the broader statutory framework within which operations must execute and the contingencies that could impact performance.",
-        "p3": "At Mac Consultores Jurídicos & Asociados, we advise on legal matters related to energy sector operations involving contractual, corporate, regulatory, or administrative dimensions connected to Venezuela.",
-        "p4": "Our counsel intervenes both proactively—prior to transaction closing—and throughout ongoing contractual execution, as well as in managing emerging legal contingencies."
-      },
-      "when_we_intervene": {
-        "title": "When we intervene",
-        "items": [
-          "Substantive legal review and analysis of energy sector commercial agreements.",
-          "Assessment of contractual structures to be performed within Venezuelan territory.",
-          "Evaluation of statutory, sectorial, and regulatory frameworks applicable to specific projects.",
-          "Legal risk identification and strategic mitigation advisory.",
-          "Contractual frameworks between operators, service contractors, and equipment suppliers.",
-          "Legal structuring and review of investment vehicles in energy-related ventures.",
-          "Preventative assessment of contractual, regulatory, and administrative contingencies.",
-          "Review of corporate liabilities, warranties, indemnities, and contractual protections.",
-          "Advisory on corporate relationships involving energy assets or operations in Venezuela."
-        ]
-      },
-      "approach": {
-        "title": "Our approach",
-        "p1": "Our methodology seamlessly integrates three core pillars: corporate structure + contractual framework + regulatory compliance.",
-        "p2": "This tri-dimensional analysis provides a holistic assessment of the transaction, uncovering vulnerabilities and risks that standard contractual reviews frequently overlook.",
-        "p3": "We analyze the operational reality of the transaction, identify all participating entities, define their enforceable obligations, and evaluate applicable regulatory requirements.",
-        "p4": "Our mandate focuses on preventative legal risk management rather than mere reactive defense, specifically when commercial decisions trigger long-term corporate, financial, or administrative liabilities.",
-        "p5": "Consequently, we equip clients with rigorous legal analysis designed for executive decision-making, offering deep Venezuelan legal expertise while coordinating effectively with international counsel."
       }
     },
     "representacion_judicial": {
@@ -2757,6 +2730,193 @@
         "primary_cta": "Request preliminary assessment",
         "secondary_cta": "Back to Mac Legal Intelligence"
       }
+    }
+  },
+  "sector_petrolero": {
+    "h1": "Criminal Law Advisory for the Oil Sector",
+    "subtitle": "Preventive assessment of legal contingencies and corporate criminal defense relating to oil operations in Venezuela.",
+    "intro": {
+      "p1": "Oil operations require an examination of the criminal-law implications of business decisions, the conditions under which operations are carried out, and compliance with duties of prevention, supervision, and control. In this context, the legal assessment must address both acts and omissions that may become relevant in connection with environmental harm, an occupational accident, or another event relating to the operation.",
+      "p2": "MAC Consultores Jurídicos & Asociados focuses its involvement on the preventive assessment of legal contingencies and corporate criminal defense in matters relating to the exploration, exploitation, processing, storage, transportation, and commercialization of hydrocarbons in Venezuela. The examination covers the facts, the available technical and corporate documentation, the participants’ functions, and the applicable provisions, with particular attention to environmental criminal law and occupational safety and health.",
+      "p3": "The assessment distinguishes the position of the legal entity from the individual conduct of board members, administrators, and operational management. Its purpose is to identify the decisions, instructions, powers, and duties to act that are relevant to the matter, without attributing liability solely on the basis of membership in a governing body or the mere occurrence of a harmful outcome.",
+      "p4": "When a request originates from an international company, corporation, or law firm, the engagement must specify the scope of the involvement in Venezuela and the arrangements for coordination with the other participating advisers. Direct engagement and interprofessional cooperation provide access to the same specialized practice, subject to preliminary assessment and independent professional judgment."
+    },
+    "environmental_crimes_and_liability": {
+      "title": "Environmental Offenses and Criminal Liability in Oil Operations",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The criminal-law assessment of an oil operation requires determining whether the facts satisfy the elements of the applicable offenses and identifying the statutory, regulatory, and administrative obligations relevant to each operation. This examination encompasses the Environmental Criminal Law and its interaction with the hydrocarbons regime, without equating a breach of a sector-specific obligation with the commission of a criminal offense. Where the statutory definition of an offense requires a supplementary provision, compliance with the requirements governing such legislative references must also be verified."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Organic Hydrocarbons Law, amended in 2026, requires activities to be conducted in accordance with the applicable rules and the best available scientific and technical practices concerning safety, hygiene, and environmental protection. These obligations form part of the legal framework for examining the conditions under which operations are carried out and the allocation of functions among operating companies, partners, and service providers."
+        }
+      ],
+      "subsections": {
+        "environmental_facts": {
+          "title": "Environmental Events and Operating Conditions",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Spills, discharges, and other pollution events require a differentiated analysis based on the conduct, the substance involved, the receiving environment, and the conditions specified in the applicable offense. Among other situations, the Environmental Criminal Law addresses the discharge of hydrocarbons directly into the marine environment in connection with the operations and under the conditions established in Article 89. Accordingly, not every oil spill falls within that provision."
+            },
+            {
+              "type": "paragraph",
+              "text": "MAC Consultores Jurídicos & Asociados focuses its involvement on examining the sequence of events, technical and corporate documentation, authorization and control instruments, operational decisions, and actions taken by the authorities. The analysis includes identifying the applicable obligations and the evidence relevant to supporting or challenging the attribution of criminal liability."
+            }
+          ]
+        },
+        "corporate_and_individual_liability": {
+          "title": "Liability of the Legal Entity and Individual Conduct",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The assessment distinguishes the liability of the legal entity from the potential liability of individuals involved in directing, administering, or carrying out the operation. The Environmental Criminal Law establishes specific rules concerning the liability of legal entities, the culpable participation of owners, presidents, and administrators, and the conduct of those who permit offenses committed by persons under their direction or authority while having knowledge of, and the ability to prevent, those offenses."
+            },
+            {
+              "type": "paragraph",
+              "text": "Accordingly, the examination extends beyond job titles and the corporate organizational chart. It must identify the alleged conduct, the legally relevant functions, the decision-making and control powers, and the requirements imposed by the applicable provision. This examination must also address the special rule of objective liability established in Article 3 of the Environmental Criminal Law, without extending it indiscriminately to all persons and situations governed by that law."
+            }
+          ]
+        },
+        "occupational_accidents_and_diseases": {
+          "title": "Occupational Accidents and Diseases",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Where the facts involve the death, injury, or impairment of workers’ health, the assessment will incorporate LOPCYMAT and LOTTT, distinguishing employer liability from the requirements for criminal liability. LOTTT establishes a rule of objective employer liability for occupational accidents and diseases; LOPCYMAT, in turn, distinguishes benefits, compensation, and liabilities arising from non-compliance with occupational safety and health rules."
+            },
+            {
+              "type": "paragraph",
+              "text": "Article 131 of LOPCYMAT provides for criminal penalties for a worker’s death or injury in the circumstances it specifies. Its application requires examining the alleged serious or very serious violations, the resulting harm, and its connection with the conduct of the employer or its representatives, without treating the mere occurrence of an accident as a sufficient basis for criminal liability."
+            }
+          ]
+        },
+        "operators_contractors_and_service_providers": {
+          "title": "Operating Companies, Contractors, and Service Providers",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The contractual and actual allocation of functions is another central aspect of the assessment. The 2026 amendment to the Organic Hydrocarbons Law provides for different forms of participation in primary activities, the possibility of authorizing the minority shareholder of a mixed company to undertake its technical and operational management, and the comprehensive management of activities through contracts with private companies domiciled in Venezuela."
+            },
+            {
+              "type": "paragraph",
+              "text": "The legal review must identify each participant’s position, the scope of its obligations, and its involvement in the facts. Contracts, authorizations, and operational organization instruments form part of that examination, without replacing the statutory rules governing the attribution of liability. The Environmental Criminal Law also contains a specific provision on joint and several liability in certain agreements between legal entities whose performance causes environmental risks or harm, which requires separate assessment."
+            }
+          ]
+        },
+        "preventative_assessment_and_criminal_defense": {
+          "title": "Preventive Assessment and Criminal Defense",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "In the preventive context, the proposed involvement includes reviewing legal contingencies, defining functions, and examining documentation relating to environmental, operational, and occupational safety and health obligations."
+            },
+            {
+              "type": "paragraph",
+              "text": "In the event of a criminal investigation, the engagement will focus on analyzing the facts under investigation or alleged against the persons concerned, reviewing the technical and documentary evidence, and determining the defense strategy. The scope of representation will be established in light of the legal position of the company and the individuals involved, following an assessment of potential conflicts of interest."
+            }
+          ]
+        }
+      }
+    },
+    "scope_of_intervention": {
+      "title": "Scope of Our Involvement",
+      "blocks": [],
+      "areas": {
+        "preventative_criminal_evaluation": {
+          "title": "Preventive Criminal-Law Assessment",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The proposed involvement includes analyzing legal contingencies relating to oil operations on the basis of the facts and the available documentation. The scope of the engagement may include:"
+            },
+            {
+              "type": "unordered_list",
+              "items": [
+                "Identifying matters requiring assessment under environmental criminal law or occupational safety and health rules.",
+                "Reviewing the allocation of functions, decision-making powers, and supervision mechanisms.",
+                "Examining contracts, authorizations, operational records, technical reports, and relevant communications.",
+                "Providing legal recommendations within the scope of the engagement."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "The legal assessment does not replace inspections, audits, certifications, or studies that fall within the remit of technical specialists."
+            }
+          ]
+        },
+        "incident_legal_assistance": {
+          "title": "Legal Assistance Following Incidents",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "In the event of a spill, an occupational accident, or another event relating to the operation, we propose an involvement focused on organizing the initial legal analysis, identifying the relevant documentation, and assessing the actions requiring legal assistance."
+            },
+            {
+              "type": "paragraph",
+              "text": "The engagement may include reviewing communications and requests from the authorities, preparing the represented persons for their participation in the relevant proceedings or actions, and coordinating with the technical specialists appointed for the matter."
+            }
+          ]
+        },
+        "criminal_defense_corporate_and_individual": {
+          "title": "Criminal Defense of Companies and Individuals",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Representation will be defined according to the facts under investigation, the position of each interested party, and the stage of the proceedings. It may include reviewing the case record, analyzing the allegations and their supporting evidence, preparing written submissions, and providing assistance in the procedural acts covered by the engagement."
+            },
+            {
+              "type": "paragraph",
+              "text": "The potential representation of the company and its directors, administrators, or operational managers will be assessed separately, following a review of potential conflicts of interest."
+            }
+          ]
+        },
+        "international_coordination": {
+          "title": "Coordination with International Companies and Law Firms",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "When a request originates from an international company, corporation, or law firm, the engagement will specify the work to be carried out in Venezuela, the responsibilities of the participating professionals, and the arrangements for communication and delivery of information."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cooperation may be structured through direct engagement or interprofessional coordination, with a defined scope, confidentiality arrangements, and independent professional judgment."
+            }
+          ]
+        },
+        "initial_engagement_assessment": {
+          "title": "Initial Engagement Assessment",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "To define our involvement, we propose an initial review of:"
+            },
+            {
+              "type": "unordered_list",
+              "items": [
+                "The identity of the company and the individuals seeking representation.",
+                "The description of the matter and its current status.",
+                "The authorities involved and any requests or deadlines communicated.",
+                "The available documentation.",
+                "The requested services and potential conflicts of interest."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Acceptance of the engagement and the scope of the services will be subject to preliminary assessment and written formalization."
+            }
+          ]
+        }
+      }
+    },
+    "cierre": {
+      "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
+      "quote": "Legal assessment of matters relating to oil operations",
+      "desc": "The involvement of MAC Consultores Jurídicos & Asociados will be determined following a preliminary assessment of the matter, the available documentation, and potential conflicts of interest. The scope and terms of the engagement will be formalized in writing.",
+      "btn_primary": "Request a matter assessment",
+      "btn_secondary": "Back to Home"
     }
   }
 }

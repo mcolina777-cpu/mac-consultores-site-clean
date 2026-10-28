@@ -21,6 +21,7 @@ export type RouteKey =
   | "services.constitucional"
   | "services.delitos_informaticos"
   | "services.consultoria_preventiva"
+  | "services.sector_petrolero"
   | "services.consular"
   | "services.international_cooperation"
   | "services.international_cooperation.areas_cooperacion"
@@ -41,7 +42,6 @@ export type RouteKey =
   | "consular.practica_consular"
   | "consular.gestion_documental"
   | "consular.contratos_internacionales"
-  | "consular.materia_energetica"
   | "consular.representacion_judicial"
   | "consular.poderes_y_mandatos";
 
@@ -67,6 +67,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.constitucional": "/es/services/constitucional",
     "services.delitos_informaticos": "/es/services/delitos-informaticos",
     "services.consultoria_preventiva": "/es/services/consultoria-preventiva",
+    "services.sector_petrolero": "/es/services/sector-petrolero",
     "services.consular": "/es/services/consular",
     "services.international_cooperation": "/es/services/international-cooperation",
     "services.international_cooperation.areas_cooperacion": "/es/services/international-cooperation/areas-cooperacion",
@@ -87,7 +88,6 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "consular.practica_consular": "/es/services/consular/practica-consular",
     "consular.gestion_documental": "/es/services/consular/gestion-documental",
     "consular.contratos_internacionales": "/es/services/consular/contratos-internacionales",
-    "consular.materia_energetica": "/es/services/consular/materia-energetica",
     "consular.representacion_judicial": "/es/services/consular/representacion-judicial",
     "consular.poderes_y_mandatos": "/es/services/consular/poderes-y-mandatos",
   },
@@ -112,6 +112,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "services.constitucional": "/en/services/constitutional",
     "services.delitos_informaticos": "/en/services/delitos-informaticos",
     "services.consultoria_preventiva": "/en/services/consultoria-preventiva",
+    "services.sector_petrolero": "/en/services/oil-sector",
     "services.consular": "/en/services/consular",
     "services.international_cooperation": "/en/services/international-cooperation",
     "services.international_cooperation.areas_cooperacion": "/en/services/international-cooperation/areas-cooperacion",
@@ -132,7 +133,6 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "consular.practica_consular": "/en/services/consular/consular-practice",
     "consular.gestion_documental": "/en/services/consular/document-management",
     "consular.contratos_internacionales": "/en/services/consular/international-contracts",
-    "consular.materia_energetica": "/en/services/consular/energy-law",
     "consular.representacion_judicial": "/en/services/consular/judicial-representation",
     "consular.poderes_y_mandatos": "/en/services/consular/strategic-powers",
   },

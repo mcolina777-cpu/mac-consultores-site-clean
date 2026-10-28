@@ -637,6 +637,11 @@
         "Cuando se contempla la intervención mediante representante, resulta necesario delimitar el objeto del mandato, la extensión de las facultades conferidas y su correspondencia con los actos que se pretenden realizar. En relación con documentos otorgados en el extranjero, interesa examinar su procedencia, contenido, finalidad y condiciones de utilización en Venezuela. La revisión debe diferenciar las cuestiones relativas a su autenticidad formal de aquellas concernientes a su contenido, eficacia y aptitud para sustentar la actuación solicitada.",
         "La evaluación inicial también debe precisar los límites territoriales del encargo y distinguir las actuaciones situadas en el ámbito venezolano de las que puedan requerir asesoramiento en otra jurisdicción. La posibilidad de atender un asunto sin desplazamiento personal no debe presumirse: corresponde examinarla según el procedimiento y las circunstancias particulares. Una delimitación clara de estos elementos permite plantear la coordinación jurídica sin confundir representación local con habilitación profesional en el extranjero."
       ]
+    },
+    "oil_sector_access": {
+      "tag": "PRÁCTICA SECTORIAL ESPECIALIZADA",
+      "desc": "Asesoría jurídico-penal preventiva, contingencias operacionales y defensa corporativa en la industria de hidrocarburos en Venezuela.",
+      "link": "CONSULTAR ASESORÍA EN EL SECTOR PETROLERO →"
     }
   },
   "colaboracion_internacional": {
@@ -1009,17 +1014,17 @@
     "pillars": {
       "tag": "ARQUITECTURA DE PRÁCTICA",
       "title": "Capacidades jurídicas, alcance y modelo de actuación.",
-      "firm": {
-        "tag": "01 · IDENTIDAD INSTITUCIONAL",
-        "title": "Identidad y Dirección Forense",
-        "desc": "Fundación, trayectoria procesal del socio fundador y principios deontológicos que garantizan independencia técnica, confidencialidad y rigor analítico en la conducción de asuntos sensibles.",
-        "link": "Conocer la firma →"
-      },
       "services": {
-        "tag": "02 · CAPACIDADES FORENSES",
+        "tag": "01 · CAPACIDADES FORENSES",
         "title": "Defensa Penal y Litigio Estratégico",
         "desc": "Defensa técnica en delitos económicos, control de riesgos corporativos, amparo constitucional y recursos extraordinarios ante tribunales superiores y la Sala de Casación Penal.",
         "link": "Ver áreas de práctica →"
+      },
+      "oil_sector": {
+        "tag": "02 · PRÁCTICA SECTORIAL",
+        "title": "Asesoría Jurídico-Penal en el Sector Petrolero",
+        "desc": "Análisis preventivo de contingencias y defensa penal corporativa para empresas operadoras, contratistas y directivos, con atención a la dimensión penal ambiental y a la seguridad y salud en el trabajo en Venezuela.",
+        "link": "Explorar la asesoría petrolera →"
       },
       "international": {
         "tag": "03 · ASUNTOS TRANSFRONTERIZOS",
@@ -1821,38 +1826,6 @@
         "p3": "Cuando intervienen varias jurisdicciones, examinamos además la interacción entre la estructura contractual internacional y el componente jurídico venezolano.",
         "p4": "Esta perspectiva resulta particularmente relevante para empresas, inversionistas, profesionales y personas que mantienen relaciones comerciales con Venezuela desde el exterior.",
         "p5": "La intervención temprana permite identificar contingencias antes de que se conviertan en controversias y proporciona al cliente una posición jurídica más clara al momento de negociar, contratar o ejecutar la operación."
-      }
-    },
-    "materia_energetica": {
-      "h1": "Materia Energética",
-      "subtitle": "Asesoría jurídica contractual, corporativa y regulatoria.",
-      "intro": {
-        "p1": "El sector energético venezolano presenta una elevada complejidad jurídica debido a la interacción entre regulación sectorial, contratación, estructuras empresariales, relaciones comerciales, inversión y actuación administrativa.",
-        "p2": "Las operaciones vinculadas con este sector requieren, por tanto, una aproximación que permita identificar no solamente las obligaciones contractuales de las partes, sino también el marco jurídico dentro del cual la operación debe desarrollarse y los riesgos que pueden afectar su ejecución.",
-        "p3": "En Mac Consultores Jurídicos & Asociados atendemos asuntos jurídicos vinculados con actividades y operaciones del sector energético que presentan elementos contractuales, corporativos, regulatorios o administrativos relacionados con Venezuela.",
-        "p4": "Nuestra intervención puede producirse tanto en una fase preventiva —antes de la celebración de una operación— como durante la ejecución de relaciones contractuales existentes o frente a contingencias que requieran evaluación jurídica."
-      },
-      "when_we_intervene": {
-        "title": "Cuándo intervenimos",
-        "items": [
-          "Análisis y revisión jurídica de contratos relacionados con el sector energético.",
-          "Evaluación de estructuras contractuales destinadas a ejecutarse en Venezuela.",
-          "Análisis del marco jurídico y regulatorio aplicable a una operación determinada.",
-          "Identificación y evaluación de riesgos jurídicos.",
-          "Relaciones contractuales entre operadores, proveedores y empresas de servicios.",
-          "Análisis jurídico de estructuras de inversión vinculadas con actividades energéticas.",
-          "Evaluación preventiva de contingencias contractuales, regulatorias o administrativas.",
-          "Revisión de obligaciones, responsabilidades y mecanismos de protección contractual.",
-          "Análisis de relaciones empresariales que involucren activos o actividades vinculadas con Venezuela."
-        ]
-      },
-      "approach": {
-        "title": "Nuestro enfoque",
-        "p1": "Nuestra metodología integra tres dimensiones esenciales: estructura corporativa + relación contractual + marco regulatorio.",
-        "p2": "La interacción entre estas tres dimensiones permite comprender la operación de manera integral y detectar riesgos que podrían pasar inadvertidos cuando el análisis se limita exclusivamente al contrato.",
-        "p3": "Partimos de la naturaleza concreta de la operación, identificamos los sujetos que participan, determinamos sus respectivas obligaciones y examinamos las normas y condiciones regulatorias relevantes.",
-        "p4": "El propósito no es únicamente reaccionar frente a una contingencia. Nuestra práctica privilegia la identificación preventiva del riesgo jurídico, especialmente cuando una decisión empresarial puede producir consecuencias contractuales, patrimoniales, corporativas o administrativas.",
-        "p5": "De esta manera, proporcionamos al cliente una evaluación jurídica orientada a la toma de decisiones, particularmente en operaciones que requieren conocimiento del entorno jurídico venezolano y coordinación con asesores de otras jurisdicciones."
       }
     },
     "representacion_judicial": {
@@ -2757,6 +2730,180 @@
         "primary_cta": "Solicitar evaluación preliminar",
         "secondary_cta": "Volver a Mac Legal Intelligence"
       }
+    }
+  },
+  "sector_petrolero": {
+    "h1": "Asesoría Jurídico-Penal en el Sector Petrolero",
+    "subtitle": "Análisis preventivo de contingencias y defensa penal corporativa vinculados con las operaciones petroleras en Venezuela.",
+    "intro": {
+      "p1": "La actividad petrolera exige examinar la relevancia jurídico-penal de las decisiones empresariales, las condiciones de ejecución de las operaciones y el cumplimiento de los deberes de prevención, vigilancia y control. En este ámbito, la evaluación jurídica debe atender tanto a las conductas activas como a las omisiones que puedan adquirir relevancia ante una afectación ambiental, un accidente laboral u otro hecho vinculado con la operación.",
+      "p2": "MAC Consultores Jurídicos & Asociados orienta su intervención al análisis preventivo de contingencias y a la defensa penal corporativa frente a hechos vinculados con la exploración, explotación, procesamiento, almacenamiento, transporte y comercialización de hidrocarburos en Venezuela. El examen comprende los hechos, la documentación técnica y empresarial disponible, las funciones de los participantes y las disposiciones aplicables, con especial atención a la dimensión penal ambiental y a la seguridad y salud en el trabajo.",
+      "p3": "La evaluación distingue la posición de la persona jurídica de la actuación individual de los miembros de la junta directiva, administradores y gerencia operacional. Su objeto es delimitar las decisiones, instrucciones, facultades y deberes de actuación relevantes para el asunto, sin atribuir responsabilidad por la sola pertenencia a un órgano de dirección ni por la mera ocurrencia de un resultado lesivo.",
+      "p4": "Cuando el requerimiento procede de una empresa, corporación o firma internacional, el encargo debe precisar el alcance de la intervención en Venezuela y la coordinación con los demás asesores participantes. La contratación directa y la cooperación interprofesional constituyen vías de acceso a una misma práctica especializada, sujeta a evaluación previa e independencia de criterio."
+    },
+    "environmental_crimes_and_liability": {
+      "title": "Delitos ambientales y responsabilidad penal en la actividad petrolera",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La evaluación jurídico-penal de una operación petrolera exige determinar la adecuación de los hechos a los tipos penales aplicables e identificar las obligaciones legales, reglamentarias y administrativas relevantes para cada operación. Este examen comprende la Ley Penal del Ambiente y su articulación con el régimen de hidrocarburos, sin equiparar el incumplimiento de una obligación sectorial con la configuración de un delito. Cuando la descripción penal requiera una disposición complementaria, deberá verificarse, además, el cumplimiento de las exigencias de remisión normativa previstas en la propia ley."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Ley Orgánica de Hidrocarburos, reformada en 2026, exige que las actividades se desarrollen conforme a las normas aplicables y a las mejores prácticas científicas y técnicas disponibles en materia de seguridad, higiene y protección ambiental. Estas obligaciones constituyen parte del marco de referencia para examinar las condiciones de ejecución de la operación y la distribución de funciones entre empresas operadoras, socios y prestadores de servicios."
+        }
+      ],
+      "subsections": {
+        "environmental_facts": {
+          "title": "Hechos ambientales y condiciones de la operación",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Los derrames, las descargas y otros eventos de contaminación requieren un análisis diferenciado según la conducta, la sustancia involucrada, el medio receptor y las condiciones previstas en el tipo penal aplicable. La Ley Penal del Ambiente contempla, entre otros supuestos, el vertido de hidrocarburos directamente en el medio marino, con ocasión de las operaciones y bajo las condiciones que establece su artículo 89. Por ello, no corresponde subsumir indistintamente cualquier derrame petrolero en esa disposición."
+            },
+            {
+              "type": "paragraph",
+              "text": "MAC Consultores Jurídicos & Asociados orienta su intervención al examen de la secuencia del evento, la documentación técnica y empresarial, los instrumentos de autorización y control, las decisiones operacionales y las actuaciones de las autoridades. El análisis comprende la identificación de las obligaciones aplicables y de los elementos relevantes para sustentar o controvertir la atribución penal."
+            }
+          ]
+        },
+        "corporate_and_individual_liability": {
+          "title": "Responsabilidad de la persona jurídica y actuación individual",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "La evaluación distingue la responsabilidad de la persona jurídica de la eventual responsabilidad de las personas naturales que intervienen en la dirección, administración o ejecución de la operación. La Ley Penal del Ambiente establece reglas específicas sobre responsabilidad de las personas jurídicas, participación culpable de propietarios, presidentes y administradores, y actuación de quienes permiten delitos cometidos por personas bajo su dirección o dependencia, con conocimiento y capacidad para impedirlos."
+            },
+            {
+              "type": "paragraph",
+              "text": "En consecuencia, el estudio no se agota en la denominación del cargo ni en el organigrama empresarial. Debe precisar la conducta atribuida, las funciones jurídicamente relevantes, las facultades de decisión y control y los presupuestos exigidos por la disposición aplicable. Este examen debe atender, además, a la regla especial de responsabilidad objetiva prevista en el artículo 3 de la Ley Penal del Ambiente, sin extenderla de manera indiferenciada a todos los sujetos y supuestos regulados por la ley."
+            }
+          ]
+        },
+        "occupational_accidents_and_diseases": {
+          "title": "Accidentes de trabajo y enfermedades ocupacionales",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Cuando los hechos involucren la muerte, lesión o afectación de la salud de trabajadores, la evaluación incorporará la LOPCYMAT y la LOTTT, distinguiendo la responsabilidad patronal de los presupuestos de responsabilidad penal. La LOTTT establece una regla de responsabilidad objetiva del patrono en materia de accidentes laborales y enfermedades ocupacionales; la LOPCYMAT, por su parte, diferencia las prestaciones, las indemnizaciones y las responsabilidades derivadas del incumplimiento de la normativa de seguridad y salud en el trabajo."
+            },
+            {
+              "type": "paragraph",
+              "text": "El artículo 131 de la LOPCYMAT contempla sanciones penales por muerte o lesión del trabajador en las circunstancias que establece. Su aplicación exige examinar las violaciones graves o muy graves que se atribuyan, el resultado producido y su vinculación con la actuación del empleador o de sus representantes, sin convertir la sola ocurrencia del accidente en fundamento suficiente de responsabilidad penal."
+            }
+          ]
+        },
+        "operators_contractors_and_service_providers": {
+          "title": "Empresas operadoras, contratistas y prestadores de servicios",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "La distribución contractual y efectiva de las funciones constituye otro eje de la evaluación. La reforma de la Ley Orgánica de Hidrocarburos de 2026 contempla distintas modalidades de participación en las actividades primarias, la posibilidad de autorizar al accionista minoritario de una empresa mixta para ejercer su gestión técnica y operativa y la gestión integral de actividades mediante contratos con empresas privadas domiciliadas en Venezuela."
+            },
+            {
+              "type": "paragraph",
+              "text": "La revisión jurídica debe identificar la posición de cada interviniente, el alcance de sus obligaciones y su participación en los hechos. Los contratos, las autorizaciones y los instrumentos de organización operacional forman parte de ese examen, sin sustituir las reglas legales de atribución de responsabilidad. La Ley Penal del Ambiente contiene, además, una disposición específica sobre responsabilidad solidaria en determinados acuerdos entre personas jurídicas cuya ejecución cause riesgos o daños ambientales, que requiere valoración separada."
+            }
+          ]
+        }
+      }
+    },
+    "scope_of_intervention": {
+      "title": "Alcance de nuestra intervención",
+      "blocks": [],
+      "areas": {
+        "preventative_criminal_evaluation": {
+          "title": "Evaluación jurídico-penal preventiva",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "La intervención propuesta comprende el análisis de contingencias vinculadas con las operaciones petroleras, a partir de los hechos y de la documentación disponible. El alcance del encargo podrá incluir:"
+            },
+            {
+              "type": "unordered_list",
+              "items": [
+                "Identificación de los asuntos que requieren evaluación penal ambiental o de seguridad y salud en el trabajo.",
+                "Revisión de la distribución de funciones, facultades de decisión y mecanismos de supervisión.",
+                "Examen de contratos, autorizaciones, registros operacionales, informes técnicos y comunicaciones relevantes.",
+                "Formulación de recomendaciones jurídicas dentro del ámbito de la contratación."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "La evaluación jurídica no sustituye las inspecciones, auditorías, certificaciones ni los estudios que correspondan a especialistas técnicos."
+            }
+          ]
+        },
+        "incident_legal_assistance": {
+          "title": "Asistencia jurídica ante incidentes",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ante un derrame, un accidente de trabajo u otro evento relacionado con la operación, proponemos una intervención orientada a organizar el análisis jurídico inicial, identificar la documentación pertinente y evaluar las actuaciones que requieran asistencia legal."
+            },
+            {
+              "type": "paragraph",
+              "text": "El encargo podrá comprender la revisión de comunicaciones y requerimientos de las autoridades, la preparación de la participación de las personas representadas y la coordinación con los especialistas técnicos designados para el asunto."
+            }
+          ]
+        },
+        "criminal_defense_corporate_and_individual": {
+          "title": "Defensa penal de empresas y personas naturales",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "La representación se definirá según los hechos investigados, la posición de cada interesado y la etapa del procedimiento. Podrá comprender el estudio de las actuaciones, el análisis de la atribución formulada y de sus elementos de respaldo, la preparación de escritos y la asistencia en los actos que correspondan al alcance contratado."
+            },
+            {
+              "type": "paragraph",
+              "text": "La eventual representación de la empresa y de sus directivos, administradores o responsables operacionales se evaluará de forma diferenciada, previa revisión de posibles conflictos de intereses."
+            }
+          ]
+        },
+        "international_coordination": {
+          "title": "Coordinación con empresas y firmas internacionales",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Cuando el requerimiento proceda de una empresa, corporación o firma internacional, el encargo precisará las actuaciones a desarrollar en Venezuela, las responsabilidades de los profesionales participantes y los mecanismos de comunicación y entrega de información."
+            },
+            {
+              "type": "paragraph",
+              "text": "La cooperación podrá estructurarse mediante contratación directa o coordinación interprofesional, con delimitación del alcance, las condiciones de confidencialidad y la independencia de criterio."
+            }
+          ]
+        },
+        "initial_engagement_assessment": {
+          "title": "Evaluación inicial del encargo",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Para definir la intervención, proponemos una revisión inicial de:"
+            },
+            {
+              "type": "unordered_list",
+              "items": [
+                "La identidad de la empresa y de las personas que solicitan representación.",
+                "La descripción del asunto y su situación actual.",
+                "Las autoridades intervinientes y los requerimientos o plazos comunicados.",
+                "La documentación disponible.",
+                "Los servicios solicitados y los posibles conflictos de intereses."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "La aceptación y el alcance de los servicios quedarán sujetos a evaluación previa y a su formalización por escrito."
+            }
+          ]
+        }
+      }
+    },
+    "cierre": {
+      "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
+      "quote": "Evaluación jurídica de asuntos vinculados con la actividad petrolera",
+      "desc": "La intervención de MAC Consultores Jurídicos & Asociados se definirá previa evaluación del asunto, de la documentación disponible y de posibles conflictos de intereses. El alcance y las condiciones del encargo se formalizarán por escrito.",
+      "btn_primary": "Solicitar evaluación del asunto",
+      "btn_secondary": "Volver al Inicio"
     }
   }
 }

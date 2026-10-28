@@ -52,7 +52,17 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/es/services/consular/energy-law',
-        destination: '/es/services/consular/materia-energetica',
+        destination: '/es/services/sector-petrolero',
+        permanent: true,
+      },
+      {
+        source: '/es/services/consular/materia-energetica',
+        destination: '/es/services/sector-petrolero',
+        permanent: true,
+      },
+      {
+        source: '/es/services/oil-sector',
+        destination: '/es/services/sector-petrolero',
         permanent: true,
       },
       {
@@ -83,7 +93,17 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/en/services/consular/materia-energetica',
-        destination: '/en/services/consular/energy-law',
+        destination: '/en/services/oil-sector',
+        permanent: true,
+      },
+      {
+        source: '/en/services/consular/energy-law',
+        destination: '/en/services/oil-sector',
+        permanent: true,
+      },
+      {
+        source: '/en/services/sector-petrolero',
+        destination: '/en/services/oil-sector',
         permanent: true,
       },
       {
@@ -107,6 +127,10 @@ const nextConfig: NextConfig = {
       {
         source: '/en/services/constitutional',
         destination: '/en/services/constitucional',
+      },
+      {
+        source: '/en/services/oil-sector',
+        destination: '/en/services/sector-petrolero',
       },
     ];
   },

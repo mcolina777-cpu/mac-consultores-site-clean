@@ -61,7 +61,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
   const resolvedSearchParams = searchParams ? await searchParams : {};
   const isSuccess = resolvedSearchParams?.sent === 'success';
 
-  // Allowlist estricta para el parámetro materia (probono | consular)
+  // Allowlist estricta para el parámetro materia (probono | consular | petrolero)
   const rawMateria = resolvedSearchParams?.materia;
   let initialMotivo: string | undefined = undefined;
   if (typeof rawMateria === 'string') {
@@ -69,6 +69,8 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
       initialMotivo = locale === 'es' ? 'Solicitud de Evaluación Pro Bono' : 'Pro Bono Evaluation Request';
     } else if (rawMateria === 'consular') {
       initialMotivo = locale === 'es' ? 'Trámites Consulares y Gestión Documental' : 'Consular Procedures and Document Management';
+    } else if (rawMateria === 'petrolero') {
+      initialMotivo = locale === 'es' ? 'Consultoría Penal Corporativa' : 'Corporate Criminal Consulting';
     }
   }
 

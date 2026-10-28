@@ -95,6 +95,42 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
           <div className="grid-split">
             <div className="about-text">
               <p className="text-left max-w-100 mb-0">{dict?.tramites_consulares?.intro_p}</p>
+
+              {/* ACCESO SECUNDARIO: ASESORÍA PETROLERA */}
+              <div
+                style={{
+                  marginTop: '1.5rem',
+                  paddingLeft: '1.25rem',
+                  borderLeft: '2px solid var(--accent, #990000)',
+                }}
+              >
+                <span
+                  className="section-tag"
+                  style={{
+                    marginBottom: '0.5rem',
+                    fontSize: '0.75rem',
+                  }}
+                >
+                  {dict?.tramites_consulares?.oil_sector_access?.tag}
+                </span>
+                <p
+                  className="text-left max-w-100"
+                  style={{
+                    lineHeight: 1.6,
+                    fontSize: '0.95rem',
+                    color: 'var(--text-muted, #4b5563)',
+                    marginBottom: '0.75rem',
+                  }}
+                >
+                  {dict?.tramites_consulares?.oil_sector_access?.desc}
+                </p>
+                <Link
+                  href={getRoute(locale, 'services.sector_petrolero')}
+                  className="card-link"
+                >
+                  {dict?.tramites_consulares?.oil_sector_access?.link}
+                </Link>
+              </div>
             </div>
             <div className="img-reveal">
               <picture>
@@ -178,7 +214,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
               {dict?.tramites_consulares?.bloque_2?.intro}
             </p>
           </div>
-          <div className="grid-3">
+          <div className="grid-2">
             {/* T4: Poderes y Mandatos Estratégicos */}
             <Link href={getRoute(locale, "consular.poderes_y_mandatos")} className="card">
               <span className="section-tag">{dict?.tramites_consulares?.bloque_2?.card_1?.tag || "04"}</span>
@@ -200,18 +236,6 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
               </p>
               <span className="card-link">
                 {dict?.tramites_consulares?.bloque_2?.card_2?.link || (isEs ? "VER DETALLES →" : "VIEW DETAILS →")}
-              </span>
-            </Link>
-
-            {/* T6: Materia Energética y Regulatoria */}
-            <Link href={getRoute(locale, "consular.materia_energetica")} className="card">
-              <span className="section-tag">{dict?.tramites_consulares?.bloque_2?.card_3?.tag || "06"}</span>
-              <h3>{dict?.tramites_consulares?.bloque_2?.card_3?.title}</h3>
-              <p className="card-editorial-text">
-                {dict?.tramites_consulares?.bloque_2?.card_3?.desc}
-              </p>
-              <span className="card-link">
-                {dict?.tramites_consulares?.bloque_2?.card_3?.link || (isEs ? "VER DETALLES →" : "VIEW DETAILS →")}
               </span>
             </Link>
           </div>
