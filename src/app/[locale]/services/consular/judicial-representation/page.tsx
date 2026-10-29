@@ -100,8 +100,8 @@ export default async function JudicialRepresentationPage({ params }: { params: P
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“Representación judicial, litigio y defensa técnica estratégica ante los tribunales de la República Bolivariana de Venezuela.”'
-                : '“Judicial representation, litigation, and strategic technical defense before the courts of the Bolivarian Republic of Venezuela.”'}
+                ? '“Defensa penal y tutela constitucional en Venezuela para clientes situados fuera del país.”'
+                : '“Criminal defense and constitutional protection in Venezuela for clients located outside the country.”'}
             </h3>
 
             <p
@@ -109,8 +109,8 @@ export default async function JudicialRepresentationPage({ params }: { params: P
               style={{ lineHeight: 1.6, fontSize: '0.95rem', textAlign: 'center' }}
             >
               {isEs
-                ? 'Nuestro equipo litigante asume la dirección y representación procesal de cada asunto admitido, con dedicación técnica y rigor estratégico en la salvaguarda de sus derechos e intereses patrimoniales ante las instancias jurisdiccionales del país.'
-                : 'Our litigation team provides legal direction and procedural representation for each admitted matter, applying technical diligence and strategic rigor to safeguard your rights and asset interests before the courts of Venezuela.'}
+                ? 'Asumimos la representación procesal en asuntos penales y constitucionales evaluando previamente los hechos y el fundamento jurídico de la causa, con estricto apego a las normas del debido proceso.'
+                : 'We undertake procedural representation in criminal and constitutional matters following prior evaluation of the facts and legal merits of the case, in strict adherence to due process of law.'}
             </p>
 
             <div

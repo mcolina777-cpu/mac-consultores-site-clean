@@ -99,8 +99,8 @@ export default async function InternationalContractsPage({ params }: { params: P
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“Asesoría integral y estructuración estratégica de contratos y negocios internacionales vinculados a Venezuela.”'
-                : '“Comprehensive advisory and strategic structuring of international contracts and businesses linked to Venezuela.”'}
+                ? '“Evaluación jurídica de riesgos penales en contratos y operaciones con efectos en Venezuela.”'
+                : '“Legal evaluation of criminal risks in contracts and operations with effects in Venezuela.”'}
             </h3>
 
             <p
@@ -108,8 +108,8 @@ export default async function InternationalContractsPage({ params }: { params: P
               style={{ lineHeight: 1.6, fontSize: '0.95rem', textAlign: 'center' }}
             >
               {isEs
-                ? 'Nuestro equipo asegura la validez y el cumplimiento normativo de sus operaciones transfronterizas, protegiendo sus intereses en un entorno global.'
-                : 'Our team ensures the validity and regulatory compliance of your cross-border operations, protecting your interests in a global environment.'}
+                ? 'Examinamos las obligaciones y disposiciones normativas relevantes para prevenir contingencias de responsabilidad penal en las operaciones del cliente en el país.'
+                : 'We examine obligations and relevant statutory provisions to prevent criminal liability contingencies in the client’s operations in the country.'}
             </p>
 
             <div

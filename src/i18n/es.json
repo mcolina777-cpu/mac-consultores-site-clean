@@ -519,31 +519,31 @@
     "title": "Gestión jurídica para clientes en el exterior | Mac Consultores Jurídicos & Asociados",
     "breadcrumb": "CLIENTES EN EL EXTERIOR / GESTIÓN JURÍDICA EN VENEZUELA",
     "h1": "Gestión jurídica para clientes en el exterior",
-    "subtitle": "Asesoría y coordinación jurídica local para personas, empresas e inversionistas con asuntos vinculados con Venezuela.",
-    "intro_p": "Las personas, empresas e inversionistas que se encuentran fuera de Venezuela pueden requerir apoyo jurídico local para atender documentos, poderes, contratos, asuntos patrimoniales o actuaciones ante autoridades y tribunales. MAC Consultores Jurídicos & Asociados asesora y coordina actuaciones vinculadas con Venezuela según los hechos, la documentación disponible, el alcance del encargo y las normas aplicables.",
+    "subtitle": "Derecho penal corporativo, defensa penal y tutela constitucional en Venezuela para clientes situados fuera del país.",
+    "intro_p": "Mac Consultores Jurídicos & Asociados atiende a personas y empresas situadas fuera de Venezuela que requieren intervención jurídica en el país en asuntos de derecho penal corporativo, defensa penal y tutela constitucional. Cada encargo se evalúa a partir de los hechos, la documentación disponible y el alcance de la actuación solicitada. La firma también examina riesgos penales en operaciones y relaciones contractuales con efectos en Venezuela y asesora en poderes y documentación vinculados con los servicios que presta.",
     "cta_primary": "EVALUAR ASUNTO CON LA FIRMA",
     "cta_secondary": "CONOCER SERVICIOS",
     "bloque_1": {
       "tag": "ASUNTOS JURÍDICOS CON CONEXIÓN EN VENEZUELA",
       "title": "Representación y coordinación local",
-      "subtitle": "Apoyo jurídico para clientes fuera del país con asuntos corporativos, contractuales o procesales en Venezuela.",
-      "intro": "La firma acompaña la preparación y coordinación de actuaciones jurídicas que pueden requerir representación local o revisión de documentación en Venezuela.",
+      "subtitle": "Intervención penal y constitucional, evaluación de riesgos penales en contratos y asesoría sobre poderes y documentos para su utilización en Venezuela.",
+      "intro": "La firma presta servicios dentro de sus áreas de especialización. No litiga en materia civil ni atiende divorcios, sucesiones o particiones de bienes.",
       "card_1": {
         "tag": "01",
-        "title": "Representación jurídica en Venezuela",
-        "desc": "Asesoría y representación en asuntos que puedan requerir actuaciones ante autoridades, tribunales u otras instituciones venezolanas, según la naturaleza del caso.",
+        "title": "Intervención penal y tutela constitucional",
+        "desc": "Defensa penal y tutela de derechos y garantías constitucionales ante las autoridades y tribunales competentes en Venezuela para personas, directivos y empresas situados fuera del país.",
         "link": "VER DETALLES →"
       },
       "card_2": {
         "tag": "02",
-        "title": "Contratos y asuntos transfronterizos",
-        "desc": "Revisión y preparación de documentos, acuerdos y relaciones contractuales con conexión en Venezuela, considerando las normas aplicables y los intereses de las partes.",
+        "title": "Evaluación jurídico-penal de contratos y operaciones",
+        "desc": "Análisis de riesgos penales derivados de contratos y operaciones con efectos en Venezuela, considerando las obligaciones y disposiciones normativas relevantes para su evaluación.",
         "link": "VER DETALLES →"
       },
       "card_3": {
         "tag": "03",
-        "title": "Asuntos patrimoniales y corporativos",
-        "desc": "Análisis de asuntos relacionados con bienes, inversiones, sociedades o relaciones jurídicas que requieran coordinación local en Venezuela.",
+        "title": "Práctica y gestiones consulares",
+        "desc": "Asesoría jurídica para la preparación de documentos, poderes y declaraciones ante representaciones consulares y notarías en el exterior destinados a surtir efectos en Venezuela.",
         "link": "VER DETALLES →"
       }
     },
@@ -555,13 +555,13 @@
       "card_1": {
         "tag": "04",
         "title": "Poderes y mandatos",
-        "desc": "Revisión y preparación de poderes para actuaciones judiciales, administrativas, corporativas o patrimoniales, de acuerdo con las facultades requeridas en cada asunto.",
+        "desc": "Revisión y preparación de poderes para actuaciones específicas en Venezuela, previa evaluación del objeto del mandato y de su correspondencia con los servicios de la firma.",
         "link": "VER DETALLES →"
       },
       "card_2": {
         "tag": "05",
         "title": "Documentos otorgados en el exterior",
-        "desc": "Revisión de documentos, legalizaciones, apostillas y traducciones cuando puedan ser necesarias para su uso ante autoridades o instituciones en Venezuela.",
+        "desc": "Revisión de requisitos de validez formal, legalización y apostilla de documentos otorgados fuera del país destinados a utilizarse ante autoridades o tribunales en Venezuela.",
         "link": "VER DETALLES →"
       },
       "card_3": {
@@ -574,7 +574,7 @@
     "cierre": {
       "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
       "quote": "La coordinación jurídica desde el exterior comienza con la revisión de los hechos, los documentos y el marco aplicable.",
-      "desc": "MAC Consultores Jurídicos & Asociados asesora a personas, empresas e inversionistas con asuntos vinculados con Venezuela que requieren análisis, documentación, coordinación o representación jurídica local.",
+      "desc": "Mac Consultores Jurídicos & Asociados atiende a personas y empresas situadas fuera de Venezuela que requieren intervención penal o constitucional, evaluación jurídico-penal de contratos y operaciones, o asesoría sobre poderes y documentación dentro del alcance de los servicios de la firma.",
       "btn_primary": "EVALUAR ASUNTO CON LA FIRMA",
       "btn_secondary": "← VOLVER AL INICIO"
     },
@@ -607,8 +607,8 @@
       },
       "card_5": {
         "tag": "05",
-        "title": "Representación Judicial",
-        "desc": "Ejercemos la representación judicial y defensa técnica de derechos patrimoniales ante tribunales venezolanos para clientes domiciliados en el exterior. Conducimos litigios civiles y mercantiles con dirección procesal rigurosa, monitoreo a distancia e informes periódicos con absoluta transparencia.",
+        "title": "Intervención Penal y Tutela Constitucional",
+        "desc": "Defensa penal y tutela de derechos y garantías constitucionales ante autoridades y tribunales en Venezuela para personas y directivos situados fuera del país, evaluando la procedencia del encargo según las normas aplicables.",
         "link": "VER DETALLES →"
       },
       "card_6": {
@@ -880,8 +880,8 @@
       "og_description": "Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad."
     },
     "tramites_consulares": {
-      "title": "Gestión jurídica para clientes en el exterior | Mac Consultores Jurídicos",
-      "description": "Asesoría y coordinación jurídica local para clientes en el exterior con documentos, poderes, patrimonio y asuntos vinculados con Venezuela.",
+      "title": "Atención Jurídica en Venezuela para Clientes en el Exterior | Mac Consultores",
+      "description": "Derecho penal corporativo, defensa penal, tutela constitucional, evaluación de riesgos penales en contratos y estructuración de poderes en Venezuela.",
       "og_title": "Gestión jurídica para clientes en el exterior | Mac Consultores Jurídicos",
       "og_description": "Asesoría y coordinación jurídica local para clientes en el exterior con documentos, poderes, patrimonio y asuntos vinculados con Venezuela."
     },
@@ -1739,23 +1739,23 @@
   },
   "consular": {
     "practica_consular": {
-      "h1": "Asesoría y representación jurídica vinculada con actuaciones consulares",
+      "h1": "Asesoría jurídica vinculada con actuaciones consulares",
       "intro": {
-        "p1": "Los asuntos consulares vinculados con Venezuela pueden trascender la simple gestión documental. En determinados casos, una actuación realizada ante una representación consular constituye el punto de partida para producir consecuencias jurídicas posteriores en Venezuela, particularmente cuando intervienen poderes, mandatos, autorizaciones, declaraciones, documentos patrimoniales o actuaciones destinadas a ser utilizadas ante autoridades venezolanas.",
-        "p2": "En Mac Consultores Jurídicos & Asociados abordamos estas situaciones desde una perspectiva jurídica integral. Antes de iniciar cualquier gestión, identificamos el propósito concreto que el cliente necesita alcanzar, determinamos qué actuación resulta jurídicamente adecuada y estructuramos la documentación necesaria para procurar que el acto pueda cumplir eficazmente su finalidad.",
-        "p3": "Nuestra intervención está dirigida especialmente a personas, empresas y titulares de intereses en Venezuela que se encuentran fuera del país y necesitan realizar actuaciones jurídicas sin desplazarse físicamente, así como a profesionales o firmas extranjeras que requieren coordinación jurídica local."
+        "p1": "Las actuaciones ante representaciones consulares y notarías en el exterior suelen constituir el presupuesto formal para actos jurídicos que surtirán efectos en Venezuela, particularmente en el otorgamiento de poderes, mandatos, autorizaciones y declaraciones.",
+        "p2": "Mac Consultores Jurídicos & Asociados asesora en la adecuación jurídica de los instrumentos y en la revisión de los requisitos formales exigidos por las autoridades venezolanas receptoras, evaluando previamente la correspondencia del asunto con los servicios de la firma.",
+        "p3": "Esta labor se dirige a personas y empresas situadas fuera de Venezuela que requieren otorgar o revisar documentos para su utilización en el país. La posibilidad de atender un asunto sin traslado personal no constituye una regla general y debe examinarse según el trámite y las exigencias de cada autoridad."
       },
       "when_we_intervene": {
         "title": "Cuándo intervenimos",
         "items": [
-          "Asesoría jurídica previa a actuaciones ante representaciones consulares.",
-          "Preparación, revisión y adecuación de documentos destinados a producir efectos jurídicos en Venezuela.",
-          "Estructuración de poderes, mandatos, autorizaciones y declaraciones.",
-          "Determinación del alcance de las facultades que deben ser conferidas al representante.",
-          "Coordinación jurídica entre el otorgante situado en el extranjero y el representante en Venezuela.",
-          "Actuaciones relacionadas con bienes, derechos, participaciones societarias, obligaciones o intereses patrimoniales.",
-          "Coordinación con abogados, notarios, representantes y otros profesionales que intervengan en la operación.",
-          "Análisis de situaciones que presentan simultáneamente elementos jurídicos venezolanos y extranjeros."
+          "Asesoría jurídica previa a actuaciones ante representaciones consulares y notarías extranjeras.",
+          "Preparación y adecuación de documentos destinados a surtir efectos jurídicos en Venezuela.",
+          "Revisión y delimitación de facultades en poderes especiales, mandatos y declaraciones.",
+          "Determinación del alcance de las atribuciones conferidas al apoderado o representante local.",
+          "Coordinación de requisitos formales entre el otorgante situado en el extranjero y las partes en Venezuela.",
+          "Revisión de documentos corporativos o societarios vinculados con las materias que asume la firma.",
+          "Coordinación con notarios y profesionales que intervengan en el otorgamiento del instrumento.",
+          "Evaluación de la correspondencia entre el documento otorgado y el trámite a realizarse en Venezuela."
         ]
       },
       "approach": {
@@ -1797,26 +1797,22 @@
       }
     },
     "contratos_internacionales": {
-      "h1": "Contratos y Negocios Internacionales",
-      "subtitle": "Asesoría jurídica para operaciones con conexión con Venezuela.",
+      "h1": "Evaluación Jurídico-Penal de Contratos y Operaciones",
+      "subtitle": "Análisis de riesgos penales derivados de contratos y operaciones con efectos en Venezuela, considerando las obligaciones y disposiciones normativas relevantes para su evaluación.",
       "intro": {
-        "p1": "Las operaciones internacionales requieren una evaluación jurídica que vaya más allá de la revisión formal del contrato. Cuando una relación comercial involucra a Venezuela, pueden surgir cuestiones relacionadas con ley aplicable, jurisdicción, representación, ejecución de obligaciones, cumplimiento regulatorio, responsabilidad contractual y mecanismos para gestionar eventuales controversias.",
-        "p2": "En Mac Consultores Jurídicos & Asociados asesoramos en la estructuración, revisión y análisis jurídico de contratos y operaciones que presentan una conexión con Venezuela, tanto cuando la contraparte se encuentra dentro del país como cuando la operación se desarrolla entre partes situadas en diferentes jurisdicciones.",
-        "p3": "Nuestro objetivo es identificar desde el inicio qué riesgos jurídicos introduce la dimensión transfronteriza de la operación y cómo pueden ser gestionados contractualmente."
+        "p1": "Las operaciones comerciales y acuerdos que producen efectos en Venezuela pueden generar contingencias de responsabilidad penal derivadas de su objeto, de las obligaciones asumidas o de las exigencias regulatorias vinculadas a su cumplimiento.",
+        "p2": "Mac Consultores Jurídicos & Asociados evalúa contratos y esquemas operativos con el propósito de identificar riesgos penales y examinar el marco regulatorio que resulta directamente relevante para su valoración. La firma no presta asesoría regulatoria autónoma, cumplimiento corporativo integral ni redacción de contratos mercantiles generales.",
+        "p3": "El servicio se orienta a empresas y directivos situados fuera de Venezuela que requieren determinar la exposición penal vinculada a sus compromisos contractuales y decisiones operativas en el país."
       },
       "when_we_intervene": {
         "title": "Cuándo intervenimos",
         "items": [
-          "Revisión y análisis jurídico de contratos nacionales e internacionales.",
-          "Contratos entre partes situadas en distintas jurisdicciones.",
-          "Análisis de ley aplicable y jurisdicción.",
-          "Evaluación de mecanismos de solución de controversias.",
-          "Estructuración y negociación contractual.",
-          "Contratos comerciales, de servicios, representación, distribución y colaboración empresarial.",
-          "Evaluación de obligaciones que deban ejecutarse total o parcialmente en Venezuela.",
-          "Identificación de riesgos vinculados con representación y cumplimiento.",
-          "Análisis jurídico de operaciones con activos, empresas o intereses situados en Venezuela.",
-          "Coordinación con abogados y asesores jurídicos de otras jurisdicciones."
+          "Evaluación preventivo-penal de obligaciones y cláusulas en contratos con ejecución en Venezuela.",
+          "Identificación de contingencias penales vinculadas a delitos económicos o de corrupción en la ejecución contractual.",
+          "Examen de disposiciones normativas y regulatorias relevantes para la determinación de responsabilidad penal.",
+          "Análisis de riesgos penales para directivos derivados de esquemas contractuales y de representación.",
+          "Revisión de riesgos penales en contratos de suministro, prestación de servicios y relaciones operativas en el país.",
+          "Coordinación de criterios penales preventivos con los abogados a cargo de la estructuración mercantil del cliente."
         ]
       },
       "approach": {
@@ -1829,26 +1825,22 @@
       }
     },
     "representacion_judicial": {
-      "h1": "Representación Judicial",
-      "subtitle": "Representación y defensa estratégica en Venezuela.",
+      "h1": "Intervención Penal y Tutela Constitucional para Clientes en el Exterior",
+      "subtitle": "Defensa penal y tutela de derechos y garantías constitucionales ante las autoridades y tribunales competentes en Venezuela.",
       "intro": {
-        "p1": "Para una persona o empresa que se encuentra fuera de Venezuela, enfrentar un procedimiento judicial dentro del país supone una dificultad adicional: la distancia física se combina con la necesidad de comprender un sistema procesal, adoptar decisiones oportunas, producir documentación y contar con capacidad efectiva de actuación local.",
-        "p2": "En estos escenarios, la representación judicial no debe entenderse como una simple comparecencia ante un tribunal. Requiere dirección jurídica, análisis estratégico, control procesal, coordinación documental y comunicación permanente con el cliente y sus asesores.",
-        "p3": "En Mac Consultores Jurídicos & Asociados representamos y asesoramos a personas y entidades cuyos intereses en Venezuela requieren una intervención jurídica local, particularmente en asuntos de relevancia patrimonial, económica, corporativa o estratégica."
+        "p1": "Las personas y directivos situados fuera de Venezuela pueden requerir asistencia letrada ante investigaciones penales, citaciones judiciales o medidas que afecten sus derechos fundamentales en el país.",
+        "p2": "Mac Consultores Jurídicos & Asociados asume la defensa penal y la tutela constitucional ante los órganos de investigación y tribunales en Venezuela, evaluando la procedencia del encargo según los hechos y la documentación del caso. La firma no litiga en materia civil ni atiende pretensiones de derecho privado general.",
+        "p3": "La dirección letrada se ejerce de forma directa en el territorio nacional, coordinando las actuaciones con el cliente en el extranjero y con los equipos jurídicos internacionales que asisten a la persona o empresa en su país de residencia."
       },
       "when_we_intervene": {
         "title": "Cuándo intervenimos",
         "items": [
-          "Representación judicial de personas y entidades no residentes.",
-          "Defensa de intereses patrimoniales, económicos y corporativos.",
-          "Actuaciones procesales dentro de Venezuela.",
-          "Evaluación jurídica previa a la iniciación de acciones.",
-          "Análisis de posiciones procesales y escenarios posibles.",
-          "Seguimiento y dirección jurídica de procedimientos.",
-          "Evaluación de contingencias procesales.",
-          "Revisión y análisis de documentación relacionada con el litigio.",
-          "Coordinación con abogados y asesores jurídicos del cliente en otras jurisdicciones.",
-          "Diseño de estrategias de actuación frente a controversias judiciales."
+          "Defensa técnica en investigaciones penales y procedimientos ante tribunales de la jurisdicción penal en Venezuela.",
+          "Preparación e interposición de recursos de casación ante la Sala de Casación Penal del Tribunal Supremo de Justicia.",
+          "Interposición y tramitación de acciones de amparo constitucional para la tutela de derechos y garantías fundamentales.",
+          "Representación técnica de personas y directivos situados fuera del país ante citaciones o actuaciones penales en Venezuela.",
+          "Atención procesal ante medidas preventivas o de aseguramiento sobre bienes vinculadas a procedimientos penales.",
+          "Coordinación de la estrategia penal con los abogados que asisten al cliente en su lugar de residencia."
         ]
       },
       "approach": {
@@ -1863,11 +1855,11 @@
     },
     "poderes_y_mandatos": {
       "h1": "Poderes y Mandatos Estratégicos",
-      "subtitle": "Estructuración de facultades para la representación de intereses en Venezuela.",
+      "subtitle": "Revisión y delimitación de facultades para la representación de intereses en Venezuela.",
       "intro": {
-        "p1": "Para una persona que se encuentra fuera de Venezuela, otorgar un poder puede ser una herramienta indispensable para gestionar bienes, derechos, asuntos judiciales, relaciones corporativas o actuaciones administrativas dentro del país.",
+        "p1": "Para quien se encuentra fuera de Venezuela, otorgar un poder exige precisar las facultades conferidas y su adecuación a la actuación que se pretende realizar ante autoridades, tribunales u organismos en el país.",
         "p2": "Sin embargo, un poder no debe ser tratado como un documento meramente formal. Su verdadera utilidad depende de que las facultades conferidas sean jurídicamente suficientes, adecuadamente delimitadas y coherentes con la finalidad para la cual se otorgan.",
-        "p3": "En Mac Consultores Jurídicos & Asociados asesoramos en la estructuración y revisión de poderes y mandatos destinados a facilitar la gestión de intereses jurídicos, patrimoniales, corporativos y administrativos en Venezuela."
+        "p3": "Mac Consultores Jurídicos & Asociados asesora en la revisión y preparación de poderes para actuaciones específicas en Venezuela, previa evaluación del objeto del mandato y de su correspondencia con los servicios de la firma. La firma no atiende mandatos en materia de divorcios, sucesiones, partición de bienes ni litigación civil."
       },
       "when_we_intervene": {
         "title": "Cuándo intervenimos",

@@ -163,7 +163,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
           </div>
           <div className="grid-3">
             {/* T1: Local Counsel para Firmas Extranjeras */}
-            <Link href={getRoute(locale, "consular.practica_consular")} className="card">
+            <Link href={getRoute(locale, "consular.representacion_judicial")} className="card">
               <span className="section-tag">{dict?.tramites_consulares?.bloque_1?.card_1?.tag || "01"}</span>
               <h3>{dict?.tramites_consulares?.bloque_1?.card_1?.title}</h3>
               <p className="card-editorial-text">
@@ -187,7 +187,7 @@ export default async function TramitesConsulares({ params }: { params: Promise<{
             </Link>
 
             {/* T3: Representación Judicial y Litigios en Venezuela */}
-            <Link href={getRoute(locale, "consular.representacion_judicial")} className="card">
+            <Link href={getRoute(locale, "consular.practica_consular")} className="card">
               <span className="section-tag">{dict?.tramites_consulares?.bloque_1?.card_3?.tag || "03"}</span>
               <h3>{dict?.tramites_consulares?.bloque_1?.card_3?.title}</h3>
               <p className="card-editorial-text">

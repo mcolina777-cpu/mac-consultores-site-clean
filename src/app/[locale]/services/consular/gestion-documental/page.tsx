@@ -98,8 +98,8 @@ export default async function GestionDocumentalPage({ params }: { params: Promis
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“Asesoría y coordinación jurídico-documental internacional con efectos en Venezuela.”'
-                : '“Cross-border legal and documentary coordination with effects in Venezuela.”'}
+                ? '“Revisión jurídica de documentos otorgados en el exterior con efectos en Venezuela.”'
+                : '“Legal review of documents executed abroad intended for use in Venezuela.”'}
             </h3>
 
             <p
@@ -107,8 +107,8 @@ export default async function GestionDocumentalPage({ params }: { params: Promis
               style={{ lineHeight: 1.6, fontSize: '0.95rem', textAlign: 'center' }}
             >
               {isEs
-                ? 'Garantizamos el correcto tránsito de documentos, poderes y actos civiles en jurisdicciones extranjeras, asegurando su validez probatoria y registral dentro de la República Bolivariana de Venezuela.'
-                : 'We ensure the proper transit of documents, powers of attorney, and civil acts in foreign jurisdictions, securing their evidentiary and registrable validity within the Bolivarian Republic of Venezuela.'}
+                ? 'Revisamos los requisitos de autenticación, legalización y apostilla de documentos otorgados fuera del país, examinando su conformidad formal para su utilización ante autoridades u órganos competentes en Venezuela.'
+                : 'We review authentication, consular legalization, and apostille requirements for documents executed abroad, examining their formal compliance for use before competent authorities or bodies in Venezuela.'}
             </p>
 
             <div

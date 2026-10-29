@@ -97,8 +97,8 @@ export default async function PracticaConsularPage({ params }: { params: Promise
 
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
               {isEs
-                ? '“Asesoría jurídica especializada y representación estratégica para asuntos consulares en Venezuela.”'
-                : '“Specialized legal advisory and strategic representation for consular matters in Venezuela.”'}
+                ? '“Criterio jurídico y adecuación formal de instrumentos consulares vinculados con Venezuela.”'
+                : '“Legal counsel and formal review for consular instruments connected to Venezuela.”'}
             </h3>
 
             <p
@@ -110,8 +110,8 @@ export default async function PracticaConsularPage({ params }: { params: Promise
               }}
             >
               {isEs
-                ? 'Nuestra firma brinda soporte a ciudadanos venezolanos en el exterior, incluyendo la gestión documental, legalización y preparación de mandatos para surtir efectos legales en el territorio nacional.'
-                : 'Our firm provides support to Venezuelan citizens abroad, including document management, legalization, and preparation of mandates intended to produce legal effects within the national territory.'}
+                ? 'Asesoramos en la preparación y revisión de poderes, autorizaciones y declaraciones para que cumplan los requisitos formales exigidos por las autoridades en el territorio nacional.'
+                : 'We advise on the preparation and review of powers of attorney, authorizations, and affidavits to meet formal statutory requirements before authorities in Venezuela.'}
             </p>
 
             <div

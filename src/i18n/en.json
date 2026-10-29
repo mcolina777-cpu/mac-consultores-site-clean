@@ -519,31 +519,31 @@
     "title": "Legal Services for Clients Abroad | Mac Consultores Jurídicos & Asociados",
     "breadcrumb": "CLIENTS ABROAD / LOCAL LEGAL SERVICES IN VENEZUELA",
     "h1": "Legal services for clients abroad",
-    "subtitle": "Local legal advice and coordination for individuals, companies, and investors with matters connected to Venezuela.",
-    "intro_p": "Individuals, companies, and investors outside Venezuela may require local legal support to address documentation, powers of attorney, contracts, property matters, or proceedings before authorities and courts. MAC Consultores Jurídicos & Asociados advises and coordinates legal matters connected to Venezuela based on the facts, available documentation, the scope of engagement, and applicable legal rules.",
+    "subtitle": "Corporate criminal law, criminal defense, and constitutional protection in Venezuela for clients located outside the country.",
+    "intro_p": "Mac Consultores Jurídicos & Asociados assists individuals and companies located outside Venezuela requiring legal intervention in the country in corporate criminal law, criminal defense, and constitutional protection matters. Each engagement is evaluated based on the facts, available documentation, and the scope of the requested action. The firm also examines criminal risks in commercial operations and contractual relationships with effects in Venezuela and provides counsel on powers of attorney and documentation related to the services it renders.",
     "cta_primary": "EVALUATE MATTER WITH THE FIRM",
     "cta_secondary": "VIEW SERVICES",
     "bloque_1": {
       "tag": "LEGAL MATTERS CONNECTED TO VENEZUELA",
       "title": "Local representation and coordination",
-      "subtitle": "Legal support for clients outside the country with corporate, contractual, or procedural matters in Venezuela.",
-      "intro": "The firm assists in preparing and coordinating legal actions that may require local representation or document review in Venezuela.",
+      "subtitle": "Criminal defense and constitutional protection, assessment of criminal-law risks in contracts, and advice on powers of attorney and documents for use in Venezuela.",
+      "intro": "The firm provides services within its areas of specialization. It does not undertake civil litigation or handle divorce, inheritance, or division-of-property matters.",
       "card_1": {
         "tag": "01",
-        "title": "Legal representation in Venezuela",
-        "desc": "Advice and representation in matters that may require appearances before Venezuelan authorities, courts, or other institutions, depending on the nature of the case.",
+        "title": "Criminal defense and constitutional protection",
+        "desc": "Criminal defense and protection of constitutional rights and guarantees before competent authorities and courts in Venezuela for individuals, executives, and corporate entities located outside the country.",
         "link": "VIEW DETAILS →"
       },
       "card_2": {
         "tag": "02",
-        "title": "Contracts and cross-border matters",
-        "desc": "Review and preparation of documents, agreements, and contractual relationships connected to Venezuela, considering applicable rules and the parties' interests.",
+        "title": "Criminal-law assessment of contracts and operations",
+        "desc": "Assessment of criminal risks arising from contracts and operations with effects in Venezuela, taking into account the obligations and statutory provisions relevant to their evaluation.",
         "link": "VIEW DETAILS →"
       },
       "card_3": {
         "tag": "03",
-        "title": "Property and corporate matters",
-        "desc": "Analysis of matters related to assets, investments, entities, or legal relationships requiring local coordination in Venezuela.",
+        "title": "Consular practice and legal procedures",
+        "desc": "Legal counsel for the preparation of documents, powers of attorney, and affidavits before consular offices and foreign notaries intended to take effect in Venezuela.",
         "link": "VIEW DETAILS →"
       }
     },
@@ -555,13 +555,13 @@
       "card_1": {
         "tag": "04",
         "title": "Powers of attorney and mandates",
-        "desc": "Review and preparation of powers of attorney for judicial, administrative, corporate, or property matters, tailored to the authorities required in each matter.",
+        "desc": "Review and preparation of powers of attorney for specific legal actions in Venezuela, subject to prior evaluation of the mandate’s purpose and its alignment with the firm's services.",
         "link": "VIEW DETAILS →"
       },
       "card_2": {
         "tag": "05",
         "title": "Documents executed abroad",
-        "desc": "Review of documents, legalizations, apostilles, and translations when required for use before authorities or institutions in Venezuela.",
+        "desc": "Review of formal validity requirements, consular legalizations, and apostilles for documents executed abroad intended for use before authorities or courts in Venezuela.",
         "link": "VIEW DETAILS →"
       },
       "card_3": {
@@ -574,7 +574,7 @@
     "cierre": {
       "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
       "quote": "Legal coordination from abroad begins with reviewing the facts, documents, and applicable framework.",
-      "desc": "MAC Consultores Jurídicos & Asociados advises individuals, companies, and investors with matters connected to Venezuela that require legal analysis, documentation, coordination, or representation.",
+      "desc": "Mac Consultores Jurídicos & Asociados assists individuals and companies located outside Venezuela requiring criminal defense or constitutional protection, assessment of criminal-law risks in contracts and transactions, or advice on powers of attorney and documentation within the scope of the firm’s services.",
       "btn_primary": "EVALUATE MATTER WITH THE FIRM",
       "btn_secondary": "← BACK TO HOME"
     },
@@ -607,8 +607,8 @@
       },
       "card_5": {
         "tag": "05",
-        "title": "Litigation & Court Representation",
-        "desc": "We provide strategic legal representation and defense before Venezuelan courts for non-resident individuals and corporate entities. We conduct civil and commercial litigation with rigorous procedural oversight, continuous remote monitoring, and transparent periodic case reporting.",
+        "title": "Criminal Defense & Constitutional Protection",
+        "desc": "Criminal defense and protection of constitutional rights and guarantees before authorities and courts in Venezuela for individuals and corporate officers located outside the country, evaluating engagement viability under applicable statutory provisions.",
         "link": "VIEW DETAILS →"
       },
       "card_6": {
@@ -754,7 +754,7 @@
       },
       "approach": {
         "title": "Core principles of cooperation",
-        "p1": "Confidenciality: Strict safeguarding of all shared information under applicable statutory and professional standards.",
+        "p1": "Confidentiality: Strict safeguarding of all shared information under applicable statutory and professional standards.",
         "p2": "Independence & Non-interference: Technical autonomy is preserved, ensuring our support never displaces or interferes with the international firm's client relationship.",
         "p3": "Transparency & Specialization: Clearly defined scopes, fees, and timelines, assessing each case based on technical complexity.",
         "p4": "Beyond traditional correspondence: We build long-term B2B relationships where international firms rely on predictable, solvent, and structured legal capability in Venezuela."
@@ -880,8 +880,8 @@
       "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
     },
     "tramites_consulares": {
-      "title": "Legal services for clients abroad | Mac Consultores Jurídicos",
-      "description": "Local legal advice and coordination for clients abroad with documents, powers of attorney, property, and matters related to Venezuela.",
+      "title": "Legal Services in Venezuela for Clients Abroad | Mac Consultores",
+      "description": "Corporate criminal law, criminal defense, constitutional protection, criminal-law risk assessment in contracts, and power of attorney structuring in Venezuela.",
       "og_title": "Legal services for clients abroad | Mac Consultores Jurídicos",
       "og_description": "Local legal advice and coordination for clients abroad with documents, powers of attorney, property, and matters related to Venezuela."
     },
@@ -1739,23 +1739,23 @@
   },
   "consular": {
     "practica_consular": {
-      "h1": "Legal advisory and representation related to consular proceedings",
+      "h1": "Legal counsel for consular proceedings and documentation",
       "intro": {
-        "p1": "Consular matters related to Venezuela often transcend simple document processing. In specific cases, an act carried out before a consular representation serves as the starting point to produce subsequent legal consequences in Venezuela, particularly when dealing with powers of attorney, mandates, authorizations, affidavits, estate documents, or instruments intended for use before Venezuelan authorities.",
-        "p2": "At Mac Consultores Jurídicos & Asociados, we approach these situations from a comprehensive legal perspective. Prior to initiating any procedure, we identify the specific purpose the client needs to achieve, determine the legally appropriate action, and structure the required documentation to ensure the act effectively fulfills its intended purpose.",
-        "p3": "Our intervention is specifically aimed at individuals, corporations, and stakeholders with interests in Venezuela who are abroad and need to execute legal actions without physical relocation, as well as foreign counsel or law firms requiring local legal coordination."
+        "p1": "Proceedings before consular missions and foreign notaries often serve as the formal prerequisite for legal acts that take effect in Venezuela, particularly regarding powers of attorney, mandates, authorizations, and affidavits.",
+        "p2": "Mac Consultores Jurídicos & Asociados advises on the legal alignment of instruments and the review of formal requirements established by receiving authorities in Venezuela, evaluating in advance the correspondence of the matter with the firm's services.",
+        "p3": "This counsel is directed to individuals and companies located outside Venezuela who must execute or review documents for use in the country. The possibility of handling a matter without personal travel does not constitute a general rule and must be examined according to the specific procedure and requirements of each authority."
       },
       "when_we_intervene": {
         "title": "When we intervene",
         "items": [
-          "Prior legal advisory before proceedings before consular representations.",
-          "Preparation, review, and adaptation of documents intended to produce legal effects in Venezuela.",
-          "Structuring powers of attorney, mandates, authorizations, and affidavits.",
-          "Determining the precise scope of authority to be conferred upon the representative.",
-          "Legal coordination between the principal located abroad and the attorney-in-fact in Venezuela.",
-          "Proceedings involving real estate, assets, corporate shares, obligations, or estate interests.",
-          "Liaison with attorneys, notaries, representatives, and other professionals involved in the transaction.",
-          "Analysis of matters presenting concurrent Venezuelan and cross-border legal elements."
+          "Prior legal counsel before proceedings before consular offices and foreign notaries.",
+          "Preparation and review of documents intended to produce legal effects in Venezuela.",
+          "Review and scope delimitation of powers of attorney, special mandates, and affidavits.",
+          "Determination of the scope of authority conferred upon local representatives.",
+          "Coordination of formal requirements between the principal located abroad and parties in Venezuela.",
+          "Review of corporate documents related to matters handled by the firm.",
+          "Coordination with notaries and legal professionals participating in the execution of the instrument.",
+          "Evaluation of the correspondence between the executed document and the procedure to be carried out in Venezuela."
         ]
       },
       "approach": {
@@ -1797,26 +1797,22 @@
       }
     },
     "contratos_internacionales": {
-      "h1": "Cross-Border Contracts & International Business",
-      "subtitle": "Legal advisory for cross-border commercial operations connected to Venezuela.",
+      "h1": "Criminal Risk Assessment of Contracts and Operations",
+      "subtitle": "Analysis of criminal risks arising from contracts and operations with effects in Venezuela, taking into account the obligations and statutory provisions relevant to their assessment.",
       "intro": {
-        "p1": "Cross-border transactions require legal risk assessments that extend beyond formal contractual reviews. When a commercial relationship involves Venezuela, complex issues arise regarding applicable governing law, jurisdiction, corporate authority, obligation performance, regulatory compliance, contractual liability, and dispute resolution mechanisms.",
-        "p2": "At Mac Consultores Jurídicos & Asociados, we advise on the structuring, review, and legal analysis of contracts and business operations connected to Venezuela, whether a counterparty is located within the territory or the operation spans parties across distinct jurisdictions.",
-        "p3": "Our objective is to identify preemptively the legal risks introduced by the cross-border dimension of the deal and structure contractual safeguards to effectively mitigate them."
+        "p1": "Commercial transactions and agreements taking effect in Venezuela may generate criminal liability contingencies arising from their subject matter, agreed obligations, or regulatory provisions connected to their performance.",
+        "p2": "Mac Consultores Jurídicos & Asociados evaluates contracts and operational arrangements to identify criminal risks and examine the statutory rules directly relevant to their assessment. The firm does not provide standalone regulatory advisory, comprehensive corporate compliance, or general commercial contract drafting.",
+        "p3": "This service is oriented to companies and corporate executives located outside Venezuela seeking to determine criminal-law exposure associated with their contractual commitments and operational decisions in the country."
       },
       "when_we_intervene": {
         "title": "When we intervene",
         "items": [
-          "Substantive legal review and risk analysis of domestic and international contracts.",
-          "Cross-border commercial agreements between parties across multiple jurisdictions.",
-          "Governing law, conflicts of laws, and jurisdictional clause assessments.",
-          "Evaluation and drafting of dispute resolution and international arbitration mechanisms.",
-          "Strategic contractual structuring, risk allocation, and negotiation.",
-          "Commercial agreements, services, agency, distribution, and corporate joint ventures.",
-          "Assessment of obligations to be performed wholly or partially within Venezuelan territory.",
-          "Identification of corporate representation and regulatory compliance contingencies.",
-          "Legal evaluation of transactions involving assets, entities, or interests in Venezuela.",
-          "Cross-border coordination with foreign counsel and international legal advisors."
+          "Preventive criminal-law evaluation of obligations and clauses in contracts performed in Venezuela.",
+          "Identification of criminal contingencies related to economic crimes or corruption in contract performance.",
+          "Examination of statutory and regulatory provisions relevant to determining criminal liability.",
+          "Analysis of criminal risks for corporate executives arising from contractual arrangements and representation.",
+          "Review of criminal risks in supply contracts, service agreements, and operational relationships in the country.",
+          "Coordination on preventive criminal criteria with legal counsel handling the client’s commercial structuring."
         ]
       },
       "approach": {
@@ -1829,26 +1825,22 @@
       }
     },
     "representacion_judicial": {
-      "h1": "Litigation & Judicial Representation",
-      "subtitle": "Strategic legal defense and representation in Venezuela.",
+      "h1": "Criminal Defense & Constitutional Protection for Clients Abroad",
+      "subtitle": "Criminal defense and protection of constitutional rights and guarantees before competent authorities and courts in Venezuela.",
       "intro": {
-        "p1": "For individuals or corporations located outside Venezuela, facing judicial proceedings within the country involves substantial challenges: physical distance combined with navigating a distinct procedural system, making timely strategic decisions, producing evidence, and maintaining effective local presence.",
-        "p2": "In these scenarios, court representation extends far beyond formal procedural appearances. It demands strategic legal leadership, procedural oversight, evidentiary management, and ongoing communication with clients and foreign counsel.",
-        "p3": "At Mac Consultores Jurídicos & Asociados, we represent and counsel foreign and non-resident clients whose assets, commercial operations, or corporate interests in Venezuela require assertive local legal intervention."
+        "p1": "Individuals and corporate executives located outside Venezuela may require legal counsel when facing criminal investigations, court summonses, or measures affecting their fundamental rights in the country.",
+        "p2": "Mac Consultores Jurídicos & Asociados provides criminal defense and constitutional protection before investigative bodies and courts in Venezuela, evaluating engagement viability based on the facts and case documentation. The firm does not engage in civil litigation or general private-law claims.",
+        "p3": "Legal representation is carried out directly within Venezuelan territory, coordinating procedural actions with the client abroad and with international legal teams advising the individual or corporation in their jurisdiction of residence."
       },
       "when_we_intervene": {
         "title": "When we intervene",
         "items": [
-          "Judicial representation of non-resident individuals and international corporations.",
-          "Protection and defense of high-value assets, commercial, and corporate interests.",
-          "Direct procedural and trial appearances across Venezuelan courts.",
-          "Pre-litigation legal assessments prior to filing claims.",
-          "Strategic evaluation of procedural stances, contingencies, and risk scenarios.",
-          "Continuous case monitoring and comprehensive procedural leadership.",
-          "Evaluation of judicial and enforcement contingencies.",
-          "Substantive review and analysis of litigation evidence and documentation.",
-          "Seamless coordination with clients' international legal teams across jurisdictions.",
-          "Tailored litigation strategy and alternative dispute resolution management."
+          "Technical defense in criminal investigations and proceedings before courts of criminal jurisdiction in Venezuela.",
+          "Preparation and filing of cassation appeals before the Criminal Cassation Chamber of the Supreme Tribunal of Justice.",
+          "Filing and litigation of constitutional protection actions (amparo) for the safeguarding of fundamental rights and guarantees.",
+          "Legal representation of individuals and corporate officers located outside the country facing criminal proceedings or summonses in Venezuela.",
+          "Procedural response to preventive or attachment measures over assets connected to criminal proceedings.",
+          "Coordination on criminal defense strategy with legal counsel advising the client in their place of residence."
         ]
       },
       "approach": {
@@ -1863,11 +1855,11 @@
     },
     "poderes_y_mandatos": {
       "h1": "Strategic Powers of Attorney & Mandates",
-      "subtitle": "Structuring of legal authority for representing interests in Venezuela.",
+      "subtitle": "Review and scope delimitation of powers of attorney for representation in Venezuela.",
       "intro": {
-        "p1": "For individuals located outside Venezuela, granting a power of attorney is an essential instrument for managing real estate, assets, judicial proceedings, corporate governance, and administrative matters within the country.",
+        "p1": "For anyone located outside Venezuela, granting a power of attorney requires clearly defining the powers conferred and assessing their suitability for the intended action before authorities, courts, or other bodies in the country.",
         "p2": "However, a power of attorney should never be treated as a routine formal template. Its practical efficacy requires that the conferred authorities are legally sufficient, precisely delimited, and strictly aligned with the underlying mandate.",
-        "p3": "At Mac Consultores Jurídicos & Asociados, we advise on the strategic drafting, scope structuring, and legal review of powers of attorney and mandates to safeguard personal, corporate, asset, and administrative interests in Venezuela."
+        "p3": "Mac Consultores Jurídicos & Asociados provides counsel on the review and preparation of powers of attorney for specific legal actions in Venezuela, subject to prior evaluation of the mandate’s purpose and its alignment with the firm's services. The firm does not handle mandates concerning divorce, succession, property partition, or civil litigation."
       },
       "when_we_intervene": {
         "title": "When we intervene",
