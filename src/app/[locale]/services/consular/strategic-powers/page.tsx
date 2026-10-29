@@ -7,11 +7,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isEs = locale === 'es';
   const title = isEs
-    ? 'Poderes y Mandatos Estratégicos | Mac Consultores'
-    : 'Strategic Powers of Attorney | Mac Consultores';
+    ? 'Poderes y Mandatos | Mac Consultores'
+    : 'Powers of Attorney and Mandates | Mac Consultores';
   const description = isEs
-    ? 'Estructuración, delimitación y revisión jurídica de poderes y mandatos transfronterizos para actuar en Venezuela.'
-    : 'Strategic drafting, scope delimitation, and review of cross-border powers of attorney for Venezuela.';
+    ? 'Revisión y delimitación jurídica de poderes y mandatos para actuaciones específicas en Venezuela.'
+    : 'Legal review and scope delimitation of powers of attorney for specific actions in Venezuela.';
 
   const canonical = isEs
     ? 'https://mac-consultores-site-clean.vercel.app/es/services/consular/poderes-y-mandatos'

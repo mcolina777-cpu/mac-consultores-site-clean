@@ -1767,33 +1767,29 @@
       }
     },
     "gestion_documental": {
-      "h1": "Cross-Border Legal & Documentary Management",
-      "subtitle": "Documentation with full legal validity in Venezuela and international jurisdictions.",
+      "h1": "Documents executed abroad",
+      "subtitle": "Legal review of formal requirements for the use of foreign documents in Venezuela.",
       "intro": {
-        "p1": "The cross-border circulation of legal instruments cannot be simplified to merely securing an apostille or consular legalization. The fundamental legal question lies in determining which instrument is needed, its statutory purpose, the recipient authority, mandatory formalities, and the exact legal outcome pursued through its execution.",
-        "p2": "A document fully valid in the issuing country may prove legally insufficient in another jurisdiction if statutory formalities mandated by governing laws or receiving administrative bodies are not rigorously satisfied.",
-        "p3": "At Mac Consultores Jurídicos & Asociados, we provide cross-border legal and documentary coordination for matters linking Venezuela with global jurisdictions. Our mandate begins by identifying the core legal purpose and determining the precise compliance roadmap required for enforceability."
+        "p1": "The use in Venezuela of documents executed abroad requires prior verification of their formal compliance, beyond the routine acquisition of an apostille or consular legalization. The legal analysis consists in determining what document is required, its purpose before Venezuelan authorities, and the formal prerequisites it must satisfy to support the planned action.",
+        "p2": "An instrument validly executed in the country of origin may prove insufficient or inadmissible before receiving bodies in Venezuela if statutory requirements regarding authentication, apostille or legalization, official translation, or formal compliance under applicable law are not satisfied.",
+        "p3": "Mac Consultores Jurídicos & Asociados advises individuals and companies abroad on reviewing and verifying the formal compliance of documents intended for use in Venezuela, subject to prior evaluation of their alignment with the firm's services. The firm does not handle documentary procedures concerning divorce, succession, property partition, or civil litigation."
       },
       "when_we_intervene": {
         "title": "When we intervene",
         "items": [
-          "Legal assessment of public and private deeds intended for international enforcement.",
-          "Apostille and consular authentication aligned with instrument nature and judicial destination.",
-          "Statutory verification of formal validity, authenticity, and legal enforceability.",
-          "Documentation destined for judicial courts, public registries, notaries, and administrative authorities.",
-          "Venezuelan legal instruments intended to produce binding effects in foreign jurisdictions.",
-          "Foreign legal documentation structured to take full legal effect in Venezuela.",
-          "Legal review of deeds governing corporate authority, assets, shares, and commercial transactions.",
-          "Cross-border legal liaison with notaries, sworn translators, barristers, and international counsel.",
-          "Preemptive identification of documentary discrepancies preventing procedural delays."
+          "Review of formal requirements for public and private documents executed abroad to be presented before competent authorities in Venezuela.",
+          "Determination of the applicable authentication route, whether by Hague Apostille or consular legalization.",
+          "Review of the translation requirements applicable to the document for its use in Venezuela.",
+          "Assessment of formal alignment between the document executed abroad and the specific legal action intended to be supported in Venezuela.",
+          "Preventive identification of formal defects, omissions, or discrepancies that may prevent or delay document admissibility before the receiving authority."
         ]
       },
       "approach": {
         "title": "Our approach",
-        "p1": "Every matter begins with a core question: What legal effect must the instrument produce, and before which governing authority will it be filed? The answer defines the procedural path.",
-        "p2": "We evaluate document provenance, issuing body, final recipient, substantive legal objective, and applicable statutory requirements. When professionals across multiple jurisdictions participate, we ensure unified documentary architecture and cohesive legal direction.",
-        "p3": "This preempts a primary risk in international practice: satisfying procedural formalities without verifying whether the underlying instrument is legally viable for its intended purpose.",
-        "p4": "Our service extends far beyond transiting paperwork across borders; we deliver legal governance and strategic coordination, ensuring all documentation forms part of a coherent cross-border strategy."
+        "p1": "Every matter begins with an essential question: What legal effect is the document intended to produce, and before which authority will it be used? The answer determines the steps required.",
+        "p2": "We examine the nature of the document, its origin, issuing authority, intended recipient, legal purpose, and any formalities that may apply. Where professionals from different jurisdictions are involved, we seek a shared understanding of the documentary requirements and legal purpose.",
+        "p3": "This helps avoid a common problem in cross-border documentation: completing formalities without first determining whether the document is legally suitable for its intended purpose.",
+        "p4": "Our service is not merely about transferring documents between jurisdictions. It provides legal judgment on their use and coordination, with the aim of supporting a previously defined legal strategy."
       }
     },
     "contratos_internacionales": {
@@ -1854,8 +1850,8 @@
       }
     },
     "poderes_y_mandatos": {
-      "h1": "Strategic Powers of Attorney & Mandates",
-      "subtitle": "Review and scope delimitation of powers of attorney for representation in Venezuela.",
+      "h1": "Powers of attorney and mandates",
+      "subtitle": "Review and preparation of powers of attorney for specific legal actions in Venezuela.",
       "intro": {
         "p1": "For anyone located outside Venezuela, granting a power of attorney requires clearly defining the powers conferred and assessing their suitability for the intended action before authorities, courts, or other bodies in the country.",
         "p2": "However, a power of attorney should never be treated as a routine formal template. Its practical efficacy requires that the conferred authorities are legally sufficient, precisely delimited, and strictly aligned with the underlying mandate.",
@@ -1864,25 +1860,20 @@
       "when_we_intervene": {
         "title": "When we intervene",
         "items": [
-          "Determination of precise legal authorities required for specific transactions or actions.",
-          "Drafting and review of special, limited, and general powers of attorney.",
-          "Structuring representation authorities for litigation and judicial proceedings.",
-          "Conferral of powers concerning real estate, movable property, and estate assets.",
-          "Authority structuring for shareholder meetings, corporate governance, and commercial acts.",
-          "Administrative authorities before public agencies, ministries, and regulatory bodies.",
-          "Cross-border coordination of instruments executed before foreign notaries and consulates.",
-          "Substantive review and amendment of preexisting powers of attorney.",
-          "Identification and correction of ambiguous, insufficient, or overly broad authorities.",
-          "Coordination with consulates, notaries public, and legal counsel across jurisdictions."
+          "Determination of the legal powers required for the specific action to be carried out in Venezuela.",
+          "Drafting and review of powers of attorney and mandates with precise delimitation of their scope, authorities, and term.",
+          "Delimitation of judicial or administrative representation authorities in matters connected with the firm's practice.",
+          "Review and adjustment of existing powers of attorney to verify legal sufficiency and correct ambiguous or overly broad clauses.",
+          "Legal coordination between execution requirements abroad and their subsequent formal use in Venezuela."
         ]
       },
       "approach": {
         "title": "Our approach",
-        "p1": "The core question is never simply 'which template is needed?', but rather: What specific action must the agent execute, and what exact legal authority is required to accomplish it?",
-        "p2": "Starting from that principle, we evaluate the substantive purpose of the mandate and structure only the necessary authorities.",
-        "p3": "An overly generic document often fails before Venezuelan institutions; an overly broad one creates significant asset risks for the principal. Rigorous structuring requires balance among legal sufficiency, statutory precision, and grantor control.",
-        "p4": "When executed abroad, we ensure full alignment between foreign notarial or consular formalities and local Venezuelan registry requirements.",
-        "p5": "Our goal is to ensure the power of attorney is not merely formally valid, but a functional legal tool that empowers the agent to act decisively in Venezuela within the principal's explicit mandate."
+        "p1": "The question is not simply “What power of attorney is needed?” but rather: What does the representative need to do, and what powers are actually required?",
+        "p2": "On that basis, we examine the specific purpose of the mandate and determine the powers to be conferred.",
+        "p3": "An overly generic instrument may be insufficient for certain actions, while an overly broad one may confer powers the principal does not intend to grant. Proper drafting therefore requires a balance between sufficiency, precision, and control.",
+        "p4": "When a power of attorney is executed abroad, the formalities of execution must also be considered in relation to its subsequent use in Venezuela. We therefore assess the documentary requirements in light of the instrument’s legal purpose.",
+        "p5": "Our objective is for the power of attorney to serve not merely as a formally valid document, but as a functional legal instrument enabling the representative to carry out the intended actions in Venezuela within the authority granted by the principal."
       }
     }
   },

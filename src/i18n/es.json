@@ -1767,25 +1767,21 @@
       }
     },
     "gestion_documental": {
-      "h1": "Gestión Jurídico-Documental Internacional",
-      "subtitle": "Documentación con efectos jurídicos en Venezuela y otras jurisdicciones.",
+      "h1": "Documentos otorgados en el exterior",
+      "subtitle": "Revisión jurídica de requisitos formales para la utilización de documentos extranjeros en Venezuela.",
       "intro": {
-        "p1": "La circulación internacional de documentos no puede reducirse a la obtención de una apostilla o a una legalización. La verdadera cuestión jurídica consiste en determinar qué documento se necesita, cuál es su finalidad, quién debe recibirlo, qué formalidades requiere y qué efecto se pretende obtener mediante su utilización.",
-        "p2": "Un documento perfectamente válido en el país donde fue emitido puede resultar insuficiente para producir determinados efectos en otra jurisdicción si no se cumplen las formalidades exigidas por la legislación aplicable o por la autoridad receptora.",
-        "p3": "En Mac Consultores Jurídicos & Asociados prestamos asesoría y coordinación jurídico-documental para asuntos que conectan Venezuela con otras jurisdicciones. Nuestro trabajo comienza con la identificación de la finalidad jurídica del documento y continúa con la determinación de la ruta documental necesaria para su utilización."
+        "p1": "La utilización en Venezuela de documentos otorgados en el extranjero exige verificar previamente su idoneidad formal, más allá de la obtención mecánica de una apostilla o legalización. La labor jurídica consiste en determinar qué documento se requiere, cuál es su finalidad ante las autoridades u órganos venezolanos y qué requisitos debe reunir para sustentar la actuación prevista.",
+        "p2": "Un instrumento válidamente otorgado en el país de origen puede resultar insuficiente o inadmisible ante órganos receptores en Venezuela si no satisface las exigencias de autenticación, legalización o apostilla, traducción oficial o adecuación formal previstas en la legislación aplicable.",
+        "p3": "Mac Consultores Jurídicos & Asociados asesora a personas y empresas situadas en el extranjero en el examen y adecuación formal de documentos destinados a surtir efectos en Venezuela, evaluando previamente su correspondencia con los servicios de la firma. La firma no atiende trámites documentales vinculados con divorcios, sucesiones, partición de bienes ni litigación civil."
       },
       "when_we_intervene": {
         "title": "Cuándo intervenimos",
         "items": [
-          "Análisis de documentos públicos y privados destinados a producir efectos internacionales.",
-          "Apostilla y legalización, según corresponda a la naturaleza y finalidad del documento.",
-          "Revisión de requisitos de validez, autenticidad y eficacia.",
-          "Documentación destinada a tribunales, registros, notarías y autoridades administrativas.",
-          "Documentos venezolanos destinados a producir efectos en otras jurisdicciones.",
-          "Documentación extranjera destinada a producir efectos jurídicos en Venezuela.",
-          "Revisión de documentos relacionados con representación, patrimonio, sociedades y operaciones comerciales.",
-          "Coordinación jurídica con notarios, traductores, abogados y profesionales de otras jurisdicciones.",
-          "Identificación preventiva de inconsistencias documentales que puedan impedir o retrasar la utilización del instrumento."
+          "Examen de requisitos formales en documentos públicos y privados otorgados en el exterior para su presentación ante autoridades u órganos competentes en Venezuela.",
+          "Determinación de la vía de autenticación aplicable al instrumento, sea mediante apostilla bajo el Convenio de La Haya o legalización consular ordinaria.",
+          "Revisión de los requisitos de traducción aplicables al documento para su utilización en Venezuela.",
+          "Evaluación de la correspondencia formal entre el documento otorgado en el extranjero y la actuación específica que se pretende sustentar en el país.",
+          "Identificación preventiva de inconsistencias formales, omisiones o defectos que puedan impedir o demorar la admisibilidad del documento ante el órgano receptor."
         ]
       },
       "approach": {
@@ -1854,8 +1850,8 @@
       }
     },
     "poderes_y_mandatos": {
-      "h1": "Poderes y Mandatos Estratégicos",
-      "subtitle": "Revisión y delimitación de facultades para la representación de intereses en Venezuela.",
+      "h1": "Poderes y mandatos",
+      "subtitle": "Revisión y preparación de poderes para actuaciones específicas en Venezuela.",
       "intro": {
         "p1": "Para quien se encuentra fuera de Venezuela, otorgar un poder exige precisar las facultades conferidas y su adecuación a la actuación que se pretende realizar ante autoridades, tribunales u organismos en el país.",
         "p2": "Sin embargo, un poder no debe ser tratado como un documento meramente formal. Su verdadera utilidad depende de que las facultades conferidas sean jurídicamente suficientes, adecuadamente delimitadas y coherentes con la finalidad para la cual se otorgan.",
@@ -1864,16 +1860,11 @@
       "when_we_intervene": {
         "title": "Cuándo intervenimos",
         "items": [
-          "Determinación de las facultades necesarias para una actuación específica.",
-          "Redacción y revisión de poderes especiales y mandatos.",
-          "Estructuración de facultades para actuaciones judiciales.",
-          "Facultades relacionadas con bienes y derechos patrimoniales.",
-          "Facultades para actuaciones corporativas y societarias.",
-          "Facultades para gestiones administrativas.",
-          "Coordinación de poderes otorgados desde el extranjero.",
-          "Revisión y adecuación de poderes previamente otorgados.",
-          "Identificación de facultades insuficientes, ambiguas o innecesarias.",
-          "Coordinación con consulados, notarías, abogados y profesionales de otras jurisdicciones."
+          "Determinación de las facultades requeridas para la actuación específica que se pretende realizar en Venezuela.",
+          "Redacción y revisión de poderes y mandatos con delimitación precisa de su alcance, facultades y vigencia.",
+          "Delimitación de facultades de representación judicial o administrativa en asuntos vinculados con los servicios de la firma.",
+          "Revisión y adecuación de poderes preexistentes para constatar su suficiencia jurídica y corregir cláusulas ambiguas o excesivas.",
+          "Coordinación jurídica entre los requisitos de otorgamiento en el extranjero y su posterior utilización formal en Venezuela."
         ]
       },
       "approach": {

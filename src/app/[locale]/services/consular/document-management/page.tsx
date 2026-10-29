@@ -7,11 +7,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isEs = locale === 'es';
   const title = isEs
-    ? 'Gestión Jurídico-Documental | Mac Consultores'
-    : 'Legal-Documentary Management | Mac Consultores';
+    ? 'Documentos otorgados en el exterior | Mac Consultores'
+    : 'Documents Executed Abroad | Mac Consultores';
   const description = isEs
-    ? 'Asesoría y coordinación jurídico-documental internacional con efectos en Venezuela.'
-    : 'Cross-border legal and documentary coordination with effects in Venezuela.';
+    ? 'Revisión jurídica de requisitos formales, legalización y apostilla de documentos otorgados fuera del país para su utilización en Venezuela.'
+    : 'Legal review of formal validity, legalizations, and apostilles for foreign documents intended for use in Venezuela.';
 
   const canonical = isEs
     ? 'https://mac-consultores-site-clean.vercel.app/es/services/consular/gestion-documental'
