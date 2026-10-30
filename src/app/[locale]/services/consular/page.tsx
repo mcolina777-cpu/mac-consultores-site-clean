@@ -90,75 +90,16 @@ export default async function InternacionalPage({ params }: { params: Promise<{ 
         </div>
       </header>
 
-      <section className="intro-section section-padding-asym">
+      <section className="intro-section" style={{ paddingTop: '40px', paddingBottom: '40px' }}>
         <div className="container">
           <div className="grid-split">
             <div className="about-text">
               <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
                 {dict?.tramites_consulares?.intro_p1}
               </p>
-              <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+              <p className="text-left max-w-100 mb-0" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
                 {dict?.tramites_consulares?.intro_p2}
               </p>
-
-              {/* NOTA DE CONTRATACIÓN INSTITUCIONAL */}
-              <div
-                style={{
-                  marginTop: '1.5rem',
-                  padding: '1.25rem',
-                  borderLeft: '3px solid var(--primary, #0c1a2c)',
-                  backgroundColor: 'var(--bg-soft, #f9fafb)',
-                  borderRadius: '0 4px 4px 0',
-                }}
-              >
-                <p
-                  style={{
-                    lineHeight: 1.6,
-                    fontSize: '0.9rem',
-                    color: 'var(--text-muted, #4b5563)',
-                    margin: 0,
-                  }}
-                >
-                  <strong>{isEs ? "Evaluación jurídica y confidencialidad: " : "Legal assessment and confidentiality: "}</strong>
-                  {dict?.tramites_consulares?.contract_note}
-                </p>
-              </div>
-
-              {/* ACCESO SECUNDARIO: ASESORÍA PETROLERA */}
-              <div
-                style={{
-                  marginTop: '1.5rem',
-                  paddingLeft: '1.25rem',
-                  borderLeft: '2px solid var(--accent, #990000)',
-                }}
-              >
-                <span
-                  className="section-tag"
-                  style={{
-                    marginBottom: '0.5rem',
-                    fontSize: '0.75rem',
-                  }}
-                >
-                  {dict?.tramites_consulares?.oil_sector_access?.tag}
-                </span>
-                <p
-                  className="text-left max-w-100"
-                  style={{
-                    lineHeight: 1.6,
-                    fontSize: '0.95rem',
-                    color: 'var(--text-muted, #4b5563)',
-                    marginBottom: '0.75rem',
-                  }}
-                >
-                  {dict?.tramites_consulares?.oil_sector_access?.desc}
-                </p>
-                <Link
-                  href={getRoute(locale, 'services.sector_petrolero')}
-                  className="card-link"
-                >
-                  {dict?.tramites_consulares?.oil_sector_access?.link}
-                </Link>
-              </div>
             </div>
 
             <div className="img-reveal">
@@ -172,6 +113,66 @@ export default async function InternacionalPage({ params }: { params: Promise<{ 
                   loading="lazy"
                 />
               </picture>
+            </div>
+          </div>
+
+          {/* FILA COMPLEMENTARIA: NOTA DE CONTRATACIÓN Y ASESORÍA PETROLERA */}
+          <div className="grid-2 mt-2rem">
+            {/* NOTA DE CONTRATACIÓN INSTITUCIONAL */}
+            <div
+              style={{
+                padding: '1.25rem',
+                borderLeft: '3px solid var(--primary, #0c1a2c)',
+                backgroundColor: 'var(--bg-soft, #f9fafb)',
+                borderRadius: '0 4px 4px 0',
+              }}
+            >
+              <p
+                style={{
+                  lineHeight: 1.6,
+                  fontSize: '0.9rem',
+                  color: 'var(--text-muted, #4b5563)',
+                  margin: 0,
+                }}
+              >
+                <strong>{isEs ? "Evaluación jurídica y confidencialidad: " : "Legal assessment and confidentiality: "}</strong>
+                {dict?.tramites_consulares?.contract_note}
+              </p>
+            </div>
+
+            {/* ACCESO SECUNDARIO: ASESORÍA PETROLERA */}
+            <div
+              style={{
+                paddingLeft: '1.25rem',
+                borderLeft: '2px solid var(--accent, #990000)',
+              }}
+            >
+              <span
+                className="section-tag"
+                style={{
+                  marginBottom: '0.5rem',
+                  fontSize: '0.75rem',
+                }}
+              >
+                {dict?.tramites_consulares?.oil_sector_access?.tag}
+              </span>
+              <p
+                className="text-left max-w-100"
+                style={{
+                  lineHeight: 1.6,
+                  fontSize: '0.95rem',
+                  color: 'var(--text-muted, #4b5563)',
+                  marginBottom: '0.75rem',
+                }}
+              >
+                {dict?.tramites_consulares?.oil_sector_access?.desc}
+              </p>
+              <Link
+                href={getRoute(locale, 'services.sector_petrolero')}
+                className="card-link"
+              >
+                {dict?.tramites_consulares?.oil_sector_access?.link}
+              </Link>
             </div>
           </div>
         </div>
