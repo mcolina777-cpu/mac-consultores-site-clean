@@ -516,66 +516,56 @@
     "btn": "START ADMISSION PROCESS"
   },
   "tramites_consulares": {
-    "title": "Legal Services for Clients Abroad | Mac Consultores Jurídicos & Asociados",
-    "breadcrumb": "CLIENTS ABROAD / LOCAL LEGAL SERVICES IN VENEZUELA",
-    "h1": "Legal services for clients abroad",
-    "subtitle": "Corporate criminal law, criminal defense, and constitutional protection in Venezuela for clients located outside the country.",
+    "title": "Specialized Legal Counsel & Intervention in Venezuela | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "INTERNATIONAL",
+    "h1": "Specialized Legal Counsel & Intervention in Venezuela",
+    "subtitle": "Corporate criminal law, criminal defense, and constitutional protection for companies, institutions, and individuals located outside Venezuela.",
     "intro_p": "Mac Consultores Jurídicos & Asociados assists individuals and companies located outside Venezuela requiring legal intervention in the country in corporate criminal law, criminal defense, and constitutional protection matters. Each engagement is evaluated based on the facts, available documentation, and the scope of the requested action. The firm also examines criminal risks in commercial operations and contractual relationships with effects in Venezuela and provides counsel on powers of attorney and documentation related to the services it renders.",
-    "cta_primary": "EVALUATE MATTER WITH THE FIRM",
-    "cta_secondary": "VIEW SERVICES",
+    "cta_primary": "REQUEST LEGAL ASSESSMENT",
+    "cta_secondary": "VIEW INTERNATIONAL SERVICES",
     "bloque_1": {
-      "tag": "LEGAL MATTERS CONNECTED TO VENEZUELA",
-      "title": "Local representation and coordination",
-      "subtitle": "Criminal defense and constitutional protection, assessment of criminal-law risks in contracts, and advice on powers of attorney and documents for use in Venezuela.",
-      "intro": "The firm provides services within its areas of specialization. It does not undertake civil litigation or handle divorce, inheritance, or division-of-property matters.",
+      "tag": "LEGAL COUNSEL, STRATEGY AND LOCAL INTERVENTION",
+      "title": "Specialized legal services for matters connected to Venezuela.",
       "card_1": {
         "tag": "01",
-        "title": "Criminal defense and constitutional protection",
-        "desc": "Criminal defense and protection of constitutional rights and guarantees before competent authorities and courts in Venezuela for individuals, executives, and corporate entities located outside the country.",
+        "title": "Criminal defense and victim representation",
+        "desc": "Design of defense strategies and procedural advocacy in criminal investigations and court proceedings in Venezuela. Legal counsel and victim representation, formal complaint lodgment, and drafting of pleadings for the protection of their rights and interests.",
         "link": "VIEW DETAILS →"
       },
       "card_2": {
         "tag": "02",
-        "title": "Criminal risk assessment of contracts and operations",
-        "desc": "Assessment of criminal risks arising from contracts and operations with effects in Venezuela, taking into account the obligations and statutory provisions relevant to their evaluation.",
+        "title": "Corporate criminal strategy in business operations",
+        "desc": "Legal research on criminal law contingencies connected to corporate operations in Venezuela. Preparation of legal opinions and development of prevention and response strategies for companies and governing bodies.",
         "link": "VIEW DETAILS →"
       },
       "card_3": {
         "tag": "03",
-        "title": "Consular practice and legal procedures",
-        "desc": "Legal counsel for the preparation of documents, powers of attorney, and affidavits before consular offices and foreign notaries intended to take effect in Venezuela.",
+        "title": "Legal opinions on Venezuelan law",
+        "desc": "Statutory and case-law research on criminal and constitutional matters. Preparation of substantiated legal opinions and reports for institutional decision-making, procedural strategies, and international legal coordination.",
         "link": "VIEW DETAILS →"
       }
     },
     "bloque_2": {
-      "tag": "DOCUMENTATION AND POWERS OF ATTORNEY",
-      "title": "Documents and representation from abroad",
-      "subtitle": "Review of powers of attorney, documents, and formalities applicable to their use in Venezuela.",
-      "intro": "Preparing documents executed outside the country may require reviewing their content, formalities, language, and authentication mechanisms before presentation to Venezuelan authorities.",
+      "tag": "CHALLENGES AND INTERNATIONAL LEGAL PROTECTION",
+      "title": "Criminal cassation, constitutional protection and extradition",
       "card_1": {
         "tag": "04",
-        "title": "Powers of attorney and mandates",
-        "desc": "Review and preparation of powers of attorney for specific legal actions in Venezuela, subject to prior evaluation of the mandate’s purpose and its alignment with the firm's services.",
+        "title": "Criminal cassation and constitutional protection",
+        "desc": "Legal research and argumentation for criminal cassation appeals, constitutional amparo actions, and habeas data. Formulation of challenge strategies and protection of constitutional rights and guarantees.",
         "link": "VIEW DETAILS →"
       },
       "card_2": {
         "tag": "05",
-        "title": "Documents executed abroad",
-        "desc": "Review of formal validity requirements, consular legalizations, and apostilles for documents executed abroad intended for use before authorities or courts in Venezuela.",
-        "link": "VIEW DETAILS →"
-      },
-      "card_3": {
-        "tag": "06",
-        "title": "Energy law and regulatory practice",
-        "desc": "Contractual, corporate, and regulatory advice for companies and investors with interests in Venezuela’s energy sector.",
+        "title": "Extradition and international legal coordination",
+        "desc": "Formulation of legal strategies and drafting of pleadings in extradition proceedings. Preparation of reports on Venezuelan criminal law and its defense implications, in collaboration with international law firms.",
         "link": "VIEW DETAILS →"
       }
     },
     "cierre": {
       "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
-      "quote": "Legal coordination from abroad begins with reviewing the facts, documents, and applicable framework.",
-      "desc": "Mac Consultores Jurídicos & Asociados assists individuals and companies located outside Venezuela requiring criminal defense or constitutional protection, assessment of criminal-law risks in contracts and transactions, or advice on powers of attorney and documentation within the scope of the firm’s services.",
-      "btn_primary": "EVALUATE MATTER WITH THE FIRM",
+      "title": "Legal assessment and scope of engagement",
+      "desc": "Receiving case background enables us to define the scope and professional fees of the initial legal assessment. This assessment provides the foundation to determine, where appropriate, the subsequent actions, deliverables, and conditions of further professional intervention.",
+      "cta": "REQUEST LEGAL ASSESSMENT",
       "btn_secondary": "← BACK TO HOME"
     },
     "support": {
@@ -642,6 +632,22 @@
       "tag": "SECTOR PRACTICE",
       "desc": "Preventive assessment of legal contingencies and corporate criminal defense relating to oil operations in Venezuela, for operating companies, contractors, and executives.",
       "link": "Explore oil sector advisory →"
+    },
+    "intro_p1": "Mac Consultores Jurídicos & Asociados provides specialized legal counsel on matters connected to Venezuela for clients located abroad. Its intervention encompasses the review of case backgrounds, statutory and case-law research, strategy formulation, and the preparation of legal pleadings and documents within the firm’s practice areas.",
+    "intro_p2": "Services are structured through defined professional engagements, identifying their scope, specific actions, deliverables, and economic terms. Technical drafting of legal pleadings, argumentative rigor, and local procedural coordination constitute core components of the service.",
+    "contract_note": "The legal assessment of each matter constitutes a fee-based professional service. Its scope and professional fees will be established in advance. All information and documentation received will be handled with strict confidentiality and in adherence to professional secrecy.",
+    "alliances_connection": {
+      "tag": "B2B COOPERATION & LOCAL COUNSEL",
+      "title": "Specialized legal cooperation with international law firms",
+      "text": "The firm undertakes legal research, strategy formulation, drafting of documents, and local procedural intervention in coordination with foreign lawyers and law firms. Collaboration is structured around defined responsibilities and technical complementarity, following our Local Counsel and B2B cooperation model.",
+      "link": "LOCAL COUNSEL & B2B COOPERATION →"
+    },
+    "consular_archive": {
+      "tag": "CONSULAR AND DOCUMENTARY MATTERS",
+      "title": "Consular proceedings, powers of attorney, and documents executed abroad",
+      "link_1": "Legal counsel for consular proceedings and documentation",
+      "link_2": "Powers of attorney and mandates",
+      "link_3": "Documents executed abroad"
     }
   },
   "colaboracion_internacional": {
@@ -880,10 +886,10 @@
       "og_description": "High-complexity legal solutions focused on strategy, prevention, and the comprehensive protection of our clients' interests."
     },
     "tramites_consulares": {
-      "title": "Legal Services in Venezuela for Clients Abroad | Mac Consultores",
-      "description": "Corporate criminal law, criminal defense, constitutional protection, criminal-law risk assessment in contracts, and power of attorney structuring in Venezuela.",
-      "og_title": "Legal services for clients abroad | Mac Consultores Jurídicos",
-      "og_description": "Local legal advice and coordination for clients abroad with documents, powers of attorney, property, and matters related to Venezuela."
+      "title": "Specialized Legal Counsel & Intervention in Venezuela | Mac Consultores Jurídicos & Asociados",
+      "description": "Corporate criminal law, criminal defense, and constitutional protection for companies, institutions, and individuals located outside Venezuela.",
+      "og_title": "Specialized Legal Counsel & Intervention in Venezuela | Mac Consultores Jurídicos & Asociados",
+      "og_description": "Corporate criminal law, criminal defense, and constitutional protection for companies, institutions, and individuals located outside Venezuela."
     },
     "index": {
       "title": "Mac Consultores Jurídicos & Asociados | Legal Excellence",
@@ -1793,60 +1799,187 @@
       }
     },
     "contratos_internacionales": {
-      "h1": "Criminal Risk Assessment of Contracts and Operations",
-      "subtitle": "Analysis of criminal risks arising from contracts and operations with effects in Venezuela, taking into account the obligations and statutory provisions relevant to their assessment.",
+      "tag": "INTERNATIONAL · CORPORATE CRIMINAL LAW",
+      "h1": "Corporate criminal strategy in business operations",
+      "subtitle": "Legal research, preparation of legal opinions, and development of prevention and response strategies for companies and governing bodies.",
+      "meta_title": "Corporate Criminal Strategy for Business Operations | Mac Consultores Jurídicos & Asociados",
+      "meta_desc": "Legal research, preparation of legal opinions, and development of prevention and response strategies for companies and governing bodies.",
       "intro": {
-        "p1": "Commercial transactions and agreements taking effect in Venezuela may generate criminal liability contingencies arising from their subject matter, agreed obligations, or regulatory provisions connected to their performance.",
-        "p2": "Mac Consultores Jurídicos & Asociados evaluates contracts and operational arrangements to identify criminal risks and examine the statutory rules directly relevant to their assessment. The firm does not provide standalone regulatory advisory, comprehensive corporate compliance, or general commercial contract drafting.",
-        "p3": "This service is oriented to companies and corporate executives located outside Venezuela seeking to determine criminal-law exposure associated with their contractual commitments and operational decisions in the country."
+        "p1": "Mac Consultores Jurídicos & Asociados advises companies, institutions, and governing bodies located outside Venezuela on criminal-law issues connected to their operations in the country. The intervention encompasses research into concrete legal problems, the drafting of legal opinions, and the design of strategies to address contingencies affecting the entity or involved individuals.",
+        "p2": "The service is structured around a defined question: a commercial decision, specific factual events, or an official authority inquiry whose criminal-law implications require legal clarity. Transaction documentation serves as background for the study; its examination does not constitute an engagement for general contract review or general corporate consulting."
       },
-      "when_we_intervene": {
-        "title": "When we intervene",
+      "cta": "REQUEST CORPORATE CRIMINAL ASSESSMENT",
+      "nota": "The assessment constitutes a fee-based professional service. Its scope and fees are established in advance. All received information and documentation are treated with strict confidentiality and subject to professional secrecy.",
+      "supuestos": {
+        "title": "Advisory scenarios",
         "items": [
-          "Preventive criminal-law evaluation of obligations and clauses in contracts performed in Venezuela.",
-          "Identification of criminal contingencies related to economic crimes or corruption in contract performance.",
-          "Examination of statutory and regulatory provisions relevant to determining criminal liability.",
-          "Analysis of criminal risks for corporate executives arising from contractual arrangements and representation.",
-          "Review of criminal risks in supply contracts, service agreements, and operational relationships in the country.",
-          "Coordination on preventive criminal criteria with legal counsel handling the client’s commercial structuring."
+          {
+            "title": "Corporate decisions with potential criminal implications",
+            "paragraphs": [
+              "Research into criminal-law issues relevant to a corporate decision, transaction, or project connected to Venezuela. Formulation of legal conclusions that distinguish substantiated contingencies from purely hypothetical scenarios."
+            ]
+          },
+          {
+            "title": "Events requiring an organizational legal response",
+            "paragraphs": [
+              "Examination of factual backgrounds concerning potential irregularities affecting the company or its operations. Preparation of an initial legal position and recommended courses of action within the contracted professional scope."
+            ]
+          },
+          {
+            "title": "Authority inquiries and official proceedings",
+            "paragraphs": [
+              "Advisory on the organizational legal response to official requests, subpoenas, or administrative actions with potential criminal relevance. Assessment of available records, issues requiring investigation, and professional measures to be proposed.",
+              "Where the matter requires procedural defense or court appearance, that intervention will be expressly defined and coordinated with the corresponding practice."
+            ]
+          },
+          {
+            "title": "Counsel to governing boards and corporate legal teams",
+            "paragraphs": [
+              "Preparation of substantiated legal opinions for boards of directors, in-house counsel, and international law firms requiring clarification of Venezuelan criminal law before adopting a stance or issuing directives."
+            ]
+          }
         ]
       },
-      "approach": {
-        "title": "Our approach",
-        "p1": "We approach contracts as instruments for strategic risk distribution, obligation assignment, liability management, and substantive legal safeguards.",
-        "p2": "Thus, our analysis extends beyond mere drafting correctness. We evaluate how the agreement will perform in practice: who is bound, where obligations must be discharged, which statutory frameworks govern, consequences of default, and enforceable remedies available to protect our clients' rights.",
-        "p3": "Where multiple jurisdictions intersect, we rigorously examine the interface between international contractual architecture and Venezuelan statutory compliance.",
-        "p4": "This strategic perspective is vital for corporations, foreign investors, professionals, and individuals conducting commercial operations in Venezuela from abroad.",
-        "p5": "Early legal intervention identifies contingencies before they escalate into disputes, securing a clear and protected legal position during contract negotiation and execution."
+      "investigacion": {
+        "title": "Legal research and strategy formulation",
+        "items": [
+          {
+            "title": "Definition of the legal issue",
+            "text": "Identification of the inquiry, known facts, involved parties or entities, and the business decision to be informed. Determination of necessary documentation and the boundaries of available information."
+          },
+          {
+            "title": "Statutory and case-law research",
+            "text": "Analysis of relevant statutes and judicial precedents applicable to the issue. International instruments are examined when concretely related to the matter, following verification of their validity and applicability."
+          },
+          {
+            "title": "Formulation of conclusions",
+            "text": "Presentation of legal grounds, arguments, and factual circumstances supporting the professional opinion. Identification of unresolved issues, missing evidence, and conditions governing the conclusions."
+          },
+          {
+            "title": "Preparation of the strategy",
+            "text": "Design of actionable alternatives aligned with engagement objectives. Establishment of priorities and professional steps requiring additional retention or external coordination."
+          }
+        ]
+      },
+      "entregables": {
+        "title": "Documentation and deliverables",
+        "intro": "Depending on the engagement, the intervention may comprise:",
+        "items": [
+          "Legal opinions on specific criminal-law questions.",
+          "Legal reports on identified contingencies and exposures.",
+          "Strategic memoranda and procedural alternatives.",
+          "Formal opinions addressed to governing bodies or legal departments.",
+          "Written communications and legal statements expressly agreed upon in the engagement.",
+          "Substantive reports for coordination with international law firms."
+        ],
+        "closing": "Each deliverable identifies its scope, examined records, legal reasoning, and conclusions. Findings dependent on unverified facts or incomplete records will not be presented as definitive."
+      },
+      "coordinacion": {
+        "title": "Coordination with companies and international firms",
+        "p1": "Collaboration is structured through designated authorized interlocutors and an explicit division of tasks. Deliverable recipients, clarification protocols, and document circulation terms will be formally defined.",
+        "p2": "The corporate position and that of its officers or representatives are evaluated separately whenever required. Assistance to the organization does not automatically encompass individual advisory or defense.",
+        "link_label": "LOCAL COUNSEL & INTERPROFESSIONAL COOPERATION"
+      },
+      "alcance": {
+        "title": "Scope and service limitations",
+        "intro": "The engagement proposal will strictly define the issue under review and agreed deliverables. This service:",
+        "items": [
+          "Does not constitute general contract review.",
+          "Does not encompass standalone corporate, tax, or labor advisory.",
+          "Does not equal accounting audits, forensic investigation, or a comprehensive compliance program.",
+          "Does not automatically incorporate courtroom defense or administrative appearances.",
+          "Does not guarantee the absence of investigations, controversies, or adverse rulings."
+        ],
+        "closing": "The necessity for other legal specialties will be identified without attributing non-contracted capabilities to the firm."
+      },
+      "evaluacion": {
+        "title": "Professional assessment and engagement",
+        "p1": "Initial information allows us to establish the scope and fees of the preliminary legal assessment. This assessment provides the foundation to define, where appropriate, subsequent engagements for research, drafting, or procedural intervention.",
+        "p2": "The proposal specifies tasks, deliverables, professional fees, disbursements, and payment terms. Any scope expansion or newly introduced records requiring additional legal work will be formally agreed upon.",
+        "cta": "REQUEST CORPORATE CRIMINAL ASSESSMENT",
+        "back": "← BACK TO INTERNATIONAL"
       }
     },
     "representacion_judicial": {
-      "h1": "Criminal Defense & Constitutional Protection for Clients Abroad",
-      "subtitle": "Criminal defense and protection of constitutional rights and guarantees before competent authorities and courts in Venezuela.",
+      "tag": "INTERNATIONAL · CRIMINAL PRACTICE",
+      "h1": "Criminal defense and victim representation",
+      "subtitle": "Strategy, legal research, and procedural advocacy in Venezuela for companies, executives, and individuals located abroad.",
+      "meta_title": "Criminal Defense and Victim Representation | Mac Consultores Jurídicos & Asociados",
+      "meta_desc": "Legal strategy, research, and procedural advocacy in Venezuela for corporations, executives, and individuals located abroad.",
       "intro": {
-        "p1": "Individuals and corporate executives located outside Venezuela may require legal counsel when facing criminal investigations, court summonses, or measures affecting their fundamental rights in the country.",
-        "p2": "Mac Consultores Jurídicos & Asociados provides criminal defense and constitutional protection before investigative bodies and courts in Venezuela, evaluating engagement viability based on the facts and case documentation. The firm does not engage in civil litigation or general private-law claims.",
-        "p3": "Legal representation is carried out directly within Venezuelan territory, coordinating procedural actions with the client abroad and with international legal teams advising the individual or corporation in their jurisdiction of residence."
+        "p1": "Mac Consultores Jurídicos & Asociados undertakes engagements in criminal defense and victim representation in matters connected to Venezuela. Its intervention encompasses the examination of case backgrounds, the formulation of legal strategies, the drafting of pleadings, and advocacy before competent authorities and courts.",
+        "p2": "Managing the matter requires identifying the client’s procedural standing, the proceedings conducted, and the decisions requiring a legal response. On that basis, the objectives of the engagement, relevant procedural steps, and coordination with representatives, corporate legal teams, or international law firms are determined."
       },
-      "when_we_intervene": {
-        "title": "When we intervene",
+      "cta": "REQUEST LEGAL ASSESSMENT",
+      "nota": "The assessment of the matter generates professional fees, the scope and amount of which are established in advance. All information and documentation received will be handled with strict confidentiality and subject to professional secrecy.",
+      "ambitos": {
+        "title": "Areas of intervention",
         "items": [
-          "Technical defense in criminal investigations and proceedings before courts of criminal jurisdiction in Venezuela.",
-          "Preparation and filing of cassation appeals before the Criminal Cassation Chamber of the Supreme Tribunal of Justice.",
-          "Filing and litigation of constitutional protection actions (amparo) for the safeguarding of fundamental rights and guarantees.",
-          "Legal representation of individuals and corporate officers located outside the country facing criminal proceedings or summonses in Venezuela.",
-          "Procedural response to preventive or attachment measures over assets connected to criminal proceedings.",
-          "Coordination on criminal defense strategy with legal counsel advising the client in their place of residence."
+          {
+            "title": "Criminal defense of individuals and executives",
+            "text": "Preparation of defense strategies against investigations, subpoenas, formal charges, and other procedural actions that compromise the client’s legal standing. Statutory and case-law research, drafting of legal pleadings, and assistance in the procedural steps included in the engagement."
+          },
+          {
+            "title": "Corporate advisory in criminal contingencies",
+            "text": "Determination of the company’s legal position regarding facts under investigation and the actions required to protect its interests. Coordination with its governing bodies and legal advisors, distinguishing assistance to the entity from the individual defense of its directors, officers, or representatives."
+          },
+          {
+            "title": "Victim representation",
+            "text": "Legal counsel and representation for the protection of the rights and interests of individuals and companies affected by criminal offenses. Lodging of formal criminal complaints (querellas), drafting of pleadings, and preparation of procedural steps aligned with the client’s standing and legitimate objectives."
+          },
+          {
+            "title": "Coordination with international law firms",
+            "text": "Execution of the Venezuelan component of matters handled jointly with international law firms. Allocation of responsibilities, preparation of reports, and alignment of local strategy with the work of the foreign legal team."
+          }
+        ],
+        "link_label": "LOCAL COUNSEL & INTERPROFESSIONAL COOPERATION"
+      },
+      "investigacion": {
+        "title": "Legal research and strategy preparation",
+        "items": [
+          {
+            "title": "Examination of case history and procedural standing",
+            "text": "Examination of available documents and court records to identify relevant facts, the current procedural stage, and legal issues requiring action. Determination of additional evidence needed to substantiate the intervention."
+          },
+          {
+            "title": "Formulation of legal standing",
+            "text": "Research into applicable statutory provisions and case law, identification of legal arguments, and preparation of a strategy tailored to the client’s position. Definition of proposed procedural actions and their legal objectives."
+          },
+          {
+            "title": "Drafting of pleadings and preparation of procedural actions",
+            "text": "Drafting of documents encompassed in the engagement, ensuring consistency between facts, legal grounds, and prayers for relief. Preparation for professional appearances and communications required for execution."
+          },
+          {
+            "title": "Reporting and coordination",
+            "text": "Reporting of relevant procedural developments and decisions requiring client instructions. Preparation of status reports in accordance with the agreed scope and frequency, with confidential handling of documentation."
+          }
         ]
       },
-      "approach": {
-        "title": "Our approach",
-        "p1": "Procedural strategy begins well before the first court appearance.",
-        "p2": "Litigation must be rigorously examined from its factual background, available documentary evidence, substantive legal standing, actionable claims, procedural risks, and potential outcome scenarios.",
-        "p3": "Therefore, prior to designing an action plan, we analyze available records to align legal avenues with our client's core objectives. We assess whether to initiate proceedings, defend, negotiate, or pursue specific procedural remedies.",
-        "p4": "When representing clients based abroad, we integrate a critical dimension: seamless remote legal coordination.",
-        "p5": "Clients remain fully informed on case developments, distinguishing decisions requiring executive sign-off from local tactical steps. We serve as the vital bridge, delivering effective legal execution in Venezuela.",
-        "p6": "Judicial representation is thus delivered as a high-level strategic service, never a routine mechanical filing."
+      "delimitacion": {
+        "title": "Scope of engagement",
+        "intro": "The professional proposal will specify:",
+        "items": [
+          "The assisted individual or entity and their standing in the matter.",
+          "The specific procedural actions and documents included.",
+          "The responsibilities of Mac and, where applicable, of other participating counsel.",
+          "Communication channels and reporting schedules.",
+          "Professional fees, expenses, and payment terms.",
+          "Additional procedural actions requiring separate engagement."
+        ],
+        "closing": "Retention by a corporate entity does not automatically encompass the individual defense of its officers, employees, or representatives. Each scope of representation must be expressly defined."
+      },
+      "servicios_relacionados": {
+        "title": "Related specialized services",
+        "text": "The preparation of criminal cassation appeals, constitutional protection actions, and pleadings related to extradition proceedings have dedicated practice frameworks within the firm’s international services.",
+        "link1_label": "CRIMINAL CASSATION & CONSTITUTIONAL PROTECTION",
+        "link2_label": "EXTRADITION & INTERNATIONAL LEGAL COORDINATION"
+      },
+      "evaluacion": {
+        "title": "Professional case assessment",
+        "p1": "The initial assessment encompasses the legal examination of case records within the contracted scope. When subsequent procedural action is warranted, a separate proposal detailing actions, deliverables, and fees will be formulated.",
+        "p2": "Receipt of information to determine the scope and budget for an assessment does not constitute acceptance of defense, legal representation, or procedural appearance.",
+        "cta": "REQUEST LEGAL ASSESSMENT",
+        "back": "← BACK TO INTERNATIONAL"
       }
     },
     "poderes_y_mandatos": {
@@ -1874,6 +2007,340 @@
         "p3": "An overly generic instrument may be insufficient for certain actions, while an overly broad one may confer powers the principal does not intend to grant. Proper drafting therefore requires a balance between sufficiency, precision, and control.",
         "p4": "When a power of attorney is executed abroad, the formalities of execution must also be considered in relation to its subsequent use in Venezuela. We therefore assess the documentary requirements in light of the instrument’s legal purpose.",
         "p5": "Our objective is for the power of attorney to serve not merely as a formally valid document, but as a functional legal instrument enabling the representative to carry out the intended actions in Venezuela within the authority granted by the principal."
+      }
+    },
+    "opiniones_juridicas": {
+      "tag": "INTERNATIONAL · LEGAL RESEARCH & OPINIONS",
+      "h1": "Legal opinions on Venezuelan law",
+      "subtitle": "Statutory and case-law research for institutional decision-making, procedural strategies, and international legal coordination.",
+      "meta_title": "Legal Opinions on Venezuelan Law | Mac Consultores Jurídicos & Asociados",
+      "meta_desc": "Statutory and case-law research for institutional decision-making, procedural strategies, and international legal coordination.",
+      "intro": {
+        "p1": "Mac Consultores Jurídicos & Asociados prepares legal opinions and expert reports on Venezuelan criminal and constitutional law for companies, institutions, and individuals located outside the country. The service encompasses scope definition, factual analysis, and the construction of a legal assessment grounded in verified sources.",
+        "p2": "The professional opinion does not merely compile statutory provisions or cite precedents. It articulates their direct application to the issue, develops relevant arguments, and formulates definitive conclusions, while identifying study boundaries and any conditioning factors."
+      },
+      "cta": "REQUEST EVALUATION OF A LEGAL INQUIRY",
+      "nota": "Evaluation of the legal inquiry constitutes a fee-based professional service. Its scope and fees are established in advance. All received records and communications are treated with strict confidentiality and professional secrecy.",
+      "objeto": {
+        "title": "Scope of the inquiry",
+        "items": [
+          {
+            "title": "Substantive criminal-law questions",
+            "text": "Analysis of interpretation and application of Venezuelan criminal statutes to defined factual scenarios. Examination of relevant statutory elements, doctrinal positions, and consequences for the inquiry under consideration."
+          },
+          {
+            "title": "Criminal procedural matters",
+            "text": "Research into Venezuelan criminal procedure mechanisms, procedural stages, and judicial rulings. Drafting of opinions enabling parties to understand procedural standing, evaluate controversies, or substantiate subsequent litigation steps."
+          },
+          {
+            "title": "Constitutional rights and guarantees",
+            "text": "Analysis of matters concerning the protection of constitutional rights and due process guarantees. Investigation into substantive grounds and jurisprudence to clarify the problem, without assuming that every inquiry warrants an amparo action."
+          },
+          {
+            "title": "Cross-border dimension of Venezuelan law",
+            "text": "Examination of the interaction between Venezuelan domestic law and relevant international treaties governing criminal or constitutional issues. The analysis identifies applicable provisions and requirements, subject to verification of validity and ratification."
+          }
+        ]
+      },
+      "modalidades": {
+        "title": "Formats of professional opinion",
+        "items": [
+          {
+            "title": "Legal opinion on a specific matter",
+            "text": "Formal legal document detailing the inquiry, factual history, legal question, analyzed sources, reasoning, and conclusions."
+          },
+          {
+            "title": "Report on a legal institution or procedure",
+            "text": "Substantiated report explaining a Venezuelan legal concept or procedural mechanism, prepared for review and practical application by the client."
+          },
+          {
+            "title": "Legal opinion on a disputed question",
+            "text": "Evaluation of competing interpretations and precedents, identifying the firm’s technical assessment while noting areas where categorical conclusions are not legally viable."
+          },
+          {
+            "title": "Supplementary report",
+            "text": "Clarification of follow-up questions or updating of the study following new facts, legislative reforms, or new judicial precedents, subject to agreed scope and fees."
+          }
+        ]
+      },
+      "metodo": {
+        "title": "Methodology",
+        "items": [
+          {
+            "title": "Scope definition",
+            "text": "The proposal identifies specific legal questions to be addressed, intended use, addressees, and records included in the analysis."
+          },
+          {
+            "title": "Source research",
+            "text": "Statutory provisions, court decisions, and verified legal authorities are examined. Selection focuses on resolving the legal problem rather than accumulating superfluous citations."
+          },
+          {
+            "title": "Argumentative rigor",
+            "text": "The document distinguishes supplied facts, legal presumptions, statutory authorities, and professional conclusions. Divergent judicial interpretations and relevant limitations are stated whenever they affect the analysis."
+          },
+          {
+            "title": "Formulation of conclusions",
+            "text": "Conclusions directly answer the assigned questions and define their legal scope. Where available information precludes a definitive answer, required documentation and reservations are clearly noted."
+          }
+        ]
+      },
+      "destinatarios": {
+        "title": "Intended recipients and document usage",
+        "p1": "The engagement explicitly establishes who commissions the opinion, to whom it is addressed, and the purpose for which it is prepared.",
+        "p2": "Where submission before a foreign court or administrative body is intended, that use must be disclosed prior to engagement. Specific formal requirements and coordination with counsel in that jurisdiction will be established, without automatically attributing expert-witness status to the document or guaranteeing its judicial admissibility.",
+        "p3": "Reproduction, circulation, or third-party reliance on the document is governed by agreed contractual terms and applicable professional confidentiality obligations."
+      },
+      "alcance": {
+        "title": "Scope of service",
+        "intro": "The preparation of a legal opinion does not automatically include:",
+        "items": [
+          "Independent factual or evidentiary verification of supplied records.",
+          "Forensic, accounting, or technical computer audits.",
+          "Retrieval of case files or records not included in the scope.",
+          "Drafting of court appeals, claims, or procedural pleadings.",
+          "Court appearances or official representation.",
+          "Ongoing post-delivery updating of the document."
+        ],
+        "closing": "Any of these actions requires separate evaluation and express retention when within the services the firm is able to undertake."
+      },
+      "servicios_relacionados": {
+        "title": "Related services",
+        "text": "Where the matter requires additional intervention, separate retention may be evaluated.",
+        "link1_label": "CRIMINAL DEFENSE & VICTIM REPRESENTATION",
+        "link2_label": "CRIMINAL CASSATION & CONSTITUTIONAL PROTECTION",
+        "link3_label": "EXTRADITION & INTERNATIONAL LEGAL COORDINATION",
+        "extra_intro": "For instructions commissioned by foreign lawyers or law firms:",
+        "extra_link": "LOCAL COUNSEL & INTERPROFESSIONAL COOPERATION"
+      },
+      "evaluacion": {
+        "title": "Evaluation and retention",
+        "p1": "Initial information allows us to establish the scope and fees of the preliminary assessment. Preparation of the opinion or report is contracted under a proposal detailing legal questions, background documents, deliverables, deadlines, and financial terms.",
+        "p2": "Scope expansions, newly introduced records, and supplementary deliverables will be formally agreed upon.",
+        "cta": "REQUEST EVALUATION OF A LEGAL INQUIRY",
+        "back": "← BACK TO INTERNATIONAL"
+      }
+    },
+    "casacion_tutela": {
+      "tag": "INTERNATIONAL · CASSATION & CONSTITUTIONAL PROTECTION",
+      "h1": "Criminal cassation and constitutional protection",
+      "subtitle": "Legal research, structured argumentation, and drafting of pleadings for challenging judicial decisions and protecting constitutional rights and guarantees.",
+      "meta_title": "Criminal Cassation and Constitutional Protection | Mac Consultores Jurídicos & Asociados",
+      "meta_desc": "Legal research, structured argumentation, and drafting of pleadings for challenging judicial decisions and protecting constitutional rights and guarantees.",
+      "intro": {
+        "p1": "Mac Consultores Jurídicos & Asociados develops appellate challenge and constitutional protection strategies through detailed factual review, statutory and jurisprudential research, and specialized legal drafting.",
+        "p2": "The intervention encompasses evaluating the proposed procedural avenue, identifying pivotal legal questions, and constructing the legal arguments supporting the prayers for relief. Each matter requires distinguishing factual disagreement with a decision from the formal legal grounds necessary to challenge it or petition for constitutional relief."
+      },
+      "cta": "REQUEST LEGAL ASSESSMENT",
+      "nota": "The assessment constitutes a fee-based professional service. Its scope and fees are established in advance. All received records are handled under strict confidentiality and subject to professional secrecy.",
+      "lineas": {
+        "title": "Practice areas of intervention",
+        "items": [
+          {
+            "title": "Criminal cassation",
+            "paragraphs": [
+              "Research and drafting of criminal cassation appeals based on the analysis of relevant rulings and trial records. Determination of legal errors substantiating the appeal and preparation of structured argumentation with rigorous alignment between assigned grounds, legal reasoning, and prayers for relief.",
+              "The engagement may encompass a feasibility assessment, drafting of the appeal, and related procedural pleadings, depending on procedural posture and contracted scope."
+            ]
+          },
+          {
+            "title": "Constitutional amparo actions",
+            "paragraphs": [
+              "Design of legal strategies and drafting of amparo actions for the protection of constitutional rights and guarantees. Identification of the constitutional violation, precise specification of the infringed constitutional guarantee, and construction of legal grounds supporting the petition for protection.",
+              "Drafting of the action is preceded by a thorough review of its procedural admissibility and the appropriateness of the requested relief. As an extraordinary constitutional remedy, amparo requires specific legal grounds: it will not be assumed to be an absolute path nor pursued without evaluating ordinary procedural remedies."
+            ]
+          },
+          {
+            "title": "Protection of personal liberty and security —habeas corpus—",
+            "paragraphs": [
+              "Legal research and drafting of habeas corpus actions in cases of unlawful deprivation of liberty or threats to personal safety. Detailed study of detention circumstances, underlying acts or omissions, and evidence required to substantiate the petition for constitutional protection.",
+              "The strategy defines the relief sought and its coordination with ongoing criminal defense actions, distinguishing the scope of each remedy without automatically substituting one for the other."
+            ]
+          },
+          {
+            "title": "Amparo against judicial decisions",
+            "paragraphs": [
+              "Research into constitutional violations attributed to judicial rulings and preparation of the amparo action when preliminary assessment confirms its legal viability.",
+              "Argumentation strictly identifies the constitutional violation and its direct nexus to the relief requested, without merely repeating ordinary factual disagreements with the ruling."
+            ]
+          },
+          {
+            "title": "Constitutional protection during ongoing proceedings",
+            "paragraphs": [
+              "Analysis of constitutional infringements arising within pending judicial proceedings and determination of the proper procedural remedy. Preparation of actions or motions aligned with the procedural posture and substantiated legal strategy."
+            ]
+          },
+          {
+            "title": "Habeas data",
+            "paragraphs": [
+              "Legal research and drafting of habeas data petitions concerning access to, knowledge of usage, updating, rectification, or suppression of personal records, tailored to the specific case and legitimate claim.",
+              "This practice has its own distinct legal basis and development, without being presented as a modality of amparo or confused with general data protection consulting."
+            ]
+          }
+        ]
+      },
+      "investigacion": {
+        "title": "Legal research and document drafting",
+        "items": [
+          {
+            "title": "Definition of the legal issue",
+            "text": "Identification of the challenged decision, act, or omission; the petitioner's standing; available case records; and intended legal outcome."
+          },
+          {
+            "title": "Procedural viability assessment",
+            "text": "Examination of applicable procedural requirements, identifying potential obstacles, evidentiary gaps, and legal issues requiring clarification before recommending an action."
+          },
+          {
+            "title": "Strategy formulation",
+            "text": "Establishment of core arguments, prayers for relief, and their relationship with existing or proposed procedural actions, distinguishing alternative remedies from those requiring coordination."
+          },
+          {
+            "title": "Drafting of legal documents",
+            "text": "Drafting of pleadings with an orderly presentation of procedural facts, legal grounds, and prayers for relief, including the preparation of supporting annexes and references within the scope."
+          }
+        ]
+      },
+      "entregables": {
+        "title": "Documentation and deliverables",
+        "intro": "The professional proposal may encompass:",
+        "items": [
+          "Substantiated legal opinion on feasibility and appellate strategy.",
+          "Criminal cassation appeal.",
+          "Constitutional amparo action.",
+          "Habeas data action.",
+          "Supplementary pleadings connected to the contracted action.",
+          "Briefing report for coordination with the client or their international counsel."
+        ],
+        "closing": "The assessment may conclude that pursuing the initially contemplated procedural path is not legally viable. That conclusion constitutes a substantive result of the professional service, not the absence of a deliverable."
+      },
+      "elaboracion": {
+        "title": "Document preparation and procedural advocacy",
+        "intro": "Drafting a pleading does not automatically include its court filing or procedural representation during proceedings. Where procedural intervention is contracted, the following will be explicitly defined:",
+        "items": [
+          "The specific procedural advocacy and responsibilities assumed.",
+          "Filing of court documents and pleadings.",
+          "Case tracking and client reporting.",
+          "Attendance at hearings and procedural steps.",
+          "Additional procedural steps and their financial terms."
+        ],
+        "closing": "No guarantees of admissibility, viability, or outcome are provided."
+      },
+      "cooperacion": {
+        "title": "Cooperation with international law firms",
+        "p1": "Legal research and drafting may be developed in coordination with international law firms, establishing clear boundaries regarding tasks, supplied records, and professional responsibility for each component.",
+        "p2": "When retention is established between legal professionals, the agreed interprofessional collaboration model will be applied.",
+        "link_label": "LOCAL COUNSEL & INTERPROFESSIONAL COOPERATION"
+      },
+      "evaluacion": {
+        "title": "Assessment and retention",
+        "p1": "Initial information allows us to establish the scope and fees of the preliminary assessment. The study is conducted on records defined in the proposal and determines the strategy and subsequent steps recommended.",
+        "p2": "Drafting of pleadings, court appearances, and additional legal work must be expressly included in the engagement. Receipt of documentation does not constitute acceptance of representation or assumption of time-sensitive deadlines.",
+        "cta": "REQUEST LEGAL ASSESSMENT",
+        "back": "← BACK TO INTERNATIONAL"
+      }
+    },
+    "extradicion": {
+      "tag": "INTERNATIONAL · EXTRADITION & LEGAL COOPERATION",
+      "h1": "Extradition and international legal coordination",
+      "subtitle": "Specialized counsel, statutory and case-law research, and drafting of pleadings in extradition proceedings.",
+      "meta_title": "Extradition and Cross-Border Legal Coordination | Mac Consultores Jurídicos & Asociados",
+      "meta_desc": "Specialized counsel, statutory research, and legal drafting in extradition proceedings connected to the Venezuelan legal system.",
+      "intro": {
+        "p1": "Mac Consultores Jurídicos & Asociados provides specialized legal counsel in extradition proceedings connected to the Venezuelan legal system. Its intervention encompasses the review of case backgrounds and court records, determination of the applicable legal regime, and formulation of defense strategies grounded in statutory, treaty, and case-law research.",
+        "p2": "The firm drafts legal pleadings, formal opinions, and reports on issues of Venezuelan criminal and procedural law relevant to the proceedings. Cooperation with international law firms enables the integration of this specialized expertise into the defense strategy pursued across the jurisdictions involved, under an express allocation of professional functions and responsibilities."
+      },
+      "cta": "REQUEST LEGAL ASSESSMENT",
+      "nota": "The legal assessment constitutes a fee-based professional service. Its scope, objectives, and fees are established in advance. All received records and communications are treated with strict confidentiality and professional secrecy.",
+      "ambitos": {
+        "title": "Areas of intervention",
+        "items": [
+          {
+            "title": "Advisory and defense strategy in extradition proceedings",
+            "paragraphs": [
+              "Legal examination of the records supporting the extradition request and proceedings conducted, identifying substantive, procedural, and evidentiary issues relevant to the defense.",
+              "The intervention includes researching the legal grounds supporting the requested person's standing, strategy formulation, and the drafting of corresponding pleadings. Procedural appearances before Venezuelan authorities will be expressly defined in the professional engagement."
+            ]
+          },
+          {
+            "title": "Substantiation of Venezuelan law for foreign proceedings",
+            "paragraphs": [
+              "Preparation of formal legal opinions and reports on Venezuelan substantive and procedural criminal law, judicial interpretations, and their implications for defense in proceedings conducted before foreign authorities.",
+              "The study may encompass analyzing invoked statutory provisions, the legal nature and effects of Venezuelan judicial decisions, and the legal concepts relevant to the case. Conclusions are formulated in response to defined questions and in coordination with the law firms responsible for proceedings in the foreign State."
+            ]
+          },
+          {
+            "title": "Research and drafting of specialized pleadings",
+            "paragraphs": [
+              "Formulation of legal reasoning for pleadings, motions, and petitions included in the engagement, articulating documented facts, relevant statutory provisions, judicial precedents, and prayers for relief.",
+              "Where the legal contribution is intended for proceedings in another jurisdiction, the substantive analysis of Venezuelan law is clearly distinguished from its incorporation into foreign pleadings and from the trial defense directed by counsel in that jurisdiction."
+            ]
+          }
+        ]
+      },
+      "investigacion": {
+        "title": "Legal research and strategy formulation",
+        "items": [
+          {
+            "title": "Scope definition",
+            "paragraphs": [
+              "Identification of the formal request, the States involved, the legal standing of the requested person, and court records forming the case background.",
+              "Determination of legal questions referred for advice, records included in the analysis, and additional evidence required to substantiate the professional opinion."
+            ]
+          },
+          {
+            "title": "Determination of the applicable legal framework",
+            "paragraphs": [
+              "Research into the constitutional, statutory, and treaty framework governing the proceedings, verifying the validity, territorial application, and specific clauses of examined international instruments.",
+              "The study establishes the nexus between applicable authorities and the specific facts, avoiding the automatic application of solutions developed in unrelated proceedings or bilateral relationships."
+            ]
+          },
+          {
+            "title": "Formulation of legal standing",
+            "paragraphs": [
+              "Examination of disputed questions and development of arguments supporting the defense strategy, identifying factual premises, documentary support, and intended legal effects.",
+              "Conclusions clearly distinguish verified facts, supplied information, and issues whose evaluation remains contingent on additional documentation or inquiries."
+            ]
+          },
+          {
+            "title": "Coordination of legal actions",
+            "paragraphs": [
+              "Establishment of pleadings, reports, and procedural steps encompassed in the strategy, coordinating the Venezuelan contribution with foreign counsel in accordance with professional competencies and client goals."
+            ]
+          }
+        ]
+      },
+      "entregables": {
+        "title": "Opinions, reports, and legal drafting",
+        "intro": "The professional proposal may encompass:",
+        "items": [
+          "Formal legal opinion on Venezuelan law issues relevant to the extradition procedure.",
+          "Substantive report interpreting Venezuelan criminal and procedural law and its defense implications.",
+          "Legal assessment of Venezuelan rulings and proceedings related to the extradition request.",
+          "Strategic memorandum substantiating the legal defense position.",
+          "Drafting of pleadings, formal motions, and petitions for proceedings in Venezuela.",
+          "Substantive legal briefs addressed to international law firms.",
+          "Supplementary legal opinions on defined questions emerging during engagement execution."
+        ],
+        "closing": "Documents clearly specify their scope, examined records, legal authorities, reasoning, and conclusions. Any intended submission before foreign authorities must be defined upon engagement."
+      },
+      "coordinacion": {
+        "title": "Cross-border legal coordination",
+        "p1": "Collaboration with international law firms is organized through an explicit definition of the Venezuelan legal component and formal allocation of tasks, responsibilities, and designated liaison counsel.",
+        "p2": "Mac provides specialized legal research, argument formulation, and documentation for alignment with foreign counsel's strategy. Coordination preserves professional independence, legal secrecy, and agreed protocols regarding client relations and document distribution.",
+        "link_label": "LOCAL COUNSEL & INTERPROFESSIONAL COOPERATION"
+      },
+      "delimitacion": {
+        "title": "Scope of professional engagement",
+        "p1": "Legal advisory, document drafting, and procedural representation constitute distinct professional services. The engagement specifies which services are undertaken, before which authorities, and their exact scope.",
+        "p2": "Preparation of an opinion, report, or pleading does not automatically include its court submission, hearing attendance, or general case monitoring. Procedural advocacy before foreign authorities remains the exclusive purview of counsel licensed in that jurisdiction.",
+        "p3": "The service does not encompass the exercise of powers reserved to judicial, prosecutorial, or diplomatic authorities. Nor does it include guarantees regarding the grant of extradition, surrender of the requested person, or timing and outcome of official decisions."
+      },
+      "evaluacion": {
+        "title": "Legal assessment and retention",
+        "p1": "The initial assessment serves to define the legal issues, review background records included in the scope, and determine the appropriate professional contribution to propose.",
+        "p2": "The contract identifies the scope of review, committed deliverables, assumed procedural actions, and financial terms. Introducing new questions, records, or services requires a supplementary agreement.",
+        "p3": "Receipt of documentation does not constitute acceptance of defense representation or the assumption of time-sensitive procedural obligations.",
+        "cta": "REQUEST LEGAL ASSESSMENT",
+        "back": "← BACK TO INTERNATIONAL"
       }
     }
   },

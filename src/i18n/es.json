@@ -516,66 +516,56 @@
     "btn": "INICIAR PROCESO DE ADMISIÓN"
   },
   "tramites_consulares": {
-    "title": "Gestión jurídica para clientes en el exterior | Mac Consultores Jurídicos & Asociados",
-    "breadcrumb": "CLIENTES EN EL EXTERIOR / GESTIÓN JURÍDICA EN VENEZUELA",
-    "h1": "Gestión jurídica para clientes en el exterior",
-    "subtitle": "Derecho penal corporativo, defensa penal y tutela constitucional en Venezuela para clientes situados fuera del país.",
+    "title": "Asesoría e intervención jurídica especializada en Venezuela | Mac Consultores Jurídicos & Asociados",
+    "breadcrumb": "INTERNACIONAL",
+    "h1": "Asesoría e intervención jurídica especializada en Venezuela",
+    "subtitle": "Derecho penal corporativo, defensa penal y tutela constitucional para empresas, instituciones y personas situadas fuera de Venezuela.",
     "intro_p": "Mac Consultores Jurídicos & Asociados atiende a personas y empresas situadas fuera de Venezuela que requieren intervención jurídica en el país en asuntos de derecho penal corporativo, defensa penal y tutela constitucional. Cada encargo se evalúa a partir de los hechos, la documentación disponible y el alcance de la actuación solicitada. La firma también examina riesgos penales en operaciones y relaciones contractuales con efectos en Venezuela y asesora en poderes y documentación vinculados con los servicios que presta.",
-    "cta_primary": "EVALUAR ASUNTO CON LA FIRMA",
-    "cta_secondary": "CONOCER SERVICIOS",
+    "cta_primary": "SOLICITAR EVALUACIÓN JURÍDICA",
+    "cta_secondary": "CONSULTAR SERVICIOS INTERNACIONALES",
     "bloque_1": {
-      "tag": "ASUNTOS JURÍDICOS CON CONEXIÓN EN VENEZUELA",
-      "title": "Representación y coordinación local",
-      "subtitle": "Intervención penal y constitucional, evaluación de riesgos penales en contratos y asesoría sobre poderes y documentos para su utilización en Venezuela.",
-      "intro": "La firma presta servicios dentro de sus áreas de especialización. No litiga en materia civil ni atiende divorcios, sucesiones o particiones de bienes.",
+      "tag": "ASESORÍA, ESTRATEGIA E INTERVENCIÓN LOCAL",
+      "title": "Servicios especializados para asuntos con conexión en Venezuela.",
       "card_1": {
         "tag": "01",
-        "title": "Intervención penal y tutela constitucional",
-        "desc": "Defensa penal y tutela de derechos y garantías constitucionales ante las autoridades y tribunales competentes en Venezuela para personas, directivos y empresas situados fuera del país.",
+        "title": "Defensa penal y representación de víctimas",
+        "desc": "Diseño de estrategias de defensa y actuación en investigaciones y procesos penales en Venezuela. Asesoría y representación de víctimas, constitución de querellas y elaboración de escritos para la protección de sus derechos e intereses.",
         "link": "VER DETALLES →"
       },
       "card_2": {
         "tag": "02",
-        "title": "Evaluación jurídico-penal de contratos y operaciones",
-        "desc": "Análisis de riesgos penales derivados de contratos y operaciones con efectos en Venezuela, considerando las obligaciones y disposiciones normativas relevantes para su evaluación.",
+        "title": "Estrategia jurídico-penal en operaciones empresariales",
+        "desc": "Investigación jurídica de contingencias penales vinculadas con operaciones empresariales en Venezuela. Elaboración de dictámenes y diseño de estrategias de prevención y respuesta para empresas y órganos de dirección.",
         "link": "VER DETALLES →"
       },
       "card_3": {
         "tag": "03",
-        "title": "Práctica y gestiones consulares",
-        "desc": "Asesoría jurídica para la preparación de documentos, poderes y declaraciones ante representaciones consulares y notarías en el exterior destinados a surtir efectos en Venezuela.",
+        "title": "Opiniones jurídicas de derecho venezolano",
+        "desc": "Investigación normativa y jurisprudencial sobre cuestiones penales y constitucionales. Elaboración de dictámenes e informes fundamentados para decisiones institucionales, estrategias procesales y coordinación con equipos jurídicos extranjeros.",
         "link": "VER DETALLES →"
       }
     },
     "bloque_2": {
-      "tag": "DOCUMENTACIÓN Y PODERES",
-      "title": "Documentos y representación desde el exterior",
-      "subtitle": "Revisión de poderes, documentos y formalidades aplicables a su uso en Venezuela.",
-      "intro": "La preparación de documentos otorgados fuera del país puede requerir revisar su contenido, formalidades, idioma y mecanismos de autenticación antes de su presentación ante autoridades venezolanas.",
+      "tag": "IMPUGNACIÓN Y TUTELA JURÍDICA INTERNACIONAL",
+      "title": "Casación penal, tutela constitucional y extradición",
       "card_1": {
         "tag": "04",
-        "title": "Poderes y mandatos",
-        "desc": "Revisión y preparación de poderes para actuaciones específicas en Venezuela, previa evaluación del objeto del mandato y de su correspondencia con los servicios de la firma.",
+        "title": "Casación penal y tutela constitucional",
+        "desc": "Investigación jurídica y construcción argumentativa para la elaboración de recursos de casación penal, acciones de amparo constitucional y hábeas data. Formulación de estrategias de impugnación y protección de derechos y garantías constitucionales.",
         "link": "VER DETALLES →"
       },
       "card_2": {
         "tag": "05",
-        "title": "Documentos otorgados en el exterior",
-        "desc": "Revisión de requisitos de validez formal, legalización y apostilla de documentos otorgados fuera del país destinados a utilizarse ante autoridades o tribunales en Venezuela.",
-        "link": "VER DETALLES →"
-      },
-      "card_3": {
-        "tag": "06",
-        "title": "Materia energética y regulatoria",
-        "desc": "Asesoría contractual, corporativa y regulatoria para empresas e inversionistas con intereses en el sector energético venezolano.",
+        "title": "Extradición y coordinación jurídica internacional",
+        "desc": "Diseño de estrategias jurídicas y elaboración de escritos en procedimientos de extradición. Elaboración de informes sobre la legislación penal venezolana y sus implicaciones para la defensa, en colaboración con firmas y despachos de abogados internacionales.",
         "link": "VER DETALLES →"
       }
     },
     "cierre": {
       "tag": "MAC CONSULTORES JURÍDICOS & ASOCIADOS",
-      "quote": "La coordinación jurídica desde el exterior comienza con la revisión de los hechos, los documentos y el marco aplicable.",
-      "desc": "Mac Consultores Jurídicos & Asociados atiende a personas y empresas situadas fuera de Venezuela que requieren intervención penal o constitucional, evaluación jurídico-penal de contratos y operaciones, o asesoría sobre poderes y documentación dentro del alcance de los servicios de la firma.",
-      "btn_primary": "EVALUAR ASUNTO CON LA FIRMA",
+      "title": "Evaluación jurídica y delimitación del encargo",
+      "desc": "La recepción de antecedentes permite establecer el alcance y los honorarios de la evaluación jurídica inicial. Su realización proporciona la base para determinar, cuando corresponda, las actuaciones, entregables y condiciones de una intervención posterior.",
+      "cta": "SOLICITAR EVALUACIÓN JURÍDICA",
       "btn_secondary": "← VOLVER AL INICIO"
     },
     "support": {
@@ -642,6 +632,22 @@
       "tag": "PRÁCTICA SECTORIAL ESPECIALIZADA",
       "desc": "Asesoría jurídico-penal preventiva, contingencias operacionales y defensa corporativa en la industria de hidrocarburos en Venezuela.",
       "link": "CONSULTAR ASESORÍA EN EL SECTOR PETROLERO →"
+    },
+    "intro_p1": "Mac Consultores Jurídicos & Asociados presta asesoría jurídica especializada en asuntos vinculados con Venezuela para clientes situados en el exterior. Su intervención comprende el estudio de antecedentes, la investigación normativa y jurisprudencial, la formulación de estrategias y la preparación de actuaciones y documentos jurídicos dentro de las áreas de práctica de la firma.",
+    "intro_p2": "Los servicios se estructuran mediante encargos definidos, con identificación de su objeto, actuaciones, entregables y condiciones económicas. La preparación técnica de escritos, la precisión argumentativa y la coordinación de la intervención local constituyen componentes centrales del servicio.",
+    "contract_note": "La evaluación jurídica de cada asunto constituye un servicio profesional remunerado. Su alcance y honorarios se establecerán previamente. La información y documentación recibidas serán tratadas con estricta confidencialidad y sujeción al secreto profesional.",
+    "alliances_connection": {
+      "tag": "COOPERACIÓN B2B Y LOCAL COUNSEL",
+      "title": "Cooperación jurídica especializada con firmas internacionales",
+      "text": "La firma desarrolla encargos de investigación, estrategia, elaboración documental e intervención local en coordinación con abogados y despachos extranjeros. La colaboración se articula mediante responsabilidades definidas y complementariedad técnica, conforme al modelo de Local Counsel y cooperación B2B.",
+      "link": "LOCAL COUNSEL Y COLABORACIÓN B2B →"
+    },
+    "consular_archive": {
+      "tag": "CONTENIDOS CONSULARES Y DOCUMENTALES",
+      "title": "Actuaciones consulares, poderes y documentos otorgados en el exterior",
+      "link_1": "Asesoría jurídica vinculada con actuaciones consulares",
+      "link_2": "Poderes y mandatos",
+      "link_3": "Documentos otorgados en el exterior"
     }
   },
   "colaboracion_internacional": {
@@ -880,10 +886,10 @@
       "og_description": "Firma jurídica boutique en Caracas especializada en derecho penal, constitucional y asesoría internacional de alta complejidad."
     },
     "tramites_consulares": {
-      "title": "Atención Jurídica en Venezuela para Clientes en el Exterior | Mac Consultores",
-      "description": "Derecho penal corporativo, defensa penal, tutela constitucional, evaluación de riesgos penales en contratos y estructuración de poderes en Venezuela.",
-      "og_title": "Gestión jurídica para clientes en el exterior | Mac Consultores Jurídicos",
-      "og_description": "Asesoría y coordinación jurídica local para clientes en el exterior con documentos, poderes, patrimonio y asuntos vinculados con Venezuela."
+      "title": "Asesoría e intervención jurídica especializada en Venezuela | Mac Consultores Jurídicos & Asociados",
+      "description": "Derecho penal corporativo, defensa penal y tutela constitucional para empresas, instituciones y personas situadas fuera de Venezuela.",
+      "og_title": "Asesoría e intervención jurídica especializada en Venezuela | Mac Consultores Jurídicos & Asociados",
+      "og_description": "Derecho penal corporativo, defensa penal y tutela constitucional para empresas, instituciones y personas situadas fuera de Venezuela."
     },
     "index": {
       "title": "Mac Consultores Jurídicos & Asociados | Excelencia Legal",
@@ -1793,60 +1799,187 @@
       }
     },
     "contratos_internacionales": {
-      "h1": "Evaluación Jurídico-Penal de Contratos y Operaciones",
-      "subtitle": "Análisis de riesgos penales derivados de contratos y operaciones con efectos en Venezuela, considerando las obligaciones y disposiciones normativas relevantes para su evaluación.",
+      "tag": "INTERNACIONAL · DERECHO PENAL CORPORATIVO",
+      "h1": "Estrategia jurídico-penal en operaciones empresariales",
+      "subtitle": "Investigación jurídica, elaboración de dictámenes y diseño de estrategias de prevención y respuesta para empresas y órganos de dirección.",
+      "meta_title": "Estrategia Jurídico-Penal en Operaciones Empresariales | Mac Consultores Jurídicos & Asociados",
+      "meta_desc": "Investigación jurídica, elaboración de dictámenes y diseño de estrategias de prevención y respuesta para empresas y órganos de dirección.",
       "intro": {
-        "p1": "Las operaciones comerciales y acuerdos que producen efectos en Venezuela pueden generar contingencias de responsabilidad penal derivadas de su objeto, de las obligaciones asumidas o de las exigencias regulatorias vinculadas a su cumplimiento.",
-        "p2": "Mac Consultores Jurídicos & Asociados evalúa contratos y esquemas operativos con el propósito de identificar riesgos penales y examinar el marco regulatorio que resulta directamente relevante para su valoración. La firma no presta asesoría regulatoria autónoma, cumplimiento corporativo integral ni redacción de contratos mercantiles generales.",
-        "p3": "El servicio se orienta a empresas y directivos situados fuera de Venezuela que requieren determinar la exposición penal vinculada a sus compromisos contractuales y decisiones operativas en el país."
+        "p1": "Mac Consultores Jurídicos & Asociados asesora a empresas, instituciones y órganos de dirección situados fuera de Venezuela en cuestiones penales vinculadas con sus operaciones en el país. La intervención comprende la investigación de problemas jurídicos concretos, la elaboración de dictámenes y la formulación de estrategias frente a contingencias que puedan afectar a la organización o a las personas involucradas.",
+        "p2": "El servicio se articula alrededor de una cuestión definida: una decisión empresarial, determinados hechos o una actuación de autoridad cuya dimensión penal requiera esclarecimiento. La documentación de la operación constituye un antecedente del estudio; su examen no supone la contratación de un servicio de revisión contractual ni de asesoría mercantil general."
       },
-      "when_we_intervene": {
-        "title": "Cuándo intervenimos",
+      "cta": "SOLICITAR EVALUACIÓN JURÍDICO-PENAL",
+      "nota": "La evaluación constituye un servicio profesional remunerado. Su alcance y honorarios se establecerán previamente. La información y documentación recibidas serán tratadas con estricta confidencialidad y sujeción al secreto profesional.",
+      "supuestos": {
+        "title": "Supuestos de asesoría",
         "items": [
-          "Evaluación preventivo-penal de obligaciones y cláusulas en contratos con ejecución en Venezuela.",
-          "Identificación de contingencias penales vinculadas a delitos económicos o de corrupción en la ejecución contractual.",
-          "Examen de disposiciones normativas y regulatorias relevantes para la determinación de responsabilidad penal.",
-          "Análisis de riesgos penales para directivos derivados de esquemas contractuales y de representación.",
-          "Revisión de riesgos penales en contratos de suministro, prestación de servicios y relaciones operativas en el país.",
-          "Coordinación de criterios penales preventivos con los abogados a cargo de la estructuración mercantil del cliente."
+          {
+            "title": "Decisiones empresariales con posibles implicaciones penales",
+            "paragraphs": [
+              "Investigación de las cuestiones penales que puedan resultar relevantes para una decisión, actuación o proyecto empresarial vinculado con Venezuela. Elaboración de conclusiones jurídicas que permitan distinguir las contingencias identificadas de apreciaciones meramente hipotéticas."
+            ]
+          },
+          {
+            "title": "Hechos que requieren una respuesta jurídica de la organización",
+            "paragraphs": [
+              "Estudio de antecedentes relacionados con posibles irregularidades que afecten a la empresa o a sus operaciones. Preparación de una posición jurídica inicial y de las actuaciones que se proponga adoptar, dentro del alcance profesional contratado."
+            ]
+          },
+          {
+            "title": "Requerimientos y actuaciones de autoridades",
+            "paragraphs": [
+              "Asesoría sobre la respuesta jurídica de la organización frente a requerimientos o actuaciones con posible relevancia penal. Delimitación de la información disponible, las cuestiones que requieren investigación y las medidas profesionales que corresponda proponer.",
+              "Cuando el asunto requiera defensa o representación procesal, esa intervención se definirá expresamente y se coordinará con el servicio correspondiente."
+            ]
+          },
+          {
+            "title": "Consultas de órganos de dirección y equipos jurídicos",
+            "paragraphs": [
+              "Elaboración de opiniones fundamentadas para órganos de dirección, departamentos legales y firmas internacionales que necesiten esclarecer una cuestión penal venezolana antes de adoptar una posición o impartir instrucciones."
+            ]
+          }
         ]
       },
-      "approach": {
-        "title": "Nuestro enfoque",
-        "p1": "Consideramos el contrato como un instrumento de distribución de riesgos, obligaciones, responsabilidades y mecanismos de protección jurídica.",
-        "p2": "Por ello, no limitamos nuestro análisis a determinar si una cláusula está correctamente redactada. Evaluamos cómo funcionará el contrato en la realidad: quién queda obligado, dónde debe cumplirse la obligación, qué legislación puede resultar relevante, qué sucede ante un incumplimiento y cuáles son las herramientas disponibles para hacer valer los derechos derivados de la relación.",
-        "p3": "Cuando intervienen varias jurisdicciones, examinamos además la interacción entre la estructura contractual internacional y el componente jurídico venezolano.",
-        "p4": "Esta perspectiva resulta particularmente relevante para empresas, inversionistas, profesionales y personas que mantienen relaciones comerciales con Venezuela desde el exterior.",
-        "p5": "La intervención temprana permite identificar contingencias antes de que se conviertan en controversias y proporciona al cliente una posición jurídica más clara al momento de negociar, contratar o ejecutar la operación."
+      "investigacion": {
+        "title": "Investigación y construcción de la estrategia",
+        "items": [
+          {
+            "title": "Delimitación de la cuestión jurídica",
+            "text": "Identificación de la consulta, los hechos conocidos, las personas o entidades involucradas y la decisión que el estudio debe contribuir a fundamentar. Determinación de los antecedentes necesarios y de los límites de la información disponible."
+          },
+          {
+            "title": "Investigación normativa y jurisprudencial",
+            "text": "Estudio de las disposiciones y criterios judiciales pertinentes para la cuestión planteada. Los instrumentos internacionales se examinarán cuando guarden relación concreta con el asunto y una vez comprobadas su vigencia y aplicabilidad."
+          },
+          {
+            "title": "Formulación de conclusiones",
+            "text": "Exposición de los fundamentos, argumentos y circunstancias que sustentan la opinión profesional. Identificación de las cuestiones no resueltas, de la información faltante y de las condiciones de las que dependan las conclusiones."
+          },
+          {
+            "title": "Preparación de la estrategia",
+            "text": "Diseño de alternativas de actuación conforme a los objetivos del encargo. Determinación de prioridades y de las intervenciones profesionales que requieran una contratación o coordinación adicional."
+          }
+        ]
+      },
+      "entregables": {
+        "title": "Documentos y entregables",
+        "intro": "Según el encargo, la intervención podrá comprender:",
+        "items": [
+          "Dictámenes sobre cuestiones penales específicas.",
+          "Informes jurídicos sobre contingencias identificadas.",
+          "Documentos de estrategia y alternativas de actuación.",
+          "Opiniones destinadas a órganos de dirección o equipos jurídicos.",
+          "Escritos y comunicaciones de contenido jurídico expresamente incluidos en la propuesta.",
+          "Informes para la coordinación con firmas y despachos internacionales."
+        ],
+        "closing": "Cada entregable identificará su objeto, antecedentes examinados, fundamentos y conclusiones. No se presentarán como definitivas las apreciaciones que dependan de hechos no comprobados o documentación incompleta."
+      },
+      "coordinacion": {
+        "title": "Coordinación con empresas y firmas internacionales",
+        "p1": "La colaboración se organizará mediante un interlocutor autorizado y una distribución expresa de tareas. Se determinarán los destinatarios de los informes, el procedimiento para solicitar aclaraciones y las condiciones de circulación de la documentación.",
+        "p2": "La posición de la empresa y la de sus directivos o representantes se examinarán separadamente cuando el asunto lo requiera. La asistencia a la organización no incluirá automáticamente asesoría o defensa individual.",
+        "link_label": "LOCAL COUNSEL Y COLABORACIÓN INTERPROFESIONAL"
+      },
+      "alcance": {
+        "title": "Alcance y límites del servicio",
+        "intro": "La propuesta profesional delimitará la cuestión sometida a estudio y los documentos comprometidos. Este servicio:",
+        "items": [
+          "No constituye una revisión general de contratos.",
+          "No comprende asesoría mercantil, societaria, tributaria o laboral autónoma.",
+          "No equivale a una auditoría contable, investigación pericial o programa integral de cumplimiento.",
+          "No incorpora automáticamente defensa penal ni actuaciones ante autoridades.",
+          "No garantiza la ausencia de investigaciones, controversias o decisiones adversas."
+        ],
+        "closing": "La necesidad de otras especialidades se identificará sin atribuir a Mac capacidades ajenas al alcance contratado."
+      },
+      "evaluacion": {
+        "title": "Evaluación profesional y contratación",
+        "p1": "La información inicial permitirá establecer el alcance y los honorarios de la evaluación jurídica. Su realización proporcionará la base para definir, cuando corresponda, un encargo posterior de investigación, elaboración documental o intervención.",
+        "p2": "La propuesta identificará las tareas, los entregables, los honorarios, los gastos y las condiciones de pago. Las ampliaciones del objeto o la incorporación de nuevos antecedentes que requieran trabajo adicional se acordarán expresamente.",
+        "cta": "SOLICITAR EVALUACIÓN JURÍDICO-PENAL",
+        "back": "← VOLVER A INTERNACIONAL"
       }
     },
     "representacion_judicial": {
-      "h1": "Intervención Penal y Tutela Constitucional para Clientes en el Exterior",
-      "subtitle": "Defensa penal y tutela de derechos y garantías constitucionales ante las autoridades y tribunales competentes en Venezuela.",
+      "tag": "INTERNACIONAL · PRÁCTICA PENAL",
+      "h1": "Defensa penal y representación de víctimas",
+      "subtitle": "Estrategia, investigación jurídica y actuación procesal en Venezuela para empresas, directivos y personas situadas en el exterior.",
+      "meta_title": "Defensa Penal y Representación de Víctimas | Mac Consultores Jurídicos & Asociados",
+      "meta_desc": "Estrategia, investigación jurídica y actuación procesal en Venezuela para empresas, directivos y personas situadas en el exterior.",
       "intro": {
-        "p1": "Las personas y directivos situados fuera de Venezuela pueden requerir asistencia letrada ante investigaciones penales, citaciones judiciales o medidas que afecten sus derechos fundamentales en el país.",
-        "p2": "Mac Consultores Jurídicos & Asociados asume la defensa penal y la tutela constitucional ante los órganos de investigación y tribunales en Venezuela, evaluando la procedencia del encargo según los hechos y la documentación del caso. La firma no litiga en materia civil ni atiende pretensiones de derecho privado general.",
-        "p3": "La dirección letrada se ejerce de forma directa en el territorio nacional, coordinando las actuaciones con el cliente en el extranjero y con los equipos jurídicos internacionales que asisten a la persona o empresa en su país de residencia."
+        "p1": "Mac Consultores Jurídicos & Asociados asume encargos de defensa penal y representación de víctimas en asuntos vinculados con Venezuela. Su intervención comprende el estudio de los antecedentes, la formulación de la estrategia jurídica, la elaboración de escritos y la actuación ante las autoridades y tribunales competentes.",
+        "p2": "La dirección del asunto exige identificar la posición procesal del cliente, las actuaciones practicadas y las decisiones que requieren respuesta. Sobre esa base se delimitan los objetivos del encargo, las diligencias pertinentes y la coordinación con representantes, equipos jurídicos corporativos o firmas internacionales."
       },
-      "when_we_intervene": {
-        "title": "Cuándo intervenimos",
+      "cta": "SOLICITAR EVALUACIÓN JURÍDICA",
+      "nota": "La evaluación del asunto genera honorarios profesionales, cuyo alcance e importe se establecerán previamente. La información y documentación recibidas serán tratadas con estricta confidencialidad y sujeción al secreto profesional.",
+      "ambitos": {
+        "title": "Ámbitos de intervención",
         "items": [
-          "Defensa técnica en investigaciones penales y procedimientos ante tribunales de la jurisdicción penal en Venezuela.",
-          "Preparación e interposición de recursos de casación ante la Sala de Casación Penal del Tribunal Supremo de Justicia.",
-          "Interposición y tramitación de acciones de amparo constitucional para la tutela de derechos y garantías fundamentales.",
-          "Representación técnica de personas y directivos situados fuera del país ante citaciones o actuaciones penales en Venezuela.",
-          "Atención procesal ante medidas preventivas o de aseguramiento sobre bienes vinculadas a procedimientos penales.",
-          "Coordinación de la estrategia penal con los abogados que asisten al cliente en su lugar de residencia."
+          {
+            "title": "Defensa penal de personas y directivos",
+            "text": "Preparación de estrategias de defensa frente a investigaciones, citaciones, imputaciones y demás actuaciones que comprometan la situación jurídica del cliente. Investigación normativa y jurisprudencial, elaboración de escritos y asistencia en las actuaciones comprendidas en el encargo."
+          },
+          {
+            "title": "Asesoría a empresas ante contingencias penales",
+            "text": "Determinación de la posición jurídica de la empresa frente a hechos sometidos a investigación y de las actuaciones que corresponda adoptar para la protección de sus intereses. Coordinación con sus órganos de dirección y asesores jurídicos, distinguiendo la asistencia a la organización de la defensa individual de sus directivos o representantes."
+          },
+          {
+            "title": "Representación de víctimas",
+            "text": "Asesoría y actuación para la protección de los derechos e intereses de personas y empresas afectadas por hechos delictivos. Constitución de querellas, elaboración de escritos y preparación de actuaciones conforme a la posición procesal y los objetivos legítimos del cliente."
+          },
+          {
+            "title": "Coordinación con firmas internacionales",
+            "text": "Desarrollo del componente venezolano de asuntos atendidos conjuntamente con firmas y despachos de abogados internacionales. Distribución de funciones, preparación de informes y articulación de la estrategia local con el trabajo del equipo extranjero."
+          }
+        ],
+        "link_label": "LOCAL COUNSEL Y COOPERACIÓN INTERPROFESIONAL"
+      },
+      "investigacion": {
+        "title": "Investigación jurídica y preparación de la estrategia",
+        "items": [
+          {
+            "title": "Estudio de antecedentes y situación procesal",
+            "text": "Examen de los documentos y actuaciones disponibles para identificar los hechos relevantes, el estado del procedimiento y las cuestiones jurídicas que requieren atención. Determinación de la información adicional necesaria para fundamentar la intervención."
+          },
+          {
+            "title": "Construcción de la posición jurídica",
+            "text": "Investigación de la normativa y jurisprudencia pertinentes, identificación de los argumentos y preparación de una estrategia ajustada a la posición del cliente. Definición de las actuaciones propuestas y de sus objetivos procesales."
+          },
+          {
+            "title": "Elaboración de escritos y preparación de actuaciones",
+            "text": "Redacción de los documentos comprendidos en el encargo, con correspondencia entre antecedentes, fundamentos jurídicos y peticiones. Preparación de la intervención profesional y de las comunicaciones necesarias para su ejecución."
+          },
+          {
+            "title": "Información y coordinación",
+            "text": "Comunicación de las actuaciones relevantes y de las decisiones que requieran instrucciones del cliente. Elaboración de informes conforme al alcance y periodicidad acordados, con tratamiento confidencial de la documentación."
+          }
         ]
       },
-      "approach": {
-        "title": "Nuestro enfoque",
-        "p1": "La estrategia procesal comienza antes de la primera actuación judicial.",
-        "p2": "Un litigio debe ser analizado desde sus antecedentes fácticos, la documentación disponible, la posición jurídica del cliente, las pretensiones posibles, los riesgos procesales y los distintos escenarios que pueden derivarse de la actuación.",
-        "p3": "Por ello, antes de definir una estrategia examinamos la información disponible y determinamos cuáles son los objetivos jurídicos del cliente. A partir de allí evaluamos las alternativas procesales y la conveniencia de iniciar, continuar, contestar, negociar o adoptar determinada actuación dentro del procedimiento.",
-        "p4": "Cuando el cliente se encuentra en el extranjero, añadimos un componente esencial: la coordinación jurídica a distancia.",
-        "p5": "El cliente debe conocer qué está ocurriendo, qué decisiones requieren su intervención y cuáles corresponden a la dirección jurídica local. Nuestra función consiste en establecer ese puente y proporcionar capacidad efectiva de actuación en Venezuela.",
-        "p6": "La representación judicial se concibe así como un servicio estratégico, no meramente operativo."
+      "delimitacion": {
+        "title": "Delimitación del encargo",
+        "intro": "La propuesta profesional identificará:",
+        "items": [
+          "La persona o entidad asistida y su posición en el asunto.",
+          "Las actuaciones y documentos comprendidos.",
+          "Las responsabilidades de Mac y, cuando corresponda, de los demás abogados participantes.",
+          "Los mecanismos de comunicación y entrega de informes.",
+          "Los honorarios, gastos y condiciones de pago.",
+          "Las actuaciones adicionales que requieran una contratación específica."
+        ],
+        "closing": "La contratación por una empresa no comprenderá automáticamente la defensa individual de sus directivos, empleados o representantes. Cada intervención deberá delimitarse expresamente."
+      },
+      "servicios_relacionados": {
+        "title": "Servicios especializados relacionados",
+        "text": "La elaboración de recursos de casación penal, las acciones de tutela constitucional y los escritos relacionados con procedimientos de extradición cuentan con desarrollo propio dentro de la oferta internacional de la firma.",
+        "link1_label": "CASACIÓN PENAL Y TUTELA CONSTITUCIONAL",
+        "link2_label": "EXTRADICIÓN Y COORDINACIÓN JURÍDICA INTERNACIONAL"
+      },
+      "evaluacion": {
+        "title": "Evaluación profesional del asunto",
+        "p1": "La evaluación inicial comprende el estudio jurídico de los antecedentes incluidos en el alcance contratado. Cuando proceda una intervención posterior, se formulará una propuesta diferenciada de actuaciones, entregables y honorarios.",
+        "p2": "La recepción de información para determinar el alcance y presupuesto de la evaluación no supone la aceptación de la defensa, representación o actuación procesal.",
+        "cta": "SOLICITAR EVALUACIÓN JURÍDICA",
+        "back": "← VOLVER A INTERNACIONAL"
       }
     },
     "poderes_y_mandatos": {
@@ -1874,6 +2007,340 @@
         "p3": "Un instrumento excesivamente genérico puede resultar insuficiente para determinadas actuaciones; uno excesivamente amplio puede conferir facultades que el otorgante no desea conceder. La correcta estructuración exige, por tanto, equilibrio entre suficiencia, precisión y control.",
         "p4": "Cuando el poder es otorgado desde el extranjero, además, debe considerarse la interacción entre las formalidades de otorgamiento y su posterior utilización en Venezuela. Por ello, coordinamos el componente documental con la finalidad jurídica del instrumento.",
         "p5": "Nuestro objetivo es que el poder no sea simplemente un documento formalmente válido, sino una herramienta jurídica funcional, diseñada para permitir al representante ejecutar las actuaciones que realmente necesita realizar en Venezuela dentro del alcance autorizado por el otorgante."
+      }
+    },
+    "opiniones_juridicas": {
+      "tag": "INTERNACIONAL · INVESTIGACIÓN Y DICTÁMENES",
+      "h1": "Opiniones jurídicas de derecho venezolano",
+      "subtitle": "Investigación normativa y jurisprudencial para decisiones institucionales, estrategias procesales y coordinación jurídica internacional.",
+      "meta_title": "Opiniones Jurídicas de Derecho Venezolano | Mac Consultores Jurídicos & Asociados",
+      "meta_desc": "Investigación normativa y jurisprudencial para decisiones institucionales, estrategias procesales y coordinación jurídica internacional.",
+      "intro": {
+        "p1": "Mac Consultores Jurídicos & Asociados elabora dictámenes e informes sobre cuestiones penales y constitucionales venezolanas para empresas, instituciones y personas situadas fuera del país. El servicio comprende la delimitación de la consulta, el estudio de sus antecedentes y la construcción de una respuesta jurídica sustentada en fuentes identificadas.",
+        "p2": "La opinión profesional no se limita a recopilar disposiciones o reproducir jurisprudencia. Expone su relación con el problema planteado, desarrolla los argumentos pertinentes y formula conclusiones, con identificación de los límites del estudio y de las circunstancias que puedan condicionar su alcance."
+      },
+      "cta": "SOLICITAR EVALUACIÓN DE UNA CONSULTA JURÍDICA",
+      "nota": "La evaluación de la consulta constituye un servicio profesional remunerado. Su alcance y honorarios se establecerán previamente. La información y documentación recibidas serán tratadas con estricta confidencialidad y sujeción al secreto profesional.",
+      "objeto": {
+        "title": "Objeto de la consulta",
+        "items": [
+          {
+            "title": "Cuestiones penales sustantivas",
+            "text": "Estudio de problemas de interpretación y aplicación de la legislación penal venezolana a supuestos delimitados. Examen de los elementos jurídicos relevantes, las posiciones interpretativas y sus consecuencias para la consulta sometida a consideración."
+          },
+          {
+            "title": "Cuestiones procesales penales",
+            "text": "Investigación sobre instituciones, actuaciones y decisiones del proceso penal venezolano. Elaboración de opiniones que permitan comprender una situación procesal, examinar una cuestión controvertida o fundamentar la preparación de actuaciones posteriores."
+          },
+          {
+            "title": "Derechos y garantías constitucionales",
+            "text": "Análisis de cuestiones relativas a la protección de derechos y garantías constitucionales. Investigación de los fundamentos y criterios pertinentes para esclarecer el problema planteado, sin presumir que toda consulta deba conducir a una acción de amparo."
+          },
+          {
+            "title": "Dimensión internacional de una cuestión venezolana",
+            "text": "Estudio de la relación entre el derecho venezolano y los instrumentos internacionales pertinentes para una consulta penal o constitucional. El análisis identificará las disposiciones relevantes y las condiciones de su aplicación, previa comprobación de su vigencia."
+          }
+        ]
+      },
+      "modalidades": {
+        "title": "Modalidades de opinión profesional",
+        "items": [
+          {
+            "title": "Dictamen sobre una cuestión determinada",
+            "text": "Documento que desarrolla la consulta, sus antecedentes, el problema jurídico, las fuentes examinadas, la argumentación y las conclusiones."
+          },
+          {
+            "title": "Informe sobre una institución o procedimiento",
+            "text": "Exposición fundamentada de una institución jurídica venezolana o de una cuestión procesal, preparada para su comprensión y utilización por el destinatario del encargo."
+          },
+          {
+            "title": "Opinión sobre una cuestión controvertida",
+            "text": "Estudio de argumentos y criterios interpretativos relevantes, con identificación de la posición profesional de la firma y de los puntos que no admitan una conclusión categórica."
+          },
+          {
+            "title": "Informe complementario",
+            "text": "Desarrollo de preguntas adicionales o actualización del estudio ante nuevos antecedentes, cambios normativos o criterios jurisprudenciales relevantes. Su elaboración requerirá un alcance y honorarios acordados."
+          }
+        ]
+      },
+      "metodo": {
+        "title": "Método de elaboración",
+        "items": [
+          {
+            "title": "Delimitación de la consulta",
+            "text": "La propuesta identificará las preguntas que deben responderse, la finalidad del documento, sus destinatarios y los antecedentes comprendidos en el estudio."
+          },
+          {
+            "title": "Investigación de fuentes",
+            "text": "Se examinarán las disposiciones, decisiones judiciales y demás fuentes pertinentes. La selección responderá al problema jurídico, no a la acumulación de referencias."
+          },
+          {
+            "title": "Construcción argumentativa",
+            "text": "El documento distinguirá los hechos proporcionados, los presupuestos asumidos, las fuentes jurídicas y las conclusiones profesionales. Los criterios divergentes y las limitaciones relevantes se expondrán cuando incidan en la respuesta."
+          },
+          {
+            "title": "Formulación de conclusiones",
+            "text": "Las conclusiones responderán a las preguntas del encargo y precisarán su alcance. Cuando la información disponible no permita sostener una respuesta definitiva, se identificarán los antecedentes necesarios o las reservas correspondientes."
+          }
+        ]
+      },
+      "destinatarios": {
+        "title": "Destinatarios y utilización del documento",
+        "p1": "El encargo establecerá quién solicita la opinión, a quién se dirige y para qué finalidad se prepara.",
+        "p2": "Cuando se prevea su presentación ante una autoridad o tribunal extranjero, esa utilización deberá comunicarse antes de la contratación. Se delimitarán las exigencias del documento y la coordinación necesaria con los profesionales que intervengan en esa jurisdicción, sin atribuirle automáticamente carácter pericial ni garantizar su admisión.",
+        "p3": "La reproducción, circulación o utilización por terceros se ajustará a las condiciones acordadas y a las obligaciones de confidencialidad aplicables."
+      },
+      "alcance": {
+        "title": "Alcance del servicio",
+        "intro": "La elaboración de una opinión jurídica no comprende automáticamente:",
+        "items": [
+          "Verificación independiente de todos los hechos proporcionados.",
+          "Investigación pericial, contable o informática.",
+          "Obtención de expedientes o documentación no incluida en el encargo.",
+          "Redacción de recursos, demandas u otros escritos procesales.",
+          "Representación ante autoridades o tribunales.",
+          "Actualización posterior del documento."
+        ],
+        "closing": "Cualquiera de estas actuaciones requerirá evaluación y contratación expresa cuando forme parte de los servicios que la firma pueda asumir."
+      },
+      "servicios_relacionados": {
+        "title": "Servicios relacionados",
+        "text": "Cuando la consulta requiera una intervención adicional, podrá evaluarse su contratación diferenciada.",
+        "link1_label": "DEFENSA PENAL Y REPRESENTACIÓN DE VÍCTIMAS",
+        "link2_label": "CASACIÓN PENAL Y TUTELA CONSTITUCIONAL",
+        "link3_label": "EXTRADICIÓN Y COORDINACIÓN JURÍDICA INTERNACIONAL",
+        "extra_intro": "Para encargos promovidos por abogados o despachos extranjeros:",
+        "extra_link": "LOCAL COUNSEL Y COOPERACIÓN INTERPROFESIONAL"
+      },
+      "evaluacion": {
+        "title": "Evaluación y contratación",
+        "p1": "La información inicial permitirá definir el alcance y los honorarios de la evaluación profesional. La elaboración del dictamen o informe se contratará conforme a una propuesta que identifique las preguntas jurídicas, los antecedentes, el entregable, los plazos y las condiciones económicas.",
+        "p2": "Las ampliaciones de la consulta, los nuevos antecedentes y los documentos adicionales se acordarán expresamente.",
+        "cta": "SOLICITAR EVALUACIÓN DE UNA CONSULTA JURÍDICA",
+        "back": "← VOLVER A INTERNACIONAL"
+      }
+    },
+    "casacion_tutela": {
+      "tag": "INTERNACIONAL · CASACIÓN Y TUTELA CONSTITUCIONAL",
+      "h1": "Casación penal y tutela constitucional",
+      "subtitle": "Investigación jurídica, construcción argumentativa y elaboración de escritos para la impugnación de decisiones y la protección de derechos y garantías constitucionales.",
+      "meta_title": "Casación Penal y Tutela Constitucional | Mac Consultores Jurídicos & Asociados",
+      "meta_desc": "Investigación jurídica, construcción argumentativa y elaboración de escritos para la impugnación de decisiones y la protección de derechos y garantías constitucionales.",
+      "intro": {
+        "p1": "Mac Consultores Jurídicos & Asociados desarrolla estrategias de impugnación y tutela constitucional mediante el estudio de antecedentes, la investigación normativa y jurisprudencial y la elaboración de escritos jurídicos especializados.",
+        "p2": "La intervención comprende la evaluación de la vía propuesta, la identificación de las cuestiones jurídicas determinantes y la construcción de los argumentos que sustenten las pretensiones del encargo. Cada asunto exige distinguir el desacuerdo con una decisión de los fundamentos que permitan formular una impugnación o solicitar protección constitucional."
+      },
+      "cta": "SOLICITAR EVALUACIÓN JURÍDICA",
+      "nota": "La evaluación constituye un servicio profesional remunerado. Su alcance y honorarios se establecerán previamente. La información y documentación recibidas serán tratadas con estricta confidencialidad y sujeción al secreto profesional.",
+      "lineas": {
+        "title": "Líneas de intervención",
+        "items": [
+          {
+            "title": "Casación penal",
+            "paragraphs": [
+              "Investigación y elaboración de recursos de casación penal a partir del estudio de las decisiones y actuaciones pertinentes. Determinación de las cuestiones jurídicas que sustenten la impugnación y preparación de una argumentación estructurada, con correspondencia entre los motivos formulados, su fundamentación y las peticiones.",
+              "El encargo podrá comprender el estudio de viabilidad, la elaboración del recurso y otros escritos relacionados, según la situación procesal y el alcance contratado."
+            ]
+          },
+          {
+            "title": "Acciones de amparo constitucional",
+            "paragraphs": [
+              "Diseño de estrategias y elaboración de acciones para la protección de derechos y garantías constitucionales. Identificación de la lesión jurídica, individualización del derecho o garantía constitucional vulnerado y construcción de los fundamentos que sustenten la pretensión de tutela.",
+              "La formulación de la acción estará precedida de un examen minucioso de su procedencia y de la idoneidad de la protección solicitada. Su naturaleza de remedio procesal constitucional exige una fundamentación específica: no se asumirá como una vía absoluta e irreductible ni se promoverá al margen del análisis de los mecanismos de protección pertinentes."
+            ]
+          },
+          {
+            "title": "Amparo a la libertad y seguridad personales —hábeas corpus—",
+            "paragraphs": [
+              "Investigación jurídica y elaboración de acciones de hábeas corpus ante supuestos de privación ilegítima de libertad o afectación de la seguridad personal. Estudio de las circunstancias de la detención, de los actos u omisiones que la sustenten y de los antecedentes necesarios para fundamentar la pretensión de protección constitucional.",
+              "La estrategia delimitará la tutela solicitada y su articulación con las actuaciones de defensa penal, sin confundir sus respectivos objetos ni sustituir automáticamente una vía por otra."
+            ]
+          },
+          {
+            "title": "Amparo contra decisiones judiciales",
+            "paragraphs": [
+              "Investigación de los fundamentos de la lesión constitucional atribuida a una decisión judicial y elaboración de la acción cuando la evaluación determine su pertinencia.",
+              "La argumentación identificará la cuestión constitucional planteada y su relación con la protección solicitada, sin limitarse a reproducir los motivos de inconformidad con la decisión."
+            ]
+          },
+          {
+            "title": "Tutela constitucional en el curso de un proceso",
+            "paragraphs": [
+              "Análisis de lesiones de derechos y garantías producidas dentro de un procedimiento y determinación de la vía correspondiente. Preparación de acciones o escritos conforme a la situación procesal y a la estrategia jurídicamente fundamentada."
+            ]
+          },
+          {
+            "title": "Hábeas data",
+            "paragraphs": [
+              "Investigación y elaboración de acciones relativas al acceso, conocimiento del uso, actualización, rectificación o supresión de datos, según el supuesto sometido a estudio y la pretensión que corresponda formular.",
+              "Esta línea tendrá fundamentación y desarrollo propios, sin presentarse como una modalidad de amparo ni confundirse con una asesoría general en protección de datos."
+            ]
+          }
+        ]
+      },
+      "investigacion": {
+        "title": "Investigación y construcción del escrito",
+        "items": [
+          {
+            "title": "Delimitación del problema jurídico",
+            "text": "Identificación de la decisión, actuación u omisión objeto del estudio; la posición del solicitante; los antecedentes disponibles y la finalidad perseguida."
+          },
+          {
+            "title": "Evaluación de la vía",
+            "text": "Investigación de las condiciones jurídicas y procesales pertinentes, con identificación de obstáculos, documentación faltante y cuestiones que deban esclarecerse antes de recomendar una actuación."
+          },
+          {
+            "title": "Formulación de la estrategia",
+            "text": "Determinación de los argumentos centrales, las pretensiones y la relación con otras actuaciones existentes o propuestas. La estrategia distinguirá las vías alternativas de aquellas que puedan requerir coordinación."
+          },
+          {
+            "title": "Elaboración documental",
+            "text": "Redacción del escrito con una exposición ordenada de antecedentes, fundamentos y peticiones. Preparación de los documentos complementarios y referencias comprendidos en el encargo."
+          }
+        ]
+      },
+      "entregables": {
+        "title": "Documentos y entregables",
+        "intro": "La propuesta profesional podrá comprender:",
+        "items": [
+          "Opinión fundamentada sobre viabilidad y estrategia.",
+          "Recurso de casación penal.",
+          "Acción de amparo constitucional.",
+          "Acción de hábeas data.",
+          "Escritos complementarios vinculados con la actuación contratada.",
+          "Informe de fundamentos para la coordinación con el cliente o sus asesores."
+        ],
+        "closing": "La evaluación puede concluir que no corresponde promover la vía inicialmente considerada. Esa conclusión constituye un resultado del servicio profesional, no la ausencia de un entregable."
+      },
+      "elaboracion": {
+        "title": "Elaboración y actuación procesal",
+        "intro": "La preparación de un escrito no incluye automáticamente su presentación ni la asistencia durante la tramitación. Cuando se contrate una intervención procesal, se definirán expresamente:",
+        "items": [
+          "La actuación profesional y las responsabilidades asumidas.",
+          "La presentación de documentos y escritos.",
+          "El seguimiento y la información al cliente.",
+          "La asistencia a los actos que correspondan.",
+          "Las actuaciones adicionales y sus condiciones económicas."
+        ],
+        "closing": "No se ofrecerán garantías de admisión, procedencia o resultado."
+      },
+      "cooperacion": {
+        "title": "Cooperación con firmas internacionales",
+        "p1": "La investigación y elaboración jurídica podrán desarrollarse en coordinación con firmas y despachos de abogados internacionales, con delimitación de las tareas, los antecedentes proporcionados y la responsabilidad sobre cada componente del encargo.",
+        "p2": "Cuando la contratación responda a una relación entre profesionales, se aplicará el modelo de colaboración interprofesional acordado.",
+        "link_label": "LOCAL COUNSEL Y COOPERACIÓN INTERPROFESIONAL"
+      },
+      "evaluacion": {
+        "title": "Evaluación y contratación",
+        "p1": "La información inicial permitirá establecer el alcance y los honorarios de la evaluación. El estudio se realizará sobre los antecedentes definidos en la propuesta y permitirá determinar la estrategia y los trabajos posteriores que, en su caso, se recomienden.",
+        "p2": "La elaboración de escritos, la actuación procesal y los trabajos adicionales deberán quedar expresamente incluidos en el encargo. La recepción de documentación no supone la aceptación de una representación ni la asunción de actuaciones sujetas a plazo.",
+        "cta": "SOLICITAR EVALUACIÓN JURÍDICA",
+        "back": "← VOLVER A INTERNACIONAL"
+      }
+    },
+    "extradicion": {
+      "tag": "INTERNACIONAL · EXTRADICIÓN Y COOPERACIÓN JURÍDICA",
+      "h1": "Extradición y coordinación jurídica internacional",
+      "subtitle": "Asesoría especializada, investigación normativa y jurisprudencial y elaboración de escritos en procedimientos de extradición.",
+      "meta_title": "Extradición y Coordinación Jurídica Internacional | Mac Consultores Jurídicos & Asociados",
+      "meta_desc": "Asesoría especializada, investigación normativa y jurisprudencial y elaboración de escritos en procedimientos de extradición.",
+      "intro": {
+        "p1": "Mac Consultores Jurídicos & Asociados presta asesoría jurídica en asuntos de extradición vinculados con el ordenamiento venezolano. Su intervención comprende el examen de los antecedentes y actuaciones procesales, la determinación del régimen jurídico pertinente y la formulación de estrategias de defensa sustentadas en investigación normativa, convencional y jurisprudencial.",
+        "p2": "La firma elabora escritos de fundamentación jurídica, dictámenes e informes sobre cuestiones de derecho penal y procesal penal venezolano relevantes para el procedimiento. La cooperación con firmas y despachos de abogados internacionales permite integrar esa aportación especializada en la estrategia desarrollada ante las jurisdicciones involucradas, mediante una delimitación expresa de funciones y responsabilidades profesionales."
+      },
+      "cta": "SOLICITAR EVALUACIÓN JURÍDICA",
+      "nota": "La evaluación jurídica constituye un servicio profesional remunerado. Su objeto, alcance y honorarios se establecerán previamente. La información y documentación recibidas estarán sujetas a estricta confidencialidad y secreto profesional.",
+      "ambitos": {
+        "title": "Ámbitos de intervención",
+        "items": [
+          {
+            "title": "Asesoría y estrategia de defensa en procedimientos de extradición",
+            "paragraphs": [
+              "Estudio jurídico de los antecedentes que sustentan el requerimiento y de las actuaciones practicadas, con identificación de las cuestiones sustantivas, procesales y documentales relevantes para la defensa.",
+              "La intervención comprende la investigación de los fundamentos que permitan sostener la posición jurídica de la persona requerida, la formulación de la estrategia y la elaboración de los escritos correspondientes. La actuación procesal ante las autoridades venezolanas se determinará expresamente en el encargo profesional."
+            ]
+          },
+          {
+            "title": "Fundamentación de derecho venezolano para procedimientos en el extranjero",
+            "paragraphs": [
+              "Elaboración de dictámenes e informes sobre la legislación penal y procesal penal venezolana, su interpretación jurisprudencial y sus implicaciones para la defensa en procedimientos seguidos ante autoridades extranjeras.",
+              "El estudio podrá comprender el análisis de las disposiciones invocadas, la naturaleza y los efectos de las decisiones venezolanas y las instituciones jurídicas cuya interpretación resulte pertinente para el asunto. Las conclusiones se formularán en respuesta a cuestiones delimitadas y en coordinación con las firmas de abogados responsables de la actuación en el Estado extranjero."
+            ]
+          },
+          {
+            "title": "Investigación y elaboración de escritos especializados",
+            "paragraphs": [
+              "Construcción de la fundamentación jurídica de alegaciones, solicitudes y demás escritos comprendidos en el encargo. Su elaboración articulará los antecedentes documentados, las disposiciones pertinentes, los criterios jurisprudenciales y las pretensiones que corresponda sostener.",
+              "Cuando la aportación se destine a una actuación en otra jurisdicción, se distinguirá el análisis de derecho venezolano de su incorporación al escrito procesal y de la dirección de la defensa a cargo de los profesionales que intervengan en ella."
+            ]
+          }
+        ]
+      },
+      "investigacion": {
+        "title": "Investigación jurídica y construcción de la estrategia",
+        "items": [
+          {
+            "title": "Delimitación del objeto del estudio",
+            "paragraphs": [
+              "Identificación del requerimiento, los Estados involucrados, la situación jurídica de la persona requerida y las actuaciones que integran los antecedentes del asunto.",
+              "Determinación de las cuestiones sometidas a consulta, la documentación comprendida en el estudio y los antecedentes adicionales necesarios para sustentar la opinión profesional."
+            ]
+          },
+          {
+            "title": "Determinación del régimen jurídico pertinente",
+            "paragraphs": [
+              "Investigación del marco constitucional, legal y convencional relacionado con el procedimiento, con comprobación de la vigencia, el ámbito de aplicación y las disposiciones relevantes de los instrumentos internacionales examinados.",
+              "El estudio establecerá la relación entre las fuentes aplicables y las cuestiones concretas del asunto, sin trasladar de manera automática soluciones correspondientes a otros procedimientos o relaciones interestatales."
+            ]
+          },
+          {
+            "title": "Formulación de la posición jurídica",
+            "paragraphs": [
+              "Examen de las cuestiones controvertidas y construcción de los argumentos que sustenten la estrategia de defensa. Identificación de los presupuestos de cada planteamiento, su respaldo documental y las consecuencias jurídicas que se pretenda hacer valer.",
+              "Las conclusiones distinguirán los extremos acreditados, los antecedentes proporcionados y las cuestiones cuya valoración dependa de documentación o comprobaciones adicionales."
+            ]
+          },
+          {
+            "title": "Articulación de las actuaciones",
+            "paragraphs": [
+              "Determinación de los escritos, informes y actuaciones comprendidos en la estrategia propuesta. Coordinación de la aportación venezolana con el trabajo del despacho extranjero, atendiendo a la distribución de competencias profesionales y a los objetivos del encargo."
+            ]
+          }
+        ]
+      },
+      "entregables": {
+        "title": "Dictámenes, informes y escritos",
+        "intro": "La propuesta profesional podrá comprender:",
+        "items": [
+          "Dictamen sobre cuestiones de derecho venezolano relevantes para el procedimiento de extradición.",
+          "Informe de interpretación de la legislación penal y procesal penal venezolana y de sus implicaciones para la defensa.",
+          "Estudio jurídico de decisiones y actuaciones venezolanas relacionadas con el requerimiento.",
+          "Documento de estrategia y fundamentación de la posición jurídica.",
+          "Elaboración de alegaciones, solicitudes y escritos para actuaciones en Venezuela.",
+          "Informes de fundamentación destinados a firmas y despachos de abogados internacionales.",
+          "Opiniones complementarias sobre cuestiones delimitadas que surjan durante la ejecución del encargo."
+        ],
+        "closing": "Los documentos identificarán su objeto, los antecedentes examinados, las fuentes jurídicas, la argumentación y las conclusiones. Su eventual utilización ante autoridades extranjeras deberá precisarse al establecer el alcance de la contratación."
+      },
+      "coordinacion": {
+        "title": "Coordinación jurídica internacional",
+        "p1": "La colaboración con firmas y despachos internacionales se estructurará mediante la delimitación del componente venezolano del asunto y la distribución expresa de tareas, responsabilidades e interlocución profesional.",
+        "p2": "Mac aportará investigación especializada, elaboración de argumentos y documentación jurídica para su articulación con la estrategia del equipo extranjero. La coordinación preservará la independencia de criterio, el secreto profesional y las condiciones acordadas respecto de la relación con el cliente y la circulación de los documentos.",
+        "link_label": "LOCAL COUNSEL Y COOPERACIÓN INTERPROFESIONAL"
+      },
+      "delimitacion": {
+        "title": "Delimitación del encargo profesional",
+        "p1": "La asesoría, la elaboración documental y la actuación procesal constituyen prestaciones diferenciadas. La contratación precisará cuáles se asumen, ante qué autoridades y con qué extensión.",
+        "p2": "La preparación de un dictamen, informe o escrito no comprenderá automáticamente su presentación, la asistencia a actos procesales ni el seguimiento del procedimiento. La intervención ante autoridades extranjeras corresponderá a los profesionales habilitados en la respectiva jurisdicción, conforme a la distribución de funciones acordada.",
+        "p3": "El servicio no comprende el ejercicio de atribuciones reservadas a autoridades judiciales, fiscales o diplomáticas. Tampoco incorpora garantías sobre la procedencia de la extradición, la entrega de la persona requerida o el sentido y oportunidad de las decisiones."
+      },
+      "evaluacion": {
+        "title": "Evaluación jurídica y contratación",
+        "p1": "La evaluación inicial tendrá por objeto delimitar las cuestiones jurídicas del asunto, examinar los antecedentes comprendidos en el encargo y determinar la aportación profesional que corresponda proponer.",
+        "p2": "La contratación identificará el objeto del estudio, los escritos y documentos comprometidos, las actuaciones asumidas y las condiciones económicas. La incorporación de nuevas cuestiones, antecedentes o prestaciones requerirá una delimitación adicional de su alcance.",
+        "p3": "La recepción de documentación no supone la aceptación de la defensa ni la asunción de actuaciones sujetas a término.",
+        "cta": "SOLICITAR EVALUACIÓN JURÍDICA",
+        "back": "← VOLVER A INTERNACIONAL"
       }
     }
   },

@@ -1,17 +1,20 @@
 import React from 'react';
-import Link from 'next/link';
-import { getDictionary } from "@/i18n/getDictionary";
-import { getRoute } from "@/lib/routes";
+import { getDictionary } from '@/i18n/getDictionary';
+import ServiceT02View from '@/components/internacional/ServiceT02View';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isEs = locale === 'es';
-  const title = isEs
-    ? 'Contratos y Negocios Internacionales | Mac Consultores'
-    : 'Cross-Border Contracts & Transactions | Mac Consultores';
-  const description = isEs
-    ? 'Asesoría jurídica estratégica en estructuración, negociación y análisis de contratos con conexión en Venezuela.'
-    : 'Strategic legal advisory in contract structuring, negotiation, and risk mitigation connected to Venezuela.';
+  const dict = await getDictionary(locale);
+  const data = dict?.consular?.contratos_internacionales;
+
+  const title = data?.meta_title || (isEs
+    ? 'Estrategia Jurídico-Penal en Operaciones Empresariales | Mac Consultores Jurídicos & Asociados'
+    : 'Corporate Criminal Strategy for Business Operations | Mac Consultores Jurídicos & Asociados');
+
+  const description = data?.meta_desc || (isEs
+    ? 'Investigación jurídica, elaboración de dictámenes y diseño de estrategias de prevención y respuesta para empresas y órganos de dirección.'
+    : 'Legal research, preparation of legal opinions, and development of prevention and response strategies for companies and governing bodies.');
 
   const canonical = isEs
     ? 'https://mac-consultores-site-clean.vercel.app/es/services/consular/contratos-internacionales'
@@ -29,6 +32,28 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         en: enUrl,
       },
     },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: '/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/img/logo-mac-og.jpg'],
+    },
   };
 }
 
@@ -36,103 +61,6 @@ export default async function ContratosInternacionalesPage({ params }: { params:
   const { locale } = await params;
   const dict = await getDictionary(locale);
   const data = dict?.consular?.contratos_internacionales;
-  const isEs = locale === 'es';
 
-  return (
-    <main className="page-consular-detail">
-      <header className="page-header header-soft-bg">
-        <div className="container">
-          <h1 className="mb-1-5rem serif">{data?.h1}</h1>
-          <p className="subtitle">{data?.subtitle}</p>
-        </div>
-      </header>
-
-      <section className="section-padding-asym">
-        <div
-          className="container"
-          style={{ maxWidth: '840px', margin: '0 auto' }}
-        >
-          {/* Intro Section */}
-          <div className="mb-3rem">
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.intro?.p1}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.intro?.p2}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.intro?.p3}</p>
-          </div>
-
-          {/* When we intervene */}
-          <div className="content-section mb-3rem">
-            <h2 className="serif section-title mb-1-5rem">{data?.when_we_intervene?.title}</h2>
-            <ul className="service-list">
-              {data?.when_we_intervene?.items?.map((item: string, i: number) => (
-                <li key={i}>{item}</li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Our approach */}
-          <div className="content-section mb-4rem">
-            <h2 className="serif section-title mb-1-5rem">{data?.approach?.title}</h2>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p1}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p2}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p3}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p4}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p5}</p>
-          </div>
-        </div>
-      </section>
-
-      {/* CIERRE INSTITUCIONAL */}
-      <section className="bg-soft section-padding-asym">
-        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
-          <div
-            className="card bg-soft p-3rem text-center"
-            style={{
-              border: '1px solid var(--border-color, #e5e7eb)',
-              borderRadius: '8px',
-            }}
-          >
-            <span className="section-tag">
-              {isEs
-                ? 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'
-                : 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'}
-            </span>
-
-            <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
-              {isEs
-                ? '“Evaluación jurídica de riesgos penales en contratos y operaciones con efectos en Venezuela.”'
-                : '“Legal evaluation of criminal risks in contracts and operations with effects in Venezuela.”'}
-            </h3>
-
-            <p
-              className="max-w-800 mx-auto mb-2rem text-muted"
-              style={{ lineHeight: 1.6, fontSize: '0.95rem', textAlign: 'center' }}
-            >
-              {isEs
-                ? 'Examinamos las obligaciones y disposiciones normativas relevantes para prevenir contingencias de responsabilidad penal en las operaciones del cliente en el país.'
-                : 'We examine obligations and relevant statutory provisions to prevent criminal liability contingencies in the client’s operations in the country.'}
-            </p>
-
-            <div
-              style={{
-                display: 'flex',
-                gap: '1rem',
-                justifyContent: 'center',
-                flexWrap: 'wrap',
-              }}
-            >
-              <Link
-                href={`${getRoute(locale, 'contact')}?materia=consular#formulario-contacto`}
-                className="btn btn-primary"
-              >
-                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
-              </Link>
-              <Link href={getRoute(locale, 'services.consular')} className="btn btn-secondary">
-                {isEs ? '← VOLVER A INTERNACIONAL' : '← BACK TO INTERNATIONAL'}
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  );
+  return <ServiceT02View locale={locale} data={data} />;
 }

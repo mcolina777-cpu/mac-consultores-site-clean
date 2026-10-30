@@ -57,9 +57,12 @@ export default function ContactFormSelectors({
   const searchParams = useSearchParams();
   const searchMateria = searchParams?.get("materia");
 
-  // Allowlist estricta: probono | consular | petrolero
+  // Allowlist estricta: probono | consular | petrolero | internacional
   const materia =
-    searchMateria === "probono" || searchMateria === "consular" || searchMateria === "petrolero"
+    searchMateria === "probono" ||
+    searchMateria === "consular" ||
+    searchMateria === "petrolero" ||
+    searchMateria === "internacional"
       ? searchMateria
       : null;
 

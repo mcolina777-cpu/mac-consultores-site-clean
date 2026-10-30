@@ -42,6 +42,9 @@ export function resolveLocalizedUrl(targetLocale: string, currentPath: string): 
     ['/es/services/sector-petrolero', '/en/services/oil-sector'],
     ['/es/services/consular/representacion-judicial', '/en/services/consular/judicial-representation'],
     ['/es/services/consular/poderes-y-mandatos', '/en/services/consular/strategic-powers'],
+    ['/es/services/consular/opiniones-juridicas', '/en/services/consular/legal-opinions'],
+    ['/es/services/consular/casacion-tutela-constitucional', '/en/services/consular/criminal-cassation-constitutional-protection'],
+    ['/es/services/consular/extradicion-coordinacion-internacional', '/en/services/consular/extradition-international-coordination'],
   ];
 
   if (targetLocale === 'en') {

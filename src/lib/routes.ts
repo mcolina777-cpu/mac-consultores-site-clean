@@ -43,7 +43,10 @@ export type RouteKey =
   | "consular.gestion_documental"
   | "consular.contratos_internacionales"
   | "consular.representacion_judicial"
-  | "consular.poderes_y_mandatos";
+  | "consular.poderes_y_mandatos"
+  | "consular.opiniones_juridicas"
+  | "consular.casacion_tutela"
+  | "consular.extradicion";
 
 const routes: Record<AppLocale, Record<RouteKey, string>> = {
   es: {
@@ -90,6 +93,9 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "consular.contratos_internacionales": "/es/services/consular/contratos-internacionales",
     "consular.representacion_judicial": "/es/services/consular/representacion-judicial",
     "consular.poderes_y_mandatos": "/es/services/consular/poderes-y-mandatos",
+    "consular.opiniones_juridicas": "/es/services/consular/opiniones-juridicas",
+    "consular.casacion_tutela": "/es/services/consular/casacion-tutela-constitucional",
+    "consular.extradicion": "/es/services/consular/extradicion-coordinacion-internacional",
   },
   en: {
     home: "/en",
@@ -135,6 +141,9 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "consular.contratos_internacionales": "/en/services/consular/international-contracts",
     "consular.representacion_judicial": "/en/services/consular/judicial-representation",
     "consular.poderes_y_mandatos": "/en/services/consular/strategic-powers",
+    "consular.opiniones_juridicas": "/en/services/consular/legal-opinions",
+    "consular.casacion_tutela": "/en/services/consular/criminal-cassation-constitutional-protection",
+    "consular.extradicion": "/en/services/consular/extradition-international-coordination",
   },
 };
 

@@ -1,17 +1,20 @@
 import React from 'react';
-import Link from 'next/link';
-import { getDictionary } from "@/i18n/getDictionary";
-import { getRoute } from "@/lib/routes";
+import { getDictionary } from '@/i18n/getDictionary';
+import ServiceT01View from '@/components/internacional/ServiceT01View';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isEs = locale === 'es';
-  const title = isEs
-    ? 'Representación Judicial | Mac Consultores'
-    : 'Litigation & Court Representation | Mac Consultores';
-  const description = isEs
-    ? 'Representación y defensa jurídica estratégica en tribunales de Venezuela para clientes no residentes.'
-    : 'Strategic legal representation and defense in Venezuelan courts for non-resident clients.';
+  const dict = await getDictionary(locale);
+  const data = dict?.consular?.representacion_judicial;
+
+  const title = data?.meta_title || (isEs
+    ? 'Defensa Penal y Representación de Víctimas | Mac Consultores Jurídicos & Asociados'
+    : 'Criminal Defense and Victim Representation | Mac Consultores Jurídicos & Asociados');
+
+  const description = data?.meta_desc || (isEs
+    ? 'Estrategia, investigación jurídica y actuación procesal en Venezuela para empresas, directivos y personas situadas en el exterior.'
+    : 'Legal strategy, research, and procedural advocacy in Venezuela for corporations, executives, and individuals located abroad.');
 
   const canonical = isEs
     ? 'https://mac-consultores-site-clean.vercel.app/es/services/consular/representacion-judicial'
@@ -29,6 +32,28 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         en: enUrl,
       },
     },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      siteName: 'Mac Consultores Jurídicos & Asociados',
+      images: [
+        {
+          url: '/assets/img/logo-mac-og.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Logo de Mac Consultores Jurídicos & Asociados',
+        },
+      ],
+      locale: isEs ? 'es_VE' : 'en_US',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/img/logo-mac-og.jpg'],
+    },
   };
 }
 
@@ -36,104 +61,6 @@ export default async function RepresentacionJudicialPage({ params }: { params: P
   const { locale } = await params;
   const dict = await getDictionary(locale);
   const data = dict?.consular?.representacion_judicial;
-  const isEs = locale === 'es';
 
-  return (
-    <main className="page-consular-detail">
-      <header className="page-header header-soft-bg">
-        <div className="container">
-          <h1 className="mb-1-5rem serif">{data?.h1}</h1>
-          <p className="subtitle">{data?.subtitle}</p>
-        </div>
-      </header>
-
-      <section className="section-padding-asym">
-        <div
-          className="container"
-          style={{ maxWidth: '840px', margin: '0 auto' }}
-        >
-          {/* Intro Section */}
-          <div className="mb-3rem">
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.intro?.p1}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.intro?.p2}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.intro?.p3}</p>
-          </div>
-
-          {/* When we intervene */}
-          <div className="content-section mb-3rem">
-            <h2 className="serif section-title mb-1-5rem">{data?.when_we_intervene?.title}</h2>
-            <ul className="service-list">
-              {data?.when_we_intervene?.items?.map((item: string, i: number) => (
-                <li key={i}>{item}</li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Our approach */}
-          <div className="content-section mb-4rem">
-            <h2 className="serif section-title mb-1-5rem">{data?.approach?.title}</h2>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p1}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p2}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p3}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p4}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p5}</p>
-            <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>{data?.approach?.p6}</p>
-          </div>
-        </div>
-      </section>
-
-      {/* CIERRE INSTITUCIONAL */}
-      <section className="bg-soft section-padding-asym">
-        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
-          <div
-            className="card bg-soft p-3rem text-center"
-            style={{
-              border: '1px solid var(--border-color, #e5e7eb)',
-              borderRadius: '8px',
-            }}
-          >
-            <span className="section-tag">
-              {isEs
-                ? 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'
-                : 'MAC CONSULTORES JURÍDICOS & ASOCIADOS'}
-            </span>
-
-            <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
-              {isEs
-                ? '“Defensa penal y tutela constitucional en Venezuela para clientes situados fuera del país.”'
-                : '“Criminal defense and constitutional protection in Venezuela for clients located outside the country.”'}
-            </h3>
-
-            <p
-              className="max-w-800 mx-auto mb-2rem text-muted"
-              style={{ lineHeight: 1.6, fontSize: '0.95rem', textAlign: 'center' }}
-            >
-              {isEs
-                ? 'Asumimos la representación procesal en asuntos penales y constitucionales evaluando previamente los hechos y el fundamento jurídico de la causa, con estricto apego a las normas del debido proceso.'
-                : 'We undertake procedural representation in criminal and constitutional matters following prior evaluation of the facts and legal merits of the case, in strict adherence to due process of law.'}
-            </p>
-
-            <div
-              style={{
-                display: 'flex',
-                gap: '1rem',
-                justifyContent: 'center',
-                flexWrap: 'wrap',
-              }}
-            >
-              <Link
-                href={`${getRoute(locale, 'contact')}?materia=consular#formulario-contacto`}
-                className="btn btn-primary"
-              >
-                {isEs ? 'CONTACTAR A LA FIRMA' : 'CONTACT THE FIRM'}
-              </Link>
-              <Link href={getRoute(locale, 'services.consular')} className="btn btn-secondary">
-                {isEs ? '← VOLVER A INTERNACIONAL' : '← BACK TO INTERNATIONAL'}
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  );
+  return <ServiceT01View locale={locale} data={data} />;
 }
