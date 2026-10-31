@@ -36,6 +36,7 @@ const routes: RouteDefinition[] = [
   { es: '/services/sector-petrolero', en: '/services/oil-sector' },
   { es: '/services/consular/representacion-judicial', en: '/services/consular/judicial-representation' },
   { es: '/services/consular/poderes-y-mandatos', en: '/services/consular/strategic-powers' },
+  '/services/consular/diplomatic-advisory',
   '/resources/economic-criminal-risk',
   '/resources/international-legal-services',
   '/resources/defense-documentation',

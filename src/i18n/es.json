@@ -648,6 +648,11 @@
       "link_1": "Asesoría jurídica vinculada con actuaciones consulares",
       "link_2": "Poderes y mandatos",
       "link_3": "Documentos otorgados en el exterior"
+    },
+    "diplomatic_access": {
+      "title": "Asesoría jurídica a embajadas y consulados en Venezuela",
+      "description": "Asesoramiento jurídico institucional, dictámenes de derecho venezolano y asistencia técnico-jurídica en materias penales, procesales penales y constitucionales vinculadas con el ejercicio de funciones diplomáticas y consulares.",
+      "link": "CONOCER EL ASESORAMIENTO INSTITUCIONAL"
     }
   },
   "colaboracion_internacional": {
@@ -962,6 +967,12 @@
     },
     "services_constitucional": {
       "title": "Derecho Constitucional | Mac Consultores Jurídicos & Asociados"
+    },
+    "consular_diplomatic": {
+      "title": "Asesoría jurídica a embajadas y consulados en Venezuela | Mac Consultores",
+      "description": "Asesoramiento institucional a embajadas y consulados en Venezuela. Dictámenes de derecho venezolano y asistencia jurídica penal y constitucional.",
+      "og_title": "Asesoría jurídica a embajadas y consulados en Venezuela | Mac Consultores",
+      "og_description": "Asesoramiento institucional a embajadas y consulados en Venezuela. Dictámenes de derecho venezolano y asistencia jurídica penal y constitucional."
     }
   },
   "hero": {
@@ -3355,5 +3366,144 @@
       "btn_primary": "Solicitar evaluación del asunto",
       "btn_secondary": "Volver al Inicio"
     }
+  },
+  "consular_diplomatic": {
+    "h1": "Asesoría jurídica a embajadas y consulados en Venezuela",
+    "lead": "Asesoramiento jurídico institucional, elaboración de dictámenes y asistencia técnico-jurídica a misiones diplomáticas y oficinas consulares en materias de derecho venezolano, con especial referencia al ámbito penal, procesal penal y constitucional.",
+    "introduction": "Mac Consultores Jurídicos & Asociados presta asesoramiento externo para el examen de consultas institucionales, la evaluación de contingencias y la determinación de alternativas de actuación jurídica. La intervención se circunscribe al objeto del encargo, a las materias aceptadas por la firma y a las facultades de los representantes autorizados para conferirlo.",
+    "cta": "SOLICITAR ASESORAMIENTO INSTITUCIONAL",
+    "back": "VOLVER A INTERNACIONAL",
+    "sections": {
+      "scope": {
+        "title": "Objeto y alcance del asesoramiento",
+        "paragraphs": [
+          "El servicio tiene por objeto proporcionar a la misión diplomática u oficina consular un criterio jurídico fundamentado sobre la interpretación y aplicación del ordenamiento venezolano a situaciones concretas vinculadas con sus necesidades institucionales.",
+          "El encargo podrá comprender:"
+        ],
+        "items": [
+          "Elaboración de dictámenes sobre cuestiones de derecho penal, procesal penal y constitucional.",
+          "Examen del fundamento jurídico, competencia y alcance de actuaciones de autoridades venezolanas.",
+          "Evaluación de contingencias y determinación de alternativas de actuación dentro de las materias encomendadas.",
+          "Análisis de mecanismos de protección de derechos y de las vías procesales que pudieran resultar procedentes.",
+          "Revisión de poderes, mandatos e instrumentos de representación destinados a actuaciones jurídicas determinadas.",
+          "Asistencia técnico-jurídica para la coordinación institucional de asuntos comprendidos en las funciones de protección y asistencia consular."
+        ],
+        "closing_paragraph": "La prestación del asesoramiento a la representación extranjera no comporta, por sí misma, la asunción de la defensa o representación de sus funcionarios, empleados o nacionales."
+      },
+      "consular_support": {
+        "title": "Asistencia técnico-jurídica en materia de protección consular",
+        "paragraphs": [
+          "El asesoramiento podrá extenderse al examen de cuestiones jurídicas relacionadas con nacionales del Estado que envía sometidos a investigación, proceso penal o privación de libertad en Venezuela, cuando la consulta sea formulada por la misión diplomática u oficina consular en el marco de sus funciones.",
+          "En tales supuestos, la intervención podrá comprender:"
+        ],
+        "items": [
+          "Determinación del régimen aplicable a los derechos de información, notificación y comunicación consular.",
+          "Examen de las condiciones jurídicas de acceso y visita consular.",
+          "Análisis de los antecedentes disponibles sobre la observancia de dichas garantías.",
+          "Elaboración de informes relativos a la situación procesal, con sujeción al acceso legítimo a las actuaciones.",
+          "Evaluación de eventuales restricciones de derechos y de las vías jurídicas para su restablecimiento.",
+          "Asistencia en la coordinación con la defensa técnica y demás interlocutores debidamente autorizados."
+        ],
+        "closing_paragraph": "La finalidad de esta intervención es proporcionar soporte jurídico a la representación consultante, sin sustituir el ejercicio de la función consular ni asumir las atribuciones propias de la defensa técnica."
+      },
+      "legal_framework": {
+        "title": "Fundamento jurídico",
+        "diplomatic_consular": {
+          "title": "Marco diplomático y consular",
+          "paragraphs": [
+            "El marco normativo de referencia comprende las disposiciones pertinentes de la Convención de Viena sobre Relaciones Diplomáticas de 1961 y de la Convención de Viena sobre Relaciones Consulares de 1963, atendiendo a la naturaleza y al objeto de cada consulta.",
+            "El artículo 3.1.b de la Convención de 1961 contempla, entre las funciones de la misión diplomática, la protección de los intereses del Estado acreditante y de sus nacionales dentro de los límites permitidos por el derecho internacional.",
+            "Por su parte, los artículos 5.a y 5.e de la Convención de 1963 regulan las funciones de protección, ayuda y asistencia a los nacionales del Estado que envía. El artículo 5.i, ejusdem, contempla la representación o adopción de medidas conducentes a una representación apropiada ante tribunales y autoridades, bajo los presupuestos y condiciones previstos en dicha disposición. El artículo 70 regula el ejercicio de funciones consulares por misiones diplomáticas.",
+            "Estas disposiciones delimitan el ámbito funcional al cual puede servir de apoyo el asesoramiento jurídico externo. No confieren a la firma atribuciones diplomáticas o consulares ni sustituyen las reglas aplicables al ejercicio profesional y a la representación procesal."
+          ]
+        },
+        "constitutional": {
+          "title": "Garantías consulares y ordenamiento constitucional venezolano",
+          "paragraphs": [
+            "El artículo 36 de la Convención de Viena sobre Relaciones Consulares de 1963 constituye la referencia específica para el examen de los derechos de información, notificación y comunicación consular de las personas extranjeras detenidas, así como de las facultades de visita y organización de su representación jurídica.",
+            "En el ordenamiento venezolano, dicho régimen se articula con la remisión expresa a la notificación consular contenida en el artículo 44.2 de la Constitución de la República Bolivariana de Venezuela y con las garantías relativas al cumplimiento de una tutela judicial efectiva, derecho a defensa y al debido proceso, a tenor de lo previsto en los artículos 26 y 49, ejusdem.",
+            "El análisis debe distinguir:"
+          ],
+          "items": [
+            "El deber de informar sin dilación a la persona detenida sobre los derechos consulares previstos en el artículo 36.1.b.",
+            "La notificación de la detención a la oficina consular competente, a solicitud del interesado, sin perjuicio de los acuerdos internacionales específicos que resulten aplicables.",
+            "La transmisión sin demora de las comunicaciones dirigidas por el detenido a la oficina consular.",
+            "Las facultades de comunicación, visita y organización de la representación jurídica, con observancia de la oposición expresa del nacional en los términos del artículo 36.1.c."
+          ],
+          "paragraphs_post": [
+            "La relación entre asistencia consular y defensa técnica responde a un criterio de complementariedad. La intervención consular no sustituye la asistencia letrada, el derecho a intérprete ni el control judicial de la privación de libertad.",
+            "La Opinión Consultiva OC-16/99 de la Corte Interamericana de Derechos Humanos constituye una referencia interpretativa para el examen del derecho a la información consular y de su vinculación con las garantías del debido proceso."
+          ]
+        }
+      },
+      "remedies": {
+        "title": "Evaluación de incidencias y alternativas de actuación jurídica",
+        "paragraphs": [
+          "Ante una eventual inobservancia de las garantías consulares, el asesoramiento distinguirá entre las medidas dirigidas al restablecimiento del derecho y las posibles consecuencias sobre actuaciones ya practicadas.",
+          "El examen podrá comprender:"
+        ],
+        "items": [
+          "La oportunidad en que la autoridad tuvo conocimiento de la condición extranjera de la persona.",
+          "El momento y las condiciones en que se suministró la información sobre sus derechos consulares.",
+          "La existencia de una solicitud de notificación y la actuación desplegada por la autoridad.",
+          "Las restricciones impuestas a las comunicaciones o visitas consulares.",
+          "La concurrencia de afectaciones a la asistencia letrada, al intérprete o a la libertad de declarar.",
+          "La relación entre la infracción alegada y los actos procesales o elementos probatorios objeto de examen."
+        ],
+        "paragraphs_post": [
+          "La determinación de una consecuencia jurídica exige identificar la disposición infringida, las circunstancias de la actuación y su incidencia concreta sobre los derechos comprometidos.",
+          "No se atribuyen a la omisión consular efectos automáticos de libertad, absolución o nulidad integral del procedimiento. La procedencia de cualquier pretensión deberá examinarse conforme al régimen constitucional y procesal aplicable."
+        ]
+      },
+      "deliverables": {
+        "title": "Dictámenes e informes jurídicos",
+        "paragraphs": [
+          "Los productos profesionales se definirán de acuerdo con el objeto de la consulta y podrán comprender:"
+        ],
+        "items": [
+          "Dictamen jurídico con exposición de antecedentes, delimitación de la cuestión consultada, fundamento normativo, análisis y conclusiones.",
+          "Informe de situación procesal, sujeto a la disponibilidad y al acceso legítimo a las actuaciones.",
+          "Memorando de contingencias y alternativas de actuación institucional.",
+          "Informe sobre observancia de garantías consulares y su articulación con derechos constitucionales.",
+          "Opinión jurídica sobre suficiencia de poderes y mandatos para una actuación determinada.",
+          "Informe de seguimiento respecto de cuestiones previamente delimitadas."
+        ],
+        "paragraphs_post": [
+          "Las conclusiones se circunscribirán a los antecedentes examinados, a los presupuestos expresamente identificados y al alcance convenido. No implicarán garantías de resultado ni pronunciamientos sobre cuestiones ajenas al encargo."
+        ]
+      },
+      "documents": {
+        "title": "Poderes, mandatos y documentación otorgada en el exterior",
+        "paragraphs": [
+          "El examen documental se realizará en función de la actuación para la cual se pretenda utilizar el instrumento y de los requisitos jurídicos que correspondan a dicha finalidad.",
+          "La revisión podrá comprender la identificación de las facultades representativas necesarias, el alcance del mandato y las condiciones formales o sustantivas que deban ser consideradas.",
+          "La autorización consular del instrumento, su suficiencia representativa y su admisibilidad ante una autoridad venezolana constituyen cuestiones diferenciadas. La opinión emitida no comportará una garantía de aceptación ni de eficacia para usos distintos del expresamente examinado."
+        ]
+      },
+      "confidentiality": {
+        "title": "Relación profesional y reserva de la información",
+        "paragraphs": [
+          "La relación profesional se establecerá con la representación que confiera el encargo, previa identificación de sus interlocutores autorizados y delimitación de las facultades correspondientes.",
+          "El acceso a actuaciones, la recepción de información relativa a un nacional y la coordinación con su defensa estarán sujetos a las autorizaciones, deberes de confidencialidad y restricciones aplicables.",
+          "El ejercicio de funciones de protección consular no convierte, por sí solo, a la misión en titular de la relación profesional existente entre el nacional y su abogado, ni la habilita automáticamente para acceder a la totalidad de la información del asunto.",
+          "Cualquier defensa o representación individual que eventualmente se solicite requerirá evaluación y formalización independientes del asesoramiento institucional."
+        ]
+      },
+      "independence": {
+        "title": "Independencia y condiciones del servicio",
+        "paragraphs": [
+          "Mac Consultores Jurídicos & Asociados actúa como firma jurídica independiente. No ejerce funciones diplomáticas o consulares ni ofrece intermediación privilegiada ante autoridades nacionales o representaciones extranjeras.",
+          "El servicio no comprende la tramitación ordinaria de pasaportes, visados o citas consulares, ni servicios generales de gestoría migratoria, apostillas o legalizaciones.",
+          "La aceptación del encargo estará sujeta a la evaluación de su objeto, la competencia material de la firma, la disponibilidad profesional y la comprobación de posibles conflictos de interés. Las actuaciones, los entregables, los honorarios y las condiciones de prestación se establecerán previamente."
+        ]
+      },
+      "enquiries": {
+        "title": "Solicitudes institucionales",
+        "paragraphs": [
+          "Las misiones diplomáticas y oficinas consulares podrán someter a evaluación consultas de derecho venezolano mediante una exposición del objeto, los antecedentes esenciales y el producto jurídico requerido."
+        ]
+      }
+    },
+    "enquiry_notice": "La recepción de la consulta no implica aceptación del encargo ni inicio de representación profesional. El intercambio de documentación reservada se efectuará por los canales y bajo las condiciones previamente acordados."
   }
 }

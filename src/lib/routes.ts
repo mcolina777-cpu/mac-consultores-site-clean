@@ -46,7 +46,8 @@ export type RouteKey =
   | "consular.poderes_y_mandatos"
   | "consular.opiniones_juridicas"
   | "consular.casacion_tutela"
-  | "consular.extradicion";
+  | "consular.extradicion"
+  | "services.consular_diplomatic";
 
 const routes: Record<AppLocale, Record<RouteKey, string>> = {
   es: {
@@ -96,6 +97,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "consular.opiniones_juridicas": "/es/services/consular/opiniones-juridicas",
     "consular.casacion_tutela": "/es/services/consular/casacion-tutela-constitucional",
     "consular.extradicion": "/es/services/consular/extradicion-coordinacion-internacional",
+    "services.consular_diplomatic": "/es/services/consular/diplomatic-advisory",
   },
   en: {
     home: "/en",
@@ -144,6 +146,7 @@ const routes: Record<AppLocale, Record<RouteKey, string>> = {
     "consular.opiniones_juridicas": "/en/services/consular/legal-opinions",
     "consular.casacion_tutela": "/en/services/consular/criminal-cassation-constitutional-protection",
     "consular.extradicion": "/en/services/consular/extradition-international-coordination",
+    "services.consular_diplomatic": "/en/services/consular/diplomatic-advisory",
   },
 };
 

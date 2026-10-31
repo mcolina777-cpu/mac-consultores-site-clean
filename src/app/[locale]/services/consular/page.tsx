@@ -260,6 +260,28 @@ export default async function InternacionalPage({ params }: { params: Promise<{ 
         </div>
       </section>
 
+      {/* ACCESO A ASESORÍA JURÍDICA A EMBAJADAS Y CONSULADOS */}
+      <section className="section-padding-asym editorial-spacing">
+        <div className="container">
+          <div className="layout-reading">
+            <h2 className="serif heading-lg mb-1-5rem">
+              {dict?.tramites_consulares?.diplomatic_access?.title}
+            </h2>
+            <p style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)', marginBottom: '1.5rem' }}>
+              {dict?.tramites_consulares?.diplomatic_access?.description}
+            </p>
+            <div>
+              <Link
+                href={getRoute(locale, 'services.consular_diplomatic')}
+                className="btn btn-primary"
+              >
+                {dict?.tramites_consulares?.diplomatic_access?.link}
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CONEXIÓN CON ALIANZAS */}
       <section className="section-padding-asym editorial-spacing editorial-spacing--continuous bg-soft">
         <div className="container">

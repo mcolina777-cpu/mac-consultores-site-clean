@@ -648,6 +648,11 @@
       "link_1": "Legal counsel for consular proceedings and documentation",
       "link_2": "Powers of attorney and mandates",
       "link_3": "Documents executed abroad"
+    },
+    "diplomatic_access": {
+      "title": "Legal advisory services for embassies and consulates in Venezuela",
+      "description": "Institutional legal advice, Venezuelan law opinions and legal support on criminal, criminal procedural and constitutional matters relating to the exercise of diplomatic and consular functions.",
+      "link": "EXPLORE INSTITUTIONAL LEGAL SERVICES"
     }
   },
   "colaboracion_internacional": {
@@ -962,6 +967,12 @@
     },
     "services_constitucional": {
       "title": "Constitutional Law | Mac Consultores Jurídicos & Asociados"
+    },
+    "consular_diplomatic": {
+      "title": "Legal advice for embassies and consulates in Venezuela | Mac Consultores",
+      "description": "Institutional legal advice for embassies and consulates in Venezuela. Venezuelan law opinions and criminal and constitutional legal support.",
+      "og_title": "Legal advice for embassies and consulates in Venezuela | Mac Consultores",
+      "og_description": "Institutional legal advice for embassies and consulates in Venezuela. Venezuelan law opinions and criminal and constitutional legal support."
     }
   },
   "hero": {
@@ -3368,5 +3379,144 @@
       "btn_primary": "Request a matter assessment",
       "btn_secondary": "Back to Home"
     }
+  },
+  "consular_diplomatic": {
+    "h1": "Legal advisory services for embassies and consulates in Venezuela",
+    "lead": "Institutional legal advice, legal opinions and legal support for diplomatic missions and consular posts on matters of Venezuelan law, with particular reference to criminal law, criminal procedure and constitutional law.",
+    "introduction": "Mac Consultores Jurídicos & Asociados provides external legal advice on institutional enquiries, the assessment of legal risks and the identification of available courses of action. Each engagement is limited to its defined scope, the matters accepted by the firm and the authority of the representatives instructing it.",
+    "cta": "REQUEST INSTITUTIONAL LEGAL ADVICE",
+    "back": "BACK TO INTERNATIONAL",
+    "sections": {
+      "scope": {
+        "title": "Purpose and scope of the engagement",
+        "paragraphs": [
+          "The service provides diplomatic missions and consular posts with reasoned legal advice on the interpretation and application of Venezuelan law to specific circumstances arising from their institutional requirements.",
+          "An engagement may include:"
+        ],
+        "items": [
+          "Legal opinions on criminal law, criminal procedure and constitutional law.",
+          "Examination of the legal basis and scope of actions taken by Venezuelan authorities, including the competence of the authority concerned.",
+          "Assessment of legal risks and available courses of action within the matters entrusted to the firm.",
+          "Analysis of mechanisms for the protection of rights and potentially available procedural remedies.",
+          "Review of powers of attorney, mandates and instruments of representation intended for specific legal proceedings or acts.",
+          "Legal support for the institutional coordination of matters falling within consular protection and assistance functions."
+        ],
+        "closing_paragraph": "Advising a foreign mission or consular post does not, in itself, entail undertaking the defence or representation of its officials, employees or nationals."
+      },
+      "consular_support": {
+        "title": "Legal support for consular protection functions",
+        "paragraphs": [
+          "Advice may extend to legal issues concerning nationals of the sending State who are under investigation, subject to criminal proceedings or deprived of their liberty in Venezuela, where the enquiry is submitted by a diplomatic mission or consular post in the exercise of its functions.",
+          "In such circumstances, the engagement may include:"
+        ],
+        "items": [
+          "Identification of the rules governing consular information, notification and communication rights.",
+          "Examination of the legal conditions governing consular access and visits.",
+          "Review of available information concerning compliance with those safeguards.",
+          "Preparation of reports on procedural status, subject to lawful access to the relevant records.",
+          "Assessment of potential restrictions on rights and available legal avenues for their restoration.",
+          "Assistance in coordinating with defence counsel and other duly authorised interlocutors."
+        ],
+        "closing_paragraph": "The purpose of this work is to provide legal support to the instructing mission or consular post. It does not replace the exercise of consular functions or the responsibilities of defence counsel."
+      },
+      "legal_framework": {
+        "title": "Legal framework",
+        "diplomatic_consular": {
+          "title": "Diplomatic and consular framework",
+          "paragraphs": [
+            "The relevant legal framework includes the applicable provisions of the Vienna Convention on Diplomatic Relations of 1961 and the Vienna Convention on Consular Relations of 1963, according to the nature and subject matter of each enquiry.",
+            "Article 3(1)(b) of the 1961 Convention includes, among the functions of a diplomatic mission, protecting the interests of the sending State and its nationals within the limits permitted by international law.",
+            "Articles 5(a) and 5(e) of the 1963 Convention address the protection of, and assistance to, nationals of the sending State. Article 5(i) of that Convention provides for representation, or arrangements for appropriate representation, before courts and other authorities, subject to the requirements and conditions set out therein. Article 70 governs the exercise of consular functions by diplomatic missions.",
+            "These provisions define the functional context in which external legal advice may provide support. They do not confer diplomatic or consular powers on the firm or displace the rules governing legal practice and procedural representation."
+          ]
+        },
+        "constitutional": {
+          "title": "Consular safeguards and Venezuelan constitutional law",
+          "paragraphs": [
+            "Article 36 of the Vienna Convention on Consular Relations of 1963 provides the specific framework for examining the consular information, notification and communication rights of detained foreign nationals, together with consular visiting rights and arrangements for their legal representation.",
+            "Under Venezuelan law, that framework operates in conjunction with the express reference to consular notification in Article 44(2) of the Constitution of the Bolivarian Republic of Venezuela and with the safeguards securing effective judicial protection, the right of defence and due process under Articles 26 and 49 of the same Constitution.",
+            "The analysis must distinguish between:"
+          ],
+          "items": [
+            "The duty to inform the detained person without delay of the consular rights provided for in Article 36(1)(b).",
+            "Notification of the detention to the competent consular post at the request of the person concerned, without prejudice to any applicable specific international agreements.",
+            "Forwarding, without delay, communications addressed by the detained person to the consular post.",
+            "Consular communication, visiting rights and arrangements for legal representation, subject to the national’s express opposition as provided in Article 36(1)(c)."
+          ],
+          "paragraphs_post": [
+            "Consular assistance and legal defence perform complementary functions. Consular involvement does not replace legal assistance, the right to an interpreter or judicial review of the deprivation of liberty.",
+            "Advisory Opinion OC-16/99 of the Inter-American Court of Human Rights provides interpretative guidance on the right to consular information and its relationship with due process guarantees."
+          ]
+        }
+      },
+      "remedies": {
+        "title": "Assessment of potential violations and available legal action",
+        "paragraphs": [
+          "Where consular safeguards may not have been observed, the advice will distinguish between measures intended to restore the exercise of the right and potential consequences for acts already performed.",
+          "The assessment may address:"
+        ],
+        "items": [
+          "When the authority became aware of the person’s foreign nationality.",
+          "When and how information concerning consular rights was provided.",
+          "Whether notification was requested and how the authority responded.",
+          "Restrictions imposed on consular communications or visits.",
+          "Any concurrent impairment of access to legal assistance, an interpreter or the freedom to make a statement.",
+          "The relationship between the alleged violation and the procedural acts or evidence under examination."
+        ],
+        "paragraphs_post": [
+          "Determining a legal consequence requires identifying the provision infringed, the circumstances of the act and its specific effect on the rights concerned.",
+          "A failure to observe consular safeguards is not presented as automatically requiring release, acquittal or the invalidation of the entire proceedings. The availability of any remedy must be assessed under the applicable constitutional and procedural rules."
+        ]
+      },
+      "deliverables": {
+        "title": "Legal opinions and reports",
+        "paragraphs": [
+          "Professional deliverables will be defined according to the subject matter of the enquiry and may include:"
+        ],
+        "items": [
+          "A legal opinion setting out the background, the question submitted, the applicable legal framework, analysis and conclusions.",
+          "A procedural status report, subject to the availability of, and lawful access to, the relevant records.",
+          "A memorandum on legal risks and available institutional courses of action.",
+          "A report on compliance with consular safeguards and their relationship with constitutional rights.",
+          "A legal opinion on the sufficiency of powers of attorney and mandates for a specified act.",
+          "A follow-up report on previously defined issues."
+        ],
+        "paragraphs_post": [
+          "Conclusions will be limited to the information reviewed, the assumptions expressly identified and the agreed scope. They will not constitute guarantees of outcome or opinions on matters outside the engagement."
+        ]
+      },
+      "documents": {
+        "title": "Powers of attorney, mandates and documents executed abroad",
+        "paragraphs": [
+          "Documents will be reviewed by reference to their intended use and the legal requirements applicable to that purpose.",
+          "The review may include the identification of necessary powers of representation, the scope of the mandate and relevant formal or substantive requirements.",
+          "Consular execution or authentication of an instrument, the sufficiency of the authority it confers and its admissibility before a Venezuelan authority are distinct issues. An opinion will not guarantee acceptance or effectiveness for purposes other than those expressly examined."
+        ]
+      },
+      "confidentiality": {
+        "title": "Professional relationship and confidentiality",
+        "paragraphs": [
+          "The professional relationship will be established with the mission or consular post instructing the firm, following identification of its authorised interlocutors and their respective authority.",
+          "Access to records, receipt of information concerning a national and coordination with defence counsel will be subject to the applicable authorisations, duties of confidentiality and restrictions.",
+          "The exercise of consular protection functions does not, in itself, make the mission a party to the professional relationship between a national and their lawyer or automatically entitle it to access all information concerning the matter.",
+          "Any individual defence or representation subsequently requested will require separate assessment and formalisation from the institutional advisory engagement."
+        ]
+      },
+      "independence": {
+        "title": "Independence and terms of service",
+        "paragraphs": [
+          "Mac Consultores Jurídicos & Asociados acts as an independent law firm. It does not exercise diplomatic or consular functions or offer privileged access to national authorities or foreign missions.",
+          "The service does not include routine passport, visa or consular appointment processing, or general immigration, apostille or legalisation services.",
+          "Acceptance of an engagement will be subject to an assessment of its purpose, the firm’s relevant practice areas, professional availability and potential conflicts of interest. The work, deliverables, fees and terms of service will be agreed in advance."
+        ]
+      },
+      "enquiries": {
+        "title": "Institutional enquiries",
+        "paragraphs": [
+          "Diplomatic missions and consular posts may submit enquiries concerning Venezuelan law for assessment, identifying the subject matter, essential background and required legal deliverable."
+        ]
+      }
+    },
+    "enquiry_notice": "Receipt of an enquiry does not constitute acceptance of an engagement or commencement of legal representation. Confidential documents will be exchanged through channels and under conditions agreed in advance."
   }
 }
