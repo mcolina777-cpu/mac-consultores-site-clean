@@ -307,35 +307,6 @@ export default async function InternacionalPage({ params }: { params: Promise<{ 
         </div>
       </section>
 
-      {/* MÓDULO SECUNDARIO: CONTENIDOS CONSULARES Y DOCUMENTALES HISTÓRICOS */}
-      <section className="section-padding-asym" style={{ borderTop: '1px solid var(--border-color, #e5e7eb)' }}>
-        <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
-          <span className="section-tag">
-            {dict?.tramites_consulares?.consular_archive?.tag}
-          </span>
-          <h2 className="serif mb-1-5rem" style={{ fontSize: '1.3rem', color: 'var(--primary, #0c1a2c)' }}>
-            {dict?.tramites_consulares?.consular_archive?.title}
-          </h2>
-          <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-            <li>
-              <Link href={getRoute(locale, "consular.practica_consular")} className="card-link" style={{ fontSize: '0.95rem' }}>
-                → {dict?.tramites_consulares?.consular_archive?.link_1}
-              </Link>
-            </li>
-            <li>
-              <Link href={getRoute(locale, "consular.poderes_y_mandatos")} className="card-link" style={{ fontSize: '0.95rem' }}>
-                → {dict?.tramites_consulares?.consular_archive?.link_2}
-              </Link>
-            </li>
-            <li>
-              <Link href={getRoute(locale, "consular.gestion_documental")} className="card-link" style={{ fontSize: '0.95rem' }}>
-                → {dict?.tramites_consulares?.consular_archive?.link_3}
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </section>
-
       {/* CIERRE INSTITUCIONAL */}
       <section className="bg-soft section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
