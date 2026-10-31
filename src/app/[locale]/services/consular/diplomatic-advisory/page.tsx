@@ -263,6 +263,14 @@ export default async function DiplomaticAdvisoryPage({ params }: { params: Promi
               borderRadius: '8px',
             }}
           >
+            <span className="section-tag">
+              MAC CONSULTORES JURÍDICOS &amp; ASOCIADOS
+            </span>
+
+            <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
+              {sec?.enquiries?.title}
+            </h3>
+
             <p
               className="max-w-800 mx-auto mb-2rem text-muted"
               style={{ lineHeight: 1.6, fontSize: '0.95rem' }}
@@ -287,7 +295,7 @@ export default async function DiplomaticAdvisoryPage({ params }: { params: Promi
               </Link>
               <Link
                 href={returnUrl}
-                className="btn btn-secondary"
+                className="btn btn-secondary btn-compact"
               >
                 {data?.back}
               </Link>
