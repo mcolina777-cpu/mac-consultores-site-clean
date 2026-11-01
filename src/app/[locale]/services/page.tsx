@@ -195,23 +195,23 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
               </span>
             </Link>
 
-            {/* TARJETA 05: EMPRESAS EXTRANJERAS */}
+            {/* TARJETA 05: SECTOR PETROLERO */}
             <Link
-              href={getRoute(locale, "services.empresas_extranjeras")}
+              href={getRoute(locale, "services.sector_petrolero")}
               className="card"
               style={{ textDecoration: 'none', color: 'inherit' }}
             >
               <span className="section-tag">05</span>
               <h3 className="serif">
-                {dict?.empresas_extranjeras?.h1 ||
+                {dict?.sector_petrolero?.h1 ||
                   (isEs
-                    ? 'Servicios jurídicos para empresas extranjeras en Venezuela'
-                    : 'Legal services for foreign companies in Venezuela')}
+                    ? 'Asesoría Jurídico-Penal en el Sector Petrolero'
+                    : 'Criminal Law Advisory for the Oil Sector')}
               </h3>
               <p className="card-editorial-text">
                 {isEs
-                  ? 'Asesoría local para empresas extranjeras con operaciones, inversiones o intereses jurídicos en Venezuela. La firma apoya la revisión de documentación, riesgos corporativos, asuntos regulatorios y coordinación con equipos internos.'
-                  : 'Local legal advice for foreign companies with operations, investments, or legal interests in Venezuela. The firm supports document review, corporate-risk assessment, regulatory matters, and coordination with internal teams.'}
+                  ? 'Análisis preventivo de contingencias penales y defensa de empresas operadoras, contratistas y directivos en asuntos vinculados con operaciones petroleras en Venezuela.'
+                  : 'Preventive assessment of criminal-law risks and defense of operating companies, contractors, and executives in matters involving oil operations in Venezuela.'}
               </p>
               <span className="card-link">
                 {dict?.services?.card_1?.link || (isEs ? 'VER DETALLES →' : 'VIEW DETAILS →')}
