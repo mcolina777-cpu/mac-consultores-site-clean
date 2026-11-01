@@ -218,7 +218,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
               </span>
             </Link>
 
-            {/* TARJETA 06: COLABORACIÓN INTERNACIONAL */}
+            {/* TARJETA 06: ALIANZAS Y CORRESPONSALÍA JURÍDICA */}
             <Link
               href={getRoute(locale, "services.international_cooperation")}
               className="card"
@@ -227,8 +227,8 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
               <span className="section-tag">06</span>
               <h3 className="serif">
                 {isEs
-                  ? 'Colaboración jurídica internacional y local counsel'
-                  : 'International legal cooperation and local counsel'}
+                  ? 'Alianzas y Corresponsalía Jurídica'
+                  : 'Partnerships and Local Counsel'}
               </h3>
               <p className="card-editorial-text">
                 {isEs
@@ -240,7 +240,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
               </span>
             </Link>
 
-            {/* TARJETA 07: GESTIÓN JURÍDICA PARA CLIENTES EN EL EXTERIOR */}
+            {/* TARJETA 07: REPRESENTACIÓN JURÍDICA EN VENEZUELA */}
             <Link
               href={getRoute(locale, "services.consular")}
               className="card"
@@ -249,13 +249,13 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
               <span className="section-tag">07</span>
               <h3 className="serif">
                 {isEs
-                  ? 'Gestión jurídica para clientes en el exterior'
-                  : 'Legal services for clients abroad'}
+                  ? 'Representación Jurídica en Venezuela'
+                  : 'Legal Representation in Venezuela'}
               </h3>
               <p className="card-editorial-text">
                 {isEs
-                  ? 'Asesoría y gestión jurídica local para venezolanos, empresas e inversionistas que se encuentran fuera del país. La firma coordina documentación, poderes, asuntos patrimoniales y actuaciones que pueden requerir representación en Venezuela.'
-                  : 'Local legal advice and coordination for Venezuelans, companies, and investors located outside the country. The firm assists with documentation, powers of attorney, property-related matters, and actions that may require representation in Venezuela.'}
+                  ? 'Asesoría e intervención jurídica en Venezuela en derecho penal corporativo, defensa penal y tutela constitucional para empresas, instituciones y personas situadas en el exterior.'
+                  : 'Legal advice and assistance in Venezuela in corporate criminal law, criminal defense, and constitutional rights protection for companies, institutions, and individuals based abroad.'}
               </p>
               <span className="card-link">
                 {dict?.services?.card_1?.link || (isEs ? 'VER DETALLES →' : 'VIEW DETAILS →')}
