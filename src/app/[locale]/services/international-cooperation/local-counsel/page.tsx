@@ -185,7 +185,7 @@ export default async function LocalCounselPage({ params }: { params: Promise<{ l
             }}
           >
             <h3 className="serif mt-1rem mb-1rem" style={{ fontSize: '1.4rem' }}>
-              {isEs ? 'Construyamos una alianza estratégica para actuar en Venezuela.' : 'Let us build a strategic partnership to act in Venezuela.'}
+              {isEs ? 'Coordinemos una colaboración jurídica en Venezuela con alcance y responsabilidades definidos.' : 'Let us coordinate legal collaboration in Venezuela with a defined scope and clear responsibilities.'}
             </h3>
             <p
               className="max-w-800 mx-auto mb-2rem text-muted"

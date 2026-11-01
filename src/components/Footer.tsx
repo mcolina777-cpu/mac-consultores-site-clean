@@ -75,7 +75,7 @@ export default function Footer({
     f.consular || (locale === "en" ? "International Practice" : "Práctica Internacional");
   const colaboracionLabel =
     f.colaboracion ||
-    (locale === "en" ? "International Cooperation" : "Cooperación Internacional");
+    (locale === "en" ? "Partnerships and Local Counsel" : "Alianzas y Corresponsalía");
   const legalIntelligenceLabel = f.legal_intelligence || "Mac Legal Intelligence";
   const proBonoLabel =
     f.link_pro_bono || (locale === "en" ? "Pro Bono Program" : "Programa Pro Bono");
