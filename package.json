@@ -6,10 +6,7 @@
     "dev": "next dev",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint",
-    "audit:assets": "node scripts/auditUnusedAssets.js",
-    "clean:assets": "node scripts/cleanUnusedAssets.js",
-    "backup-clean:assets": "node scripts/backupAndCleanAssets.js"
+    "lint": "eslint"
   },
   "dependencies": {
     "next": "16.4.3",
