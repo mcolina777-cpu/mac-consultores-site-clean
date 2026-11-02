@@ -71,10 +71,10 @@ export default function ContactFormSelectors({
     locale === "es"
       ? "Solicitud de Evaluación Pro Bono"
       : "Pro Bono Evaluation Request";
-  const consularValue =
+  const internacionalValue =
     locale === "es"
-      ? "Trámites Consulares y Gestión Documental"
-      : "Consular Procedures and Document Management";
+      ? "Representación Jurídica en Venezuela"
+      : "Legal Representation in Venezuela";
   const petroleroValue =
     locale === "es"
       ? "Consultoría Penal Corporativa"
@@ -82,10 +82,12 @@ export default function ContactFormSelectors({
 
   const getTargetMotivo = useCallback((m: string | null) => {
     if (m === "probono") return probonoValue;
-    if (m === "consular") return consularValue;
+    if (m === "consular" || m === "internacional") {
+      return internacionalValue;
+    }
     if (m === "petrolero") return petroleroValue;
     return "";
-  }, [probonoValue, consularValue, petroleroValue]);
+  }, [probonoValue, internacionalValue, petroleroValue]);
 
   const lastAppliedMateriaRef = useRef<string | null>(materia);
 
@@ -107,7 +109,7 @@ export default function ContactFormSelectors({
 
   const isPenal = PENAL_MOTIVOS.has(selectedMotivo);
   const showProBonoNotice = materia === "probono" && selectedMotivo === probonoValue;
-  const showConsularNotice = materia === "consular" && selectedMotivo === consularValue;
+  const showConsularNotice = materia === "consular" && selectedMotivo === internacionalValue;
 
   const handleMotivoChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const value = e.target.value;
@@ -165,13 +167,7 @@ export default function ContactFormSelectors({
           >
             {dict?.contacto?.form?.reason_opt3}
           </option>
-          <option
-            value={
-              locale === "es"
-                ? "Trámites Consulares y Gestión Documental"
-                : "Consular Procedures and Document Management"
-            }
-          >
+          <option value={internacionalValue}>
             {dict?.contacto?.form?.reason_opt4}
           </option>
           <option
