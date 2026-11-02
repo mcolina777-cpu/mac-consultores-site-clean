@@ -562,46 +562,6 @@
       "cta": "SOLICITAR EVALUACIÓN JURÍDICA",
       "btn_secondary": "← VOLVER AL INICIO"
     },
-    "support": {
-      "tag": "Áreas de Soporte",
-      "title": "Servicios Especializados para el Exterior",
-      "card_1": {
-        "tag": "01",
-        "title": "Práctica Consular",
-        "desc": "Brindamos asesoría jurídica integral y representación letrada en gestiones consulares para no residentes. Diseñamos mandatos específicos y adecuamos instrumentos notariales para garantizar su inmediata eficacia legal y plena validez patrimonial en Venezuela, previniendo nulidades o demoras registrales.",
-        "link": "VER DETALLES →"
-      },
-      "card_2": {
-        "tag": "02",
-        "title": "Gestión Jurídico-Documental",
-        "desc": "Coordinamos la validación, legalización y apostilla de La Haya para documentos públicos y privados destinados a surtir efectos en Venezuela o el extranjero. Aseguramos la autenticidad probatoria, la homologación oficial y el debido resguardo institucional con máxima celeridad.",
-        "link": "VER DETALLES →"
-      },
-      "card_3": {
-        "tag": "03",
-        "title": "Contratos y Negocios Internacionales",
-        "desc": "Ofrecemos consultoría legal de alto nivel en estructuración, negociación y revisión de contratos transfronterizos vinculados a Venezuela. Evaluamos la ley aplicable, jurisdicción y cláusulas de resolución de controversias para blindar el patrimonio del cliente frente a riesgos normativos.",
-        "link": "VER DETALLES →"
-      },
-      "card_4": {
-        "tag": "04",
-        "title": "Materia Energética",
-        "desc": "Prestamos asesoramiento estratégico a operadores, empresas e inversores del sector energético y de hidrocarburos vinculados a la jurisdicción venezolana. Analizamos el marco regulatorio sectorial, esquemas contractuales y programas de cumplimiento preventivo para blindar la continuidad operativa de proyectos.",
-        "link": "VER DETALLES →"
-      },
-      "card_5": {
-        "tag": "05",
-        "title": "Intervención Penal y Tutela Constitucional",
-        "desc": "Defensa penal y tutela de derechos y garantías constitucionales ante autoridades y tribunales en Venezuela para personas y directivos situados fuera del país, evaluando la procedencia del encargo según las normas aplicables.",
-        "link": "VER DETALLES →"
-      },
-      "card_6": {
-        "tag": "06",
-        "title": "Poderes y Mandatos Estratégicos",
-        "desc": "Redactamos y revisamos poderes notariales y mandatos con delimitación rigurosa de facultades administrativas, judiciales y de disposición patrimonial para actuar en Venezuela. Garantizamos la plena validez de instrumentos otorgados en el extranjero evitando extralimitaciones mediante estrictas cláusulas de control.",
-        "link": "VER DETALLES →"
-      }
-    },
     "form": {
       "title": "Solicite Asistencia desde el Exterior",
       "desc": "Indíquenos su situación y el país donde reside. Un experto le contactará para coordinar su representación en Venezuela.",
@@ -635,13 +595,6 @@
       "title": "Cooperación jurídica especializada con firmas internacionales",
       "text": "La firma desarrolla encargos de investigación, estrategia, elaboración documental e intervención local en coordinación con abogados y despachos extranjeros. La colaboración se articula mediante responsabilidades definidas y complementariedad técnica, conforme al modelo de Local Counsel y cooperación B2B.",
       "link": "LOCAL COUNSEL Y COLABORACIÓN B2B →"
-    },
-    "consular_archive": {
-      "tag": "CONTENIDOS CONSULARES Y DOCUMENTALES",
-      "title": "Actuaciones consulares, poderes y documentos otorgados en el exterior",
-      "link_1": "Asesoría jurídica vinculada con actuaciones consulares",
-      "link_2": "Poderes y mandatos",
-      "link_3": "Documentos otorgados en el exterior"
     },
     "diplomatic_access": {
       "title": "Asesoría jurídica a embajadas y consulados en Venezuela",

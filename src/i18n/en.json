@@ -562,46 +562,6 @@
       "cta": "REQUEST LEGAL ASSESSMENT",
       "btn_secondary": "← BACK TO HOME"
     },
-    "support": {
-      "tag": "Areas of Support",
-      "title": "Specialized Services for Abroad",
-      "card_1": {
-        "tag": "01",
-        "title": "Consular Practice",
-        "desc": "We provide comprehensive legal counsel and representation in consular matters for non-residents. We structure specific mandates and notarized instruments to guarantee immediate legal validity and asset efficacy in Venezuela, preventing formal nullities or procedural registry delays.",
-        "link": "VIEW DETAILS →"
-      },
-      "card_2": {
-        "tag": "02",
-        "title": "Legal-Documentary Management",
-        "desc": "We coordinate validation, legalization, and Hague Apostille processing for public and private documents intended to produce full legal effects in Venezuela or abroad. We ensure evidential authenticity, official homologation, and institutional compliance with prompt diligence.",
-        "link": "VIEW DETAILS →"
-      },
-      "card_3": {
-        "tag": "03",
-        "title": "Cross-Border Contracts & Transactions",
-        "desc": "We offer strategic legal consulting in structuring, negotiating, and reviewing cross-border contracts connected to Venezuela. We evaluate applicable governing law, competent jurisdiction, and dispute resolution clauses to protect client assets against regulatory exposures and uncertainties.",
-        "link": "VIEW DETAILS →"
-      },
-      "card_4": {
-        "tag": "04",
-        "title": "Energy Law & Regulatory Practice",
-        "desc": "We provide strategic legal advisory to operators, companies, and investors within the energy and hydrocarbon sectors connected to Venezuela. We analyze sector regulations, contractual frameworks, and compliance audits to safeguard the operational continuity of major projects.",
-        "link": "VIEW DETAILS →"
-      },
-      "card_5": {
-        "tag": "05",
-        "title": "Criminal Defense & Constitutional Protection",
-        "desc": "Criminal defense and protection of constitutional rights and guarantees before authorities and courts in Venezuela for individuals and corporate officers located outside the country, evaluating engagement viability under applicable statutory provisions.",
-        "link": "VIEW DETAILS →"
-      },
-      "card_6": {
-        "tag": "06",
-        "title": "Strategic Powers of Attorney",
-        "desc": "We draft and review cross-border powers of attorney with strict delimitation across administrative, judicial, and asset disposal authorities for Venezuela. We ensure the full validity of foreign instruments while preventing ultra vires actions through rigorous control clauses.",
-        "link": "VIEW DETAILS →"
-      }
-    },
     "form": {
       "title": "Request Assistance from Abroad",
       "desc": "Tell us your situation and country of residence. An expert will contact you to coordinate representation in Venezuela.",
@@ -635,13 +595,6 @@
       "title": "Specialized legal cooperation with international law firms",
       "text": "The firm undertakes legal research, strategy formulation, drafting of documents, and local procedural intervention in coordination with foreign lawyers and law firms. Collaboration is structured around defined responsibilities and technical complementarity, following our Local Counsel and B2B cooperation model.",
       "link": "LOCAL COUNSEL & B2B COOPERATION →"
-    },
-    "consular_archive": {
-      "tag": "CONSULAR AND DOCUMENTARY MATTERS",
-      "title": "Consular proceedings, powers of attorney, and documents executed abroad",
-      "link_1": "Legal counsel for consular proceedings and documentation",
-      "link_2": "Powers of attorney and mandates",
-      "link_3": "Documents executed abroad"
     },
     "diplomatic_access": {
       "title": "Legal advisory services for embassies and consulates in Venezuela",
