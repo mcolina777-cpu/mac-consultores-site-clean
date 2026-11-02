@@ -118,12 +118,11 @@ export default async function Home({ params }: Props) {
       <section className="section-padding-asym" style={{ borderBottom: '1px solid var(--border-color, #e5e7eb)' }}>
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
           <div
-            className="card text-center"
+            className="card text-center card-editorial-featured"
             style={{
               backgroundColor: '#ffffff',
               border: '1px solid var(--border-color, #e5e7eb)',
               borderRadius: '8px',
-              padding: '3rem 2.5rem',
             }}
           >
             <span className="section-tag">

@@ -2148,6 +2148,11 @@ footer,
         padding: 32px 0;
     }
 
+    .page-firma main > section:not(.editorial-spacing) {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
     /* === NUEVOS AJUSTES AÑADIDOS === */
     /* Ajustes de padding para páginas interiores en móvil */
     main.page-quienes-somos section {
@@ -2300,7 +2305,7 @@ footer,
     }
     
     .page-contacto .contact-info {
-        margin-bottom: 2.5rem;
+        margin-bottom: 0;
     }
     
     .page-contacto .form-card {
@@ -3155,19 +3160,63 @@ body.nav-open {
   padding: 4rem 0;
 }
 
+/* Tarjeta destacada Mac Legal Intelligence en Home */
+.card-editorial-featured {
+  padding: 3rem 2.5rem;
+}
+
+@media (max-width: 1024px) {
+  /* Anulación de margen inferior redundante hacia el footer en Cooperación Internacional */
+  .page-consular-detail > section.mb-4rem {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-editorial-featured {
+    padding: 24px 20px;
+  }
+
+  .page-firma .b2b-contact-box,
+  section.b2b-contact-box {
+    padding: 24px 0 16px 0;
+  }
+
+  .b2b-contact-box .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .b2b-contact-box .form-card {
+    padding: 24px 20px;
+  }
+
+  #contacto.content-section {
+    margin-bottom: 2rem;
+  }
+
+  /* Transición afinada hacia la tarjeta de cierre institucional en páginas de artículo */
+  .page-article .content-section:has(.scope-disclaimer-box) {
+    margin-bottom: 1.5rem;
+  }
+}
+
 @media (max-width: 480px) {
-  #alianzas-contacto .channel-card {
+  #alianzas-contacto .channel-card,
+  .b2b-contact-box .channel-card {
     min-width: 0;
     max-width: 100%;
     box-sizing: border-box;
   }
 
-  #alianzas-contacto .channel-text {
+  #alianzas-contacto .channel-text,
+  .b2b-contact-box .channel-text {
     min-width: 0;
     overflow-wrap: anywhere;
   }
 
-  #alianzas-contacto .channel-value {
+  #alianzas-contacto .channel-value,
+  .b2b-contact-box .channel-value {
     min-width: 0;
     white-space: normal;
     overflow-wrap: anywhere;
@@ -3182,24 +3231,9 @@ body.nav-open {
   }
 }
 
-/* Corrección localizada: tarjeta de correo de Mac Legal Intelligence */
-@media (max-width: 480px) {
-  #solicitud-evaluacion .channel-card {
-    min-width: 0;
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-
-  #solicitud-evaluacion .channel-text {
-    min-width: 0;
-    overflow-wrap: anywhere;
-  }
-
-  #solicitud-evaluacion .channel-value {
-    min-width: 0;
-    white-space: normal;
-    overflow-wrap: anywhere;
-    word-break: break-word;
+@media (max-width: 360px) {
+  .b2b-contact-box .form-card {
+    padding: 20px 14px;
   }
 }
 
