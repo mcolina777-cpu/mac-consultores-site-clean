@@ -75,6 +75,21 @@ const nextConfig: NextConfig = {
         destination: '/es/services/consular/poderes-y-mandatos',
         permanent: true,
       },
+      {
+        source: '/es/services/consular/legal-opinions',
+        destination: '/es/services/consular/opiniones-juridicas',
+        permanent: true,
+      },
+      {
+        source: '/es/services/consular/criminal-cassation-constitutional-protection',
+        destination: '/es/services/consular/casacion-tutela-constitucional',
+        permanent: true,
+      },
+      {
+        source: '/es/services/consular/extradition-international-coordination',
+        destination: '/es/services/consular/extradicion-coordinacion-internacional',
+        permanent: true,
+      },
       // 2. Cruces de slugs en español bajo /en -> hacia slug oficial en inglés
       {
         source: '/en/services/consular/practica-consular',
@@ -115,7 +130,22 @@ const nextConfig: NextConfig = {
         source: '/en/services/consular/poderes-y-mandatos',
         destination: '/en/services/consular/strategic-powers',
         permanent: true,
-      }
+      },
+      {
+        source: '/en/services/consular/opiniones-juridicas',
+        destination: '/en/services/consular/legal-opinions',
+        permanent: true,
+      },
+      {
+        source: '/en/services/consular/casacion-tutela-constitucional',
+        destination: '/en/services/consular/criminal-cassation-constitutional-protection',
+        permanent: true,
+      },
+      {
+        source: '/en/services/consular/extradicion-coordinacion-internacional',
+        destination: '/en/services/consular/extradition-international-coordination',
+        permanent: true,
+      },
     ];
   },
   async rewrites() {
