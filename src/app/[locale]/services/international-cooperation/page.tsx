@@ -87,8 +87,8 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
                 <img
                   src="/assets/img/ALIANZAS.jpg"
                   alt="Colaboración Internacional"
-                  width="2752"
-                  height="1536"
+                  width="928"
+                  height="1152"
                   loading="lazy"
                   style={{ maxHeight: 'none', height: 'auto' }}
                 />
