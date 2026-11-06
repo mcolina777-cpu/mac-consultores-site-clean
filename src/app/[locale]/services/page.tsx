@@ -85,7 +85,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
 
       <section className="section-padding-asym">
         <div className="container">
-          <div className="grid-split mb-4rem">
+          <div className="grid-split services-intro-grid mb-2-5rem">
             <div className="about-content">
               <span className="section-tag">
                 {dict?.intro?.tag || (isEs ? 'ÁREAS DE EXCELENCIA' : 'AREAS OF EXCELLENCE')}
@@ -129,7 +129,7 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
                   width={1408}
                   height={768}
                   fetchPriority="high"
-                  style={{ maxHeight: 'none', height: 'auto' }}
+                  style={{ maxHeight: 'none' }}
                 />
               </picture>
             </div>

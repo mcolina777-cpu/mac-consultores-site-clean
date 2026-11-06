@@ -3614,5 +3614,52 @@ section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
   }
 }
 
+/* Servicios: ajuste localizado del bloque introductorio */
+.page-servicios .services-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.page-servicios .services-intro-grid .img-reveal {
+  aspect-ratio: 16 / 10.5;
+  width: 100%;
+}
+
+.page-servicios .services-intro-grid .img-reveal picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page-servicios .services-intro-grid .img-reveal img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 1060px) {
+  .page-servicios .services-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .page-servicios .services-intro-grid .img-reveal {
+    aspect-ratio: auto;
+  }
+
+  .page-servicios .services-intro-grid .img-reveal picture {
+    height: auto;
+  }
+
+  .page-servicios .services-intro-grid .img-reveal img {
+    height: auto;
+    object-fit: contain;
+  }
+}
+
 
 
