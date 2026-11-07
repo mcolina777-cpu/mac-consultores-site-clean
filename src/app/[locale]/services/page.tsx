@@ -126,8 +126,8 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
                 <img
                   src="/assets/img/SERVICIOS.jpg"
                   alt="Sala de Reuniones y Despacho en Mac Consultores"
-                  width={1408}
-                  height={768}
+                  width={1792}
+                  height={2400}
                   fetchPriority="high"
                   style={{ maxHeight: 'none' }}
                 />

@@ -3623,7 +3623,7 @@ section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
 }
 
 .page-servicios .services-intro-grid .img-reveal {
-  aspect-ratio: 16 / 10.5;
+  aspect-ratio: 1792 / 2400;
   width: 100%;
 }
 
@@ -3648,7 +3648,9 @@ section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
   }
 
   .page-servicios .services-intro-grid .img-reveal {
-    aspect-ratio: auto;
+    aspect-ratio: 1792 / 2400;
+    max-width: 480px;
+    margin: 0 auto;
   }
 
   .page-servicios .services-intro-grid .img-reveal picture {
