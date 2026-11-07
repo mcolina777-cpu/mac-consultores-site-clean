@@ -97,8 +97,14 @@ export default async function InternacionalPage({ params }: { params: Promise<{ 
               <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
                 {dict?.tramites_consulares?.intro_p1}
               </p>
-              <p className="text-left max-w-100 mb-0" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+              <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
                 {dict?.tramites_consulares?.intro_p2}
+              </p>
+              <p className="text-left max-w-100 mb-1-5rem" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+                {dict?.tramites_consulares?.intro_p3}
+              </p>
+              <p className="text-left max-w-100 mb-0" style={{ lineHeight: 1.75, fontSize: '1.05rem', color: 'var(--text-main, #1f2937)' }}>
+                {dict?.tramites_consulares?.intro_p4}
               </p>
             </div>
 
@@ -108,9 +114,10 @@ export default async function InternacionalPage({ params }: { params: Promise<{ 
                 <img
                   src="/assets/img/SALA_REUNIONES_1_OPT.jpg"
                   alt={isEs ? "Sala de Reuniones Internacionales en Mac Consultores" : "International Meeting Room at Mac Consultores"}
-                  width="2752"
-                  height="1536"
+                  width={1792}
+                  height={2400}
                   loading="lazy"
+                  style={{ maxHeight: 'none' }}
                 />
               </picture>
             </div>
