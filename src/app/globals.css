@@ -1924,7 +1924,7 @@ footer,
     nav .logo {
         flex: 0 0 auto;
         width: 100%;
-        max-width: 68%;
+        max-width: min(68%, 280px);
         height: auto;
         display: block;
         margin-bottom: 0;
@@ -1960,7 +1960,6 @@ footer,
 
     nav {
         position: relative;
-        z-index: 10;
     }
 
     /* Menú desplegable móvil/tablet: oculto por defecto */
@@ -1978,7 +1977,10 @@ footer,
         box-shadow: 0 10px 15px rgba(0,0,0,0.1);
         z-index: 1;
         border-top: 1px solid rgba(0, 56, 101, 0.08);
-        max-height: calc(100vh - 90px);
+        box-sizing: border-box;
+        max-height: max(0px, calc(100vh - var(--mobile-menu-top, 0px)));
+        max-height: max(0px, calc(100dvh - var(--mobile-menu-top, 0px)));
+        overscroll-behavior-y: contain;
         overflow-y: auto;
         align-items: stretch;
         justify-content: flex-start;
