@@ -184,34 +184,20 @@ export default async function OurCeo({ params }: { params: Promise<{ locale: str
       {/* 5. COMPROMISO ÉTICO */}
       <section className="bg-soft section-padding-asym">
         <div className="container">
-          <div className="grid-split reverse">
-            <div className="img-reveal">
-              <picture>
-                <source srcSet="/assets/img-webp/OFICINA_3_1.webp" type="image/webp" />
-                <img
-                  src="/assets/img/OFICINA_3_1.jpeg"
-                  alt="Despacho del Director General de Mac Consultores"
-                  width={2752}
-                  height={1536}
-                  loading="lazy"
-                />
-              </picture>
-            </div>
-            <div className="vision-text">
-              <span className="section-tag">{d.ethics.tag}</span>
-              <h2 className="serif heading-lg mb-1-5rem line-height-1-1">
-                {d.ethics.quote}
-              </h2>
-              <p className="mb-2rem text-left max-w-100" style={{ lineHeight: 1.7 }}>
-                {d.ethics.desc}
-              </p>
-              <Link
-                href={getRoute(locale, 'contact')}
-                className="btn btn-primary"
-              >
-                {d.closing.btn_primary}
-              </Link>
-            </div>
+          <div className="ceo-ethics-editorial">
+            <span className="section-tag">{d.ethics.tag}</span>
+            <h2 className="serif heading-lg mb-1-5rem line-height-1-1">
+              {d.ethics.quote}
+            </h2>
+            <p className="mb-2rem text-left max-w-100" style={{ lineHeight: 1.7 }}>
+              {d.ethics.desc}
+            </p>
+            <Link
+              href={getRoute(locale, 'contact')}
+              className="btn btn-primary btn-ethics"
+            >
+              {d.closing.btn_primary}
+            </Link>
           </div>
         </div>
       </section>

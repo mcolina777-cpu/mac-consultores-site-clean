@@ -1501,6 +1501,22 @@ footer,
   max-width: 100%;
 }
 
+/* Bloque Editorial Deontología Directiva (Columna única centrada de ancho contenido) */
+.page-our-ceo .ceo-ethics-editorial {
+  width: 100%;
+  max-width: 48rem;
+  margin-inline: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-our-ceo .ceo-ethics-editorial .btn-ethics {
+  align-self: flex-start;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 /* Bloque Firma Premium */
 .section-firma {
     padding: 60px 0;
