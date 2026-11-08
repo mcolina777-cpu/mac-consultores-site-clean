@@ -83,14 +83,14 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
               </p>
             </div>
             
-            <div className="img-reveal img-vertical">
+            <div className="img-reveal firm-institutional-image">
               <picture>
-                <source srcSet="/assets/img-webp/OFICINA_1_1.webp" type="image/webp" />
+                <source srcSet="/assets/img-webp/FIRMA.webp" type="image/webp" />
                 <img
-                  src="/assets/img/OFICINA_1_1.jpeg"
-                  alt="Sede de Mac Consultores Jurídicos & Asociados"
-                  width={1536}
-                  height={2752}
+                  src="/assets/img/FIRMA.jpeg"
+                  alt={d.history?.alt_firm || "Panel de madera con el emblema del león y la denominación de Mac Consultores Jurídicos & Asociados en relieve."}
+                  width={1792}
+                  height={2400}
                   fetchPriority="high"
                 />
               </picture>
@@ -289,35 +289,22 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
       </section>
 
       {/* 7. PUENTE HACIA EL DIRECTOR GENERAL */}
-      <section className="bg-soft section-padding-asym">
+      <section className="bg-soft section-padding-asym firm-director-section">
         <div className="container">
-          <div className="grid-split reverse">
-            <div className="img-reveal">
-              <picture>
-                <img
-                  src="/assets/img/OFICINA-4-SIN-ICONO.jpeg"
-                  alt="Oficina ejecutiva de Mac Consultores Jurídicos & Asociados"
-                  width={2752}
-                  height={1536}
-                  loading="lazy"
-                />
-              </picture>
-            </div>
-            <div className="vision-text">
-              <span className="section-tag">{d.director_bridge.tag}</span>
-              <h2 className="serif heading-lg mb-1-5rem line-height-1-1">
-                {d.director_bridge.quote}
-              </h2>
-              <p className="mb-2rem text-left max-w-100" style={{ lineHeight: 1.7 }}>
-                {d.director_bridge.desc}
-              </p>
-              <Link
-                href={getRoute(locale, 'ourCeo')}
-                className="btn btn-primary btn-director"
-              >
-                {d.director_bridge.btn}
-              </Link>
-            </div>
+          <div className="firm-director-editorial">
+            <span className="section-tag">{d.director_bridge.tag}</span>
+            <h2 className="serif heading-lg mb-1-5rem line-height-1-1">
+              {d.director_bridge.quote}
+            </h2>
+            <p className="mb-2rem text-left max-w-100" style={{ lineHeight: 1.7 }}>
+              {d.director_bridge.desc}
+            </p>
+            <Link
+              href={getRoute(locale, 'ourCeo')}
+              className="btn btn-primary btn-director"
+            >
+              {d.director_bridge.btn}
+            </Link>
           </div>
         </div>
       </section>
