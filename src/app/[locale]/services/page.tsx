@@ -119,15 +119,11 @@ export default async function Servicios({ params }: { params: Promise<{ locale: 
 
             <div className="img-reveal">
               <picture>
-                <source
-                  srcSet="/assets/img-webp/SERVICIOS.webp"
-                  type="image/webp"
-                />
                 <img
-                  src="/assets/img/SERVICIOS.jpg"
+                  src="/assets/img/SERVICIOS.jpeg"
                   alt="Sala de Reuniones y Despacho en Mac Consultores"
                   width={1792}
-                  height={2400}
+                  height={2398}
                   fetchPriority="high"
                   style={{ maxHeight: 'none' }}
                 />
