@@ -85,12 +85,11 @@ export default async function QuienesSomos({ params }: { params: Promise<{ local
             
             <div className="img-reveal firm-institutional-image">
               <picture>
-                <source srcSet="/assets/img-webp/FIRMA.webp" type="image/webp" />
                 <img
-                  src="/assets/img/FIRMA.jpeg"
-                  alt={d.history?.alt_firm || "Panel de madera con el emblema del león y la denominación de Mac Consultores Jurídicos & Asociados en relieve."}
-                  width={1792}
-                  height={2400}
+                  src="/assets/img/FIRMA.png"
+                  alt={d.history?.alt_firm || "Despacho principal y biblioteca jurídica de Mac Consultores Jurídicos & Asociados."}
+                  width={1085}
+                  height={1450}
                   fetchPriority="high"
                 />
               </picture>
