@@ -89,10 +89,10 @@ export default async function Home({ params }: Props) {
                 style={{ aspectRatio: "9/16", width: "100%", overflow: "hidden", position: "relative" }}
               >
                 <Image 
-                  src="/assets/img/INICIO.jpeg"
+                  src="/assets/img/FIRMA.png"
                   alt={dict?.home?.alt_lobby || "Lobby principal de Mac Consultores Jurídicos & Asociados"}
-                  width={1792} 
-                  height={2400} 
+                  width={1085} 
+                  height={1450} 
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="our-firm-img-vertical"
                   style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "left center", display: "block" }}
