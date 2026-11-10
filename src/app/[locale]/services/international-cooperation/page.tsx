@@ -83,6 +83,7 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             </div>
             <div className="img-reveal">
               <picture>
+                <source srcSet="/assets/img-webp/alianzas-actual-opt.webp" type="image/webp" />
                 <img
                   src="/assets/img/alianzas-vertical.png"
                   alt="Colaboración Internacional"

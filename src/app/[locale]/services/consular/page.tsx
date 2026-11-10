@@ -110,6 +110,7 @@ export default async function InternacionalPage({ params }: { params: Promise<{ 
 
             <div className="img-reveal">
               <picture>
+                <source srcSet="/assets/img-webp/internacional-actual-opt.webp" type="image/webp" />
                 <img
                   src="/assets/img/INTERNACIONAL.jpeg"
                   alt={isEs ? "Sala de Reuniones Internacionales en Mac Consultores" : "International Meeting Room at Mac Consultores"}
