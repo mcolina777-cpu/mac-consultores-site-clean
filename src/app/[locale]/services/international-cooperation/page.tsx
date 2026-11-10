@@ -83,12 +83,11 @@ export default async function ColaboracionInternacional({ params }: { params: Pr
             </div>
             <div className="img-reveal">
               <picture>
-                <source srcSet="/assets/img-webp/ALIANZAS.webp" type="image/webp" />
                 <img
-                  src="/assets/img/ALIANZAS.jpg"
+                  src="/assets/img/alianzas-vertical.png"
                   alt="Colaboración Internacional"
-                  width="928"
-                  height="1152"
+                  width="1082"
+                  height="1454"
                   loading="lazy"
                   style={{ maxHeight: 'none', height: 'auto' }}
                 />
