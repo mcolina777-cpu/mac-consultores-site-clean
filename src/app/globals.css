@@ -2105,12 +2105,12 @@ footer,
 
     /* === NUEVOS AJUSTES AÑADIDOS === */
     /* Ajustes de padding para páginas interiores en móvil */
-    main.page-quienes-somos section {
-        padding-top: 24px;
+    .page-firma main.page-quienes-somos > section:not(.editorial-spacing) {
+        padding-top: 20px;
         padding-bottom: 24px;
     }
 
-    main.page-servicios section {
+    .page-firma main.page-servicios > section:not(.editorial-spacing) {
         padding-top: 24px;
         padding-bottom: 24px;
     }
@@ -2199,7 +2199,9 @@ footer,
     }
 
     .page-firma header.page-header + section,
-    .page-servicios header.page-header + section {
+    .page-servicios header.page-header + section,
+    .page-firma main.page-quienes-somos > header.page-header + section,
+    .page-firma main.page-servicios > header.page-header + section {
         padding-top: 32px;
     }
 
@@ -2258,9 +2260,7 @@ footer,
 
 
 
-    .axial-centered {
-        margin-bottom: 1.75rem;
-    }
+
 
     /* Encabezado de "Estrategias Representativas" más compacto en móvil */
     .section-strategies .axial-header.axial-centered {
@@ -2571,6 +2571,12 @@ section.section-padding-asym,
 .axial-centered {
   text-align: center;
   margin-bottom: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .axial-centered {
+    margin-bottom: 1.75rem;
+  }
 }
 
 .layout-reading {
@@ -3774,6 +3780,32 @@ section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
   }
 }
 
+/* =========================================================================
+   CORRECCIONES RESPONSIVE QUIRÚRGICAS (MÓVIL Y TABLET)
+   ========================================================================= */
 
+/* 3. Tarjetas de Cierre Institucional con padding responsive */
+.card.responsive-closing-card {
+  padding: 3rem;
+}
 
+@media (max-width: 768px) {
+  .card.responsive-closing-card {
+    padding: 24px 20px;
+  }
+}
+
+/* 4. Espaciado B2B Contact en Mac Legal Intelligence (Flash Alerts & Monthly Brief) */
+@media (max-width: 1024px) {
+  .content-section.responsive-b2b-contact-spacing {
+    margin-bottom: 2rem;
+  }
+}
+
+/* 5. Espaciado previo al cierre en Cooperación Internacional */
+@media (max-width: 1024px) {
+  .content-section.responsive-preclosing-spacing {
+    margin-bottom: 0;
+  }
+}
 

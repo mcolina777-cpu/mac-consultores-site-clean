@@ -226,9 +226,8 @@ export default async function Noticias({ params }: Props) {
           style={{ maxWidth: '840px', margin: '0 auto' }}
         >
           <div
-            className="card bg-soft text-center"
+            className="card bg-soft text-center responsive-closing-card"
             style={{
-              padding: '3rem',
               border: '1px solid var(--border-color, #e5e7eb)',
               borderRadius: '8px',
             }}

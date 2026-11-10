@@ -292,7 +292,7 @@ export default async function FlashAlertsPage({ params }: Props) {
           )}
 
           {/* BLOQUE 7: EVALUACIÓN PRELIMINAR + FORMULARIO B2B */}
-          <div id="contacto" className="content-section mb-4rem">
+          <div id="contacto" className="content-section mb-4rem responsive-b2b-contact-spacing">
             {data?.preliminary_assessment && (
               <div
                 className="card mb-2rem"

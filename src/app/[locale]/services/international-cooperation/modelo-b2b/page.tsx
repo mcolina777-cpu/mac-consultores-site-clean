@@ -108,7 +108,7 @@ export default async function ModeloB2BPage({ params }: { params: Promise<{ loca
           </div>
 
           {/* Our approach */}
-          <div className="content-section mb-4rem">
+          <div className="content-section mb-4rem responsive-preclosing-spacing">
             <h2 className="serif section-title mb-1-5rem">{data?.approach?.title}</h2>
             {data?.approach?.p1 && (
               <p 
