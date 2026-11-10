@@ -363,7 +363,7 @@ export default async function LegalIntelligencePage({ params }: Props) {
           )}
 
           {/* BLOQUE 7: EVALUACIÓN PRELIMINAR + FORMULARIO B2B */}
-          <div id="contacto" className="content-section mb-4rem">
+          <div id="contacto" className="content-section mb-2rem">
             {data?.preliminary_assessment && (
               <div
                 className="card mb-2rem"

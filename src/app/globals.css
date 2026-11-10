@@ -356,7 +356,7 @@ nav .nav-links a {
 }
 
 .hero .btn-primary {
-  margin-top: 1.5rem;
+  margin-top: 0;
   font-size: 1rem;
 }
 
@@ -467,6 +467,11 @@ section {
 }
 
 .axial-header .section-title {
+    margin-bottom: 0;
+}
+
+.axial-header .section-title + p {
+    margin-top: 1rem;
     margin-bottom: 0;
 }
 
@@ -1628,8 +1633,7 @@ footer,
 
 .page-firma .page-header,
 .page-servicios .page-header {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding: 72px 0 36px;
 }
 
 .page-firma .page-header h1,
@@ -1645,7 +1649,7 @@ footer,
 
 .page-firma header.page-header + section,
 .page-servicios header.page-header + section {
-    padding-top: 30px;
+    padding-top: 48px;
 }
 
 .page-firma .vision-text {
@@ -2110,12 +2114,6 @@ footer,
         padding-top: 24px;
         padding-bottom: 24px;
     }
-
-    /* Page Contact: algo más de aire porque incluye formulario largo */
-    main.page-contacto section {
-        padding-top: 28px;
-        padding-bottom: 28px;
-    }
     /* ============================== */
 
     /* Firma: espaciado equilibrado en móvil */
@@ -2194,8 +2192,15 @@ footer,
         margin-bottom: 0;
     }
 
+    .page-firma .page-header,
+    .page-servicios .page-header,
     .page-header {
-        padding: 50px 0 30px;
+        padding: 48px 0 24px;
+    }
+
+    .page-firma header.page-header + section,
+    .page-servicios header.page-header + section {
+        padding-top: 32px;
     }
 
     .page-header h1 {
@@ -2232,16 +2237,12 @@ footer,
         padding: 0 1.25rem;
     }
     
-    .page-contacto section {
-        padding: 50px 0;
-    }
-    
     .page-contacto .contact-info {
         margin-bottom: 0;
     }
     
     .page-contacto .form-card {
-        padding: 25px 20px calc(80px + env(safe-area-inset-bottom, 0px));
+        padding: 25px 20px 32px;
     }
     
     .page-contacto .form-group input,
@@ -2256,6 +2257,10 @@ footer,
     }
 
 
+
+    .axial-centered {
+        margin-bottom: 1.75rem;
+    }
 
     /* Encabezado de "Estrategias Representativas" más compacto en móvil */
     .section-strategies .axial-header.axial-centered {
@@ -2540,7 +2545,8 @@ footer,
 
 .py-6rem { padding: 6rem 0; }
 .py-60px { padding: 60px 0; }
-.section-padding-asym { padding: 40px 0 80px 0; }
+section.section-padding-asym,
+.section-padding-asym { padding: 48px 0 72px 0; }
 
 /* Gap utilities (for flex/grid) */
 .gap-1rem { gap: 1rem; }
@@ -2564,7 +2570,7 @@ footer,
 
 .axial-centered {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .layout-reading {
@@ -2671,7 +2677,7 @@ footer,
   }
 
   .page-contacto .form-card {
-    padding: 20px 14px calc(80px + env(safe-area-inset-bottom, 0px));
+    padding: 20px 14px 28px;
   }
 
   .page-contacto .channel-card {
@@ -3094,16 +3100,14 @@ body.nav-open {
   padding: 4rem 0;
 }
 
+.content-section .b2b-contact-box {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 /* Tarjeta destacada Mac Legal Intelligence en Home */
 .card-editorial-featured {
   padding: 3rem 2.5rem;
-}
-
-@media (max-width: 1024px) {
-  /* Anulación de margen inferior redundante hacia el footer en Cooperación Internacional */
-  .page-consular-detail > section.mb-4rem {
-    margin-bottom: 0;
-  }
 }
 
 @media (max-width: 768px) {
@@ -3211,10 +3215,13 @@ body.nav-open {
   text-align: center;
 }
 
-/* En pantallas de escritorio (grid-3), reservar el molde de 7 a 9 líneas */
+/* En pantallas de escritorio, reserva de molde calibrada según la densidad de columnas */
 @media (min-width: 901px) {
-  .card-editorial-text {
+  .grid-3 .card-editorial-text {
     min-height: 140px;
+  }
+  .cards-grid .card-editorial-text {
+    min-height: 90px;
   }
 }
 

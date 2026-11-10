@@ -139,7 +139,7 @@ export default async function AreasCooperacionPage({ params }: { params: Promise
       </section>
 
       {/* Cierre editorial estándar */}
-      <section className="section-padding-asym mb-4rem">
+      <section className="section-padding-asym">
         <div className="container" style={{ maxWidth: '840px', margin: '0 auto' }}>
           <div
             className="card bg-soft p-3rem text-center"

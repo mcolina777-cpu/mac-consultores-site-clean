@@ -289,7 +289,7 @@ export default async function InternacionalPage({ params }: { params: Promise<{ 
       </section>
 
       {/* CONEXIÓN CON ALIANZAS */}
-      <section className="section-padding-asym editorial-spacing editorial-spacing--continuous bg-soft">
+      <section className="section-padding-asym editorial-spacing bg-soft">
         <div className="container">
           <div className="layout-reading">
             <span className="section-tag">
