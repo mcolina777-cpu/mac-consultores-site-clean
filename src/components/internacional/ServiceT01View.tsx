@@ -2,7 +2,47 @@ import React from 'react';
 import Link from 'next/link';
 import { getRoute } from '@/lib/routes';
 
-export default function ServiceT01View({ locale, data }: { locale: string; data: any }) {
+interface ServiceT01Data {
+  tag: string;
+  h1: string;
+  subtitle: string;
+  intro: {
+    p1: string;
+    p2: string;
+  };
+  cta: string;
+  nota: string;
+  ambitos: {
+    title: string;
+    items: Array<{ title: string; text: string }>;
+    link_label?: string;
+  };
+  investigacion: {
+    title: string;
+    items: Array<{ title: string; text: string }>;
+  };
+  delimitacion: {
+    title: string;
+    intro: string;
+    items: string[];
+    closing: string;
+  };
+  servicios_relacionados: {
+    title: string;
+    text: string;
+    link1_label: string;
+    link2_label: string;
+  };
+  evaluacion: {
+    title: string;
+    p1: string;
+    p2: string;
+    cta: string;
+    back: string;
+  };
+}
+
+export default function ServiceT01View({ locale, data }: { locale: string; data: ServiceT01Data }) {
   const isEs = locale === 'es';
 
   return (
@@ -54,7 +94,7 @@ export default function ServiceT01View({ locale, data }: { locale: string; data:
           {/* ÁMBITOS DE INTERVENCIÓN */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">{data?.ambitos?.title}</h2>
-            {data?.ambitos?.items?.map((item: any, i: number) => (
+            {data?.ambitos?.items?.map((item, i: number) => (
               <div key={i} className="mb-2rem">
                 <h3 className="serif mb-0-5rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #0c1a2c)' }}>
                   {item.title}
@@ -79,7 +119,7 @@ export default function ServiceT01View({ locale, data }: { locale: string; data:
           {/* INVESTIGACIÓN JURÍDICA Y PREPARACIÓN DE LA ESTRATEGIA */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">{data?.investigacion?.title}</h2>
-            {data?.investigacion?.items?.map((item: any, i: number) => (
+            {data?.investigacion?.items?.map((item, i: number) => (
               <div key={i} className="mb-2rem">
                 <h3 className="serif mb-0-5rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #0c1a2c)' }}>
                   {item.title}

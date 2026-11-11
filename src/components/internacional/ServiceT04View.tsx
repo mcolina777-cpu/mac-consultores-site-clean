@@ -2,7 +2,52 @@ import React from 'react';
 import Link from 'next/link';
 import { getRoute } from '@/lib/routes';
 
-export default function ServiceT04View({ locale, data }: { locale: string; data: any }) {
+interface ServiceT04Data {
+  tag: string;
+  h1: string;
+  subtitle: string;
+  intro: {
+    p1: string;
+    p2: string;
+  };
+  cta: string;
+  nota: string;
+  lineas: {
+    title: string;
+    items: Array<{ title: string; paragraphs: string[] }>;
+  };
+  investigacion: {
+    title: string;
+    items: Array<{ title: string; text: string }>;
+  };
+  entregables: {
+    title: string;
+    intro: string;
+    items: string[];
+    closing: string;
+  };
+  elaboracion: {
+    title: string;
+    intro: string;
+    items: string[];
+    closing: string;
+  };
+  cooperacion: {
+    title: string;
+    p1: string;
+    p2: string;
+    link_label: string;
+  };
+  evaluacion: {
+    title: string;
+    p1: string;
+    p2: string;
+    cta: string;
+    back: string;
+  };
+}
+
+export default function ServiceT04View({ locale, data }: { locale: string; data: ServiceT04Data }) {
   const isEs = locale === 'es';
 
   return (
@@ -54,7 +99,7 @@ export default function ServiceT04View({ locale, data }: { locale: string; data:
           {/* LÍNEAS DE INTERVENCIÓN */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">{data?.lineas?.title}</h2>
-            {data?.lineas?.items?.map((item: any, i: number) => (
+            {data?.lineas?.items?.map((item, i: number) => (
               <div key={i} className="mb-2rem">
                 <h3 className="serif mb-0-5rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #0c1a2c)' }}>
                   {item.title}
@@ -71,7 +116,7 @@ export default function ServiceT04View({ locale, data }: { locale: string; data:
           {/* INVESTIGACIÓN Y CONSTRUCCIÓN DEL ESCRITO */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">{data?.investigacion?.title}</h2>
-            {data?.investigacion?.items?.map((item: any, i: number) => (
+            {data?.investigacion?.items?.map((item, i: number) => (
               <div key={i} className="mb-2rem">
                 <h3 className="serif mb-0-5rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #0c1a2c)' }}>
                   {item.title}

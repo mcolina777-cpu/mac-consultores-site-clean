@@ -2,8 +2,153 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 
+interface AssessmentModalDict {
+  trigger_button: string;
+  trigger_tag: string;
+  trigger_title: string;
+  trigger_desc: string;
+  header_tag: string;
+  modal_title: string;
+  modal_subtitle: string;
+  intro_p1: string;
+  intro_p2: string;
+  intro_p3: string;
+  progress: {
+    step_1: string;
+    step_2: string;
+    step_3: string;
+    step_4: string;
+  };
+  step_1: {
+    title: string;
+    intro: string;
+    full_name_label: string;
+    email_label: string;
+    phone_label: string;
+    phone_help: string;
+    country_label: string;
+    acting_as_label: string;
+    acting_as_individual: string;
+    acting_as_organization: string;
+    organization_label: string;
+    role_label: string;
+    role_help: string;
+    sector_label: string;
+    sector_help: string;
+    authorized_declaration: string;
+  };
+  step_2: {
+    title: string;
+    intro: string;
+    exposure_nature_label: string;
+    exposure_nature_placeholder: string;
+    exposure_options: string[];
+    factual_context_label: string;
+    factual_context_help: string;
+    venezuela_relationship_label: string;
+    venezuela_relationship_help: string;
+    relevant_parties_label: string;
+    relevant_parties_help: string;
+    relevant_contracts_label: string;
+    relevant_contracts_help: string;
+    proceedings_label: string;
+    proceedings_help: string;
+  };
+  step_3: {
+    title: string;
+    intro: string;
+    decision_issue_label: string;
+    decision_issue_help: string;
+    practical_purpose_label: string;
+    practical_purpose_placeholder: string;
+    purpose_options: string[];
+    available_docs_label: string;
+    doc_options: string[];
+    pending_info_label: string;
+    pending_info_help: string;
+    main_jurisdiction_label: string;
+    jurisdiction_options: {
+      venezuela: string;
+      other: string;
+      both: string;
+    };
+    additional_jurisdictions_label: string;
+    timeline_label: string;
+    timeline_help: string;
+    has_deadline_label: string;
+    deadline_options: {
+      no: string;
+      yes: string;
+      unsure: string;
+    };
+    deadline_date_label: string;
+    unknown_exact_date_label: string;
+    deadline_desc_label: string;
+    deadline_unsure_label: string;
+    urgency_level_label: string;
+    urgency_options: {
+      normal: string;
+      priority: string;
+      urgent: string;
+      critical: string;
+    };
+    reservation_notice: string;
+    urgency_disclaimer: string;
+  };
+  step_4: {
+    title: string;
+    intro: string;
+    summary_title: string;
+    edit_button: string;
+    declarations_title: string;
+    declaration_1: string;
+    declaration_2: string;
+    declaration_3: string;
+    declaration_4: string;
+    declaration_5: string;
+    economic_clause: string;
+    submit_button: string;
+    processing_button: string;
+  };
+  navigation: {
+    back: string;
+    next: string;
+    close: string;
+  };
+  validation: {
+    required: string;
+    invalid_email: string;
+    organization_required: string;
+    role_required: string;
+    authorization_required: string;
+    deadline_desc_required: string;
+    deadline_date_required: string;
+    additional_jurisdiction_required: string;
+    declarations_required: string;
+    country_required?: string;
+  };
+  confirmation: {
+    title: string;
+    text_1: string;
+    text_2: string;
+    text_3: string;
+    reference_label: string;
+    close_btn: string;
+    reset_btn: string;
+  };
+  service_unavailable: {
+    title: string;
+    description: string;
+    notice: string;
+    retry_btn: string;
+    edit_btn: string;
+    close_btn: string;
+    connection_error: string;
+  };
+}
+
 interface AssessmentModalProps {
-  dict: any;
+  dict: AssessmentModalDict;
   locale: string;
 }
 

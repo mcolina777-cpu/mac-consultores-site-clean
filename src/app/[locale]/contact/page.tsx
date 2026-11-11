@@ -530,7 +530,7 @@ export default async function Contacto({ params, searchParams }: ContactoProps) 
                 flexWrap: 'wrap',
               }}
             >
-              <Link href={getRoute(locale as any, 'about.confidencialidad_secreto')} className="btn btn-primary">
+              <Link href={getRoute(locale, 'about.confidencialidad_secreto')} className="btn btn-primary">
                 {isEs ? 'CONOCER NUESTRO COMPROMISO' : 'LEARN ABOUT OUR COMMITMENT'}
               </Link>
 

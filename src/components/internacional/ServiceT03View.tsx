@@ -2,7 +2,59 @@ import React from 'react';
 import Link from 'next/link';
 import { getRoute } from '@/lib/routes';
 
-export default function ServiceT03View({ locale, data }: { locale: string; data: any }) {
+interface ServiceT03Data {
+  tag: string;
+  h1: string;
+  subtitle: string;
+  intro: {
+    p1: string;
+    p2: string;
+  };
+  cta: string;
+  nota: string;
+  objeto: {
+    title: string;
+    items: Array<{ title: string; text: string }>;
+  };
+  modalidades: {
+    title: string;
+    items: Array<{ title: string; text: string }>;
+  };
+  metodo: {
+    title: string;
+    items: Array<{ title: string; text: string }>;
+  };
+  destinatarios: {
+    title: string;
+    p1: string;
+    p2: string;
+    p3: string;
+  };
+  alcance: {
+    title: string;
+    intro: string;
+    items: string[];
+    closing: string;
+  };
+  servicios_relacionados: {
+    title: string;
+    text: string;
+    link1_label: string;
+    link2_label: string;
+    link3_label: string;
+    extra_intro: string;
+    extra_link: string;
+  };
+  evaluacion: {
+    title: string;
+    p1: string;
+    p2: string;
+    cta: string;
+    back: string;
+  };
+}
+
+export default function ServiceT03View({ locale, data }: { locale: string; data: ServiceT03Data }) {
   const isEs = locale === 'es';
 
   return (
@@ -54,7 +106,7 @@ export default function ServiceT03View({ locale, data }: { locale: string; data:
           {/* OBJETO DE LA CONSULTA */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">{data?.objeto?.title}</h2>
-            {data?.objeto?.items?.map((item: any, i: number) => (
+            {data?.objeto?.items?.map((item, i: number) => (
               <div key={i} className="mb-2rem">
                 <h3 className="serif mb-0-5rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #0c1a2c)' }}>
                   {item.title}
@@ -69,7 +121,7 @@ export default function ServiceT03View({ locale, data }: { locale: string; data:
           {/* MODALIDADES DE OPINIÓN PROFESIONAL */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">{data?.modalidades?.title}</h2>
-            {data?.modalidades?.items?.map((item: any, i: number) => (
+            {data?.modalidades?.items?.map((item, i: number) => (
               <div key={i} className="mb-2rem">
                 <h3 className="serif mb-0-5rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #0c1a2c)' }}>
                   {item.title}
@@ -84,7 +136,7 @@ export default function ServiceT03View({ locale, data }: { locale: string; data:
           {/* MÉTODO DE ELABORACIÓN */}
           <div className="content-section mb-4rem">
             <h2 className="serif section-title mb-1-5rem">{data?.metodo?.title}</h2>
-            {data?.metodo?.items?.map((item: any, i: number) => (
+            {data?.metodo?.items?.map((item, i: number) => (
               <div key={i} className="mb-2rem">
                 <h3 className="serif mb-0-5rem" style={{ fontSize: '1.2rem', color: 'var(--primary, #0c1a2c)' }}>
                   {item.title}
