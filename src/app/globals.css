@@ -485,7 +485,7 @@ section {
 
 /* Specific Modifiers for Quiénes Somos */
 .page-quienes-somos .grid-split {
-  align-items: flex-start;
+  align-items: center;
   gap: 3rem;
 }
 
@@ -3746,8 +3746,6 @@ section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
 .page-tramites-consulares .intro-section .img-reveal {
   aspect-ratio: 1792 / 2400;
   width: 100%;
-  max-width: 480px;
-  margin-left: auto;
 }
 
 .page-tramites-consulares .intro-section .img-reveal picture {
