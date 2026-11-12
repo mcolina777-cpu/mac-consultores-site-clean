@@ -3880,31 +3880,39 @@ section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
     box-sizing: border-box !important;
   }
 
+  /* Inicio: ancho disponible y fotografía completa, sin altura artificial. */
   .home-about-split .img-reveal-wrapper {
     width: 100% !important;
-    max-width: 320px !important;
+    max-width: none !important;
+    min-width: 0;
     margin: 0 auto !important;
   }
 
   .home-about-split .img-reveal.img-vertical {
     width: 100% !important;
-    max-width: 100% !important;
-    height: clamp(220px, 65vh, 310px) !important;
-    max-height: 310px !important;
-    aspect-ratio: 4 / 5 !important;
+    max-width: none !important;
+    height: auto !important;
+    max-height: none !important;
+    aspect-ratio: auto !important;
     margin: 0 auto !important;
-    overflow: hidden !important;
   }
 
-  .home-about-split .img-reveal.img-vertical picture,
+  .home-about-split .img-reveal.img-vertical picture {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+  }
+
   .home-about-split .img-reveal.img-vertical img,
   .home-about-split .our-firm-img-vertical {
-    width: 100% !important;
-    height: 100% !important;
-    max-height: 310px !important;
-    object-fit: cover !important;
-    object-position: left center !important;
     display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    aspect-ratio: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
   }
 
   /* 2. SERVICIOS: Bloque Introductorio (recupera 2 columnas y corrige altura de imagen) */
@@ -3923,29 +3931,32 @@ section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
     align-items: center !important;
   }
 
+  /* Servicios: tamaño natural de columna, sin límites artificiales. */
   .page-servicios .services-intro-grid .img-reveal {
     width: 100% !important;
-    max-width: 280px !important;
-    height: clamp(220px, 65vh, 310px) !important;
-    max-height: 310px !important;
-    aspect-ratio: 1792 / 2400 !important;
+    max-width: none !important;
+    min-width: 0;
+    height: auto !important;
+    max-height: none !important;
+    aspect-ratio: auto !important;
     margin: 0 auto !important;
-    overflow: hidden !important;
   }
 
   .page-servicios .services-intro-grid .img-reveal picture {
     display: block !important;
     width: 100% !important;
-    height: 100% !important;
+    height: auto !important;
+    max-height: none !important;
   }
 
   .page-servicios .services-intro-grid .img-reveal img {
-    width: 100% !important;
-    height: 100% !important;
-    max-height: 310px !important;
-    object-fit: cover !important;
-    object-position: center !important;
     display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    aspect-ratio: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
   }
 
   /* 3. INTERNACIONAL: Page Header y Botonera CTA compacta */
@@ -3983,29 +3994,32 @@ section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
     align-items: center !important;
   }
 
+  /* Internacional: fotografía completa y proporción propia del archivo. */
   .page-tramites-consulares .intro-section .img-reveal {
     width: 100% !important;
-    max-width: 280px !important;
-    height: clamp(220px, 65vh, 310px) !important;
-    max-height: 310px !important;
-    aspect-ratio: 1792 / 2400 !important;
+    max-width: none !important;
+    min-width: 0;
+    height: auto !important;
+    max-height: none !important;
+    aspect-ratio: auto !important;
     margin: 0 auto !important;
-    overflow: hidden !important;
   }
 
   .page-tramites-consulares .intro-section .img-reveal picture {
     display: block !important;
     width: 100% !important;
-    height: 100% !important;
+    height: auto !important;
+    max-height: none !important;
   }
 
   .page-tramites-consulares .intro-section .img-reveal img {
-    width: 100% !important;
-    height: 100% !important;
-    max-height: 310px !important;
-    object-fit: cover !important;
-    object-position: center !important;
     display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    aspect-ratio: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
   }
 }
 
