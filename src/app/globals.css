@@ -3872,7 +3872,7 @@ section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
 
   /* 1. INICIO: Bloque Institucional (recupera 2 columnas y acota altura de imagen) */
   .home-about-split {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr) !important;
+    grid-template-columns: minmax(0, 1fr) !important;
     gap: 1.5rem !important;
     align-items: center !important;
     width: 100% !important;
@@ -3926,7 +3926,7 @@ section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
   }
 
   .page-servicios .services-intro-grid {
-    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr) !important;
+    grid-template-columns: minmax(0, 1fr) !important;
     gap: 2rem !important;
     align-items: center !important;
   }
@@ -3989,7 +3989,7 @@ section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
 
   /* 3. INTERNACIONAL: Intro Section (2 columnas y acotación de altura de imagen) */
   .page-tramites-consulares .intro-section .grid-split {
-    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr) !important;
+    grid-template-columns: minmax(0, 1fr) !important;
     gap: 2rem !important;
     align-items: center !important;
   }
