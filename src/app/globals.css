@@ -3807,3 +3807,206 @@ section.editorial-spacing.editorial-spacing .layout-reading > p:last-child {
   }
 }
 
+/* =========================================================================
+   CORRECCIÓN RESPONSIVE MOBILE LANDSCAPE (INICIO, SERVICIOS, INTERNACIONAL)
+   Aislamiento: 667px ≤ ancho ≤ 960px y altura ≤ 500px en orientación horizontal
+   ========================================================================= */
+@media (max-width: 960px) and (max-height: 500px) and (orientation: landscape) {
+  /* 1. INICIO: Reubicación del control de audio para evitar superposición con WhatsApp */
+  .hero-audio-btn {
+    bottom: 20px !important;
+    right: 88px !important;
+  }
+
+  /* 1. INICIO: Compactación equilibrada de altura en Hero */
+  .hero {
+    min-height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .hero .container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  .hero-content {
+    max-width: 100% !important;
+  }
+
+  .hero-content h1 {
+    font-size: 1.85rem;
+    line-height: 1.18;
+    margin-bottom: 0.6rem;
+  }
+
+  .hero-content p.hero-subtitle {
+    font-size: 0.95rem;
+    line-height: 1.45;
+    margin-bottom: 1rem;
+    max-width: 100% !important;
+  }
+
+  .hero-btns {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 0.75rem !important;
+    max-width: 100% !important;
+  }
+
+  .hero-btns .btn {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .hero-btn-hint {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  /* 1. INICIO: Bloque Institucional (recupera 2 columnas y acota altura de imagen) */
+  .home-about-split {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr) !important;
+    gap: 1.5rem !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .home-about-split .img-reveal-wrapper {
+    width: 100% !important;
+    max-width: 320px !important;
+    margin: 0 auto !important;
+  }
+
+  .home-about-split .img-reveal.img-vertical {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: clamp(220px, 65vh, 310px) !important;
+    max-height: 310px !important;
+    aspect-ratio: 4 / 5 !important;
+    margin: 0 auto !important;
+    overflow: hidden !important;
+  }
+
+  .home-about-split .img-reveal.img-vertical picture,
+  .home-about-split .img-reveal.img-vertical img,
+  .home-about-split .our-firm-img-vertical {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 310px !important;
+    object-fit: cover !important;
+    object-position: left center !important;
+    display: block !important;
+  }
+
+  /* 2. SERVICIOS: Bloque Introductorio (recupera 2 columnas y corrige altura de imagen) */
+  .page-servicios .page-header {
+    padding: 32px 0 20px !important;
+  }
+
+  .page-servicios .page-header h1 {
+    font-size: 2rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .page-servicios .services-intro-grid {
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr) !important;
+    gap: 2rem !important;
+    align-items: center !important;
+  }
+
+  .page-servicios .services-intro-grid .img-reveal {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: clamp(220px, 65vh, 310px) !important;
+    max-height: 310px !important;
+    aspect-ratio: 1792 / 2400 !important;
+    margin: 0 auto !important;
+    overflow: hidden !important;
+  }
+
+  .page-servicios .services-intro-grid .img-reveal picture {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .page-servicios .services-intro-grid .img-reveal img {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 310px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block !important;
+  }
+
+  /* 3. INTERNACIONAL: Page Header y Botonera CTA compacta */
+  .page-tramites-consulares .page-header {
+    padding: 32px 0 20px !important;
+  }
+
+  .page-tramites-consulares .page-header h1 {
+    font-size: 1.85rem !important;
+    line-height: 1.2 !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  .page-tramites-consulares .hero-subtitle {
+    font-size: 0.95rem !important;
+    line-height: 1.45 !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .page-tramites-consulares .page-header .btn-group {
+    margin-top: 1rem !important;
+    gap: 0.75rem !important;
+  }
+
+  .page-tramites-consulares .page-header .btn {
+    padding: 10px 18px !important;
+    font-size: 0.82rem !important;
+    letter-spacing: 0.05em !important;
+  }
+
+  /* 3. INTERNACIONAL: Intro Section (2 columnas y acotación de altura de imagen) */
+  .page-tramites-consulares .intro-section .grid-split {
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr) !important;
+    gap: 2rem !important;
+    align-items: center !important;
+  }
+
+  .page-tramites-consulares .intro-section .img-reveal {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: clamp(220px, 65vh, 310px) !important;
+    max-height: 310px !important;
+    aspect-ratio: 1792 / 2400 !important;
+    margin: 0 auto !important;
+    overflow: hidden !important;
+  }
+
+  .page-tramites-consulares .intro-section .img-reveal picture {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .page-tramites-consulares .intro-section .img-reveal img {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 310px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block !important;
+  }
+}
+
+

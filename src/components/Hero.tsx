@@ -194,6 +194,7 @@ export default function Hero({ dict, locale = 'es' }: HeroProps) {
         onClick={toggleSound}
         type="button"
         aria-label={isMuted ? audioText.ariaEnable : audioText.ariaMute}
+        className="hero-audio-btn"
         style={{
           position: 'absolute',
           bottom: '24px',
